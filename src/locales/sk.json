@@ -1,44 +1,40 @@
 {
-  "nav": {
+  "header": {
     "services": "Služby",
     "portfolio": "Portfólio",
     "about": "O mne",
-    "steps": "Proces",
-    "contacts": "Kontakty"
-  },
-  "header": {
+    "process": "Proces",
+    "contacts": "Kontakty",
     "order": "Objednať"
   },
-  "footer": {
-    "company_desc": "Profesionálne digitálne služby"
-  },
-  "common": {
-    "hour": "hodina",
-    "from": "od cca"
+  "hero": {
+    "title": "IT Riešenia pre Váš Biznis",
+    "subtitle": "Tvorba webov, analytika a online marketing",
+    "cta": "Prejednať Projekt"
   },
   "services": {
-    "title": "Moje Služby",
-    "details": "Viac info",
+    "title": "Moje služby",
     "order": "Objednať",
-    "analytics": {
-      "title": "Nastavenie online analytiky",
-      "desc": "Nastavenie predajných lievikov a vlastných cieľov pre e-commerce.",
-      "details": "Kompletná konfigurácia GA4, GTM a sledovanie konverzií."
+    "details": "Podrobne",
+    "webdev": {
+      "title": "Tvorba webstránok",
+      "desc": "Stránky na mieru (PHP, Python, JS) alebo WordPress.",
+      "details": "Kompletný vývoj webových aplikácií a firemných prezentácií."
+    },
+    "bugfix": {
+      "title": "Oprava chýb a úpravy",
+      "desc": "Oprava chýb na existujúcich stránkach a WP.",
+      "details": "Optimalizácia, zrýchlenie a pridávanie nových funkcií."
     },
     "ads": {
       "title": "Online reklama (Google/Meta)",
       "desc": "Správa a optimalizácia PPC kampaní.",
-      "details": "Cielené reklamné stratégie pre maximalizáciu predaja."
+      "details": "Nastavenie reklám na Google Ads a sociálnych sieťach."
     },
-    "webdev": {
-      "title": "Tvorba web stránok",
-      "desc": "Weby na mieru (PHP, Python, JS) alebo WordPress.",
-      "details": "Kompletný vývoj od návrhu po nasadenie."
-    },
-    "bugfix": {
-      "title": "Opravy a údržba",
-      "desc": "Opravy chýb na weboch a WordPress.",
-      "details": "Rýchle riešenie problémov a optimalizácia kódu."
+    "analytics": {
+      "title": "Nastavenie webovej analytiky",
+      "desc": "Nastavenie predajných lievikov a cieľov.",
+      "details": "Implementácia GA4, GTM a sledovanie konverzií."
     },
     "cookies": {
       "title": "Cookie Banner (Consent Mode V2)",
@@ -53,45 +49,44 @@
   },
   "portfolio": {
     "title": "Portfólio",
-    "biliardovna": { "desc": "Web biliardovej herne" },
-    "studiokrasy": { "desc": "Web štúdia krásy" },
-    "topkobka": { "desc": "Skladové riešenia" },
-    "topsklad": { "desc": "Systém riadenia skladu" },
-    "bodabo": { "desc": "E-shop platforma" }
+    "biliardovna": { "desc": "Webstránka biliardového klubu v Bratislave." },
+    "studiokrasy": { "desc": "Viacstránkový web s rezervačným systémom." },
+    "topkobka": { "desc": "Webstránka pre služby prenájmu skladov." },
+    "topsklad": { "desc": "Multifunkčný web s rezervačným systémom skladov." },
+    "bodabo": { "desc": "Webstránka pre veľkoobchodný predaj vanilky, kávy a kakaových bôbov." },
+    "slovunisport": { "desc": "Športový portál." },
+    "mojservis": { "desc": "Stránka autoservisu." }
   },
   "about": {
     "title": "O mne",
-    "desc": "15 rokov skúseností v online marketingu a webovej analytike, a 4 roky vo Full-stack vývoji.",
-    "marketing_exp": "Marketingová prax",
-    "dev_exp": "Vývojárska prax"
+    "name_intro": "Volám sa Kirill Mosin.",
+    "years_sk": "Žijem na Slovensku už viac ako 6 rokov a dokonale som spoznal miestny trh a jeho špecifiká.",
+    "knowledge": "Presne viem, aký digitálny produkt vytvoriť a ako ho propagovať pre maximálny úspech vášho podnikania.",
+    "pride_title": "Výborný výsledok bez podrobného TZ",
+    "pride_desc": "Skúsenosti s prácou s freelancermi na strane podniku mi umožnili identifikovať hlavnú bolesť spolupráce: veľké množstvo času stráveného manažmentom spoločnosti pri písaní podrobného technického zadania na opis všetkých obchodných procesov a očakávaní od webovej stránky. Nikdy od klienta nepožadujem zložité TZ a sám navrhnem najlepšie riešenie na schválenie."
+  },
+  "clients": {
+    "title": "Pracoval som so značkami"
   },
   "steps": {
-    "title": "Ako pracujem",
-    "request": "Zadanie",
-    "request_desc": "Nechajte dopyt cez formulár.",
+    "title": "Etapy projektovej spolupráce",
+    "request": "Žiadosť",
+    "request_desc": "Zanechajte žiadosť cez formulár a ja sa vám ozvem čo najskôr.",
     "meeting": "Stretnutie",
-    "meeting_desc": "Dohodneme detaily.",
-    "process": "Proces",
-    "process_desc": "Vývoj s priebežnými úpravami.",
-    "delivery": "Odovzdanie",
-    "delivery_desc": "Akceptácia a platba.",
-    "note": "Nevyžadujem detailné zadanie (TZ). Ak ho nemáte, navrhnem najlepšie riešenie pre vašu oblasť."
+    "meeting_desc": "Stretneme sa v Bratislave / online a preberieme detaily projektu a vaše očakávania.",
+    "process": "Vývoj",
+    "process_desc": "Vykonávanie prác so schvaľovaním a pravidelnými správami.",
+    "delivery": "Výsledok",
+    "delivery_desc": "Prijatie, schválenie, zapracovanie pripomienok a platba za prácu.",
+    "success_stat": "90% zložitých projektov som zrealizoval do 15 pracovných dní"
   },
   "contacts": {
     "title": "Kontakty",
-    "address": "Slovensko"
+    "address": "Bratislava, Slovensko"
   },
-  "order": {
-    "title": "Objednať službu",
-    "success": "Ďakujeme! Čoskoro vás budeme kontaktovať.",
-    "name": "Meno",
-    "email": "Email",
-    "service": "Služba",
-    "service_placeholder": "Napr. Nastavenie analytiky",
-    "message": "Správa",
-    "sending": "Odosielam...",
-    "submit": "Odoslať dopyt",
-    "error": "Niečo sa pokazilo. Skúste to prosím znova.",
-    "privacy": "Odoslaním súhlasíte so spracovaním osobných údajov."
+  "common": {
+    "hour": "hod",
+    "from": "od",
+    "visit": "Navštíviť stránku"
   }
 }

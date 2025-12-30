@@ -2,9 +2,10 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { services } from '../data/services';
-import { portfolio } from '../data/portfolio';
-import { FileText, Users, Code, CheckCircle, ExternalLink } from 'lucide-react';
+import { FileText, Users, Code, CheckCircle, MapPin, Mail, Phone, Briefcase } from 'lucide-react';
 import { SEO } from '../components/SEO';
+import { ClientCarousel } from '../components/ClientCarousel';
+import { PortfolioCarousel } from '../components/PortfolioCarousel';
 import './Home.css';
 
 interface HomeProps {
@@ -55,70 +56,63 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
       <section id="portfolio" className="portfolio-section">
         <div className="container">
           <h2 className="section-title">{t('portfolio.title', 'Portfolio')}</h2>
-          <div className="portfolio-grid">
-            {portfolio.map((item) => (
-              <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" className="portfolio-item">
-                <div className="portfolio-content">
-                  <h3>{item.title} <ExternalLink size={16} /></h3>
-                  <p>{t(item.descKey)}</p>
-                </div>
-              </a>
-            ))}
-          </div>
+          <PortfolioCarousel />
         </div>
       </section>
 
       {/* About Section */}
       <section id="about" className="about-section">
-        <div className="container about-container">
-          <div className="about-image">
-            <div className="placeholder-image">My Photo</div>
-          </div>
-          <div className="about-text">
-            <h2>{t('about.title', 'About Me')}</h2>
-            <p>{t('about.desc', '15 years of experience in online marketing and web analytics, plus 4 years in Full-stack development.')}</p>
-            <div className="about-stats">
-              <div className="stat">
-                <span className="stat-number">15+</span>
-                <span className="stat-label">{t('about.marketing_exp', 'Marketing Exp')}</span>
-              </div>
-              <div className="stat">
-                <span className="stat-number">4+</span>
-                <span className="stat-label">{t('about.dev_exp', 'Dev Exp')}</span>
+        <div className="container">
+          <div className="about-grid">
+            <div className="about-image">
+              <img src="/assets/me.jpg" alt="Kirill" />
+            </div>
+            <div className="about-content">
+              <h2>{t('about.title')}</h2>
+              <div className="about-text">
+                <p><strong>{t('about.name_intro')}</strong></p>
+                <p>{t('about.years_sk')}</p>
+                <p>{t('about.knowledge')}</p>
+                <div className="pride-block">
+                  <h4>{t('about.pride_title')}</h4>
+                  <p>{t('about.pride_desc')}</p>
+                </div>
               </div>
             </div>
           </div>
+          
+          <ClientCarousel />
         </div>
       </section>
 
       {/* Steps Section */}
       <section id="steps" className="steps-section">
         <div className="container">
-          <h2 className="section-title">{t('steps.title', 'How We Work')}</h2>
+          <h2 className="section-title">{t('steps.title', 'Stages of Project Cooperation')}</h2>
           <div className="steps-grid">
             <div className="step-card">
               <div className="step-icon"><FileText size={32} /></div>
               <h3>1. {t('steps.request', 'Request')}</h3>
-              <p>{t('steps.request_desc', 'Leave a request via the form.')}</p>
+              <p>{t('steps.request_desc', 'Leave a request via the form and I will contact you as soon as possible.')}</p>
             </div>
             <div className="step-card">
               <div className="step-icon"><Users size={32} /></div>
               <h3>2. {t('steps.meeting', 'Meeting')}</h3>
-              <p>{t('steps.meeting_desc', 'We discuss details (I don\'t need a spec!).')}</p>
+              <p>{t('steps.meeting_desc', 'We discuss details in Bratislava or online.')}</p>
             </div>
             <div className="step-card">
               <div className="step-icon"><Code size={32} /></div>
-              <h3>3. {t('steps.process', 'Process')}</h3>
+              <h3>3. {t('steps.process', 'Development')}</h3>
               <p>{t('steps.process_desc', 'Development with periodic updates.')}</p>
             </div>
             <div className="step-card">
               <div className="step-icon"><CheckCircle size={32} /></div>
-              <h3>4. {t('steps.delivery', 'Delivery')}</h3>
-              <p>{t('steps.delivery_desc', 'Acceptance and payment. Usually within 15 days.')}</p>
+              <h3>4. {t('steps.delivery', 'Result')}</h3>
+              <p>{t('steps.delivery_desc', 'Acceptance, approval and payment.')}</p>
             </div>
           </div>
-          <div className="steps-note">
-            <p>{t('steps.note', 'I do not require a detailed specification (TZ). If you don\'t have one, I will propose the best implementation for your niche.')}</p>
+          <div className="steps-success-stat">
+            <h3>{t('steps.success_stat', 'I completed 90% of complex projects within 15 working days')}</h3>
           </div>
         </div>
       </section>
@@ -127,11 +121,35 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
       <section id="contacts" className="contacts-section">
         <div className="container">
           <h2 className="section-title">{t('contacts.title', 'Contacts')}</h2>
-          <div className="contacts-content">
-            <p><strong>White Eagles & Co. s.r.o.</strong></p>
-            <p>{t('contacts.address', 'Slovakia')}</p>
-            <p>Email: <a href="mailto:welcome@whiteeagles.sk">welcome@whiteeagles.sk</a></p>
-            <p>Tel: <a href="tel:+421949000077">+421 949 0000 77</a></p>
+          <div className="contacts-grid">
+            <div className="contact-card">
+              <div className="contact-icon"><Briefcase size={24} /></div>
+              <div className="contact-info">
+                <h4>Company</h4>
+                <p>White Eagles & Co. s.r.o.</p>
+              </div>
+            </div>
+            <div className="contact-card">
+              <div className="contact-icon"><MapPin size={24} /></div>
+              <div className="contact-info">
+                <h4>Location</h4>
+                <p>{t('contacts.address', 'Slovakia')}</p>
+              </div>
+            </div>
+            <div className="contact-card">
+              <div className="contact-icon"><Mail size={24} /></div>
+              <div className="contact-info">
+                <h4>Email</h4>
+                <a href="mailto:welcome@whiteeagles.sk">welcome@whiteeagles.sk</a>
+              </div>
+            </div>
+            <div className="contact-card">
+              <div className="contact-icon"><Phone size={24} /></div>
+              <div className="contact-info">
+                <h4>Phone</h4>
+                <a href="tel:+421949000077">+421 949 0000 77</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

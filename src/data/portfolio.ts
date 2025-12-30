@@ -4,37 +4,43 @@ export interface PortfolioItem {
   title: string;
   descKey: string;
   image?: string;
+  useOgImage?: boolean;
 }
 
 export const portfolio: PortfolioItem[] = [
   {
     id: 'biliardovna',
     url: 'https://biliardovna.sk',
-    title: 'Biliardovna.sk',
-    descKey: 'portfolio.biliardovna.desc'
-  },
-  {
-    id: 'studio-krasy',
-    url: 'https://studio-krasy.sk',
-    title: 'Studio-krasy.sk',
-    descKey: 'portfolio.studiokrasy.desc'
+    title: 'Biliardovňa',
+    descKey: 'portfolio.biliardovna.desc',
+    image: '/assets/portfolio-biliardovna.png'
   },
   {
     id: 'top-kobka',
     url: 'https://top-kobka.sk',
-    title: 'Top-kobka.sk',
-    descKey: 'portfolio.topkobka.desc'
+    title: 'TOP KOBKA',
+    descKey: 'portfolio.topkobka.desc',
+    image: '/assets/portfolio-topkobka.png'
+  },
+  {
+    id: 'studio-krasy',
+    url: 'https://studio-krasy.sk',
+    title: 'Krása štúdio "OK"',
+    descKey: 'portfolio.studiokrasy.desc',
+    image: '/assets/portfolio-studiokrasy.png'
   },
   {
     id: 'top-sklad',
     url: 'https://top-sklad.sk',
-    title: 'Top-sklad.sk',
-    descKey: 'portfolio.topsklad.desc'
+    title: 'TOP SKLAD',
+    descKey: 'portfolio.topsklad.desc',
+    image: '/assets/portfolio-topsklad.png'
   },
   {
     id: 'bodabo',
     url: 'https://bodabo.ru',
-    title: 'Bodabo.ru',
-    descKey: 'portfolio.bodabo.desc'
+    title: 'BODA BODA',
+    descKey: 'portfolio.bodabo.desc',
+    image: '/assets/portfolio-bodabo.png'
   }
 ];

@@ -1,44 +1,40 @@
 {
-  "nav": {
+  "header": {
     "services": "Services",
     "portfolio": "Portfolio",
     "about": "About Me",
-    "steps": "Process",
-    "contacts": "Contacts"
-  },
-  "header": {
+    "process": "Process",
+    "contacts": "Contacts",
     "order": "Order Now"
   },
-  "footer": {
-    "company_desc": "Professional Digital Services"
-  },
-  "common": {
-    "hour": "hour",
-    "from": "approx from"
+  "hero": {
+    "title": "IT Solutions for Your Business",
+    "subtitle": "Web Development, Analytics, and Online Marketing",
+    "cta": "Discuss Project"
   },
   "services": {
     "title": "My Services",
-    "details": "Details",
     "order": "Order",
-    "analytics": {
-      "title": "Online Analytics Setup",
-      "desc": "Setting up sales funnels and custom goals for e-commerce.",
-      "details": "Full configuration of GA4, GTM, and conversion tracking to measure ROI effectively."
-    },
-    "ads": {
-      "title": "Online Ads (Google/Meta)",
-      "desc": "PPC campaigns management and optimization.",
-      "details": "Targeted advertising strategies to maximize leads and sales."
-    },
+    "details": "Details",
     "webdev": {
-      "title": "Website Development",
-      "desc": "Custom websites (PHP, Python, JS) or WordPress.",
-      "details": "Full-cycle development from design to deployment."
+      "title": "Web Development",
+      "desc": "Sites from scratch (PHP, Python, JS) or WordPress.",
+      "details": "Custom websites, landing pages, and e-shops tailored to your needs."
     },
     "bugfix": {
-      "title": "Bugfix & Maintenance",
-      "desc": "Fixing issues on custom or WP sites.",
-      "details": "Rapid troubleshooting and code optimization."
+      "title": "Bugfix & Features",
+      "desc": "Fixing errors on custom sites and WP.",
+      "details": "Troubleshooting, optimization, and adding new functionality."
+    },
+    "ads": {
+      "title": "Online Advertising (Google/Meta)",
+      "desc": "Management and optimization of PPC campaigns.",
+      "details": "Setup and management of advertising campaigns on Google Ads and Facebook/Instagram."
+    },
+    "analytics": {
+      "title": "Web Analytics Setup",
+      "desc": "Sales funnel setup and e-commerce goals.",
+      "details": "GA4, GTM, and custom event tracking implementation."
     },
     "cookies": {
       "title": "Cookie Banner (Consent Mode V2)",
@@ -53,45 +49,44 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "biliardovna": { "desc": "Biliard club website" },
-    "studiokrasy": { "desc": "Beauty studio website" },
-    "topkobka": { "desc": "Storage solutions website" },
-    "topsklad": { "desc": "Warehouse management system" },
-    "bodabo": { "desc": "E-commerce platform" }
+    "biliardovna": { "desc": "Website for a billiard club in Bratislava." },
+    "studiokrasy": { "desc": "Multi-page website with a booking system." },
+    "topkobka": { "desc": "Warehouse rental services website." },
+    "topsklad": { "desc": "Multifunctional website with a warehouse booking system." },
+    "bodabo": { "desc": "Website for wholesale of vanilla, coffee, and cocoa beans." },
+    "slovunisport": { "desc": "Sports portal." },
+    "mojservis": { "desc": "Car service website." }
   },
   "about": {
     "title": "About Me",
-    "desc": "15 years of experience in online marketing and web analytics, plus 4 years in Full-stack development.",
-    "marketing_exp": "Marketing Exp",
-    "dev_exp": "Dev Exp"
+    "name_intro": "My name is Kirill Mosin.",
+    "years_sk": "I have been living in Slovakia for over 6 years and have thoroughly studied the local market and its specifics.",
+    "knowledge": "I know exactly what digital product to create and how to promote it for the maximum success of your business.",
+    "pride_title": "Great Result without detailed Specs",
+    "pride_desc": "Experience working with freelancers on the business side allowed me to identify the main pain point of cooperation: a large amount of time spent by company management writing a detailed technical specification to describe all business processes and expectations from the site. I never require a complex TS from the client and will propose the best solution for approval myself."
+  },
+  "clients": {
+    "title": "I worked with brands"
   },
   "steps": {
-    "title": "How We Work",
+    "title": "Stages of Project Cooperation",
     "request": "Request",
-    "request_desc": "Leave a request via the form.",
+    "request_desc": "Leave a request via the form and I will contact you as soon as possible.",
     "meeting": "Meeting",
-    "meeting_desc": "We discuss details.",
-    "process": "Process",
-    "process_desc": "Development with updates.",
-    "delivery": "Delivery",
-    "delivery_desc": "Acceptance and payment.",
-    "note": "I do not require a detailed specification (TZ). If you don't have one, I will propose the best implementation for your niche."
+    "meeting_desc": "We will meet in Bratislava / online to discuss project details and your expectations.",
+    "process": "Development",
+    "process_desc": "Execution of work with approval and periodic reports.",
+    "delivery": "Result",
+    "delivery_desc": "Acceptance, approval, implementation of revisions, and payment for work.",
+    "success_stat": "I completed 90% of complex projects within 15 working days"
   },
   "contacts": {
     "title": "Contacts",
-    "address": "Slovakia"
+    "address": "Bratislava, Slovakia"
   },
-  "order": {
-    "title": "Order Service",
-    "success": "Thank you! We will contact you soon.",
-    "name": "Name",
-    "email": "Email",
-    "service": "Service",
-    "service_placeholder": "E.g., Analytics Setup",
-    "message": "Message",
-    "sending": "Sending...",
-    "submit": "Send Request",
-    "error": "Something went wrong. Please try again.",
-    "privacy": "By submitting you agree to processing of personal data."
+  "common": {
+    "hour": "hour",
+    "from": "from",
+    "visit": "Visit Website"
   }
 }
