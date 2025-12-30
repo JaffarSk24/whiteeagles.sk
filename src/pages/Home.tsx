@@ -25,6 +25,10 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
           <div className="services-grid">
             {services.map((service) => (
               <div key={service.id} className="service-card">
+                <div className="service-image-placeholder">
+                  {/* Placeholder for illustration */}
+                  <div className="img-overlay"></div>
+                </div>
                 <div className="service-content">
                   <h3>{t(service.titleKey)}</h3>
                   <p className="service-desc">{t(service.descKey)}</p>
@@ -126,7 +130,8 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
           <div className="contacts-content">
             <p><strong>White Eagles & Co. s.r.o.</strong></p>
             <p>{t('contacts.address', 'Slovakia')}</p>
-            <p>Email: <a href="mailto:info@whiteeagles.sk">info@whiteeagles.sk</a></p>
+            <p>Email: <a href="mailto:welcome@whiteeagles.sk">welcome@whiteeagles.sk</a></p>
+            <p>Tel: <a href="tel:+421949000077">+421 949 0000 77</a></p>
           </div>
         </div>
       </section>

@@ -44,6 +44,11 @@
       "title": "Cookie Banner (Consent Mode V2)",
       "desc": "Compliance with Google Consent Mode V2.",
       "details": "Implementation of compliant cookie consent banners."
+    },
+    "telegram": {
+      "title": "Telegram Bot Development",
+      "desc": "Bots for feedback, ordering, and automation.",
+      "details": "Custom bot development including admin panels and CRM integrations."
     }
   },
   "portfolio": {

@@ -44,6 +44,11 @@
       "title": "Cookie Banner (Consent Mode V2)",
       "desc": "Súlad s Google Consent Mode V2.",
       "details": "Implementácia legálnych cookie bannerov."
+    },
+    "telegram": {
+      "title": "Vývoj Telegram botov",
+      "desc": "Boty pre spätnú väzbu a správu objednávok.",
+      "details": "Vývoj botov na mieru vrátane admin panelov a integrácií."
     }
   },
   "portfolio": {

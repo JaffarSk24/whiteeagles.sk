@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --accent-color: #fbbf24;
-  --accent-hover: #f59e0b;
-  --border-color: #334155;
-  --font-main: "Inter", sans-serif;
+  /* Updated Colors based on Logo */
+  --bg-primary: #374161; /* Muted darker blue based on 'Blue like the first one' description approximation */
+  --bg-secondary: #455073; /* Slightly lighter blue for cards */
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  
+  /* Orange Accent like the sun */
+  --accent-color: #f97316; /* Vibrant Orange */
+  --accent-hover: #ea580c;
+  
+  --border-color: #556085;
+  --font-main: 'Inter', sans-serif;
   --container-width: 1200px;
   --header-height: 80px;
 }
@@ -62,13 +66,14 @@ ul {
 
 .btn-primary {
   background-color: var(--accent-color);
-  color: var(--bg-primary);
+  color: var(--bg-primary); 
+  font-weight: 700; /* Bold as requested */
 }
 
 .btn-primary:hover {
   background-color: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
 }
 
 h1,
@@ -83,4 +88,9 @@ h6 {
 
 section {
   padding: 80px 0;
+}
+
+/* Add extra spacing for the first section under fixed header */
+#services {
+  padding-top: 140px; /* Increased from default implicit padding */
 }

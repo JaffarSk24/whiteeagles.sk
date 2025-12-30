@@ -44,7 +44,8 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
     <header className={`header ${isScrolled ? 'header-scrolled' : ''}`}>
       <div className="container header-content">
         <div className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          White Eagles & Co.
+          <img src="/assets/white-eagles-logo-white.png" alt="White Eagles & Co." className="logo-img" />
+          <span>White Eagles & Co.</span>
         </div>
 
         <nav className={`nav-links ${isMobileMenuOpen ? 'nav-active' : ''}`}>

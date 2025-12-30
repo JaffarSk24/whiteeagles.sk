@@ -4,27 +4,11 @@ export interface Service {
   descKey: string;
   priceRate: number;
   priceMin?: number;
-  image?: string;
+  image?: string; // Placeholder prop
   detailsKey: string;
 }
 
 export const services: Service[] = [
-  {
-    id: 'analytics',
-    titleKey: 'services.analytics.title',
-    descKey: 'services.analytics.desc',
-    priceRate: 25,
-    priceMin: 500,
-    detailsKey: 'services.analytics.details'
-  },
-  {
-    id: 'ads',
-    titleKey: 'services.ads.title',
-    descKey: 'services.ads.desc',
-    priceRate: 25,
-    priceMin: 1000,
-    detailsKey: 'services.ads.details'
-  },
   {
     id: 'webdev',
     titleKey: 'services.webdev.title',
@@ -41,11 +25,35 @@ export const services: Service[] = [
     detailsKey: 'services.bugfix.details'
   },
   {
+    id: 'ads',
+    titleKey: 'services.ads.title',
+    descKey: 'services.ads.desc',
+    priceRate: 25,
+    priceMin: 1000,
+    detailsKey: 'services.ads.details'
+  },
+  {
+    id: 'analytics',
+    titleKey: 'services.analytics.title',
+    descKey: 'services.analytics.desc',
+    priceRate: 25,
+    priceMin: 500,
+    detailsKey: 'services.analytics.details'
+  },
+  {
     id: 'cookies',
     titleKey: 'services.cookies.title',
     descKey: 'services.cookies.desc',
     priceRate: 25,
     priceMin: 200,
     detailsKey: 'services.cookies.details'
+  },
+  {
+    id: 'telegram',
+    titleKey: 'services.telegram.title',
+    descKey: 'services.telegram.desc',
+    priceRate: 25,
+    priceMin: 500,
+    detailsKey: 'services.telegram.details'
   }
 ];

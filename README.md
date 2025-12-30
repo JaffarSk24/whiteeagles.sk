@@ -1,72 +1,53 @@
-# White Eagles & Co. Landing Page
+# White Eagles & Co. - Official Website
 
-Multilingual landing page for White Eagles & Co. s.r.o. (IT & Marketing Services).
+Welcome to the official repository for the **White Eagles & Co. s.r.o.** landing page.
+This project is a modern, multilingual web application built to present our premium IT and Marketing services.
 
-## Tech Stack
+![White Eagles](public/assets/logo-blue.png)
+_(Note: Logo path is relative to repo root)_
 
-- **Frontend**: React (Vite) + TypeScript
-- **Styling**: Vanilla CSS (CSS Variables)
-- **Routing**: React Router DOM
-- **I18n**: i18next (English, Slovak, Russian)
-- **SEO**: react-helmet-async
-- **Icons**: Lucide React
-- **Backend**: PHP (for Mailgun & Recaptcha)
+## 🚀 Project Overview
 
-## Project Structure
+**White Eagles & Co.** offers professional digital solutions including:
 
-- `src/components`: Reusable UI components (Header, Footer, OrderForm, SEO).
-- `src/pages`: Page components (Home, ServiceDetail).
-- `src/data`: Static data for Services and Portfolio.
-- `src/locales`: Translation JSON files.
-- `public/api`: PHP backend scripts.
+- **Online Analytics**: GA4, GTM, Custom Conversions.
+- **PPC Advertising**: Google Ads & Meta Ads.
+- **Web Development**: Custom sites (React, PHP, Python) & WordPress.
+- **Compliance**: Cookie Banners (Google Consent Mode V2).
 
-## Setup & Development
+The website supports **English**, **Slovak**, and **Russian** languages with automatic detection.
 
-### 1. Install Dependencies
+## 🛠 Tech Stack
 
-```bash
-npm install
-# Note: If you encounter peer dependency issues with React 19, use:
-npm install --legacy-peer-deps
-```
+- **Frontend**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Hand-crafted **Vanilla CSS** with CSS Variables (No heavy frameworks).
+- **Routing**: React Router DOM.
+- **Localization**: i18next.
+- **SEO**: react-helmet-async.
+- **Backend API**: Lightweight PHP endpoint for form handling.
+- **Integrations**:
+  - **Mailgun**: Transactional emails.
+  - **Telegram**: Instant admin notifications.
+  - **Google Recaptcha v3**: Spam protection.
 
-### 2. Run Local Development Server
+## 📂 Repository Structure
 
-```bash
-npm run dev
-```
+- `src/` - Application source code.
+  - `components/` - Reusable UI elements.
+  - `pages/` - Main route views.
+  - `locales/` - Translation files (EN, SK, RU).
+  - `data/` - Static content configurations.
+  - `styles/` - Global design tokens.
+- `public/` - Static assets and Backend API.
+  - `api/` - PHP scripts (`send-mail.php`).
 
-Access the site at `http://localhost:5173`.
+## 📦 Contact
 
-### 3. Backend Setup (Local)
+For inquiries, please contact us via the website form or directly:
 
-To test the PHP email sending locally, you need a PHP server running in the `public` directory.
+- **Email**: welcome@whiteeagles.sk
+- **Phone**: +421 949 0000 77
 
-```bash
-cd public
-php -S localhost:8000
-```
+---
 
-Then update the fetch URL in `src/components/OrderForm.tsx` to `http://localhost:8000/api/send-mail.php` (or configure vite proxy).
-_Note: In production (Hetzner), just upload the `dist` folder contents and `public/api` folder to your web root._
-
-### 4. Build for Production
-
-```bash
-npm run build
-```
-
-Upload the `dist` folder to your customized Hetzner setup.
-
-## Configuration
-
-### Mailgun & Recaptcha
-
-The PHP backend script is located at `public/api/send-mail.php`.
-Open this file and configure your API keys:
-
-- `$MAILGUN_API_KEY`
-- `$MAILGUN_DOMAIN`
-- `$RECAPTCHA_SECRET`
-
-Or set them as environment variables on your server.
+&copy; 2025 White Eagles & Co. s.r.o. All rights reserved.
