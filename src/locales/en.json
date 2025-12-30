@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About Me",
+    "steps": "Process",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "order": "Order Now"
+  },
+  "footer": {
+    "company_desc": "Professional Digital Services"
+  },
+  "common": {
+    "hour": "hour",
+    "from": "approx from"
+  },
+  "services": {
+    "title": "My Services",
+    "details": "Details",
+    "order": "Order",
+    "analytics": {
+      "title": "Online Analytics Setup",
+      "desc": "Setting up sales funnels and custom goals for e-commerce.",
+      "details": "Full configuration of GA4, GTM, and conversion tracking to measure ROI effectively."
+    },
+    "ads": {
+      "title": "Online Ads (Google/Meta)",
+      "desc": "PPC campaigns management and optimization.",
+      "details": "Targeted advertising strategies to maximize leads and sales."
+    },
+    "webdev": {
+      "title": "Website Development",
+      "desc": "Custom websites (PHP, Python, JS) or WordPress.",
+      "details": "Full-cycle development from design to deployment."
+    },
+    "bugfix": {
+      "title": "Bugfix & Maintenance",
+      "desc": "Fixing issues on custom or WP sites.",
+      "details": "Rapid troubleshooting and code optimization."
+    },
+    "cookies": {
+      "title": "Cookie Banner (Consent Mode V2)",
+      "desc": "Compliance with Google Consent Mode V2.",
+      "details": "Implementation of compliant cookie consent banners."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "biliardovna": { "desc": "Biliard club website" },
+    "studiokrasy": { "desc": "Beauty studio website" },
+    "topkobka": { "desc": "Storage solutions website" },
+    "topsklad": { "desc": "Warehouse management system" },
+    "bodabo": { "desc": "E-commerce platform" }
+  },
+  "about": {
+    "title": "About Me",
+    "desc": "15 years of experience in online marketing and web analytics, plus 4 years in Full-stack development.",
+    "marketing_exp": "Marketing Exp",
+    "dev_exp": "Dev Exp"
+  },
+  "steps": {
+    "title": "How We Work",
+    "request": "Request",
+    "request_desc": "Leave a request via the form.",
+    "meeting": "Meeting",
+    "meeting_desc": "We discuss details.",
+    "process": "Process",
+    "process_desc": "Development with updates.",
+    "delivery": "Delivery",
+    "delivery_desc": "Acceptance and payment.",
+    "note": "I do not require a detailed specification (TZ). If you don't have one, I will propose the best implementation for your niche."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "address": "Slovakia"
+  },
+  "order": {
+    "title": "Order Service",
+    "success": "Thank you! We will contact you soon.",
+    "name": "Name",
+    "email": "Email",
+    "service": "Service",
+    "service_placeholder": "E.g., Analytics Setup",
+    "message": "Message",
+    "sending": "Sending...",
+    "submit": "Send Request",
+    "error": "Something went wrong. Please try again.",
+    "privacy": "By submitting you agree to processing of personal data."
+  }
+}

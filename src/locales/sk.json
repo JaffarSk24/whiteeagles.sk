@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "services": "Služby",
+    "portfolio": "Portfólio",
+    "about": "O mne",
+    "steps": "Proces",
+    "contacts": "Kontakty"
+  },
+  "header": {
+    "order": "Objednať"
+  },
+  "footer": {
+    "company_desc": "Profesionálne digitálne služby"
+  },
+  "common": {
+    "hour": "hodina",
+    "from": "od cca"
+  },
+  "services": {
+    "title": "Moje Služby",
+    "details": "Viac info",
+    "order": "Objednať",
+    "analytics": {
+      "title": "Nastavenie online analytiky",
+      "desc": "Nastavenie predajných lievikov a vlastných cieľov pre e-commerce.",
+      "details": "Kompletná konfigurácia GA4, GTM a sledovanie konverzií."
+    },
+    "ads": {
+      "title": "Online reklama (Google/Meta)",
+      "desc": "Správa a optimalizácia PPC kampaní.",
+      "details": "Cielené reklamné stratégie pre maximalizáciu predaja."
+    },
+    "webdev": {
+      "title": "Tvorba web stránok",
+      "desc": "Weby na mieru (PHP, Python, JS) alebo WordPress.",
+      "details": "Kompletný vývoj od návrhu po nasadenie."
+    },
+    "bugfix": {
+      "title": "Opravy a údržba",
+      "desc": "Opravy chýb na weboch a WordPress.",
+      "details": "Rýchle riešenie problémov a optimalizácia kódu."
+    },
+    "cookies": {
+      "title": "Cookie Banner (Consent Mode V2)",
+      "desc": "Súlad s Google Consent Mode V2.",
+      "details": "Implementácia legálnych cookie bannerov."
+    }
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "biliardovna": { "desc": "Web biliardovej herne" },
+    "studiokrasy": { "desc": "Web štúdia krásy" },
+    "topkobka": { "desc": "Skladové riešenia" },
+    "topsklad": { "desc": "Systém riadenia skladu" },
+    "bodabo": { "desc": "E-shop platforma" }
+  },
+  "about": {
+    "title": "O mne",
+    "desc": "15 rokov skúseností v online marketingu a webovej analytike, a 4 roky vo Full-stack vývoji.",
+    "marketing_exp": "Marketingová prax",
+    "dev_exp": "Vývojárska prax"
+  },
+  "steps": {
+    "title": "Ako pracujem",
+    "request": "Zadanie",
+    "request_desc": "Nechajte dopyt cez formulár.",
+    "meeting": "Stretnutie",
+    "meeting_desc": "Dohodneme detaily.",
+    "process": "Proces",
+    "process_desc": "Vývoj s priebežnými úpravami.",
+    "delivery": "Odovzdanie",
+    "delivery_desc": "Akceptácia a platba.",
+    "note": "Nevyžadujem detailné zadanie (TZ). Ak ho nemáte, navrhnem najlepšie riešenie pre vašu oblasť."
+  },
+  "contacts": {
+    "title": "Kontakty",
+    "address": "Slovensko"
+  },
+  "order": {
+    "title": "Objednať službu",
+    "success": "Ďakujeme! Čoskoro vás budeme kontaktovať.",
+    "name": "Meno",
+    "email": "Email",
+    "service": "Služba",
+    "service_placeholder": "Napr. Nastavenie analytiky",
+    "message": "Správa",
+    "sending": "Odosielam...",
+    "submit": "Odoslať dopyt",
+    "error": "Niečo sa pokazilo. Skúste to prosím znova.",
+    "privacy": "Odoslaním súhlasíte so spracovaním osobných údajov."
+  }
+}
