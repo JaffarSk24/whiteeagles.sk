@@ -5,7 +5,7 @@
     "about": "About Me",
     "process": "Process",
     "contacts": "Contacts",
-    "order": "Order Now"
+    "order": "Discuss Project"
   },
   "hero": {
     "title": "IT Solutions for Your Business",
@@ -13,13 +13,13 @@
     "cta": "Discuss Project"
   },
   "home_seo": {
-    "title": "White Eagles & Co. - IT Solutions & Web Development",
+    "title": "Web Development and Advertising in Slovakia | White Eagles & Co.",
     "description": "Professional web development, data analytics, and online marketing in Slovakia. Custom websites, bug fixing, and PPC campaigns to grow your business.",
     "keywords": "web development, website creation, online marketing, PPC, Google Ads, analytics, GA4, telegram bots, IT solutions, Bratislava, Slovakia"
   },
   "services": {
     "title": "My Services",
-    "order": "Order",
+    "order": "Discuss Project",
     "details": "Details",
     "webdev": {
       "title": "Web Development",
@@ -63,12 +63,15 @@
     "mojservis": { "desc": "Car service website." }
   },
   "about": {
-    "title": "About Me",
+    "title": "Web Development and Advertising for Business in Slovakia",
+    "greeting": "Hi there,",
     "name_intro": "My name is Kirill Mosin.",
     "years_sk": "I have been living in Slovakia for over 6 years and have thoroughly studied the local market and its specifics.",
     "knowledge": "I know exactly what digital product to create and how to promote it for the maximum success of your business.",
     "pride_title": "Great Result without detailed Technical Specifications",
     "pride_desc": "Experience working with freelancers on the business side allowed me to identify the main pain point of cooperation: a large amount of time spent by company management writing a detailed technical specification to describe all business processes and expectations from the site. I never require a complex Technical Specification from the client and will propose the best solution for approval myself.",
+    "cta_text": "Order a free consultation to discuss the project and receive a personal offer.",
+    "cta_button": "Discuss Project",
     "payment_title": "Flexible Payment Options",
     "payment_invoice": "Invoice",
     "payment_card": "Credit Card",

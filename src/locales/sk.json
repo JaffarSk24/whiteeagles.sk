@@ -63,12 +63,15 @@
     "mojservis": { "desc": "Stránka autoservisu." }
   },
   "about": {
-    "title": "O mne",
+    "title": "Tvorba a reklama webov pre firmy na Slovensku",
+    "greeting": "Ahoj,",
     "name_intro": "Volám sa Kirill Mosin.",
     "years_sk": "Žijem na Slovensku už viac ako 6 rokov a dokonale som spoznal miestny trh a jeho špecifiká.",
     "knowledge": "Presne viem, aký digitálny produkt vytvoriť a ako ho propagovať pre maximálny úspech vášho podnikania.",
     "pride_title": "Výborný výsledok bez podrobných technických špecifikácií",
     "pride_desc": "Práca s freelancermi vo firme mi umožnila identifikovať hlavné ťažkosti, ktoré sa objavujú v spolupráci: veľké množstvo času stráveného manažmentom spoločnosti pri písaní podrobného technického zadania na opis všetkých obchodných procesov a očakávaní od webovej stránky. Od klienta nikdy nežiadam zložitú technickú špecifikáciu a sám poskytnem najvhodnejšie riešenie na schválenie.",
+    "cta_text": "Objednajte si bezplatnú konzultáciu na prediskutovanie projektu a získanie osobnej ponuky.",
+    "cta_button": "Konzultácia zdarma",
     "payment_title": "Flexibilné možnosti platby",
     "payment_invoice": "Na faktúru",
     "payment_card": "Kreditnou kartou",
