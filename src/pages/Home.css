@@ -6,6 +6,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height: 1.2; /* Enforce H2-like line height even for H1 */
 }
 
 .portfolio-section,

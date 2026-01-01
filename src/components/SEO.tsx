@@ -31,7 +31,9 @@ export const SEO: React.FC<SEOProps> = ({
     ? `${siteUrl}${location.pathname}`.replace(/\/$/, '') 
     : `${siteUrl}${location.pathname}?lng=${lang}`.replace(/\/$/, '');
 
-  const displayTitle = title ? `${title} | White Eagles & Co.` : 'White Eagles & Co. - Digital Services';
+  const displayTitle = title 
+    ? (title.includes('White Eagles') ? title : `${title} | White Eagles & Co.`) 
+    : 'White Eagles & Co. - Digital Services';
   const displayDesc = description || 'Professional web development and marketing services in Slovakia.';
   const displayKeywords = keywords || 'web development, marketing, slovakia, digital agency, seo, ppc, social media';
 

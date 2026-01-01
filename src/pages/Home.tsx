@@ -53,7 +53,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
       {/* About Section (Moved to top) */}
       <section id="about" className="about-section">
         <div className="container">
-          <h2 className="section-title">{t('about.title')}</h2>
+          <h1 className="section-title">{t('about.title')}</h1>
           <div className="about-grid">
             <div className="about-image">
               <img src="/assets/me.jpg" alt="Kirill" />
