@@ -32,6 +32,8 @@ jobs:
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           protocol: sftp
           port: 22
+          security: loose
+          log-level: verbose
           local-dir: ./dist/
           server-dir: ${{ secrets.REMOTE_TARGET }}
           dangerous-clean-slate: true
