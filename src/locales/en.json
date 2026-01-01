@@ -54,8 +54,10 @@
       ]
     },
     "ads": {
-      "title": "Contextual and Targeted Advertising",
-      "desc": "Creation, management, and optimization of ad campaigns in Google Ads and Meta (Instagram, Facebook, Threads, WhatsApp)",
+      "title": "Advertising Campaigns",
+      "desc": "Creation and optimization of Google Ads and Meta campaigns",
+      "internal_title": "Contextual and Targeted Advertising",
+      "internal_desc": "Creation, management, and optimization of advertising campaigns in Google Ads and Meta (Instagram, Facebook, Threads, WhatsApp)",
       "details_points": [
         "Creation of advertising accounts and cabinets",
         "Linking company resources (Analytics, CRM)",
@@ -65,26 +67,51 @@
         "Determination and approval of the advertising budget (broken down by channel) based on clear mathematical calculation.",
         "Development of a unique advertising strategy for a specific product/service and company within its market niche.",
         "Creation of ads and configuration within cabinets",
-        "A/B testing within ad groups",
-        "Creation of banners and ad creatives",
-        "Connection of advertising goals (conversions) and their debugging",
-        "Launch and monitoring of advertising campaign performance."
+        "Identity, creation, design, and packaging of turnkey advertising accounts",
+        "Setup and launch of Google Ads / Meta Ads campaigns",
+        "Integration of analytics systems",
+        "Optimization and scaling of advertising campaigns"
       ]
     },
     "analytics": {
-      "title": "Web Analytics Setup",
-      "desc": "Sales funnel setup and e-commerce goals.",
-      "details": "GA4, GTM, and custom event tracking implementation."
+      "title": "Web Analytics",
+      "desc": "Implementation of server-side GTM, Google Analytics 4, Clarity, Yandex Metrica for precise tracking",
+      "details": "Implementation of server-side GTM, Google Analytics 4, Clarity, Yandex Metrica for precise tracking of each visitor's actions",
+      "details_points": [
+        "Connection and setup of Google Tag Manager (GTM) and Server-Side Tracking for GA4",
+        "Setup of goals and events",
+        "Integration with CRM and advertising accounts",
+        "Setup of Clarity / Yandex Metrica"
+      ],
+      "guarantee": "I provide a guarantee of performance and free technical support for 6 months as a gift for all my customers."
     },
     "cookies": {
-      "title": "Cookie Banner (Consent Mode V2)",
-      "desc": "Compliance with Google Consent Mode V2.",
-      "details": "Implementation of compliant cookie consent banners."
+      "title": "Cookie Consent Mode V2",
+      "desc": "Adding the mandatory cookie banner required by Google",
+      "internal_title": "Cookie Banner (Consent Mode V2)",
+      "internal_desc": "Adding the mandatory cookie banner required by Google without a monthly subscription (unlike ready-made modules for integration into custom site code and WordPress plugins)",
+      "details": "Adding the mandatory cookie banner required by Google without a monthly subscription (unlike ready-made modules for integration into custom site code and WordPress plugins)",
+      "details_points": [
+        "Creation and configuration of a unique custom cookie consent banner that allows always processing data of all visitors for correct operation of analytical and advertising systems.",
+        "Integration into the website code, setting up corporate style and banner colors.",
+        "Debugging and performance verification. Testing for 15+ possible cases."
+      ]
     },
     "telegram": {
-      "title": "Telegram Bot Development",
-      "desc": "Bots for feedback, ordering, and automation.",
-      "details": "Custom bot development including admin panels and CRM integrations."
+      "title": "Python Bot Development",
+      "desc": "Bots for managing inquiries, auto-posting ads (bazoš), and brand feedback",
+      "internal_title": "Automation Bot Development",
+      "internal_desc": "Creating custom Python bots for inquiry management, routine process automation, and brand feedback",
+      "details": "Creating custom Python bots for inquiry management, routine process automation, and brand feedback",
+      "details_points": [
+        "Bots for mass auto-posting of ads (bazos)",
+        "Creating bots for mailing lists based on contact databases",
+        "Feedback and inquiry management bots",
+        "Bots for managing slots in the website reservation system",
+        "Bots for parsing competitor data/followers to create targeting audiences",
+        "Other bots for brand popularization and complicating life for competitors"
+      ],
+      "guarantee": "I provide a guarantee of performance and free technical support for 6 months as a gift for all my customers."
     }
   },
   "portfolio": {

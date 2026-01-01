@@ -6,6 +6,9 @@ export interface Service {
   priceMin?: number;
   image?: string; // Placeholder prop
   detailsKey: string;
+  guaranteeKey?: string;
+  internalTitleKey?: string;
+  internalDescKey?: string;
 }
 
 export const services: Service[] = [
@@ -16,7 +19,8 @@ export const services: Service[] = [
     priceRate: 35,
     priceMin: 4000,
     image: '/assets/services/webdev.png',
-    detailsKey: 'services.webdev.details'
+    detailsKey: 'services.webdev.details',
+    guaranteeKey: 'services.webdev.guarantee'
   },
   {
     id: 'bugfix',
@@ -33,7 +37,9 @@ export const services: Service[] = [
     priceRate: 25,
     priceMin: 1000,
     image: '/assets/services/ads.png',
-    detailsKey: 'services.ads.details'
+    detailsKey: 'services.ads.details',
+    internalTitleKey: 'services.ads.internal_title',
+    internalDescKey: 'services.ads.internal_desc'
   },
   {
     id: 'analytics',
@@ -42,7 +48,8 @@ export const services: Service[] = [
     priceRate: 25,
     priceMin: 500,
     image: '/assets/services/analytics.png',
-    detailsKey: 'services.analytics.details'
+    detailsKey: 'services.analytics.details',
+    guaranteeKey: 'services.analytics.guarantee'
   },
   {
     id: 'cookies',
@@ -51,7 +58,9 @@ export const services: Service[] = [
     priceRate: 25,
     priceMin: 200,
     image: '/assets/services/cookies.png',
-    detailsKey: 'services.cookies.details'
+    detailsKey: 'services.cookies.details',
+    internalTitleKey: 'services.cookies.internal_title',
+    internalDescKey: 'services.cookies.internal_desc'
   },
   {
     id: 'telegram',
@@ -60,6 +69,9 @@ export const services: Service[] = [
     priceRate: 25,
     priceMin: 500,
     image: '/assets/services/telegram.png',
-    detailsKey: 'services.telegram.details'
+    detailsKey: 'services.telegram.details',
+    guaranteeKey: 'services.telegram.guarantee',
+    internalTitleKey: 'services.telegram.internal_title',
+    internalDescKey: 'services.telegram.internal_desc'
   }
 ];

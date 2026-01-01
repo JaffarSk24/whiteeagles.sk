@@ -54,8 +54,10 @@
       ]
     },
     "ads": {
-      "title": "Správa kontextovej a cielenej reklamy",
-      "desc": "Tvorba, správa a optimalizácia reklamných kampaní v Google Ads a Meta (Instagram, Facebook, Threads, WhatsApp)",
+      "title": "Reklamné kampane",
+      "desc": "Tvorba a optimalizácia reklamných kampaní Google Ads a Meta",
+      "internal_title": "Správa kontextovej a cielenej reklamy",
+      "internal_desc": "Tvorba, správa a optimalizácia reklamných kampaní v Google Ads a Meta (Instagram, Facebook, Threads, WhatsApp)",
       "details_points": [
         "Vytvorenie reklamných účtov a kabinetov",
         "Prepojenie firemných zdrojov (Analytika, CRM)",
@@ -65,26 +67,51 @@
         " stanovenie a schválenie reklamného rozpočtu (s rozdelením podľa kanálov) na základe jasného matematického výpočtu.",
         "Vývoj jedinečnej reklamnej stratégie pre konkrétny produkt / službu a firmu v rámci jej trhového segmentu.",
         "Tvorba inzerátov a nastavenie v rámci kabinetov",
-        "A/B testovanie v rámci reklamných skupín",
-        "Tvorba bannerov a reklamných kreatív",
-        "Pripojenie reklamných cieľov (konverzií) a ich ladenie",
-        "Spustenie a kontrola výkonnosti reklamných kampaní."
+        "Identita, tvorba, dizajn a balenie reklamných účtov na kľúč",
+        "Nastavenie a spustenie kampaní Google Ads / Meta Ads",
+        "Integrácia analytických systémov",
+        "Optimalizácia a škálovanie reklamných kampaní"
       ]
     },
     "analytics": {
-      "title": "Nastavenie webovej analytiky",
-      "desc": "Nastavenie predajných lievikov a cieľov.",
-      "details": "Implementácia GA4, GTM a sledovanie konverzií."
+      "title": "Webová analytika",
+      "desc": "Implementácia serverového GTM, Google Analytics 4, Clarity, Yandex Metrica pre presné sledovanie",
+      "details": "Implementácia serverového GTM, Google Analytics 4, Clarity, Yandex Metrica pre presné sledovanie akcií každého návštevníka",
+      "details_points": [
+        "Pripojenie a nastavenie Google Tag Manager (GTM) a Server-Side Tracking pre GA4",
+        "Nastavenie cieľov a udalostí",
+        "Integrácia s CRM a reklamnými účtami",
+        "Nastavenie Clarity / Yandex Metrica"
+      ],
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov."
     },
     "cookies": {
-      "title": "Cookie Banner (Consent Mode V2)",
-      "desc": "Súlad s Google Consent Mode V2.",
-      "details": "Implementácia legálnych cookie bannerov."
+      "title": "Cookie Consent Mode V2",
+      "desc": "Pridanie povinného cookie bannera, ktorý vyžaduje Google",
+      "internal_title": "Cookie Banner (Consent Mode V2)",
+      "internal_desc": "Pridanie povinného cookie bannera, ktorý vyžaduje Google, bez mesačného predplatného (na rozdiel od hotových modulov pre integráciu do kódu vlastných stránok a WordPress pluginov)",
+      "details": "Pridanie povinného cookie bannera, ktorý vyžaduje Google, bez mesačného predplatného (na rozdiel od hotových modulov pre integráciu do kódu vlastných stránok a WordPress pluginov)",
+      "details_points": [
+        "Vytvorenie a nastavenie jedinečného vlastného bannera na súhlas s cookies, ktorý umožňuje vždy spracovávať údaje všetkých návštevníkov pre správne fungovanie analytických a reklamných systémov.",
+        "Integrácia do kódu webu, nastavenie firemného štýlu a farieb bannera.",
+        "Ladenie a kontrolu funkčnosti. Testovanie na 15+ možných prípadoch."
+      ]
     },
     "telegram": {
-      "title": "Vývoj Telegram botov",
-      "desc": "Boty pre spätnú väzbu a správu objednávok.",
-      "details": "Vývoj botov na mieru vrátane admin panelov a integrácií."
+      "title": "Vývoj botov v Pythone",
+      "desc": "Boti na správu dopytov, automatické zverejňovanie inzerátov (bazoš) a spätnú väzbu od značky",
+      "internal_title": "Vývoj automatizačných botov",
+      "internal_desc": "Vytváranie vlastných Python botov na správu dopytov, automatizáciu rutinných procesov a spätnú väzbu od značky",
+      "details": "Vytváranie vlastných Python botov na správu dopytov, automatizáciu rutinných procesov a spätnú väzbu od značky",
+      "details_points": [
+        "Boti pre hromadný auto-posting inzerátov (bazos)",
+        "Vytváranie botov pre hromadné rozosielanie na základe databázy kontaktov",
+        "Boti pre spätnú väzbu a správu dopytov",
+        "Boti na správu slotov v rezervačnom systéme webu",
+        "Boti na parsovanie údajov / sledovateľov konkurentov na vytvorenie cieľového publika",
+        "Ostatné boti na popularizáciu značky a sťaženie života konkurentom"
+      ],
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov."
     }
   },
   "portfolio": {

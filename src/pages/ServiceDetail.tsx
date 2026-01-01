@@ -17,6 +17,9 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
 
   const service = services.find(s => s.id === id);
 
+  const points = t(service?.detailsKey + '_points', { returnObjects: true });
+  const detailsPoints = Array.isArray(points) ? points : [];
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
@@ -41,11 +44,13 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
       />
       <div className="container">
         <button className="back-btn" onClick={() => navigate('/')}>
-          <ArrowLeft size={16} /> {t('common.back', 'Back')}
+          ← {t('common.back')}
         </button>
         
         <div className="detail-content">
-          <h1>{t(service.titleKey)}</h1>
+          <div className="detail-header">
+             <h1 className="detail-title">{t(service.internalTitleKey || service.titleKey)}</h1>
+          </div>
           
           <div className="detail-card">
             {service.id === 'webdev' && (
@@ -57,15 +62,24 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
             {service.id === 'ads' && (
                <img src="/assets/icons/ads-icon.png" alt="Ads" className="service-detail-icon" />
             )}
-            <p className="detail-desc">{t(service.descKey)}</p>
+            {service.id === 'analytics' && (
+               <img src="/assets/icons/analytics-icon.png" alt="Analytics" className="service-detail-icon" />
+            )}
+            {service.id === 'cookies' && (
+               <img src="/assets/icons/cookies-icon.png" alt="Cookies" className="service-detail-icon" />
+            )}
+            {service.id === 'telegram' && (
+               <img src="/assets/icons/telegram-icon.png" alt="Telegram Bots" className="service-detail-icon" />
+            )}
+            <p className="detail-desc">{t(service.internalDescKey || service.descKey)}</p>
             
             <div className="detail-full-info">
               <h3>{t('services.details', 'Details')}</h3>
               
               {/* Check for details list */}
-              {Array.isArray(t(service.detailsKey + '_points', { returnObjects: true })) ? (
+              {detailsPoints.length > 0 ? (
                 <ul className="details-list">
-                  {(t(service.detailsKey + '_points', { returnObjects: true }) as string[]).map((item, index) => (
+                  {detailsPoints.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -73,8 +87,8 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
                 <p>{t(service.detailsKey)}</p>
               )}
 
-              {/* Guarantee Block for WebDev */}
-              {service.id === 'webdev' && (
+              {/* Guarantee Block for WebDev, Analytics, Telegram */}
+              {(service.id === 'webdev' || service.id === 'analytics' || service.id === 'telegram') && (
                 <div className="guarantee-block">
                   <div className="guarantee-icon">
                     <ShieldCheck size={32} />
