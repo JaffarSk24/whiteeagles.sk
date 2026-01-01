@@ -24,6 +24,20 @@
   padding-bottom: 80px;
 }
 
+@media (max-width: 768px) {
+  .portfolio-section,
+  .steps-section,
+  .contacts-section,
+  .services-section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+}
+
 /* Services */
 .services-grid {
   display: grid;
@@ -70,6 +84,18 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .service-card {
+    padding: 24px;
+  }
+  .service-content h3 {
+    font-size: 1.2rem;
+  }
+  .service-image-placeholder {
+    height: 140px;
+  }
+}
+
 .service-price {
   font-weight: 700;
   font-size: 1.1rem;
@@ -106,11 +132,40 @@
   background-color: var(--border-color);
 }
 
-/* Portfolio Grid */
+/* Portfolio Grid - Responsive Carousel */
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 24px; /* Space for scrollbar or visual balance */
+    margin: 0 -20px; /* Counteract container padding */
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar Firefox */
+  }
+  
+  .portfolio-grid::-webkit-scrollbar {
+    display: none; /* Hide scrollbar Chrome/Safari */
+  }
+
+  .portfolio-card {
+    min-width: 280px; /* Fixed width card */
+    max-width: 280px;
+    scroll-snap-align: center;
+  }
+  
+  .portfolio-img {
+    height: 180px;
+  }
 }
 
 .portfolio-card {
@@ -151,6 +206,15 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .portfolio-content {
+    padding: 16px;
+  }
+  .portfolio-content h3 {
+    font-size: 1.15rem;
+  }
 }
 
 .portfolio-content h3 {

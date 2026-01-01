@@ -75,12 +75,23 @@
 }
 
 @media (max-width: 768px) {
+  .service-detail-page {
+    padding-top: calc(var(--header-height) + 20px); /* Reduced gap */
+  }
+
   .detail-content h1 {
-    font-size: 2rem;
+    font-size: 1.75rem; /* Reduced from 2rem */
+    margin-bottom: 20px;
   }
   
   .detail-card {
-    padding: 24px;
+    padding: 20px;
+  }
+
+  .detail-pricing {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
   }
 }
 
