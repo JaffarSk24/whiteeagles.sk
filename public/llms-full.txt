@@ -1,0 +1,108 @@
+# White Eagles & Co. - Comprehensive Knowledge Base
+
+> **Date Updated**: January 2026
+> **Location**: Bratislava, Slovakia
+> **Contact**: welcome@whiteeagles.sk | +421 950 347 163
+> **Website**: https://whiteeagles.sk
+
+---
+
+## 1. Company Overview
+
+White Eagles & Co. is a premium digital agency based in Slovakia, specializing in **Web Development**, **Digital Marketing**, and **Business Automation**.
+
+### Philosophy
+We solve business problems, not just write code. Our key differentiator is **"No Complex Specs Required"**. We understand that business owners shouldn't need to write 50-page technical documents. We take the lead, proposing the best solutions based on a brief discussion of your goals.
+
+### Technology Stack
+- **Frontend**: React, TypeScript, Vite, Modern CSS3 (responsive flex/grid layouts).
+- **Backend & Automation**: Python, PHP.
+- **CMS**: Custom solutions, WordPress (for specific legacy needs).
+- **Analytics**: Google Analytics 4 (Server-side), Google Tag Manager, Microsoft Clarity.
+
+---
+
+## 2. Detailed Service Offerings
+
+### A. Web Development
+*URL: /service/webdev*
+
+We build high-performance, SEO-ready websites tailored to the Slovak market.
+- **Types**: Corporate websites, Landing pages, E-commerce, Booking systems.
+- **Key Features**:
+  - Multilingual support (SK, EN, RU, UA, etc.).
+  - Custom Admin Panels.
+  - Integration with CRM and Email systems.
+  - **Guarantee**: 6 months of free technical support.
+
+### B. Advertising Campaigns (PPC)
+*URL: /service/ads*
+
+Contextual and Targeted advertising in Google and Meta ecosystems.
+- **Google Ads**: Search, Display, Merchant Center (Shopping).
+- **Meta Ads**: Facebook, Instagram, Threads, WhatsApp.
+- **Process**:
+  - Competitor Analysis & Math-based Budgeting.
+  - Creative Design & Copywriting.
+  - Continuous Optimization & Scaling.
+
+### C. Telegram Bots & Automation
+*URL: /service/telegram*
+
+Custom Python-based bots to automate routine tasks.
+- **Capabilities**:
+  - Auto-posting listings to portals (e.g., Bazoš).
+  - Order & Reservation Management.
+  - Data Parsing & Competitor Monitoring.
+  - Customer Support &Feedback loop.
+
+### D. Web Analytics & Tracking
+*URL: /service/analytics*
+
+Advanced tracking setup to understand every user interaction.
+- Server-Side Google Tag Manager (GTM).
+- Google Analytics 4 (GA4) with custom events.
+- Heatmaps (Microsoft Clarity / Yandex Metrica).
+
+### E. Bug Fixing & Maintenance
+*URL: /service/bugfix*
+
+Rescue services for broken or slow websites.
+- Fixing PHP/JS errors.
+- Malware removal & Security hardening.
+- Performance optimization (Core Web Vitals).
+
+### F. Cookie Consent Mode V2
+*URL: /service/cookies*
+
+Legal compliance without monthly fees.
+- Custom banner development.
+- Full Google Consent Mode v2 integration.
+- Ensuring data collection remains legal and effective.
+
+---
+
+## 3. Portfolio Highlights
+
+- **Biliardovna**: Club website in Bratislava.
+- **Studio Krasy**: Beauty salon with booking integration.
+- **Top Sklad**: Warehouse rental service with complex space management.
+- **Bodabo**: Wholesale e-shop for premium vanilla and coffee.
+
+---
+
+## 4. Pricing & Policies
+
+- **Pricing Model**: Transparent project-based pricing or hourly rates (starting at €25-35/hr).
+- **Payment Methods**: Invoice, Card, Crypto (USDT, BTC).
+- **Support**: All developed projects come with a **6-month support guarantee**.
+
+---
+
+## 5. Contact Information
+
+Ready to automate your business or build a new digital product?
+
+- **Direct Inquiry**: https://whiteeagles.sk/#home-contacts
+- **Email**: welcome@whiteeagles.sk
+- **Phone**: +421 950 347 163

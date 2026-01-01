@@ -39,8 +39,9 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
   return (
     <div className="service-detail-page">
       <SEO 
-        title={t(service.titleKey)} 
-        description={t(service.descKey)}
+        title={t(service.seoTitleKey || service.titleKey)} 
+        description={t(service.seoDescKey || service.descKey)}
+        keywords={t(service.seoKeywordsKey || '')}
       />
       <div className="container">
         <button className="back-btn" onClick={() => navigate('/')}>

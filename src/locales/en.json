@@ -21,37 +21,43 @@
     "title": "My Services",
     "order": "Discuss Project",
     "details": "Details",
-    "more_info": "More Info",
+    "more_info": "Read more",
     "webdev": {
       "title": "Web Development",
-      "desc": "Sites from scratch (PHP, Python, JS) or WordPress.",
+      "desc": "Custom websites (PHP, Python, JS) or WordPress solutions.",
       "details": "Details",
       "details_points": [
-        "Definition of business goals and objectives",
-        "Competitor analysis for successful blocks and services. Determination of references.",
+        "Defining business goals and objectives",
+        "Competitor analysis for effective blocks and services. Determining references.",
         "Development and proposal of unique services and tools.",
-        "Creation of a multi-page multilingual website with a control panel, application and feedback forms.",
-        "Making edits and improvements upon agreement with the customer.",
-        "Creation and connection of a Telegram bot for operational management of requests (confirmation / cancellation of booking), making changes to the calendar and slots, as well as managing email notifications to clients.",
-        "Connection of domain / hosting (server) / email sending tool / bot protection and Captcha.",
-        "Creation of a mandatory banner for obtaining consent to process cookies.",
-        "Full SEO setup for ideal indexing in Google and high positions in organic search. Debugging sharing in social networks.",
-        "Creation of accounts and connection of resources: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
+        "Creation of a multi-page multilingual website with a control panel, application forms, and feedback.",
+        "Modifications and refinements upon agreement with the client.",
+        "Creation and connection of a Telegram bot for operational request management (booking confirmation/cancellation), calendar and slot changes, and client email notifications.",
+        "Domain/hosting (server) setup, email sending tools connection, bot protection, and Captcha.",
+        "Creation of a mandatory banner for cookie consent compliance.",
+        "Full SEO setup for ideal Google indexing and high organic ranking. Social media sharing debugging.",
+        "Account creation and resource connection: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
-      "guarantee": "I provide a guarantee of performance and free technical support for 6 months as a gift for all my customers."
+      "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
+      "seo_title": "Web Development in Slovakia | Custom Sites & E-commerce | White Eagles",
+      "seo_desc": "Professional web development in Bratislava and Slovakia. Custom websites, e-shops, and corporate portals. 6-month support guarantee.",
+      "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site"
     },
     "bugfix": {
-      "title": "Bugfix & Features",
-      "desc": "Bug fixing on custom sites (code) and WordPress.",
-      "details": "Troubleshooting, optimization, and adding new functionality.",
+      "title": "Bugfix & Maintenance",
+      "desc": "Fixing errors on custom code (PHP, JS, Python) and WordPress.",
+      "details": "Technical support, speed and functionality optimization.",
       "details_points": [
         "Problem localization and finding solutions with minimal system risks",
         "Installation of additional tools and plugins",
         "Server-side configuration",
         "Website media content management",
-        "Setting up automatic website backups on server + Google Drive",
-        "Conducting tests and fixing minor issues related to the main problem"
-      ]
+        "Setup of automatic site backups on server + Google Drive",
+        "Testing and fixing minor issues accompanying the main problem."
+      ],
+      "seo_title": "Website Bug Fixing & Maintenance | WordPress & PHP | White Eagles",
+      "seo_desc": "Professional website bug fixing and maintenance. PHP, JS, and WordPress error resolution. Speed optimization and security setup.",
+      "seo_keywords": "website bug fix, website maintenance, wordpress support, fix php errors, site speed optimization"
     },
     "ads": {
       "title": "Advertising Campaigns",
@@ -59,59 +65,72 @@
       "internal_title": "Contextual and Targeted Advertising",
       "internal_desc": "Creation, management, and optimization of advertising campaigns in Google Ads and Meta (Instagram, Facebook, Threads, WhatsApp)",
       "details_points": [
+        "Audit of existing advertising accounts",
         "Creation of advertising accounts and cabinets",
-        "Linking company resources (Analytics, CRM)",
-        "Creation of Merchant Center (for e-commerce and online stores)",
-        "Creation, moderation, and filling of the company card on Google Maps",
-        "Analysis of competitors and their advertising activity",
-        "Determination and approval of the advertising budget (broken down by channel) based on clear mathematical calculation.",
-        "Development of a unique advertising strategy for a specific product/service and company within its market niche.",
-        "Creation of ads and configuration within cabinets",
+        "Linking business resources (Analytics, CRM)",
+        "Creation of Merchant Center (for product sites and e-shops)",
+        "Creation, moderation, and filling of the business card on Google Maps",
+        "Competitor analysis and their advertising activity",
+        "Determination and approval of the advertising budget (broken down by channel), based on precise mathematical calculation.",
+        "Development of a unique advertising strategy for a specific product/service, specific company within its market niche.",
+        "Creation of ads and setup within cabinets",
         "Identity, creation, design, and packaging of turnkey advertising accounts",
         "Setup and launch of Google Ads / Meta Ads campaigns",
         "Integration of analytics systems",
         "Optimization and scaling of advertising campaigns"
-      ]
+      ],
+      "seo_title": "Google Ads & Meta Advertising in Slovakia | PPC Services",
+      "seo_desc": "Effective Google Ads and Facebook/Instagram target setup. Client acquisition, budget optimization, sales growth.",
+      "seo_keywords": "google ads slovakia, facebook ads setup, ppc specialist bratislava, instagram promotion, contextual advertising"
     },
     "analytics": {
       "title": "Web Analytics",
-      "desc": "Implementation of server-side GTM, Google Analytics 4, Clarity, Yandex Metrica for precise tracking",
-      "details": "Implementation of server-side GTM, Google Analytics 4, Clarity, Yandex Metrica for precise tracking of each visitor's actions",
+      "desc": "Implementation of Server-Side GTM, GA4, Clarity, Yandex Metrica for precise tracking",
+      "details": "Implementation of Server-Side GTM, GA4, Clarity, Yandex Metrica for precise tracking of every visitor's actions",
       "details_points": [
         "Connection and setup of Google Tag Manager (GTM) and Server-Side Tracking for GA4",
-        "Setup of goals and events",
-        "Integration with CRM and advertising accounts",
-        "Setup of Clarity / Yandex Metrica"
+        "Goal and event setup",
+        "Integration with CRM and ad cabinets",
+        "Clarity / Yandex Metrica setup"
       ],
-      "guarantee": "I provide a guarantee of performance and free technical support for 6 months as a gift for all my customers."
+      "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
+      "seo_title": "Web Analytics Services GA4 & GTM | Conversion Tracking",
+      "seo_desc": "Professional setup of Google Analytics 4, GTM, and Server-Side tracking. Accurate data for your business growth.",
+      "seo_keywords": "web analytics, ga4 setup, google tag manager, server-side gtm, website tracking, conversion tracking"
     },
     "cookies": {
       "title": "Cookie Consent Mode V2",
-      "desc": "Adding the mandatory cookie banner required by Google",
-      "internal_title": "Cookie Banner (Consent Mode V2)",
-      "internal_desc": "Adding the mandatory cookie banner required by Google without a monthly subscription (unlike ready-made modules for integration into custom site code and WordPress plugins)",
-      "details": "Adding the mandatory cookie banner required by Google without a monthly subscription (unlike ready-made modules for integration into custom site code and WordPress plugins)",
+      "desc": "Adding mandatory cookie banner required by Google",
+      "internal_title": "Cookie Consent Mode V2",
+      "internal_desc": "Adding mandatory cookie banner required by Google without monthly subscriptions (unlike ready-made modules for custom code sites and WordPress plugins)",
+      "details": "Adding mandatory cookie banner required by Google without monthly subscriptions (unlike ready-made modules for custom code sites and WordPress plugins)",
       "details_points": [
-        "Creation and configuration of a unique custom cookie consent banner that allows always processing data of all visitors for correct operation of analytical and advertising systems.",
-        "Integration into the website code, setting up corporate style and banner colors.",
-        "Debugging and performance verification. Testing for 15+ possible cases."
-      ]
+        "Creation and setup of a unique custom cookie consent banner enabling data processing for all visitors for correct analytics/ad system operation.",
+        "Integration into site code, corporate style/color setup.",
+        "Debugging and verification. Testing 15+ possible use cases."
+      ],
+      "seo_title": "Cookie Banner Consent Mode v2 Setup | GDPR Compliance",
+      "seo_desc": "Installation and setup of Cookie banner with Google Consent Mode v2 support. GDPR compliance without monthly plugin fees.",
+      "seo_keywords": "cookie banner, consent mode v2, gdpr slovakia, cookie setup, google consent mode"
     },
     "telegram": {
       "title": "Python Bot Development",
-      "desc": "Bots for managing inquiries, auto-posting ads (bazoš), and brand feedback",
+      "desc": "Bots for request management, ads auto-posting (bazoš) and brand feedback",
       "internal_title": "Automation Bot Development",
-      "internal_desc": "Creating custom Python bots for inquiry management, routine process automation, and brand feedback",
-      "details": "Creating custom Python bots for inquiry management, routine process automation, and brand feedback",
+      "internal_desc": "Creation of custom Python bots for request management, routine process automation, and brand feedback",
+      "details": "Creation of custom Python bots for request management, routine process automation, and brand feedback",
       "details_points": [
-        "Bots for mass auto-posting of ads (bazos)",
-        "Creating bots for mailing lists based on contact databases",
-        "Feedback and inquiry management bots",
-        "Bots for managing slots in the website reservation system",
-        "Bots for parsing competitor data/followers to create targeting audiences",
-        "Other bots for brand popularization and complicating life for competitors"
+        "Bots for mass ad auto-posting (bazos)",
+        "Creation of bots for contact list mailings",
+        "Feedback and request management bots",
+        "Bots for managing slots in reservation systems",
+        "Bots for parsing data / competitor followers to create targeting audiences",
+        "Other bots for brand promotion and complicating competitors' lives"
       ],
-      "guarantee": "I provide a guarantee of performance and free technical support for 6 months as a gift for all my customers."
+      "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
+      "seo_title": "Python Telegram Bot Development | Business Automation",
+      "seo_desc": "Advanced Python Telegram bot development. Auto-posting (Bazoš), request management, data parsing, and automation.",
+      "seo_keywords": "telegram bot development, python bot, business automation, bazos bot, data parsing, custom chatbots"
     }
   },
   "portfolio": {
@@ -141,6 +160,19 @@
     "payment_bitcoin": "Bitcoin",
     "payment_rub": "Rubles",
     "payment_uah": "Hryvnias"
+  },
+  "popup": {
+    "title": "Don't leave just yet!",
+    "intro": "Why work with me?",
+    "list": [
+      "Wide range of services",
+      "No detailed specs required",
+      "Flexible payment options",
+      "Record-breaking delivery times",
+      "High-class specialist (full-time on your project)"
+    ],
+    "outro": "Don't miss this opportunity! Click the button below, and I'll contact you immediately.",
+    "button": "Discuss Project"
   },
   "clients": {
     "title": "I worked with brands"

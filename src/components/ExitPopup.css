@@ -1,0 +1,153 @@
+.exit-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+  padding: 1rem;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+.exit-popup-content {
+  position: relative;
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(20px);
+  animation: slideUp 0.4s 0.1s forwards;
+  opacity: 0;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.exit-popup-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64748b;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exit-popup-close:hover {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.exit-popup-icon-wrapper {
+  display: inline-flex;
+  background-color: #fff7ed; /* orange-50 */
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.exit-popup-icon {
+  color: #ff6b35; /* Primary Orange */
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.exit-popup-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.exit-popup-text-intro {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.exit-popup-list {
+  text-align: left;
+  margin: 0 auto 1.5rem;
+  padding-left: 0;
+  max-width: 400px;
+  list-style: none; /* Ensure no default bullets */
+}
+
+.exit-popup-list li {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.exit-popup-list li::before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff6b35; /* Primary Orange or var(--accent-color) if available */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.exit-popup-text-outro {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.exit-popup-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  /* Use explicit variable that exists */
+  background-color: #f97316; 
+  background-color: var(--accent-color, #f97316);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(249, 115, 22, 0.2);
+}
+
+.exit-popup-btn:hover {
+  background-color: #ea580c; /* Darker orange */
+  transform: translateY(-1px);
+  box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.3);
+}

@@ -9,6 +9,9 @@ export interface Service {
   guaranteeKey?: string;
   internalTitleKey?: string;
   internalDescKey?: string;
+  seoTitleKey?: string;
+  seoDescKey?: string;
+  seoKeywordsKey?: string;
 }
 
 export const services: Service[] = [
@@ -20,7 +23,10 @@ export const services: Service[] = [
     priceMin: 4000,
     image: '/assets/services/webdev.png',
     detailsKey: 'services.webdev.details',
-    guaranteeKey: 'services.webdev.guarantee'
+    guaranteeKey: 'services.webdev.guarantee',
+    seoTitleKey: 'services.webdev.seo_title',
+    seoDescKey: 'services.webdev.seo_desc',
+    seoKeywordsKey: 'services.webdev.seo_keywords'
   },
   {
     id: 'bugfix',
@@ -28,7 +34,10 @@ export const services: Service[] = [
     descKey: 'services.bugfix.desc',
     priceRate: 35,
     image: '/assets/services/bugfix.png',
-    detailsKey: 'services.bugfix.details'
+    detailsKey: 'services.bugfix.details',
+    seoTitleKey: 'services.bugfix.seo_title',
+    seoDescKey: 'services.bugfix.seo_desc',
+    seoKeywordsKey: 'services.bugfix.seo_keywords'
   },
   {
     id: 'ads',
@@ -39,7 +48,10 @@ export const services: Service[] = [
     image: '/assets/services/ads.png',
     detailsKey: 'services.ads.details',
     internalTitleKey: 'services.ads.internal_title',
-    internalDescKey: 'services.ads.internal_desc'
+    internalDescKey: 'services.ads.internal_desc',
+    seoTitleKey: 'services.ads.seo_title',
+    seoDescKey: 'services.ads.seo_desc',
+    seoKeywordsKey: 'services.ads.seo_keywords'
   },
   {
     id: 'analytics',
@@ -49,7 +61,10 @@ export const services: Service[] = [
     priceMin: 500,
     image: '/assets/services/analytics.png',
     detailsKey: 'services.analytics.details',
-    guaranteeKey: 'services.analytics.guarantee'
+    guaranteeKey: 'services.analytics.guarantee',
+    seoTitleKey: 'services.analytics.seo_title',
+    seoDescKey: 'services.analytics.seo_desc',
+    seoKeywordsKey: 'services.analytics.seo_keywords'
   },
   {
     id: 'cookies',
@@ -60,7 +75,10 @@ export const services: Service[] = [
     image: '/assets/services/cookies.png',
     detailsKey: 'services.cookies.details',
     internalTitleKey: 'services.cookies.internal_title',
-    internalDescKey: 'services.cookies.internal_desc'
+    internalDescKey: 'services.cookies.internal_desc',
+    seoTitleKey: 'services.cookies.seo_title',
+    seoDescKey: 'services.cookies.seo_desc',
+    seoKeywordsKey: 'services.cookies.seo_keywords'
   },
   {
     id: 'telegram',
@@ -72,6 +90,9 @@ export const services: Service[] = [
     detailsKey: 'services.telegram.details',
     guaranteeKey: 'services.telegram.guarantee',
     internalTitleKey: 'services.telegram.internal_title',
-    internalDescKey: 'services.telegram.internal_desc'
+    internalDescKey: 'services.telegram.internal_desc',
+    seoTitleKey: 'services.telegram.seo_title',
+    seoDescKey: 'services.telegram.seo_desc',
+    seoKeywordsKey: 'services.telegram.seo_keywords'
   }
 ];

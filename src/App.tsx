@@ -8,6 +8,7 @@ import { ServiceDetail } from './pages/ServiceDetail';
 import { Terms } from './pages/legal/Terms';
 import { Privacy } from './pages/legal/Privacy';
 import { CookiesPage } from './pages/legal/CookiesPage';
+import { ExitPopup } from './components/ExitPopup';
 import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             onClose={() => setIsOrderFormOpen(false)}
             initialService={selectedService}
           />
+          <ExitPopup onOrderClick={() => handleOrderClick()} />
         </div>
       </Router>
     </HelmetProvider>

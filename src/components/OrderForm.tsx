@@ -79,6 +79,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
       if (response.ok) {
         setStatus('success');
         setFormData({ name: '', email: '', phone: '', service: '', message: '' });
+        sessionStorage.setItem('order_submitted', 'true');
       } else {
         setStatus('error');
       }

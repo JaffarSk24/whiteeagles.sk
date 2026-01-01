@@ -38,7 +38,10 @@
         "Kompletné SEO nastavenie pre ideálnu indexáciu v Google a vysoké pozície v organickom vyhľadávaní. Ladenie zdieľania na sociálnych sieťach.",
         "Vytvorenie účtov a pripojenie zdrojov: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
-      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov."
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
+      "seo_title": "Tvorba web stránok na mieru | E-shopy a portály | White Eagles",
+      "seo_desc": "Profesionálna tvorba web stránok v Bratislave a na Slovensku. Webstránky na mieru, e-shopy a firemné portály. Záruka a podpora 6 mesiacov.",
+      "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava"
     },
     "bugfix": {
       "title": "Oprava chýb a úpravy",
@@ -51,7 +54,10 @@
         "Správa mediálneho obsahu webu",
         "Nastavenie automatického zálohovania webu na serveri + Google Drive",
         "Vykonávanie testov a odstraňovanie drobných chýb spojených s hlavným problémom"
-      ]
+      ],
+      "seo_title": "Oprava a údržba web stránok | WordPress podpora | White Eagles",
+      "seo_desc": "Oprava chýb na webstránkach a technická podpora. PHP, JS, WordPress servis. Zrýchlenie webu a zabezpečenie.",
+      "seo_keywords": "oprava web stránok, údržba webu, wordpress podpora, zrýchlenie webu, odvírenie stránky, technická správa"
     },
     "ads": {
       "title": "Reklamné kampane",
@@ -71,7 +77,10 @@
         "Nastavenie a spustenie kampaní Google Ads / Meta Ads",
         "Integrácia analytických systémov",
         "Optimalizácia a škálovanie reklamných kampaní"
-      ]
+      ],
+      "seo_title": "Google Ads a Meta reklama | Správa PPC kampaní | White Eagles",
+      "seo_desc": "Efektívne nastavenie Google Ads a reklamy na Facebooku/Instagrame. Získavanie klientov, optimalizácia rozpočtu a rast predaja.",
+      "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní"
     },
     "analytics": {
       "title": "Webová analytika",
@@ -83,7 +92,10 @@
         "Integrácia s CRM a reklamnými účtami",
         "Nastavenie Clarity / Yandex Metrica"
       ],
-      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov."
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
+      "seo_title": "Nastavenie webovej analytiky GA4 a GTM | Meranie konverzií",
+      "seo_desc": "Profesionálne nastavenie Google Analytics 4, GTM a serverového merania. Presné dáta pre rast vášho podnikania.",
+      "seo_keywords": "webová analytika, nastavenie ga4, google tag manager, server-side tracking, meranie konverzií, analýza návštevnosti"
     },
     "cookies": {
       "title": "Cookie Consent Mode V2",
@@ -95,7 +107,10 @@
         "Vytvorenie a nastavenie jedinečného vlastného bannera na súhlas s cookies, ktorý umožňuje vždy spracovávať údaje všetkých návštevníkov pre správne fungovanie analytických a reklamných systémov.",
         "Integrácia do kódu webu, nastavenie firemného štýlu a farieb bannera.",
         "Ladenie a kontrolu funkčnosti. Testovanie na 15+ možných prípadoch."
-      ]
+      ],
+      "seo_title": "Nastavenie Cookie lišty (Consent Mode v2) | GDPR súhlas",
+      "seo_desc": "Inštalácia a nastavenie Cookie lišty s podporou Google Consent Mode v2. Splnenie GDPR bez mesačných poplatkov za pluginy.",
+      "seo_keywords": "cookie lišta, consent mode v2, gdpr slovensko, nastavenie cookies, súhlas so spracovaním údajov"
     },
     "telegram": {
       "title": "Vývoj botov v Pythone",
@@ -111,7 +126,10 @@
         "Boti na parsovanie údajov / sledovateľov konkurentov na vytvorenie cieľového publika",
         "Ostatné boti na popularizáciu značky a sťaženie života konkurentom"
       ],
-      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov."
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
+      "seo_title": "Vývoj Telegram botov na Python | Automatizácia procesov",
+      "seo_desc": "Tvorba pokročilých Telegram botov v Pythone. Auto-posting (Bazoš), správa dopytov, parsovanie dát a automatizácia rutiny.",
+      "seo_keywords": "telegram bot, python programovanie, automatizácia firmy, bot pre bazoš, parsovanie dát, chatbot na mieru"
     }
   },
   "portfolio": {
@@ -241,9 +259,23 @@
     "management_text": "Súbory cookie môžete spravovať alebo zakázať v nastaveniach vášho prehliadača."
   },
   "footer": {
-    "company_desc": "Marketing a vývoj",
-    "terms": "Obchodné podmienky",
+    "company_desc": "Reklama a vývoj",
+    "terms": "Podmienky",
     "privacy": "Ochrana osobných údajov",
     "cookies": "Cookies"
+  },
+  "popup": {
+    "title": "Neodchádzajte tak skoro!",
+    "intro": "Výhody spolupráce so mnou:",
+    "list": [
+      "Široká ponuka služieb",
+      "Bez podrobných technických špecifikácií",
+      "Flexibilné možnosti platby",
+      "Rekordne rýchle dodanie",
+      "Špičkový špecialista (full-time na vašom projekte)"
+    ],
+    "outro": "Odoslaním žiadosti o konzultáciu teraz získate prioritnú podporu. Takúto šancu si nemôžete nechať ujsť! Kliknite na tlačidlo, zanechajte správu a ja sa vám okamžite ozvem.",
+    "button": "Prekonzultovať projekt"
   }
 }
+
