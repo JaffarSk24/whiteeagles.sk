@@ -34,4 +34,9 @@ jobs:
           port: 22
           local-dir: ./dist/
           server-dir: ${{ secrets.REMOTE_TARGET }}
-          dangerous-clean-slate: true # Warning: Deletes files on server not in dist/
+          dangerous-clean-slate: true
+          exclude: |
+            **/.git*
+            **/node_modules/**
+            api/config.php
+            public/api/config.php
