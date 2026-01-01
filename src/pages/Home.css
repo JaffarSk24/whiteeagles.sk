@@ -182,6 +182,11 @@
   margin-bottom: 60px;
 }
 
+.greeting-text {
+  font-size: 1.2rem; /* Slightly larger than standard text */
+  margin-bottom: 24px;
+}
+
 .about-image img {
   width: 100%;
   border-radius: 20px;

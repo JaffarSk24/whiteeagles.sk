@@ -60,7 +60,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
             </div>
             <div className="about-content">
               <div className="about-text">
-                <p><strong>{t('about.greeting')} {t('about.name_intro')}</strong></p>
+                <p className="greeting-text"><strong>{t('about.greeting')} {t('about.name_intro')}</strong></p>
                 <p>{t('about.years_sk')}</p>
                 <p>{t('about.knowledge')}</p>
                 
