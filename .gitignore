@@ -117,3 +117,4 @@ dist
 
 # Project Specific
 public/api/config.php
+.DS_Store
