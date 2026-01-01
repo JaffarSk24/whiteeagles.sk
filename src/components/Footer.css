@@ -52,6 +52,15 @@
   margin-left: 6px;
 }
 
+@media (max-width: 900px) {
+  .company-desc-inline {
+    display: block; /* Force new line */
+    margin-left: 0;
+    margin-top: 4px;
+    font-size: 0.95rem;
+  }
+}
+
 .company-details {
   font-size: 0.85em;
   color: var(--text-secondary);

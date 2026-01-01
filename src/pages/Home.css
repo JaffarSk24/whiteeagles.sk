@@ -353,6 +353,15 @@
   gap: 30px;
 }
 
+@media (max-width: 768px) {
+  .payment-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+}
+
 .payment-item {
   display: flex;
   flex-direction: column;
