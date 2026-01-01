@@ -145,6 +145,7 @@ $templates = [
         'price_label' => "Price",
         'message_label' => "Message",
         'signature_text' => "Best regards,",
+        'company_name' => "White Eagles & Co. s.r.o."
     ],
     'sk' => [
         'admin_subject' => "Nový dopyt od ",
@@ -160,6 +161,7 @@ $templates = [
         'price_label' => "Cena",
         'message_label' => "Správa",
         'signature_text' => "S pozdravom,",
+        'company_name' => "White Eagles & Co. s.r.o."
     ],
     'ru' => [
         'admin_subject' => "Новая заявка от ",
@@ -175,6 +177,7 @@ $templates = [
         'price_label' => "Цена",
         'message_label' => "Сообщение",
         'signature_text' => "С уважением,",
+        'company_name' => "White Eagles & Co. s.r.o."
     ]
 ];
 
@@ -193,6 +196,8 @@ function buildHtmlEmail($t, $data, $serviceName, $price)
     $siteUrl = "https://whiteeagles.sk";
     $phoneDisplay = "+421 949 0000 77";
     $phoneLink = "tel:+421949000077";
+
+    file_put_contents('php_debug.log', date('Y-m-d H:i:s') . " - Payload: " . file_get_contents("php://input") . "\n", FILE_APPEND);
 
     $html = "
     <!DOCTYPE html>
@@ -262,7 +267,7 @@ function buildHtmlEmail($t, $data, $serviceName, $price)
 
                                 <!-- Signature -->
                                 <div style='border-top: 1px solid #e5e7eb; padding-top: 30px; margin-top: 30px;'>
-                                    <p style='margin: 0 0 16px 0; color: #4b5563;'>{$t['signature_text']}</p>
+                                    <p style='margin: 0 0 16px 0; color: #4b5563;'>{$t['signature_text']} <b>{$t['company_name']}</b></p>
                                     
                                     <!-- Horizontal Logo -->
                                     <div style='margin-bottom: 20px;'>
