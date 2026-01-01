@@ -56,9 +56,9 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
           <a onClick={() => scrollToSection('contacts')}>{t('header.contacts', 'Contacts')}</a>
           
           <div className="lang-switcher">
-            <button className={i18n.language?.split('-')[0] === 'en' ? 'active' : ''} onClick={() => changeLanguage('en')}>EN</button>
-            <button className={(i18n.language?.split('-')[0] === 'sk' || !i18n.language) ? 'active' : ''} onClick={() => changeLanguage('sk')}>SK</button>
-            <button className={i18n.language?.split('-')[0] === 'ru' ? 'active' : ''} onClick={() => changeLanguage('ru')}>RU</button>
+            <button className={(i18n.language === 'sk' || !i18n.language || i18n.language.startsWith('sk')) ? 'active' : ''} onClick={() => changeLanguage('sk')}>SK</button>
+            <button className={i18n.language?.startsWith('ru') ? 'active' : ''} onClick={() => changeLanguage('ru')}>RU</button>
+            <button className={i18n.language?.startsWith('en') ? 'active' : ''} onClick={() => changeLanguage('en')}>EN</button>
           </div>
         </nav>
 

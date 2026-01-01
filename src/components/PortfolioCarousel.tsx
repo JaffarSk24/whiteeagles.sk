@@ -7,10 +7,28 @@ import './PortfolioCarousel.css';
 export const PortfolioCarousel: React.FC = () => {
   const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [itemsPerPage, setItemsPerPage] = useState(3);
 
-  // Extend portfolio to handle the "wrap around" visual if we show 3 items
-  // We append the first 2 items to the end so when we are at the last index, we see [Last, First, Second]
-  const extendedPortfolio = [...portfolio, ...portfolio.slice(0, 2)];
+  React.useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 600) {
+        setItemsPerPage(1);
+      } else if (window.innerWidth <= 900) {
+        setItemsPerPage(2);
+      } else {
+        setItemsPerPage(3);
+      }
+    };
+
+    handleResize(); // Set initial
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Extend portfolio to prevent blank spaces at the end
+  // We accept that this simple implementation restarts at 0 when reached end, 
+  // or we can just scroll back. The previous logic had a modulo wrap.
+  const extendedPortfolio = [...portfolio, ...portfolio.slice(0, itemsPerPage - 1)];
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % portfolio.length);
@@ -29,7 +47,7 @@ export const PortfolioCarousel: React.FC = () => {
       <div className="portfolio-carousel-container">
         <div 
           className="portfolio-track"
-          style={{ transform: `translateX(-${currentIndex * (100 / 3)}%)` }}
+          style={{ transform: `translateX(-${currentIndex * (100 / itemsPerPage)}%)` }}
         >
           {extendedPortfolio.map((item, index) => (
             <div key={`${item.id}-${index}`} className="portfolio-slide">
@@ -54,8 +72,6 @@ export const PortfolioCarousel: React.FC = () => {
       <button className="carousel-nav-btn next" onClick={nextSlide} aria-label="Next Project">
         <ChevronRight size={48} strokeWidth={1} />
       </button>
-
-      {/* Indicators if needed, but user didn't ask for them specifically, better remove to keep it clean 'stylish' or keep minimalist */}
     </div>
   );
 };

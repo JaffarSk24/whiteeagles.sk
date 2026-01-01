@@ -62,3 +62,13 @@
         transform: translateX(-50%);
     }
 }
+
+@media (max-width: 768px) {
+    .client-logo-img {
+        height: 100px;
+        margin: 0 20px;
+    }
+    .carousel-track {
+        gap: 20px;
+    }
+}

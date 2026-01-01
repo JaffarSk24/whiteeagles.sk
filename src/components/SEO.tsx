@@ -6,34 +6,68 @@ import { useLocation } from 'react-router-dom';
 interface SEOProps {
   title?: string;
   description?: string;
+  keywords?: string;
+  image?: string;
+  type?: string;
 }
 
-export const SEO: React.FC<SEOProps> = ({ title, description }) => {
+export const SEO: React.FC<SEOProps> = ({ 
+  title, 
+  description, 
+  keywords,
+  image = '/assets/white-eagles-logo-white.png', // Default OG Image
+  type = 'website'
+}) => {
   const { i18n } = useTranslation();
   const location = useLocation();
+  const lang = i18n.language ? i18n.language.split('-')[0] : 'sk';
   
   const siteUrl = 'https://whiteeagles.sk';
-  const currentUrl = `${siteUrl}${location.pathname}`;
+  // Construct canonical URL based on current language
+  // SK is default (root), others use query param
+  const canonicalUrl = lang === 'sk' 
+    ? `${siteUrl}${location.pathname}`.replace(/\/$/, '') 
+    : `${siteUrl}${location.pathname}?lng=${lang}`.replace(/\/$/, '');
+
   const displayTitle = title ? `${title} | White Eagles & Co.` : 'White Eagles & Co. - Digital Services';
   const displayDesc = description || 'Professional web development and marketing services in Slovakia.';
+  const displayKeywords = keywords || 'web development, marketing, slovakia, digital agency, seo, ppc, social media';
 
   return (
     <Helmet>
+      {/* Basic Meta Tags */}
       <title>{displayTitle}</title>
       <meta name="description" content={displayDesc} />
-      <html lang={i18n.language} />
+      <meta name="keywords" content={displayKeywords} />
+      <html lang={lang} />
       
       {/* Canonical */}
-      <link rel="canonical" href={currentUrl} />
+      <link rel="canonical" href={canonicalUrl} />
 
-      {/* Alternates - Assuming simplified structure where structure is same for all languages */}
-      {/* In a real scenario with different paths per lang, this needs to be mapped. 
-          Here we assume content is dynamic but URL is same, language is state-based or query/path based.
-          Note: React I18n often uses same URL or lang subpaths. 
-          If user wants SEO indexable alternates, we usually need /en/, /sk/, /ru/ routes.
-          Current implementation is Client Side specific. To make it proper SEO indexable with alternates, 
-          we usually need separate routes. For now, I'll just set alternates to home if on home.
-      */}
+      {/* Hreflang Tags for SEO Indexing */}
+      <link rel="alternate" hrefLang="sk" href={`${siteUrl}${location.pathname}`} />
+      <link rel="alternate" hrefLang="en" href={`${siteUrl}${location.pathname}?lng=en`} />
+      <link rel="alternate" hrefLang="ru" href={`${siteUrl}${location.pathname}?lng=ru`} />
+      <link rel="alternate" hrefLang="x-default" href={`${siteUrl}${location.pathname}`} />
+
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content={type} />
+      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:title" content={displayTitle} />
+      <meta property="og:description" content={displayDesc} />
+      <meta property="og:image" content={`${siteUrl}${image}`} />
+      <meta property="og:site_name" content="White Eagles & Co." />
+      <meta property="og:locale" content={lang === 'en' ? 'en_US' : lang === 'ru' ? 'ru_RU' : 'sk_SK'} />
+      {lang !== 'en' && <meta property="og:locale:alternate" content="en_US" />}
+      {lang !== 'sk' && <meta property="og:locale:alternate" content="sk_SK" />}
+      {lang !== 'ru' && <meta property="og:locale:alternate" content="ru_RU" />}
+
+      {/* Twitter */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content={canonicalUrl} />
+      <meta property="twitter:title" content={displayTitle} />
+      <meta property="twitter:description" content={displayDesc} />
+      <meta property="twitter:image" content={`${siteUrl}${image}`} />
     </Helmet>
   );
 };

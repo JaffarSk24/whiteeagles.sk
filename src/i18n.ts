@@ -14,12 +14,13 @@ i18n
       sk: { translation: skCalls },
       ru: { translation: ruCalls },
     },
+    supportedLngs: ["sk", "en", "ru"],
     fallbackLng: "sk", // Default to Slovak based on user context
     interpolation: {
       escapeValue: false,
     },
     detection: {
-      order: ["navigator", "htmlTag", "path", "subdomain"],
+      order: ["querystring", "navigator", "htmlTag", "path", "subdomain"],
       caches: ["localStorage"],
     },
   });

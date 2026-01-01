@@ -18,7 +18,11 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
 
   return (
     <div className="home-page">
-      <SEO />
+      <SEO 
+        title={t('home_seo.title')}
+        description={t('home_seo.description')}
+        keywords={t('home_seo.keywords')}
+      />
       {/* Services Section */}
       <section id="services" className="services-section">
         <div className="container">
