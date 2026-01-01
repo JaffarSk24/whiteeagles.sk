@@ -68,10 +68,17 @@
 
 .lang-switcher button {
   background: transparent;
+  border: none;
   color: var(--text-secondary);
   font-size: 0.85rem;
   font-weight: 600;
   padding: 4px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.lang-switcher button:hover {
+  color: var(--accent-color);
 }
 
 .lang-switcher button.active {

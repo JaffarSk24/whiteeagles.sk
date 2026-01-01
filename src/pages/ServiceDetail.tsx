@@ -67,7 +67,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
               )}
             </div>
 
-            <button className="btn btn-primary btn-lg" onClick={() => onOrderClick(t(service.titleKey))}>
+            <button className="btn btn-primary btn-lg" onClick={() => onOrderClick(service.id)}>
               {t('services.order', 'Order This Service')}
             </button>
           </div>

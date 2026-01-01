@@ -49,16 +49,16 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
         </div>
 
         <nav className={`nav-links ${isMobileMenuOpen ? 'nav-active' : ''}`}>
-          <a onClick={() => scrollToSection('services')}>{t('nav.services', 'Services')}</a>
-          <a onClick={() => scrollToSection('portfolio')}>{t('nav.portfolio', 'Portfolio')}</a>
-          <a onClick={() => scrollToSection('about')}>{t('nav.about', 'About')}</a>
-          <a onClick={() => scrollToSection('steps')}>{t('nav.steps', 'Process')}</a>
-          <a onClick={() => scrollToSection('contacts')}>{t('nav.contacts', 'Contacts')}</a>
+          <a onClick={() => scrollToSection('services')}>{t('header.services', 'Services')}</a>
+          <a onClick={() => scrollToSection('portfolio')}>{t('header.portfolio', 'Portfolio')}</a>
+          <a onClick={() => scrollToSection('about')}>{t('header.about', 'About')}</a>
+          <a onClick={() => scrollToSection('steps')}>{t('header.process', 'Process')}</a>
+          <a onClick={() => scrollToSection('contacts')}>{t('header.contacts', 'Contacts')}</a>
           
           <div className="lang-switcher">
-            <button className={i18n.language === 'en' ? 'active' : ''} onClick={() => changeLanguage('en')}>EN</button>
-            <button className={i18n.language === 'sk' ? 'active' : ''} onClick={() => changeLanguage('sk')}>SK</button>
-            <button className={i18n.language === 'ru' ? 'active' : ''} onClick={() => changeLanguage('ru')}>RU</button>
+            <button className={i18n.language?.split('-')[0] === 'en' ? 'active' : ''} onClick={() => changeLanguage('en')}>EN</button>
+            <button className={(i18n.language?.split('-')[0] === 'sk' || !i18n.language) ? 'active' : ''} onClick={() => changeLanguage('sk')}>SK</button>
+            <button className={i18n.language?.split('-')[0] === 'ru' ? 'active' : ''} onClick={() => changeLanguage('ru')}>RU</button>
           </div>
         </nav>
 

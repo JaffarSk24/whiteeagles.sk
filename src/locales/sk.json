@@ -62,8 +62,15 @@
     "name_intro": "Volám sa Kirill Mosin.",
     "years_sk": "Žijem na Slovensku už viac ako 6 rokov a dokonale som spoznal miestny trh a jeho špecifiká.",
     "knowledge": "Presne viem, aký digitálny produkt vytvoriť a ako ho propagovať pre maximálny úspech vášho podnikania.",
-    "pride_title": "Výborný výsledok bez podrobného TZ",
-    "pride_desc": "Skúsenosti s prácou s freelancermi na strane podniku mi umožnili identifikovať hlavnú bolesť spolupráce: veľké množstvo času stráveného manažmentom spoločnosti pri písaní podrobného technického zadania na opis všetkých obchodných procesov a očakávaní od webovej stránky. Nikdy od klienta nepožadujem zložité TZ a sám navrhnem najlepšie riešenie na schválenie."
+    "pride_title": "Výborný výsledok bez podrobných technických špecifikácií",
+    "pride_desc": "Práca s freelancermi vo firme mi umožnila identifikovať hlavné ťažkosti, ktoré sa objavujú v spolupráci: veľké množstvo času stráveného manažmentom spoločnosti pri písaní podrobného technického zadania na opis všetkých obchodných procesov a očakávaní od webovej stránky. Od klienta nikdy nežiadam zložitú technickú špecifikáciu a sám poskytnem najvhodnejšie riešenie na schválenie.",
+    "payment_title": "Flexibilné možnosti platby",
+    "payment_invoice": "Na faktúru",
+    "payment_card": "Kreditnou kartou",
+    "payment_usdt": "V USDT",
+    "payment_bitcoin": "V Bitcoin",
+    "payment_rub": "V rubľoch",
+    "payment_uah": "V hrivnách"
   },
   "clients": {
     "title": "Pracoval som so značkami"
@@ -82,11 +89,35 @@
   },
   "contacts": {
     "title": "Kontakty",
-    "address": "Bratislava, Slovensko"
+    "address": "Holíčska 7, Bratislava",
+    "company_label": "Spoločnosť",
+    "office_label": "Kancelária",
+    "email_label": "Email",
+    "phone_label": "Telefón"
   },
   "common": {
     "hour": "hod",
     "from": "od",
-    "visit": "Navštíviť stránku"
+    "visit": "Navštíviť stránku",
+    "optional": "nepovinné"
+  },
+  "order": {
+    "title": "Objednať službu",
+    "success": "Ďakujeme! Čoskoro vás budeme kontaktovať.",
+    "name": "Meno",
+    "email": "Email",
+    "service": "Služba",
+    "message": "Správa",
+    "phone": "Telefón",
+    "name_placeholder": "Ján Novák",
+    "email_placeholder": "example@gmail.com",
+    "phone_placeholder": "+421 123 456 789",
+    "validation_error": "Vyplňte prosím všetky povinné polia.",
+    "email_error": "Neplatný formát e-mailu",
+    "phone_error": "Neplatný formát telefónneho čísla",
+    "sending": "Odosielanie...",
+    "submit": "Odoslať žiadosť",
+    "error": "Niečo sa pokazilo. Skúste to znova.",
+    "privacy": "Odoslaním súhlasíte so spracovaním osobných údajov."
   }
 }

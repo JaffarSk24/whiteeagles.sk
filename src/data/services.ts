@@ -15,6 +15,7 @@ export const services: Service[] = [
     descKey: 'services.webdev.desc',
     priceRate: 35,
     priceMin: 4000,
+    image: '/assets/services/webdev.png',
     detailsKey: 'services.webdev.details'
   },
   {
@@ -22,6 +23,7 @@ export const services: Service[] = [
     titleKey: 'services.bugfix.title',
     descKey: 'services.bugfix.desc',
     priceRate: 35,
+    image: '/assets/services/bugfix.png',
     detailsKey: 'services.bugfix.details'
   },
   {
@@ -30,6 +32,7 @@ export const services: Service[] = [
     descKey: 'services.ads.desc',
     priceRate: 25,
     priceMin: 1000,
+    image: '/assets/services/ads.png',
     detailsKey: 'services.ads.details'
   },
   {
@@ -38,6 +41,7 @@ export const services: Service[] = [
     descKey: 'services.analytics.desc',
     priceRate: 25,
     priceMin: 500,
+    image: '/assets/services/analytics.png',
     detailsKey: 'services.analytics.details'
   },
   {
@@ -46,6 +50,7 @@ export const services: Service[] = [
     descKey: 'services.cookies.desc',
     priceRate: 25,
     priceMin: 200,
+    image: '/assets/services/cookies.png',
     detailsKey: 'services.cookies.details'
   },
   {
@@ -54,6 +59,7 @@ export const services: Service[] = [
     descKey: 'services.telegram.desc',
     priceRate: 25,
     priceMin: 500,
+    image: '/assets/services/telegram.png',
     detailsKey: 'services.telegram.details'
   }
 ];

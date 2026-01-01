@@ -62,8 +62,15 @@
     "name_intro": "My name is Kirill Mosin.",
     "years_sk": "I have been living in Slovakia for over 6 years and have thoroughly studied the local market and its specifics.",
     "knowledge": "I know exactly what digital product to create and how to promote it for the maximum success of your business.",
-    "pride_title": "Great Result without detailed Specs",
-    "pride_desc": "Experience working with freelancers on the business side allowed me to identify the main pain point of cooperation: a large amount of time spent by company management writing a detailed technical specification to describe all business processes and expectations from the site. I never require a complex TS from the client and will propose the best solution for approval myself."
+    "pride_title": "Great Result without detailed Technical Specifications",
+    "pride_desc": "Experience working with freelancers on the business side allowed me to identify the main pain point of cooperation: a large amount of time spent by company management writing a detailed technical specification to describe all business processes and expectations from the site. I never require a complex Technical Specification from the client and will propose the best solution for approval myself.",
+    "payment_title": "Flexible Payment Options",
+    "payment_invoice": "Invoice",
+    "payment_card": "Credit Card",
+    "payment_usdt": "USDT",
+    "payment_bitcoin": "Bitcoin",
+    "payment_rub": "Rubles",
+    "payment_uah": "Hryvnias"
   },
   "clients": {
     "title": "I worked with brands"
@@ -82,11 +89,35 @@
   },
   "contacts": {
     "title": "Contacts",
-    "address": "Bratislava, Slovakia"
+    "address": "Holíčska 7, Bratislava",
+    "company_label": "Company",
+    "office_label": "Office",
+    "email_label": "Email",
+    "phone_label": "Phone"
   },
   "common": {
     "hour": "hour",
     "from": "from",
-    "visit": "Visit Website"
+    "visit": "Visit Website",
+    "optional": "optional"
+  },
+  "order": {
+    "title": "Order Service",
+    "success": "Thank you! We will contact you soon.",
+    "name": "Name",
+    "email": "Email",
+    "service": "Service",
+    "message": "Message",
+    "phone": "Phone",
+    "name_placeholder": "John Doe",
+    "email_placeholder": "example@gmail.com",
+    "phone_placeholder": "+421 123 456 789",
+    "validation_error": "Please fill in all required fields.",
+    "email_error": "Invalid email format",
+    "phone_error": "Invalid phone format",
+    "sending": "Sending...",
+    "submit": "Send Request",
+    "error": "Something went wrong. Please try again.",
+    "privacy": "By submitting you agree to processing of personal data."
   }
 }

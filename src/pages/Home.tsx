@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { services } from '../data/services';
-import { FileText, Users, Code, CheckCircle, MapPin, Mail, Phone, Briefcase } from 'lucide-react';
+import { FileText, Users, Code, CheckCircle, MapPin, Mail, Phone, Briefcase, Star, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { ClientCarousel } from '../components/ClientCarousel';
 import { PortfolioCarousel } from '../components/PortfolioCarousel';
@@ -26,9 +26,8 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
           <div className="services-grid">
             {services.map((service) => (
               <div key={service.id} className="service-card">
-                <div className="service-image-placeholder">
-                  {/* Placeholder for illustration */}
-                  <div className="img-overlay"></div>
+                <div className="service-image-placeholder" style={service.image ? { backgroundImage: `url(${service.image})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}>
+                  {!service.image && <div className="img-overlay"></div>}
                 </div>
                 <div className="service-content">
                   <h3>{t(service.titleKey)}</h3>
@@ -42,7 +41,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
                   <button className="btn btn-secondary" onClick={() => navigate(`/service/${service.id}`)}>
                     {t('services.details', 'Details')}
                   </button>
-                  <button className="btn btn-primary" onClick={() => onOrderClick(service.titleKey)}>
+                  <button className="btn btn-primary" onClick={() => onOrderClick(service.id)}>
                     {t('services.order', 'Order')}
                   </button>
                 </div>
@@ -81,6 +80,36 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
             </div>
           </div>
           
+          <div className="payment-options-block">
+            <h3>{t('about.payment_title')}</h3>
+            <div className="payment-list">
+              <div className="payment-item">
+                <FileText size={24} />
+                <span>{t('about.payment_invoice')}</span>
+              </div>
+              <div className="payment-item">
+                <CreditCard size={24} />
+                <span>{t('about.payment_card')}</span>
+              </div>
+              <div className="payment-item">
+                <CircleDollarSign size={24} />
+                <span>{t('about.payment_usdt')}</span>
+              </div>
+              <div className="payment-item">
+                <Bitcoin size={24} />
+                <span>{t('about.payment_bitcoin')}</span>
+              </div>
+              <div className="payment-item">
+                <RussianRuble size={24} />
+                <span>{t('about.payment_rub')}</span>
+              </div>
+              <div className="payment-item">
+                <span style={{ fontSize: '36px', fontWeight: 'normal', lineHeight: '0.7', paddingTop: '6px', marginBottom: '7px', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '24px', width: '24px', color: 'var(--accent-color)' }}>₴</span>
+                <span>{t('about.payment_uah')}</span>
+              </div>
+            </div>
+          </div>
+
           <ClientCarousel />
         </div>
       </section>
@@ -112,6 +141,9 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
             </div>
           </div>
           <div className="steps-success-stat">
+            <div className="stat-icon-wrapper">
+              <Star size={42} strokeWidth={1.5} fill="var(--accent-color)" fillOpacity={0.2} />
+            </div>
             <h3>{t('steps.success_stat', 'I completed 90% of complex projects within 15 working days')}</h3>
           </div>
         </div>
@@ -123,32 +155,26 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
           <h2 className="section-title">{t('contacts.title', 'Contacts')}</h2>
           <div className="contacts-grid">
             <div className="contact-card">
-              <div className="contact-icon"><Briefcase size={24} /></div>
-              <div className="contact-info">
-                <h4>Company</h4>
-                <p>White Eagles & Co. s.r.o.</p>
-              </div>
+              <div className="contact-icon"><Briefcase size={32} /></div>
+              <h3>{t('contacts.company_label', 'Company')}</h3>
+              <p>White Eagles & Co. s.r.o.</p>
             </div>
             <div className="contact-card">
-              <div className="contact-icon"><MapPin size={24} /></div>
-              <div className="contact-info">
-                <h4>Location</h4>
-                <p>{t('contacts.address', 'Slovakia')}</p>
-              </div>
+              <div className="contact-icon"><MapPin size={32} /></div>
+              <h3>{t('contacts.office_label', 'Office')}</h3>
+              <a href="https://maps.app.goo.gl/QfAQ1H71k2zF1cq9A" target="_blank" rel="noopener noreferrer">
+                {t('contacts.address', 'Holíčska 7, Bratislava')}
+              </a>
             </div>
             <div className="contact-card">
-              <div className="contact-icon"><Mail size={24} /></div>
-              <div className="contact-info">
-                <h4>Email</h4>
-                <a href="mailto:welcome@whiteeagles.sk">welcome@whiteeagles.sk</a>
-              </div>
+              <div className="contact-icon"><Mail size={32} /></div>
+              <h3>{t('contacts.email_label', 'Email')}</h3>
+              <a href="mailto:welcome@whiteeagles.sk">welcome@whiteeagles.sk</a>
             </div>
             <div className="contact-card">
-              <div className="contact-icon"><Phone size={24} /></div>
-              <div className="contact-info">
-                <h4>Phone</h4>
-                <a href="tel:+421949000077">+421 949 0000 77</a>
-              </div>
+              <div className="contact-icon"><Phone size={32} /></div>
+              <h3>{t('contacts.phone_label', 'Phone')}</h3>
+              <a href="tel:+421949000077">+421 949 0000 77</a>
             </div>
           </div>
         </div>
