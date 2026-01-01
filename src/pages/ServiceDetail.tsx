@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ShieldCheck } from 'lucide-react';
 import { services } from '../data/services';
 import { SEO } from '../components/SEO';
 import './ServiceDetail.css';
@@ -48,12 +48,40 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
           <h1>{t(service.titleKey)}</h1>
           
           <div className="detail-card">
+            {service.id === 'webdev' && (
+               <img src="/assets/icons/webdev-icon.png" alt="Web Development" className="service-detail-icon" />
+            )}
+            {service.id === 'bugfix' && (
+               <img src="/assets/icons/bugfix-icon.png" alt="Bugfix" className="service-detail-icon" />
+            )}
+            {service.id === 'ads' && (
+               <img src="/assets/icons/ads-icon.png" alt="Ads" className="service-detail-icon" />
+            )}
             <p className="detail-desc">{t(service.descKey)}</p>
             
             <div className="detail-full-info">
               <h3>{t('services.details', 'Details')}</h3>
-              <p>{t(service.detailsKey)}</p>
-              {/* Add more elaborate content here if available or generate placeholders */}
+              
+              {/* Check for details list */}
+              {Array.isArray(t(service.detailsKey + '_points', { returnObjects: true })) ? (
+                <ul className="details-list">
+                  {(t(service.detailsKey + '_points', { returnObjects: true }) as string[]).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p>{t(service.detailsKey)}</p>
+              )}
+
+              {/* Guarantee Block for WebDev */}
+              {service.id === 'webdev' && (
+                <div className="guarantee-block">
+                  <div className="guarantee-icon">
+                    <ShieldCheck size={32} />
+                  </div>
+                  <p>{t('services.webdev.guarantee')}</p>
+                </div>
+              )}
             </div>
 
             <div className="detail-pricing">

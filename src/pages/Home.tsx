@@ -110,7 +110,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
                   </div>
                   <div className="service-actions">
                     <button className="btn btn-secondary" onClick={() => navigate(`/service/${service.id}`)}>
-                      {t('services.details', 'Details')}
+                      {t('services.more_info', 'More Info')}
                     </button>
                     <button className="btn btn-primary" onClick={() => onOrderClick(service.id)}>
                       {t('services.order', 'Order')}

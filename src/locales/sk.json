@@ -20,21 +20,56 @@
   "services": {
     "title": "Moje služby",
     "order": "Konzultácia zdarma",
-    "details": "Viac info",
+    "details": "Podrobnosti",
+    "more_info": "Viac info",
     "webdev": {
       "title": "Tvorba webstránok",
       "desc": "Stránky na mieru (PHP, Python, JS) alebo WordPress.",
-      "details": "Kompletný vývoj webových aplikácií a firemných prezentácií."
+      "details": "Podrobnosti",
+      "details_points": [
+        "Definovanie cieľov a úloh podnikania",
+        "Analýza konkurencie z hľadiska úspešných blokov a služieb. Určenie referencií.",
+        "Vývoj a návrh jedinečných služieb a nástrojov.",
+        "Tvorba viacstránkovej viacjazyčnej webstránky s ovládacím panelom, formulármi žiadostí a spätnej väzby.",
+        "Zapracovanie úprav a vylepšení po dohode so zákazníkom.",
+        "Vytvorenie a pripojenie Telegram bota na operatívnu správu žiadostí (potvrdenie / zrušenie rezervácie), vykonávanie zmien v kalendári a slotoch, ako aj správu e-mailových upozornení klientom.",
+        "Pripojenie domény / hostingu (servera) / nástroja na odosielanie e-mailov / ochrany pred botmi a Captcha.",
+        "Vytvorenie povinného bannera na získanie súhlasu so spracovaním cookies.",
+        "Kompletné SEO nastavenie pre ideálnu indexáciu v Google a vysoké pozície v organickom vyhľadávaní. Ladenie zdieľania na sociálnych sieťach.",
+        "Vytvorenie účtov a pripojenie zdrojov: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
+      ],
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov."
     },
     "bugfix": {
       "title": "Oprava chýb a úpravy",
-      "desc": "Oprava chýb na existujúcich stránkach a WP.",
-      "details": "Optimalizácia, zrýchlenie a pridávanie nových funkcií."
+      "desc": "Oprava chýb na vlastných stránkach (kód) a WordPress.",
+      "details": "Optimalizácia, zrýchlenie a pridávanie nových funkcií.",
+      "details_points": [
+        "Lokalizácia problému a hľadanie riešení s minimálnym rizikom pre systém",
+        "Inštalácia dodatočných nástrojov a pluginov",
+        "Konfigurácia serverovej časti",
+        "Správa mediálneho obsahu webu",
+        "Nastavenie automatického zálohovania webu na serveri + Google Drive",
+        "Vykonávanie testov a odstraňovanie drobných chýb spojených s hlavným problémom"
+      ]
     },
     "ads": {
-      "title": "Online reklama (Google/Meta)",
-      "desc": "Správa a optimalizácia PPC kampaní.",
-      "details": "Nastavenie reklám na Google Ads a sociálnych sieťach."
+      "title": "Správa kontextovej a cielenej reklamy",
+      "desc": "Tvorba, správa a optimalizácia reklamných kampaní v Google Ads a Meta (Instagram, Facebook, Threads, WhatsApp)",
+      "details_points": [
+        "Vytvorenie reklamných účtov a kabinetov",
+        "Prepojenie firemných zdrojov (Analytika, CRM)",
+        "Vytvorenie Merchant Center (pre e-shopy a internetové obchody)",
+        "Vytvorenie, moderovanie a vyplnenie firemnej karty na mapách Google",
+        "Analýza konkurentov a ich reklamnej aktivity",
+        " stanovenie a schválenie reklamného rozpočtu (s rozdelením podľa kanálov) na základe jasného matematického výpočtu.",
+        "Vývoj jedinečnej reklamnej stratégie pre konkrétny produkt / službu a firmu v rámci jej trhového segmentu.",
+        "Tvorba inzerátov a nastavenie v rámci kabinetov",
+        "A/B testovanie v rámci reklamných skupín",
+        "Tvorba bannerov a reklamných kreatív",
+        "Pripojenie reklamných cieľov (konverzií) a ich ladenie",
+        "Spustenie a kontrola výkonnosti reklamných kampaní."
+      ]
     },
     "analytics": {
       "title": "Nastavenie webovej analytiky",
@@ -107,7 +142,8 @@
     "hour": "hod",
     "from": "od",
     "visit": "Navštíviť stránku",
-    "optional": "nepovinné"
+    "optional": "nepovinné",
+    "back": "Späť"
   },
   "order": {
     "title": "Objednať službu",

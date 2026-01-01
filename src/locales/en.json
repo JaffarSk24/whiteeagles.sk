@@ -21,20 +21,55 @@
     "title": "My Services",
     "order": "Discuss Project",
     "details": "Details",
+    "more_info": "More Info",
     "webdev": {
       "title": "Web Development",
       "desc": "Sites from scratch (PHP, Python, JS) or WordPress.",
-      "details": "Custom websites, landing pages, and e-shops tailored to your needs."
+      "details": "Details",
+      "details_points": [
+        "Definition of business goals and objectives",
+        "Competitor analysis for successful blocks and services. Determination of references.",
+        "Development and proposal of unique services and tools.",
+        "Creation of a multi-page multilingual website with a control panel, application and feedback forms.",
+        "Making edits and improvements upon agreement with the customer.",
+        "Creation and connection of a Telegram bot for operational management of requests (confirmation / cancellation of booking), making changes to the calendar and slots, as well as managing email notifications to clients.",
+        "Connection of domain / hosting (server) / email sending tool / bot protection and Captcha.",
+        "Creation of a mandatory banner for obtaining consent to process cookies.",
+        "Full SEO setup for ideal indexing in Google and high positions in organic search. Debugging sharing in social networks.",
+        "Creation of accounts and connection of resources: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
+      ],
+      "guarantee": "I provide a guarantee of performance and free technical support for 6 months as a gift for all my customers."
     },
     "bugfix": {
       "title": "Bugfix & Features",
-      "desc": "Fixing errors on custom sites and WP.",
-      "details": "Troubleshooting, optimization, and adding new functionality."
+      "desc": "Bug fixing on custom sites (code) and WordPress.",
+      "details": "Troubleshooting, optimization, and adding new functionality.",
+      "details_points": [
+        "Problem localization and finding solutions with minimal system risks",
+        "Installation of additional tools and plugins",
+        "Server-side configuration",
+        "Website media content management",
+        "Setting up automatic website backups on server + Google Drive",
+        "Conducting tests and fixing minor issues related to the main problem"
+      ]
     },
     "ads": {
-      "title": "Online Advertising (Google/Meta)",
-      "desc": "Management and optimization of PPC campaigns.",
-      "details": "Setup and management of advertising campaigns on Google Ads and Facebook/Instagram."
+      "title": "Contextual and Targeted Advertising",
+      "desc": "Creation, management, and optimization of ad campaigns in Google Ads and Meta (Instagram, Facebook, Threads, WhatsApp)",
+      "details_points": [
+        "Creation of advertising accounts and cabinets",
+        "Linking company resources (Analytics, CRM)",
+        "Creation of Merchant Center (for e-commerce and online stores)",
+        "Creation, moderation, and filling of the company card on Google Maps",
+        "Analysis of competitors and their advertising activity",
+        "Determination and approval of the advertising budget (broken down by channel) based on clear mathematical calculation.",
+        "Development of a unique advertising strategy for a specific product/service and company within its market niche.",
+        "Creation of ads and configuration within cabinets",
+        "A/B testing within ad groups",
+        "Creation of banners and ad creatives",
+        "Connection of advertising goals (conversions) and their debugging",
+        "Launch and monitoring of advertising campaign performance."
+      ]
     },
     "analytics": {
       "title": "Web Analytics Setup",
@@ -107,7 +142,8 @@
     "hour": "hour",
     "from": "from",
     "visit": "Visit Website",
-    "optional": "optional"
+    "optional": "optional",
+    "back": "Back"
   },
   "order": {
     "title": "Order Service",
