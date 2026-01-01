@@ -134,32 +134,50 @@
 }
 
 @media (max-width: 900px) {
+  .footer {
+    padding: 30px 0 15px; /* Minimal padding */
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 24px; /* Reduced from 30px */
+    gap: 20px; /* Minimal gap */
+    margin-bottom: 20px;
   }
   
   .footer-logo {
     justify-content: center;
-  }
-  
-  .footer-info-col {
-    text-align: center;
-    align-items: center; /* Center flex items */
+    margin-bottom: 0;
   }
   
   .footer-info-col h3 {
-    white-space: normal; /* Allow wrapping on mobile */
+    white-space: normal;
+    font-size: 1rem;
+    margin-bottom: 2px;
+  }
+  
+  .company-details {
+    margin-top: 2px;
   }
 
   .footer-legal-links {
     justify-content: center;
     flex-wrap: wrap; 
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .footer-contact-col {
+    gap: 12px;
   }
 
   .footer-contact-col,
   .footer-contact-links {
     align-items: center;
+  }
+  
+  .copyright {
+    padding-top: 15px;
+    font-size: 0.8rem;
   }
 }

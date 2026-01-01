@@ -97,19 +97,48 @@ h6 {
   color: var(--text-primary);
   line-height: 1.2;
   /* Fluid typography: min, val, max */
-  font-size: clamp(1.2rem, 3vw + 1rem, 3rem);
+  font-size: clamp(1rem, 3vw + 1rem, 3rem);
 }
 
-h1 { font-size: clamp(2rem, 5vw + 1rem, 4rem); } /* Was 2.5rem min */
-h2 { font-size: clamp(1.75rem, 4vw + 1rem, 3rem); } /* Was 2rem min */
-h3 { font-size: clamp(1.35rem, 3vw + 1rem, 2.25rem); } /* Was 1.5rem min */
+/* Reduced Mobile Headings */
+h1 { font-size: clamp(1.8rem, 5vw + 1rem, 4rem); } 
+h2 { font-size: clamp(1.4rem, 4vw + 1rem, 3rem); } 
+h3 { font-size: clamp(1.2rem, 3vw + 1rem, 2.25rem); } 
 h4 { font-size: clamp(1.1rem, 2vw + 1rem, 1.75rem); }
 
 section {
   padding: 80px 0;
 }
 
+/* Utilities */
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Mobile Overrides (Global) */
+@media (max-width: 768px) {
+  section {
+    padding: 30px 0; /* Minimized vertical spacing */
+  }
+  
+  .container {
+    padding: 0 16px; /* Utilize more width */
+  }
+
+  h1 { line-height: 1.1; margin-bottom: 16px; }
+  h2 { line-height: 1.2; margin-bottom: 16px; }
+  p { line-height: 1.4; } /* Tighter text */
+}
+
 /* Add extra spacing for the first section under fixed header */
 #services {
-  padding-top: 140px; /* Increased from default implicit padding */
+  padding-top: 140px; 
+}
+
+@media (max-width: 768px) {
+  #services {
+    padding-top: 90px; /* Reduced for smaller header */
+  }
 }

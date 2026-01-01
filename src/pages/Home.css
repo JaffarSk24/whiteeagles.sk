@@ -29,12 +29,13 @@
   .steps-section,
   .contacts-section,
   .services-section {
-    padding: 60px 0;
+    padding: 30px 0; /* Was 60px */
   }
   
   .section-title {
-    font-size: 2rem;
-    margin-bottom: 40px;
+    font-size: 1.75rem; /* Reduced from 2rem */
+    margin-bottom: 24px; /* Reduced from 40px */
+    letter-spacing: -0.02em;
   }
 }
 
@@ -535,4 +536,79 @@
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+@media (max-width: 768px) {
+  /* Disable animations on mobile for speed/instant feel */
+  .fade-in-section {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+    transition: none !important;
+    animation: none !important;
+  }
+  
+  /* Fix About Grid - Maximize Width */
+  .about-grid {
+    display: block; /* Stack vertically */
+    margin-bottom: 30px;
+    gap: 0;
+  }
+  
+  .about-image img {
+    margin-bottom: 20px;
+  }
+  
+  .pride-block {
+    margin-top: 16px;
+    padding: 16px; /* Reduce padding to save width */
+    border-left-width: 3px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .greeting-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  /* Compact About CTA */
+  .about-cta {
+    padding: 16px;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .about-cta p {
+    font-size: 0.95rem;
+  }
+  
+  .about-cta .btn {
+    width: 100%;
+    max-width: none; /* Full width button */
+    padding: 10px;
+  }
+  
+  .about-stats {
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  /* Compact Steps Success Stat */
+  .steps-success-stat {
+    margin: 30px 0 0;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  
+  .steps-success-stat h3 {
+    font-size: 1.25rem;
+  }
 }
