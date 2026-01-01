@@ -57,6 +57,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
     
     const selectedServiceObj = services.find(s => s.id === formData.service);
     const serviceName = selectedServiceObj ? t(selectedServiceObj.titleKey) : formData.service;
+    const priceString = selectedServiceObj ? `${selectedServiceObj.priceRate}€/${t('common.hour', 'hour')}` : '';
 
     try {
       // Execute reCAPTCHA
@@ -69,6 +70,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         body: JSON.stringify({
           ...formData,
           service: serviceName, // Send localized name
+          price: priceString,   // Send localized price
           language: i18n.language, // Send current language
           recaptchaToken: token
         })

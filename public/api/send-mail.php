@@ -122,6 +122,7 @@ function sendTelegram($token, $chatId, $message)
 
 // 2. Prepare Messages
 $serviceName = $data->service ?: "Not specified";
+$price = isset($data->price) ? $data->price : "";
 $lang = isset($data->language) ? $data->language : 'en';
 
 // Normalize language code
@@ -141,6 +142,7 @@ $templates = [
         'email_label' => "Email",
         'phone_label' => "Phone",
         'service_label' => "Service",
+        'price_label' => "Price",
         'message_label' => "Message",
         'signature_text' => "Best regards,",
     ],
@@ -155,6 +157,7 @@ $templates = [
         'email_label' => "Email",
         'phone_label' => "Telefón",
         'service_label' => "Služba",
+        'price_label' => "Cena",
         'message_label' => "Správa",
         'signature_text' => "S pozdravom,",
     ],
@@ -169,6 +172,7 @@ $templates = [
         'email_label' => "Email",
         'phone_label' => "Телефон",
         'service_label' => "Услуга",
+        'price_label' => "Цена",
         'message_label' => "Сообщение",
         'signature_text' => "С уважением,",
     ]
@@ -177,7 +181,7 @@ $templates = [
 $t = $templates[$lang];
 
 // Helper to build HTML Email
-function buildHtmlEmail($t, $data, $serviceName)
+function buildHtmlEmail($t, $data, $serviceName, $price)
 {
     $fontFamily = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
     $primaryColor = "#374262"; // Updated to user requested dark blue
@@ -229,6 +233,12 @@ function buildHtmlEmail($t, $data, $serviceName)
                                             <td style='padding: 8px 0; width: 30%; color: #6b7280; font-weight: 500;'>{$t['service_label']}:</td>
                                             <td style='padding: 8px 0; color: #111827; font-weight: 600;'>" . htmlspecialchars($serviceName) . "</td>
                                         </tr>
+                                        " . ($price ? "
+                                        <tr>
+                                            <td style='padding: 8px 0; color: #6b7280; font-weight: 500;'>{$t['price_label']}:</td>
+                                            <td style='padding: 8px 0; color: #111827;'>" . htmlspecialchars($price) . "</td>
+                                        </tr>
+                                        " : "") . "
                                         <tr>
                                             <td style='padding: 8px 0; color: #6b7280; font-weight: 500;'>{$t['email_label']}:</td>
                                             <td style='padding: 8px 0; color: #111827;'>" . htmlspecialchars($data->email) . "</td>
@@ -256,7 +266,7 @@ function buildHtmlEmail($t, $data, $serviceName)
                                     
                                     <!-- Horizontal Logo -->
                                     <div style='margin-bottom: 20px;'>
-                                        <img src='{$logoUrl}' alt='White Eagles & Co.' style='height: 40px; width: auto; display: block;' />
+                                        <img src='{$logoUrl}' alt='White Eagles & Co.' style='height: 60px; width: auto; display: block;' />
                                     </div>
 
                                     <!-- Contact Info with Icons -->
@@ -300,7 +310,7 @@ function buildHtmlEmail($t, $data, $serviceName)
 }
 
 // Generate HTML Body for Client
-$clientHtmlBody = buildHtmlEmail($t, $data, $serviceName);
+$clientHtmlBody = buildHtmlEmail($t, $data, $serviceName, $price);
 
 // Admin Email Body (Simplified HTML or same as client? Admin usually needs raw data, but pretty is nice. Let's make a simplified version or reuse)
 $adminHtmlBody = "<h2>" . $t['telegram_title'] . "</h2>";
@@ -308,6 +318,9 @@ $adminHtmlBody .= "<p><b>" . $t['name_label'] . ":</b> " . $data->name . "</p>";
 $adminHtmlBody .= "<p><b>" . $t['email_label'] . ":</b> " . $data->email . "</p>";
 $adminHtmlBody .= "<p><b>" . $t['phone_label'] . ":</b> " . $data->phone . "</p>";
 $adminHtmlBody .= "<p><b>" . $t['service_label'] . ":</b> " . $serviceName . "</p>";
+if ($price) {
+    $adminHtmlBody .= "<p><b>" . $t['price_label'] . ":</b> " . $price . "</p>";
+}
 $adminHtmlBody .= "<p><b>" . $t['message_label'] . ":</b><br>" . nl2br($data->message) . "</p>";
 
 // Telegram Body (Keep plain/HTML-lite for Telegram)
@@ -316,6 +329,9 @@ $telegramBody .= "👤 <b>" . $t['name_label'] . ":</b> " . htmlspecialchars($da
 $telegramBody .= "📧 <b>" . $t['email_label'] . ":</b> " . htmlspecialchars($data->email) . "\n";
 $telegramBody .= "📱 <b>" . $t['phone_label'] . ":</b> " . htmlspecialchars($data->phone) . "\n";
 $telegramBody .= "🛠 <b>" . $t['service_label'] . ":</b> " . htmlspecialchars($serviceName) . "\n";
+if ($price) {
+    $telegramBody .= "💰 <b>" . $t['price_label'] . ":</b> " . htmlspecialchars($price) . "\n";
+}
 $telegramBody .= "💬 <b>" . $t['message_label'] . ":</b>\n" . htmlspecialchars($data->message) . "\n";
 
 // Execute Sending
