@@ -152,7 +152,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
               >
                 {services.map(service => (
                   <option key={service.id} value={service.id}>
-                    {t(service.titleKey)} — {service.priceRate}€/{t('common.hour', 'hour')}
+                    {t(service.titleKey)}
                   </option>
                 ))}
               </select>

@@ -5,22 +5,22 @@
     "about": "O mne",
     "process": "Proces",
     "contacts": "Kontakty",
-    "order": "Objednať"
+    "order": "Konzultácia zdarma"
   },
   "hero": {
     "title": "IT Riešenia pre Váš Biznis",
     "subtitle": "Tvorba webov, analytika a online marketing",
-    "cta": "Prejednať Projekt"
+    "cta": "Konzultácia zdarma"
   },
   "home_seo": {
-    "title": "White Eagles & Co. - IT Riešenia a Tvorba Webov",
+    "title": "Tvorba webov a reklama na Slovensku | White Eagles & Co.",
     "description": "Profesionálna tvorba webstránok, dátová analytika a online marketing na Slovensku. Weby na mieru, oprava chýb a PPC kampane pre rast vášho podnikania.",
     "keywords": "tvorba webstránok, vývoj webu, online marketing, PPC, Google Ads, analytika, GA4, telegram boty, IT riešenia, Bratislava, Slovensko"
   },
   "services": {
     "title": "Moje služby",
-    "order": "Objednať",
-    "details": "Podrobne",
+    "order": "Konzultácia zdarma",
+    "details": "Viac info",
     "webdev": {
       "title": "Tvorba webstránok",
       "desc": "Stránky na mieru (PHP, Python, JS) alebo WordPress.",

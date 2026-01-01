@@ -48,47 +48,8 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
         description={t('home_seo.description')}
         keywords={t('home_seo.keywords')}
       />
-      {/* Services Section */}
-      <section id="services" className="services-section">
-        <div className="container">
-          <h2 className="section-title">{t('services.title', 'My Services')}</h2>
-          <div className="services-grid">
-            {services.map((service) => (
-              <div key={service.id} className="service-card">
-                <div className="service-image-placeholder" style={service.image ? { backgroundImage: `url(${service.image})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}>
-                  {!service.image && <div className="img-overlay"></div>}
-                </div>
-                <div className="service-content">
-                  <h3>{t(service.titleKey)}</h3>
-                  <p className="service-desc">{t(service.descKey)}</p>
-                  <p className="service-price">
-                    {service.priceRate}€ / {t('common.hour', 'hour')}
-                    {service.priceMin && <span className="price-min"> ({t('common.from', 'approx from')} {service.priceMin}€)</span>}
-                  </p>
-                </div>
-                <div className="service-actions">
-                  <button className="btn btn-secondary" onClick={() => navigate(`/service/${service.id}`)}>
-                    {t('services.details', 'Details')}
-                  </button>
-                  <button className="btn btn-primary" onClick={() => onOrderClick(service.id)}>
-                    {t('services.order', 'Order')}
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Portfolio Section */}
-      <section id="portfolio" className="portfolio-section">
-        <div className="container">
-          <h2 className="section-title">{t('portfolio.title', 'Portfolio')}</h2>
-          <PortfolioCarousel />
-        </div>
-      </section>
-
-      {/* About Section */}
+      
+      {/* About Section (Moved to top) */}
       <section id="about" className="about-section">
         <div className="container">
           <div className="about-grid">
@@ -96,7 +57,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
               <img src="/assets/me.jpg" alt="Kirill" />
             </div>
             <div className="about-content">
-              <h2>{t('about.title')}</h2>
+              <h2 className="section-title" style={{ textAlign: 'left', marginBottom: '20px' }}>{t('about.title')}</h2>
               <div className="about-text">
                 <p><strong>{t('about.name_intro')}</strong></p>
                 <p>{t('about.years_sk')}</p>
@@ -142,6 +103,47 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
           <ClientCarousel />
         </div>
       </section>
+      {/* Services Section */}
+      <section id="services" className="services-section">
+        <div className="container">
+          <h2 className="section-title">{t('services.title', 'My Services')}</h2>
+          <div className="services-grid">
+            {services.map((service) => (
+              <div key={service.id} className="service-card">
+                <div className="service-image-placeholder" style={service.image ? { backgroundImage: `url(${service.image})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}>
+                  {!service.image && <div className="img-overlay"></div>}
+                </div>
+                <div className="service-content">
+                  <h3>{t(service.titleKey)}</h3>
+                  <p className="service-desc">{t(service.descKey)}</p>
+                  <p className="service-price">
+                    {service.priceRate}€ / {t('common.hour', 'hour')}
+                    {service.priceMin && <span className="price-min"> ({t('common.from', 'approx from')} {service.priceMin}€)</span>}
+                  </p>
+                </div>
+                <div className="service-actions">
+                  <button className="btn btn-secondary" onClick={() => navigate(`/service/${service.id}`)}>
+                    {t('services.details', 'Details')}
+                  </button>
+                  <button className="btn btn-primary" onClick={() => onOrderClick(service.id)}>
+                    {t('services.order', 'Order')}
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Portfolio Section */}
+      <section id="portfolio" className="portfolio-section">
+        <div className="container">
+          <h2 className="section-title">{t('portfolio.title', 'Portfolio')}</h2>
+          <PortfolioCarousel />
+        </div>
+      </section>
+
+
 
       {/* Steps Section */}
       <section id="steps" className="steps-section">
