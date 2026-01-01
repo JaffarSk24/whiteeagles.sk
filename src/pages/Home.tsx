@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { services } from '../data/services';
 import { FileText, Users, Code, CheckCircle, MapPin, Mail, Phone, Briefcase, Star, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from 'lucide-react';
@@ -167,7 +167,23 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
               <div className="step-card">
                 <div className="step-icon"><FileText size={32} /></div>
                 <h3>1. {t('steps.request', 'Request')}</h3>
-                <p>{t('steps.request_desc', 'Leave a request via the form and I will contact you as soon as possible.')}</p>
+                <p>
+                  <Trans 
+                    i18nKey="steps.request_desc" 
+                    defaults="Leave a request <1>via the form</1> and I will contact you as soon as possible."
+                    components={{ 
+                      1: <span 
+                          onClick={() => onOrderClick()} 
+                          style={{ 
+                            cursor: 'pointer', 
+                            color: 'var(--accent-color)', 
+                            textDecoration: 'underline',
+                            fontWeight: 500
+                          }} 
+                        /> 
+                    }} 
+                  />
+                </p>
               </div>
               <div className="step-card">
                 <div className="step-icon"><Users size={32} /></div>

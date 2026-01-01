@@ -86,7 +86,7 @@
   "steps": {
     "title": "Stages of Project Cooperation",
     "request": "Request",
-    "request_desc": "Leave a request via the form and I will contact you as soon as possible.",
+    "request_desc": "Leave a request <1>via the form</1> and I will contact you as soon as possible.",
     "meeting": "Meeting",
     "meeting_desc": "We will meet in Bratislava / online to discuss project details and your expectations.",
     "process": "Development",

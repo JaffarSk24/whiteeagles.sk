@@ -86,7 +86,7 @@
   "steps": {
     "title": "Etapy projektovej spolupráce",
     "request": "Žiadosť",
-    "request_desc": "Zanechajte žiadosť cez formulár a ja sa vám ozvem čo najskôr.",
+    "request_desc": "Zanechajte žiadosť <1>cez formulár</1> a ja sa vám ozvem čo najskôr.",
     "meeting": "Stretnutie",
     "meeting_desc": "Stretneme sa v Bratislave / online a preberieme detaily projektu a vaše očakávania.",
     "process": "Vývoj",
