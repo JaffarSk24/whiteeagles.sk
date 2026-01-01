@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
-import { X } from 'lucide-react';
+import { X, CheckCircle } from 'lucide-react';
 import { services } from '../data/services';
 import './OrderForm.css';
 
@@ -76,11 +76,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
       
       if (response.ok) {
         setStatus('success');
-        setTimeout(() => {
-          onClose();
-          setStatus('idle');
-          setFormData({ name: '', email: '', phone: '', service: '', message: '' });
-        }, 2000);
+        setFormData({ name: '', email: '', phone: '', service: '', message: '' });
       } else {
         setStatus('error');
       }
@@ -98,8 +94,17 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         <h2>{t('order.title', 'Order Service')}</h2>
         
         {status === 'success' ? (
-          <div className="success-message">
-            {t('order.success', 'Thank you! We will contact you soon.')}
+          <div className="success-popup">
+            <div className="success-icon">
+              <CheckCircle size={64} color="var(--accent-color)" />
+            </div>
+            <h3>{t('order.success_title', 'Thank you!')}</h3>
+            <p className="success-message-text">
+              {t('order.success', 'We have received your information and will contact you as soon as possible during business hours.')}
+            </p>
+            <button className="btn btn-primary" onClick={onClose}>
+              {t('common.close', 'Close')}
+            </button>
           </div>
         ) : (
           <form onSubmit={handleSubmit}>

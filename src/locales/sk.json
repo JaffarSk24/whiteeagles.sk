@@ -108,7 +108,8 @@
   },
   "order": {
     "title": "Objednať službu",
-    "success": "Ďakujeme! Čoskoro vás budeme kontaktovať.",
+    "success_title": "Ďakujeme!",
+    "success": "Prijali sme vašu správu a čoskoro vás budeme kontaktovať v pracovných hodinách.",
     "name": "Meno",
     "email": "Email",
     "service": "Služba",

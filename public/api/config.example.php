@@ -5,6 +5,7 @@
 return [
     'MAILGUN_API_KEY' => 'key-your_mailgun_api_key',
     'MAILGUN_DOMAIN' => 'your_domain.com',
+    'MAILGUN_ENDPOINT' => 'api.mailgun.net', // Use 'api.eu.mailgun.net' for EU domains
     'RECAPTCHA_SECRET' => 'your_recaptcha_secret',
     'TELEGRAM_BOT_TOKEN' => '8498639596:AAHL5VeNfEKl3PHEEvkgKpCZXLLF0Kzchvw', // Pre-filled as requested
     'TELEGRAM_CHAT_ID' => '', // Message your bot and check getUpdates to find this

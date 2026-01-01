@@ -108,7 +108,8 @@
   },
   "order": {
     "title": "Order Service",
-    "success": "Thank you! We will contact you soon.",
+    "success_title": "Thank you!",
+    "success": "We have received your information and will contact you as soon as possible during business hours.",
     "name": "Name",
     "email": "Email",
     "service": "Service",
