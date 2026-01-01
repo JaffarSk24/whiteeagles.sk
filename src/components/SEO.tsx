@@ -9,6 +9,7 @@ interface SEOProps {
   keywords?: string;
   image?: string;
   type?: string;
+  noindex?: boolean;
 }
 
 export const SEO: React.FC<SEOProps> = ({ 
@@ -16,7 +17,8 @@ export const SEO: React.FC<SEOProps> = ({
   description, 
   keywords,
   image = '/assets/white-eagles-logo-white.png', // Default OG Image
-  type = 'website'
+  type = 'website',
+  noindex = false
 }) => {
   const { i18n } = useTranslation();
   const location = useLocation();
@@ -39,6 +41,7 @@ export const SEO: React.FC<SEOProps> = ({
       <title>{displayTitle}</title>
       <meta name="description" content={displayDesc} />
       <meta name="keywords" content={displayKeywords} />
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
       <html lang={lang} />
       
       {/* Canonical */}

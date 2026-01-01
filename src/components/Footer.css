@@ -33,14 +33,17 @@
 /* Column 2: Info */
 .footer-info-col {
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-info-col h3 {
   font-size: 1.1rem;
   margin-bottom: 5px;
   color: var(--text-primary);
-  margin-top: 0; /* Ensure no top margin for alignment */
+  margin-top: 0;
   line-height: 1.4;
+  white-space: nowrap; /* Prevent wrapping */
 }
 
 .company-desc-inline {
@@ -55,6 +58,25 @@
   opacity: 0.7;
   line-height: 1.4;
   margin-top: 5px;
+}
+
+.footer-legal-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px; /* Spacing from details */
+}
+
+.footer-link-small {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.footer-link-small:hover {
+  opacity: 1;
+  color: var(--accent-color);
 }
 
 /* Column 3: Contacts & Socials */
@@ -124,8 +146,18 @@
   
   .footer-info-col {
     text-align: center;
+    align-items: center; /* Center flex items */
   }
   
+  .footer-info-col h3 {
+    white-space: normal; /* Allow wrapping on mobile */
+  }
+
+  .footer-legal-links {
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+
   .footer-contact-col,
   .footer-contact-links {
     align-items: center;

@@ -140,6 +140,7 @@
 .portfolio-content h3 {
   color: var(--accent-color);
   margin-bottom: 8px;
+  font-size: 1.25rem; /* Match Contact Card */
 }
 
 .portfolio-link {
@@ -183,6 +184,7 @@
   color: var(--accent-color);
   margin-top: 0;
   margin-bottom: 8px;
+  font-size: 1.25rem; /* Restoration of original size */
 }
 
 .about-stats {
@@ -261,6 +263,11 @@
 .step-card {
   text-align: center;
   padding: 20px;
+}
+
+.step-card h3 {
+  font-size: 1.25rem; /* Match Contact Card */
+  margin-bottom: 12px;
 }
 
 .step-icon {

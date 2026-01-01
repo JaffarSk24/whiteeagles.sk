@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import { X } from 'lucide-react';
 import { services } from '../data/services';
 import './OrderForm.css';
@@ -171,9 +171,16 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
               <p className="error-text">{t('order.error', 'Something went wrong. Please try again.')}</p>
             )}
             
-            <p className="privacy-note">
-              {t('order.privacy', 'By submitting you agree to processing of personal data.')}
-            </p>
+            <div className="privacy-note">
+              <p>
+                <Trans 
+                  i18nKey="order.privacy" 
+                  components={{ 
+                    1: <a href="/privacy" target="_blank" rel="noopener noreferrer" className="privacy-link" />
+                  }}
+                />
+              </p>
+            </div>
           </form>
         )}
       </div>

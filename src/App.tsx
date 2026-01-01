@@ -5,6 +5,9 @@ import { Footer } from './components/Footer';
 import { OrderForm } from './components/OrderForm';
 import { Home } from './pages/Home';
 import { ServiceDetail } from './pages/ServiceDetail';
+import { Terms } from './pages/legal/Terms';
+import { Privacy } from './pages/legal/Privacy';
+import { CookiesPage } from './pages/legal/CookiesPage';
 import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
@@ -26,6 +29,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Home onOrderClick={handleOrderClick} />} />
               <Route path="/service/:id" element={<ServiceDetail onOrderClick={handleOrderClick} />} />
+              <Route path="/terms" element={<Terms />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/cookies" element={<CookiesPage />} />
             </Routes>
           </main>
 

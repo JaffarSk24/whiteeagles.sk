@@ -123,6 +123,60 @@
     "sending": "Odosielanie...",
     "submit": "Odoslať žiadosť",
     "error": "Niečo sa pokazilo. Skúste to znova.",
-    "privacy": "Odoslaním súhlasíte so spracovaním osobných údajov."
+    "privacy": "Odoslaním žiadosti súhlasíte s <1>pravidlami spracúvania osobných údajov</1>."
+  },
+  "company": {
+    "name": "White Eagles & Co. s.r.o.",
+    "address": "Kukučínova 12, 900 31 Stupava",
+    "id": "IČO: 57098581, DIČ: 2122566292"
+  },
+  "terms": {
+    "title": "Obchodné podmienky",
+    "description": "Obchodné podmienky používania služieb White Eagles & Co.",
+    "intro": "Tieto obchodné podmienky upravujú používanie našej webovej stránky a služieb.",
+    "general_title": "Všeobecné ustanovenia",
+    "general_text": "Vstupom na túto webovú stránku súhlasíte s týmito obchodnými podmienkami.",
+    "services_title": "Služby",
+    "services_text": "Poskytujeme služby vývoja webových stránok, analytiky a marketingu, ako je opísané na našej stránke.",
+    "payment_title": "Platobné podmienky",
+    "payment_text": "Platobné podmienky sú dohodnuté individuálne pre každý projekt.",
+    "liability_title": "Obmedzenie zodpovednosti",
+    "liability_text": "Nezodpovedáme za nepriame škody vzniknuté v dôsledku používania našich služieb."
+  },
+  "privacy": {
+    "title": "Ochrana osobných údajov",
+    "description": "Ako zhromažďujeme, používame a chránime vaše osobné údaje.",
+    "intro": "Vážime si vaše súkromie a zaväzujeme sa chrániť vaše osobné údaje.",
+    "controller_title": "Prevádzkovateľ údajov",
+    "controller_text": "Prevádzkovateľom údajov je White Eagles & Co. s.r.o., Kukučínova 12, 900 31 Stupava.",
+    "data_collection_title": "Zhromažďované údaje",
+    "data_collection_text": "Údaje zhromažďujeme prostredníctvom analytických nástrojov na zlepšenie našich služieb:",
+    "purpose_title": "Účel spracovania",
+    "purpose_text": "Vaše údaje používame na analýzu návštevnosti webu, zlepšenie používateľského zážitku a správu marketingových kampaní.",
+    "advertising_title": "Reklama",
+    "advertising_text": "Na oslovenie potenciálnych zákazníkov využívame reklamné platformy:",
+    "rights_title": "Vaše práva",
+    "rights_text": "Máte právo na prístup, opravu alebo vymazanie vašich osobných údajov. Kontaktujte nás na welcome@whiteeagles.sk."
+  },
+  "cookies": {
+    "title": "Pravidlá používania cookies",
+    "description": "Informácie o tom, ako používame súbory cookie.",
+    "intro": "Táto webová stránka používa súbory cookie na zlepšenie vášho zážitku.",
+    "what_are_title": "Čo sú cookies?",
+    "what_are_text": "Cookies sú malé textové súbory uložené vo vašom zariadení.",
+    "usage_title": "Ako používame cookies",
+    "usage_text": "Cookies používame na analytické a marketingové účely:",
+    "ga4_desc": "Slúži na rozlíšenie používateľov a analýzu návštevnosti webu.",
+    "ads_desc": "Slúži na doručovanie personalizovaných reklám.",
+    "meta_desc": "Slúži na sledovanie konverzií z reklám na Facebooku a Instagrame.",
+    "clarity_desc": "Slúži na analýzu správania používateľov na stránke (teplotné mapy, nahrávky).",
+    "management_title": "Správa cookies",
+    "management_text": "Súbory cookie môžete spravovať alebo zakázať v nastaveniach vášho prehliadača."
+  },
+  "footer": {
+    "company_desc": "Marketing a vývoj",
+    "terms": "Obchodné podmienky",
+    "privacy": "Ochrana osobných údajov",
+    "cookies": "Cookies"
   }
 }

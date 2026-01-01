@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { services } from '../data/services';
 import { FileText, Users, Code, CheckCircle, MapPin, Mail, Phone, Briefcase, Star, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from 'lucide-react';
 import { SEO } from '../components/SEO';
@@ -15,6 +15,31 @@ interface HomeProps {
 export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    // Check if we navigated here with a scrollTo state
+    if (location.state && (location.state as any).scrollTo) {
+      const id = (location.state as any).scrollTo;
+      const element = document.getElementById(id);
+      if (element) {
+        // Small delay to ensure rendering
+        setTimeout(() => {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+          
+          // Clear state to avoid scrolling on refresh
+          window.history.replaceState({}, document.title);
+        }, 100);
+      }
+    }
+  }, [location]);
 
   return (
     <div className="home-page">

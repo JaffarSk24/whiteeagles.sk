@@ -123,6 +123,60 @@
     "sending": "Sending...",
     "submit": "Send Request",
     "error": "Something went wrong. Please try again.",
-    "privacy": "By submitting you agree to processing of personal data."
+    "privacy": "By submitting a request, you agree to the <1>personal data processing rules</1>."
+  },
+  "company": {
+    "name": "White Eagles & Co. s.r.o.",
+    "address": "Kukučínova 12, 900 31 Stupava",
+    "id": "IČO: 57098581, DIČ: 2122566292"
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "description": "Terms and conditions of use for White Eagles & Co. services.",
+    "intro": "These terms and conditions govern the use of our website and services.",
+    "general_title": "General Provisions",
+    "general_text": "By accessing this website, you agree to be bound by these Terms and Conditions.",
+    "services_title": "Services",
+    "services_text": "We provide web development, analytics, and marketing services as described on our website.",
+    "payment_title": "Payment Terms",
+    "payment_text": "Payment terms are agreed upon individually for each project.",
+    "liability_title": "Limitation of Liability",
+    "liability_text": "We are not liable for any indirect damages arising from the use of our services."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "How we collect, use, and protect your personal data.",
+    "intro": "We value your privacy and are committed to protecting your personal data.",
+    "controller_title": "Data Controller",
+    "controller_text": "The data controller is White Eagles & Co. s.r.o., Kukučínova 12, 900 31 Stupava.",
+    "data_collection_title": "Data We Collect",
+    "data_collection_text": "We collect data through analytics tools to improve our services:",
+    "purpose_title": "Purpose of Processing",
+    "purpose_text": "We use your data to analyze website traffic, improve user experience, and manage our marketing campaigns.",
+    "advertising_title": "Advertising",
+    "advertising_text": "We use advertising platforms to reach potential customers:",
+    "rights_title": "Your Rights",
+    "rights_text": "You have the right to access, correct, or delete your personal data. Contact us at welcome@whiteeagles.sk."
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "description": "Information about how we use cookies.",
+    "intro": "This website uses cookies to enhance your experience.",
+    "what_are_title": "What are Cookies?",
+    "what_are_text": "Cookies are small text files stored on your device.",
+    "usage_title": "How We Use Cookies",
+    "usage_text": "We use cookies for analytics and marketing purposes:",
+    "ga4_desc": "Used to distinguish users and analyze website traffic.",
+    "ads_desc": "Used to deliver personalized advertisements.",
+    "meta_desc": "Used to track conversions from Facebook and Instagram ads.",
+    "clarity_desc": "Used to analyze user behavior on the site (heatmaps, recordings).",
+    "management_title": "Managing Cookies",
+    "management_text": "You can manage or disable cookies in your browser settings."
+  },
+  "footer": {
+    "company_desc": "Marketing and development",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies"
   }
 }

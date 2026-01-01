@@ -22,13 +22,18 @@ export const Footer: React.FC = () => {
           {/* Column 2: Company Info */}
           <div className="footer-col footer-info-col">
             <h3>
-              White Eagles & Co. s.r.o. <span className="company-desc-inline">{t('footer.company_desc', 'Professional Digital Services')}</span>
+              White Eagles & Co. s.r.o. <span className="company-desc-inline">{t('footer.company_desc')}</span>
             </h3>
-            <p className="company-details">IČO: 57098581, DIČ: 2122566292, Sídlo: Kukučínova 12 900 31 Stupava</p>
+            <p className="company-details">IČO: 57098581, DIČ: 2122566292, Sídlo: Kukučínova 12, 900 31 Stupava</p>
+            <div className="footer-legal-links">
+                <a href="/terms" className="footer-link-small">{t('footer.terms')}</a>
+                <a href="/privacy" className="footer-link-small">{t('footer.privacy')}</a>
+                <a href="/cookies" className="footer-link-small">{t('footer.cookies')}</a>
+            </div>
           </div>
 
           {/* Column 3: Contacts & Socials */}
-          <div className="footer-col footer-contact-col">
+        <div className="footer-col footer-contact-col">
             <div className="footer-contact-links">
               <a href="tel:+421949000077" className="footer-link">
                 <Phone size={16} />
@@ -39,7 +44,7 @@ export const Footer: React.FC = () => {
                 <span>welcome@whiteeagles.sk</span>
               </a>
             </div>
-            
+
             <div className="footer-socials">
               <a href="https://t.me/WE_Orders_bot" target="_blank" rel="noopener noreferrer" title="Telegram">
                 <svg 

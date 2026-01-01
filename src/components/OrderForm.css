@@ -126,3 +126,14 @@
   color: var(--text-secondary);
   text-align: center;
 }
+
+.privacy-link {
+  color: var(--accent-color);
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.privacy-link:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}

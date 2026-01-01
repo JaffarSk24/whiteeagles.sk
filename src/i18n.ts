@@ -20,7 +20,7 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ["querystring", "navigator", "htmlTag", "path", "subdomain"],
+      order: ["localStorage", "querystring", "navigator", "htmlTag"],
       caches: ["localStorage"],
     },
   });

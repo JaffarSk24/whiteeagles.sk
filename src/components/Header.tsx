@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Header.css';
 
 interface HeaderProps {
@@ -11,6 +12,8 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
   const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,7 +28,22 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
     setIsMobileMenuOpen(false);
   };
 
+  const handleLogoClick = () => {
+    if (location.pathname !== '/') {
+      navigate('/');
+      window.scrollTo({ top: 0, behavior: 'auto' }); // Instant scroll for new page load feel
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   const scrollToSection = (id: string) => {
+    if (location.pathname !== '/') {
+      navigate('/', { state: { scrollTo: id } });
+      setIsMobileMenuOpen(false);
+      return;
+    }
+
     const element = document.getElementById(id);
     if (element) {
       const headerOffset = 80;
@@ -43,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
   return (
     <header className={`header ${isScrolled ? 'header-scrolled' : ''}`}>
       <div className="container header-content">
-        <div className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <div className="logo" onClick={handleLogoClick}>
           <img src="/assets/white-eagles-logo-white.png" alt="White Eagles & Co." className="logo-img" />
           <span>White Eagles & Co.</span>
         </div>
