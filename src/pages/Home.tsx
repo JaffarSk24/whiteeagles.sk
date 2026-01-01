@@ -79,34 +79,11 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
             </div>
           </div>
           
-          <div className="payment-options-block">
-            <h3>{t('about.payment_title')}</h3>
-            <div className="payment-list">
-              <div className="payment-item">
-                <FileText size={24} />
-                <span>{t('about.payment_invoice')}</span>
-              </div>
-              <div className="payment-item">
-                <CreditCard size={24} />
-                <span>{t('about.payment_card')}</span>
-              </div>
-              <div className="payment-item">
-                <CircleDollarSign size={24} />
-                <span>{t('about.payment_usdt')}</span>
-              </div>
-              <div className="payment-item">
-                <Bitcoin size={24} />
-                <span>{t('about.payment_bitcoin')}</span>
-              </div>
-              <div className="payment-item">
-                <RussianRuble size={24} />
-                <span>{t('about.payment_rub')}</span>
-              </div>
-              <div className="payment-item">
-                <span style={{ fontSize: '36px', fontWeight: 'normal', lineHeight: '0.7', paddingTop: '6px', marginBottom: '7px', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '24px', width: '24px', color: 'var(--accent-color)' }}>₴</span>
-                <span>{t('about.payment_uah')}</span>
-              </div>
+          <div className="steps-success-stat" style={{ margin: '60px auto' }}>
+            <div className="stat-icon-wrapper">
+              <Star size={42} strokeWidth={1.5} fill="var(--accent-color)" fillOpacity={0.2} />
             </div>
+            <h3>{t('steps.success_stat', 'I completed 90% of complex projects within 15 working days')}</h3>
           </div>
 
           <ClientCarousel />
@@ -141,6 +118,35 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="payment-options-block">
+              <h3>{t('about.payment_title')}</h3>
+              <div className="payment-list">
+                <div className="payment-item">
+                  <FileText size={24} />
+                  <span>{t('about.payment_invoice')}</span>
+                </div>
+                <div className="payment-item">
+                  <CreditCard size={24} />
+                  <span>{t('about.payment_card')}</span>
+                </div>
+                <div className="payment-item">
+                  <CircleDollarSign size={24} />
+                  <span>{t('about.payment_usdt')}</span>
+                </div>
+                <div className="payment-item">
+                  <Bitcoin size={24} />
+                  <span>{t('about.payment_bitcoin')}</span>
+                </div>
+                <div className="payment-item">
+                  <RussianRuble size={24} />
+                  <span>{t('about.payment_rub')}</span>
+                </div>
+                <div className="payment-item">
+                  <span style={{ fontSize: '36px', fontWeight: 'normal', lineHeight: '0.7', paddingTop: '6px', marginBottom: '7px', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '24px', width: '24px', color: 'var(--accent-color)' }}>₴</span>
+                  <span>{t('about.payment_uah')}</span>
+                </div>
+              </div>
             </div>
           </FadeInSection>
         </div>
@@ -201,12 +207,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
                 <p>{t('steps.delivery_desc', 'Acceptance, approval and payment.')}</p>
               </div>
             </div>
-            <div className="steps-success-stat">
-              <div className="stat-icon-wrapper">
-                <Star size={42} strokeWidth={1.5} fill="var(--accent-color)" fillOpacity={0.2} />
-              </div>
-              <h3>{t('steps.success_stat', 'I completed 90% of complex projects within 15 working days')}</h3>
-            </div>
+
           </FadeInSection>
         </div>
       </section>
