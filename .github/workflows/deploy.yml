@@ -24,21 +24,13 @@ jobs:
       - name: 🛠 Build Project
         run: npm run build
 
-      - name: 📂 Sync files (SFTP)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: 🚀 Deploy via SCP
+        uses: appleboy/scp-action@v0.1.7
         with:
-          server: ${{ secrets.SFTP_HOST }}
+          host: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USERNAME }}
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          protocol: sftp
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          security: loose
-          log-level: verbose
-          local-dir: ./dist/
-          server-dir: ${{ secrets.REMOTE_TARGET }}
-          dangerous-clean-slate: true
-          exclude: |
-            **/.git*
-            **/node_modules/**
-            api/config.php
-            public/api/config.php
+          source: "dist/*"
+          target: ${{ secrets.REMOTE_TARGET }}
+          strip_components: 1
