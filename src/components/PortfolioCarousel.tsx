@@ -56,6 +56,9 @@ export const PortfolioCarousel: React.FC = () => {
                    <img 
                       src={item.image || `https://placehold.co/600x400/374161/FFF?text=${item.title}`} 
                       alt={item.title} 
+                      loading="lazy"
+                      width="800"
+                      height="400"
                     />
                 </div>
                 <div className="portfolio-content-slide">
