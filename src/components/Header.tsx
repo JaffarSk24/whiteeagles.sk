@@ -67,16 +67,16 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
         </div>
 
         <nav className={`nav-links ${isMobileMenuOpen ? 'nav-active' : ''}`}>
-          <a onClick={() => scrollToSection('services')}>{t('header.services', 'Services')}</a>
-          <a onClick={() => scrollToSection('portfolio')}>{t('header.portfolio', 'Portfolio')}</a>
-          <a onClick={() => scrollToSection('about')}>{t('header.about', 'About')}</a>
-          <a onClick={() => scrollToSection('steps')}>{t('header.process', 'Process')}</a>
-          <a onClick={() => scrollToSection('contacts')}>{t('header.contacts', 'Contacts')}</a>
+          <a href="/#services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }}>{t('header.services', 'Services')}</a>
+          <a href="/#portfolio" onClick={(e) => { e.preventDefault(); scrollToSection('portfolio'); }}>{t('header.portfolio', 'Portfolio')}</a>
+          <a href="/#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>{t('header.about', 'About')}</a>
+          <a href="/#steps" onClick={(e) => { e.preventDefault(); scrollToSection('steps'); }}>{t('header.process', 'Process')}</a>
+          <a href="/#contacts" onClick={(e) => { e.preventDefault(); scrollToSection('contacts'); }}>{t('header.contacts', 'Contacts')}</a>
           
           <div className="lang-switcher">
-            <button className={(i18n.language === 'sk' || !i18n.language || i18n.language.startsWith('sk')) ? 'active' : ''} onClick={() => changeLanguage('sk')}>SK</button>
-            <button className={i18n.language?.startsWith('ru') ? 'active' : ''} onClick={() => changeLanguage('ru')}>RU</button>
-            <button className={i18n.language?.startsWith('en') ? 'active' : ''} onClick={() => changeLanguage('en')}>EN</button>
+            <button aria-label="Switch to Slovak" className={(i18n.language === 'sk' || !i18n.language || i18n.language.startsWith('sk')) ? 'active' : ''} onClick={() => changeLanguage('sk')}>SK</button>
+            <button aria-label="Switch to Russian" className={i18n.language?.startsWith('ru') ? 'active' : ''} onClick={() => changeLanguage('ru')}>RU</button>
+            <button aria-label="Switch to English" className={i18n.language?.startsWith('en') ? 'active' : ''} onClick={() => changeLanguage('en')}>EN</button>
           </div>
         </nav>
 
@@ -84,7 +84,7 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
           {t('header.order')}
         </button>
 
-        <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <button className="mobile-menu-btn" aria-label="Toggle menu" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <X /> : <Menu />}
         </button>
       </div>

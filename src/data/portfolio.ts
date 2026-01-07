@@ -13,34 +13,34 @@ export const portfolio: PortfolioItem[] = [
     url: 'https://biliardovna.sk',
     title: 'Biliardovňa',
     descKey: 'portfolio.biliardovna.desc',
-    image: '/assets/portfolio-biliardovna.png'
+    image: '/assets/portfolio-biliardovna.webp'
   },
   {
     id: 'top-kobka',
     url: 'https://top-kobka.sk',
     title: 'TOP KOBKA',
     descKey: 'portfolio.topkobka.desc',
-    image: '/assets/portfolio-topkobka.png'
+    image: '/assets/portfolio-topkobka.webp'
   },
   {
     id: 'studio-krasy',
     url: 'https://studio-krasy.sk',
     title: 'Krása štúdio "OK"',
     descKey: 'portfolio.studiokrasy.desc',
-    image: '/assets/portfolio-studiokrasy.png'
+    image: '/assets/portfolio-studiokrasy.webp'
   },
   {
     id: 'top-sklad',
     url: 'https://top-sklad.sk',
     title: 'TOP SKLAD',
     descKey: 'portfolio.topsklad.desc',
-    image: '/assets/portfolio-topsklad.png'
+    image: '/assets/portfolio-topsklad.webp'
   },
   {
     id: 'bodabo',
     url: 'https://bodabo.ru',
     title: 'BODA BODA',
     descKey: 'portfolio.bodabo.desc',
-    image: '/assets/portfolio-bodabo.png'
+    image: '/assets/portfolio-bodabo.webp'
   }
 ];

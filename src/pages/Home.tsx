@@ -65,7 +65,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
                 <p>{t('about.knowledge')}</p>
                 
                 <div className="pride-block">
-                  <h4>{t('about.pride_title')}</h4>
+                  <h2>{t('about.pride_title')}</h2>
                   <p>{t('about.pride_desc')}</p>
                 </div>
 
@@ -178,9 +178,14 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
                     i18nKey="steps.request_desc" 
                     defaults="Leave a request <1>via the form</1> and I will contact you as soon as possible."
                     components={{ 
-                      1: <span 
+                      1: <button 
+                          type="button"
                           onClick={() => onOrderClick()} 
                           style={{ 
+                            background: 'none',
+                            border: 'none',
+                            padding: 0,
+                            font: 'inherit',
                             cursor: 'pointer', 
                             color: 'var(--accent-color)', 
                             textDecoration: 'underline',
