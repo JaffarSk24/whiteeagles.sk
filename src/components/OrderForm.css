@@ -186,3 +186,18 @@
   opacity: 0.8;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  /* Prevent iOS zoom on focus by enforcing 16px font size */
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px !important;
+  }
+
+  /* Compact textarea on mobile to save space */
+  .form-group textarea {
+    height: 48px; /* Match approximate height of standard inputs */
+    min-height: 48px;
+    padding: 12px;
+  }
+}
