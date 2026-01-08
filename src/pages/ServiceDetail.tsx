@@ -27,7 +27,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
   if (!service) {
     return (
       <div className="container not-found">
-        <SEO title="Service Not Found" />
+        <SEO title="Service Not Found" noindex={true} />
         <h2>Service not found</h2>
         <button className="btn btn-secondary" onClick={() => navigate('/')}>
           <ArrowLeft size={16} /> Back to Home

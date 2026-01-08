@@ -9,7 +9,7 @@ import { Terms } from './pages/legal/Terms';
 import { Privacy } from './pages/legal/Privacy';
 import { CookiesPage } from './pages/legal/CookiesPage';
 import { ExitPopup } from './components/ExitPopup';
-import { HelmetProvider } from 'react-helmet-async';
+
 
 function App() {
   const [isOrderFormOpen, setIsOrderFormOpen] = useState(false);
@@ -21,32 +21,30 @@ function App() {
   };
 
   return (
-    <HelmetProvider>
-      <Router>
-        <div className="app">
-          <Header onOrderClick={() => handleOrderClick()} />
-          
-          <main>
-            <Routes>
-              <Route path="/" element={<Home onOrderClick={handleOrderClick} />} />
-              <Route path="/service/:id" element={<ServiceDetail onOrderClick={handleOrderClick} />} />
-              <Route path="/terms" element={<Terms />} />
-              <Route path="/privacy" element={<Privacy />} />
-              <Route path="/cookies" element={<CookiesPage />} />
-            </Routes>
-          </main>
+    <Router>
+      <div className="app">
+        <Header onOrderClick={() => handleOrderClick()} />
+        
+        <main>
+          <Routes>
+            <Route path="/" element={<Home onOrderClick={handleOrderClick} />} />
+            <Route path="/service/:id" element={<ServiceDetail onOrderClick={handleOrderClick} />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/cookies" element={<CookiesPage />} />
+          </Routes>
+        </main>
 
-          <Footer />
-          
-          <OrderForm 
-            isOpen={isOrderFormOpen} 
-            onClose={() => setIsOrderFormOpen(false)}
-            initialService={selectedService}
-          />
-          <ExitPopup onOrderClick={() => handleOrderClick()} />
-        </div>
-      </Router>
-    </HelmetProvider>
+        <Footer />
+        
+        <OrderForm 
+          isOpen={isOrderFormOpen} 
+          onClose={() => setIsOrderFormOpen(false)}
+          initialService={selectedService}
+        />
+        <ExitPopup onOrderClick={() => handleOrderClick()} />
+      </div>
+    </Router>
   );
 }
 
