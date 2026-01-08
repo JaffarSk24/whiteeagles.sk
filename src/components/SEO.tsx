@@ -16,7 +16,7 @@ export const SEO: React.FC<SEOProps> = ({
   title, 
   description, 
   keywords,
-  image = '/assets/white-eagles-logo-white.png', // Default OG Image
+  image = '/assets/white-eagles-logo-white.webp', // Default OG Image
   type = 'website',
   noindex = false
 }) => {

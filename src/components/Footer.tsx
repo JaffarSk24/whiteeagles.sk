@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
           {/* Column 1: Logo */}
           <div className="footer-col footer-logo-col">
             <div className="footer-logo">
-              <img src="/assets/white-eagles-logo-white.png" alt="White Eagles & Co." />
+              <img src="/assets/white-eagles-logo-white.webp" alt="White Eagles & Co." />
               <span>White Eagles & Co.</span>
             </div>
           </div>

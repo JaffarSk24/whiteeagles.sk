@@ -9,17 +9,17 @@ interface Client {
 }
 
 const clients: Client[] = [
-  { name: 'Rebuy Stars', url: 'https://www.rebuystars.sk/', logo: '/assets/logo-rebuystars.png' },
-  { name: 'Slov Uni Sport', url: 'https://www.slovunisport.sk/', logo: '/assets/logo-slovunisport.png' },
-  { name: 'Chicago', url: 'https://www.chicago.sk/', logo: '/assets/logo-chicago.png' },
-  { name: 'Severské Drevo', url: 'https://severskedrevo.sk/', logo: '/assets/logo-severskedrevo.png' },
-  { name: 'Biliardovna', url: 'https://biliardovna.sk/', logo: '/assets/logo-biliardovna.png' },
-  { name: 'Moj Servis', url: 'https://www.moj-servis.sk/', logo: '/assets/logo-mojservis.png' },
-  { name: 'Top Kobka', url: 'https://top-kobka.sk/', logo: '/assets/logo-topkobka.png' },
-  { name: 'Top Sklad', url: 'https://top-sklad.sk/', logo: '/assets/logo-topsklad.png' },
-  { name: 'Studio Krasy', url: 'https://studio-krasy.sk/', logo: '/assets/logo-studiokrasy.png' },
-  { name: 'Recorder', url: 'https://recorder.sk/', logo: '/assets/logo-recorder.png' },
-  { name: 'Bodabo', url: 'https://bodabo.ru/', logo: '/assets/logo-bodabo.png' },
+  { name: 'Rebuy Stars', url: 'https://www.rebuystars.sk/', logo: '/assets/logo-rebuystars.webp' },
+  { name: 'Slov Uni Sport', url: 'https://www.slovunisport.sk/', logo: '/assets/logo-slovunisport.webp' },
+  { name: 'Chicago', url: 'https://www.chicago.sk/', logo: '/assets/logo-chicago.webp' },
+  { name: 'Severské Drevo', url: 'https://severskedrevo.sk/', logo: '/assets/logo-severskedrevo.webp' },
+  { name: 'Biliardovna', url: 'https://biliardovna.sk/', logo: '/assets/logo-biliardovna.webp' },
+  { name: 'Moj Servis', url: 'https://www.moj-servis.sk/', logo: '/assets/logo-mojservis.webp' },
+  { name: 'Top Kobka', url: 'https://top-kobka.sk/', logo: '/assets/logo-topkobka.webp' },
+  { name: 'Top Sklad', url: 'https://top-sklad.sk/', logo: '/assets/logo-topsklad.webp' },
+  { name: 'Studio Krasy', url: 'https://studio-krasy.sk/', logo: '/assets/logo-studiokrasy.webp' },
+  { name: 'Recorder', url: 'https://recorder.sk/', logo: '/assets/logo-recorder.webp' },
+  { name: 'Bodabo', url: 'https://bodabo.ru/', logo: '/assets/logo-bodabo.webp' },
 ];
 
 export const ClientCarousel: React.FC = () => {
