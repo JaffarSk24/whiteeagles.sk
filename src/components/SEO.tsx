@@ -36,7 +36,6 @@ export const SEO: React.FC<SEOProps> = ({
 
   // 1. Define URL for each language version
   // If path is just '/', don't double slash (handled by logic below)
-  const baseUrl = cleanPath === '/' ? siteUrl : `${siteUrl}${cleanPath}`;
   
   // Slovak is default (root), others use query param
   const urlSk = cleanPath === '/' ? `${siteUrl}/` : `${siteUrl}${cleanPath}`;
