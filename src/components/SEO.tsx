@@ -29,13 +29,19 @@ export const SEO: React.FC<SEOProps> = ({
   const currentLang = urlLang || (i18n.language ? i18n.language.split('-')[0] : 'sk');
   
   const siteUrl = 'https://whiteeagles.sk';
-  const cleanPath = location.pathname.replace(/\/$/, ''); // Remove trailing slash
+  let cleanPath = location.pathname.replace(/\/$/, '');
+  
+  // Ensure root always has trailing slash for consistency (https://whiteeagles.sk/)
+  if (cleanPath === '') cleanPath = '/';
 
   // 1. Define URL for each language version
+  // If path is just '/', don't double slash (handled by logic below)
+  const baseUrl = cleanPath === '/' ? siteUrl : `${siteUrl}${cleanPath}`;
+  
   // Slovak is default (root), others use query param
-  const urlSk = `${siteUrl}${cleanPath}`;
-  const urlEn = `${siteUrl}${cleanPath}?lng=en`;
-  const urlRu = `${siteUrl}${cleanPath}?lng=ru`;
+  const urlSk = cleanPath === '/' ? `${siteUrl}/` : `${siteUrl}${cleanPath}`;
+  const urlEn = cleanPath === '/' ? `${siteUrl}/?lng=en` : `${siteUrl}${cleanPath}?lng=en`;
+  const urlRu = cleanPath === '/' ? `${siteUrl}/?lng=ru` : `${siteUrl}${cleanPath}?lng=ru`;
 
   // 2. Self-referencing Canonical
   let canonicalUrl = urlSk;
@@ -58,13 +64,13 @@ export const SEO: React.FC<SEOProps> = ({
       <html lang={currentLang} />
       
       {/* Canonical Link - MUST be self-referencing for each language version */}
-      <link rel="canonical" href={canonicalUrl} />
+      <link rel="canonical" href={canonicalUrl} key="canonical" />
 
       {/* Alternate Hreflang Links - MUST list all versions including current one */}
-      <link rel="alternate" hrefLang="sk" href={urlSk} />
-      <link rel="alternate" hrefLang="en" href={urlEn} />
-      <link rel="alternate" hrefLang="ru" href={urlRu} />
-      <link rel="alternate" hrefLang="x-default" href={urlSk} />
+      <link rel="alternate" hrefLang="sk" href={urlSk} key="hreflang-sk" />
+      <link rel="alternate" hrefLang="en" href={urlEn} key="hreflang-en" />
+      <link rel="alternate" hrefLang="ru" href={urlRu} key="hreflang-ru" />
+      <link rel="alternate" hrefLang="x-default" href={urlSk} key="hreflang-default" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={type} />
