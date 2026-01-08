@@ -19,6 +19,7 @@
     gap: 40px;
     width: max-content;
     animation: scroll 80s linear infinite; /* Slowed down significantly */
+    will-change: transform;
 }
 
 .client-logo-item {

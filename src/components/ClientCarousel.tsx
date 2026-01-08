@@ -43,7 +43,6 @@ export const ClientCarousel: React.FC = () => {
                             src={client.logo} 
                             alt={client.name} 
                             className="client-logo-img"
-                            loading="lazy"
                             width="200"
                             height="80"
                         />
