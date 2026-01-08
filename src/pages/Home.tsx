@@ -56,7 +56,18 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
           <h1 className="section-title">{t('about.title')}</h1>
           <div className="about-grid">
             <div className="about-image">
-              <img src="/assets/me.jpg" alt="Kirill" />
+              <picture>
+                <source srcSet="/assets/me-small.webp" media="(max-width: 768px)" type="image/webp" />
+                <source srcSet="/assets/me.webp" type="image/webp" />
+                <img 
+                  src="/assets/me.jpg" 
+                  alt="Kirill" 
+                  width="800"
+                  height="1024"
+                  style={{ width: '100%', height: 'auto' }}
+                  fetchPriority="high"
+                />
+              </picture>
             </div>
             <div className="about-content">
               <div className="about-text">
