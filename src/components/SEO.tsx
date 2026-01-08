@@ -66,6 +66,7 @@ export const SEO: React.FC<SEOProps> = ({
       <link rel="canonical" href={canonicalUrl} key="canonical" />
 
       {/* Alternate Hreflang Links - MUST list all versions including current one */}
+      {/* Alternate Hreflang Links - MUST list all versions including current one */}
       <link rel="alternate" hrefLang="sk" href={urlSk} key="hreflang-sk" />
       <link rel="alternate" hrefLang="en" href={urlEn} key="hreflang-en" />
       <link rel="alternate" hrefLang="ru" href={urlRu} key="hreflang-ru" />
