@@ -18,7 +18,8 @@
     display: flex;
     gap: 40px;
     width: max-content;
-    animation: scroll 80s linear infinite; /* Slowed down significantly */
+/* Increased duration to slow down */
+    animation: scroll 120s linear infinite;
     will-change: transform;
 }
 
@@ -27,8 +28,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 50px; /* Increased margin */
+    margin: 0 50px;
     position: relative;
+    /* Hardware acceleration fix for flicker */
+    transform: translate3d(0, 0, 0); 
+    backface-visibility: hidden; 
 }
 
 .client-logo-item:hover .client-logo-img {
@@ -37,7 +41,7 @@
 }
 
 .client-logo-img {
-    height: 160px; /* Doubled size from 80px */
+    height: 160px;
     width: auto;
     max-width: 300px;
     object-fit: contain;
@@ -57,19 +61,42 @@
 
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
     100% {
-        transform: translateX(-50%);
+        /* With 3 sets, we want to scroll 1 set length. 
+           1 set is 33.333% of the total width. 
+           So we move from 0 to -33.333%.
+           When we reach -33.333%, we are visually at the start of Set 2, which looks like Start of Set 1.
+           Then we snap back to 0.
+        */
+        transform: translate3d(-33.3333%, 0, 0);
     }
 }
 
 @media (max-width: 768px) {
-    .client-logo-img {
-        height: 100px;
-        margin: 0 20px;
+    .client-logo-item {
+        margin: 0 20px; /* Correctly override item margin */
     }
+    
+    .client-logo-img {
+        height: 80px; /* Slightly smaller for better fit */
+        margin: 0; /* Remove any extra margin on img */
+    }
+    
     .carousel-track {
-        gap: 20px;
+        gap: 0; /* Let item margins handle spacing */
+        animation-duration: 60s; /* Faster/Slower? Distance is shorter on mobile. 
+                                    If track is 3000px vs 10000px. 
+                                    Speed = Dist/Time. 
+                                    To keep sane speed:
+                                    Desktop (4 sets): ~8000px / 120s = 66px/s
+                                    Mobile (4 sets): ~3000px / ? = 66 px/s => ~45s?
+                                    Actually user said it moves too fast. 
+                                    Let's keep 80s or 120s. 
+                                    If track is short (3000px) and time is long (120s), speed is 25px/s (Very slow).
+                                    Let's set 60s for mobile. 
+                                 */
+        animation-duration: 90s;
     }
 }

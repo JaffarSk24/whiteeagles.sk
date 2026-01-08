@@ -29,8 +29,8 @@ export const ClientCarousel: React.FC = () => {
         <div className="carousel-container">
             <h3>{t('clients.title', 'Our Trusted Clients')}</h3>
             <div className="carousel-track">
-                {/* Duplicate x4 to ensure smooth infinite scroll with 4 visible items */}
-                {[...clients, ...clients, ...clients, ...clients].map((client, index) => (
+                {/* Duplicate x3 - Enough for 4K while saving memory on mobile */ }
+                {[...clients, ...clients, ...clients].map((client, index) => (
                     <a 
                         key={`${client.name}-${index}`} 
                         href={client.url} 
