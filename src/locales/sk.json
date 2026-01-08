@@ -188,7 +188,8 @@
     "from": "od",
     "visit": "Navštíviť stránku",
     "optional": "nepovinné",
-    "back": "Späť"
+    "back": "Späť",
+    "close": "Zavrieť"
   },
   "order": {
     "title": "Objednať službu",

@@ -202,7 +202,8 @@
     "from": "from",
     "visit": "Visit Website",
     "optional": "optional",
-    "back": "Back"
+    "back": "Back",
+    "close": "Close"
   },
   "order": {
     "title": "Order Service",
