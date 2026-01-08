@@ -20,9 +20,11 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ["localStorage", "querystring", "navigator", "htmlTag"],
+      order: ["querystring", "localStorage", "navigator", "htmlTag"], // Added querystring for testing
       caches: ["localStorage"],
+      lookupQuerystring: "lng",
     },
+    load: "languageOnly", // Support ru-RU -> ru mapping
   });
 
 export default i18n;
