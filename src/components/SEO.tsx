@@ -39,13 +39,18 @@ export const SEO: React.FC<SEOProps> = ({
   
   // Slovak is default (root), others use query param
   const urlSk = cleanPath === '/' ? `${siteUrl}/` : `${siteUrl}${cleanPath}`;
+  // For alternate links (if needed)
   const urlEn = cleanPath === '/' ? `${siteUrl}/?lng=en` : `${siteUrl}${cleanPath}?lng=en`;
   const urlRu = cleanPath === '/' ? `${siteUrl}/?lng=ru` : `${siteUrl}${cleanPath}?lng=ru`;
 
   // 2. Self-referencing Canonical
-  let canonicalUrl = urlSk;
-  if (currentLang === 'en') canonicalUrl = urlEn;
-  if (currentLang === 'ru') canonicalUrl = urlRu;
+  // USER REQUEST: Strict Canonical = Slovak Page Only.
+  // We explicitly ignore the current language for the Canonical tag.
+  // It always points to the "clean" (Slovak) version.
+  const canonicalUrl = urlSk;
+
+  // Note: We still render alternate hreflang tags so Google knows the other versions exist,
+  // but the 'canonical' authority is given solely to the SK version.
 
   const displayTitle = title 
     ? (title.includes('White Eagles') ? title : `${title} | White Eagles & Co.`) 

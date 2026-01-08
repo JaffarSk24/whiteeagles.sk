@@ -20,11 +20,25 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ["querystring", "localStorage", "navigator", "htmlTag"], // Added querystring for testing
+      order: ["querystring", "localStorage", "navigator", "htmlTag"],
       caches: ["localStorage"],
       lookupQuerystring: "lng",
     },
-    load: "languageOnly", // Support ru-RU -> ru mapping
+    // Custom logic to force 'sk' for bots (Googlebot, etc.) to ensure correct indexing
+    // This runs before the detector if we intervene, or we can rely on detection options if available.
+    // Since i18next doesn't have a simple 'botDetector', we will handle this by checking navigator.userAgent
+    // If bot, we simply set the initial language to 'sk' if detection fails or override it.
+    // However, the cleanest way is often to inject a custom detector.
+    // For simplicity, we will assume standard detection works for users, but for SEO we want 'sk' content.
+    // Actually, 'navigator' detection matches the bot's headers.
+    // We will REMOVE 'navigator' from detection if it's a bot, or explicitly set lang.
   });
+
+// Force SK for bots
+const userAgent = typeof navigator !== 'undefined' ? navigator.userAgent : '';
+const isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(userAgent);
+if (isBot) {
+  i18n.changeLanguage('sk');
+}
 
 export default i18n;
