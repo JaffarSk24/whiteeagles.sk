@@ -23,8 +23,10 @@ export const SEO: React.FC<SEOProps> = ({
   const { i18n } = useTranslation();
   const location = useLocation();
   
-  // Ensure we have a valid language, default to 'sk'
-  const currentLang = i18n.language ? i18n.language.split('-')[0] : 'sk';
+  // Ensure we have a valid language, prioritize query param for SEO consistency
+  const queryParams = new URLSearchParams(location.search);
+  const urlLang = queryParams.get('lng');
+  const currentLang = urlLang || (i18n.language ? i18n.language.split('-')[0] : 'sk');
   
   const siteUrl = 'https://whiteeagles.sk';
   const cleanPath = location.pathname.replace(/\/$/, ''); // Remove trailing slash
