@@ -27,6 +27,15 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         ...prev,
         service: initialService || services[0].id
       }));
+
+      // Lazy load ReCAPTCHA
+      if (!document.getElementById('recaptcha-script')) {
+        const script = document.createElement('script');
+        script.id = 'recaptcha-script';
+        script.src = 'https://www.google.com/recaptcha/api.js?render=6LdmAj0sAAAAAOdnsxEGoEH6xx6nw-lXmNQEvUFi';
+        script.async = true;
+        document.body.appendChild(script);
+      }
     }
   }, [isOpen, initialService]);
 
