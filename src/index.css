@@ -113,20 +113,14 @@ ul {
   transform: translateY(-100%);
 }
 
-/* Fix text wrapping in cards by reducing padding slightly */
+/* Allow natural wrapping in cards, adjust padding for balance */
 .service-card .btn-primary,
 .detail-card .btn-primary {
-  padding-left: 16px;
-  padding-right: 16px;
-  white-space: nowrap; /* Prevent wrapping for RU/EN */
-}
-
-/* Allow wrapping specifically for SK if needed, or rely on responsive font size */
-html[lang="sk"] .service-card .btn-primary,
-html[lang="sk"] .detail-card .btn-primary {
-  white-space: normal;
-  padding-left: 24px; /* Restore original comfortable padding */
-  padding-right: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  white-space: normal; /* Allow wrapping if text is long (SK) */
+  line-height: 1.2; /* Tighten line height for multi-line text */
+  min-height: 48px; /* Ensure consistent height */
 }
 
 /* Force filled state for Order Form Submit Button (Popup) */
