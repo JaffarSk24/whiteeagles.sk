@@ -116,8 +116,8 @@ ul {
 /* Allow natural wrapping in cards, adjust padding for balance */
 .service-card .btn-primary,
 .detail-card .btn-primary {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
   white-space: normal; /* Allow wrapping if text is long (SK) */
   line-height: 1.2; /* Tighten line height for multi-line text */
   min-height: 48px; /* Ensure consistent height */
