@@ -86,7 +86,7 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
           </div>
         </nav>
 
-        <button className="btn btn-primary btn-order" onClick={onOrderClick}>
+        <button className="btn btn-activate btn-order" onClick={onOrderClick}>
           {t('header.order')}
         </button>
 

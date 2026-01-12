@@ -82,7 +82,7 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
 
                 <div className="about-cta">
                   <p>{t('about.cta_text')}</p>
-                  <button className="btn btn-primary" onClick={() => onOrderClick()}>
+                  <button className="btn btn-liquid" onClick={() => onOrderClick()}>
                     {t('about.cta_button')}
                   </button>
                 </div>
