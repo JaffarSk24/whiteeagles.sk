@@ -125,6 +125,8 @@ ul {
 html[lang="sk"] .service-card .btn-primary,
 html[lang="sk"] .detail-card .btn-primary {
   white-space: normal;
+  padding-left: 24px; /* Restore original comfortable padding */
+  padding-right: 24px;
 }
 
 /* Force filled state for Order Form Submit Button (Popup) */

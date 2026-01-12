@@ -41,4 +41,9 @@ if (isBot) {
   i18n.changeLanguage('sk');
 }
 
+// Update HTML lang attribute on language change
+i18n.on('languageChanged', (lng) => {
+  document.documentElement.lang = lng;
+});
+
 export default i18n;
