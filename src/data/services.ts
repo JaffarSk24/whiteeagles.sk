@@ -20,7 +20,7 @@ export const services: Service[] = [
     titleKey: 'services.webdev.title',
     descKey: 'services.webdev.desc',
     priceRate: 35,
-    priceMin: 4000,
+    priceMin: 1500,
     image: '/assets/services/webdev.webp',
     detailsKey: 'services.webdev.details',
     guaranteeKey: 'services.webdev.guarantee',
