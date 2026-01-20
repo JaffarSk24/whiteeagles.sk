@@ -85,13 +85,13 @@
     },
     "analytics": {
       "title": "Web Analytics",
-      "desc": "Implementation of Server-Side GTM, GA4, Clarity, Yandex Metrica for precise tracking",
-      "details": "Implementation of Server-Side GTM, GA4, Clarity, Yandex Metrica for precise tracking of every visitor's actions",
+      "desc": "Implementation of Server-Side GTM, GA4, Microsoft Clarity, Bing console for precise tracking",
+      "details": "Implementation of Server-Side GTM, GA4, Microsoft Clarity, Bing console for precise tracking of every visitor's actions",
       "details_points": [
         "Connection and setup of Google Tag Manager (GTM) and Server-Side Tracking for GA4",
         "Goal and event setup",
         "Integration with CRM and ad cabinets",
-        "Clarity / Yandex Metrica setup"
+        "Microsoft Clarity / Bing console setup"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
       "seo_title": "Web Analytics Services GA4 & GTM | Conversion Tracking",

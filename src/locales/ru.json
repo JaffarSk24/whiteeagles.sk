@@ -85,13 +85,13 @@
     },
     "analytics": {
       "title": "Веб-аналитика",
-      "desc": "Внедрение серверного GTM, Google Analytics 4, Clarity, Yandex Metrica для точного отслеживания действий",
-      "details": "Внедрение серверного GTM, Google Analytics 4, Clarity, Yandex Metrica для точного отслеживания действий каждого посетителя",
+      "desc": "Внедрение серверного GTM, Google Analytics 4, Microsoft Clarity, Bing console для точного отслеживания действий",
+      "details": "Внедрение серверного GTM, Google Analytics 4, Microsoft Clarity, Bing console для точного отслеживания действий каждого посетителя",
       "details_points": [
         "Подключение и настройка Google Tag Manager (GTM) и Server-Side Tracking for GA4",
         "Настройка целей и событий",
         "Интеграция с CRM и рекламными кабинетами",
-        "Настройка Clarity / Yandex Metrica"
+        "Настройка Microsoft Clarity / Bing console"
       ],
       "guarantee": "Я предоставляю гарантию работоспособности и бесплатную техническую поддержку в течении 6 месяцев в подарок для всех своих заказчиков",
       "seo_title": "Настройка веб-аналитики GA4 и GTM | Отслеживание конверсий",

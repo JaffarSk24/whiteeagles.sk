@@ -84,13 +84,13 @@
     },
     "analytics": {
       "title": "Webová analytika",
-      "desc": "Implementácia serverového GTM, Google Analytics 4, Clarity, Yandex Metrica pre presné sledovanie",
-      "details": "Implementácia serverového GTM, Google Analytics 4, Clarity, Yandex Metrica pre presné sledovanie akcií každého návštevníka",
+      "desc": "Implementácia serverového GTM, Google Analytics 4, Microsoft Clarity, Bing console pre presné sledovanie",
+      "details": "Implementácia serverového GTM, Google Analytics 4, Microsoft Clarity, Bing console pre presné sledovanie akcií každého návštevníka",
       "details_points": [
         "Pripojenie a nastavenie Google Tag Manager (GTM) a Server-Side Tracking pre GA4",
         "Nastavenie cieľov a udalostí",
         "Integrácia s CRM a reklamnými účtami",
-        "Nastavenie Clarity / Yandex Metrica"
+        "Nastavenie Microsoft Clarity / Bing console"
       ],
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
       "seo_title": "Nastavenie webovej analytiky GA4 a GTM | Meranie konverzií",
