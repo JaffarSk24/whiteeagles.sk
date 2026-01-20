@@ -44,10 +44,11 @@ export const SEO: React.FC<SEOProps> = ({
   const urlRu = cleanPath === '/' ? `${siteUrl}/?lng=ru` : `${siteUrl}${cleanPath}?lng=ru`;
 
   // 2. Self-referencing Canonical
-  // USER REQUEST: Strict Canonical = Slovak Page Only.
-  // We explicitly ignore the current language for the Canonical tag.
-  // It always points to the "clean" (Slovak) version.
-  const canonicalUrl = urlSk;
+  // SEO BEST PRACTICE: Canonical should point to YOU (the current language version)
+  // so Google indexes this specific URL as the authority for this language content.
+  let canonicalUrl = urlSk;
+  if (currentLang === 'en') canonicalUrl = urlEn;
+  if (currentLang === 'ru') canonicalUrl = urlRu;
 
   // Note: We still render alternate hreflang tags so Google knows the other versions exist,
   // but the 'canonical' authority is given solely to the SK version.
