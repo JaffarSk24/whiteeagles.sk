@@ -280,7 +280,7 @@ export const Chatbot: React.FC = () => {
         phone: formData.phone,
         service: t(services.find(s => s.id === formData.service)?.titleKey || formData.serviceName),
         price: priceString,
-        message: t('chatbot.message_default', 'Оставлено через чат-бот'),
+        message: t('chatbot.message_default', 'Отправлено через чат-бот'),
         language: i18n.language,
         recaptchaToken: token
       };

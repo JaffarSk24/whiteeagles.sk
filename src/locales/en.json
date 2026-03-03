@@ -221,8 +221,8 @@
   },
   "order": {
     "title": "Order Service",
-    "success_title": "Thank you!",
-    "success": "We have received your information and will contact you as soon as possible during business hours.",
+    "success_title": "Thank you for your request",
+    "success": "I will contact you shortly to discuss the details and terms of our cooperation.",
     "name": "Name",
     "email": "Email",
     "service": "Service",
@@ -311,6 +311,7 @@
     "placeholder_phone": "+421 900 000 000",
     "q_summary": "Please review the data before sending.<br><br>I will contact you shortly!",
     "skipped": "Skipped",
+    "message_default": "Sent via chatbot",
     "btn_next": "Next",
     "btn_send": "Send Request",
     "bubble_text": "I will help you choose a service in 1 minute!",

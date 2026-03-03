@@ -207,8 +207,8 @@
   },
   "order": {
     "title": "Objednať službu",
-    "success_title": "Ďakujeme!",
-    "success": "Prijali sme vašu správu a čoskoro vás budeme kontaktovať v pracovných hodinách.",
+    "success_title": "Ďakujem za Vašu žiadosť",
+    "success": "V blízkej dobe Vás budem kontaktovať pre prediskutovanie detailov a podmienok spolupráce.",
     "name": "Meno",
     "email": "Email",
     "service": "Služba",
@@ -310,6 +310,7 @@
     "placeholder_phone": "+421 900 000 000",
     "q_summary": "Prosím, skontrolujte si údaje pred odoslaním.<br><br>Ozvem sa Vám v čo najkratšom čase!",
     "skipped": "Preskočené",
+    "message_default": "Odoslané cez chatbota",
     "btn_next": "Ďalej",
     "btn_send": "Odoslať požiadavku",
     "bubble_text": "Pomôžem vybrať službu za 1 minútu!",
