@@ -174,7 +174,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
     await simulateBotTyping(800);
     
     // Pass raw keys here, they get translated instantly inside addBotMessage
-    addBotMessage('chatbot.greeting');
+    addBotMessage('chatbot.greeting_1');
     await simulateBotTyping(1500);
     addBotMessage('chatbot.greeting_2');
     
