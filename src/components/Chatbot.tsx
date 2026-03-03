@@ -9,10 +9,9 @@ interface Message {
   id: string;
   type: 'bot' | 'user' | 'typing';
   text?: string;
-  textKey?: string;
-  options?: { value: string; labelKey: string }[];
+  options?: { value: string; label: string }[];
   isInput?: 'text' | 'email' | 'tel' | 'textarea';
-  inputPlaceholderKey?: string;
+  inputPlaceholder?: string;
   isSummary?: boolean;
 }
 
@@ -134,24 +133,26 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
     setMessages(prev => prev.filter(m => m.id !== id));
   };
 
-  const addBotMessage = (textKey: string, options?: Message['options'], isInput?: Message['isInput'], inputPlaceholderKey?: string, isSummary?: boolean) => {
+  const addBotMessage = (textKey: string, options?: {value: string, labelKey: string}[], isInput?: Message['isInput'], inputPlaceholderKey?: string, isSummary?: boolean) => {
+    // Translate immediately, store static strings
+    const translatedOptions = options?.map(o => ({ value: o.value, label: t(o.labelKey) }));
+    
     setMessages(prev => [...prev, {
       id: Date.now().toString() + Math.random(),
       type: 'bot',
-      textKey,
-      options,
+      text: t(textKey),
+      options: translatedOptions,
       isInput,
-      inputPlaceholderKey,
+      inputPlaceholder: inputPlaceholderKey ? t(inputPlaceholderKey) : undefined,
       isSummary
     }]);
   };
 
-  const addUserMessage = (text?: string, textKey?: string) => {
+  const addUserMessage = (text: string) => {
     setMessages(prev => [...prev, {
       id: Date.now().toString() + Math.random(),
       type: 'user',
-      text,
-      textKey
+      text
     }]);
   };
 
@@ -167,15 +168,14 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
 
   // Chat Flow Logic
   const startChat = async () => {
-    // Clear chat
-    setMessages([]);
     setStep(1);
+    setMessages([]);
     setFormData({ service: '', serviceName: '', name: '', email: '', phone: '', message: '' });
+    await simulateBotTyping(800);
     
-    await simulateBotTyping(600);
-    addBotMessage('chatbot.greeting_1');
-    
-    await simulateBotTyping(1000);
+    // Pass raw keys here, they get translated instantly inside addBotMessage
+    addBotMessage('chatbot.greeting');
+    await simulateBotTyping(1500);
     addBotMessage('chatbot.greeting_2');
     
     await simulateBotTyping(800);
@@ -190,11 +190,11 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
     addBotMessage('chatbot.q_service', serviceOptions);
   };
 
-  const handleOptionSelect = async (value: string, labelKey: string) => {
+  const handleOptionSelect = async (value: string, label: string) => {
     // Determine context based on step
     if (step === 1) { // Service selection
-      addUserMessage(undefined, labelKey);
-      setFormData(prev => ({ ...prev, service: value, serviceName: labelKey }));
+      addUserMessage(label);
+      setFormData(prev => ({ ...prev, service: value, serviceName: label }));
       setStep(2);
       
       await simulateBotTyping(1500);
@@ -397,8 +397,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
                   ) : (
                     <>
                       <div className={`we-chat-bubble ${msg.isInput || msg.isSummary ? 'we-transparent' : ''}`}>
-                        {msg.textKey ? <div className={msg.isInput || msg.isSummary ? 'we-chat-bubble-inner' : ''} dangerouslySetInnerHTML={{ __html: t(msg.textKey)}}></div> : undefined}
-                        {msg.text && !msg.textKey ? <div className={msg.isInput || msg.isSummary ? 'we-chat-bubble-inner' : ''} dangerouslySetInnerHTML={{ __html: msg.text}}></div> : undefined}
+                        {msg.text && <div className={msg.isInput || msg.isSummary ? 'we-chat-bubble-inner' : ''} dangerouslySetInnerHTML={{ __html: msg.text}}></div>}
                         
                         {/* Options UI */}
                         {msg.options && (
@@ -407,10 +406,10 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
                               <button 
                                 key={opt.value} 
                                 className="we-chat-option-btn"
-                                onClick={() => handleOptionSelect(opt.value, opt.labelKey)}
+                                onClick={() => handleOptionSelect(opt.value, opt.label)}
                                 disabled={step !== 1} // Only active if it's the current step
                               >
-                                {t(opt.labelKey)}
+                                {opt.label}
                               </button>
                             ))}
                           </div>
@@ -424,7 +423,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
                                 <textarea
                                   ref={inputRef as React.RefObject<HTMLTextAreaElement>}
                                   className="we-chat-input"
-                                  placeholder={msg.inputPlaceholderKey ? t(msg.inputPlaceholderKey) : ''}
+                                  placeholder={msg.inputPlaceholder || ''}
                                   value={inputValue}
                                   onChange={(e) => { setInputValue(e.target.value); setInputError(''); }}
                                   onKeyDown={(e) => {
@@ -440,7 +439,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
                                   ref={inputRef as React.RefObject<HTMLInputElement>}
                                   type={msg.isInput}
                                   className="we-chat-input"
-                                  placeholder={msg.inputPlaceholderKey ? t(msg.inputPlaceholderKey) : ''}
+                                  placeholder={msg.inputPlaceholder || ''}
                                   value={inputValue}
                                   onChange={(e) => { setInputValue(e.target.value); setInputError(''); }}
                                   onKeyDown={(e) => e.key === 'Enter' && handleInputSubmit()}
