@@ -72,8 +72,18 @@
   align-items: center;
   justify-content: center;
   color: white;
-  animation: we-icon-glow 2s infinite;
   position: relative;
+  z-index: 1;
+}
+
+.we-chatbot-icon::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border-radius: 50%;
+  background: rgba(76, 175, 80, 0.4);
+  z-index: -1;
+  animation: we-icon-glow-fast 2s infinite;
 }
 
 .we-chatbot-trigger-status-dot {
@@ -483,10 +493,10 @@
   40% { transform: scale(1); }
 }
 
-@keyframes we-icon-glow {
-  0% { box-shadow: 0 0 0 0 var(--accent-shadow); }
-  70% { box-shadow: 0 0 0 15px rgba(255, 94, 20, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(255, 94, 20, 0); }
+@keyframes we-icon-glow-fast {
+  0% { transform: scale(1); opacity: 0.8; }
+  70% { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 0; }
 }
 
 @keyframes we-fade-in {

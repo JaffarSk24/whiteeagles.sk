@@ -43,7 +43,7 @@ function App() {
           initialService={selectedService}
         />
         <ExitPopup onOrderClick={() => handleOrderClick()} />
-        <Chatbot />
+        <Chatbot isOrderFormOpen={isOrderFormOpen} />
       </div>
     </Router>
   );

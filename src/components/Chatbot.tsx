@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 import { X, Send } from 'lucide-react';
 import { services } from '../data/services';
 import './Chatbot.css';
@@ -15,8 +16,13 @@ interface Message {
   isSummary?: boolean;
 }
 
-export const Chatbot: React.FC = () => {
+interface ChatbotProps {
+  isOrderFormOpen?: boolean;
+}
+
+export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => {
   const { t, i18n } = useTranslation();
+  const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [showTrigger, setShowTrigger] = useState(false);
   const [showBubble, setShowBubble] = useState(false);
@@ -42,11 +48,18 @@ export const Chatbot: React.FC = () => {
 
   // Initial trigger animation
   useEffect(() => {
+    // Only bother the user if they haven't closed it in this session
+    const hasClosed = sessionStorage.getItem('we_chatbot_closed') === 'true';
+    if (hasClosed) {
+      setShowTrigger(true); // show the icon, but don't auto-open bubble
+      return;
+    }
+
     const timer1 = setTimeout(() => {
-      if (!isOpen) {
+      if (!isOpen && !isOrderFormOpen && location.pathname === '/') {
         setShowTrigger(true);
         const timer2 = setTimeout(() => {
-          if (!isOpen) {
+          if (!isOpen && !isOrderFormOpen && location.pathname === '/') {
             setShowBubble(true);
             playNotification();
           }
@@ -56,7 +69,15 @@ export const Chatbot: React.FC = () => {
     }, 7000); // 7 seconds delay as requested
     
     return () => clearTimeout(timer1);
-  }, [isOpen]);
+  }, [isOpen, isOrderFormOpen, location.pathname]);
+
+  // Handle global order form opening
+  useEffect(() => {
+    if (isOrderFormOpen) {
+      setIsOpen(false);
+      setShowBubble(false);
+    }
+  }, [isOrderFormOpen]);
 
   const scrollToBottom = () => {
     // Small delay to ensure React has fully committed the new DOM nodes
@@ -312,6 +333,7 @@ export const Chatbot: React.FC = () => {
     setIsOpen(true);
     setShowTrigger(false);
     setShowBubble(false);
+    sessionStorage.removeItem('we_chatbot_closed'); // Remove closed state when opening
     if (step === 0) {
       startChat();
     }
@@ -319,11 +341,14 @@ export const Chatbot: React.FC = () => {
 
   const closeChat = () => {
     setIsOpen(false);
-    setTimeout(() => setShowTrigger(true), 300);
+    setShowBubble(false);
+    sessionStorage.setItem('we_chatbot_closed', 'true');
   };
 
+  const isHidden = location.pathname !== '/' || isOrderFormOpen;
+
   return (
-    <div id="we-chatbot-widget">
+    <div id="we-chatbot-widget" style={{ display: isHidden ? 'none' : 'block' }}>
       {/* TRIGGER */}
       <div 
         id="we-chatbot-trigger" 
