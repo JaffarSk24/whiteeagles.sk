@@ -135,19 +135,33 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "biliardovna": { "desc": "Website for a billiard club in Bratislava." },
-    "studiokrasy": { "desc": "Multi-page website with a booking system." },
-    "topkobka": { "desc": "Warehouse rental services website." },
-    "topsklad": { "desc": "Multifunctional website with a warehouse booking system." },
-    "bodabo": { "desc": "Website for wholesale of vanilla, coffee, and cocoa beans." },
-    "slovunisport": { "desc": "Sports portal." },
-    "mojservis": { "desc": "Car service website." }
+    "biliardovna": {
+      "desc": "Website for a billiard club in Bratislava."
+    },
+    "studiokrasy": {
+      "desc": "Multi-page website with a booking system."
+    },
+    "topkobka": {
+      "desc": "Warehouse rental services website."
+    },
+    "topsklad": {
+      "desc": "Multifunctional website with a warehouse booking system."
+    },
+    "bodabo": {
+      "desc": "Website for wholesale of vanilla, coffee, and cocoa beans."
+    },
+    "slovunisport": {
+      "desc": "Sports portal."
+    },
+    "mojservis": {
+      "desc": "Car service website."
+    }
   },
   "about": {
     "title": "Web Development and Advertising for Business in Slovakia",
     "greeting": "Hello,",
     "name_intro": "my name is Kirill Mosin.",
-    "years_sk": "I have been living in Slovakia for over 6 years and have thoroughly studied the local market and its specifics.",
+    "years_sk": "I have been living in Slovakia for over 10 years and have thoroughly studied the local market and its specifics.",
     "knowledge": "I know exactly what digital product to create and how to promote it for the maximum success of your business.",
     "pride_title": "Great Result without detailed Technical Specifications",
     "pride_desc": "Experience working with freelancers on the business side allowed me to identify the main pain point of cooperation: a large amount of time spent by company management writing a detailed technical specification to describe all business processes and expectations from the site. I never require a complex Technical Specification from the client and will propose the best solution for approval myself.",
