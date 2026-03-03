@@ -9,7 +9,7 @@ import { Terms } from './pages/legal/Terms';
 import { Privacy } from './pages/legal/Privacy';
 import { CookiesPage } from './pages/legal/CookiesPage';
 import { ExitPopup } from './components/ExitPopup';
-
+import { Chatbot } from './components/Chatbot';
 
 function App() {
   const [isOrderFormOpen, setIsOrderFormOpen] = useState(false);
@@ -43,6 +43,7 @@ function App() {
           initialService={selectedService}
         />
         <ExitPopup onOrderClick={() => handleOrderClick()} />
+        <Chatbot />
       </div>
     </Router>
   );

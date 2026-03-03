@@ -292,5 +292,29 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "cookies": "Cookies"
+  },
+  "chatbot": {
+    "greeting_1": "Hello! My name is Kirill Mosin. I am the CEO of White Eagles & Co.",
+    "greeting_2": "I'll help you save time and quickly find the right service for your business.",
+    "q_service": "What task do you need to solve?",
+    "serv_webdev": "Create a Website",
+    "serv_ads": "Launch Ads",
+    "serv_analytics": "Setup Analytics",
+    "serv_chatbot": "Create a Chatbot",
+    "serv_cookies": "Cookie Banner",
+    "serv_bugfix": "Fix a Website",
+    "q_name": "Great! How can I address you?",
+    "placeholder_name": "E.g., Alexander",
+    "q_email": "Please provide your email address for contact.",
+    "placeholder_email": "example@gmail.com",
+    "q_phone": "Please provide your phone number.",
+    "placeholder_phone": "+421 900 000 000",
+    "q_summary": "Please review the data before sending.<br><br>I will contact you shortly!",
+    "skipped": "Skipped",
+    "btn_next": "Next",
+    "btn_send": "Send Request",
+    "bubble_text": "I will help you choose a service in 1 minute!",
+    "bot_title": "Kirill Mosin (CEO)",
+    "error_required": "This field is required."
   }
 }

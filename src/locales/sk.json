@@ -291,5 +291,29 @@
     ],
     "outro": "Odoslaním žiadosti o konzultáciu teraz získate prioritnú podporu. Takúto šancu si nemôžete nechať ujsť! Kliknite na tlačidlo, zanechajte správu a ja sa vám okamžite ozvem.",
     "button": "Prekonzultovať projekt"
+  },
+  "chatbot": {
+    "greeting_1": "Dobrý deň! Volám sa Kirill Mosin. Som riaditeľom agentúry White Eagles & Co.",
+    "greeting_2": "Pomôžem Vám ušetriť čas a rýchlo nájsť tú správnu službu pre Vaše podnikanie.",
+    "q_service": "Akú úlohu potrebujete vyriešiť?",
+    "serv_webdev": "Vytvoriť web",
+    "serv_ads": "Spustiť reklamu",
+    "serv_analytics": "Nastaviť analytiku",
+    "serv_chatbot": "Vytvoriť chatbota",
+    "serv_cookies": "Cookie banner",
+    "serv_bugfix": "Opraviť web",
+    "q_name": "Skvelé! Ako Vás môžem oslovovať?",
+    "placeholder_name": "Napr.: Alexander",
+    "q_email": "Zadajte prosím Váš email pre kontakt.",
+    "placeholder_email": "example@gmail.com",
+    "q_phone": "Zadajte prosím Vaše telefónne číslo.",
+    "placeholder_phone": "+421 900 000 000",
+    "q_summary": "Prosím, skontrolujte si údaje pred odoslaním.<br><br>Ozvem sa Vám v čo najkratšom čase!",
+    "skipped": "Preskočené",
+    "btn_next": "Ďalej",
+    "btn_send": "Odoslať požiadavku",
+    "bubble_text": "Pomôžem vybrať službu za 1 minútu!",
+    "bot_title": "Kirill Mosin",
+    "error_required": "Toto pole je povinné."
   }
 }
