@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 import { X, CheckCircle } from 'lucide-react';
 import { services } from '../data/services';
+import { trackGAEvent } from '../utils/analytics';
 import './OrderForm.css';
 
 interface OrderFormProps {
@@ -27,6 +28,8 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         ...prev,
         service: initialService || services[0].id
       }));
+
+      trackGAEvent('form_open', { service: initialService || services[0].id });
 
       // Lazy load ReCAPTCHA
       if (!document.getElementById('recaptcha-script')) {
@@ -89,6 +92,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         setStatus('success');
         setFormData({ name: '', email: '', phone: '', service: '', message: '' });
         sessionStorage.setItem('order_submitted', 'true');
+        trackGAEvent('order_send', { source: 'order_form', service: formData.service });
       } else {
         setStatus('error');
       }

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 import { X, Send } from 'lucide-react';
 import { services } from '../data/services';
+import { trackGAEvent } from '../utils/analytics';
 import './Chatbot.css';
 
 interface Message {
@@ -317,6 +318,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
 
       if (response.ok) {
         setStep(7); // Success
+        trackGAEvent('order_send', { source: 'chatbot', service: formData.service });
       } else {
         addBotMessage('order.error');
       }
@@ -334,6 +336,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
     setShowTrigger(false);
     setShowBubble(false);
     sessionStorage.removeItem('we_chatbot_closed'); // Remove closed state when opening
+    trackGAEvent('chat_open');
     if (step === 0) {
       startChat();
     }
