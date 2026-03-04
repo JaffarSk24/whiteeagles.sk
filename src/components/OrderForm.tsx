@@ -92,7 +92,13 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         setStatus('success');
         setFormData({ name: '', email: '', phone: '', service: '', message: '' });
         sessionStorage.setItem('order_submitted', 'true');
-        trackGAEvent('order_send', { source: 'order_form', service: formData.service });
+        trackGAEvent('order_send', { 
+          source: 'order_form', 
+          service: formData.service,
+          value: selectedServiceObj?.priceMin || selectedServiceObj?.priceRate || 0,
+          currency: 'EUR',
+          language: i18n.language
+        });
       } else {
         setStatus('error');
       }
@@ -102,10 +108,17 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
     }
   };
 
+  const handleClose = () => {
+    if (status !== 'success' && status !== 'submitting') {
+      trackGAEvent('form_abandoned', { service: formData.service });
+    }
+    onClose();
+  };
+
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className="modal-overlay" onClick={handleClose}>
       <div className="modal-content" onClick={e => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}><X /></button>
+        <button className="modal-close" onClick={handleClose}><X /></button>
         
         <h2>{t('order.title', 'Order Service')}</h2>
         
@@ -118,7 +131,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
             <p className="success-message-text">
               {t('order.success', 'We have received your information and will contact you as soon as possible during business hours.')}
             </p>
-            <button className="btn btn-primary" onClick={onClose}>
+            <button className="btn btn-primary" onClick={handleClose}>
               {t('common.close', 'Close')}
             </button>
           </div>

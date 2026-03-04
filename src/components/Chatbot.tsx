@@ -96,6 +96,16 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
     }
   }, [messages, step]);
 
+  // Track Chatbot Funnel Steps
+  useEffect(() => {
+    if (step > 0 && step < 7) {
+      trackGAEvent('chat_step_completed', { 
+        step_number: step, 
+        service: formData.service || 'not_selected_yet' 
+      });
+    }
+  }, [step, formData.service]);
+
   const playNotification = () => {
     try {
       const AudioContext = window.AudioContext || (window as any).webkitAudioContext;
@@ -318,7 +328,13 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
 
       if (response.ok) {
         setStep(7); // Success
-        trackGAEvent('order_send', { source: 'chatbot', service: formData.service });
+        trackGAEvent('order_send', { 
+          source: 'chatbot', 
+          service: formData.service,
+          value: selectedServiceObj?.priceMin || selectedServiceObj?.priceRate || 0,
+          currency: 'EUR',
+          language: i18n.language
+        });
       } else {
         addBotMessage('order.error');
       }

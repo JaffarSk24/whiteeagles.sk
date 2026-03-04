@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, ShieldCheck } from 'lucide-react';
 import { services } from '../data/services';
+import { trackGAEvent } from '../utils/analytics';
 import { SEO } from '../components/SEO';
 import './ServiceDetail.css';
 
@@ -22,7 +23,18 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOrderClick }) =>
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [id]);
+    if (service) {
+      trackGAEvent('view_item', { 
+        currency: 'EUR',
+        value: service.priceMin || service.priceRate,
+        items: [{
+          item_id: service.id,
+          item_name: t(service.titleKey),
+          price: service.priceMin || service.priceRate
+        }]
+      });
+    }
+  }, [id, service, t]);
 
   if (!service) {
     return (

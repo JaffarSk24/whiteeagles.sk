@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Phone, Mail, Linkedin, Github, Facebook } from 'lucide-react';
+import { trackGAEvent } from '../utils/analytics';
+import { Linkedin, Github, Facebook } from 'lucide-react';
 import './Footer.css';
 
 export const Footer: React.FC = () => {
@@ -34,16 +35,37 @@ export const Footer: React.FC = () => {
 
           {/* Column 3: Contacts & Socials */}
         <div className="footer-col footer-contact-col">
-            <div className="footer-contact-links">
-              <a href="tel:+421949000077" className="footer-link">
-                <Phone size={16} />
-                <span>+421 949 0000 77</span>
-              </a>
-              <a href="mailto:welcome@whiteeagles.sk" className="footer-link">
-                <Mail size={16} />
-                <span>welcome@whiteeagles.sk</span>
-              </a>
-            </div>
+            <ul>
+              <li>
+                <a 
+                  href="tel:+421949000077" 
+                  className="footer-link"
+                  onClick={() => trackGAEvent('contact_click', { method: 'phone', link_url: 'tel:+421949000077' })}
+                >
+                  {t('footer.contact.phone_value', '+421 949 0000 77')}
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="mailto:welcome@whiteeagles.sk" 
+                  className="footer-link"
+                  onClick={() => trackGAEvent('contact_click', { method: 'email', link_url: 'mailto:welcome@whiteeagles.sk' })}
+                >
+                  welcome@whiteeagles.sk
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://t.me/kirill_mosin" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="footer-link"
+                  onClick={() => trackGAEvent('contact_click', { method: 'telegram', link_url: 'https://t.me/kirill_mosin' })}
+                >
+                  @kirill_mosin
+                </a>
+              </li>
+            </ul>
 
             <div className="footer-socials">
               <a href="https://t.me/WE_Orders_bot" target="_blank" rel="noopener noreferrer" title="Telegram">
