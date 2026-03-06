@@ -207,6 +207,18 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
       addUserMessage(label);
       setFormData(prev => ({ ...prev, service: value, serviceName: label }));
       setStep(2);
+
+      const selectedServiceObj = services.find(s => s.id === value);
+      trackGAEvent('add_to_cart', {
+        currency: 'EUR',
+        value: selectedServiceObj?.priceRate || 0,
+        items: [{
+          item_id: value,
+          item_name: label,
+          price: selectedServiceObj?.priceRate || 0,
+          quantity: 1
+        }]
+      });
       
       await simulateBotTyping(1500);
       addBotMessage(
@@ -328,12 +340,27 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
 
       if (response.ok) {
         setStep(7); // Success
+        
+        const eventValue = selectedServiceObj?.priceRate || 0;
+        
         trackGAEvent('order_send', { 
           source: 'chatbot', 
           service: formData.service,
-          value: selectedServiceObj?.priceMin || selectedServiceObj?.priceRate || 0,
+          value: eventValue,
           currency: 'EUR',
           language: i18n.language
+        });
+
+        trackGAEvent('purchase', {
+          transaction_id: `T_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
+          value: eventValue,
+          currency: 'EUR',
+          items: [{
+            item_id: formData.service,
+            item_name: t(selectedServiceObj?.titleKey || ''),
+            price: eventValue,
+            quantity: 1
+          }]
         });
       } else {
         addBotMessage('order.error');

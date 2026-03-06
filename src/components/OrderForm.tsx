@@ -29,7 +29,20 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         service: initialService || services[0].id
       }));
 
-      trackGAEvent('form_open', { service: initialService || services[0].id });
+      const activeServiceId = initialService || services[0].id;
+      const activeObj = services.find(s => s.id === activeServiceId);
+
+      trackGAEvent('form_open', { service: activeServiceId });
+      trackGAEvent('add_to_cart', {
+        currency: 'EUR',
+        value: activeObj?.priceRate || 0,
+        items: [{
+          item_id: activeServiceId,
+          item_name: t(activeObj?.titleKey || ''),
+          price: activeObj?.priceRate || 0,
+          quantity: 1
+        }]
+      });
 
       // Lazy load ReCAPTCHA
       if (!document.getElementById('recaptcha-script')) {
@@ -92,12 +105,27 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         setStatus('success');
         setFormData({ name: '', email: '', phone: '', service: '', message: '' });
         sessionStorage.setItem('order_submitted', 'true');
+        
+        const eventValue = selectedServiceObj?.priceRate || 0;
+
         trackGAEvent('order_send', { 
           source: 'order_form', 
           service: formData.service,
-          value: selectedServiceObj?.priceMin || selectedServiceObj?.priceRate || 0,
+          value: eventValue,
           currency: 'EUR',
           language: i18n.language
+        });
+
+        trackGAEvent('purchase', {
+          transaction_id: `T_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
+          value: eventValue,
+          currency: 'EUR',
+          items: [{
+            item_id: formData.service,
+            item_name: serviceName,
+            price: eventValue,
+            quantity: 1
+          }]
         });
       } else {
         setStatus('error');
