@@ -52,15 +52,6 @@ export const Footer: React.FC = () => {
                 <Mail size={16} />
                 <span>welcome@whiteeagles.sk</span>
               </a>
-              <a 
-                href="https://t.me/kirill_mosin" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="footer-link"
-                onClick={() => trackGAEvent('contact_click', { method: 'telegram', link_url: 'https://t.me/kirill_mosin' })}
-              >
-                <span>@kirill_mosin</span>
-              </a>
             </div>
 
             <div className="footer-socials">
