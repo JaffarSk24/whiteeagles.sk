@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { services } from '../data/services';
-import { FileText, Users, Code, CheckCircle, MapPin, Mail, Phone, Briefcase, Star, CreditCard, CircleDollarSign, Bitcoin, RussianRuble, Send } from 'lucide-react';
+import { FileText, Users, Code, CheckCircle, MapPin, Mail, Phone, Briefcase, Star, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { JsonLd } from '../components/JsonLd';
 import { ClientCarousel } from '../components/ClientCarousel';
@@ -250,36 +250,25 @@ export const Home: React.FC<HomeProps> = ({ onOrderClick }) => {
                   {t('contacts.address', 'Holíčska 7, Bratislava')}
                 </a>
               </div>
-              <div className="contact-info-block">
-                <div className="contact-info-item">
-                  <Mail className="contact-icon" />
-                  <a 
-                    href="mailto:welcome@whiteeagles.sk"
-                    onClick={() => trackGAEvent('contact_click', { method: 'email', link_url: 'mailto:welcome@whiteeagles.sk' })}
-                  >
-                    welcome@whiteeagles.sk
-                  </a>
-                </div>
-                <div className="contact-info-item">
-                  <Phone className="contact-icon" />
-                  <a 
-                    href="tel:+421949000077"
-                    onClick={() => trackGAEvent('contact_click', { method: 'phone', link_url: 'tel:+421949000077' })}
-                  >
-                    +421 949 0000 77
-                  </a>
-                </div>
-                <div className="contact-info-item">
-                  <Send className="contact-icon" />
-                  <a 
-                    href="https://t.me/kirill_mosin" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    onClick={() => trackGAEvent('contact_click', { method: 'telegram', link_url: 'https://t.me/kirill_mosin' })}
-                  >
-                    t.me/kirill_mosin
-                  </a>
-                </div>
+              <div className="contact-card">
+                <div className="contact-icon"><Mail size={32} /></div>
+                <h3>{t('contacts.email_label', 'Email')}</h3>
+                <a 
+                  href="mailto:welcome@whiteeagles.sk"
+                  onClick={() => trackGAEvent('contact_click', { method: 'email', link_url: 'mailto:welcome@whiteeagles.sk' })}
+                >
+                  welcome@whiteeagles.sk
+                </a>
+              </div>
+              <div className="contact-card">
+                <div className="contact-icon"><Phone size={32} /></div>
+                <h3>{t('contacts.phone_label', 'Phone')}</h3>
+                <a 
+                  href="tel:+421949000077"
+                  onClick={() => trackGAEvent('contact_click', { method: 'phone', link_url: 'tel:+421949000077' })}
+                >
+                  +421 949 0000 77
+                </a>
               </div>
             </div>
           </FadeInSection>
