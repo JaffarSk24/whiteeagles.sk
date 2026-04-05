@@ -325,3 +325,4 @@ section {
     padding-top: 90px; /* Reduced for smaller header */
   }
 }
+.force-cache-bust-123 { display: none; }
