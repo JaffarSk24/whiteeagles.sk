@@ -1,7 +1,7 @@
-// Cache-bust: v2 (Removing lagging animation)
+// Cache-bust: v3 (Static Info Icon, zero animations)
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Sparkles, X } from 'lucide-react';
+import { Info, X } from 'lucide-react';
 import './ExitPopup.css';
 
 interface ExitPopupProps {
@@ -79,7 +79,7 @@ export const ExitPopup: React.FC<ExitPopupProps> = ({ onOrderClick }) => {
         </button>
         
         <div className="exit-popup-icon-wrapper">
-          <Sparkles size={48} className="exit-popup-icon" />
+          <Info size={48} className="exit-popup-icon" />
         </div>
         
         <h2 className="exit-popup-title">{t('popup.title', "Don't leave yet!")}</h2>
