@@ -2,6 +2,14 @@
     ExpiresActive On
     ExpiresDefault "access plus 1 month"
     
+    # DO NOT cache HTML (critical for SPAs like React/Vite to fetch new JS/CSS hashes)
+    <FilesMatch "\.(html|htm)$">
+        ExpiresDefault "access plus 0 seconds"
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+    </FilesMatch>
+
     # CSS and JS
     ExpiresByType text/css "access plus 1 year"
     ExpiresByType application/javascript "access plus 1 year"
