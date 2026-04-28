@@ -16,7 +16,7 @@ const clients: Client[] = [
   { name: 'Biliardovna', url: 'https://biliardovna.sk/', logo: '/assets/logo-biliardovna.webp' },
   { name: 'Moj Servis', url: 'https://www.moj-servis.sk/', logo: '/assets/logo-mojservis.webp' },
   { name: 'Top Kobka', url: 'https://top-kobka.sk/', logo: '/assets/logo-topkobka.webp' },
-  { name: 'Top Sklad', url: 'https://top-sklad.sk/', logo: '/assets/logo-topsklad.webp' },
+  { name: 'Top Sklad', url: 'https://top-sklad.com/', logo: '/assets/logo-topsklad.webp' },
   { name: 'Studio Krasy', url: 'https://studio-krasy.sk/', logo: '/assets/logo-studiokrasy.webp' },
   { name: 'Recorder', url: 'https://recorder.sk/', logo: '/assets/logo-recorder.webp' },
   { name: 'Bodabo', url: 'https://bodabo.ru/', logo: '/assets/logo-bodabo.webp' },
