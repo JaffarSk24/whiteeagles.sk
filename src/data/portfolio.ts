@@ -31,7 +31,7 @@ export const portfolio: PortfolioItem[] = [
   },
   {
     id: 'top-sklad',
-    url: 'https://top-sklad.sk',
+    url: 'https://top-sklad.com',
     title: 'TOP SKLAD',
     descKey: 'portfolio.topsklad.desc',
     image: '/assets/portfolio-topsklad.webp'
