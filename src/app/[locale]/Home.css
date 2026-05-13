@@ -26,10 +26,16 @@
   line-height: 1.2; /* Enforce H2-like line height even for H1 */
 }
 
-.portfolio-section,
-.steps-section,
+.steps-section {
+  padding: 60px 0 40px 0;
+}
+
 .contacts-section {
-  padding: 80px 0;
+  padding: 40px 0;
+}
+
+.portfolio-section {
+  padding: 40px 0;
 }
 
 .about-section {
@@ -39,7 +45,7 @@
 
 .services-section {
   padding-top: 20px; /* Reduced to close gap with About */
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -350,8 +356,8 @@
 
 /* Payment Options */
 .payment-options-block {
-  margin: 60px 0;
-  padding: 40px;
+  margin: 40px 0 20px;
+  padding: 32px;
   background: var(--bg-secondary);
   border-radius: 16px;
   border: 1px solid var(--border-color);
@@ -360,7 +366,7 @@
 
 .payment-options-block h3 {
   font-size: 1.8rem;
-  margin-bottom: 30px;
+  margin: 0 0 32px 0;
   color: #fff;
 }
 

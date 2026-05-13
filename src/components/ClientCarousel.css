@@ -9,9 +9,9 @@
 
 .clients-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
   color: var(--text-secondary);
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -21,7 +21,7 @@
 .clients-slider-wrap {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 32px;
 }
 
 /* Arrow buttons */
@@ -84,7 +84,7 @@
   border-radius: 12px;
   border: 1px solid var(--border-color);
   background: rgba(255, 255, 255, 0.02);
-  min-height: 110px;
+  min-height: 130px;
   transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
 }
 
@@ -95,18 +95,15 @@
 }
 
 .client-logo-img {
-  height: 72px;
+  height: 90px;
   width: auto;
-  max-width: 160px;
+  max-width: 190px;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.65;
-  transition: filter 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .client-logo-item:hover .client-logo-img {
-  filter: grayscale(0%);
-  opacity: 1;
+  transform: scale(1.05);
 }
 
 /* Dots */
@@ -153,7 +150,7 @@
   }
 
   .clients-slider-wrap {
-    gap: 10px;
+    gap: 20px;
   }
 
   .clients-arrow {
@@ -174,8 +171,6 @@
   .client-logo-img {
     height: 52px;
     max-width: 110px;
-    filter: grayscale(0%);
-    opacity: 1;
   }
 }
 
