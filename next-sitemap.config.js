@@ -7,22 +7,8 @@ const config = {
   changefreq: "weekly",
   priority: 0.7,
   sitemapSize: 5000,
-  alternateRefs: [
-    {
-      href: "https://whiteeagles.sk",
-      hreflang: "sk",
-    },
-    {
-      href: "https://whiteeagles.sk/en",
-      hreflang: "en",
-    },
-    {
-      href: "https://whiteeagles.sk/ru",
-      hreflang: "ru",
-    },
-  ],
-  // Exclude localized duplicates from sitemap (keep canonical SK only)
-  exclude: ["/en/*", "/ru/*", "/server-sitemap.xml"],
+  // Exclude server-sitemap if not used
+  exclude: ["/server-sitemap.xml"],
   robotsTxtOptions: {
     additionalSitemaps: [],
     policies: [

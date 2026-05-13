@@ -28,6 +28,9 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
   }, []);
 
   const changeLanguage = (lng: "sk" | "en" | "ru") => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem("NEXT_LOCALE", lng);
+    }
     router.replace(pathname, { locale: lng });
     setIsMobileMenuOpen(false);
   };
