@@ -28,28 +28,29 @@ export const ClientCarousel: React.FC = () => {
   const t = useTranslations("clients");
 
   return (
-    <div className="carousel-container">
-      <h3>{t("title")}</h3>
-      <div className="carousel-track">
-        {/* Duplicate x3 - Enough for 4K while saving memory on mobile */}
-        {[...clients, ...clients, ...clients].map((client, index) => (
-          <a
-            key={`${client.name}-${index}`}
-            href={client.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="client-logo-item"
-            title={client.name}
-          >
-            <Image
-              src={client.logo}
-              alt={client.name}
-              className="client-logo-img"
-              width={200}
-              height={80}
-            />
-          </a>
-        ))}
+    <div className="clients-section">
+      <div className="container">
+        <h3 className="clients-title">{t("title")}</h3>
+        <div className="clients-grid">
+          {clients.map((client) => (
+            <a
+              key={client.name}
+              href={client.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="client-logo-item"
+              title={client.name}
+            >
+              <Image
+                src={client.logo}
+                alt={client.name}
+                className="client-logo-img"
+                width={160}
+                height={80}
+              />
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );

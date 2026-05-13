@@ -1,104 +1,109 @@
-.carousel-container {
-    width: 100%;
-    padding: 20px 0;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
+/* ============================================
+   CLIENTS STATIC GRID
+   ============================================ */
+
+.clients-section {
+  padding: 72px 0;
+  border-top: 1px solid var(--border-color);
 }
 
-.carousel-container h3 {
-    margin-bottom: 30px;
-    color: var(--text-secondary);
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+.clients-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
 }
 
-.carousel-track {
-    display: flex;
-    gap: 40px;
-    width: max-content;
-/* Increased duration to slow down */
-    animation: scroll 120s linear infinite;
-    will-change: transform;
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  align-items: stretch;
+  justify-items: stretch;
 }
 
 .client-logo-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 50px;
-    position: relative;
-    /* Hardware acceleration fix for flicker */
-    transform: translate3d(0, 0, 0); 
-    backface-visibility: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.02);
+  min-height: 100px;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
 }
 
-.client-logo-item:hover .client-logo-img {
-    filter: grayscale(0%);
-    transform: scale(1.1);
+.client-logo-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(249, 115, 22, 0.3);
+  transform: translateY(-2px);
 }
 
 .client-logo-img {
-    height: 160px;
-    width: auto;
-    max-width: 300px;
-    object-fit: contain;
-    filter: grayscale(100%); 
-    transition: all 0.3s ease;
-    opacity: 0.8;
+  height: 64px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.65;
+  transition: filter 0.3s ease, opacity 0.3s ease;
 }
 
 .client-logo-item:hover .client-logo-img {
-    opacity: 1;
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
-.client-name {
-    font-size: 0.85rem;
-    font-weight: 500;
+/* Tablet: 3 per row */
+@media (max-width: 1024px) {
+  .clients-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
 }
 
-@keyframes scroll {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-    100% {
-        /* With 3 sets, we want to scroll 1 set length. 
-           1 set is 33.333% of the total width. 
-           So we move from 0 to -33.333%.
-           When we reach -33.333%, we are visually at the start of Set 2, which looks like Start of Set 1.
-           Then we snap back to 0.
-        */
-        transform: translate3d(-33.3333%, 0, 0);
-    }
-}
-
+/* Mobile: 2 per row, full color */
 @media (max-width: 768px) {
-    .client-logo-item {
-        margin: 0 20px; /* Correctly override item margin */
-    }
-    
-    .client-logo-img {
-        height: 80px;
-        margin: 0;
-        filter: grayscale(0%); /* no hover on touch — show in color */
-        opacity: 1;
-    }
-    
-    .carousel-track {
-        gap: 0; /* Let item margins handle spacing */
-        animation-duration: 60s; /* Faster/Slower? Distance is shorter on mobile. 
-                                    If track is 3000px vs 10000px. 
-                                    Speed = Dist/Time. 
-                                    To keep sane speed:
-                                    Desktop (4 sets): ~8000px / 120s = 66px/s
-                                    Mobile (4 sets): ~3000px / ? = 66 px/s => ~45s?
-                                    Actually user said it moves too fast. 
-                                    Let's keep 80s or 120s. 
-                                    If track is short (3000px) and time is long (120s), speed is 25px/s (Very slow).
-                                    Let's set 60s for mobile. 
-                                 */
-        animation-duration: 90s;
-    }
+  .clients-section {
+    padding: 48px 0;
+  }
+
+  .clients-title {
+    font-size: 0.85rem;
+    margin-bottom: 28px;
+  }
+
+  .clients-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .client-logo-item {
+    padding: 20px 16px;
+    min-height: 80px;
+  }
+
+  .client-logo-img {
+    height: 52px;
+    max-width: 120px;
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+}
+
+/* Small mobile: 2 per row */
+@media (max-width: 480px) {
+  .client-logo-img {
+    height: 44px;
+    max-width: 100px;
+  }
+
+  .client-logo-item {
+    padding: 16px 12px;
+    min-height: 70px;
+  }
 }

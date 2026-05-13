@@ -128,7 +128,7 @@
   }
 
   .nav-order-btn {
-    display: inline-block;
+    display: inline-block !important;
     width: auto;
     max-width: 280px;
     text-align: center;
@@ -144,5 +144,5 @@
 
 /* Hide nav-order-btn on desktop */
 .nav-order-btn {
-  display: none;
+  display: none !important;
 }
