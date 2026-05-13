@@ -2,6 +2,7 @@
 const config = {
   siteUrl: "https://whiteeagles.sk",
   generateRobotsTxt: true,
+  generateIndexSitemap: false,
   outDir: "./dist",
   // Static export puts files in /dist
   changefreq: "weekly",
