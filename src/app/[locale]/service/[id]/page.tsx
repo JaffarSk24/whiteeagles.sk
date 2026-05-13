@@ -117,30 +117,26 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               )}
             </div>
 
-            <div className="detail-pricing">
-              <span className="price-tag">
-                {service.priceRate}€ / {tCommon("hour")}
-              </span>
-              {service.priceMin && (
-                <span className="price-min-tag">
-                  {tCommon("from")} {service.priceMin}€
+            <div className="detail-pricing-row">
+              <div className="detail-pricing">
+                <span className="price-tag">
+                  {service.priceRate}€ / {tCommon("hour")}
                 </span>
-              )}
-            </div>
+                {service.priceMin && (
+                  <span className="price-min-tag">
+                    {tCommon("from")} {service.priceMin}€
+                  </span>
+                )}
+              </div>
 
-            {/* Payment methods block */}
-            <div className="payment-options-block service-payment-block">
-              <h3>{tAbout("payment_title")}</h3>
-              <div className="payment-list">
-                <div className="payment-item"><FileText size={24} /><span>{tAbout("payment_invoice")}</span></div>
-                <div className="payment-item"><CreditCard size={24} /><span>{tAbout("payment_card")}</span></div>
-                <div className="payment-item"><CircleDollarSign size={24} /><span>{tAbout("payment_usdt")}</span></div>
-                <div className="payment-item"><Bitcoin size={24} /><span>{tAbout("payment_bitcoin")}</span></div>
-                <div className="payment-item"><RussianRuble size={24} /><span>{tAbout("payment_rub")}</span></div>
-                <div className="payment-item">
-                  <span style={{ fontSize: "36px", fontWeight: "normal", lineHeight: "0.7", paddingTop: "6px", marginBottom: "7px", display: "flex", alignItems: "center", justifyContent: "center", height: "24px", width: "24px", color: "var(--accent-color)" }}>&#8372;</span>
-                  <span>{tAbout("payment_uah")}</span>
-                </div>
+              {/* Payment methods */}
+              <div className="service-payment-icons">
+                <div className="spi-item"><FileText size={18} /><span>{tAbout("payment_invoice")}</span></div>
+                <div className="spi-item"><CreditCard size={18} /><span>{tAbout("payment_card")}</span></div>
+                <div className="spi-item"><CircleDollarSign size={18} /><span>{tAbout("payment_usdt")}</span></div>
+                <div className="spi-item"><Bitcoin size={18} /><span>{tAbout("payment_bitcoin")}</span></div>
+                <div className="spi-item"><RussianRuble size={18} /><span>{tAbout("payment_rub")}</span></div>
+                <div className="spi-item"><span className="payment-uah-icon">&#8372;</span><span>{tAbout("payment_uah")}</span></div>
               </div>
             </div>
 

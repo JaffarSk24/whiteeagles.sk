@@ -381,6 +381,7 @@
 .contact-direct-row {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .contact-direct-btn {
