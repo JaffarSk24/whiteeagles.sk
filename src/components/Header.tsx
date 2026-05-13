@@ -100,13 +100,13 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
             {t("portfolio")}
           </a>
           <a
-            href="/#about"
+            href="/#testimonials"
             onClick={(e) => {
               e.preventDefault();
-              scrollToSection("about");
+              scrollToSection("testimonials");
             }}
           >
-            {t("about")}
+            {t("testimonials")}
           </a>
           <a
             href="/#process"

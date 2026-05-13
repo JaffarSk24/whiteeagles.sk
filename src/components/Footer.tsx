@@ -82,7 +82,7 @@ const FooterContacts = () => {
       </div>
 
       <div className="footer-socials">
-        <a href="https://t.me/WE_Orders_bot" target="_blank" rel="noopener noreferrer" title="Telegram">
+        <a href="https://t.me/whiteeaglessk" target="_blank" rel="noopener noreferrer" title="Telegram">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

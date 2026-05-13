@@ -121,8 +121,6 @@ export function HeroSection() {
 // =========================================
 export function TestimonialsSection() {
   const t = useTranslations("testimonials");
-  // next-intl doesn't support array access from useTranslations directly,
-  // so we use raw access pattern
   const items = [
     { name: t("items.0.name"), role: t("items.0.role"), text: t("items.0.text") },
     { name: t("items.1.name"), role: t("items.1.role"), text: t("items.1.text") },
@@ -130,7 +128,7 @@ export function TestimonialsSection() {
   ];
 
   return (
-    <section className="testimonials-section">
+    <section id="testimonials" className="testimonials-section">
       <div className="container">
         <h2 className="section-title">{t("title")}</h2>
         <div className="testimonials-grid">
@@ -212,13 +210,22 @@ export function InlineContactForm() {
               <span className="contact-direct-label">{t("direct_contact")}</span>
               <div className="contact-direct-row">
                 <a
+                  href="https://wa.me/421949000077"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact-direct-btn"
+                  onClick={() => trackGAEvent("contact_click", { method: "whatsapp" })}
+                >
+                  <MessageCircle size={16} /> WhatsApp
+                </a>
+                <a
                   href="https://t.me/whiteeaglessk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-direct-btn"
                   onClick={() => trackGAEvent("contact_click", { method: "telegram" })}
                 >
-                  <MessageCircle size={16} /> Telegram
+                  <Send size={16} /> Telegram
                 </a>
                 <a
                   href="mailto:welcome@whiteeagles.sk"
