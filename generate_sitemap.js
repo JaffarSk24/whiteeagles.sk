@@ -18,10 +18,7 @@ const services = [
 ];
 const pages = [
   '',
-  'blog',
-  'cookies',
-  'privacy',
-  'terms'
+  'blog'
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -11,21 +11,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/cookies</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/sk/privacy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/sk/terms</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://whiteeagles.sk/sk/service/webdev</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -86,21 +71,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/cookies</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/privacy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/terms</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://whiteeagles.sk/en/service/webdev</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -157,21 +127,6 @@
   </url>
   <url>
     <loc>https://whiteeagles.sk/ru/blog</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/ru/cookies</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/ru/privacy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/ru/terms</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

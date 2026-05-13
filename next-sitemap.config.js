@@ -8,15 +8,24 @@ const config = {
   changefreq: "weekly",
   priority: 0.7,
   sitemapSize: 5000,
-  // Exclude server-sitemap if not used
-  exclude: ["/server-sitemap.xml"],
+  exclude: [
+    "/server-sitemap.xml",
+    "*/terms*",
+    "*/privacy*",
+    "*/cookies*"
+  ],
   robotsTxtOptions: {
     additionalSitemaps: [],
     policies: [
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/"],
+        disallow: [
+          "/api/",
+          "/*/terms",
+          "/*/privacy",
+          "/*/cookies"
+        ],
       },
     ],
   },
