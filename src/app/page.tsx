@@ -3,7 +3,7 @@ import RootRedirect from "./RootRedirect";
 
 export const metadata: Metadata = {
   title: "White Eagles & Co.",
-  description: "Web development and digital solutions",
+  description: "Profesionálna tvorba webstránok, dátová analytika a online marketing na Slovensku. Weby na mieru, oprava chýb a PPC kampane pre rast vášho podnikania.",
   alternates: {
     canonical: "https://whiteeagles.sk/sk",
   },
