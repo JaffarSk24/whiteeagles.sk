@@ -153,6 +153,17 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
               EN
             </button>
           </div>
+
+          {/* Order button inside burger menu — mobile only */}
+          <button
+            className="btn btn-activate nav-order-btn"
+            onClick={() => {
+              onOrderClick();
+              setIsMobileMenuOpen(false);
+            }}
+          >
+            {t("order")}
+          </button>
         </nav>
 
         <button className="btn btn-activate btn-order" onClick={onOrderClick}>

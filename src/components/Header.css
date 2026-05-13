@@ -120,10 +120,28 @@
   }
 
   .btn-order {
-    display: none; /* Might want to keep it or move to nav on mobile */
+    display: none;
   }
 
   .mobile-menu-btn {
     display: block;
   }
+
+  .nav-order-btn {
+    display: block;
+    width: calc(100% - 48px);
+    max-width: 360px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    padding: 12px 20px;
+  }
+}
+
+/* Hide nav-order-btn on desktop */
+.nav-order-btn {
+  display: none;
 }
