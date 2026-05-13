@@ -120,7 +120,7 @@
   }
 
   .btn-order {
-    display: none;
+    display: none !important;
   }
 
   .mobile-menu-btn {
@@ -128,16 +128,17 @@
   }
 
   .nav-order-btn {
-    display: block;
-    width: calc(100% - 48px);
-    max-width: 360px;
+    display: inline-block;
+    width: auto;
+    max-width: 280px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 8px;
-    font-size: 0.9rem;
-    padding: 12px 20px;
+    margin-top: 12px;
+    font-size: 0.8rem;
+    padding: 8px 20px;
+    letter-spacing: 0.05em;
   }
 }
 
