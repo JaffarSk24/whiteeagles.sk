@@ -80,8 +80,10 @@
     }
     
     .client-logo-img {
-        height: 80px; /* Slightly smaller for better fit */
-        margin: 0; /* Remove any extra margin on img */
+        height: 80px;
+        margin: 0;
+        filter: grayscale(0%); /* no hover on touch — show in color */
+        opacity: 1;
     }
     
     .carousel-track {
