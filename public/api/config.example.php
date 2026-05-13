@@ -7,7 +7,7 @@ return [
     'MAILGUN_DOMAIN' => 'your_domain.com',
     'MAILGUN_ENDPOINT' => 'api.mailgun.net', // Use 'api.eu.mailgun.net' for EU domains
     'RECAPTCHA_SECRET' => 'your_recaptcha_secret',
-    'TELEGRAM_BOT_TOKEN' => '8498639596:AAHL5VeNfEKl3PHEEvkgKpCZXLLF0Kzchvw', // Pre-filled as requested
+    'TELEGRAM_BOT_TOKEN' => 'your_telegram_bot_token', // Put your telegram bot token here
     'TELEGRAM_CHAT_ID' => '', // Message your bot and check getUpdates to find this
     'ADMIN_EMAIL' => 'welcome@whiteeagles.sk',
     'FROM_EMAIL' => 'White Eagles <welcome@whiteeagles.sk>'
