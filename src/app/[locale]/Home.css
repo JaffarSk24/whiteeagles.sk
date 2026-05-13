@@ -1,4 +1,21 @@
+/* Clients strip - logo bar under Hero */
+.clients-strip-section {
+  padding: 24px 0 40px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.clients-strip-label {
+  text-align: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  opacity: 0.7;
+}
+
 .section-title {
+
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 60px;

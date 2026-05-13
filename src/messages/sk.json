@@ -9,9 +9,20 @@
     "order": "Technický audit zdarma"
   },
   "hero": {
-    "title": "IT Riešenia pre Váš Biznis",
-    "subtitle": "Tvorba webov, analytika a online marketing",
-    "cta": "Technický audit zdarma"
+    "title": "Weby a reklama, ktoré prinášajú klientov vášmu biznisu na Slovensku",
+    "subtitle": "Tvorba webov, analytika a online marketing pre firmy",
+    "cta": "Bezplatný audit",
+    "cta_secondary": "Pozrieť klientov",
+    "stat1_num": "10+",
+    "stat1_label": "rokov na Slovensku",
+    "stat2_num": "90%",
+    "stat2_label": "projektov do 15 dní",
+    "stat3_num": "6 mes.",
+    "stat3_label": "bezplatná podpora",
+    "float1_title": "10 pracovných dní",
+    "float1_sub": "priemerný čas realizácie",
+    "float2_title": "6 mesiacov",
+    "float2_sub": "bezplatná podpora"
   },
   "blog": {
     "title": "Blog u0026 Novinky",
@@ -185,6 +196,36 @@
   },
   "clients": {
     "title": "Pracoval som so značkami"
+  },
+  "testimonials": {
+    "title": "Čo hovoria klienti",
+    "items": [
+      {
+        "name": "TOP SKLAD / TOP KOBKA",
+        "role": "Prenájom skladov, Bratislava",
+        "text": "Kirill nám vytvoril komplexný rezervačný systém pre sklady. Všetko beží spoľahlivo, komunikácia bola rýchla a profesionálna. Odporúčame."
+      },
+      {
+        "name": "Biliardovňa",
+        "role": "Biliardový klub, Bratislava",
+        "text": "Dostali sme moderný web s online rezerváciou. Počet rezervácií online sa výrazne zvýšil hneď po spustení stránky."
+      },
+      {
+        "name": "Štúdio Krásy OK",
+        "role": "Salón krásy, Bratislava",
+        "text": "Profesionálny prístup a rýchle dodanie. Web je prehľadný, klienti si bez problémov rezervujú termíny cez stránku."
+      }
+    ]
+  },
+  "contact_form": {
+    "title": "Porozprávajme sa o vašom projekte",
+    "subtitle": "Napíšte mi a ozvem sa do 24 hodín",
+    "name_placeholder": "Vaše meno",
+    "contact_placeholder": "Telefón alebo email",
+    "message_placeholder": "Stručne opíšte, čo potrebujete (nepovinné)",
+    "submit": "Odoslať správu",
+    "direct_contact": "Radšej píšete priamo?",
+    "or": "alebo"
   },
   "steps": {
     "title": "Kroky v rámci projektovej spolupráce",

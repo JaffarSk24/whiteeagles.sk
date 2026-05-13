@@ -315,14 +315,5 @@ section {
   p { line-height: 1.4; } /* Tighter text */
 }
 
-/* Add extra spacing for the first section under fixed header */
-#services {
-  padding-top: 140px; 
-}
-
-@media (max-width: 768px) {
-  #services {
-    padding-top: 90px; /* Reduced for smaller header */
-  }
-}
-.force-cache-bust-123 { display: none; }
+/* Hero is now the first section — it handles its own top padding */
+.force-cache-bust-v2 { display: none; }

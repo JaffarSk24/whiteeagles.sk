@@ -9,9 +9,20 @@
     "order": "Free Technical Audit"
   },
   "hero": {
-    "title": "IT Solutions for Your Business",
-    "subtitle": "Web Development, Analytics, and Online Marketing",
-    "cta": "Free Technical Audit"
+    "title": "Websites and Ads That Bring Clients to Your Business in Slovakia",
+    "subtitle": "Web development, analytics and online marketing for businesses",
+    "cta": "Free Audit",
+    "cta_secondary": "See My Clients",
+    "stat1_num": "10+",
+    "stat1_label": "years in Slovakia",
+    "stat2_num": "90%",
+    "stat2_label": "projects in 15 days",
+    "stat3_num": "6 mo.",
+    "stat3_label": "free support",
+    "float1_title": "10 working days",
+    "float1_sub": "average project duration",
+    "float2_title": "6 months",
+    "float2_sub": "free support included"
   },
   "blog": {
     "title": "Blog & News",
@@ -183,6 +194,36 @@
     "payment_rub": "Rubles",
     "payment_uah": "Hryvnias"
   },
+  "testimonials": {
+    "title": "What My Clients Say",
+    "items": [
+      {
+        "name": "TOP SKLAD / TOP KOBKA",
+        "role": "Warehouse rental, Bratislava",
+        "text": "Kirill built us a comprehensive warehouse booking system. Everything runs reliably, communication was fast and professional. Highly recommend."
+      },
+      {
+        "name": "Biliardov\u0148a",
+        "role": "Billiard club, Bratislava",
+        "text": "We got a modern website with online booking. The number of online reservations grew significantly right after the site launched."
+      },
+      {
+        "name": "Studio Kr\u00e1sy OK",
+        "role": "Beauty salon, Bratislava",
+        "text": "Professional approach and fast delivery. The site is clean, clients easily book appointments online."
+      }
+    ]
+  },
+  "contact_form": {
+    "title": "Let's Talk About Your Project",
+    "subtitle": "Write to me and I'll respond within 24 hours",
+    "name_placeholder": "Your name",
+    "contact_placeholder": "Phone or email",
+    "message_placeholder": "Briefly describe what you need (optional)",
+    "submit": "Send Message",
+    "direct_contact": "Prefer to write directly?",
+    "or": "or"
+  },
   "popup": {
     "title": "Don't leave just yet!",
     "intro": "Why work with me?",
@@ -233,7 +274,7 @@
     "opt_if_email": "(optional if email is provided)",
     "title": "Order Service",
     "success_title": "Thank you for your request",
-    "success": "I will contact you shortly to discuss the details and terms of our cooperation.",
+    "success": "I will contact you shortly to discuss the details and terms of our collaboration.",
     "name": "Name",
     "email": "Email",
     "service": "Service",
