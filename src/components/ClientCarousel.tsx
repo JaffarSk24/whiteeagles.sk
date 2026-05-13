@@ -21,6 +21,7 @@ const clients: Client[] = [
   { name: "Studio Krasy", url: "https://studio-krasy.sk/", logo: "/assets/logo-studiokrasy.webp" },
   { name: "Recorder", url: "https://recorder.sk/", logo: "/assets/logo-recorder.webp" },
   { name: "Bodabo", url: "https://bodabo.ru/", logo: "/assets/logo-bodabo.webp" },
+  { name: "Ram Service", url: "https://ramservice.sk/", logo: "/assets/logo-ramservice.webp" },
 ];
 
 export const ClientCarousel: React.FC = () => {
