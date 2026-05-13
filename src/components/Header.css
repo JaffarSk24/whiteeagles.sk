@@ -52,6 +52,7 @@
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
