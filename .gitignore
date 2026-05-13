@@ -119,3 +119,13 @@ dist
 public/api/config.php
 .DS_Store
 ga4_events_spec.md
+
+# Google API keys (never commit)
+/GA4/
+_vite_backup/
+.next/
+src/_*
+Chat_archive_White Eagles/
+
+# Credentials file
+credentials.md

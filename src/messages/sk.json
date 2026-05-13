@@ -1,0 +1,324 @@
+{
+  "header": {
+    "services": "Služby",
+    "portfolio": "Portfólio",
+    "about": "O mne",
+    "process": "Proces",
+    "contacts": "Kontakty",
+    "order": "Technický audit zdarma"
+  },
+  "hero": {
+    "title": "IT Riešenia pre Váš Biznis",
+    "subtitle": "Tvorba webov, analytika a online marketing",
+    "cta": "Technický audit zdarma"
+  },
+  "home_seo": {
+    "title": "Tvorba webstránok a správa online reklamy | White Eagles & Co.",
+    "description": "Profesionálna tvorba webstránok, dátová analytika a online marketing na Slovensku. Weby na mieru, oprava chýb a PPC kampane pre rast vášho podnikania.",
+    "keywords": "tvorba webstránok, vývoj webu, online marketing, PPC, Google Ads, analytika, GA4, telegram boty, IT riešenia, Bratislava, Slovensko"
+  },
+  "services": {
+    "title": "Moje služby",
+    "order": "Technický audit zdarma",
+    "details": "Podrobnosti",
+    "more_info": "Viac info",
+    "webdev": {
+      "title": "Tvorba webstránok",
+      "desc": "Stránky na mieru (PHP, Python, JS) alebo WordPress.",
+      "details": "Podrobnosti",
+      "details_points": [
+        "Definovanie cieľov a úloh podnikania",
+        "Analýza konkurencie z hľadiska úspešných blokov a služieb. Určenie referencií.",
+        "Vývoj a návrh jedinečných služieb a nástrojov.",
+        "Tvorba viacstránkovej viacjazyčnej webstránky s ovládacím panelom, formulármi žiadostí a spätnej väzby.",
+        "Zapracovanie úprav a vylepšení po dohode so zákazníkom.",
+        "Vytvorenie a pripojenie Telegram bota na operatívnu správu žiadostí (potvrdenie / zrušenie rezervácie), vykonávanie zmien v kalendári a slotoch, ako aj správu e-mailových upozornení klientom.",
+        "Pripojenie domény / hostingu (servera) / nástroja na odosielanie e-mailov / ochrany pred botmi a Captcha.",
+        "Vytvorenie povinného bannera na získanie súhlasu so spracovaním cookies.",
+        "Kompletné SEO nastavenie pre ideálnu indexáciu v Google a vysoké pozície v organickom vyhľadávaní. Ladenie zdieľania na sociálnych sieťach.",
+        "Vytvorenie účtov a pripojenie zdrojov: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
+      ],
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
+      "seo_title": "Tvorba web stránok na mieru | E-shopy a portály | White Eagles",
+      "seo_desc": "Profesionálna tvorba web stránok v Bratislave a na Slovensku. Webstránky na mieru, e-shopy a firemné portály. Záruka a podpora 6 mesiacov.",
+      "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava"
+    },
+    "bugfix": {
+      "title": "Oprava chýb a úpravy",
+      "desc": "Oprava chýb na vlastných stránkach (kód) a WordPress.",
+      "details": "Optimalizácia, zrýchlenie a pridávanie nových funkcií.",
+      "details_points": [
+        "Lokalizácia problému a hľadanie riešení s minimálnym rizikom pre systém",
+        "Inštalácia dodatočných nástrojov a pluginov",
+        "Konfigurácia serverovej časti",
+        "Správa mediálneho obsahu webu",
+        "Nastavenie automatického zálohovania webu na serveri + Google Drive",
+        "Vykonávanie testov a odstraňovanie drobných chýb spojených s hlavným problémom"
+      ],
+      "seo_title": "Oprava a údržba web stránok | WordPress podpora | White Eagles",
+      "seo_desc": "Oprava chýb na webstránkach a technická podpora. PHP, JS, WordPress servis. Zrýchlenie webu a zabezpečenie.",
+      "seo_keywords": "oprava web stránok, údržba webu, wordpress podpora, zrýchlenie webu, odvírenie stránky, technická správa"
+    },
+    "ads": {
+      "title": "Reklamné kampane",
+      "desc": "Tvorba a optimalizácia reklamných kampaní Google Ads a Meta",
+      "internal_title": "Správa kontextovej a cielenej reklamy",
+      "internal_desc": "Tvorba, správa a optimalizácia reklamných kampaní v Google Ads a Meta (Instagram, Facebook, Threads, WhatsApp)",
+      "details_points": [
+        "Audit existujúcich reklamných účtov",
+        "Vytvorenie reklamných účtov a kabinetov",
+        "Prepojenie firemných zdrojov (Analytika, CRM)",
+        "Vytvorenie Merchant Center (pre e-shopy a internetové obchody)",
+        "Vytvorenie, moderovanie a vyplnenie firemnej karty na mapách Google",
+        "Analýza konkurentov a ich reklamnej aktivity",
+        " stanovenie a schválenie reklamného rozpočtu (s rozdelením podľa kanálov) na základe jasného matematického výpočtu.",
+        "Vývoj jedinečnej reklamnej stratégie pre konkrétny produkt / službu a firmu v rámci jej trhového segmentu.",
+        "Tvorba inzerátov a nastavenie v rámci kabinetov",
+        "Identita, tvorba, dizajn a balenie reklamných účtov na kľúč",
+        "Nastavenie a spustenie kampaní Google Ads / Meta Ads",
+        "Integrácia analytických systémov",
+        "Optimalizácia a škálovanie reklamných kampaní"
+      ],
+      "seo_title": "Google Ads a Meta reklama | Správa PPC kampaní | White Eagles",
+      "seo_desc": "Efektívne nastavenie Google Ads a reklamy na Facebooku/Instagrame. Získavanie klientov, optimalizácia rozpočtu a rast predaja.",
+      "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní"
+    },
+    "analytics": {
+      "title": "Webová analytika",
+      "desc": "Implementácia serverového GTM, Google Analytics 4, Microsoft Clarity, Bing console pre presné sledovanie",
+      "details": "Implementácia serverového GTM, Google Analytics 4, Microsoft Clarity, Bing console pre presné sledovanie akcií každého návštevníka",
+      "details_points": [
+        "Pripojenie a nastavenie Google Tag Manager (GTM) a Server-Side Tracking pre GA4",
+        "Nastavenie cieľov a udalostí",
+        "Integrácia s CRM a reklamnými účtami",
+        "Nastavenie Microsoft Clarity / Bing console"
+      ],
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
+      "seo_title": "Nastavenie webovej analytiky GA4 a GTM | Meranie konverzií",
+      "seo_desc": "Profesionálne nastavenie Google Analytics 4, GTM a serverového merania. Presné dáta pre rast vášho podnikania.",
+      "seo_keywords": "webová analytika, nastavenie ga4, google tag manager, server-side tracking, meranie konverzií, analýza návštevnosti"
+    },
+    "cookies": {
+      "title": "Cookie Consent Mode V2",
+      "desc": "Pridanie povinného cookie bannera, ktorý vyžaduje Google",
+      "internal_title": "Cookie Banner (Consent Mode V2)",
+      "internal_desc": "Pridanie povinného cookie bannera, ktorý vyžaduje Google, bez mesačného predplatného (na rozdiel od hotových modulov pre integráciu do kódu vlastných stránok a WordPress pluginov)",
+      "details": "Pridanie povinného cookie bannera, ktorý vyžaduje Google, bez mesačného predplatného (na rozdiel od hotových modulov pre integráciu do kódu vlastných stránok a WordPress pluginov)",
+      "details_points": [
+        "Vytvorenie a nastavenie jedinečného vlastného bannera na súhlas s cookies, ktorý umožňuje vždy spracovávať údaje všetkých návštevníkov pre správne fungovanie analytických a reklamných systémov.",
+        "Integrácia do kódu webu, nastavenie firemného štýlu a farieb bannera.",
+        "Ladenie a kontrolu funkčnosti. Testovanie na 15+ možných prípadoch."
+      ],
+      "seo_title": "Nastavenie Cookie lišty (Consent Mode v2) | GDPR súhlas",
+      "seo_desc": "Inštalácia a nastavenie Cookie lišty s podporou Google Consent Mode v2. Splnenie GDPR bez mesačných poplatkov za pluginy.",
+      "seo_keywords": "cookie lišta, consent mode v2, gdpr slovensko, nastavenie cookies, súhlas so spracovaním údajov"
+    },
+    "telegram": {
+      "title": "Vývoj botov v Pythone",
+      "desc": "Boti na správu dopytov, automatické zverejňovanie inzerátov (bazoš) a spätnú väzbu od značky",
+      "internal_title": "Vývoj automatizačných botov",
+      "internal_desc": "Vytváranie vlastných Python botov na správu dopytov, automatizáciu rutinných procesov a spätnú väzbu od značky",
+      "details": "Vytváranie vlastných Python botov na správu dopytov, automatizáciu rutinných procesov a spätnú väzbu od značky",
+      "details_points": [
+        "Boti pre hromadný auto-posting inzerátov (bazos)",
+        "Vytváranie botov pre hromadné rozosielanie na základe databázy kontaktov",
+        "Boti pre spätnú väzbu a správu dopytov",
+        "Boti na správu slotov v rezervačnom systéme webu",
+        "Boti na parsovanie údajov / sledovateľov konkurentov na vytvorenie cieľového publika",
+        "Ostatné boti na popularizáciu značky a sťaženie života konkurentom"
+      ],
+      "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
+      "seo_title": "Vývoj Telegram botov na Python | Automatizácia procesov",
+      "seo_desc": "Tvorba pokročilých Telegram botov v Pythone. Auto-posting (Bazoš), správa dopytov, parsovanie dát a automatizácia rutiny.",
+      "seo_keywords": "telegram bot, python programovanie, automatizácia firmy, bot pre bazoš, parsovanie dát, chatbot na mieru"
+    }
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "biliardovna": {
+      "desc": "Webstránka biliardového klubu v Bratislave."
+    },
+    "studiokrasy": {
+      "desc": "Viacstránkový web s rezervačným systémom."
+    },
+    "topkobka": {
+      "desc": "Webstránka pre služby prenájmu skladov."
+    },
+    "topsklad": {
+      "desc": "Multifunkčný web s rezervačným systémom skladov."
+    },
+    "bodabo": {
+      "desc": "Webstránka pre veľkoobchodný predaj vanilky, kávy a kakaových bôbov."
+    },
+    "slovunisport": {
+      "desc": "Športový portál."
+    },
+    "mojservis": {
+      "desc": "Stránka autoservisu."
+    }
+  },
+  "about": {
+    "title": "Tvorba a reklama webov pre firmy na Slovensku",
+    "greeting": "Dobrý deň,",
+    "name_intro": "volám sa Kirill Mosin.",
+    "years_sk": "Žijem na Slovensku už viac ako 10 rokov a dokonale som spoznal miestny trh a jeho špecifiká.",
+    "knowledge": "Presne viem, aký digitálny produkt vytvoriť a ako ho propagovať pre maximálny úspech vášho podnikania.",
+    "pride_title": "Výborný výsledok bez podrobných technických špecifikácií",
+    "pride_desc": "Práca s freelancermi vo firme mi umožnila identifikovať hlavné ťažkosti, ktoré sa objavujú v spolupráci: veľké množstvo času stráveného manažmentom spoločnosti pri písaní podrobného technického zadania na opis všetkých obchodných procesov a očakávaní od webovej stránky. Od klienta nikdy nežiadam zložitú technickú špecifikáciu a sám poskytnem najvhodnejšie riešenie na schválenie.",
+    "cta_text": "Objednajte si bezplatnú konzultáciu na prediskutovanie projektu a získanie osobnej ponuky.",
+    "cta_button": "Technický audit zdarma",
+    "payment_title": "Flexibilné možnosti platby",
+    "payment_invoice": "Na faktúru",
+    "payment_card": "Kreditnou kartou",
+    "payment_usdt": "V USDT",
+    "payment_bitcoin": "V Bitcoin",
+    "payment_rub": "V rubľoch",
+    "payment_uah": "V hrivnách"
+  },
+  "clients": {
+    "title": "Pracoval som so značkami"
+  },
+  "steps": {
+    "title": "Kroky v rámci projektovej spolupráce",
+    "request": "Žiadosť",
+    "request_desc_link": "Zanechajte žiadosť cez formulár",
+    "request_desc_rest": "a ja sa vám ozvem čo najskôr.",
+    "meeting": "Stretnutie",
+    "meeting_desc": "Stretneme sa v Bratislave / online a preberieme detaily projektu a vaše očakávania.",
+    "process": "Vývoj",
+    "process_desc": "Vykonávanie prác so schvaľovaním a pravidelnými správami.",
+    "delivery": "Výsledok",
+    "delivery_desc": "Prijatie, schválenie, zapracovanie pripomienok a platba za prácu.",
+    "success_stat": "90% zložitých projektov som zrealizoval do 15 pracovných dní"
+  },
+  "contacts": {
+    "title": "Kontakty",
+    "address": "Holíčska 7, Bratislava",
+    "company_label": "Spoločnosť",
+    "office_label": "Kancelária",
+    "email_label": "Email",
+    "phone_label": "Telefón"
+  },
+  "common": {
+    "hour": "hod",
+    "from": "od",
+    "visit": "Navštíviť stránku",
+    "optional": "nepovinné",
+    "back": "Späť",
+    "close": "Zavrieť"
+  },
+  "order": {
+    "opt_if_phone": "(nepovinné, ak je uvedený telefón)",
+    "opt_if_email": "(nepovinné, ak je uvedený email)",
+    "title": "Objednať službu",
+    "success_title": "Ďakujem za Vašu žiadosť",
+    "success": "V blízkej dobe Vás budem kontaktovať pre prediskutovanie detailov a podmienok spolupráce.",
+    "name": "Meno",
+    "email": "Email",
+    "service": "Služba",
+    "message": "Správa",
+    "phone": "Telefón",
+    "name_placeholder": "Ján Novák",
+    "email_placeholder": "example@gmail.com",
+    "phone_placeholder": "+421 123 456 789",
+    "validation_error": "Vyplňte prosím všetky povinné polia.",
+    "email_error": "Neplatný formát e-mailu",
+    "phone_error": "Neplatný formát telefónneho čísla",
+    "sending": "Odosielanie...",
+    "submit": "Odoslať žiadosť",
+    "error": "Niečo sa pokazilo. Skúste to znova.",
+    "privacy": "Odoslaním žiadosti súhlasíte s <link>pravidlami spracúvania osobných údajov</link>."
+  },
+  "company": {
+    "name": "White Eagles & Co. s.r.o.",
+    "address": "Kukučínova 12, 900 31 Stupava",
+    "id": "IČO: 57098581, DIČ: 2122566292"
+  },
+  "terms": {
+    "title": "Obchodné podmienky",
+    "description": "Obchodné podmienky používania služieb White Eagles & Co.",
+    "intro": "Tieto obchodné podmienky upravujú používanie našej webovej stránky a služieb.",
+    "general_title": "Všeobecné ustanovenia",
+    "general_text": "Vstupom na túto webovú stránku súhlasíte s týmito obchodnými podmienkami.",
+    "services_title": "Služby",
+    "services_text": "Poskytujeme služby vývoja webových stránok, analytiky a marketingu, ako je opísané na našej stránke.",
+    "payment_title": "Platobné podmienky",
+    "payment_text": "Platobné podmienky sú dohodnuté individuálne pre každý projekt.",
+    "liability_title": "Obmedzenie zodpovednosti",
+    "liability_text": "Nezodpovedáme za nepriame škody vzniknuté v dôsledku používania našich služieb."
+  },
+  "privacy": {
+    "title": "Ochrana osobných údajov",
+    "description": "Ako zhromažďujeme, používame a chránime vaše osobné údaje.",
+    "intro": "Vážime si vaše súkromie a zaväzujeme sa chrániť vaše osobné údaje.",
+    "controller_title": "Prevádzkovateľ údajov",
+    "controller_text": "Prevádzkovateľom údajov je White Eagles & Co. s.r.o., Kukučínova 12, 900 31 Stupava.",
+    "data_collection_title": "Zhromažďované údaje",
+    "data_collection_text": "Údaje zhromažďujeme prostredníctvom analytických nástrojov na zlepšenie našich služieb:",
+    "purpose_title": "Účel spracovania",
+    "purpose_text": "Vaše údaje používame na analýzu návštevnosti webu, zlepšenie používateľského zážitku a správu marketingových kampaní.",
+    "advertising_title": "Reklama",
+    "advertising_text": "Na oslovenie potenciálnych zákazníkov využívame reklamné platformy:",
+    "rights_title": "Vaše práva",
+    "rights_text": "Máte právo na prístup, opravu alebo vymazanie vašich osobných údajov. Kontaktujte nás na welcome@whiteeagles.sk."
+  },
+  "cookies": {
+    "title": "Pravidlá používania cookies",
+    "description": "Informácie o tom, ako používame súbory cookie.",
+    "intro": "Táto webová stránka používa súbory cookie na zlepšenie vášho zážitku.",
+    "what_are_title": "Čo sú cookies?",
+    "what_are_text": "Cookies sú malé textové súbory uložené vo vašom zariadení.",
+    "usage_title": "Ako používame cookies",
+    "usage_text": "Cookies používame na analytické a marketingové účely:",
+    "ga4_desc": "Slúži na rozlíšenie používateľov a analýzu návštevnosti webu.",
+    "ads_desc": "Slúži na doručovanie personalizovaných reklám.",
+    "meta_desc": "Slúži na sledovanie konverzií z reklám na Facebooku a Instagrame.",
+    "clarity_desc": "Slúži na analýzu správania používateľov na stránke (teplotné mapy, nahrávky).",
+    "management_title": "Správa cookies",
+    "management_text": "Súbory cookie môžete spravovať alebo zakázať v nastaveniach vášho prehliadača."
+  },
+  "footer": {
+    "company_desc": "Reklama a vývoj webových stránok",
+    "terms": "Podmienky",
+    "privacy": "Ochrana osobných údajov",
+    "cookies": "Cookies"
+  },
+  "popup": {
+    "title": "Neodchádzajte tak skoro!",
+    "intro": "Výhody spolupráce so mnou:",
+    "list": [
+      "Široká ponuka služieb",
+      "Bez podrobných technických špecifikácií",
+      "Flexibilné možnosti platby",
+      "Rekordne rýchle dodanie",
+      "Špičkový špecialista (full-time na vašom projekte)"
+    ],
+    "outro": "Odoslaním žiadosti o konzultáciu teraz získate prioritnú podporu. Takúto šancu si nemôžete nechať ujsť! Kliknite na tlačidlo, zanechajte správu a ja sa vám okamžite ozvem.",
+    "button": "Prekonzultovať projekt"
+  },
+  "chatbot": {
+    "greeting_1": "Dobrý deň! Volám sa Kirill Mosin. Som riaditeľom agentúry White Eagles & Co.",
+    "greeting_2": "Pomôžem Vám ušetriť čas a rýchlo nájsť tú správnu službu pre Vaše podnikanie.",
+    "q_service": "Akú úlohu potrebujete vyriešiť?",
+    "serv_webdev": "Vytvoriť web",
+    "serv_ads": "Spustiť reklamu",
+    "serv_analytics": "Nastaviť analytiku",
+    "serv_chatbot": "Vytvoriť chatbota",
+    "serv_cookies": "Cookie banner",
+    "serv_bugfix": "Opraviť web",
+    "q_name": "Skvelé! Ako Vás môžem oslovovať?",
+    "placeholder_name": "Napr.: Alexander",
+    "q_email": "Zadajte prosím Váš email pre kontakt.",
+    "placeholder_email": "example@gmail.com",
+    "q_phone": "Zadajte prosím Vaše telefónne číslo.",
+    "placeholder_phone": "+421 900 000 000",
+    "q_summary": "Prosím, skontrolujte si údaje pred odoslaním.<br/><br/>Ozvem sa Vám v čo najkratšom čase!",
+    "skipped": "Preskočené",
+    "message_default": "Odoslané cez chatbota",
+    "btn_next": "Ďalej",
+    "btn_send": "Odoslať požiadavku",
+    "bubble_text": "Pomôžem vybrať službu za 1 minútu!",
+    "bot_title": "Kirill Mosin",
+    "error_required": "Toto pole je povinné."
+  }
+}
