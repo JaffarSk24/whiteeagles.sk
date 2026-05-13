@@ -1,5 +1,5 @@
 /* ============================================
-   CLIENTS STATIC GRID
+   CLIENTS MANUAL SLIDER
    ============================================ */
 
 .clients-section {
@@ -17,7 +17,38 @@
   letter-spacing: 0.12em;
 }
 
+/* Wrapper: arrows on sides, grid in center */
+.clients-slider-wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Arrow buttons */
+.clients-arrow {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.clients-arrow:hover {
+  background: rgba(249, 115, 22, 0.1);
+  border-color: rgba(249, 115, 22, 0.4);
+  color: var(--accent-color);
+}
+
+/* Grid of 4 */
 .clients-grid {
+  flex: 1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
@@ -25,6 +56,26 @@
   justify-items: stretch;
 }
 
+/* Slide animations */
+@keyframes slide-from-right {
+  from { opacity: 0; transform: translateX(32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slide-from-left {
+  from { opacity: 0; transform: translateX(-32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.clients-grid--anim-next {
+  animation: slide-from-right 0.3s ease both;
+}
+
+.clients-grid--anim-prev {
+  animation: slide-from-left 0.3s ease both;
+}
+
+/* Logo card */
 .client-logo-item {
   display: flex;
   align-items: center;
@@ -33,7 +84,7 @@
   border-radius: 12px;
   border: 1px solid var(--border-color);
   background: rgba(255, 255, 255, 0.02);
-  min-height: 100px;
+  min-height: 110px;
   transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
 }
 
@@ -44,7 +95,7 @@
 }
 
 .client-logo-img {
-  height: 64px;
+  height: 72px;
   width: auto;
   max-width: 160px;
   object-fit: contain;
@@ -58,15 +109,39 @@
   opacity: 1;
 }
 
-/* Tablet: 3 per row */
+/* Dots */
+.clients-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.clients-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: var(--border-color);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.clients-dot--active {
+  background: var(--accent-color);
+  transform: scale(1.3);
+}
+
+/* Tablet */
 @media (max-width: 1024px) {
   .clients-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
   }
 }
 
-/* Mobile: 2 per row, full color */
+/* Mobile */
 @media (max-width: 768px) {
   .clients-section {
     padding: 48px 0;
@@ -77,33 +152,41 @@
     margin-bottom: 28px;
   }
 
+  .clients-slider-wrap {
+    gap: 10px;
+  }
+
+  .clients-arrow {
+    width: 36px;
+    height: 36px;
+  }
+
   .clients-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
   }
 
   .client-logo-item {
-    padding: 20px 16px;
+    padding: 18px 12px;
     min-height: 80px;
   }
 
   .client-logo-img {
     height: 52px;
-    max-width: 120px;
+    max-width: 110px;
     filter: grayscale(0%);
     opacity: 1;
   }
 }
 
-/* Small mobile: 2 per row */
 @media (max-width: 480px) {
-  .client-logo-img {
-    height: 44px;
-    max-width: 100px;
+  .clients-arrow {
+    width: 32px;
+    height: 32px;
   }
 
-  .client-logo-item {
-    padding: 16px 12px;
-    min-height: 70px;
+  .client-logo-img {
+    height: 44px;
+    max-width: 90px;
   }
 }
