@@ -5,12 +5,20 @@
     "about": "About Me",
     "process": "Process",
     "contacts": "Contacts",
+    "blog": "Blog & News",
     "order": "Free Technical Audit"
   },
   "hero": {
     "title": "IT Solutions for Your Business",
     "subtitle": "Web Development, Analytics, and Online Marketing",
     "cta": "Free Technical Audit"
+  },
+  "blog": {
+    "title": "Blog & News",
+    "read_more": "Read more",
+    "back_to_blog": "Back to blog",
+    "cta_title": "Need help with your website or marketing?",
+    "cta_button": "Get a free technical audit"
   },
   "home_seo": {
     "title": "Web Development and Advertising in Slovakia | White Eagles & Co.",

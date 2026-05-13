@@ -3,14 +3,14 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function RootRedirect() {
+export default function RootRedirect({ targetPath = "" }: { targetPath?: string }) {
   const router = useRouter();
 
   useEffect(() => {
     // 1. Check local storage for manually selected language
     const savedLocale = localStorage.getItem("NEXT_LOCALE");
     if (savedLocale && ["sk", "en", "ru"].includes(savedLocale)) {
-      router.replace(`/${savedLocale}`);
+      router.replace(`/${savedLocale}${targetPath}`);
       return;
     }
 
@@ -26,8 +26,8 @@ export default function RootRedirect() {
       targetLocale = "en";
     }
 
-    router.replace(`/${targetLocale}`);
-  }, [router]);
+    router.replace(`/${targetLocale}${targetPath}`);
+  }, [router, targetPath]);
 
   return (
     <div style={{ height: "100vh", display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "#0f172a" }}>

@@ -127,6 +127,13 @@ export async function JsonLd({ locale }: { locale: string }) {
         "@id": `${siteUrl}/#faq`,
         mainEntity: faqItems,
       },
+      {
+        "@type": "Blog",
+        "@id": `${siteUrl}/${locale}/blog/#blog`,
+        name: locale === "sk" ? "Blog | White Eagles & Co." : locale === "ru" ? "Блог | White Eagles & Co." : "Blog & News | White Eagles & Co.",
+        url: `${siteUrl}/${locale}/blog`,
+        description: tHomeSeo("description"),
+      },
       ...servicesList,
     ],
   };

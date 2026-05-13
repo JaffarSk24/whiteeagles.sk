@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
             {t("about")}
           </a>
           <a
-            href="/#steps"
+            href="/#process"
             onClick={(e) => {
               e.preventDefault();
               scrollToSection("process")}
@@ -117,6 +117,9 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
           >
             {t("process")}
           </a>
+          <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)}>
+            {t("blog")}
+          </Link>
           <a
             href="/#contacts"
             onClick={(e) => {

@@ -25,7 +25,7 @@ We solve business problems, not just write code. Our key differentiator is **"No
 ## 2. Detailed Service Offerings
 
 ### A. Web Development
-*URL: /service/webdev*
+*URL: /sk/service/webdev*
 
 We build high-performance, SEO-ready websites tailored to the Slovak market.
 - **Types**: Corporate websites, Landing pages, E-commerce, Booking systems.
@@ -36,7 +36,7 @@ We build high-performance, SEO-ready websites tailored to the Slovak market.
   - **Guarantee**: 6 months of free technical support.
 
 ### B. Advertising Campaigns (PPC)
-*URL: /service/ads*
+*URL: /sk/service/ads*
 
 Contextual and Targeted advertising in Google and Meta ecosystems.
 - **Google Ads**: Search, Display, Merchant Center (Shopping).
@@ -47,7 +47,7 @@ Contextual and Targeted advertising in Google and Meta ecosystems.
   - Continuous Optimization & Scaling.
 
 ### C. Telegram Bots & Automation
-*URL: /service/telegram*
+*URL: /sk/service/telegram*
 
 Custom Python-based bots to automate routine tasks.
 - **Capabilities**:
@@ -57,7 +57,7 @@ Custom Python-based bots to automate routine tasks.
   - Customer Support &Feedback loop.
 
 ### D. Web Analytics & Tracking
-*URL: /service/analytics*
+*URL: /sk/service/analytics*
 
 Advanced tracking setup to understand every user interaction.
 - Server-Side Google Tag Manager (GTM).
@@ -65,7 +65,7 @@ Advanced tracking setup to understand every user interaction.
 - Heatmaps (Microsoft Clarity / Yandex Metrica).
 
 ### E. Bug Fixing & Maintenance
-*URL: /service/bugfix*
+*URL: /sk/service/bugfix*
 
 Rescue services for broken or slow websites.
 - Fixing PHP/JS errors.
@@ -73,12 +73,17 @@ Rescue services for broken or slow websites.
 - Performance optimization (Core Web Vitals).
 
 ### F. Cookie Consent Mode V2
-*URL: /service/cookies*
+*URL: /sk/service/cookies*
 
 Legal compliance without monthly fees.
 - Custom banner development.
 - Full Google Consent Mode v2 integration.
 - Ensuring data collection remains legal and effective.
+
+### G. IT Blog & Knowledge Base
+*URL: /sk/blog*
+
+Professional articles on web development costs, platforms, GDPR compliance, and GA4 setup.
 
 ---
 

@@ -5,22 +5,25 @@
 ## Core Services
 
 - **Web Development**: Custom modern websites using React, PHP, and Python. Specialized in landing pages, corporate portals, and e-shops.
-  - URL: https://whiteeagles.sk/service/webdev
+  - URL: https://whiteeagles.sk/sk/service/webdev
 
 - **Advertising Campaigns**: Expert setup and optimization of Google Ads and Meta (Facebook/Instagram) PPC campaigns.
-  - URL: https://whiteeagles.sk/service/ads
+  - URL: https://whiteeagles.sk/sk/service/ads
 
 - **Telegram Bots**: Advanced Python bots for automation, bazoš auto-posting, and request management.
-  - URL: https://whiteeagles.sk/service/telegram
+  - URL: https://whiteeagles.sk/sk/service/telegram
 
 - **Web Analytics**: Server-side GTM, GA4, Clarity, and conversion tracking setup.
-  - URL: https://whiteeagles.sk/service/analytics
+  - URL: https://whiteeagles.sk/sk/service/analytics
 
 - **Bug Fixing**: Technical support, bug fixing, and optimization for WordPress and custom sites.
-  - URL: https://whiteeagles.sk/service/bugfix
+  - URL: https://whiteeagles.sk/sk/service/bugfix
 
 - **Cookie Consent V2**: GDPR-compliant cookie banners with Google Consent Mode v2 support.
-  - URL: https://whiteeagles.sk/service/cookies
+  - URL: https://whiteeagles.sk/sk/service/cookies
+
+- **Blog & News**: Professional articles about web development, marketing, and SEO in Slovakia.
+  - URL: https://whiteeagles.sk/sk/blog
 
 ## Contact
 

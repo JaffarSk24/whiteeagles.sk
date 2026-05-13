@@ -5,12 +5,20 @@
     "about": "O mne",
     "process": "Proces",
     "contacts": "Kontakty",
+    "blog": "Blog",
     "order": "Technický audit zdarma"
   },
   "hero": {
     "title": "IT Riešenia pre Váš Biznis",
     "subtitle": "Tvorba webov, analytika a online marketing",
     "cta": "Technický audit zdarma"
+  },
+  "blog": {
+    "title": "Blog u0026 Novinky",
+    "read_more": "Čítať viac",
+    "back_to_blog": "Späť na blog",
+    "cta_title": "Potrebujete pomôcť s webom alebo marketingom?",
+    "cta_button": "Získať technický audit zdarma"
   },
   "home_seo": {
     "title": "Tvorba webstránok a správa online reklamy | White Eagles & Co.",
