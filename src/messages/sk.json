@@ -2,7 +2,7 @@
   "header": {
     "services": "Služby",
     "portfolio": "Portfólio",
-    "testimonials": "Referencie",
+    "testimonials": "Recenzie",
     "process": "Proces",
     "contacts": "Kontakty",
     "blog": "Blog",
@@ -39,6 +39,7 @@
   "services": {
     "title": "Moje služby",
     "order": "Technický audit zdarma",
+    "apply": "Zanechať požiadavku",
     "details": "Podrobnosti",
     "more_info": "Viac info",
     "webdev": {

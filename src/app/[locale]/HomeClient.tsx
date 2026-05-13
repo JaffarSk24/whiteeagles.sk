@@ -106,7 +106,7 @@ export default function HomeClient() {
                       {tServicesNS("more_info")}
                     </button>
                     <button className="btn btn-primary" onClick={() => openOrderModal(service.id)}>
-                      {tServicesNS("order")}
+                      {tServicesNS("apply")}
                     </button>
                   </div>
                 </div>

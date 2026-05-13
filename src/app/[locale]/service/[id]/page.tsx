@@ -1,7 +1,7 @@
 import React from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { ArrowLeft, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ShieldCheck, FileText, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from "lucide-react";
 import { services } from "../../../../data/services";
 
 import { ServiceDetailClient } from "./ServiceDetailClient";
@@ -53,6 +53,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
   const t = await getTranslations({ locale });
   const tCommon = await getTranslations({ locale, namespace: "common" });
+  const tAbout = await getTranslations({ locale, namespace: "about" });
 
   // Get points array from translations
   // Next-intl doesn't return arrays directly with `t()`, but we can check using raw config or structured objects.
@@ -127,10 +128,26 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               )}
             </div>
 
-            {/* Client component for the order button that needs to trigger the global AppShell state */}
+            {/* Payment methods block */}
+            <div className="payment-options-block service-payment-block">
+              <h3>{tAbout("payment_title")}</h3>
+              <div className="payment-list">
+                <div className="payment-item"><FileText size={24} /><span>{tAbout("payment_invoice")}</span></div>
+                <div className="payment-item"><CreditCard size={24} /><span>{tAbout("payment_card")}</span></div>
+                <div className="payment-item"><CircleDollarSign size={24} /><span>{tAbout("payment_usdt")}</span></div>
+                <div className="payment-item"><Bitcoin size={24} /><span>{tAbout("payment_bitcoin")}</span></div>
+                <div className="payment-item"><RussianRuble size={24} /><span>{tAbout("payment_rub")}</span></div>
+                <div className="payment-item">
+                  <span style={{ fontSize: "36px", fontWeight: "normal", lineHeight: "0.7", paddingTop: "6px", marginBottom: "7px", display: "flex", alignItems: "center", justifyContent: "center", height: "24px", width: "24px", color: "var(--accent-color)" }}>&#8372;</span>
+                  <span>{tAbout("payment_uah")}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Client component for the order button */}
             <ServiceDetailClient
               serviceId={service.id}
-              orderText={t("services.order")}
+              orderText={t("services.apply")}
               price={service.priceMin || service.priceRate}
               title={t(service.titleKey as any)}
             />

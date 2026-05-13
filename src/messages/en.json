@@ -39,6 +39,7 @@
   "services": {
     "title": "My Services",
     "order": "Free Technical Audit",
+    "apply": "Submit a Request",
     "details": "Details",
     "more_info": "Read more",
     "webdev": {
