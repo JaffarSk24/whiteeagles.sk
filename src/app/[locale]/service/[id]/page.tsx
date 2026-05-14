@@ -32,6 +32,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: t((service.seoTitleKey as any) || (service.titleKey as any)),
     description: t((service.seoDescKey as any) || (service.descKey as any)),
     keywords: t((service.seoKeywordsKey as any) || "agency"),
+    alternates: {
+      canonical: `https://whiteeagles.sk/${locale}/service/${id}/`,
+      languages: {
+        sk: `https://whiteeagles.sk/sk/service/${id}/`,
+        en: `https://whiteeagles.sk/en/service/${id}/`,
+        ru: `https://whiteeagles.sk/ru/service/${id}/`,
+        "x-default": `https://whiteeagles.sk/sk/service/${id}/`,
+      },
+    },
   };
 }
 

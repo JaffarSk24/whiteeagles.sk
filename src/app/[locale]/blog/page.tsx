@@ -18,6 +18,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t('title'),
     description: t('title') + ' - White Eagles & Co.',
+    alternates: {
+      canonical: `https://whiteeagles.sk/${locale}/blog/`,
+      languages: {
+        sk: 'https://whiteeagles.sk/sk/blog/',
+        en: 'https://whiteeagles.sk/en/blog/',
+        ru: 'https://whiteeagles.sk/ru/blog/',
+        'x-default': 'https://whiteeagles.sk/sk/blog/',
+      },
+    },
   };
 }
 

@@ -29,6 +29,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${post.title} | White Eagles & Co.`,
     description: post.description,
+    alternates: {
+      canonical: `https://whiteeagles.sk/${locale}/blog/${slug}/`,
+      languages: {
+        sk: `https://whiteeagles.sk/sk/blog/${slug}/`,
+        en: `https://whiteeagles.sk/en/blog/${slug}/`,
+        ru: `https://whiteeagles.sk/ru/blog/${slug}/`,
+        'x-default': `https://whiteeagles.sk/sk/blog/${slug}/`,
+      },
+    },
   };
 }
 

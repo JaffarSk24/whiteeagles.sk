@@ -4,7 +4,6 @@ const config = {
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: "./dist",
-  // Static export puts files in /dist
   changefreq: "weekly",
   priority: 0.7,
   sitemapSize: 5000,
@@ -12,19 +11,23 @@ const config = {
     "/server-sitemap.xml",
     "*/terms*",
     "*/privacy*",
-    "*/cookies*"
+    "*/cookies*",
+    // Exclude root redirect pages (they are JS redirects, not real content)
+    "/",
+    "/blog",
+    "/blog/*",
   ],
   robotsTxtOptions: {
     additionalSitemaps: [],
     policies: [
       {
         userAgent: "*",
-        allow: "/",
+        allow: ["/", "/*/service/cookies"],
         disallow: [
           "/api/",
           "/*/terms",
           "/*/privacy",
-          "/*/cookies"
+          "/*/cookies",
         ],
       },
     ],

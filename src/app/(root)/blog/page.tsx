@@ -5,7 +5,11 @@ export const metadata: Metadata = {
   title: "Blog & Novinky | White Eagles & Co.",
   description: "Blog o web developmente, online marketingu a analytike v oblasti tvorby webstránok a PPC.",
   alternates: {
-    canonical: "https://whiteeagles.sk/sk/blog",
+    canonical: "https://whiteeagles.sk/sk/blog/",
+  },
+  robots: {
+    index: false,
+    follow: true,
   },
 };
 

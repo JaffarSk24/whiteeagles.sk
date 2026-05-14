@@ -41,11 +41,14 @@ export async function generateMetadata({
     description: t("description"),
     keywords: t("keywords"),
     alternates: {
-      canonical: "/",
+      canonical: locale === "sk"
+        ? "https://whiteeagles.sk/sk/"
+        : `https://whiteeagles.sk/${locale}/`,
       languages: {
-        sk: "https://whiteeagles.sk",
-        en: "https://whiteeagles.sk/en",
-        ru: "https://whiteeagles.sk/ru",
+        sk: "https://whiteeagles.sk/sk/",
+        en: "https://whiteeagles.sk/en/",
+        ru: "https://whiteeagles.sk/ru/",
+        "x-default": "https://whiteeagles.sk/sk/",
       },
     },
     openGraph: {

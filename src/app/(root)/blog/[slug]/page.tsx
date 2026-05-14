@@ -14,6 +14,10 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   title: "Blog & Novinky | White Eagles & Co.",
   description: "Blog o web developmente, online marketingu a analytike v oblasti tvorby webstránok a PPC.",
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default async function BlogPostRedirectPage(props: { params: Promise<{ slug: string }> }) {
