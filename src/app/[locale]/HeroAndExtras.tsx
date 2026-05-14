@@ -31,7 +31,7 @@ export function HeroSection() {
         <div className="hero-text">
           <div className="hero-badge">
             <span className="hero-badge-dot" />
-            Bratislava, Slovakia
+            {t("location")}
           </div>
 
           <h1 className="hero-title">
