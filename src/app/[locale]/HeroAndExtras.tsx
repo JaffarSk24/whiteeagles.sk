@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Star, ArrowRight, Zap, Award, ChevronDown, Send, MessageCircle, Mail } from "lucide-react";
 import { useOrderModal } from "../../components/AppShell";
 import { trackGAEvent } from "../../utils/analytics";
@@ -163,6 +163,7 @@ export function TestimonialsSection() {
 export function InlineContactForm() {
   const t = useTranslations("contact_form");
   const tOrder = useTranslations("order");
+  const locale = useLocale();
 
   const [form, setForm] = useState({ name: "", contact: "", message: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
@@ -184,8 +185,9 @@ export function InlineContactForm() {
           name: form.name,
           email: isEmail ? form.contact : "",
           phone: !isEmail ? form.contact : "",
-          message: form.message || "Відправлено через короткую форму",
-          service: "general",
+          message: form.message || t("default_message"),
+          service: t("service_name"),
+          language: locale,
         }),
       });
 

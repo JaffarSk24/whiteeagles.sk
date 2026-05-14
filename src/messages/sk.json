@@ -227,7 +227,9 @@
     "message_placeholder": "Stručne opíšte, čo potrebujete (nepovinné)",
     "submit": "Odoslať správu",
     "direct_contact": "Radšej píšete priamo?",
-    "or": "alebo"
+    "or": "alebo",
+    "service_name": "Žiadosť o kontakt",
+    "default_message": "Odoslané cez krátky formulár"
   },
   "steps": {
     "title": "Kroky v rámci projektovej spolupráce",
