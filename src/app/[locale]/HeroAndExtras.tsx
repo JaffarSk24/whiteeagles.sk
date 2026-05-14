@@ -175,7 +175,7 @@ export function InlineContactForm() {
     trackGAEvent("form_submit", { form_id: "inline_contact" });
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/api/send-mail.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
