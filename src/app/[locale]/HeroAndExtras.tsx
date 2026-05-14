@@ -175,12 +175,15 @@ export function InlineContactForm() {
     trackGAEvent("form_submit", { form_id: "inline_contact" });
 
     try {
+      const isEmail = form.contact.includes("@");
+      
       const res = await fetch("/api/send-mail.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: form.name,
-          contact: form.contact,
+          email: isEmail ? form.contact : "",
+          phone: !isEmail ? form.contact : "",
           message: form.message || "Відправлено через короткую форму",
           service: "general",
         }),

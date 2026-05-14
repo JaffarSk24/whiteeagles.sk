@@ -36,11 +36,12 @@ $MAILGUN_ENDPOINT = isset($config['MAILGUN_ENDPOINT']) ? $config['MAILGUN_ENDPOI
 // Get JSON Input
 $data = json_decode(file_get_contents("php://input"));
 
-if (!isset($data->name) || !isset($data->email) || !isset($data->message)) { // Service is optional
+if (!isset($data->name) || (!isset($data->email) && !isset($data->phone)) || !isset($data->message)) {
     http_response_code(400);
     echo json_encode(["message" => "Incomplete data"]);
     exit;
 }
+
 
 // 1. Verify Recaptcha
 $recaptchaSuccess = true;
@@ -251,11 +252,11 @@ function buildHtmlEmail($t, $data, $serviceName, $price)
                                         " : "") . "
                                         <tr>
                                             <td style='padding: 8px 0; color: #6b7280; font-weight: 500;'>{$t['email_label']}:</td>
-                                            <td style='padding: 8px 0; color: #111827;'>" . htmlspecialchars($data->email) . "</td>
+                                            <td style='padding: 8px 0; color: #111827;'>" . htmlspecialchars(isset($data->email) ? $data->email : '') . "</td>
                                         </tr>
                                         <tr>
                                             <td style='padding: 8px 0; color: #6b7280; font-weight: 500;'>{$t['phone_label']}:</td>
-                                            <td style='padding: 8px 0; color: #111827;'>" . htmlspecialchars($data->phone) . "</td>
+                                            <td style='padding: 8px 0; color: #111827;'>" . htmlspecialchars(isset($data->phone) ? $data->phone : '') . "</td>
                                         </tr>
                                     </table>
                                     
@@ -325,8 +326,8 @@ $clientHtmlBody = buildHtmlEmail($t, $data, $serviceName, $price);
 // Admin Email Body (Simplified HTML or same as client? Admin usually needs raw data, but pretty is nice. Let's make a simplified version or reuse)
 $adminHtmlBody = "<h2>" . $t['telegram_title'] . "</h2>";
 $adminHtmlBody .= "<p><b>" . $t['name_label'] . ":</b> " . $data->name . "</p>";
-$adminHtmlBody .= "<p><b>" . $t['email_label'] . ":</b> " . $data->email . "</p>";
-$adminHtmlBody .= "<p><b>" . $t['phone_label'] . ":</b> " . $data->phone . "</p>";
+$adminHtmlBody .= "<p><b>" . $t['email_label'] . ":</b> " . (isset($data->email) ? $data->email : '') . "</p>";
+$adminHtmlBody .= "<p><b>" . $t['phone_label'] . ":</b> " . (isset($data->phone) ? $data->phone : '') . "</p>";
 $adminHtmlBody .= "<p><b>" . $t['service_label'] . ":</b> " . $serviceName . "</p>";
 if ($price) {
     $adminHtmlBody .= "<p><b>" . $t['price_label'] . ":</b> " . $price . "</p>";
@@ -336,8 +337,8 @@ $adminHtmlBody .= "<p><b>" . $t['message_label'] . ":</b><br>" . nl2br($data->me
 // Telegram Body (Keep plain/HTML-lite for Telegram)
 $telegramBody = "<b>" . $t['telegram_title'] . "</b>\n\n";
 $telegramBody .= "👤 <b>" . $t['name_label'] . ":</b> " . htmlspecialchars($data->name) . "\n";
-$telegramBody .= "📧 <b>" . $t['email_label'] . ":</b> " . htmlspecialchars($data->email) . "\n";
-$telegramBody .= "📱 <b>" . $t['phone_label'] . ":</b> " . htmlspecialchars($data->phone) . "\n";
+$telegramBody .= "📧 <b>" . $t['email_label'] . ":</b> " . htmlspecialchars(isset($data->email) ? $data->email : '') . "\n";
+$telegramBody .= "📱 <b>" . $t['phone_label'] . ":</b> " . htmlspecialchars(isset($data->phone) ? $data->phone : '') . "\n";
 $telegramBody .= "🛠 <b>" . $t['service_label'] . ":</b> " . htmlspecialchars($serviceName) . "\n";
 if ($price) {
     $telegramBody .= "💰 <b>" . $t['price_label'] . ":</b> " . htmlspecialchars($price) . "\n";
@@ -346,10 +347,14 @@ $telegramBody .= "💬 <b>" . $t['message_label'] . ":</b>\n" . htmlspecialchars
 
 // Execute Sending
 // 1. Send to ADMIN.
-$adminSent = sendMail($ADMIN_EMAIL, $t['admin_subject'] . $data->name, $adminHtmlBody, $MAILGUN_API_KEY, $MAILGUN_DOMAIN, $FROM_EMAIL, $data->email, $MAILGUN_ENDPOINT);
+$replyToEmail = (isset($data->email) && !empty($data->email) && strpos($data->email, '@') !== false) ? $data->email : null;
+$adminSent = sendMail($ADMIN_EMAIL, $t['admin_subject'] . $data->name, $adminHtmlBody, $MAILGUN_API_KEY, $MAILGUN_DOMAIN, $FROM_EMAIL, $replyToEmail, $MAILGUN_ENDPOINT);
 
 // 2. Send to CLIENT using the beautiful HTML template
-$clientSent = sendMail($data->email, $t['client_subject'], $clientHtmlBody, $MAILGUN_API_KEY, $MAILGUN_DOMAIN, $FROM_EMAIL, $ADMIN_EMAIL, $MAILGUN_ENDPOINT);
+$clientSent = true;
+if ($replyToEmail) {
+    $clientSent = sendMail($replyToEmail, $t['client_subject'], $clientHtmlBody, $MAILGUN_API_KEY, $MAILGUN_DOMAIN, $FROM_EMAIL, $ADMIN_EMAIL, $MAILGUN_ENDPOINT);
+}
 
 $telegramSent = sendTelegram($TELEGRAM_BOT_TOKEN, $TELEGRAM_CHAT_ID, $telegramBody);
 
