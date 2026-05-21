@@ -27,19 +27,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 
   const t = await getTranslations({ locale });
+  const title = t((service.seoTitleKey as any) || (service.titleKey as any));
+  const description = t((service.seoDescKey as any) || (service.descKey as any));
+  const pageUrl = `https://whiteeagles.sk/${locale}/service/${id}/`;
 
   return {
-    title: t((service.seoTitleKey as any) || (service.titleKey as any)),
-    description: t((service.seoDescKey as any) || (service.descKey as any)),
+    title,
+    description,
     keywords: t((service.seoKeywordsKey as any) || "agency"),
     alternates: {
-      canonical: `https://whiteeagles.sk/${locale}/service/${id}/`,
+      canonical: pageUrl,
       languages: {
         sk: `https://whiteeagles.sk/sk/service/${id}/`,
         en: `https://whiteeagles.sk/en/service/${id}/`,
         ru: `https://whiteeagles.sk/ru/service/${id}/`,
         "x-default": `https://whiteeagles.sk/sk/service/${id}/`,
       },
+    },
+    openGraph: {
+      title,
+      description,
+      url: pageUrl,
     },
   };
 }

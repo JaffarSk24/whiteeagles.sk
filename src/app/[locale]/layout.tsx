@@ -31,6 +31,9 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "home_seo" });
+  const pageUrl = locale === "sk"
+    ? "https://whiteeagles.sk/sk/"
+    : `https://whiteeagles.sk/${locale}/`;
 
   return {
     metadataBase: new URL("https://whiteeagles.sk"),
@@ -41,9 +44,7 @@ export async function generateMetadata({
     description: t("description"),
     keywords: t("keywords"),
     alternates: {
-      canonical: locale === "sk"
-        ? "https://whiteeagles.sk/sk/"
-        : `https://whiteeagles.sk/${locale}/`,
+      canonical: pageUrl,
       languages: {
         sk: "https://whiteeagles.sk/sk/",
         en: "https://whiteeagles.sk/en/",
@@ -54,15 +55,24 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       locale: locale === "sk" ? "sk_SK" : locale === "en" ? "en_US" : "ru_RU",
-      url: "https://whiteeagles.sk",
+      url: pageUrl,
       siteName: "White Eagles & Co.",
       title: t("title"),
       description: t("description"),
+      images: [
+        {
+          url: "/assets/snippet.png",
+          width: 1200,
+          height: 630,
+          alt: "White Eagles & Co.",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
+      images: ["/assets/snippet.png"],
     },
     robots: {
       index: true,

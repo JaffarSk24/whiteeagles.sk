@@ -26,17 +26,26 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
   }
   
+  const title = `${post.title} | White Eagles & Co.`;
+  const description = post.description;
+  const pageUrl = `https://whiteeagles.sk/${locale}/blog/${slug}/`;
+  
   return {
-    title: `${post.title} | White Eagles & Co.`,
-    description: post.description,
+    title,
+    description,
     alternates: {
-      canonical: `https://whiteeagles.sk/${locale}/blog/${slug}/`,
+      canonical: pageUrl,
       languages: {
         sk: `https://whiteeagles.sk/sk/blog/${slug}/`,
         en: `https://whiteeagles.sk/en/blog/${slug}/`,
         ru: `https://whiteeagles.sk/ru/blog/${slug}/`,
         'x-default': `https://whiteeagles.sk/sk/blog/${slug}/`,
       },
+    },
+    openGraph: {
+      title,
+      description,
+      url: pageUrl,
     },
   };
 }

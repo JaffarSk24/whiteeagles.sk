@@ -14,18 +14,26 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'blog' });
+  const pageUrl = `https://whiteeagles.sk/${locale}/blog/`;
+  const title = t('title');
+  const description = t('title') + ' - White Eagles & Co.';
   
   return {
-    title: t('title'),
-    description: t('title') + ' - White Eagles & Co.',
+    title,
+    description,
     alternates: {
-      canonical: `https://whiteeagles.sk/${locale}/blog/`,
+      canonical: pageUrl,
       languages: {
         sk: 'https://whiteeagles.sk/sk/blog/',
         en: 'https://whiteeagles.sk/en/blog/',
         ru: 'https://whiteeagles.sk/ru/blog/',
         'x-default': 'https://whiteeagles.sk/sk/blog/',
       },
+    },
+    openGraph: {
+      title,
+      description,
+      url: pageUrl,
     },
   };
 }
