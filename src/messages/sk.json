@@ -27,6 +27,8 @@
   },
   "blog": {
     "title": "Blog & Novinky",
+    "seo_title": "Blog o webe, marketingu a IT",
+    "seo_description": "Praktické návody a novinky o tvorbe webov, Google Ads, SEO a analytike na Slovensku. Získajte užitočné tipy pre rast vášho podnikania.",
     "read_more": "Čítať viac",
     "back_to_blog": "Späť na blog",
     "cta_title": "Potrebujete pomôcť s webom alebo marketingom?",

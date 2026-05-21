@@ -27,6 +27,8 @@
   },
   "blog": {
     "title": "Blog & News",
+    "seo_title": "Web Dev, Marketing & SEO Blog",
+    "seo_description": "Expert insights and guides on custom web development, Google Ads optimization, SEO trends, and web analytics. Grow your business with our tips.",
     "read_more": "Read more",
     "back_to_blog": "Back to blog",
     "cta_title": "Need help with your website or marketing?",

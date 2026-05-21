@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'blog' });
   const pageUrl = `https://whiteeagles.sk/${locale}/blog/`;
-  const title = t('title');
-  const description = t('title') + ' - White Eagles & Co.';
+  const title = t('seo_title');
+  const description = t('seo_description');
   
   return {
     title,
