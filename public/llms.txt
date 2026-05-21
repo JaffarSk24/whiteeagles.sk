@@ -24,6 +24,13 @@
 
 - **Blog & News**: Professional articles about web development, marketing, and SEO in Slovakia.
   - URL: https://whiteeagles.sk/sk/blog
+  - Articles:
+    - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website
+    - https://whiteeagles.sk/sk/blog/website-cost-2026
+    - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4
+    - https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti
+    - https://whiteeagles.sk/sk/blog/google-ads-small-business
+    - https://whiteeagles.sk/sk/blog/seo-audit-check-website
 
 ## Contact
 

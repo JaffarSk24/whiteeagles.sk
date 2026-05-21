@@ -6,7 +6,9 @@ const posts = [
   'website-cost-2026',
   'wordpress-vs-custom-website',
   'nastavenie-google-analytics-4',
-  'cookie-lista-2026-povinnosti'
+  'cookie-lista-2026-povinnosti',
+  'google-ads-small-business',
+  'seo-audit-check-website'
 ];
 const services = [
   'webdev',

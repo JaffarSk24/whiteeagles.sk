@@ -83,7 +83,19 @@ Legal compliance without monthly fees.
 ### G. IT Blog & Knowledge Base
 *URL: /sk/blog*
 
-Professional articles on web development costs, platforms, GDPR compliance, and GA4 setup.
+Professional articles and guides about web development, marketing, and SEO in Slovakia:
+- **Tvorba webu vs WordPress** (WordPress vs Custom Website):
+  - URL: https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website
+- **Koľko stojí webstránka v 2026** (Website Cost in 2026):
+  - URL: https://whiteeagles.sk/sk/blog/website-cost-2026
+- **Nastavenie Google Analytics 4**:
+  - URL: https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4
+- **Cookie lišta a Consent Mode v2**:
+  - URL: https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti
+- **Google Ads pre malé firmy**:
+  - URL: https://whiteeagles.sk/sk/blog/google-ads-small-business
+- **SEO audit: Ako skontrolovať váš web**:
+  - URL: https://whiteeagles.sk/sk/blog/seo-audit-check-website
 
 ---
 
