@@ -4,7 +4,7 @@ description: >-
   Kompletný sprievodca reklamou Google Ads pre malé podniky. Zistite, ako správne nastaviť kampaň, vyhnúť sa zbytočným výdavkom a získať prvých zákazníkov.
 date: '2026-05-21'
 ---
-![Google Ads pre malé firmy: Návod ako začať | White Eagles & Co.](/assets/blog/blog5.png)
+![Google Ads pre malé firmy: Návod ako začať | White Eagles & Co.](/assets/blog/blog6.webp)
 
 # Google Ads pre malé firmy: Návod ako začať
 

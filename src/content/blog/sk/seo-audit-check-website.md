@@ -4,7 +4,7 @@ description: >-
   Návod na jednoduchý SEO audit webstránky. Zistite, ako nájsť technické chyby, skontrolovať rýchlosť načítavania a zlepšiť pozície vo vyhľadávači Google.
 date: '2026-05-21'
 ---
-![SEO audit: Ako skontrolovať váš web | White Eagles & Co.](/assets/blog/blog6.png)
+![SEO audit: Ako skontrolovať váš web | White Eagles & Co.](/assets/blog/blog5.webp)
 
 # SEO audit: Ako skontrolovať váš web
 
