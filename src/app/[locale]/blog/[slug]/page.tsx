@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
   }
   
-  const title = `${post.title} | White Eagles & Co.`;
+  const title = post.title;
   const description = post.description;
   const pageUrl = `https://whiteeagles.sk/${locale}/blog/${slug}/`;
   
