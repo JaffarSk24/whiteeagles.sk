@@ -62,7 +62,7 @@
         "Account creation and resource connection: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Web Development in Slovakia | Custom Sites & E-commerce | White Eagles",
+      "seo_title": "Custom Web & E-commerce Dev",
       "seo_desc": "Professional web development in Bratislava and Slovakia. Custom websites, e-shops, and corporate portals. 6-month support guarantee.",
       "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site"
     },
@@ -78,7 +78,7 @@
         "Setup of automatic site backups on server + Google Drive",
         "Testing and fixing minor issues accompanying the main problem."
       ],
-      "seo_title": "Website Bug Fixing & Maintenance | WordPress & PHP | White Eagles",
+      "seo_title": "Website Bug Fixing & Support",
       "seo_desc": "Professional website bug fixing and maintenance. PHP, JS, and WordPress error resolution. Speed optimization and security setup.",
       "seo_keywords": "website bug fix, website maintenance, wordpress support, fix php errors, site speed optimization"
     },
@@ -102,8 +102,8 @@
         "Integration of analytics systems",
         "Optimization and scaling of advertising campaigns"
       ],
-      "seo_title": "Google Ads & Meta Advertising in Slovakia | PPC Services",
-      "seo_desc": "Effective Google Ads and Facebook/Instagram target setup. Client acquisition, budget optimization, sales growth.",
+      "seo_title": "Google Ads & PPC Campaign Management",
+      "seo_desc": "Professional Google Ads and Facebook/Instagram advertising campaigns setup in Slovakia. Get more customers, optimize budget, and grow your sales.",
       "seo_keywords": "google ads slovakia, facebook ads setup, ppc specialist bratislava, instagram promotion, contextual advertising"
     },
     "analytics": {
@@ -117,8 +117,8 @@
         "Microsoft Clarity / Bing console setup"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Web Analytics Services GA4 & GTM | Conversion Tracking",
-      "seo_desc": "Professional setup of Google Analytics 4, GTM, and Server-Side tracking. Accurate data for your business growth.",
+      "seo_title": "Web Analytics: GA4 & GTM Setup",
+      "seo_desc": "Professional setup of Google Analytics 4, Google Tag Manager, and Server-Side tracking. Get accurate conversion data for your business growth.",
       "seo_keywords": "web analytics, ga4 setup, google tag manager, server-side gtm, website tracking, conversion tracking"
     },
     "cookies": {
@@ -132,8 +132,8 @@
         "Integration into site code, corporate style/color setup.",
         "Debugging and verification. Testing 15+ possible use cases."
       ],
-      "seo_title": "Cookie Banner Consent Mode v2 Setup | GDPR Compliance",
-      "seo_desc": "Installation and setup of Cookie banner with Google Consent Mode v2 support. GDPR compliance without monthly plugin fees.",
+      "seo_title": "Cookie Banner & Consent Mode v2",
+      "seo_desc": "Setup and integration of custom Cookie banner with Google Consent Mode v2. Comply with GDPR guidelines without monthly paid subscription plugins.",
       "seo_keywords": "cookie banner, consent mode v2, gdpr slovakia, cookie setup, google consent mode"
     },
     "telegram": {
@@ -151,8 +151,8 @@
         "Other bots for brand promotion and complicating competitors' lives"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Python Telegram Bot Development | Business Automation",
-      "seo_desc": "Advanced Python Telegram bot development. Auto-posting (Bazoš), request management, data parsing, and automation.",
+      "seo_title": "Python Telegram Bot Development",
+      "seo_desc": "Professional Python Telegram bot development. Auto-posting to Bazos, request management, data parsing, and effective business process automation.",
       "seo_keywords": "telegram bot development, python bot, business automation, bazos bot, data parsing, custom chatbots"
     }
   },
