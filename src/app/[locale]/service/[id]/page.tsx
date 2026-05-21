@@ -78,8 +78,63 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   // The easiest way is to pass raw strings and render them client-side if needed, but let's try server side:
   const rawPoints = (t.raw(`${service.detailsKey}_points` as any) as string[]) || [];
 
+  const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
+  const serviceTitle = t((service.internalTitleKey as any) || (service.titleKey as any));
+  const serviceDescription = t((service.internalDescKey as any) || (service.descKey as any));
+
+  const schemaJson = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": `https://whiteeagles.sk/${locale}/service/${id}/#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": homeName,
+            "item": `https://whiteeagles.sk/${locale}/`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": serviceTitle,
+            "item": `https://whiteeagles.sk/${locale}/service/${id}/`
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": `https://whiteeagles.sk/${locale}/service/${id}/#service`,
+        "name": serviceTitle,
+        "description": serviceDescription,
+        "provider": {
+          "@type": "LocalBusiness",
+          "@id": "https://whiteeagles.sk/#localbusiness",
+          "name": "White Eagles & Co."
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": service.priceMin || service.priceRate,
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": service.priceRate,
+            "priceCurrency": "EUR",
+            "unitText": "hour"
+          },
+          "url": `https://whiteeagles.sk/${locale}/service/${id}/`
+        }
+      }
+    ]
+  };
+
   return (
     <div className="service-detail-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
+      />
       <div className="container">
         <Link href="/" className="back-btn">
           ← {tCommon("back")}

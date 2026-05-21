@@ -37,16 +37,42 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
   };
 }
-
 export default async function BlogIndexPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   
   const t = await getTranslations({ locale, namespace: 'blog' });
   const posts = getAllPosts(locale);
-  
+
+  const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
+  const blogName = locale === "ru" ? "Блог" : locale === "sk" ? "Blog" : "Blog";
+
+  const schemaJson = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `https://whiteeagles.sk/${locale}/blog/#breadcrumb`,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": homeName,
+        "item": `https://whiteeagles.sk/${locale}/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": blogName,
+        "item": `https://whiteeagles.sk/${locale}/blog/`
+      }
+    ]
+  };
+
   return (
     <div className="blog-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
+      />
       <div className="container">
         <h1 className="section-title">{t('title')}</h1>
         

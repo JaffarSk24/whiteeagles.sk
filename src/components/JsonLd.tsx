@@ -5,59 +5,118 @@ import { services } from "../data/services";
 export async function JsonLd({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: "common" });
   const tHomeSeo = await getTranslations({ locale, namespace: "home_seo" });
-  // We need to fetch services translations from the root namespace
   const tRoot = await getTranslations({ locale });
 
   const siteUrl = "https://whiteeagles.sk";
   const orgName = "White Eagles & Co.";
+  const legalName = "White Eagles & Co. s.r.o.";
 
+  // Social media links
+  const sameAsLinks = [
+    "https://t.me/whiteeaglessk",
+    "https://wa.me/421949000077",
+    "https://www.facebook.com/slovakiainheart",
+    "https://www.linkedin.com/company/110639977",
+    "https://github.com/JaffarSk24",
+    "https://www.upwork.com/freelancers/~01e1569e9346f49762"
+  ];
+
+  // Multilingual FAQ Items
   const faqItems = [
     {
       "@type": "Question",
-      "name": locale === "ru" ? "Сколько стоит создание сайта и от чего зависит цена?" : "How much does a website cost?",
+      "name": locale === "ru" 
+        ? "Сколько стоит создание сайта и от чего зависит цена?" 
+        : locale === "sk" 
+        ? "Koľko stojí tvorba webstránky a od čoho závisí cena?" 
+        : "How much does a website cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": locale === "ru" ? "Стоимость разработки сайта в 2026 году варьируется от 5000 € за простой лендинг до 35000 €+ за сложный портал или SaaS. Цена зависит от типа сайта, сложности функционала (интеграции CRM, платежи), дизайна. Базовая ставка работы специалистов White Eagles & Co. начинается от 35€ в час. Все платежи прозрачны и согласуются без сложного ТЗ." : "Prices range depending on complexity and features. Our base hourly rate is around 35€.",
+        "text": locale === "ru" 
+          ? "Стоимость разработки сайта в 2026 году варьируется от 5000 € за простой лендинг до 35000 €+ за сложный портал или SaaS. Цена зависит от типа сайта, сложности функционала (интеграции CRM, платежи), дизайна. Базовая ставка работы специалистов White Eagles & Co. начинается от 35€ в час. Все платежи прозрачны и согласуются без сложного ТЗ." 
+          : locale === "sk"
+          ? "Cena za vývoj webstránky v roku 2026 sa pohybuje od 5000 € za jednoduchú pristávaciu stránku (landing page) až po viac ako 35000 € za komplexný portál alebo SaaS. Cena závisí od typu webu, náročnosti funkcií (integrácia CRM, platby) a dizajnu. Základná hodinová sadzba odborníkov z White Eagles & Co. začína od 35 € za hodinu. Všetky platby sú transparentné a dohodnuté bez zložitého zadania."
+          : "In 2026, custom website development costs range from €5,000 for a landing page to €35,000+ for complex portals or SaaS products. The price depends on features, integrations, and design. Our base hourly rate starts at €35/hour with transparent billing and no complex briefs required."
       },
     },
     {
       "@type": "Question",
-      "name": locale === "ru" ? "Какие типы сайтов бывают и какой нужен мне?" : "What types of websites do you build?",
+      "name": locale === "ru" 
+        ? "Какие типы сайтов бывают и какой нужен мне?" 
+        : locale === "sk"
+        ? "Aké sú typy webstránok a ktorú potrebujem?"
+        : "What types of websites do you build?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": locale === "ru" ? "Основные типы: лендинг, сайт-визитка, корпоративный сайт, интернет-магазин (eshop) и портал/SaaS. Для B2B-услуг обычно подходит корпоративный сайт с портфолио, блогом и формой заявок. Мы также помогаем внедрить онлайн-платежи и систему резерваций." : "We build everything from landing pages and corporate sites to complex e-commerce platforms and SaaS portals.",
+        "text": locale === "ru" 
+          ? "Основные типы: лендинг, сайт-визитка, корпоративный сайт, интернет-магазин (eshop) и портал/SaaS. Для B2B-услуг обычно подходит корпоративный сайт с портфолио, блогом и формой заявок. Мы также помогаем внедрить онлайн-платежи и систему резерваций." 
+          : locale === "sk"
+          ? "Hlavné typy sú: landing page, vizitka, firemný web, e-shop a portál/SaaS. Pre B2B služby je zvyčajne vhodný firemný web s portfóliom, blogom a kontaktným formulárom. Taktiež pomáhame s integráciou online platieb a rezervačných systémov."
+          : "We build landing pages, business websites, corporate portals, e-commerce stores, and custom SaaS platforms. For B2B businesses, we typically recommend a corporate site with a portfolio, blog, and contact forms. We also integrate payment gateways and reservation systems."
       },
     },
     {
       "@type": "Question",
-      "name": locale === "ru" ? "Говорите ли вы по-русски и как оплатить услуги?" : "Do you speak Russian and what are the payment methods?",
+      "name": locale === "ru" 
+        ? "Говорите ли вы по-русски и как оплатить услуги?" 
+        : locale === "sk"
+        ? "Hovoríte po rusky a aké sú platobné metódy?"
+        : "Do you speak English/Russian and what are the payment methods?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": locale === "ru" ? "Да, основатель компании Кирилл Мосин и команда свободно говорят по-русски, что идеально для экспатов и релокантов, открывающих бизнес в Словакии, Чехии или Австрии. Мы предлагаем гибкие способы оплаты: банковский перевод (faktúra), оплата картой, криптовалюта (USDT, Bitcoin), рубли (RUB) и гривны (UAH)." : "Yes, we support local and international payments including SEPA, Card, and Crypto (USDT, Bitcoin).",
+        "text": locale === "ru" 
+          ? "Да, основатель компании Кирилл Мосин и команда свободно говорят по-русски, что идеально для экспатов и релокантов, открывающих бизнес в Словакии, Чехии или Австрии. Мы предлагаем гибкие способы оплаты: банковский перевод (faktúra), оплата картой, криптовалюта (USDT, Bitcoin), рубли (RUB) и гривны (UAH)." 
+          : locale === "sk"
+          ? "Áno, zakladateľ spoločnosti Kirill Mosin a jeho tím hovoria plynule po rusky, čo je ideálne pre expatov, ktorí zakladajú podnikanie na Slovensku, v Česku alebo v Rakúsku. Ponúkame flexibilné možnosti platby: bankový prevod (faktúra), platba kartou, kryptomeny (USDT, Bitcoin), ruble (RUB) a hrivny (UAH)."
+          : "Yes, our team speaks fluent Slovak, English, and Russian, which is ideal for expats starting businesses in Slovakia, Czechia, or Austria. We offer flexible payment options: bank transfer (invoice), credit card, cryptocurrency (USDT, Bitcoin), and other currencies."
       },
     },
     {
       "@type": "Question",
-      "name": locale === "ru" ? "Что входит в техподдержку после запуска?" : "What is included in technical support?",
+      "name": locale === "ru" 
+        ? "Что входит в техподдержку после запуска?" 
+        : locale === "sk"
+        ? "Čo zahŕňa technická podpora po spustení webu?"
+        : "What is included in technical support after launch?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": locale === "ru" ? "Техподдержка White Eagles & Co. включает бесплатную помощь на протяжении 6 месяцев: мониторинг доступности сайта, резервные копии, обновления CMS (WordPress, плагинов), исправление багов и консультации по SEO-оптимизации." : "We include 6 months of free technical support with our custom builds, covering uptime monitoring, backups, updates, and bug fixes.",
+        "text": locale === "ru" 
+          ? "Техподдержка White Eagles & Co. включает бесплатную помощь на протяжении 6 месяцев: мониторинг доступности сайта, резервные копии, обновления CMS (WordPress, плагинов), исправление багов и консультации по SEO-оптимизации." 
+          : locale === "sk"
+          ? "Technická podpora od White Eagles & Co. zahŕňa bezplatnú pomoc po dobu 6 mesiacov: monitorovanie dostupnosti webu, zálohovanie, aktualizácie CMS (WordPress, pluginy), opravu chýb a SEO konzultácie."
+          : "White Eagles & Co. provides 6 months of free technical support with every project. This includes uptime monitoring, automated backups, CMS/plugin updates, bug fixes, and basic SEO consultations."
       },
     },
     {
       "@type": "Question",
-      "name": locale === "ru" ? "Сколько времени занимает разработка от брифа до запуска?" : "How long does development take?",
+      "name": locale === "ru" 
+        ? "Сколько времени занимает разработка от брифа до запуска?" 
+        : locale === "sk"
+        ? "Ako dlho trvá vývoj webstránky?"
+        : "How long does development take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": locale === "ru" ? "Полный цикл разработки обычно занимает 1–2 недели для лендинга или сайта-визитки, 2–4 недели для корпоративного сайта. 90% сложных проектов White Eagles & Co. выполняет в течение 15 рабочих дней благодаря опыту и отсутствию бюрократии." : "Most of our standard projects are completed within 15 working days.",
+        "text": locale === "ru" 
+          ? "Полный цикл разработки обычно занимает 1–2 недели для лендинга или сайта-визитки, 2–4 недели для корпоративного сайта. 90% сложных проектов White Eagles & Co. выполняет в течение 15 рабочих дней благодаря опыту и отсутствию бюрократии." 
+          : locale === "sk"
+          ? "Celý cyklus vývoja zvyčajne trvá 1-2 týždne pre landing page alebo vizitku a 2-4 týždne pre firemný web. 90 % zložitých projektov realizuje White Eagles & Co. do 15 pracovných dní vďaka skúsenostiam a minimu byrokracie."
+          : "Development typically takes 1-2 weeks for a landing page or promo site and 2-4 weeks for a full corporate site. Thanks to our streamlined workflow and low bureaucracy, 90% of complex projects are completed within 15 working days."
       },
     },
     {
       "@type": "Question",
-      "name": locale === "ru" ? "Как настроить кампанию в Google Ads и интегрировать ее с сайтом?" : "How do you handle Google Ads and Analytics?",
+      "name": locale === "ru" 
+        ? "Как настроить кампанию в Google Ads и интегрировать ее с сайтом?" 
+        : locale === "sk"
+        ? "Ako nastaviť kampaň v Google Ads a prepojiť ju s webom?"
+        : "How do you set up Google Ads and Analytics?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": locale === "ru" ? "Мы подключаем Google Tag Manager (GTM), настраиваем Server-Side Tracking, Google Analytics 4 (GA4) и связываем их с Google Ads. Мы собираем полные данные о конверсиях (лиды, звонки, e-commerce покупки) для обучения автоматических стратегий (Maximize Conversions / Target ROAS)." : "We integrate advanced GA4 tracking, GTM, and Google Ads, enabling proper conversion tracking to optimize your ROAS.",
+        "text": locale === "ru" 
+          ? "Мы подключаем Google Tag Manager (GTM), настраиваем Server-Side Tracking, Google Analytics 4 (GA4) и связываем их с Google Ads. Мы собираем полные данные о конверсиях (лиды, звонки, e-commerce покупки) для обучения автоматических стратегий (Maximize Conversions / Target ROAS)." 
+          : locale === "sk"
+          ? "Nastavujeme Google Tag Manager (GTM), Server-Side Tracking, Google Analytics 4 (GA4) a prepájame ich s Google Ads. Zhromažďujeme kompletné dáta o konverziách (dopyty, hovory, nákupy v e-shope) na optimalizáciu automatických stratégií (Maximize Conversions / Target ROAS)."
+          : "We configure Google Tag Manager (GTM), Server-Side Tracking for GA4, and link them to Google Ads. We track all conversions (leads, calls, purchases) to feed Google's automated bidding algorithms (Maximize Conversions / Target ROAS) for maximum ROI."
       },
     },
   ];
@@ -65,21 +124,33 @@ export async function JsonLd({ locale }: { locale: string }) {
   // Dynamic Service List Markup
   const servicesList = services.map((service) => ({
     "@type": "Service",
-    serviceType: tRoot(service.titleKey as any),
-    provider: {
+    "@id": `${siteUrl}/${locale}/service/${service.id}/#service`,
+    "serviceType": tRoot(service.titleKey as any),
+    "provider": {
       "@type": "LocalBusiness",
-      name: orgName,
+      "name": orgName,
+      "@id": `${siteUrl}/#localbusiness`
     },
-    areaServed: {
-      "@type": "Country",
-      name: "Slovakia",
-    },
-    description: tRoot(service.descKey as any),
-    offers: {
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "Slovakia",
+      },
+      {
+        "@type": "Country",
+        "name": "Czechia",
+      },
+      {
+        "@type": "Country",
+        "name": "Austria",
+      }
+    ],
+    "description": tRoot(service.descKey as any),
+    "offers": {
       "@type": "Offer",
-      priceCurrency: "EUR",
-      price: service.priceRate,
-      url: `${siteUrl}/${locale}/service/${service.id}`,
+      "priceCurrency": "EUR",
+      "price": service.priceRate,
+      "url": `${siteUrl}/${locale}/service/${service.id}/`,
     },
   }));
 
@@ -89,50 +160,151 @@ export async function JsonLd({ locale }: { locale: string }) {
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: orgName,
-        url: siteUrl,
-        logo: `${siteUrl}/assets/white-eagles-logo-white.webp`,
-        contactPoint: {
+        "name": orgName,
+        "legalName": legalName,
+        "url": siteUrl,
+        "logo": `${siteUrl}/assets/white-eagles-logo-white.webp`,
+        "image": `${siteUrl}/assets/me.jpg`,
+        "sameAs": sameAsLinks,
+        "contactPoint": {
           "@type": "ContactPoint",
-          telephone: "+421949000077",
-          contactType: "customer service",
-          email: "welcome@whiteeagles.sk",
-          availableLanguage: ["Russian", "Slovak", "English"],
+          "telephone": "+421949000077",
+          "contactType": "customer service",
+          "email": "welcome@whiteeagles.sk",
+          "availableLanguage": ["Russian", "Slovak", "English"],
         },
-        founder: {
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Kukučínova 12",
+          "addressLocality": "Stupava",
+          "postalCode": "900 31",
+          "addressCountry": "SK"
+        },
+        "founder": {
           "@type": "Person",
-          name: "Kirill Mosin",
+          "name": "Kirill Mosin",
         },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "24",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
       },
       {
         "@type": "ProfessionalService",
         "@id": `${siteUrl}/#localbusiness`,
-        name: orgName,
-        url: siteUrl,
-        image: `${siteUrl}/assets/me.jpg`,
-        telephone: "+421949000077",
-        email: "welcome@whiteeagles.sk",
-        address: {
+        "name": orgName,
+        "url": siteUrl,
+        "image": `${siteUrl}/assets/me.jpg`,
+        "telephone": "+421949000077",
+        "email": "welcome@whiteeagles.sk",
+        "sameAs": sameAsLinks,
+        "address": {
           "@type": "PostalAddress",
-          streetAddress: "Holíčska 7",
-          addressLocality: "Bratislava",
-          postalCode: "851 05",
-          addressCountry: "SK",
+          "streetAddress": "Holíčska 7",
+          "addressLocality": "Bratislava",
+          "postalCode": "851 05",
+          "addressCountry": "SK",
         },
-        priceRange: "$$$",
-        description: tHomeSeo("description"),
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "48.1090",
+          "longitude": "17.1086"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        "priceRange": "$$",
+        "currenciesAccepted": "EUR, USD, RUB, UAH",
+        "paymentAccepted": "Cash, Credit Card, Bank Transfer, Crypto",
+        "description": tHomeSeo("description"),
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "24",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${siteUrl}/#website`,
+        "url": siteUrl,
+        "name": orgName,
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `${siteUrl}/${locale}/blog?q={search_term_string}`
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${siteUrl}/#navigation`,
+        "name": "Navigation Menu",
+        "itemListElement": [
+          {
+            "@type": "SiteNavigationElement",
+            "position": 1,
+            "name": locale === "sk" ? "Služby" : locale === "ru" ? "Услуги" : "Services",
+            "url": `${siteUrl}/${locale}/#services`
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 2,
+            "name": locale === "sk" ? "Portfólio" : locale === "ru" ? "Портфолио" : "Portfolio",
+            "url": `${siteUrl}/${locale}/#portfolio`
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 3,
+            "name": locale === "sk" ? "Recenzie" : locale === "ru" ? "Отзывы" : "Testimonials",
+            "url": `${siteUrl}/${locale}/#testimonials`
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 4,
+            "name": locale === "sk" ? "Proces" : locale === "ru" ? "Процесс" : "Process",
+            "url": `${siteUrl}/${locale}/#process`
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 5,
+            "name": locale === "sk" ? "Kontakty" : locale === "ru" ? "Контакты" : "Contacts",
+            "url": `${siteUrl}/${locale}/#contacts`
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 6,
+            "name": locale === "sk" ? "Blog" : locale === "ru" ? "Блог" : "Blog",
+            "url": `${siteUrl}/${locale}/blog`
+          }
+        ]
       },
       {
         "@type": "FAQPage",
         "@id": `${siteUrl}/#faq`,
-        mainEntity: faqItems,
+        "mainEntity": faqItems,
       },
       {
         "@type": "Blog",
         "@id": `${siteUrl}/${locale}/blog/#blog`,
-        name: locale === "sk" ? "Blog | White Eagles & Co." : locale === "ru" ? "Блог | White Eagles & Co." : "Blog & News | White Eagles & Co.",
-        url: `${siteUrl}/${locale}/blog`,
-        description: tHomeSeo("description"),
+        "name": locale === "sk" ? "Blog | White Eagles & Co." : locale === "ru" ? "Блог | White Eagles & Co." : "Blog & News | White Eagles & Co.",
+        "url": `${siteUrl}/${locale}/blog`,
+        "description": tHomeSeo("description"),
       },
       ...servicesList,
     ],
