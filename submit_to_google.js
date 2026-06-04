@@ -85,8 +85,8 @@ function submitToIndexNow(urls) {
   return new Promise((resolve) => {
     const data = JSON.stringify({
       host: 'whiteeagles.sk',
-      key: '6ae38dc7984f479dbe39f8846bb4c862',
-      keyLocation: 'https://whiteeagles.sk/6ae38dc7984f479dbe39f8846bb4c862.txt',
+      key: '4c042a1bf13f43d1a14dc6a5cc920873',
+      keyLocation: 'https://whiteeagles.sk/4c042a1bf13f43d1a14dc6a5cc920873.txt',
       urlList: urls
     });
 
