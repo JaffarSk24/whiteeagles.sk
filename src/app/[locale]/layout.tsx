@@ -108,7 +108,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={inter.variable}>
       <head>
-        <meta name="seznam-wmt" content="JO84v6XYH2A5xjFbxwSdLNWvhVFh69iS" />
+        <meta name="seznam-wmt" content="WfarbRzOeP8RMWhMM7ARXPpViep5Zg9p" />
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
