@@ -9,25 +9,18 @@ export interface PortfolioItem {
 
 export const portfolio: PortfolioItem[] = [
   {
+    id: 'synchrozralok',
+    url: 'https://synchrozralok.sk',
+    title: 'SYNCHRO Žralok',
+    descKey: 'portfolio.synchrozralok.desc',
+    image: '/assets/portfolio-synchrozralok.webp'
+  },
+  {
     id: 'biliardovna',
     url: 'https://biliardovna.sk',
     title: 'Biliardovňa',
     descKey: 'portfolio.biliardovna.desc',
     image: '/assets/portfolio-biliardovna.webp'
-  },
-  {
-    id: 'top-kobka',
-    url: 'https://top-kobka.sk',
-    title: 'TOP KOBKA',
-    descKey: 'portfolio.topkobka.desc',
-    image: '/assets/portfolio-topkobka.webp'
-  },
-  {
-    id: 'studio-krasy',
-    url: 'https://studio-krasy.sk',
-    title: 'Krása štúdio "OK"',
-    descKey: 'portfolio.studiokrasy.desc',
-    image: '/assets/portfolio-studiokrasy.webp'
   },
   {
     id: 'top-sklad',
@@ -37,10 +30,24 @@ export const portfolio: PortfolioItem[] = [
     image: '/assets/portfolio-topsklad.webp'
   },
   {
+    id: 'studio-krasy',
+    url: 'https://studio-krasy.sk',
+    title: 'Krása štúdio "OK"',
+    descKey: 'portfolio.studiokrasy.desc',
+    image: '/assets/portfolio-studiokrasy.webp'
+  },
+  {
     id: 'bodabo',
     url: 'https://bodabo.ru',
     title: 'BODA BODA',
     descKey: 'portfolio.bodabo.desc',
     image: '/assets/portfolio-bodabo.webp'
+  },
+  {
+    id: 'top-kobka',
+    url: 'https://top-kobka.sk',
+    title: 'TOP KOBKA',
+    descKey: 'portfolio.topkobka.desc',
+    image: '/assets/portfolio-topkobka.webp'
   }
 ];

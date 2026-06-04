@@ -28,7 +28,7 @@ const pages: Client[][] = [
   ],
   [
     { name: "Studio Krasy", url: "https://studio-krasy.sk/",        logo: "/assets/logo-studiokrasy.webp" },
-    { name: "Bodabo",       url: "https://bodabo.ru/",              logo: "/assets/logo-bodabo.webp" },
+    { name: "SYNCHRO Žralok", url: "https://synchrozralok.sk/",     logo: "/assets/logo-zralok.webp" },
     { name: "Slov Uni Sport", url: "https://www.slovunisport.sk/",  logo: "/assets/logo-slovunisport.webp" },
     { name: "Top Kobka",    url: "https://top-kobka.sk/",           logo: "/assets/logo-topkobka.webp" },
   ],

@@ -158,6 +158,9 @@
   },
   "portfolio": {
     "title": "Portfólio",
+    "synchrozralok": {
+      "desc": "Web pre bratislavský klub synchronizovaného plávania."
+    },
     "biliardovna": {
       "desc": "Webstránka biliardového klubu v Bratislave."
     },

@@ -158,6 +158,9 @@
   },
   "portfolio": {
     "title": "Portfolio",
+    "synchrozralok": {
+      "desc": "Website for a synchronized swimming club in Bratislava."
+    },
     "biliardovna": {
       "desc": "Website for a billiard club in Bratislava."
     },
