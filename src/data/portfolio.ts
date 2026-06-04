@@ -11,7 +11,7 @@ export const portfolio: PortfolioItem[] = [
   {
     id: 'synchrozralok',
     url: 'https://synchrozralok.sk',
-    title: 'SYNCHRO Žralok',
+    title: 'Synchro ŽRALOK',
     descKey: 'portfolio.synchrozralok.desc',
     image: '/assets/portfolio-synchrozralok.webp'
   },

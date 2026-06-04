@@ -15,20 +15,20 @@ interface Client {
 // 3 groups of 4 — in the exact order specified
 const pages: Client[][] = [
   [
+    { name: "Synchro ŽRALOK", url: "https://synchrozralok.sk/",     logo: "/assets/logo-zralok.webp" },
     { name: "Top Sklad",    url: "https://top-sklad.com/",          logo: "/assets/logo-topsklad.webp" },
     { name: "Biliardovna",  url: "https://biliardovna.sk/",         logo: "/assets/logo-biliardovna.webp" },
     { name: "Ram Service",  url: "https://ramservice.sk/",           logo: "/assets/logo-ramservice.webp" },
-    { name: "Rebuy Stars",  url: "https://www.rebuystars.sk/",       logo: "/assets/logo-rebuystars.webp" },
   ],
   [
+    { name: "Rebuy Stars",  url: "https://www.rebuystars.sk/",       logo: "/assets/logo-rebuystars.webp" },
     { name: "Recorder",     url: "https://recorder.sk/",            logo: "/assets/logo-recorder.webp" },
     { name: "Moj Servis",   url: "https://www.moj-servis.sk/",      logo: "/assets/logo-mojservis.webp" },
     { name: "Chicago",      url: "https://www.chicago.sk/",         logo: "/assets/logo-chicago.webp" },
-    { name: "Severské Drevo", url: "https://severskedrevo.sk/",     logo: "/assets/logo-severskedrevo.webp" },
   ],
   [
+    { name: "Severské Drevo", url: "https://severskedrevo.sk/",     logo: "/assets/logo-severskedrevo.webp" },
     { name: "Studio Krasy", url: "https://studio-krasy.sk/",        logo: "/assets/logo-studiokrasy.webp" },
-    { name: "SYNCHRO Žralok", url: "https://synchrozralok.sk/",     logo: "/assets/logo-zralok.webp" },
     { name: "Slov Uni Sport", url: "https://www.slovunisport.sk/",  logo: "/assets/logo-slovunisport.webp" },
     { name: "Top Kobka",    url: "https://top-kobka.sk/",           logo: "/assets/logo-topkobka.webp" },
   ],
