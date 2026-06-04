@@ -71,6 +71,60 @@ async function main() {
   }
   
   console.log(`✅ Indexing API submission complete. Submitted ${successCount} out of ${urls.length} URLs.`);
+  
+  // 4. Submit to IndexNow (Bing, Seznam, Yandex, etc.)
+  try {
+    await submitToIndexNow(urls);
+  } catch (error) {
+    console.error('❌ Error during IndexNow submission:', error.message);
+  }
+}
+
+function submitToIndexNow(urls) {
+  const https = require('https');
+  return new Promise((resolve) => {
+    const data = JSON.stringify({
+      host: 'whiteeagles.sk',
+      key: '6ae38dc7984f479dbe39f8846bb4c862',
+      keyLocation: 'https://whiteeagles.sk/6ae38dc7984f479dbe39f8846bb4c862.txt',
+      urlList: urls
+    });
+
+    const options = {
+      hostname: 'api.indexnow.org',
+      port: 443,
+      path: '/indexnow',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Content-Length': Buffer.byteLength(data)
+      }
+    };
+
+    console.log('Submitting URLs to IndexNow (Bing/Seznam/Yandex)...');
+
+    const req = https.request(options, (res) => {
+      let body = '';
+      res.on('data', (chunk) => body += chunk);
+      res.on('end', () => {
+        if (res.statusCode === 200 || res.statusCode === 202) {
+          console.log('✅ IndexNow submission successful!');
+        } else {
+          console.error(`❌ IndexNow submission failed with status code: ${res.statusCode}`);
+          console.error(`Response body: ${body}`);
+        }
+        resolve();
+      });
+    });
+
+    req.on('error', (error) => {
+      console.error('❌ IndexNow request error:', error.message);
+      resolve();
+    });
+
+    req.write(data);
+    req.end();
+  });
 }
 
 main().catch(console.error);
