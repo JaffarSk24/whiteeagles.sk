@@ -6,4 +6,14 @@ Disallow: /*/terms
 Disallow: /*/privacy
 Disallow: /*/cookies
 
+# Next.js static-export payload files. The browser needs them for client-side
+# navigation, so they stay reachable, but crawling them is pure waste: they
+# duplicate page content as plain text and Googlebot only makes about forty
+# content requests a fortnight on this domain.
+Disallow: /*_rsc=
+Disallow: /index.txt
+Disallow: /*/index.txt
+Disallow: /__next
+Disallow: /*/__next
+
 Sitemap: https://whiteeagles.sk/sitemap.xml
