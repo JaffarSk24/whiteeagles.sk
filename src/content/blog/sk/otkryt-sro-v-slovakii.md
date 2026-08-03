@@ -6,7 +6,7 @@ description: >-
   zdražie viac než dvojnásobne a nezaobíde sa bez notára.
 date: '2026-08-03'
 ---
-![Založenie s.r.o. na Slovensku v roku 2026 | White Eagles & Co.](/assets/blog/blog7.webp)
+![Založenie s.r.o. na Slovensku v roku 2026 | White Eagles & Co.](/assets/blog/firmaotvorena.webp)
 
 # Založenie s.r.o. v roku 2026: postup a čo sa mení 17. augusta
 

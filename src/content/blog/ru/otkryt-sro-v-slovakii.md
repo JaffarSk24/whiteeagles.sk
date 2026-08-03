@@ -6,7 +6,7 @@ description: >-
   вдвое и становится невозможным без нотариуса.
 date: '2026-08-03'
 ---
-![Как открыть s.r.o. в Словакии в 2026 году | White Eagles & Co.](/assets/blog/blog7.webp)
+![Как открыть s.r.o. в Словакии в 2026 году | White Eagles & Co.](/assets/blog/firmaotvorena.webp)
 
 # Как открыть s.r.o. в Словакии в 2026: пошагово и что меняется 17 августа
 
