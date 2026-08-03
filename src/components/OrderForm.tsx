@@ -125,19 +125,11 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
           language: locale,
         });
 
-        trackGAEvent("purchase", {
-          transaction_id: `T_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
-          value: eventValue,
-          currency: "EUR",
-          items: [
-            {
-              item_id: formData.service,
-              item_name: serviceName,
-              price: eventValue,
-              quantity: 1,
-            },
-          ],
-        });
+        // No `purchase` event here. Submitting this form is a lead, not a sale:
+        // nobody has paid anything. Firing purchase would count every lead a
+        // second time (both it and order_send are key events) and would book
+        // the hourly rate as revenue that never existed. order_send above is
+        // the single key event for a lead.
       } else {
         setStatus("error");
       }

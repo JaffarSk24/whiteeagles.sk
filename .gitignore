@@ -131,8 +131,12 @@ Chat_archive_White Eagles/
 credentials.md
 dist 2/
 
-# Local agent rules (never publish)
-AGENTS.md
+# Markdown is internal by default: instructions, plans, strategies and notes
+# must never reach GitHub. One rule instead of a line per file.
+*.md
 
-# SEO strategy (internal, never publish)
-SEO-STRATEGY.md
+# Blog articles are the exception - they are the site's content and must ship.
+!src/content/blog/**/*.md
+
+# README.md was committed long before this rule, so git keeps tracking it;
+# an ignore rule does not apply to files already in the index.

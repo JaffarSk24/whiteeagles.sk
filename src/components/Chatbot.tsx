@@ -316,19 +316,8 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
           language: locale,
         });
 
-        trackGAEvent("purchase", {
-          transaction_id: `T_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
-          value: eventValue,
-          currency: "EUR",
-          items: [
-            {
-              item_id: formData.service,
-              item_name: tServices(selectedServiceObj?.titleKey || ""),
-              price: eventValue,
-              quantity: 1,
-            },
-          ],
-        });
+        // Same reasoning as in OrderForm: a chatbot request is a lead, not a
+        // sale. order_send above is the single key event for it.
       } else {
         addBotMessage("error"); // "error" key exists in order NS? Let's use order's error if chatbot doesn't have it
       }
