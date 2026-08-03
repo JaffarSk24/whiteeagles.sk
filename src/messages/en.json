@@ -78,9 +78,11 @@
         "Setup of automatic site backups on server + Google Drive",
         "Testing and fixing minor issues accompanying the main problem."
       ],
-      "seo_title": "Website Bug Fixing & Support",
-      "seo_desc": "Professional website bug fixing and maintenance. PHP, JS, and WordPress error resolution. Speed optimization and security setup.",
-      "seo_keywords": "website bug fix, website maintenance, wordpress support, fix php errors, site speed optimization"
+      "seo_title": "Website and WordPress repair in Slovakia",
+      "seo_desc": "Website repair in Slovakia: WordPress, PHP, JavaScript and server side. Fixing errors, speeding sites up and securing them. Most faults resolved the same day.",
+      "seo_keywords": "website bug fix, website maintenance, wordpress support, fix php errors, site speed optimization",
+      "internal_title": "Website and WordPress repair",
+      "internal_desc": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, server side. Most faults are resolved the same day they are reported."
     },
     "ads": {
       "title": "Advertising Campaigns",
@@ -210,12 +212,12 @@
         "text": "Kirill built us a comprehensive warehouse booking system. Everything runs reliably, communication was fast and professional. Highly recommend."
       },
       {
-        "name": "Biliardov\u0148a",
+        "name": "Biliardovňa",
         "role": "Billiard club, Bratislava",
         "text": "We got a modern website with online booking. The number of online reservations grew significantly right after the site launched."
       },
       {
-        "name": "Studio Kr\u00e1sy OK",
+        "name": "Studio Krásy OK",
         "role": "Beauty salon, Bratislava",
         "text": "Professional approach and fast delivery. The site is clean, clients easily book appointments online."
       }
@@ -378,5 +380,70 @@
     "bubble_text": "I will help you choose a service in 1 minute!",
     "bot_title": "Kirill Mosin (CEO)",
     "error_required": "This field is required."
+  },
+  "audit": {
+    "seo_title": "Free SEO audit of your website — technical check in Slovakia",
+    "seo_desc": "A free SEO audit: technical checks, speed, Google indexing and the errors keeping your site from bringing in customers. Delivered within 3 working days.",
+    "h1": "Free SEO audit of your website",
+    "lead": "I go through your site the way Google sees it and tell you exactly what stops it bringing you customers. No fee, no obligation.",
+    "why_title": "Why the audit is free",
+    "why_text": "Because it is the most honest way to start. Most sites carry two or three technical faults that quietly take most of the traffic, and until you see them there is no point discussing the price of anything else. Fix them yourself and I am glad. Don't, and at least you know exactly what you are buying.",
+    "check_title": "What the audit covers",
+    "check_points": [
+      "Technical foundation: status codes, redirects, www and non-www versions, HTTP against HTTPS — the faults that can make a site invisible to Google.",
+      "Indexing: how many pages are actually in Google, which are missing and why. Sitemap, robots.txt, canonical, hreflang.",
+      "Speed and Core Web Vitals on mobile and desktop, with the actual causes rather than just a score.",
+      "Content and queries: what the site shows up for today, at which positions, and what it needs to reach the first page.",
+      "Structured data and how the site looks in search results.",
+      "Measurement: whether Google Analytics and Tag Manager actually record enquiries or only page views. This is the most common surprise.",
+      "Competitors: who holds your queries in Slovakia and what they have that you don't."
+    ],
+    "get_title": "What you get",
+    "get_points": [
+      "Findings ordered by impact rather than alphabetically — from what costs you most down to the details.",
+      "For each finding, what to do about it and how much work it really is.",
+      "What you can fix yourself and what needs a change in the code.",
+      "An estimate of which fixes pay off soonest."
+    ],
+    "time_title": "How it works",
+    "time_points": [
+      "Send your website address through the form below.",
+      "Within 3 working days you get the audit in writing.",
+      "If you want, we go through it together — in person in Bratislava or online."
+    ],
+    "who_title": "Who it is for",
+    "who_text": "Companies in Slovakia whose site exists but brings no enquiries. Online shops paying for ads without knowing what comes back. And anyone whose site was built by someone else and who is not sure it was done properly.",
+    "trust_title": "Who runs the audit",
+    "trust_text": "Kirill Mosin, White Eagles & Co. s.r.o. I have lived in Slovakia for more than 10 years, launched 12+ sites for Slovak companies, and know how buyers and institutions behave here. I invoice with a Slovak company number. We speak Slovak, Russian and English.",
+    "cta_title": "Want to know what is holding your site back?",
+    "cta_text": "Send your address — I will come back with the audit within 3 working days.",
+    "cta_button": "Get the free audit",
+    "faq_title": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Is the audit really free?",
+        "a": "Yes. I charge nothing for it and it is not tied to an order. It is a way to meet over real work rather than a presentation."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "Up to 3 working days from when you send the address. For large online shops it can take up to 5 days, and I say so in advance."
+      },
+      {
+        "q": "Do you need access to my site?",
+        "a": "Not for a basic audit — a public address is enough. Access to Google Search Console and Analytics makes it considerably more accurate, because I can see real queries and visitor behaviour."
+      },
+      {
+        "q": "What if I want to fix things myself?",
+        "a": "Go ahead. The audit is written so it can be worked through without me. If you get stuck, get in touch."
+      },
+      {
+        "q": "Do you audit sites you did not build?",
+        "a": "Mostly those, in fact. It does not matter whether it runs on WordPress, Shoptet or custom code."
+      },
+      {
+        "q": "What if the site is fine?",
+        "a": "Then I say so. It is rare, but it happens. In that case the conversation is about content and winning more enquiries, not about repairs."
+      }
+    ]
   }
 }

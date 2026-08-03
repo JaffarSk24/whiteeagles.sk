@@ -78,9 +78,11 @@
         "Nastavenie automatického zálohovania webu na serveri + Google Drive",
         "Vykonávanie testov a odstraňovanie drobných chýb spojených s hlavným problémom"
       ],
-      "seo_title": "Oprava chýb a údržba webstránok",
-      "seo_desc": "Profesionálna oprava chýb na webstránkach a technická podpora. Servis pre WordPress, PHP a Javascript. Zrýchlenie webu, zabezpečenie a optimalizácia.",
-      "seo_keywords": "oprava web stránok, údržba webu, wordpress podpora, zrýchlenie webu, odvírenie stránky, technická správa"
+      "seo_title": "Oprava webstránky a WordPress webu — rýchly servis",
+      "seo_desc": "Oprava webstránky na Slovensku: WordPress, PHP, JavaScript aj server. Odstránenie chýb, zrýchlenie a zabezpečenie. Väčšina porúch vyriešená v deň nahlásenia.",
+      "seo_keywords": "oprava web stránok, údržba webu, wordpress podpora, zrýchlenie webu, odvírenie stránky, technická správa",
+      "internal_title": "Oprava webstránky a WordPress webu",
+      "internal_desc": "Web nefunguje, spomalil sa alebo po aktualizácii vypísal chybu? Opravím WordPress aj stránky písané na mieru — PHP, JavaScript, serverovú časť. Väčšinu porúch riešim v deň nahlásenia."
     },
     "ads": {
       "title": "Reklamné kampane",
@@ -378,5 +380,70 @@
     "bubble_text": "Pomôžem vybrať službu za 1 minútu!",
     "bot_title": "Kirill Mosin",
     "error_required": "Toto pole je povinné."
+  },
+  "audit": {
+    "seo_title": "SEO audit webstránky zdarma — technická kontrola webu",
+    "seo_desc": "Bezplatný SEO audit webstránky: technická kontrola, rýchlosť, indexácia v Google a chyby, ktoré vás stoja zákazníkov. Výsledok do 3 pracovných dní.",
+    "h1": "Bezplatný SEO audit webstránky",
+    "lead": "Prejdem váš web tak, ako ho vidí Google, a poviem konkrétne, čo mu bráni prinášať zákazníkov. Bez poplatku a bez záväzku.",
+    "why_title": "Prečo je audit zadarmo",
+    "why_text": "Pretože je to najčestnejší spôsob, ako začať. Väčšina webov na Slovensku má dve-tri technické chyby, ktoré potichu berú väčšinu návštevnosti — a kým ich neuvidíte, nemá zmysel baviť sa o cene čohokoľvek ďalšieho. Ak si opravy spravíte sami, budem len rád. Ak nie, budete vedieť, čo presne si objednávate.",
+    "check_title": "Čo v audite skontrolujem",
+    "check_points": [
+      "Technický základ: stavové kódy, presmerovania, verzie s www aj bez www, HTTP verzus HTTPS — chyby, ktoré dokážu urobiť web pre Google neviditeľným.",
+      "Indexácia: koľko stránok je skutočne v Google, ktoré chýbajú a prečo. Sitemap, robots.txt, canonical, hreflang.",
+      "Rýchlosť a Core Web Vitals na mobile aj na počítači — s konkrétnymi príčinami, nie iba so skóre.",
+      "Obsah a kľúčové slová: na aké dopyty sa web zobrazuje dnes, na ktorých pozíciách a čo mu chýba, aby sa dostal na prvú stranu.",
+      "Štruktúrované dáta a to, ako web vyzerá vo výsledkoch vyhľadávania.",
+      "Meranie: či Google Analytics a Tag Manager naozaj zaznamenávajú dopyty, alebo len návštevy stránok. Býva to najčastejšie prekvapenie.",
+      "Konkurencia: kto obsadzuje vaše dopyty na Slovensku a čo majú, čo vy nie."
+    ],
+    "get_title": "Čo dostanete",
+    "get_points": [
+      "Zoznam nálezov zoradený podľa dopadu, nie podľa abecedy — od toho, čo vás stojí najviac, po drobnosti.",
+      "Pri každom náleze, čo s ním treba spraviť a koľko práce to reálne je.",
+      "Čo viete opraviť sami a čo si vyžaduje zásah do kódu.",
+      "Odhad, čo z toho prinesie výsledok najskôr."
+    ],
+    "time_title": "Ako to prebieha",
+    "time_points": [
+      "Napíšete adresu webu cez formulár nižšie.",
+      "Do 3 pracovných dní dostanete audit v písomnej podobe.",
+      "Ak budete chcieť, prejdeme si ho spolu — v Bratislave osobne alebo online."
+    ],
+    "who_title": "Pre koho to má zmysel",
+    "who_text": "Pre firmy na Slovensku, ktorých web existuje, ale neprináša dopyty. Pre e-shopy, ktoré platia za reklamu a nevedia, koľko z toho sa vráti. A pre každého, komu web robil niekto iný a nie je si istý, či bol spravený poriadne.",
+    "trust_title": "Kto audit robí",
+    "trust_text": "Kirill Mosin, White Eagles & Co. s.r.o. Na Slovensku žijem viac ako 10 rokov, mám za sebou vyše 12 spustených webov pre slovenské firmy a viem, ako sa tu správa zákazník aj úrad. Fakturujem so slovenským IČO. Hovoríme po slovensky, rusky aj anglicky.",
+    "cta_title": "Chcete vedieť, čo brzdí váš web?",
+    "cta_text": "Napíšte adresu stránky — ozvem sa s auditom do 3 pracovných dní.",
+    "cta_button": "Chcem audit zdarma",
+    "faq_title": "Časté otázky",
+    "faq": [
+      {
+        "q": "Je audit naozaj zadarmo?",
+        "a": "Áno. Neúčtujem zaň nič a nie je podmienený objednávkou. Je to spôsob, ako sa spoznáme na konkrétnej práci namiesto prezentácie."
+      },
+      {
+        "q": "Ako dlho audit trvá?",
+        "a": "Do 3 pracovných dní od chvíle, keď mi pošlete adresu webu. Pri veľkých e-shopoch to môže byť do 5 dní — vopred to poviem."
+      },
+      {
+        "q": "Potrebujete prístupy do môjho webu?",
+        "a": "Na základný audit nie, stačí verejná adresa. Ak mi dáte prístup do Google Search Console a Analytics, audit bude podstatne presnejší, pretože uvidím skutočné dopyty a správanie návštevníkov."
+      },
+      {
+        "q": "Čo ak si opravy spravím sám?",
+        "a": "Pokojne. Audit je napísaný tak, aby sa podľa neho dalo pracovať aj bez mojej účasti. Ak si niečo nebudete vedieť rady, ozvite sa."
+      },
+      {
+        "q": "Robíte audit aj pre weby, ktoré ste nerobili vy?",
+        "a": "Prevažne áno — väčšina auditov je práve pre cudzie weby. Nezáleží na tom, či beží na WordPresse, na Shoptete alebo na vlastnom kóde."
+      },
+      {
+        "q": "Čo ak je web úplne v poriadku?",
+        "a": "Tak vám to napíšem. Stáva sa to zriedka, ale stáva. Vtedy sa bavíme o obsahu a o tom, ako získať viac dopytov, nie o opravách."
+      }
+    ]
   }
 }

@@ -1,0 +1,157 @@
+.seo-audit-page {
+  padding: 120px 0 80px;
+}
+
+.seo-audit-page .container {
+  max-width: 860px;
+}
+
+.seo-audit-page .back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-bottom: 32px;
+}
+
+.seo-audit-page .back-btn:hover {
+  color: var(--text-color);
+}
+
+.audit-header h1 {
+  margin: 0 0 16px;
+  font-size: clamp(1.9rem, 5vw, 2.8rem);
+  line-height: 1.15;
+}
+
+.audit-lead {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.audit-section {
+  margin: 48px 0;
+}
+
+.audit-section h2 {
+  margin: 0 0 18px;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.audit-section p {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.audit-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.audit-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.audit-list-icon {
+  flex-shrink: 0;
+  margin-top: 4px;
+  color: #3b82f6;
+}
+
+.audit-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+  counter-reset: audit-step;
+}
+
+.audit-steps li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.audit-step-num {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.audit-trust {
+  padding: 28px 32px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+.audit-trust h2 {
+  font-size: 1.25rem;
+}
+
+.audit-faq {
+  display: grid;
+  gap: 12px;
+}
+
+.audit-faq-item {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.audit-faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.audit-faq-item summary::marker {
+  color: #3b82f6;
+}
+
+.audit-faq-item p {
+  margin: 12px 0 0;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 700px) {
+  .seo-audit-page {
+    padding: 96px 0 60px;
+  }
+
+  .audit-section {
+    margin: 36px 0;
+  }
+
+  .audit-trust {
+    padding: 22px 18px;
+  }
+}

@@ -8,7 +8,7 @@ import "./Footer.css";
 
 // Google Business Profile card. Keep in sync with the address in
 // contacts.address and with the PostalAddress in JsonLd.tsx.
-const GOOGLE_BUSINESS_PROFILE_URL = "https://share.google/vbgsG48FPdx1herGV";
+const GOOGLE_BUSINESS_PROFILE_URL = "https://maps.app.goo.gl/mNvmqnVMEykyvkPT8";
 
 export const Footer: React.FC = () => {
   // Can be a server component if we don't need trackGAEvent in onClick

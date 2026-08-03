@@ -27,6 +27,9 @@ const services = [
 // entry costs Google an extra 301 hop.
 const paths = [
   { path: '', changefreq: 'weekly', priority: '1.0' },
+  // The free audit is the entry offer and the target of a whole cluster of
+  // Slovak queries, so it ranks above the individual service pages.
+  { path: 'seo-audit', changefreq: 'monthly', priority: '0.9' },
   { path: 'blog', changefreq: 'weekly', priority: '0.8' },
   ...services.map((s) => ({ path: `service/${s}`, changefreq: 'monthly', priority: '0.8' })),
   ...posts.map((p) => ({ path: `blog/${p}`, changefreq: 'monthly', priority: '0.7' }))

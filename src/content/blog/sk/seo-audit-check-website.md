@@ -50,3 +50,10 @@ Vyhľadávače čítajú váš web podobne ako knihu. Správna hierarchia nadpis
 ## Záver
 
 Jednoduchý SEO audit vám pomôže odhaliť najväčšie nedostatky, ktoré brzdia váš biznis. Oprava týchto chýb často vedie k rýchlemu nárastu pozícií a organickej návštevnosti. Ak potrebujete profesionálny hĺbkový technický audit alebo kompletnú SEO optimalizáciu, v agentúre White Eagles sme pripravení pomôcť vám dosiahnuť top pozície v Google.
+
+
+### Nechcete to riešiť sami?
+
+Prejdem váš web namiesto vás a pošlem konkrétny zoznam toho, čo mu bráni prinášať zákazníkov — **[bezplatný SEO audit webstránky](/sk/seo-audit/)**, výsledok do 3 pracovných dní.
+
+Na Slovensku pracujem viac ako 10 rokov a mám za sebou vyše 12 spustených webov pre slovenské firmy — od rezervačných systémov po e-shopy. Fakturujem so slovenským IČO, hovoríme po slovensky, rusky aj anglicky. Napíšte adresu vášho webu a uvidíte, na čom ste.

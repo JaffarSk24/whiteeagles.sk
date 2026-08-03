@@ -35,6 +35,10 @@ export const services: Service[] = [
     priceRate: 35,
     image: '/assets/services/bugfix.webp',
     detailsKey: 'services.bugfix.details',
+    // The page targets "oprava webstranky" / "oprava wordpress webstranky",
+    // which already sit at positions 13-17 with nothing addressing them.
+    internalTitleKey: 'services.bugfix.internal_title',
+    internalDescKey: 'services.bugfix.internal_desc',
     seoTitleKey: 'services.bugfix.seo_title',
     seoDescKey: 'services.bugfix.seo_desc',
     seoKeywordsKey: 'services.bugfix.seo_keywords'

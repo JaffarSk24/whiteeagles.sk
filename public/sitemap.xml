@@ -12,6 +12,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/sk/seo-audit/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/seo-audit/"/>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/sk/blog/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
@@ -145,6 +155,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/en/seo-audit/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/seo-audit/"/>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/en/service/webdev/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/webdev/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/webdev/"/>
@@ -213,6 +233,16 @@
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/ru/seo-audit/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/seo-audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/seo-audit/"/>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://whiteeagles.sk/ru/blog/</loc>

@@ -18,7 +18,8 @@ export async function JsonLd({ locale }: { locale: string }) {
     "https://www.facebook.com/slovakiainheart",
     "https://www.linkedin.com/company/110639977",
     "https://github.com/JaffarSk24",
-    "https://www.upwork.com/freelancers/~01e1569e9346f49762"
+    "https://www.upwork.com/freelancers/~01e1569e9346f49762",
+    "https://maps.app.goo.gl/mNvmqnVMEykyvkPT8"
   ];
 
   // Multilingual FAQ Items
@@ -231,10 +232,12 @@ export async function JsonLd({ locale }: { locale: string }) {
             "Tuesday",
             "Wednesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Saturday",
+            "Sunday"
           ],
-          "opens": "09:00",
-          "closes": "18:00"
+          "opens": "10:00",
+          "closes": "01:00"
         },
         "priceRange": "$$",
         "currenciesAccepted": "EUR, USD, RUB, UAH",

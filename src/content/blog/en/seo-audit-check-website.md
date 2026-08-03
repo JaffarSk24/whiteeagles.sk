@@ -50,3 +50,10 @@ Search engines read your website like a book. A clear heading hierarchy helps th
 ## Conclusion
 
 A simple SEO audit helps you identify the main bottlenecks holding back your business online. Fixing these basic issues often leads to an immediate boost in search rankings. If you need a comprehensive, deep technical audit or professional SEO services, the White Eagles team is here to help your business reach the top of Google search.
+
+
+### Would you rather not do it yourself?
+
+I will go through your site for you and send a concrete list of what stops it bringing in customers — a **[free SEO audit](/en/seo-audit/)**, delivered within 3 working days.
+
+I have worked in Slovakia for more than 10 years and launched 12+ sites for Slovak companies, from booking systems to online shops. I invoice with a Slovak company number, and we can talk in Slovak, Russian or English. Send your address and see where you stand.
