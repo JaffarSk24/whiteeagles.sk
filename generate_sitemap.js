@@ -5,6 +5,7 @@ const locales = ['sk', 'en', 'ru'];
 const defaultLocale = 'sk';
 
 const posts = [
+  'otkryt-sro-v-slovakii',
   'website-cost-2026',
   'wordpress-vs-custom-website',
   'nastavenie-google-analytics-4',

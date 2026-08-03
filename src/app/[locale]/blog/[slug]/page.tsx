@@ -5,7 +5,8 @@ import { Link } from '@/i18n/navigation';
 import { getPostBySlug, getAllPosts } from '@/utils/blog';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import { BlogCTA } from '@/components/BlogCTA';
+import { AuditCTA } from '@/components/AuditCTA';
+import '@/components/AuditCTA.css';
 import '../Blog.css';
 
 export function generateStaticParams(props: { params: { locale: string } }) {
@@ -72,6 +73,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
     notFound();
   }
   
+  const tAudit = await getTranslations({ locale, namespace: 'audit' });
+  let ctaIndex = 0;
+
   const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
   const blogName = locale === "ru" ? "Блог" : locale === "sk" ? "Blog" : "Blog";
   
@@ -153,19 +157,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               components={{
                 p: ({ node, children }) => {
                   // Check if the paragraph text is exactly [CTA_FORM]
-                  if (
-                    children && 
-                    Array.isArray(children) && 
-                    children.length === 1 && 
-                    typeof children[0] === 'string' && 
-                    children[0].trim() === '[CTA_FORM]'
-                  ) {
-                    return <BlogCTA title={t('cta_title')} buttonText={t('cta_button')} />;
-                  }
-                  
-                  // For normal strings, check if they contain [CTA_FORM]
-                  if (typeof children === 'string' && children.trim() === '[CTA_FORM]') {
-                     return <BlogCTA title={t('cta_title')} buttonText={t('cta_button')} />;
+                  const raw = Array.isArray(children) && children.length === 1 && typeof children[0] === 'string'
+                    ? children[0]
+                    : typeof children === 'string'
+                    ? children
+                    : null;
+
+                  if (raw && raw.trim() === '[CTA_FORM]') {
+                    ctaIndex += 1;
+                    return (
+                      <AuditCTA
+                        title={t('cta_title')}
+                        text={tAudit('cta_text')}
+                        buttonText={t('cta_button')}
+                        position={`blog_${slug}_${ctaIndex}`}
+                      />
+                    );
                   }
                   
                   return <p>{children}</p>;
