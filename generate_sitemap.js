@@ -6,6 +6,7 @@ const defaultLocale = 'sk';
 
 const posts = [
   'otkryt-sro-v-slovakii',
+  'zivnost-alebo-sro',
   'website-cost-2026',
   'wordpress-vs-custom-website',
   'nastavenie-google-analytics-4',

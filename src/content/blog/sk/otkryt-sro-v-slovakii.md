@@ -144,7 +144,7 @@ Nie. Zakladateľom môže byť aj občan inej krajiny. Osobitné požiadavky sa 
 Nie. Zakladateľský dokument bude vyžadovať notársku zápisnicu alebo autorizáciu advokátom. Časť krokov zostane elektronická, ale návšteva prestane byť dobrovoľná.
 
 **Čo je rýchlejšie — s.r.o. alebo živnosť?**
-Živnostenské oprávnenie vybavíte za 1 až 3 pracovné dni a takmer zadarmo. s.r.o. trvá dlhšie a stojí viac, ale obmedzuje vašu osobnú zodpovednosť. Sú to nástroje na rôzne situácie a voľba závisí od rizika vášho podnikania.
+Živnostenské oprávnenie vybavíte za 1 až 3 pracovné dni a takmer zadarmo. s.r.o. trvá dlhšie a stojí viac, ale obmedzuje vašu osobnú zodpovednosť. Sú to nástroje na rôzne situácie a voľba závisí od rizika vášho podnikania. Podrobné porovnanie nájdete v článku [„Živnosť alebo s.r.o.: čo si vybrať"](/sk/blog/zivnost-alebo-sro/).
 
 **Ako dlho trvá celý proces?**
 Pri pripravených dokumentoch 3 až 7 pracovných dní do zápisu. Plus čas na účet, daňový úrad a zvyšok.

@@ -100,6 +100,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/zivnost-alebo-sro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/"/>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/sk/blog/website-cost-2026/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
@@ -327,6 +336,15 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/otkryt-sro-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/"/>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/ru/blog/zivnost-alebo-sro/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/zivnost-alebo-sro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/"/>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
