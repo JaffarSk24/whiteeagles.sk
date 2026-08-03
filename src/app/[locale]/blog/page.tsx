@@ -17,18 +17,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const pageUrl = `https://whiteeagles.sk/${locale}/blog/`;
   const title = t('seo_title');
   const description = t('seo_description');
-  
+  const isEnglish = locale === 'en';
+
+  // See the comment in blog/[slug]/page.tsx - the English blog is deindexed.
+  const languages = isEnglish
+    ? undefined
+    : {
+        sk: 'https://whiteeagles.sk/sk/blog/',
+        ru: 'https://whiteeagles.sk/ru/blog/',
+        'x-default': 'https://whiteeagles.sk/sk/blog/',
+      };
+
   return {
     title,
     description,
+    ...(isEnglish ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical: pageUrl,
-      languages: {
-        sk: 'https://whiteeagles.sk/sk/blog/',
-        en: 'https://whiteeagles.sk/en/blog/',
-        ru: 'https://whiteeagles.sk/ru/blog/',
-        'x-default': 'https://whiteeagles.sk/sk/blog/',
-      },
+      ...(languages ? { languages } : {}),
     },
     openGraph: {
       title,

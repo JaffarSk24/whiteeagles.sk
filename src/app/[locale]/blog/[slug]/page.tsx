@@ -29,18 +29,29 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const title = post.title;
   const description = post.description;
   const pageUrl = `https://whiteeagles.sk/${locale}/blog/${slug}/`;
-  
+  const isEnglish = locale === 'en';
+
+  // The English blog is kept out of the index. It collected 696 impressions in
+  // a year - 41% of the whole domain - and zero clicks, all from countries the
+  // business does not serve, while eating a third of a crawl budget that only
+  // stretches to about 40 pages a fortnight. The pages stay reachable; they
+  // just stop competing for attention they cannot convert. Drop `en` from the
+  // language set too, so hreflang never points at a noindexed page.
+  const languages = isEnglish
+    ? undefined
+    : {
+        sk: `https://whiteeagles.sk/sk/blog/${slug}/`,
+        ru: `https://whiteeagles.sk/ru/blog/${slug}/`,
+        'x-default': `https://whiteeagles.sk/sk/blog/${slug}/`,
+      };
+
   return {
     title,
     description,
+    ...(isEnglish ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical: pageUrl,
-      languages: {
-        sk: `https://whiteeagles.sk/sk/blog/${slug}/`,
-        en: `https://whiteeagles.sk/en/blog/${slug}/`,
-        ru: `https://whiteeagles.sk/ru/blog/${slug}/`,
-        'x-default': `https://whiteeagles.sk/sk/blog/${slug}/`,
-      },
+      ...(languages ? { languages } : {}),
     },
     openGraph: {
       title,

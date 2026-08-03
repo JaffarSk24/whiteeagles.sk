@@ -14,7 +14,6 @@
   <url>
     <loc>https://whiteeagles.sk/sk/blog/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
     <lastmod>2026-08-03</lastmod>
@@ -84,7 +83,6 @@
   <url>
     <loc>https://whiteeagles.sk/sk/blog/website-cost-2026/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/website-cost-2026/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
     <lastmod>2026-08-03</lastmod>
@@ -94,7 +92,6 @@
   <url>
     <loc>https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
     <lastmod>2026-08-03</lastmod>
@@ -104,7 +101,6 @@
   <url>
     <loc>https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
     <lastmod>2026-08-03</lastmod>
@@ -114,7 +110,6 @@
   <url>
     <loc>https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
     <lastmod>2026-08-03</lastmod>
@@ -124,7 +119,6 @@
   <url>
     <loc>https://whiteeagles.sk/sk/blog/google-ads-small-business/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/google-ads-small-business/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/google-ads-small-business/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
     <lastmod>2026-08-03</lastmod>
@@ -134,7 +128,6 @@
   <url>
     <loc>https://whiteeagles.sk/sk/blog/seo-audit-check-website/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/seo-audit-check-website/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
     <lastmod>2026-08-03</lastmod>
@@ -150,16 +143,6 @@
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://whiteeagles.sk/en/service/webdev/</loc>
@@ -222,66 +205,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog/website-cost-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/website-cost-2026/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/</loc>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/</loc>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/</loc>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/blog/google-ads-small-business/</loc>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/google-ads-small-business/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/google-ads-small-business/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://whiteeagles.sk/en/blog/seo-audit-check-website/</loc>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/seo-audit-check-website/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://whiteeagles.sk/ru/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/"/>
@@ -294,7 +217,6 @@
   <url>
     <loc>https://whiteeagles.sk/ru/blog/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
     <lastmod>2026-08-03</lastmod>
@@ -364,7 +286,6 @@
   <url>
     <loc>https://whiteeagles.sk/ru/blog/website-cost-2026/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/website-cost-2026/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
     <lastmod>2026-08-03</lastmod>
@@ -374,7 +295,6 @@
   <url>
     <loc>https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
     <lastmod>2026-08-03</lastmod>
@@ -384,7 +304,6 @@
   <url>
     <loc>https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
     <lastmod>2026-08-03</lastmod>
@@ -394,7 +313,6 @@
   <url>
     <loc>https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
     <lastmod>2026-08-03</lastmod>
@@ -404,7 +322,6 @@
   <url>
     <loc>https://whiteeagles.sk/ru/blog/google-ads-small-business/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/google-ads-small-business/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/google-ads-small-business/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
     <lastmod>2026-08-03</lastmod>
@@ -414,7 +331,6 @@
   <url>
     <loc>https://whiteeagles.sk/ru/blog/seo-audit-check-website/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/seo-audit-check-website/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
     <lastmod>2026-08-03</lastmod>

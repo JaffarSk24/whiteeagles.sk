@@ -37,20 +37,32 @@ const lastmod = new Date().toISOString().split('T')[0];
 const urlFor = (locale, path) =>
   path === '' ? `${baseUrl}/${locale}/` : `${baseUrl}/${locale}/${path}/`;
 
+// The English blog is served with noindex - it drew 41% of the domain's
+// impressions and no clicks, from countries the business does not serve. A
+// noindexed URL has no place in a sitemap, and no place in anyone's hreflang.
+const isBlog = (path) => path === 'blog' || path.startsWith('blog/');
+const isIndexed = (locale, path) => !(locale === 'en' && isBlog(path));
+
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 `;
 
+let count = 0;
 locales.forEach((locale) => {
   paths.forEach(({ path, changefreq, priority }) => {
+    if (!isIndexed(locale, path)) return;
+    count++;
     xml += `  <url>\n`;
     xml += `    <loc>${urlFor(locale, path)}</loc>\n`;
-    // Declare every language version of this page plus x-default, so Google
-    // serves the right locale instead of picking one and dropping the others.
-    locales.forEach((alt) => {
-      xml += `    <xhtml:link rel="alternate" hreflang="${alt}" href="${urlFor(alt, path)}"/>\n`;
-    });
+    // Declare every indexed language version of this page plus x-default, so
+    // Google serves the right locale instead of picking one and dropping the
+    // others.
+    locales
+      .filter((alt) => isIndexed(alt, path))
+      .forEach((alt) => {
+        xml += `    <xhtml:link rel="alternate" hreflang="${alt}" href="${urlFor(alt, path)}"/>\n`;
+      });
     xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(defaultLocale, path)}"/>\n`;
     xml += `    <lastmod>${lastmod}</lastmod>\n`;
     xml += `    <changefreq>${changefreq}</changefreq>\n`;
@@ -62,4 +74,4 @@ locales.forEach((locale) => {
 xml += `</urlset>\n`;
 
 fs.writeFileSync('public/sitemap.xml', xml);
-console.log(`Generated sitemap.xml with ${paths.length * locales.length} URLs.`);
+console.log(`Generated sitemap.xml with ${count} URLs (English blog excluded: noindex).`);
