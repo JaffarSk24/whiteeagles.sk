@@ -176,3 +176,56 @@
     padding-top: 100px;
   }
 }
+
+/* Tables inside articles. Comparison tables carry most of the value in the
+   business guides, so they need to be readable, and they must be able to
+   scroll on a phone instead of pushing the page sideways. */
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 32px 0;
+  font-size: 0.95rem;
+}
+
+.post-content thead th {
+  text-align: left;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.14);
+  color: var(--text-color);
+  font-weight: 600;
+  vertical-align: top;
+}
+
+.post-content tbody td {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.post-content tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.post-content tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.post-content tbody td strong {
+  color: var(--text-color);
+}
+
+/* A table wider than the screen scrolls inside its own box; the page never
+   scrolls horizontally. */
+.post-content .table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 32px 0;
+}
+
+.post-content .table-scroll table {
+  margin: 0;
+  min-width: 480px;
+}

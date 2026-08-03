@@ -5,6 +5,9 @@ import { Link } from '@/i18n/navigation';
 import { getPostBySlug, getAllPosts } from '@/utils/blog';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
+// Without this, GitHub-flavoured markdown - tables above all - renders as raw
+// pipe characters in the middle of the article.
+import remarkGfm from 'remark-gfm';
 import { AuditCTA } from '@/components/AuditCTA';
 import '@/components/AuditCTA.css';
 import '../Blog.css';
@@ -154,6 +157,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
           
           <div className="post-content">
             <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
               components={{
                 p: ({ node, children }) => {
                   // Check if the paragraph text is exactly [CTA_FORM]
@@ -176,7 +180,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                   }
                   
                   return <p>{children}</p>;
-                }
+                },
+                // A comparison table wider than a phone screen has to scroll
+                // inside its own box, not drag the whole page sideways.
+                table: ({ children }) => (
+                  <div className="table-scroll">
+                    <table>{children}</table>
+                  </div>
+                ),
               }}
             >
               {post.content}
