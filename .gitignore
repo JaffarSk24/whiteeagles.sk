@@ -130,3 +130,6 @@ Chat_archive_White Eagles/
 # Credentials file
 credentials.md
 dist 2/
+
+# Local agent rules (never publish)
+AGENTS.md
