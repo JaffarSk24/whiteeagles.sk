@@ -96,6 +96,10 @@
   align-items: flex-end;
 }
 
+.footer-office-address {
+  margin: 0;
+}
+
 .footer-contact-links {
   display: flex;
   flex-direction: column;

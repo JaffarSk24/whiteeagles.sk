@@ -1,10 +1,14 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { trackGAEvent } from "../utils/analytics";
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import "./Footer.css";
+
+// Google Business Profile card. Keep in sync with the address in
+// contacts.address and with the PostalAddress in JsonLd.tsx.
+const GOOGLE_BUSINESS_PROFILE_URL = "https://share.google/vbgsG48FPdx1herGV";
 
 export const Footer: React.FC = () => {
   // Can be a server component if we don't need trackGAEvent in onClick
@@ -60,8 +64,22 @@ const FooterInfo = () => {
 };
 
 const FooterContacts = () => {
+  const t = useTranslations("contacts");
   return (
     <>
+      {/* The office address has to be visible on the page, not only in the
+          structured data: Google cross-checks it against Business Profile.
+          Linking it to the profile makes that connection explicit. */}
+      <a
+        href={GOOGLE_BUSINESS_PROFILE_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="footer-link footer-office-address"
+        onClick={() => trackGAEvent("contact_click", { method: "map", link_url: GOOGLE_BUSINESS_PROFILE_URL })}
+      >
+        <MapPin size={16} />
+        <span>{t("address")}</span>
+      </a>
       <div className="footer-contact-links">
         <a
           href="tel:+421949000077"

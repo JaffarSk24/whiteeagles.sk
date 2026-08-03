@@ -58,7 +58,7 @@ Every URL below exists in all three languages - replace the `/sk/` segment with
 
 - **Email**: welcome@whiteeagles.sk
 - **Phone**: +421 949 000 077
-- **Office**: Holíčska 7, 851 05 Bratislava, Slovakia
+- **Office**: Bohrova 1194/1, 851 01 Bratislava-Petržalka, Slovakia
 - **Registered seat**: Kukučínova 12, 900 31 Stupava, Slovakia
 - **Languages**: Slovak, Russian, English
 - **Telegram**: https://t.me/whiteeaglessk

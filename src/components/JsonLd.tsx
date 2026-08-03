@@ -209,17 +209,20 @@ export async function JsonLd({ locale }: { locale: string }) {
         "telephone": "+421949000077",
         "email": "welcome@whiteeagles.sk",
         "sameAs": sameAsLinks,
+        // Must stay byte-identical to the address in Google Business Profile -
+        // a mismatch splits the local entity Google builds for the business.
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Holíčska 7",
+          "streetAddress": "Bohrova 1194/1",
           "addressLocality": "Bratislava",
-          "postalCode": "851 05",
+          "addressRegion": "Petržalka",
+          "postalCode": "851 01",
           "addressCountry": "SK",
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "48.1090",
-          "longitude": "17.1086"
+          "latitude": "48.1302",
+          "longitude": "17.0974"
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
