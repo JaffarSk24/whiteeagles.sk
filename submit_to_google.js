@@ -2,9 +2,13 @@ const { google } = require('googleapis');
 const fs = require('fs');
 const path = require('path');
 
-const KEY_FILE = '/Users/kirill 1/Downloads/lofty-digit-484218-m9-a07bb910f4d8.json';
+// Service account antigravity-reader@white-eagles-and-co.iam.gserviceaccount.com,
+// added to Search Console with full permissions. Override with GOOGLE_KEY_FILE.
+const KEY_FILE = process.env.GOOGLE_KEY_FILE
+  || '/Users/kirill 1/Desktop/White Eagles & Co./GA4/white-eagles-and-co-091a74c854c1.json';
 const SITEMAP_URL = 'https://whiteeagles.sk/sitemap.xml';
-const SITE_URL = 'https://whiteeagles.sk/';
+// The property is a Domain property, so the API expects the sc-domain: form.
+const SITE_URL = 'sc-domain:whiteeagles.sk';
 
 async function main() {
   if (!fs.existsSync(KEY_FILE)) {
@@ -47,31 +51,12 @@ async function main() {
   
   console.log(`Found ${urls.length} URLs in sitemap to submit for indexing.`);
 
-  // 3. Submit URLs to Indexing API
-  const indexing = google.indexing({ version: 'v3', auth: authClient });
-  let successCount = 0;
-  
-  for (const url of urls) {
-    try {
-      await indexing.urlNotifications.publish({
-        requestBody: {
-          url: url,
-          type: 'URL_UPDATED'
-        }
-      });
-      successCount++;
-    } catch (error) {
-      if (error.message.includes('403')) {
-        console.error(`❌ Permission denied for Indexing API on ${url}. Is the service account verified as an Owner?`);
-        break; // Stop trying if we have a permission error
-      } else {
-        console.error(`❌ Failed to submit ${url}: ${error.message}`);
-      }
-    }
-  }
-  
-  console.log(`✅ Indexing API submission complete. Submitted ${successCount} out of ${urls.length} URLs.`);
-  
+  // Google's Indexing API is deliberately not called here. It officially
+  // supports only JobPosting and BroadcastEvent pages; for ordinary pages it
+  // answers "Permission denied. Failed to verify the URL ownership" even for a
+  // verified owner, and when it does accept a URL it is ignored anyway.
+  // Discovery for this site happens through the sitemap above and IndexNow below.
+
   // 4. Submit to IndexNow (Bing, Seznam, Yandex, etc.)
   try {
     await submitToIndexNow(urls);
