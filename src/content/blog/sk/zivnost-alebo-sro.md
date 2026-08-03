@@ -72,10 +72,10 @@ Práve tu sa rozhoduje — ale nie tam, kde sa to zvyčajne hľadá. Sadzba dane
 | Forma | Príjem | Sadzba |
 |---|---|---|
 | **s.r.o.** | do 100 000 € vrátane | **10 %** |
-| s.r.o. | 100 000 – 5 000 000 € | 21 % |
+| s.r.o. | 100 001 – 5 000 000 € | 21 % |
 | s.r.o. | nad 5 000 000 € | 24 % |
 | **Živnosť** | do 100 000 € vrátane | **15 %** |
-| Živnosť | nad 100 000 € | 19 % zo základu do 43 983,32 €, ďalej 25 % |
+| Živnosť | nad 100 000 € | 19 % zo základu približne do 43 983 €, ďalej 25 % |
 
 K tomu pri s.r.o.: aby ste si zisk vyplatili, platíte **daň z dividend 7 %**.
 
@@ -87,7 +87,7 @@ Rozdiel v dani je teda asi jeden a pol percenta, a to v prospech živnosti. Reč
 
 **Zdravotné poistenie:** minimálny mesačný preddavok **121,92 €** (16 % z minimálneho základu 762 €). Pri ťažkom zdravotnom postihnutí je sadzba 8 %, teda 60,96 €.
 
-**Sociálne poistenie:** minimálny štandardný odvod **303,11 €** mesačne (33,15 % zo základu 914,40 €).
+**Sociálne poistenie:** minimálny štandardný odvod **303,11 €** mesačne.
 
 **Spolu minimálne 425,03 € mesačne**, teda približne **5 100 € ročne** — bez ohľadu na to, koľko ste zarobili.
 
