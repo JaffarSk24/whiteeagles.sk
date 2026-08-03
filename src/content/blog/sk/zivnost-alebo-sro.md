@@ -63,17 +63,62 @@ Na rozhodnutie to vplýva takto:
 
 Jedno zjednodušenie tu je: voľné živnosti sa pri registrácii s.r.o. otvárajú automaticky, bez samostatnej návštevy živnostenského úradu.
 
-## Dane a odvody — ako to funguje
+## Dane a odvody: čísla roku 2026
 
-Mechanika je zásadne odlišná a práve tu sa najčastejšie počíta zle.
+Práve tu sa rozhoduje — ale nie tam, kde sa to zvyčajne hľadá. Sadzba dane sa medzi živnosťou a s.r.o. líši málo. Rozhodujú **odvody**.
 
-**Živnostník** platí daň z príjmu zo zisku a **odvody sám za seba** — zdravotné a sociálne. Sociálne odvody sa stávajú povinnými po prekročení určitej hranice príjmu, a práve to mnohých zaskočí: prvý rok platia málo, v druhom im zaťaženie citeľne narastie. Existuje režim paušálnych výdavkov, ktorý umožňuje nezbierať doklady a odpočítať pevné percento z príjmu.
+### Daň z príjmov
 
-**s.r.o.** platí daň z príjmu ako spoločnosť. Aby ste si peniaze vybrali, buď si vyplatíte mzdu (je to náklad firmy, ale s odvodmi), alebo si vyplatíte podiel na zisku (zdaňuje sa osobitne). Zdanenie je teda dvojstupňové.
+| Forma | Príjem | Sadzba |
+|---|---|---|
+| **s.r.o.** | do 100 000 € vrátane | **10 %** |
+| s.r.o. | 100 000 – 5 000 000 € | 21 % |
+| s.r.o. | nad 5 000 000 € | 24 % |
+| **Živnosť** | do 100 000 € vrátane | **15 %** |
+| Živnosť | nad 100 000 € | 19 % zo základu do 43 983,32 €, ďalej 25 % |
 
-Univerzálna odpoveď, čo sa oplatí viac, neexistuje — závisí od obratu, podielu nákladov a od toho, koľko peňazí si reálne vyberáte. **Konkrétne sadzby, hranice a limity na rok 2026 si pred rozhodnutím overte s účtovníkom**: menia sa a rátať treba na vašich číslach, nie na priemerných.
+K tomu pri s.r.o.: aby ste si zisk vyplatili, platíte **daň z dividend 7 %**.
 
-Čo treba vedieť vopred: s.r.o. má **povinné podvojné účtovníctvo**, a teda aj účtovníka. Je to trvalá nákladová položka, ktorú živnostník mať nemusí.
+Počítajme na 100 eurách zisku: s.r.o. odvedie 10 € dane, zostane 90 €, z nich 7 % dividendovej dane — 6,30 €. Na ruku 83,70 €, efektívna sadzba **16,3 %**. Pri živnosti 15 %.
+
+Rozdiel v dani je teda asi jeden a pol percenta, a to v prospech živnosti. Reči o tom, že „na firme je to výhodnejšie", sa pri malých obratoch lámu presne tu.
+
+### Odvody živnostníka — tu sú skutočné peniaze
+
+**Zdravotné poistenie:** minimálny mesačný preddavok **121,92 €** (16 % z minimálneho základu 762 €). Pri ťažkom zdravotnom postihnutí je sadzba 8 %, teda 60,96 €.
+
+**Sociálne poistenie:** minimálny štandardný odvod **303,11 €** mesačne (33,15 % zo základu 914,40 €).
+
+**Spolu minimálne 425,03 € mesačne**, teda približne **5 100 € ročne** — bez ohľadu na to, koľko ste zarobili.
+
+Práve táto suma rozhoduje o voľbe. Nie sadzba dane, ale pevných päťtisíc eur ročne, ktoré živnostník platí sám za seba.
+
+### Čo sa mení 1. júla 2026
+
+Končí éra úplných „prázdnin" v prvom roku. Zavádza sa **mikroodvod**:
+
+- **131,34 € mesačne** — pre tých, ktorých ročný príjem za rok 2025 bol od 2 876,91 do 9 144 €, a pre nových živnostníkov po šiestich mesiacoch podnikania
+- hranica vzniku **štandardných** sociálnych odvodov — ročný príjem za rok 2025 **nad 9 144 €**
+
+Praktický význam: doteraz bol prvý rok živnosti zo strany sociálnych odvodov takmer zadarmo. Teraz je úľava kratšia a miernejšia, a treba s tým rátať od začiatku, nie to zistiť v druhom roku.
+
+### Paušálne výdavky a ich strop
+
+Živnostník nemusí zbierať doklady a môže si uplatniť **60 % zo zdaniteľného príjmu**. Nad rámec toho si odpočíta **100 % preukázateľne zaplatených** sociálnych a zdravotných odvodov za rok.
+
+Paušál má však hranicu: **maximálne 20 000 € ročne**. Dosiahne sa pri príjme **33 333 €**.
+
+Toto je dôležitý bod. Kým zarábate menej než 33 333 € ročne, paušál rastie spolu s príjmom a živnosť vychádza veľmi dobre. Nad touto hranicou sa odpočet zastaví, príjem rastie ďalej — základ dane začne rásť rýchlejšie než príjem a výhoda živnosti sa postupne stráca.
+
+**Paušál nemôžu použiť** platitelia DPH registrovaní počas celého kalendárneho roka.
+
+### Krátky záver o peniazoch
+
+- **Do zhruba 33 000 € príjmu ročne** je živnosť zvyčajne výhodnejšia: paušál funguje naplno a 5 100 € odvodov je znesiteľná záťaž.
+- **Nad touto hranicou** sa výhoda rozpúšťa: paušál narazil na strop, odvody nikam nezmizli a s.r.o. má 10 % daň zo zisku.
+- **Ak máte veľké a skutočné náklady** (tovar, nájom, subdodávatelia), paušál stráca zmysel, počítajte na skutočných výdavkoch — a vtedy s.r.o. so svojimi 10 % často vyhráva.
+
+Sadzby sa každoročne menia a záťaž závisí od podielu vašich nákladov aj od toho, koľko si reálne vyplácate. **Pred rozhodnutím si tieto čísla prejdite na svojich obratoch s účtovníkom** — rozdiel medzi formami sa tu meria v tisícoch eur ročne.
 
 ## Ako vás vníma klient
 
