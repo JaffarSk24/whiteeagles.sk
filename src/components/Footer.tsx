@@ -69,7 +69,7 @@ const FooterContacts = () => {
           onClick={() => trackGAEvent("contact_click", { method: "phone", link_url: "tel:+421949000077" })}
         >
           <Phone size={16} />
-          <span>+421 949 0000 77</span>
+          <span>+421 949 000 077</span>
         </a>
         <a
           href="mailto:welcome@whiteeagles.sk"

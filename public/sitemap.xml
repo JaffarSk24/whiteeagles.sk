@@ -1,212 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://whiteeagles.sk/sk</loc>
+    <loc>https://whiteeagles.sk/sk/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/blog</loc>
+    <loc>https://whiteeagles.sk/sk/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/service/webdev</loc>
+    <loc>https://whiteeagles.sk/sk/service/webdev/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/webdev/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/service/bugfix</loc>
+    <loc>https://whiteeagles.sk/sk/service/bugfix/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/bugfix/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/service/ads</loc>
+    <loc>https://whiteeagles.sk/sk/service/ads/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/ads/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/service/analytics</loc>
+    <loc>https://whiteeagles.sk/sk/service/analytics/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/analytics/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/service/cookies</loc>
+    <loc>https://whiteeagles.sk/sk/service/cookies/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/cookies/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/service/telegram</loc>
+    <loc>https://whiteeagles.sk/sk/service/telegram/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/telegram/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/blog/website-cost-2026</loc>
+    <loc>https://whiteeagles.sk/sk/blog/website-cost-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website</loc>
+    <loc>https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4</loc>
+    <loc>https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti</loc>
+    <loc>https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/blog/google-ads-small-business</loc>
+    <loc>https://whiteeagles.sk/sk/blog/google-ads-small-business/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/sk/blog/seo-audit-check-website</loc>
+    <loc>https://whiteeagles.sk/sk/blog/seo-audit-check-website/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en</loc>
+    <loc>https://whiteeagles.sk/en/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog</loc>
+    <loc>https://whiteeagles.sk/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/service/webdev</loc>
+    <loc>https://whiteeagles.sk/en/service/webdev/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/webdev/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/service/bugfix</loc>
+    <loc>https://whiteeagles.sk/en/service/bugfix/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/bugfix/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/service/ads</loc>
+    <loc>https://whiteeagles.sk/en/service/ads/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/ads/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/service/analytics</loc>
+    <loc>https://whiteeagles.sk/en/service/analytics/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/analytics/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/service/cookies</loc>
+    <loc>https://whiteeagles.sk/en/service/cookies/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/cookies/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/service/telegram</loc>
+    <loc>https://whiteeagles.sk/en/service/telegram/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/telegram/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog/website-cost-2026</loc>
+    <loc>https://whiteeagles.sk/en/blog/website-cost-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog/wordpress-vs-custom-website</loc>
+    <loc>https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4</loc>
+    <loc>https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti</loc>
+    <loc>https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog/google-ads-small-business</loc>
+    <loc>https://whiteeagles.sk/en/blog/google-ads-small-business/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/en/blog/seo-audit-check-website</loc>
+    <loc>https://whiteeagles.sk/en/blog/seo-audit-check-website/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru</loc>
+    <loc>https://whiteeagles.sk/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/blog</loc>
+    <loc>https://whiteeagles.sk/ru/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/service/webdev</loc>
+    <loc>https://whiteeagles.sk/ru/service/webdev/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/webdev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/webdev/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/service/bugfix</loc>
+    <loc>https://whiteeagles.sk/ru/service/bugfix/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/bugfix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/bugfix/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/service/ads</loc>
+    <loc>https://whiteeagles.sk/ru/service/ads/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/ads/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/service/analytics</loc>
+    <loc>https://whiteeagles.sk/ru/service/analytics/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/analytics/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/service/cookies</loc>
+    <loc>https://whiteeagles.sk/ru/service/cookies/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/cookies/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/service/telegram</loc>
+    <loc>https://whiteeagles.sk/ru/service/telegram/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/telegram/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/telegram/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/blog/website-cost-2026</loc>
+    <loc>https://whiteeagles.sk/ru/blog/website-cost-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website</loc>
+    <loc>https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4</loc>
+    <loc>https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti</loc>
+    <loc>https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/cookie-lista-2026-povinnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/blog/google-ads-small-business</loc>
+    <loc>https://whiteeagles.sk/ru/blog/google-ads-small-business/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/google-ads-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/google-ads-small-business/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/blog/seo-audit-check-website</loc>
+    <loc>https://whiteeagles.sk/ru/blog/seo-audit-check-website/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

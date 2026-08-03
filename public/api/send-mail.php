@@ -200,7 +200,7 @@ function buildHtmlEmail($t, $data, $serviceName, $price)
     // Signature Icons and Links
     $logoUrl = "https://whiteeagles.sk/assets/email-logo-horizontal.png";
     $siteUrl = "https://whiteeagles.sk";
-    $phoneDisplay = "+421 949 0000 77";
+    $phoneDisplay = "+421 949 000 077";
     $phoneLink = "tel:+421949000077";
 
     file_put_contents('php_debug.log', date('Y-m-d H:i:s') . " - Payload: " . file_get_contents("php://input") . "\n", FILE_APPEND);

@@ -2,6 +2,8 @@ const fs = require('fs');
 
 const baseUrl = 'https://whiteeagles.sk';
 const locales = ['sk', 'en', 'ru'];
+const defaultLocale = 'sk';
+
 const posts = [
   'website-cost-2026',
   'wordpress-vs-custom-website',
@@ -18,35 +20,46 @@ const services = [
   'cookies',
   'telegram'
 ];
-const pages = [
-  '',
-  'blog'
+
+// Paths relative to the locale root, without leading or trailing slashes.
+// The site is built with `trailingSlash: true`, so every generated <loc> must
+// end with a slash to match the canonical URL exactly - otherwise each sitemap
+// entry costs Google an extra 301 hop.
+const paths = [
+  { path: '', changefreq: 'weekly', priority: '1.0' },
+  { path: 'blog', changefreq: 'weekly', priority: '0.8' },
+  ...services.map((s) => ({ path: `service/${s}`, changefreq: 'monthly', priority: '0.8' })),
+  ...posts.map((p) => ({ path: `blog/${p}`, changefreq: 'monthly', priority: '0.7' }))
 ];
 
+const lastmod = new Date().toISOString().split('T')[0];
+
+const urlFor = (locale, path) =>
+  path === '' ? `${baseUrl}/${locale}/` : `${baseUrl}/${locale}/${path}/`;
+
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 `;
 
-locales.forEach(locale => {
-  // Static pages
-  pages.forEach(page => {
-    const url = page === '' ? `${baseUrl}/${locale}` : `${baseUrl}/${locale}/${page}`;
-    const priority = page === '' ? '1.0' : '0.8';
-    xml += `  <url>\n    <loc>${url}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
-  });
-
-  // Services
-  services.forEach(service => {
-    xml += `  <url>\n    <loc>${baseUrl}/${locale}/service/${service}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
-  });
-
-  // Blog posts
-  posts.forEach(post => {
-    xml += `  <url>\n    <loc>${baseUrl}/${locale}/blog/${post}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
+locales.forEach((locale) => {
+  paths.forEach(({ path, changefreq, priority }) => {
+    xml += `  <url>\n`;
+    xml += `    <loc>${urlFor(locale, path)}</loc>\n`;
+    // Declare every language version of this page plus x-default, so Google
+    // serves the right locale instead of picking one and dropping the others.
+    locales.forEach((alt) => {
+      xml += `    <xhtml:link rel="alternate" hreflang="${alt}" href="${urlFor(alt, path)}"/>\n`;
+    });
+    xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(defaultLocale, path)}"/>\n`;
+    xml += `    <lastmod>${lastmod}</lastmod>\n`;
+    xml += `    <changefreq>${changefreq}</changefreq>\n`;
+    xml += `    <priority>${priority}</priority>\n`;
+    xml += `  </url>\n`;
   });
 });
 
-xml += `</urlset>`;
+xml += `</urlset>\n`;
 
 fs.writeFileSync('public/sitemap.xml', xml);
-console.log('✅ Generated sitemap.xml with ' + ((pages.length + services.length + posts.length) * locales.length) + ' URLs.');
+console.log(`Generated sitemap.xml with ${paths.length * locales.length} URLs.`);

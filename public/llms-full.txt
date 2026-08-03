@@ -1,8 +1,8 @@
 # White Eagles & Co. - Comprehensive Knowledge Base
 
-> **Date Updated**: January 2026
+> **Date Updated**: August 2026
 > **Location**: Bratislava, Slovakia
-> **Contact**: welcome@whiteeagles.sk | +421 950 347 163
+> **Contact**: welcome@whiteeagles.sk | +421 949 000 077
 > **Website**: https://whiteeagles.sk
 
 ---
@@ -85,17 +85,17 @@ Legal compliance without monthly fees.
 
 Professional articles and guides about web development, marketing, and SEO in Slovakia:
 - **Tvorba webu vs WordPress** (WordPress vs Custom Website):
-  - URL: https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website
+  - URL: https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
 - **Koľko stojí webstránka v 2026** (Website Cost in 2026):
-  - URL: https://whiteeagles.sk/sk/blog/website-cost-2026
+  - URL: https://whiteeagles.sk/sk/blog/website-cost-2026/
 - **Nastavenie Google Analytics 4**:
-  - URL: https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4
+  - URL: https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
 - **Cookie lišta a Consent Mode v2**:
-  - URL: https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti
+  - URL: https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/
 - **Google Ads pre malé firmy**:
-  - URL: https://whiteeagles.sk/sk/blog/google-ads-small-business
+  - URL: https://whiteeagles.sk/sk/blog/google-ads-small-business/
 - **SEO audit: Ako skontrolovať váš web**:
-  - URL: https://whiteeagles.sk/sk/blog/seo-audit-check-website
+  - URL: https://whiteeagles.sk/sk/blog/seo-audit-check-website/
 
 ---
 
@@ -120,6 +120,6 @@ Professional articles and guides about web development, marketing, and SEO in Sl
 
 Ready to automate your business or build a new digital product?
 
-- **Direct Inquiry**: https://whiteeagles.sk/#home-contacts
+- **Direct Inquiry**: https://whiteeagles.sk/sk/#home-contacts
 - **Email**: welcome@whiteeagles.sk
-- **Phone**: +421 950 347 163
+- **Phone**: +421 949 000 077

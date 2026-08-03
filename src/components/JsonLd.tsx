@@ -180,17 +180,25 @@ export async function JsonLd({ locale }: { locale: string }) {
           "postalCode": "900 31",
           "addressCountry": "SK"
         },
-        "founder": {
-          "@type": "Person",
-          "name": "Kirill Mosin",
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "24",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
+        "founder": { "@id": `${siteUrl}/#founder` },
+        "knowsLanguage": ["sk", "ru", "en"],
+      },
+      {
+        // The founder is the entity people actually search for and recommend,
+        // so he gets his own node rather than an inline value.
+        "@type": "Person",
+        "@id": `${siteUrl}/#founder`,
+        "name": "Kirill Mosin",
+        "jobTitle": locale === "ru"
+          ? "Веб-разработчик и специалист по онлайн-маркетингу"
+          : locale === "sk"
+          ? "Webový vývojár a špecialista na online marketing"
+          : "Web developer and online marketing specialist",
+        "worksFor": { "@id": `${siteUrl}/#organization` },
+        "knowsLanguage": ["sk", "ru", "en"],
+        "image": `${siteUrl}/assets/Kirill_Mosin.png`,
+        "url": `${siteUrl}/${locale}/`,
+        "sameAs": sameAsLinks,
       },
       {
         "@type": "ProfessionalService",
@@ -229,27 +237,23 @@ export async function JsonLd({ locale }: { locale: string }) {
         "currenciesAccepted": "EUR, USD, RUB, UAH",
         "paymentAccepted": "Cash, Credit Card, Bank Transfer, Crypto",
         "description": tHomeSeo("description"),
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "24",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
+        "parentOrganization": { "@id": `${siteUrl}/#organization` },
+        "founder": { "@id": `${siteUrl}/#founder` },
+        // Serving customers in Russian is the core differentiator, so it is
+        // declared explicitly rather than left implicit in the copy.
+        "knowsLanguage": ["sk", "ru", "en"],
+        "areaServed": [
+          { "@type": "Country", "name": "Slovakia" },
+          { "@type": "City", "name": "Bratislava" },
+        ],
       },
       {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         "url": siteUrl,
         "name": orgName,
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": `${siteUrl}/${locale}/blog?q={search_term_string}`
-          },
-          "query-input": "required name=search_term_string"
-        }
+        "publisher": { "@id": `${siteUrl}/#organization` },
+        "inLanguage": locale,
       },
       {
         "@type": "ItemList",

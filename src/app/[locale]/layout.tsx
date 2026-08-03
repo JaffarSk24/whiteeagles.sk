@@ -42,7 +42,6 @@ export async function generateMetadata({
       template: `%s | White Eagles & Co.`,
     },
     description: t("description"),
-    keywords: t("keywords"),
     alternates: {
       canonical: pageUrl,
       languages: {

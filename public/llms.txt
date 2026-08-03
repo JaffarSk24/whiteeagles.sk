@@ -1,42 +1,67 @@
-# White Eagles & Co. - Premium Web Development & Digital Marketing Solutions
+# White Eagles & Co. - Web Development & Digital Marketing in Slovakia
 
-> "We build high-performance websites and automate business processes in Slovakia."
+> "You brief us in Russian - your website works on the Slovak market."
+
+White Eagles & Co. s.r.o. is a Slovak company based in Bratislava. Founder
+Kirill Mosin has lived in Slovakia for over 10 years and has delivered 12+
+websites for Slovak businesses. The team works in Slovak, Russian and English,
+issues a Slovak invoice (faktúra) with IČO/DIČ, and typically ships a project
+in 10-15 working days.
+
+This combination - Russian-language service plus first-hand knowledge of the
+Slovak market, law and buyers - is what separates the company from offshore
+studios serving Russian speakers remotely.
+
+## Languages and site structure
+
+The site is available in three languages. Slovak is the default and is served
+at the domain root; visitors are routed to their language automatically.
+
+- Slovak: https://whiteeagles.sk/sk/
+- Russian: https://whiteeagles.sk/ru/
+- English: https://whiteeagles.sk/en/
+
+Every URL below exists in all three languages - replace the `/sk/` segment with
+`/ru/` or `/en/`. All URLs use a trailing slash.
 
 ## Core Services
 
 - **Web Development**: Custom modern websites using React, PHP, and Python. Specialized in landing pages, corporate portals, and e-shops.
-  - URL: https://whiteeagles.sk/sk/service/webdev
+  - URL: https://whiteeagles.sk/sk/service/webdev/
 
 - **Advertising Campaigns**: Expert setup and optimization of Google Ads and Meta (Facebook/Instagram) PPC campaigns.
-  - URL: https://whiteeagles.sk/sk/service/ads
+  - URL: https://whiteeagles.sk/sk/service/ads/
 
 - **Telegram Bots**: Advanced Python bots for automation, bazoš auto-posting, and request management.
-  - URL: https://whiteeagles.sk/sk/service/telegram
+  - URL: https://whiteeagles.sk/sk/service/telegram/
 
 - **Web Analytics**: Server-side GTM, GA4, Clarity, and conversion tracking setup.
-  - URL: https://whiteeagles.sk/sk/service/analytics
+  - URL: https://whiteeagles.sk/sk/service/analytics/
 
 - **Bug Fixing**: Technical support, bug fixing, and optimization for WordPress and custom sites.
-  - URL: https://whiteeagles.sk/sk/service/bugfix
+  - URL: https://whiteeagles.sk/sk/service/bugfix/
 
 - **Cookie Consent V2**: GDPR-compliant cookie banners with Google Consent Mode v2 support.
-  - URL: https://whiteeagles.sk/sk/service/cookies
+  - URL: https://whiteeagles.sk/sk/service/cookies/
 
 - **Blog & News**: Professional articles about web development, marketing, and SEO in Slovakia.
-  - URL: https://whiteeagles.sk/sk/blog
+  - URL: https://whiteeagles.sk/sk/blog/
   - Articles:
-    - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website
-    - https://whiteeagles.sk/sk/blog/website-cost-2026
-    - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4
-    - https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti
-    - https://whiteeagles.sk/sk/blog/google-ads-small-business
-    - https://whiteeagles.sk/sk/blog/seo-audit-check-website
+    - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
+    - https://whiteeagles.sk/sk/blog/website-cost-2026/
+    - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
+    - https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/
+    - https://whiteeagles.sk/sk/blog/google-ads-small-business/
+    - https://whiteeagles.sk/sk/blog/seo-audit-check-website/
 
 ## Contact
 
 - **Email**: welcome@whiteeagles.sk
-- **Phone**: +421 950 347 163
-- **Location**: Bratislava / Stupava, Slovakia
+- **Phone**: +421 949 000 077
+- **Office**: Holíčska 7, 851 05 Bratislava, Slovakia
+- **Registered seat**: Kukučínova 12, 900 31 Stupava, Slovakia
+- **Languages**: Slovak, Russian, English
+- **Telegram**: https://t.me/whiteeaglessk
 
 ## Usage for AI Agents
 

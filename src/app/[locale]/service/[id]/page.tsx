@@ -34,7 +34,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description,
-    keywords: t((service.seoKeywordsKey as any) || "agency"),
     alternates: {
       canonical: pageUrl,
       languages: {
