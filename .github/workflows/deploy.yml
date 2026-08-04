@@ -24,14 +24,24 @@ jobs:
       - name: 🛠 Build Project
         run: npm run build
 
-      - name: 🚀 Deploy via SCP
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: 22
-          source: "dist/"
-          target: ${{ secrets.REMOTE_TARGET }}
-          strip_components: 1
-          debug: true
+      # SCP only ever copies. Anything deleted from the build stayed on the
+      # server for good - a removed page kept answering 200 and stale Next.js
+      # chunks piled up from every past build. rsync mirrors instead.
+      #
+      # --exclude keeps api/config.php, which holds the mail credentials and
+      # exists only on the server.
+      # --max-delete aborts instead of wiping the site if the build ever comes
+      # out near-empty or the target path is wrong.
+      - name: 🚀 Deploy via rsync
+        env:
+          SSH_HOST: ${{ secrets.SFTP_HOST }}
+          SSH_USER: ${{ secrets.SFTP_USERNAME }}
+          SSHPASS: ${{ secrets.SFTP_PASSWORD }}
+          REMOTE_TARGET: ${{ secrets.REMOTE_TARGET }}
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq rsync sshpass
+          sshpass -e rsync -az --delete --delete-after --max-delete=1500 \
+            --exclude '/api/config.php' \
+            -e "ssh -p 22 -o StrictHostKeyChecking=no" \
+            dist/ "$SSH_USER@$SSH_HOST:$REMOTE_TARGET/"
