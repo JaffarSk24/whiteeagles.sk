@@ -35,6 +35,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const pageUrl = `https://whiteeagles.sk/${locale}/blog/${slug}/`;
   const isEnglish = locale === 'en';
 
+  // The lead image of the article, so a shared link shows the article's own
+  // picture instead of nothing. The page body already parses it out for the
+  // BlogPosting markup; without this the Open Graph tag was simply absent and
+  // every article shared to Telegram or LinkedIn came out as a bare link.
+  const imageMatch = post.content.match(/!\[.*?\]\((.*?)\)/);
+  const ogImage = imageMatch
+    ? (imageMatch[1].startsWith('http') ? imageMatch[1] : `https://whiteeagles.sk${imageMatch[1]}`)
+    : 'https://whiteeagles.sk/assets/me.jpg';
+
   // The English blog is kept out of the index. It collected 696 impressions in
   // a year - 41% of the whole domain - and zero clicks, all from countries the
   // business does not serve, while eating a third of a crawl budget that only
@@ -61,6 +70,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title,
       description,
       url: pageUrl,
+      type: 'article',
+      images: [ogImage],
     },
   };
 }

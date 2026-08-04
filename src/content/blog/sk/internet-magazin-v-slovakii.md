@@ -17,7 +17,7 @@ faq:
   - q: 'Hotová platforma alebo vývoj na mieru?'
     a: 'Menší katalóg so štandardnou logikou žije dobre na hotovej platforme. Vývoj na mieru má zmysel vtedy, keď existuje logika, ktorú platforma nemá: ceny podľa objemu, napojenie na sklad alebo účtovný systém, neštandardná doprava.'
 ---
-![E-shop na Slovensku | White Eagles & Co.](/assets/blog/webvardpay.webp)
+![E-shop na Slovensku | White Eagles & Co.](/assets/blog/internetmag.webp)
 
 # E-shop na Slovensku: čo si vybrať a čo je povinné zo zákona
 

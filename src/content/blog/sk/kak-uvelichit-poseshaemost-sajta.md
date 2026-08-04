@@ -17,7 +17,7 @@ faq:
   - q: 'Oplatí sa kupovať odkazy?'
     a: 'Nie. Je to porušenie pravidiel a na Slovensku aj nezmyselné: trh je malý a kúpené odkazy vidno. Bezplatná alternatíva funguje lepšie — odkazy z webov klientov, z katalógov a od partnerov.'
 ---
-![Ako zvýšiť návštevnosť webu na Slovensku | White Eagles & Co.](/assets/blog/blog5.webp)
+![Ako zvýšiť návštevnosť webu na Slovensku | White Eagles & Co.](/assets/blog/traffik.webp)
 
 # Ako zvýšiť návštevnosť webu na Slovensku: 7 zdrojov bez reklamného rozpočtu
 

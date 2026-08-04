@@ -17,7 +17,7 @@ faq:
   - q: 'Ako dlho trvá vývoj?'
     a: 'Jednoduchý bot na prijímanie dopytov s upozornením — pár dní. Bot s rezerváciami prepojený s webom a kalendárom — jeden až dva týždne, podľa toho, čo už existuje.'
 ---
-![Chatbot pre firmu | White Eagles & Co.](/assets/blog/podriad.webp)
+![Chatbot pre firmu | White Eagles & Co.](/assets/blog/chatbotbus.webp)
 
 # Chatbot pre firmu: kedy sa vráti a kedy klientov iba otravuje
 
