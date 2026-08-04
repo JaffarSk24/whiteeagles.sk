@@ -34,10 +34,10 @@ export async function JsonLd({ locale }: { locale: string }) {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": locale === "ru" 
-          ? "Стоимость разработки сайта в 2026 году варьируется от 5000 € за простой лендинг до 35000 €+ за сложный портал или SaaS. Цена зависит от типа сайта, сложности функционала (интеграции CRM, платежи), дизайна. Базовая ставка работы специалистов White Eagles & Co. начинается от 35€ в час. Все платежи прозрачны и согласуются без сложного ТЗ." 
+          ? "Стоимость зависит от типа сайта: простой лендинг от 1 500 €, корпоративный сайт от 3 500 €, интернет-магазин от 5 000 €. Итог определяют функциональность (интеграции CRM, платежи, бронирование), количество страниц и языков. Базовая часовая ставка — 35 €. Цену называю после первого разговора и по ходу работы её не меняю, сложное техническое задание не требуется." 
           : locale === "sk"
-          ? "Cena za vývoj webstránky v roku 2026 sa pohybuje od 5000 € za jednoduchú pristávaciu stránku (landing page) až po viac ako 35000 € za komplexný portál alebo SaaS. Cena závisí od typu webu, náročnosti funkcií (integrácia CRM, platby) a dizajnu. Základná hodinová sadzba odborníkov z White Eagles & Co. začína od 35 € za hodinu. Všetky platby sú transparentné a dohodnuté bez zložitého zadania."
-          : "In 2026, custom website development costs range from €5,000 for a landing page to €35,000+ for complex portals or SaaS products. The price depends on features, integrations, and design. Our base hourly rate starts at €35/hour with transparent billing and no complex briefs required."
+          ? "Cena závisí od typu webu: jednoduchá landing page od 1 500 €, firemný web od 3 500 €, e-shop od 5 000 €. Výslednú sumu určuje funkčnosť (integrácie CRM, platby, rezervácie), počet stránok a jazykov. Základná hodinová sadzba je 35 €. Cenu poviem po prvom rozhovore a v priebehu ju nemením, zložité zadanie sa nevyžaduje."
+          : "The price depends on the type of site: a simple landing page from 1,500 EUR, a company website from 3,500 EUR, an online shop from 5,000 EUR. The final figure comes down to functionality (CRM integrations, payments, bookings), the number of pages and languages. The base hourly rate is 35 EUR. I quote after the first conversation and do not change it mid-project, and no detailed brief is required."
       },
     },
     {
