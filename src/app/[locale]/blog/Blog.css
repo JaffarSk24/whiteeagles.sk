@@ -229,3 +229,19 @@
   margin: 0;
   min-width: 480px;
 }
+
+/* Links inside an article inherited the body colour and had no underline, so
+   every internal link across the blog was invisible - the interlinking was
+   there in the markup and nowhere on the page. */
+.post-content a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(249, 115, 22, 0.45);
+  transition: text-decoration-color 0.2s;
+}
+
+.post-content a:hover {
+  text-decoration-color: var(--accent-color);
+}

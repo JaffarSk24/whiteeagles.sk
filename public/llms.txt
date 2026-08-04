@@ -44,6 +44,16 @@ Every URL below exists in all three languages - replace the `/sk/` segment with
 - **Cookie Consent V2**: GDPR-compliant cookie banners with Google Consent Mode v2 support.
   - URL: https://whiteeagles.sk/sk/service/cookies/
 
+- **Case studies**: What each project had to solve, what was built and what it changed.
+  - URL: https://whiteeagles.sk/sk/portfolio/
+  - Projects:
+    - https://whiteeagles.sk/sk/case/biliardovna/ - billiard club, online table booking
+    - https://whiteeagles.sk/sk/case/studio-krasy/ - beauty salon, booking confirmed in Telegram, three languages
+    - https://whiteeagles.sk/sk/case/top-sklad/ - warehouse rental, free space visible online
+    - https://whiteeagles.sk/sk/case/synchrozralok/ - sports club, bilingual, feed pulled from Instagram
+    - https://whiteeagles.sk/sk/case/bodabo/ - wholesale online shop for vanilla, coffee and cacao
+    - https://whiteeagles.sk/sk/case/top-kobka/ - storage box rental
+
 - **Blog & News**: Professional articles about web development, marketing, and SEO in Slovakia.
   - URL: https://whiteeagles.sk/sk/blog/
   - Articles:

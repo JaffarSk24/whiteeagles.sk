@@ -645,3 +645,23 @@
     font-size: 1.25rem;
   }
 }
+
+/* The crawlable way into the case studies - the carousel above it is a client
+   component that a crawler will not click through. */
+.portfolio-all-link {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.portfolio-all-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.portfolio-all-link a:hover {
+  text-decoration: underline;
+}

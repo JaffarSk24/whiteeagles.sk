@@ -135,8 +135,11 @@ dist 2/
 # must never reach GitHub. One rule instead of a line per file.
 *.md
 
-# Blog articles are the exception - they are the site's content and must ship.
+# Blog articles and case studies are the exception - they are the site's
+# content and must ship. Without this the build has no pages to generate and
+# fails on the missing static params.
 !src/content/blog/**/*.md
+!src/content/cases/**/*.md
 
 # README.md was committed long before this rule, so git keeps tracking it;
 # an ignore rule does not apply to files already in the index.

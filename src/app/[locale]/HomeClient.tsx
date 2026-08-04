@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { useRouter } from "@/i18n/navigation";
+import { useRouter, Link } from "@/i18n/navigation";
 import { services } from "../../data/services";
 import {
   FileText,
@@ -30,6 +30,7 @@ export default function HomeClient() {
   const tServicesNS = useTranslations("services");
   const tPortfolio = useTranslations("portfolio");
   const tCommon = useTranslations("common");
+  const tCases = useTranslations("cases");
   const tAbout = useTranslations("about");
 
   const router = useRouter();
@@ -169,6 +170,11 @@ export default function HomeClient() {
           <FadeInSection>
             <h2 className="section-title">{tPortfolio("title")}</h2>
             <PortfolioCarousel />
+            {/* The carousel is a client component; the index page below it is
+                what search engines can actually crawl into. */}
+            <div className="portfolio-all-link">
+              <Link href="/portfolio">{tCases("title")} →</Link>
+            </div>
           </FadeInSection>
         </div>
       </section>

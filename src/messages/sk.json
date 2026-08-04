@@ -764,5 +764,17 @@
       "text": "Python boty na správu dopytov, rezervácie aj automatické pridávanie inzerátov na Bazoš.",
       "button": "Chcem bota"
     }
+  },
+  "cases": {
+    "title": "Prípadové štúdie: weby pre slovenské firmy",
+    "seo_title": "Prípadové štúdie: weby a systémy pre firmy na Slovensku",
+    "seo_description": "Reálne projekty pre slovenské firmy: rezervácie, e-shopy, dvojjazyčné weby, automatizácia cez Telegram. Aké bolo zadanie a čo z toho vzniklo.",
+    "lead": "Projekty spustené na slovenskom trhu. Pri každom je zadanie, riešenie a čo to prinieslo. Bez všeobecných fráz o „moderných riešeniach“.",
+    "back_to_cases": "Všetky prípadové štúdie",
+    "read_case": "Pozrieť projekt",
+    "services_label": "Čo sme robili",
+    "live_site": "Otvoriť web",
+    "client_label": "Klient",
+    "more_cases": "Ďalšie projekty"
   }
 }

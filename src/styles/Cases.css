@@ -1,0 +1,268 @@
+/* Case studies: the index at /portfolio/ and the single pages at /case/<slug>/.
+   Typography mirrors the blog so an article and a case read as the same site. */
+
+.case-page {
+  padding: 120px 0 80px;
+  min-height: 80vh;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 30px;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--accent-color);
+}
+
+/* ---------- Index ---------- */
+
+.case-index-header {
+  max-width: 820px;
+  margin-bottom: 48px;
+}
+
+.case-index-header h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 0 0 18px;
+  color: var(--text-primary);
+}
+
+.case-index-lead {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.case-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+.case-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.case-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-color);
+}
+
+.case-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.case-card-body {
+  padding: 20px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.case-card-body h2,
+.case-card-body h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  color: var(--text-primary);
+}
+
+.case-card-body p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* Pushed to the bottom so the link sits on one line across cards of
+   different text lengths. */
+.case-card-link {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* ---------- Single case ---------- */
+
+.case-article {
+  max-width: 820px;
+}
+
+.case-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.case-meta-client {
+  font-weight: 700;
+  color: var(--accent-color);
+  letter-spacing: 0.02em;
+}
+
+.case-meta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.case-meta-link:hover {
+  color: var(--accent-color);
+}
+
+.case-chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 28px;
+  padding: 0;
+}
+
+.case-chips li {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.case-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.case-content h1 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin: 0 0 24px;
+  color: var(--text-primary);
+}
+
+.case-content h2 {
+  font-size: 1.6rem;
+  margin: 40px 0 18px;
+  color: var(--text-color);
+}
+
+.case-content p {
+  margin-bottom: 24px;
+}
+
+.case-content ul,
+.case-content ol {
+  margin-bottom: 24px;
+  padding-left: 25px;
+}
+
+.case-content ul {
+  list-style-type: disc;
+}
+
+.case-content ol {
+  list-style-type: decimal;
+}
+
+.case-content li {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.case-content strong {
+  color: var(--text-color);
+}
+
+.case-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 0 32px;
+  display: block;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- Related cases ---------- */
+
+/* This is a <section>, and the global `section { padding: 80px 0 }` would open
+   a void here the way it did on the service pages. */
+.case-more {
+  padding: 0;
+  margin-top: 64px;
+}
+
+.case-more h2 {
+  font-size: 1.5rem;
+  margin: 0 0 24px;
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .case-page {
+    padding-top: 100px;
+  }
+
+  .case-index-header h1 {
+    font-size: 1.9rem;
+  }
+
+  .case-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .case-content h2 {
+    font-size: 1.35rem;
+  }
+
+  .case-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/* Same reason as in the blog: without this the links in the closing paragraph
+   look like ordinary text. */
+.case-content a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(249, 115, 22, 0.45);
+  transition: text-decoration-color 0.2s;
+}
+
+.case-content a:hover {
+  text-decoration-color: var(--accent-color);
+}

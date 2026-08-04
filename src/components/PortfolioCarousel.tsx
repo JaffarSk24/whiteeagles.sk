@@ -2,14 +2,15 @@
 
 import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { ChevronLeft, ChevronRight, ExternalLink } from "lucide-react";
+import { ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { portfolio } from "../data/portfolio";
 import Image from "next/image";
 import "./PortfolioCarousel.css";
 
 export const PortfolioCarousel: React.FC = () => {
   const t = useTranslations();
-  const tCommon = useTranslations("common");
+  const tCases = useTranslations("cases");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(3);
 
@@ -50,9 +51,9 @@ export const PortfolioCarousel: React.FC = () => {
           className="portfolio-track"
           style={{ transform: `translateX(-${currentIndex * (100 / itemsPerPage)}%)` }}
         >
-          {extendedPortfolio.map((item, index) => (
-            <div key={`${item.id}-${index}`} className="portfolio-slide">
-              <a href={item.url} target="_blank" rel="noopener noreferrer" className="portfolio-card-slide">
+          {extendedPortfolio.map((item, index) => {
+            const body = (
+              <>
                 <div className="portfolio-img-slide">
                   <Image
                     src={item.image || `https://placehold.co/600x400/374161/FFF?text=${item.title}`}
@@ -65,12 +66,20 @@ export const PortfolioCarousel: React.FC = () => {
                   <h3>{item.title}</h3>
                   <p>{t(item.descKey as any)}</p>
                   <span className="portfolio-link">
-                    {tCommon("visit")} <ExternalLink size={16} />
+                    {tCases("read_case")} <ArrowRight size={16} />
                   </span>
                 </div>
-              </a>
-            </div>
-          ))}
+              </>
+            );
+
+            return (
+              <div key={`${item.id}-${index}`} className="portfolio-slide">
+                <Link href={`/case/${item.id}`} className="portfolio-card-slide">
+                  {body}
+                </Link>
+              </div>
+            );
+          })}
         </div>
       </div>
 

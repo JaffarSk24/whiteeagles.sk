@@ -9,9 +9,9 @@ const defaultLocale = 'sk';
 // then simply does not appear in that language's sitemap.
 const path = require('path');
 const contentDir = path.join(__dirname, 'src', 'content', 'blog');
+const casesDir = path.join(__dirname, 'src', 'content', 'cases');
 
-const postsFor = (locale) => {
-  const dir = path.join(contentDir, locale);
+const slugsIn = (dir) => {
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
@@ -19,6 +19,9 @@ const postsFor = (locale) => {
     .map((f) => f.replace(/\.md$/, ''))
     .sort();
 };
+
+const postsFor = (locale) => slugsIn(path.join(contentDir, locale));
+const casesFor = (locale) => slugsIn(path.join(casesDir, locale));
 const services = [
   'webdev',
   'bugfix',
@@ -38,7 +41,9 @@ const pathsFor = (locale) => [
   // Slovak queries, so it ranks above the individual service pages.
   { path: 'seo-audit', changefreq: 'monthly', priority: '0.9' },
   { path: 'blog', changefreq: 'weekly', priority: '0.8' },
+  { path: 'portfolio', changefreq: 'monthly', priority: '0.8' },
   ...services.map((s) => ({ path: `service/${s}`, changefreq: 'monthly', priority: '0.8' })),
+  ...casesFor(locale).map((c) => ({ path: `case/${c}`, changefreq: 'yearly', priority: '0.7' })),
   ...postsFor(locale).map((p) => ({ path: `blog/${p}`, changefreq: 'monthly', priority: '0.7' }))
 ];
 
@@ -51,12 +56,18 @@ const urlFor = (locale, path) =>
 // impressions and no clicks, from countries the business does not serve. A
 // noindexed URL has no place in a sitemap, and no place in anyone's hreflang.
 const isBlog = (path) => path === 'blog' || path.startsWith('blog/');
-const isIndexed = (locale, path) => !(locale === 'en' && isBlog(path));
+// Case studies exist in Slovak and Russian only, so the English portfolio page
+// is a bare link list and carries noindex - same treatment as the English blog.
+const isCase = (path) => path === 'portfolio' || path.startsWith('case/');
+const isIndexed = (locale, path) => !(locale === 'en' && (isBlog(path) || isCase(path)));
 
 // An article translated into only some languages must not be declared as an
 // alternate for the ones where it does not exist.
-const existsIn = (locale, p) =>
-  !p.startsWith('blog/') || postsFor(locale).includes(p.slice('blog/'.length));
+const existsIn = (locale, p) => {
+  if (p.startsWith('blog/')) return postsFor(locale).includes(p.slice('blog/'.length));
+  if (p.startsWith('case/')) return casesFor(locale).includes(p.slice('case/'.length));
+  return true;
+};
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -89,4 +100,4 @@ locales.forEach((locale) => {
 xml += `</urlset>\n`;
 
 fs.writeFileSync('public/sitemap.xml', xml);
-console.log(`Generated sitemap.xml with ${count} URLs (English blog excluded: noindex).`);
+console.log(`Generated sitemap.xml with ${count} URLs (English blog and cases excluded: noindex).`);

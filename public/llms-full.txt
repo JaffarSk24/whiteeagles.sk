@@ -89,13 +89,29 @@ list with titles is in section 6 below.
 
 ---
 
-## 3. Portfolio Highlights
+## 3. Portfolio and case studies
 
-- **Biliardovna**: Club website in Bratislava.
-- **Studio Krasy**: Beauty salon with booking integration, in Slovak, Russian and Ukrainian.
-- **Top Sklad**: Warehouse rental service with complex space management.
-- **Synchro Žralok**: Sports club website in Slovak and English.
-- **Bodabo**: Wholesale e-shop for premium vanilla and coffee.
+Each project has its own page stating the brief, what was built and what
+changed. Index: https://whiteeagles.sk/sk/portfolio/ (replace `/sk/` with
+`/ru/` for Russian).
+
+- **Biliardovňa** - billiard club in Bratislava; online table booking replaced
+  phone calls, and bookings through the site grew after launch.
+  - https://whiteeagles.sk/sk/case/biliardovna/
+- **Krása štúdio OK** - beauty salon in Ružinov; booking on the site is wired
+  into Telegram, staff confirm with one tap and the slot closes automatically.
+  Slovak, Russian and Ukrainian.
+  - https://whiteeagles.sk/sk/case/studio-krasy/
+- **TOP SKLAD** - warehouse rental; free space is visible online and booking
+  runs through the site instead of a spreadsheet.
+  - https://whiteeagles.sk/sk/case/top-sklad/
+- **Synchro Žralok** - synchronised swimming club; bilingual site whose news
+  feed is pulled automatically from the club's public Instagram.
+  - https://whiteeagles.sk/sk/case/synchrozralok/
+- **BODA BODA** - wholesale online shop for vanilla, coffee and cacao beans.
+  - https://whiteeagles.sk/sk/case/bodabo/
+- **TOP KOBKA** - storage box rental; sizes, terms and prices on the page.
+  - https://whiteeagles.sk/sk/case/top-kobka/
 
 ---
 
