@@ -57,13 +57,16 @@ Every URL below exists in all three languages - replace the `/sk/` segment with
 - **Blog & News**: Professional articles about web development, marketing, and SEO in Slovakia.
   - URL: https://whiteeagles.sk/sk/blog/
   - Articles:
+    - https://whiteeagles.sk/sk/blog/chatbot-dlya-biznesa/
     - https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/
     - https://whiteeagles.sk/sk/blog/domen-sk-kak-kupit/
     - https://whiteeagles.sk/sk/blog/dph-registraciya/
     - https://whiteeagles.sk/sk/blog/ekasa-online-kassa-slovakia/
     - https://whiteeagles.sk/sk/blog/gdpr-dlya-maloy-firmy/
     - https://whiteeagles.sk/sk/blog/google-ads-small-business/
+    - https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/
     - https://whiteeagles.sk/sk/blog/kak-slovaki-vybirayut-podryadchika/
+    - https://whiteeagles.sk/sk/blog/kak-uvelichit-poseshaemost-sajta/
     - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
     - https://whiteeagles.sk/sk/blog/nuzhen-li-sajt-na-slovackom/
     - https://whiteeagles.sk/sk/blog/obyazatelnye-rekvizity-sajta/
