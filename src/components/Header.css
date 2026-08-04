@@ -71,6 +71,9 @@
   border-left: 1px solid var(--border-color);
 }
 
+/* Language links are <a>, not <button>: a crawler follows a link and cannot
+   press a button. The selectors keep both so nothing depends on the tag. */
+.lang-switcher a,
 .lang-switcher button {
   background: transparent;
   border: none;
@@ -79,13 +82,16 @@
   font-weight: 600;
   padding: 4px;
   cursor: pointer;
+  text-decoration: none;
   transition: color 0.2s ease;
 }
 
+.lang-switcher a:hover,
 .lang-switcher button:hover {
   color: var(--accent-color);
 }
 
+.lang-switcher a.active,
 .lang-switcher button.active {
   color: var(--accent-color);
 }

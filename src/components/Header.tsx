@@ -7,6 +7,8 @@ import { useRouter, usePathname, Link } from "@/i18n/navigation";
 import Image from "next/image";
 import "./Header.css";
 
+const LOCALE_NAMES = { sk: "Slovak", ru: "Russian", en: "English" } as const;
+
 interface HeaderProps {
   onOrderClick: () => void;
 }
@@ -35,11 +37,10 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
     setIsMobileMenuOpen(false);
   };
 
+  // The logo is a link to the home page; this only adds the scroll-to-top that
+  // a plain link would not do when you are already there.
   const handleLogoClick = () => {
-    if (pathname !== "/") {
-      router.push("/");
-      window.scrollTo({ top: 0, behavior: "auto" });
-    } else {
+    if (pathname === "/") {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
@@ -68,7 +69,7 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
   return (
     <header className={`header ${isScrolled ? "header-scrolled" : ""}`}>
       <div className="container header-content">
-        <div className="logo" onClick={handleLogoClick}>
+        <Link href="/" className="logo" onClick={handleLogoClick}>
           <Image
             src="/assets/white-eagles-logo-white.webp"
             alt="White Eagles & Co"
@@ -78,7 +79,7 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
             priority
           />
           <span>White Eagles & Co.</span>
-        </div>
+        </Link>
 
         <nav className={`nav-links ${isMobileMenuOpen ? "nav-active" : ""}`}>
           <a
@@ -130,28 +131,23 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
             {t("contacts")}
           </a>
 
+          {/* Deliberately buttons, not links. Not every page exists in every
+              language - fifteen articles have no English version - so a link
+              built from the current path would point at a 404 and a crawler
+              would follow it. Language versions are declared per page with
+              hreflang in <head>, which is both the documented mechanism and
+              accurate about which locales actually exist. */}
           <div className="lang-switcher">
-            <button
-              aria-label="Switch to Slovak"
-              className={locale === "sk" ? "active" : ""}
-              onClick={() => changeLanguage("sk")}
-            >
-              SK
-            </button>
-            <button
-              aria-label="Switch to Russian"
-              className={locale === "ru" ? "active" : ""}
-              onClick={() => changeLanguage("ru")}
-            >
-              RU
-            </button>
-            <button
-              aria-label="Switch to English"
-              className={locale === "en" ? "active" : ""}
-              onClick={() => changeLanguage("en")}
-            >
-              EN
-            </button>
+            {(["sk", "ru", "en"] as const).map((lng) => (
+              <button
+                key={lng}
+                aria-label={`Switch to ${LOCALE_NAMES[lng]}`}
+                className={locale === lng ? "active" : ""}
+                onClick={() => changeLanguage(lng)}
+              >
+                {lng.toUpperCase()}
+              </button>
+            ))}
           </div>
 
           {/* Order button inside burger menu — mobile only */}
