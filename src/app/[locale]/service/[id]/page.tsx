@@ -191,7 +191,12 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             {service.id === "telegram" && (
               <img src="/assets/icons/telegram-icon.png" alt="Telegram Bots" className="service-detail-icon" />
             )}
-            <p className="detail-desc">{t((service.internalDescKey as any) || (service.descKey as any))}</p>
+            {/* The lead above the card already introduces the service, and on
+                bugfix the two texts were near-identical. Short blurb only when
+                there is no lead. */}
+            {!page?.lead && (
+              <p className="detail-desc">{t((service.internalDescKey as any) || (service.descKey as any))}</p>
+            )}
 
             <div className="detail-full-info">
               <h3>{t("services.details")}</h3>
