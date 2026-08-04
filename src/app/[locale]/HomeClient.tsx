@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { useRouter, Link } from "@/i18n/navigation";
+import { Link } from "@/i18n/navigation";
 import { services } from "../../data/services";
 import {
   FileText,
@@ -33,7 +33,6 @@ export default function HomeClient() {
   const tCases = useTranslations("cases");
   const tAbout = useTranslations("about");
 
-  const router = useRouter();
   const { openOrderModal } = useOrderModal();
 
   useEffect(() => {
@@ -100,12 +99,16 @@ export default function HomeClient() {
                     </p>
                   </div>
                   <div className="service-actions">
-                    <button
+                    {/* A real link, not a button with router.push. A crawler does
+                        not click buttons, so until this changed the six service
+                        pages had no incoming link anywhere on the site and Google
+                        never indexed them. */}
+                    <Link
+                      href={`/service/${service.id}` as any}
                       className="btn btn-secondary"
-                      onClick={() => router.push(`/service/${service.id}` as any)}
                     >
                       {tServicesNS("more_info")}
-                    </button>
+                    </Link>
                     <button className="btn btn-primary" onClick={() => openOrderModal(service.id)}>
                       {tServicesNS("apply")}
                     </button>
