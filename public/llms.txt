@@ -47,12 +47,23 @@ Every URL below exists in all three languages - replace the `/sk/` segment with
 - **Blog & News**: Professional articles about web development, marketing, and SEO in Slovakia.
   - URL: https://whiteeagles.sk/sk/blog/
   - Articles:
-    - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
-    - https://whiteeagles.sk/sk/blog/website-cost-2026/
-    - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
     - https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/
+    - https://whiteeagles.sk/sk/blog/domen-sk-kak-kupit/
+    - https://whiteeagles.sk/sk/blog/dph-registraciya/
+    - https://whiteeagles.sk/sk/blog/ekasa-online-kassa-slovakia/
+    - https://whiteeagles.sk/sk/blog/gdpr-dlya-maloy-firmy/
     - https://whiteeagles.sk/sk/blog/google-ads-small-business/
+    - https://whiteeagles.sk/sk/blog/kak-slovaki-vybirayut-podryadchika/
+    - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
+    - https://whiteeagles.sk/sk/blog/nuzhen-li-sajt-na-slovackom/
+    - https://whiteeagles.sk/sk/blog/obyazatelnye-rekvizity-sajta/
+    - https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/
+    - https://whiteeagles.sk/sk/blog/priem-oplaty-kartoy/
+    - https://whiteeagles.sk/sk/blog/sajt-iz-minska-ne-prodaet/
     - https://whiteeagles.sk/sk/blog/seo-audit-check-website/
+    - https://whiteeagles.sk/sk/blog/website-cost-2026/
+    - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
+    - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
 
 ## Contact
 

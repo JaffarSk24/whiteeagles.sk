@@ -124,3 +124,45 @@ Ready to automate your business or build a new digital product?
 - **Direct Inquiry**: https://whiteeagles.sk/sk/#home-contacts
 - **Email**: welcome@whiteeagles.sk
 - **Phone**: +421 949 000 077
+
+---
+
+## Blog: guides for doing business in Slovakia
+
+Every article exists in Slovak and Russian. Replace `/sk/` with `/ru/` for
+the Russian version. The English blog is intentionally not indexed.
+
+- **Cookie lišta v roku 2026: čo vyžadujú európske pravidlá a Consent Mode v2**
+  - https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/
+- **Doména .sk: ako ju kúpiť, kto ju môže vlastniť a koľko stojí**
+  - https://whiteeagles.sk/sk/blog/domen-sk-kak-kupit/
+- **Registrácia na DPH: kedy vzniká povinnosť a čo sa mení v roku 2026**
+  - https://whiteeagles.sk/sk/blog/dph-registraciya/
+- **eKasa v roku 2026: kto ju musí mať a čo sa zmenilo od 1. januára**
+  - https://whiteeagles.sk/sk/blog/ekasa-online-kassa-slovakia/
+- **GDPR pre malú firmu: čo naozaj treba mať na webe**
+  - https://whiteeagles.sk/sk/blog/gdpr-dlya-maloy-firmy/
+- **Google Ads pre malé firmy: Návod ako začať**
+  - https://whiteeagles.sk/sk/blog/google-ads-small-business/
+- **Ako si Slováci vyberajú dodávateľa: čo musí byť na webe, aby vám uverili**
+  - https://whiteeagles.sk/sk/blog/kak-slovaki-vybirayut-podryadchika/
+- **Ako správne nastaviť Google Analytics 4 (GA4)**
+  - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
+- **Treba web po slovensky, keď sú klienti cudzojazyční?**
+  - https://whiteeagles.sk/sk/blog/nuzhen-li-sajt-na-slovackom/
+- **Povinné údaje na webe slovenskej firmy: úplný zoznam**
+  - https://whiteeagles.sk/sk/blog/obyazatelnye-rekvizity-sajta/
+- **Založenie s.r.o. v roku 2026: postup a čo sa mení 17. augusta**
+  - https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/
+- **Prijímanie platby kartou na webe: čo si vybrať v roku 2026**
+  - https://whiteeagles.sk/sk/blog/priem-oplaty-kartoy/
+- **Prečo lacný web zo zahraničia na Slovensku nepredáva**
+  - https://whiteeagles.sk/sk/blog/sajt-iz-minska-ne-prodaet/
+- **SEO audit: Ako skontrolovať váš web**
+  - https://whiteeagles.sk/sk/blog/seo-audit-check-website/
+- **Koľko stojí tvorba webstránky v roku 2026?**
+  - https://whiteeagles.sk/sk/blog/website-cost-2026/
+- **WordPress vs Vlastný web (Custom): Čo je lepšie?**
+  - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
+- **Živnosť alebo s.r.o.: čo si vybrať pri podnikaní v roku 2026**
+  - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
