@@ -65,6 +65,20 @@ Every URL below exists in all three languages - replace the `/sk/` segment with
     - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
     - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
 
+## Pricing
+
+Fixed per project, stated before the work starts.
+
+- Landing page: from €1,500
+- Company website: from €3,500
+- Online shop: from €5,000
+- Hourly rate: €35/hr for development work, €25/hr for advertising,
+  analytics, cookie banners and bots
+
+Every project includes analytics with conversion tracking, a Consent Mode v2
+cookie banner, the mandatory Slovak company details and six months of support.
+Average delivery is 10 working days.
+
 ## Contact
 
 - **Email**: welcome@whiteeagles.sk

@@ -84,35 +84,44 @@ Legal compliance without monthly fees.
 ### G. IT Blog & Knowledge Base
 *URL: /sk/blog*
 
-Professional articles and guides about web development, marketing, and SEO in Slovakia:
-- **Tvorba webu vs WordPress** (WordPress vs Custom Website):
-  - URL: https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
-- **Koľko stojí webstránka v 2026** (Website Cost in 2026):
-  - URL: https://whiteeagles.sk/sk/blog/website-cost-2026/
-- **Nastavenie Google Analytics 4**:
-  - URL: https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
-- **Cookie lišta a Consent Mode v2**:
-  - URL: https://whiteeagles.sk/sk/blog/cookie-lista-2026-povinnosti/
-- **Google Ads pre malé firmy**:
-  - URL: https://whiteeagles.sk/sk/blog/google-ads-small-business/
-- **SEO audit: Ako skontrolovať váš web**:
-  - URL: https://whiteeagles.sk/sk/blog/seo-audit-check-website/
+Guides on web development and on running a business in Slovakia. The complete
+list with titles is in section 6 below.
 
 ---
 
 ## 3. Portfolio Highlights
 
 - **Biliardovna**: Club website in Bratislava.
-- **Studio Krasy**: Beauty salon with booking integration.
+- **Studio Krasy**: Beauty salon with booking integration, in Slovak, Russian and Ukrainian.
 - **Top Sklad**: Warehouse rental service with complex space management.
+- **Synchro Žralok**: Sports club website in Slovak and English.
 - **Bodabo**: Wholesale e-shop for premium vanilla and coffee.
 
 ---
 
 ## 4. Pricing & Policies
 
-- **Pricing Model**: Transparent project-based pricing or hourly rates (starting at €25-35/hr).
+Prices are fixed per project and stated before the work starts.
+
+- **Landing page**: from €1,500 - one service, one offer, a page for an ad campaign.
+- **Company website**: from €3,500 - several services, portfolio, blog, multiple languages.
+- **Online shop**: from €5,000 - catalogue, cart, payment and delivery.
+- **Hourly rate**: **€35/hr** for development work, **€25/hr** for advertising,
+  analytics, cookie banners and Telegram bots.
+
+Other services start lower and are quoted per task: Google Ads setup from
+€1,000, analytics and tracking from €500, a Telegram bot from €500, a cookie
+banner with Consent Mode v2 from €200.
+
+What the price includes: a structure built around the client's business rather
+than a template, responsive layout, working forms, domain and hosting setup,
+the mandatory Slovak company details, a cookie banner with Consent Mode v2,
+GA4 and Tag Manager with conversion tracking, basic SEO setup and Search
+Console, and six months of technical support.
+
+- **Delivery time**: 10 working days on average, 90% of projects within 15.
 - **Payment Methods**: Invoice, Card, Crypto (USDT, BTC).
+- **Invoicing**: a Slovak faktúra with IČO/DIČ, deductible as a business expense.
 - **Support**: All developed projects come with a **6-month support guarantee**.
 
 ---
@@ -127,7 +136,7 @@ Ready to automate your business or build a new digital product?
 
 ---
 
-## Blog: guides for doing business in Slovakia
+## 6. Blog: guides for doing business in Slovakia
 
 Every article exists in Slovak and Russian. Replace `/sk/` with `/ru/` for
 the Russian version. The English blog is intentionally not indexed.
@@ -160,7 +169,7 @@ the Russian version. The English blog is intentionally not indexed.
   - https://whiteeagles.sk/sk/blog/sajt-iz-minska-ne-prodaet/
 - **SEO audit: Ako skontrolovať váš web**
   - https://whiteeagles.sk/sk/blog/seo-audit-check-website/
-- **Koľko stojí tvorba webstránky v roku 2026?**
+- **Koľko stojí web na Slovensku v roku 2026: ceny podľa typu a čo je v nich**
   - https://whiteeagles.sk/sk/blog/website-cost-2026/
 - **WordPress vs Vlastný web (Custom): Čo je lepšie?**
   - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
