@@ -77,6 +77,22 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   // The easiest way is to pass raw strings and render them client-side if needed, but let's try server side:
   const rawPoints = (t.raw(`${service.detailsKey}_points` as any) as string[]) || [];
 
+  // Only some services carry extended content. `t.has` avoids next-intl
+  // logging a MISSING_MESSAGE error for every service that does not.
+  const page = t.has(`services.${id}.page` as any)
+    ? (t.raw(`services.${id}.page` as any) as {
+        lead?: string;
+        process_title?: string;
+        process?: string[];
+        cases_title?: string;
+        cases?: string[];
+        geo_title?: string;
+        geo?: string;
+        faq_title?: string;
+        faq?: { q: string; a: string }[];
+      })
+    : null;
+
   const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
   const serviceTitle = t((service.internalTitleKey as any) || (service.titleKey as any));
   const serviceDescription = t((service.internalDescKey as any) || (service.descKey as any));
@@ -124,7 +140,18 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
           },
           "url": `https://whiteeagles.sk/${locale}/service/${id}/`
         }
-      }
+      },
+      ...(page?.faq?.length
+        ? [{
+            "@type": "FAQPage",
+            "@id": `https://whiteeagles.sk/${locale}/service/${id}/#faq`,
+            "mainEntity": page.faq.map((item) => ({
+              "@type": "Question",
+              "name": item.q,
+              "acceptedAnswer": { "@type": "Answer", "text": item.a },
+            })),
+          }]
+        : []),
     ]
   };
 
@@ -142,6 +169,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         <div className="detail-content">
           <div className="detail-header">
             <h1 className="detail-title">{t((service.internalTitleKey as any) || (service.titleKey as any))}</h1>
+            {page?.lead && <p className="detail-lead">{page.lead}</p>}
           </div>
 
           <div className="detail-card">
@@ -219,6 +247,54 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               title={t(service.titleKey as any)}
             />
           </div>
+
+          {page && (
+            <div className="detail-extended">
+              {page.process?.length ? (
+                <section className="detail-block">
+                  <h2>{page.process_title}</h2>
+                  <ol className="detail-steps">
+                    {page.process.map((step, i) => (
+                      <li key={i}>
+                        <span className="detail-step-num">{i + 1}</span>
+                        <span>{step}</span>
+                      </li>
+                    ))}
+                  </ol>
+                </section>
+              ) : null}
+
+              {page.cases?.length ? (
+                <section className="detail-block">
+                  <h2>{page.cases_title}</h2>
+                  <ul className="detail-cases">
+                    {page.cases.map((item, i) => <li key={i}>{item}</li>)}
+                  </ul>
+                </section>
+              ) : null}
+
+              {page.geo ? (
+                <section className="detail-block detail-geo">
+                  <h2>{page.geo_title}</h2>
+                  <p>{page.geo}</p>
+                </section>
+              ) : null}
+
+              {page.faq?.length ? (
+                <section className="detail-block">
+                  <h2>{page.faq_title}</h2>
+                  <div className="detail-faq">
+                    {page.faq.map((item, i) => (
+                      <details key={i} className="detail-faq-item">
+                        <summary>{item.q}</summary>
+                        <p>{item.a}</p>
+                      </details>
+                    ))}
+                  </div>
+                </section>
+              ) : null}
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -4,6 +4,17 @@ description: >-
   Poctivé porovnanie živnosti a s.r.o.: ručenie, cena a rýchlosť rozbehu, ako
   vás vnímajú klienti a čo na tomto rozhodnutí mení reforma od 17. augusta 2026.
 date: '2026-08-04'
+faq:
+  - q: 'Môžem mať živnosť aj s.r.o. súčasne?'
+    a: 'Áno, je to prípustné a stáva sa to. Daňové a odvodové dôsledky takejto kombinácie si však vopred prepočítajte s účtovníkom.'
+  - q: 'Čo sa lacnejšie ukončuje — živnosť alebo s.r.o.?'
+    a: 'Živnosť rýchlo a takmer zadarmo. s.r.o. vyžaduje likvidáciu: mesiace a citeľné náklady.'
+  - q: 'Musím byť rezident SR?'
+    a: 'Živnosť aj s.r.o. sú dostupné aj nerezidentom, požiadavky na doklady sa však líšia.'
+  - q: 'Je pravda, že s s.r.o. sa ľahšie získa úver?'
+    a: 'Nie automaticky. Banka sa pozerá na obraty a históriu, nie na formu. Nová s.r.o. bez obratov nemá lepšie šance než živnostník s dvoma rokmi stabilného príjmu.'
+  - q: 'Koľko platí živnostník na odvodoch v roku 2026?'
+    a: 'Minimálne 425,03 eura mesačne: 121,92 eura zdravotné poistenie a 303,11 eura sociálne. Je to približne 5 100 eur ročne bez ohľadu na zárobok.'
 ---
 ![Živnosť alebo s.r.o.: čo si vybrať pri podnikaní | White Eagles & Co.](/assets/blog/podniksro.webp)
 
@@ -41,7 +52,7 @@ Ak ste copywriter, dizajnér alebo konzultant a pracujete sám, maximálna škod
 
 Ak prevádzkujete sklad s cudzím tovarom, staviate, predávate potraviny, beriete zálohy na väčšie dodávky alebo zamestnávate ľudí — chyba môže stáť násobne viac, než ste zarobili. Tu sa osobné ručenie mení na reálne riziko pre rodinu, nie na riadok v zákone.
 
-[CTA_FORM]
+[CTA_FORM:consult]
 
 ## Cena a rýchlosť rozbehu
 
@@ -130,7 +141,7 @@ V B2B je rozdiel citeľný. Veľká slovenská firma, tender, spolupráca s vere
 
 A ešte jedna vec: **ako vás vnímajú, nezávisí len od formy**. Živnosť s poriadnym webom, e-mailom na vlastnej doméne a vyplneným profilom v Google pôsobí na klienta presvedčivejšie než s.r.o. s adresou na gmaile a bez webu. Právna forma je jeden riadok v údajoch, web je to, čo klient vidí ako prvé.
 
-[CTA_FORM]
+[CTA_FORM:webdev]
 
 ## Čo sa stane, keď podnikanie narastie
 
@@ -205,4 +216,4 @@ Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov
 
 **[Bezplatný SEO audit](/sk/seo-audit/)** — ak web už máte, prejdem ho a pošlem konkrétny zoznam dôvodov, prečo neprináša zákazníkov, do 3 pracovných dní. Ak web ešte nemáte, napíšte a pozrieme sa, čo vaše podnikanie potrebuje.
 
-[CTA_FORM]
+[CTA_FORM:audit]

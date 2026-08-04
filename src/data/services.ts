@@ -23,6 +23,10 @@ export const services: Service[] = [
     priceMin: 3500,
     image: '/assets/services/webdev.webp',
     detailsKey: 'services.webdev.details',
+    // The heading carries the city for the geo query; the short label on the
+    // home page card stays as it was.
+    internalTitleKey: 'services.webdev.internal_title',
+    internalDescKey: 'services.webdev.internal_desc',
     guaranteeKey: 'services.webdev.guarantee',
     seoTitleKey: 'services.webdev.seo_title',
     seoDescKey: 'services.webdev.seo_desc',

@@ -62,9 +62,59 @@
         "Vytvorenie účtov a pripojenie zdrojov: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
-      "seo_title": "Tvorba webstránok a e-shopov",
-      "seo_desc": "Profesionálna tvorba web stránok v Bratislave a na Slovensku. Webstránky na mieru, e-shopy a firemné portály. Záruka a podpora 6 mesiacov.",
-      "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava"
+      "seo_title": "Tvorba webstránok Bratislava — weby na mieru a e-shopy",
+      "seo_desc": "Tvorba webstránok v Bratislave a na celom Slovensku: firemné weby, e-shopy a rezervačné systémy na mieru. Vyše 12 spustených projektov, väčšina do 15 pracovných dní.",
+      "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava",
+      "page": {
+        "lead": "Robím weby pre firmy na Slovensku už viac ako desať rokov — z Bratislavy, ako slovenské s.r.o. a s faktúrou, ktorú si dáte do nákladov. Nie šablóny na kolene, ale stránky, cez ktoré chodia dopyty: rezervačné systémy, e-shopy, firemné weby. Väčšinu projektov odovzdávam do 15 pracovných dní.",
+        "process_title": "Ako to prebieha",
+        "process": [
+          "Rozhovor. Poviete, čo podnikanie potrebuje. Nepýtam si zadanie na štyridsať strán — návrh riešenia dodám ja.",
+          "Návrh a odsúhlasenie. Ukážem, ako to bude vyzerať a fungovať, a čo to bude stáť. Bez prekvapení v priebehu.",
+          "Vývoj s priebežnými ukážkami. Vidíte postup, nie hotovú vec na konci.",
+          "Spustenie. Doména, hosting, e-mail na vlastnej doméne, meranie, cookie lišta, firemný profil Google — všetko naraz, nie po častiach.",
+          "Šesť mesiacov podpory zadarmo. Monitoring, zálohy, aktualizácie, oprava chýb."
+        ],
+        "cases_title": "Čo som už postavil",
+        "cases": [
+          "Biliardovňa — web biliardového klubu v Bratislave s online rezerváciou stolov. Po spustení výrazne narástol počet rezervácií cez web.",
+          "Krása štúdio OK — salón krásy v Ružinove. Rezervačný systém prepojený s Telegramom: personál potvrdí termín jedným klikom, slot sa automaticky zablokuje. Žiadne tabuľky a telefonáty navyše.",
+          "Top Sklad a Top Kobka — prenájom skladových priestorov so správou voľných miest a rezerváciami.",
+          "Synchro Žralok — dvojjazyčný web klubu synchronizovaného plávania, obsah sa dopĺňa automaticky z verejného Instagramu.",
+          "Bodabo — veľkoobchodný e-shop s vanilkou, kávou a kakaovými bôbmi."
+        ],
+        "geo_title": "Prečo na tom, že som na Slovensku, záleží",
+        "geo": "Web nie je len dizajn. Slovenský zákazník má svoje zvyky pri výbere, svoje platobné metódy a svoje očakávania od firmy — a slovenský zákon má svoje požiadavky na povinné údaje, cookies a ochranu údajov. Štúdio, ktoré vám robí web zo zahraničia, o tom nevie a ani vedieť nemôže. Stretnúť sa v Bratislave môžeme osobne, faktúru dostanete so slovenským IČO, a keď treba niečo vybaviť na úrade alebo s dodávateľom, hovorím ich jazykom. S vami sa dohodneme po slovensky aj po rusky.",
+        "faq_title": "Časté otázky",
+        "faq": [
+          {
+            "q": "Koľko stojí tvorba webstránky?",
+            "a": "Hodinová sadzba je 35 €, menšie firemné weby začínajú okolo 3 500 €. Presnú cenu poviem po prvom rozhovore a už ju v priebehu nemením. Podrobný rozpis cien podľa typu webu nájdete v samostatnom článku."
+          },
+          {
+            "q": "Ako dlho trvá spustenie webu?",
+            "a": "Priemerne 10 pracovných dní, 90 % projektov odovzdávam do 15 pracovných dní. Väčší e-shop alebo portál trvá dlhšie a termín poviem vopred."
+          },
+          {
+            "q": "Musím pripraviť podrobné zadanie?",
+            "a": "Nie. Práve preto, že to väčšinu firiem zdržuje najviac, riešenie navrhujem ja na základe krátkeho rozhovoru o vašich cieľoch."
+          },
+          {
+            "q": "Na čom weby staviate — WordPress alebo na mieru?",
+            "a": "Podľa toho, čo dáva zmysel. WordPress tam, kde budete obsah spravovať sami a stačia hotové riešenia. Na mieru (PHP, Python, JS) tam, kde treba rýchlosť, neštandardnú funkčnosť alebo integrácie."
+          },
+          {
+            "q": "Čo je v cene okrem samotného webu?",
+            "a": "Nasadenie domény a hostingu, e-mail na vlastnej doméne, formuláre s ochranou proti spamu, meranie v GA4 a Tag Manageri, cookie lišta podľa Consent Mode v2, základné SEO nastavenie a šesť mesiacov technickej podpory."
+          },
+          {
+            "q": "Pracujete aj mimo Bratislavy?",
+            "a": "Áno, celé Slovensko aj okolité krajiny. V Bratislave sa vieme stretnúť osobne, so vzdialenejšími klientmi pracujem online — na kvalite to nič nemení."
+          }
+        ]
+      },
+      "internal_title": "Tvorba webstránok Bratislava",
+      "internal_desc": "Firemné weby, e-shopy a rezervačné systémy na mieru — z Bratislavy pre celé Slovensko."
     },
     "bugfix": {
       "title": "Oprava chýb a úpravy",
@@ -82,7 +132,56 @@
       "seo_desc": "Oprava webstránky na Slovensku: WordPress, PHP, JavaScript aj server. Odstránenie chýb, zrýchlenie a zabezpečenie. Väčšina porúch vyriešená v deň nahlásenia.",
       "seo_keywords": "oprava web stránok, údržba webu, wordpress podpora, zrýchlenie webu, odvírenie stránky, technická správa",
       "internal_title": "Oprava webstránky a WordPress webu",
-      "internal_desc": "Web nefunguje, spomalil sa alebo po aktualizácii vypísal chybu? Opravím WordPress aj stránky písané na mieru — PHP, JavaScript, serverovú časť. Väčšinu porúch riešim v deň nahlásenia."
+      "internal_desc": "Web nefunguje, spomalil sa alebo po aktualizácii vypísal chybu? Opravím WordPress aj stránky písané na mieru — PHP, JavaScript, serverovú časť. Väčšinu porúch riešim v deň nahlásenia.",
+      "page": {
+        "lead": "Web spadol, spomalil sa alebo po aktualizácii hádže chybu? Opravujem WordPress aj stránky písané na mieru — PHP, JavaScript, databázy aj serverovú časť. Väčšinu porúch riešim v deň, keď mi ich nahlásite.",
+        "process_title": "Ako opravujem",
+        "process": [
+          "Zistím, čo sa naozaj deje. Nie „skúsime preinštalovať“, ale nájdenie príčiny — v logoch, v kóde, na serveri.",
+          "Poviem, čo to je a koľko práce to bude, ešte pred zásahom.",
+          "Najprv záloha, potom oprava. Nikdy naopak.",
+          "Opravím a otestujem aj to, čo s problémom súvisí — poruchy chodia po skupinách.",
+          "Nastavím automatické zálohovanie, aby ďalšia porucha nebola drahá."
+        ],
+        "cases_title": "S čím ma volajú najčastejšie",
+        "cases": [
+          "Biela obrazovka po aktualizácii WordPressu alebo pluginu.",
+          "Web sa načítava pomaly a Google to zohľadňuje v pozíciách.",
+          "Formulár tvári sa, že odoslal, ale e-maily nikam nechodia.",
+          "Stránka napadnutá spamom, presmerovaniami alebo cudzím kódom.",
+          "Web funguje, ale meranie nie — v analytike sú len návštevy, žiadne dopyty.",
+          "Pôvodný dodávateľ zmizol a nikto nevie, kde web beží a kto má prístupy."
+        ],
+        "geo_title": "Prečo je dobré mať niekoho blízko",
+        "geo": "Keď web nefunguje, každý deň niečo stojí. Som v Bratislave, v rovnakom časovom pásme a s rovnakými pracovnými hodinami ako vy — nečakáte do rána, kým sa niekto na druhom konci sveta zobudí. Faktúru dostanete so slovenským IČO. A ak treba niečo riešiť s hostingom alebo registrátorom na Slovensku, hovorím s nimi ich jazykom.",
+        "faq_title": "Časté otázky",
+        "faq": [
+          {
+            "q": "Koľko stojí oprava webu?",
+            "a": "Hodinová sadzba 35 €. Väčšina bežných porúch je hodina až tri. Odhad poviem po diagnostike, ešte pred prácou."
+          },
+          {
+            "q": "Ako rýchlo to opravíte?",
+            "a": "Väčšinu porúch v deň nahlásenia. Ak ide o niečo zložitejšie, poviem termín hneď po diagnostike."
+          },
+          {
+            "q": "Opravíte aj web, ktorý ste nerobili?",
+            "a": "Prevažne takéto opravujem. WordPress, Shoptet, PHP, Python, JavaScript — na platforme nezáleží."
+          },
+          {
+            "q": "Potrebujete prístupy?",
+            "a": "Áno, do administrácie a ideálne aj na hosting cez FTP alebo SSH. Ak prístupy nemáte, pomôžem ich obnoviť."
+          },
+          {
+            "q": "Čo ak je web napadnutý?",
+            "a": "Najprv záloha aktuálneho stavu, potom odstránenie škodlivého kódu, uzavretie diery, cez ktorú sa dostal dnu, a nastavenie ochrany. Samotné vyčistenie bez zavretia diery je zbytočné."
+          },
+          {
+            "q": "Dáte na opravu záruku?",
+            "a": "Áno. Ak sa rovnaká porucha vráti, riešim ju bez ďalšej faktúry."
+          }
+        ]
+      }
     },
     "ads": {
       "title": "Reklamné kampane",
@@ -106,7 +205,52 @@
       ],
       "seo_title": "Správa Google Ads a PPC reklamy",
       "seo_desc": "Efektívne nastavenie Google Ads a reklamy na Facebooku/Instagrame. Získavanie klientov, optimalizácia rozpočtu a rast predaja.",
-      "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní"
+      "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní",
+      "page": {
+        "lead": "Reklama v Google Ads a na Meta dokáže priniesť dopyty už v prvý deň — na rozdiel od SEO, kde sa čaká mesiace. Podmienka je jedna: musí byť vidieť, čo sa vracia. Bez správne nastaveného merania sa rozpočet míňa naslepo a automatické stratégie sa nemajú z čoho učiť.",
+        "process_title": "Ako to robím",
+        "process": [
+          "Najprv meranie, potom kampane. Spúšťať reklamu bez sledovania konverzií znamená platiť za dáta, ktoré nikto nezbiera.",
+          "Audit konkurencie: na aké dopyty inzerujú, čo sľubujú a koľko to približne stojí.",
+          "Rozpočet vypočítaný z ceny za klik a reálnej konverznosti, nie odhadom.",
+          "Účty, kampane a inzeráty vrátane Merchant Center pri e-shopoch.",
+          "Prepojenie s GA4, Search Console a webom, aby sa konverzie vracali späť do systému.",
+          "Optimalizácia po nábehu dát a postupné škálovanie toho, čo funguje."
+        ],
+        "cases_title": "Kde sa rozpočet stráca najčastejšie",
+        "cases": [
+          "Kampaň beží, ale konverzie sa nemerajú — Google nemá podľa čoho optimalizovať a míňa na najlacnejšie kliky.",
+          "Široké zhody bez vylučujúcich slov: platíte za dopyty, ktoré s vaším podnikaním nesúvisia.",
+          "Reklama vedie na domovskú stránku namiesto na stránku o tej konkrétnej službe.",
+          "Rovnaký rozpočet na značkové aj nové dopyty — značka spotrebuje väčšinu a vyzerá to ako úspech.",
+          "Chýbajúci Consent Mode: časť konverzií sa vôbec nezapočíta a kampaň sa javí ako stratová."
+        ],
+        "geo_title": "Slovenský trh má svoje ceny",
+        "geo": "Ceny za klik, konkurencia aj správanie zákazníka sú na Slovensku iné než na väčších trhoch. Rozpočet skopírovaný z cudzieho návodu tu nefunguje. Pracujem tu viac ako desať rokov a viem, čo stojí klik vo vašom odbore a či sa vám reklama vôbec oplatí — a ak nie, poviem to skôr, než miniete peniaze.",
+        "faq_title": "Časté otázky",
+        "faq": [
+          {
+            "q": "Koľko stojí nastavenie kampaní?",
+            "a": "Hodinová sadzba 25 €, kompletné spustenie začína okolo 1 000 €. Rozpočet na samotnú reklamu je oddelený a platíte ho priamo Googlu alebo Meta."
+          },
+          {
+            "q": "Aký rozpočet potrebujem?",
+            "a": "Závisí od odboru a ceny za klik. Vypočítam ho z reálnych čísel vášho trhu a poviem, aká je minimálna suma, pod ktorou to nemá zmysel spúšťať."
+          },
+          {
+            "q": "Kedy uvidím prvé výsledky?",
+            "a": "Prvé dopyty môžu prísť v deň spustenia. Zmysluplné vyhodnotenie však potrebuje dva až štyri týždne dát."
+          },
+          {
+            "q": "Prečo trváte na meraní pred spustením?",
+            "a": "Pretože bez neho nikto nevie, ktoré kliky priniesli peniaze, a automatické stratégie sa nemajú z čoho učiť. Je to najdrahšia úspora v celom online marketingu."
+          },
+          {
+            "q": "Spravujete kampane aj priebežne?",
+            "a": "Áno. Po spustení má zmysel priebežná optimalizácia — bez nej kampaň časom stráca výkon."
+          }
+        ]
+      }
     },
     "analytics": {
       "title": "Webová analytika",
@@ -121,7 +265,52 @@
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
       "seo_title": "Webová analytika GA4 a GTM",
       "seo_desc": "Profesionálne nastavenie Google Analytics 4, Google Tag Manager a serverového merania. Získajte presné dáta o konverziách pre rast podnikania.",
-      "seo_keywords": "webová analytika, nastavenie ga4, google tag manager, server-side tracking, meranie konverzií, analýza návštevnosti"
+      "seo_keywords": "webová analytika, nastavenie ga4, google tag manager, server-side tracking, meranie konverzií, analýza návštevnosti",
+      "page": {
+        "lead": "Väčšina firiem má na webe analytiku, ktorá počíta návštevy, ale nevie povedať, koľko dopytov web priniesol. To nie je maličkosť: bez správneho merania sa rozhoduje odhadom a reklama sa optimalizuje naslepo. Nastavím GA4, Tag Manager a sledovanie konverzií tak, aby čísla zodpovedali skutočnosti.",
+        "process_title": "Čo nastavujem",
+        "process": [
+          "Audit toho, čo máte teraz. Veľmi často sa ukáže, že udalosti sa nikam neposielajú alebo sa počítajú dvakrát.",
+          "Google Tag Manager a GA4 vrátane Consent Mode v2, aby meranie fungovalo aj po zavedení cookie lišty.",
+          "Udalosti, na ktorých záleží: odoslanie formulára, klik na telefón, e-mail, WhatsApp, začatie objednávky.",
+          "Označenie kľúčových udalostí, aby sa dopyty zobrazovali v konverziách, nie len v zozname eventov.",
+          "Prepojenie s Google Ads a Search Console, aby bolo vidieť, čo prináša peniaze.",
+          "Microsoft Clarity na nahrávky a teplotné mapy — tam, kde čísla nestačia."
+        ],
+        "cases_title": "Čo sa najčastejšie nájde pri audite",
+        "cases": [
+          "Udalosti sa posielajú do dataLayer, ale v kontajneri chýba tag, ktorý ich odovzdá do GA4 — dopyty sa nemerajú vôbec.",
+          "GA4 je nasadené dvakrát: raz priamo cez gtag.js a raz cez Tag Manager. Návštevy sú zdvojené.",
+          "Formulár posiela udalosť „purchase“ s cenou, hoci nikto nič nezaplatil — a v prehľadoch svieti neexistujúci obrat.",
+          "Kľúčová udalosť nie je označená, takže v konverziách je nula napriek tomu, že dopyty chodia.",
+          "Cookie lišta blokuje meranie aj tam, kde to nie je potrebné, a dáta sa strácajú."
+        ],
+        "geo_title": "Meranie a slovenské pravidlá",
+        "geo": "Meranie na Slovensku nie je len technická úloha. Bez správne nastaveného súhlasu podľa Consent Mode v2 prichádzate o dáta a Google obmedzí remarketing — a zároveň musí byť súhlas v takej podobe, akú vyžadujú európske pravidlá. Nastavujem oboje naraz, aby ste neriešili jedno na úkor druhého.",
+        "faq_title": "Časté otázky",
+        "faq": [
+          {
+            "q": "Koľko stojí nastavenie analytiky?",
+            "a": "Hodinová sadzba 25 €, kompletné nastavenie pre bežný firemný web začína okolo 500 €. Presnú cenu poviem po krátkom audite toho, čo už máte."
+          },
+          {
+            "q": "Ako dlho to trvá?",
+            "a": "Bežný web dva až päť pracovných dní vrátane testovania. E-shop s meraním nákupov dlhšie."
+          },
+          {
+            "q": "Ako zistím, že meranie naozaj funguje?",
+            "a": "Ukážem vám prijaté udalosti priamo v prehľade v reálnom čase a prejdeme spolu, čo ktorá znamená."
+          },
+          {
+            "q": "Potrebujem serverové meranie?",
+            "a": "Nie každý. Má zmysel pri väčších e-shopoch a tam, kde blokovače reklám ukrajujú veľkú časť dát. Poviem úprimne, či sa vám to oplatí."
+          },
+          {
+            "q": "Prídem o historické dáta?",
+            "a": "Nie. Nastavenie nemení to, čo už je nazbierané. Mení sa len to, čo sa zbiera odteraz."
+          }
+        ]
+      }
     },
     "cookies": {
       "title": "Cookie Consent Mode V2",
@@ -136,7 +325,52 @@
       ],
       "seo_title": "Cookie lišta a Consent Mode v2",
       "seo_desc": "Inštalácia a nastavenie Cookie lišty s podporou Google Consent Mode v2 v Bratislave. Splňte požiadavky GDPR bez mesačných poplatkov za pluginy.",
-      "seo_keywords": "cookie lišta, consent mode v2, gdpr slovensko, nastavenie cookies, súhlas so spracovaním údajov"
+      "seo_keywords": "cookie lišta, consent mode v2, gdpr slovensko, nastavenie cookies, súhlas so spracovaním údajov",
+      "page": {
+        "lead": "Ak máte na webe analytiku alebo reklamu, súhlas so spracovaním cookies je povinný — a nie hocijaký. Google od marca 2024 vyžaduje Consent Mode v2, a bez neho prichádzate o dáta a remarketing sa obmedzí. Robím vlastnú lištu, ktorá spĺňa pravidlá a nestojí mesačné predplatné.",
+        "process_title": "Čo dodám",
+        "process": [
+          "Lišta v štýle vášho webu, nie cudzí modul nalepený navrch.",
+          "Consent Mode v2 správne prepojený s Google Analytics, Tag Managerom a reklamnými účtami.",
+          "Rozdelenie súhlasov na analytické, reklamné a funkčné — nie jedno tlačidlo „súhlasím so všetkým“.",
+          "Uloženie voľby návštevníka a možnosť ju kedykoľvek zmeniť.",
+          "Otestovanie na viac než pätnástich scenároch: prijatie, odmietnutie, čiastočný súhlas, opakovaná návšteva.",
+          "Text zásad používania cookies na samostatnej stránke."
+        ],
+        "cases_title": "Prečo nie hotový plugin",
+        "cases": [
+          "Hotové riešenia stoja mesačné predplatné, ktoré platíte navždy — vlastná lišta je jednorazová položka.",
+          "Väčšina pluginov blokuje meranie viac, než musí, a vy prichádzate o dáta aj tam, kde súhlas máte.",
+          "Cudzí modul spomaľuje načítanie webu, čo Google zohľadňuje v pozíciách.",
+          "Pri hotovom riešení nemáte kontrolu nad tým, kedy sa čo spustí — a práve to rozhoduje o tom, či Consent Mode funguje.",
+          "Dizajn sa nedá zladiť s webom bez ďalšieho príplatku."
+        ],
+        "geo_title": "Európske pravidlá, nie slovenské",
+        "geo": "Povinnosť pýtať si súhlas nevychádza zo slovenského zákona, ale z európskych pravidiel — GDPR a smernice o súkromí v elektronických komunikáciách. Slovensko ich preberá, no vykladajú sa v celej Únii rovnako. Prakticky to znamená, že súhlas musí byť dobrovoľný, konkrétny a odvolateľný, a merať sa smie až po ňom. Nastavujem to tak, aby ste zároveň spĺňali pravidlá a neprichádzali o dáta zbytočne.",
+        "faq_title": "Časté otázky",
+        "faq": [
+          {
+            "q": "Koľko stojí cookie lišta?",
+            "a": "Od 200 €, jednorazovo. Žiadne mesačné predplatné."
+          },
+          {
+            "q": "Musím ju mať, keď mám len Google Analytics?",
+            "a": "Áno. Analytické cookies tiež vyžadujú súhlas. Výnimkou sú len nevyhnutné technické cookies."
+          },
+          {
+            "q": "Čo sa stane, ak lištu nemám?",
+            "a": "Riskujete pokutu od dozorného úradu a zároveň Google obmedzí remarketing a časť konverzií sa vôbec nezapočíta."
+          },
+          {
+            "q": "Nepokazí mi to štatistiky?",
+            "a": "Časť dát pri odmietnutí prirodzene stratíte, ale Consent Mode v2 umožňuje modelovanie a chýbajúce dáta dopĺňa. Zle nastavená lišta stratí oveľa viac."
+          },
+          {
+            "q": "Ako dlho to trvá?",
+            "a": "Zvyčajne dva až tri pracovné dni vrátane testovania."
+          }
+        ]
+      }
     },
     "telegram": {
       "title": "Vývoj botov v Pythone",
@@ -155,7 +389,50 @@
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
       "seo_title": "Vývoj Telegram botov v Pythone",
       "seo_desc": "Vývoj pokročilých Telegram botov v Pythone na Slovensku. Auto-posting na Bazoš, správa dopytov, parsovanie dát a efektívna automatizácia rutiny.",
-      "seo_keywords": "telegram bot, python programovanie, automatizácia firmy, bot pre bazoš, parsovanie dát, chatbot na mieru"
+      "seo_keywords": "telegram bot, python programovanie, automatizácia firmy, bot pre bazoš, parsovanie dát, chatbot na mieru",
+      "page": {
+        "lead": "Bot nie je hračka, ale spôsob, ako prestať robiť rukami to, čo sa dá robiť samo. Píšem boty v Pythone, ktoré spravujú dopyty a rezervácie, rozposielajú správy a automaticky pridávajú inzeráty na Bazoš — bez toho, aby ste sedeli pri počítači.",
+        "process_title": "Čo boty riešia",
+        "process": [
+          "Dopyty z webu chodia rovno do chatu. Potvrdenie alebo zrušenie jedným tlačidlom, bez prihlasovania do administrácie.",
+          "Rezervácie: bot drží kalendár, blokuje obsadené termíny a upozorní klienta e-mailom.",
+          "Automatické pridávanie inzerátov na Bazoš — inzeráty sa obnovujú samy podľa rozvrhu.",
+          "Rozposielanie správ po databáze kontaktov.",
+          "Zbieranie dát o konkurencii a publiku na cielenie reklamy.",
+          "Upozornenia na to, čo sa deje na webe: výpadok, chyba formulára, nový dopyt."
+        ],
+        "cases_title": "Ako to vyzerá v praxi",
+        "cases": [
+          "Krása štúdio OK — rezervačný systém salónu prepojený s Telegramom. Klient si vyberie termín, personálu príde správa, jedným klikom potvrdí a slot sa zablokuje. Žiadne tabuľky, žiadne telefonáty navyše.",
+          "Bot na automatické pridávanie inzerátov na Bazoš pre firmy, ktoré tam predávajú pravidelne — obnovovanie ručne stojí hodiny týždenne.",
+          "Notifikácie o nových dopytoch z webu priamo do chatu, aby sa neodpovedalo o deň neskôr."
+        ],
+        "geo_title": "Prečo Bazoš a Telegram práve tu",
+        "geo": "Bazoš je na Slovensku miesto, kde ľudia reálne hľadajú, a firmy, ktoré tam inzerujú pravidelne, strávia obnovovaním inzerátov hodiny týždenne. Automatizovať sa to dá — len o tom málokto vie. To isté platí pre Telegram: ako pracovný nástroj je tu rozšírený a nič sa doň nemusí kupovať. Robím riešenia pre tento trh, nie univerzálne šablóny.",
+        "faq_title": "Časté otázky",
+        "faq": [
+          {
+            "q": "Koľko stojí bot?",
+            "a": "Hodinová sadzba 25 €, jednoduchší bot začína okolo 500 €. Cena závisí od toho, koľko systémov má prepojiť."
+          },
+          {
+            "q": "Kde bot beží a čo to stojí mesačne?",
+            "a": "Na vašom serveri alebo na mojom. Prevádzka je lacná — rádovo jednotky eur mesačne, a poviem presne, koľko."
+          },
+          {
+            "q": "Je automatické pridávanie na Bazoš v poriadku?",
+            "a": "Bot robí to isté, čo by ste robili ručne, len podľa rozvrhu. Rešpektuje pravidlá portálu a rozumné intervaly."
+          },
+          {
+            "q": "Čo ak bot spadne?",
+            "a": "Nastavujem monitoring, ktorý mi dá vedieť skôr než vám. V šiestich mesiacoch podpory sú takéto zásahy zahrnuté."
+          },
+          {
+            "q": "Prepojíte bota s existujúcim webom?",
+            "a": "Áno, aj s webom, ktorý som nerobil, pokiaľ je k nemu prístup."
+          }
+        ]
+      }
     }
   },
   "portfolio": {
@@ -445,5 +722,47 @@
         "a": "Tak vám to napíšem. Stáva sa to zriedka, ale stáva. Vtedy sa bavíme o obsahu a o tom, ako získať viac dopytov, nie o opravách."
       }
     ]
+  },
+  "cta": {
+    "consult": {
+      "title": "Poradíme sa o vašom projekte?",
+      "text": "Napíšte pár viet o tom, čo potrebujete. Ozvem sa do 24 hodín, bez záväzku.",
+      "button": "Bezplatná konzultácia"
+    },
+    "webdev": {
+      "title": "Potrebujete nový web?",
+      "text": "Firemný web, e-shop alebo rezervačný systém. Väčšinu projektov odovzdávam do 15 pracovných dní.",
+      "button": "Chcem web na mieru"
+    },
+    "bugfix": {
+      "title": "Web nefunguje alebo spomalil?",
+      "text": "WordPress aj stránky na mieru. Väčšinu porúch riešim v deň nahlásenia.",
+      "button": "Opraviť web"
+    },
+    "audit": {
+      "title": "Chcete vedieť, čo brzdí váš web?",
+      "text": "Prejdem ho tak, ako ho vidí Google, a pošlem konkrétny zoznam do 3 pracovných dní.",
+      "button": "Audit zdarma"
+    },
+    "analytics": {
+      "title": "Viete, koľko dopytov vám web naozaj priniesol?",
+      "text": "Nastavím GA4, Tag Manager a meranie konverzií, aby čísla zodpovedali skutočnosti.",
+      "button": "Nastaviť analytiku"
+    },
+    "cookies": {
+      "title": "Máte cookie lištu podľa pravidiel?",
+      "text": "Vlastné riešenie s Consent Mode v2, bez mesačného predplatného za plugin.",
+      "button": "Riešiť cookies"
+    },
+    "ads": {
+      "title": "Chcete spustiť reklamu?",
+      "text": "Google Ads a Meta so správne nastaveným meraním, aby bolo vidieť, čo sa vracia.",
+      "button": "Spustiť kampaň"
+    },
+    "bot": {
+      "title": "Automatizovali by ste rutinu?",
+      "text": "Python boty na správu dopytov, rezervácie aj automatické pridávanie inzerátov na Bazoš.",
+      "button": "Chcem bota"
+    }
   }
 }

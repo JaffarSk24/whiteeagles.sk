@@ -4,6 +4,11 @@ import matter from 'gray-matter';
 
 const contentDir = path.join(process.cwd(), 'src', 'content', 'blog');
 
+export interface BlogFaqItem {
+  q: string;
+  a: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -11,6 +16,12 @@ export interface BlogPost {
   date: string;
   content: string;
   locale: string;
+  /**
+   * Questions declared in front matter. They are emitted as FAQPage markup,
+   * which is what puts an article into the "People also ask" block - the
+   * prose alone does not do it.
+   */
+  faq: BlogFaqItem[];
 }
 
 export function getPostBySlug(slug: string, locale: string): BlogPost | null {
@@ -24,13 +35,18 @@ export function getPostBySlug(slug: string, locale: string): BlogPost | null {
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
     
+    const faq: BlogFaqItem[] = Array.isArray(data.faq)
+      ? data.faq.filter((item: BlogFaqItem) => item && item.q && item.a)
+      : [];
+
     return {
       slug,
       title: data.title,
       description: data.description,
       date: data.date,
       content,
-      locale
+      locale,
+      faq
     };
   } catch (error) {
     console.error(`Error reading post ${slug} in locale ${locale}:`, error);

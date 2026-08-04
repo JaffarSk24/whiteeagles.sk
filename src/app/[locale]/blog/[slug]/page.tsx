@@ -76,8 +76,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
     notFound();
   }
   
-  const tAudit = await getTranslations({ locale, namespace: 'audit' });
+  const tCta = await getTranslations({ locale, namespace: 'cta' });
   let ctaIndex = 0;
+
+  // Articles pick which offer each form makes: [CTA_FORM:webdev] and so on.
+  // A bare [CTA_FORM] falls back to a soft consultation rather than pushing
+  // the same free audit three times down one page.
+  const CTA_VARIANTS = ['consult', 'webdev', 'bugfix', 'audit', 'analytics', 'cookies', 'ads', 'bot'];
 
   const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
   const blogName = locale === "ru" ? "Блог" : locale === "sk" ? "Blog" : "Blog";
@@ -137,7 +142,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             "url": "https://whiteeagles.sk/assets/white-eagles-logo-white.webp"
           }
         }
-      }
+      },
+      // Only emitted when the article actually declares questions, so the
+      // markup never claims content the page does not have.
+      ...(post.faq.length
+        ? [{
+            "@type": "FAQPage",
+            "@id": `https://whiteeagles.sk/${locale}/blog/${slug}/#faq`,
+            "mainEntity": post.faq.map((item) => ({
+              "@type": "Question",
+              "name": item.q,
+              "acceptedAnswer": { "@type": "Answer", "text": item.a },
+            })),
+          }]
+        : []),
     ]
   };
 
@@ -167,14 +185,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                     ? children
                     : null;
 
-                  if (raw && raw.trim() === '[CTA_FORM]') {
+                  const cta = raw && raw.trim().match(/^\[CTA_FORM(?::([a-z]+))?\]$/);
+                  if (cta) {
                     ctaIndex += 1;
+                    const variant = CTA_VARIANTS.includes(cta[1] ?? '') ? cta[1]! : 'consult';
                     return (
                       <AuditCTA
-                        title={t('cta_title')}
-                        text={tAudit('cta_text')}
-                        buttonText={t('cta_button')}
-                        position={`blog_${slug}_${ctaIndex}`}
+                        title={tCta(`${variant}.title` as any)}
+                        text={tCta(`${variant}.text` as any)}
+                        buttonText={tCta(`${variant}.button` as any)}
+                        position={`blog_${slug}_${ctaIndex}_${variant}`}
                       />
                     );
                   }

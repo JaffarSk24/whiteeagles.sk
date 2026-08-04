@@ -62,9 +62,59 @@
         "Account creation and resource connection: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Custom Web & E-commerce Dev",
-      "seo_desc": "Professional web development in Bratislava and Slovakia. Custom websites, e-shops, and corporate portals. 6-month support guarantee.",
-      "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site"
+      "seo_title": "Web development in Bratislava — custom sites and online shops",
+      "seo_desc": "Web development in Bratislava and across Slovakia: company websites, online shops and booking systems built to order. 12+ launched projects, most within 15 working days.",
+      "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site",
+      "page": {
+        "lead": "I have been building websites for companies in Slovakia for over ten years — from Bratislava, as a Slovak company, with an invoice you can put through your books. Not templates thrown together, but sites that bring in enquiries: booking systems, online shops, company websites. Most projects ship within 15 working days.",
+        "process_title": "How it works",
+        "process": [
+          "A conversation. You tell me what the business needs. I do not ask for a forty-page brief — I propose the solution.",
+          "Proposal and sign-off. I show how it will look and work, and what it will cost. No surprises along the way.",
+          "Development with progress reviews. You see it taking shape rather than a finished thing at the end.",
+          "Launch. Domain, hosting, mail on your own domain, tracking, cookie consent, Google profile — all at once, not in pieces.",
+          "Six months of support included. Monitoring, backups, updates, bug fixes."
+        ],
+        "cases_title": "What I have built",
+        "cases": [
+          "Biliardovňa — a billiard club in Bratislava with online table booking. Bookings through the site rose markedly after launch.",
+          "Krása štúdio OK — a beauty salon in Ružinov. A booking system wired to Telegram: staff confirm an appointment with one tap and the slot locks automatically.",
+          "Top Sklad and Top Kobka — storage space rental with availability management and reservations.",
+          "Synchro Žralok — a bilingual site for a synchronised swimming club, with content pulled automatically from public Instagram.",
+          "Bodabo — a wholesale shop for vanilla, coffee and cocoa beans."
+        ],
+        "geo_title": "Why being in Slovakia matters",
+        "geo": "A website is not only design. Slovak buyers have their own habits, payment methods and expectations, and Slovak law has its own requirements on company details, cookies and data protection. A studio building your site from another country cannot know that. In Bratislava we can meet in person, the invoice carries a Slovak company number, and when something has to be sorted with an authority or a supplier, I speak their language.",
+        "faq_title": "Frequently asked questions",
+        "faq": [
+          {
+            "q": "How much does a website cost?",
+            "a": "The hourly rate is 35 EUR and smaller company sites start around 3,500 EUR. I quote after the first conversation and do not change it mid-project."
+          },
+          {
+            "q": "How long does it take?",
+            "a": "Ten working days on average, with 90% of projects delivered within 15. A larger shop or portal takes longer and I say so upfront."
+          },
+          {
+            "q": "Do I need to prepare a detailed brief?",
+            "a": "No. That is exactly what holds most companies up, so I propose the solution based on a short conversation about your goals."
+          },
+          {
+            "q": "WordPress or custom-built?",
+            "a": "Whichever fits. WordPress where you will manage content yourself and ready-made solutions suffice. Custom (PHP, Python, JS) where speed, unusual functionality or integrations are needed."
+          },
+          {
+            "q": "What is included beyond the site itself?",
+            "a": "Domain and hosting setup, mail on your own domain, spam-protected forms, GA4 and Tag Manager tracking, a Consent Mode v2 cookie banner, basic SEO setup and six months of technical support."
+          },
+          {
+            "q": "Do you work outside Bratislava?",
+            "a": "Yes, across Slovakia and neighbouring countries. In Bratislava we can meet in person; with remote clients I work online, and it makes no difference to the result."
+          }
+        ]
+      },
+      "internal_title": "Web development in Bratislava",
+      "internal_desc": "Company websites, online shops and booking systems built to order — from Bratislava, across Slovakia."
     },
     "bugfix": {
       "title": "Bugfix & Maintenance",
@@ -82,7 +132,56 @@
       "seo_desc": "Website repair in Slovakia: WordPress, PHP, JavaScript and server side. Fixing errors, speeding sites up and securing them. Most faults resolved the same day.",
       "seo_keywords": "website bug fix, website maintenance, wordpress support, fix php errors, site speed optimization",
       "internal_title": "Website and WordPress repair",
-      "internal_desc": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, server side. Most faults are resolved the same day they are reported."
+      "internal_desc": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, server side. Most faults are resolved the same day they are reported.",
+      "page": {
+        "lead": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, databases and server side. Most faults are resolved the same day they are reported.",
+        "process_title": "How I work",
+        "process": [
+          "Find out what is actually happening — in the logs, the code, the server. Not 'let us try reinstalling'.",
+          "Tell you what it is and how much work it is, before touching anything.",
+          "Back up first, fix second. Never the other way round.",
+          "Fix it and check what sits next to it — faults travel in groups.",
+          "Set up automated backups so the next fault is not expensive."
+        ],
+        "cases_title": "What I get called about",
+        "cases": [
+          "A white screen after a WordPress or plugin update.",
+          "A site loading slowly, which Google reflects in rankings.",
+          "A form that appears to submit while no email arrives anywhere.",
+          "A site infected with spam, redirects or someone else's code.",
+          "A working site with broken measurement — analytics shows visits but no enquiries.",
+          "The previous supplier vanished and nobody knows where the site runs or who holds the access."
+        ],
+        "geo_title": "Why having someone nearby helps",
+        "geo": "When a site is down, every day costs something. I am in Bratislava, in your time zone and on your working hours — no waiting until morning for someone on the other side of the world to wake up. The invoice carries a Slovak company number, and when something has to be sorted with a Slovak host or registrar, I speak their language.",
+        "faq_title": "Frequently asked questions",
+        "faq": [
+          {
+            "q": "How much does a fix cost?",
+            "a": "The hourly rate is 35 EUR. Most ordinary faults take one to three hours. I estimate after diagnosis, before starting."
+          },
+          {
+            "q": "How fast can you fix it?",
+            "a": "Most faults the same day. For anything more involved I give a date right after diagnosis."
+          },
+          {
+            "q": "Will you fix a site you did not build?",
+            "a": "Mostly those. WordPress, Shoptet, PHP, Python, JavaScript — the platform does not matter."
+          },
+          {
+            "q": "Do you need access?",
+            "a": "Yes, to the admin and ideally the hosting over FTP or SSH. If you have lost the access, I can help recover it."
+          },
+          {
+            "q": "What if the site is hacked?",
+            "a": "Back up the current state, remove the malicious code, close the hole it came through, then set up protection. Cleaning without closing the hole is pointless."
+          },
+          {
+            "q": "Is there a guarantee?",
+            "a": "Yes. If the same fault returns, I deal with it without another invoice."
+          }
+        ]
+      }
     },
     "ads": {
       "title": "Advertising Campaigns",
@@ -106,7 +205,52 @@
       ],
       "seo_title": "Google Ads & PPC Campaign Management",
       "seo_desc": "Professional Google Ads and Facebook/Instagram advertising campaigns setup in Slovakia. Get more customers, optimize budget, and grow your sales.",
-      "seo_keywords": "google ads slovakia, facebook ads setup, ppc specialist bratislava, instagram promotion, contextual advertising"
+      "seo_keywords": "google ads slovakia, facebook ads setup, ppc specialist bratislava, instagram promotion, contextual advertising",
+      "page": {
+        "lead": "Google Ads and Meta can bring enquiries on day one, unlike SEO where results take months. There is one condition: it has to be visible what comes back. Without tracking wired up properly the budget goes out blind and automated bidding has nothing to learn from.",
+        "process_title": "How I work",
+        "process": [
+          "Measurement first, campaigns second. Running ads without conversion tracking means paying for data nobody collects.",
+          "A look at competitors: what they bid on, what they promise and roughly what it costs.",
+          "A budget calculated from click prices and real conversion rates rather than guessed.",
+          "Accounts, campaigns and creatives, including Merchant Center for shops.",
+          "Links to GA4, Search Console and the site, so conversions feed back into the system.",
+          "Optimisation once data accumulates, then scaling what works."
+        ],
+        "cases_title": "Where budget usually leaks",
+        "cases": [
+          "A campaign running without conversion tracking — Google has nothing to optimise towards and spends on the cheapest clicks.",
+          "Broad match with no negatives: paying for queries unrelated to the business.",
+          "Ads pointing at the home page instead of the page about that specific service.",
+          "One budget covering brand and non-brand queries — brand eats most of it and it looks like success.",
+          "No Consent Mode, so a share of conversions is never counted and the campaign looks unprofitable."
+        ],
+        "geo_title": "The Slovak market has its own prices",
+        "geo": "Click prices, competition and buyer behaviour in Slovakia differ from larger markets. A budget copied from a foreign guide does not work here. I have worked here for over ten years and know what a click costs in your field and whether ads make sense at all — and if they do not, I say so before you spend.",
+        "faq_title": "Frequently asked questions",
+        "faq": [
+          {
+            "q": "What does campaign setup cost?",
+            "a": "The hourly rate is 25 EUR and a full launch starts around 1,000 EUR. Ad spend is separate and paid directly to Google or Meta."
+          },
+          {
+            "q": "What budget do I need?",
+            "a": "It depends on the field and click prices. I calculate it from real figures for your market and name the minimum below which launching is pointless."
+          },
+          {
+            "q": "When will I see results?",
+            "a": "First enquiries can arrive on launch day, but a meaningful read needs two to four weeks of data."
+          },
+          {
+            "q": "Why insist on tracking before launch?",
+            "a": "Because without it nobody knows which clicks brought money, and automated bidding has nothing to learn from. It is the most expensive saving in online marketing."
+          },
+          {
+            "q": "Do you manage campaigns ongoing?",
+            "a": "Yes. After launch continuous optimisation matters — without it a campaign loses performance over time."
+          }
+        ]
+      }
     },
     "analytics": {
       "title": "Web Analytics",
@@ -121,7 +265,52 @@
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
       "seo_title": "Web Analytics: GA4 & GTM Setup",
       "seo_desc": "Professional setup of Google Analytics 4, Google Tag Manager, and Server-Side tracking. Get accurate conversion data for your business growth.",
-      "seo_keywords": "web analytics, ga4 setup, google tag manager, server-side gtm, website tracking, conversion tracking"
+      "seo_keywords": "web analytics, ga4 setup, google tag manager, server-side gtm, website tracking, conversion tracking",
+      "page": {
+        "lead": "Most companies run analytics that counts visits but cannot say how many enquiries the site produced. That is not a detail: without proper measurement decisions are guesswork and ad spend is optimised blind. I set up GA4, Tag Manager and conversion tracking so the numbers match reality.",
+        "process_title": "What I set up",
+        "process": [
+          "An audit of what you have. Very often events turn out to go nowhere, or to be counted twice.",
+          "Google Tag Manager and GA4 with Consent Mode v2, so measurement survives the cookie banner.",
+          "The events that matter: form submissions, phone, email and WhatsApp clicks, checkout starts.",
+          "Marking key events, so enquiries appear as conversions rather than sitting in a list.",
+          "Links to Google Ads and Search Console, so it is visible what brings money.",
+          "Microsoft Clarity for recordings and heatmaps, where numbers are not enough."
+        ],
+        "cases_title": "What audits usually turn up",
+        "cases": [
+          "Events pushed to the dataLayer with no GA4 tag in the container to forward them — enquiries are not measured at all.",
+          "GA4 loaded twice, once directly and once through Tag Manager, doubling every page view.",
+          "A form firing a 'purchase' event with a value when nobody paid, putting revenue that never existed into the reports.",
+          "A key event left unmarked, so conversions read zero while enquiries keep arriving.",
+          "A cookie banner blocking measurement where it need not, quietly losing data."
+        ],
+        "geo_title": "Measurement and European rules",
+        "geo": "Analytics in Slovakia is not purely technical. Without consent wired up per Consent Mode v2 you lose data and Google restricts remarketing — and the consent itself has to take the form European rules require. I set up both at once, so neither is sacrificed for the other.",
+        "faq_title": "Frequently asked questions",
+        "faq": [
+          {
+            "q": "What does an analytics setup cost?",
+            "a": "The hourly rate is 25 EUR, and a full setup for an ordinary company site starts around 500 EUR. I quote after a short audit of what you already have."
+          },
+          {
+            "q": "How long does it take?",
+            "a": "Two to five working days for an ordinary site including testing. Longer for a shop with purchase tracking."
+          },
+          {
+            "q": "How will I know measurement actually works?",
+            "a": "I show you the events arriving in the real-time report and we go through what each one means."
+          },
+          {
+            "q": "Do I need server-side tracking?",
+            "a": "Not everyone does. It pays off for larger shops and where ad blockers eat a meaningful share of the data. I will tell you honestly whether it is worth it for you."
+          },
+          {
+            "q": "Will I lose historical data?",
+            "a": "No. The setup does not change what has already been collected, only what is collected from now on."
+          }
+        ]
+      }
     },
     "cookies": {
       "title": "Cookie Consent Mode V2",
@@ -136,7 +325,52 @@
       ],
       "seo_title": "Cookie Banner & Consent Mode v2",
       "seo_desc": "Setup and integration of custom Cookie banner with Google Consent Mode v2. Comply with GDPR guidelines without monthly paid subscription plugins.",
-      "seo_keywords": "cookie banner, consent mode v2, gdpr slovakia, cookie setup, google consent mode"
+      "seo_keywords": "cookie banner, consent mode v2, gdpr slovakia, cookie setup, google consent mode",
+      "page": {
+        "lead": "If your site runs analytics or advertising, cookie consent is mandatory — and not just any consent. Since March 2024 Google requires Consent Mode v2; without it you lose data and remarketing is restricted. I build a custom banner that meets the rules and carries no monthly subscription.",
+        "process_title": "What you get",
+        "process": [
+          "A banner in your site's own style, not a third-party module bolted on top.",
+          "Consent Mode v2 wired correctly into Google Analytics, Tag Manager and the ad accounts.",
+          "Consent split into analytics, advertising and functional — not one 'accept everything' button.",
+          "The visitor's choice stored, and changeable at any time.",
+          "Testing across more than fifteen scenarios: accept, reject, partial consent, repeat visit.",
+          "A cookie policy page written to match."
+        ],
+        "cases_title": "Why not an off-the-shelf plugin",
+        "cases": [
+          "Ready-made tools charge a monthly subscription forever; a custom banner is a one-off.",
+          "Most plugins block measurement more than they need to, losing data even where consent was given.",
+          "A third-party module slows the site down, which Google reflects in rankings.",
+          "With a ready-made tool you do not control what fires when — and that is exactly what decides whether Consent Mode works.",
+          "The design cannot be matched to the site without paying extra."
+        ],
+        "geo_title": "European rules, not Slovak ones",
+        "geo": "The duty to ask for consent does not come from Slovak law but from European rules — GDPR and the ePrivacy directive. Slovakia adopts them, but they are read the same way across the Union. In practice consent must be freely given, specific and revocable, and measurement may only start afterwards. I set it up so you meet the rules and do not lose data needlessly.",
+        "faq_title": "Frequently asked questions",
+        "faq": [
+          {
+            "q": "What does a cookie banner cost?",
+            "a": "From 200 EUR, one-off. No monthly subscription."
+          },
+          {
+            "q": "Do I need one if I only run Google Analytics?",
+            "a": "Yes. Analytics cookies require consent too. Only strictly necessary technical cookies are exempt."
+          },
+          {
+            "q": "What happens without one?",
+            "a": "You risk a fine from the supervisory authority, and Google restricts remarketing while a share of conversions goes uncounted."
+          },
+          {
+            "q": "Will it ruin my statistics?",
+            "a": "Some data is naturally lost on refusal, but Consent Mode v2 allows modelling to fill the gap. A badly configured banner loses far more."
+          },
+          {
+            "q": "How long does it take?",
+            "a": "Usually two to three working days including testing."
+          }
+        ]
+      }
     },
     "telegram": {
       "title": "Python Bot Development",
@@ -155,7 +389,50 @@
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
       "seo_title": "Python Telegram Bot Development",
       "seo_desc": "Professional Python Telegram bot development. Auto-posting to Bazos, request management, data parsing, and effective business process automation.",
-      "seo_keywords": "telegram bot development, python bot, business automation, bazos bot, data parsing, custom chatbots"
+      "seo_keywords": "telegram bot development, python bot, business automation, bazos bot, data parsing, custom chatbots",
+      "page": {
+        "lead": "A bot is not a toy but a way to stop doing by hand what can run itself. I write Python bots that handle enquiries and bookings, send messages, and post listings to Bazoš automatically — without you sitting at a computer.",
+        "process_title": "What bots take over",
+        "process": [
+          "Enquiries from the site land straight in chat. Confirm or cancel with one button, no admin login.",
+          "Bookings: the bot keeps the calendar, blocks taken slots and notifies the client by email.",
+          "Automated posting to Bazoš — listings refresh themselves on a schedule.",
+          "Broadcasts across a contact list.",
+          "Collecting competitor and audience data for ad targeting.",
+          "Alerts about what happens on the site: downtime, a broken form, a new enquiry."
+        ],
+        "cases_title": "What it looks like in practice",
+        "cases": [
+          "Krása štúdio OK — a salon booking system wired to Telegram. The client picks a slot, staff get a message, one tap confirms it and the slot locks. No spreadsheets, no extra phone calls.",
+          "A Bazoš posting bot for companies that advertise there regularly — refreshing listings by hand costs hours every week.",
+          "New-enquiry alerts straight into chat, so nobody answers a day late."
+        ],
+        "geo_title": "Why Bazoš and Telegram specifically",
+        "geo": "Bazoš is where people in Slovakia actually search, and companies advertising there regularly spend hours a week refreshing listings. It can be automated — few know it. The same goes for Telegram: as a working tool it is widespread here and costs nothing to adopt. I build for this market rather than shipping generic templates.",
+        "faq_title": "Frequently asked questions",
+        "faq": [
+          {
+            "q": "What does a bot cost?",
+            "a": "The hourly rate is 25 EUR and a simpler bot starts around 500 EUR, depending on how many systems it has to connect."
+          },
+          {
+            "q": "Where does it run and what does it cost monthly?",
+            "a": "On your server or mine. Running costs are small — a few euros a month, and I say exactly how much upfront."
+          },
+          {
+            "q": "Is automated posting to Bazoš acceptable?",
+            "a": "The bot does what you would do by hand, on a schedule. It respects the platform's rules and sensible intervals."
+          },
+          {
+            "q": "What if the bot goes down?",
+            "a": "I set up monitoring that tells me before it tells you. Six months of support covers this kind of intervention."
+          },
+          {
+            "q": "Can you connect a bot to an existing site?",
+            "a": "Yes, including sites I did not build, as long as there is access."
+          }
+        ]
+      }
     }
   },
   "portfolio": {
@@ -445,5 +722,47 @@
         "a": "Then I say so. It is rare, but it happens. In that case the conversation is about content and winning more enquiries, not about repairs."
       }
     ]
+  },
+  "cta": {
+    "consult": {
+      "title": "Shall we talk about your project?",
+      "text": "Send a few lines about what you need. I reply within 24 hours, no obligation.",
+      "button": "Free consultation"
+    },
+    "webdev": {
+      "title": "Need a new website?",
+      "text": "A company site, an online shop or a booking system. Most projects ship within 15 working days.",
+      "button": "Get a custom site"
+    },
+    "bugfix": {
+      "title": "Site broken or slow?",
+      "text": "WordPress and custom-built sites alike. Most faults are fixed the same day they are reported.",
+      "button": "Fix my site"
+    },
+    "audit": {
+      "title": "Want to know what is holding your site back?",
+      "text": "I go through it the way Google sees it and send a concrete list within 3 working days.",
+      "button": "Free audit"
+    },
+    "analytics": {
+      "title": "Do you know how many enquiries the site actually brought?",
+      "text": "I set up GA4, Tag Manager and conversion tracking so the numbers match reality.",
+      "button": "Set up analytics"
+    },
+    "cookies": {
+      "title": "Is your cookie banner compliant?",
+      "text": "A custom solution with Consent Mode v2, without a monthly plugin subscription.",
+      "button": "Sort out cookies"
+    },
+    "ads": {
+      "title": "Ready to run ads?",
+      "text": "Google Ads and Meta with tracking wired properly, so you can see what comes back.",
+      "button": "Launch a campaign"
+    },
+    "bot": {
+      "title": "Want the routine automated?",
+      "text": "Python bots for enquiries, bookings and auto-posting listings to Bazoš.",
+      "button": "Get a bot"
+    }
   }
 }

@@ -5,6 +5,17 @@ description: >-
   poplatok, lehoty a reforma od 17. augusta 2026, po ktorej registrácia
   zdražie viac než dvojnásobne a nezaobíde sa bez notára.
 date: '2026-08-03'
+faq:
+  - q: 'Musím byť rezident SR, aby som mohol založiť s.r.o.?'
+    a: 'Nie. Zakladateľom môže byť aj občan inej krajiny. Osobitné požiadavky sa môžu týkať konateľa, to je lepšie overiť pre konkrétnu situáciu.'
+  - q: 'Dá sa firma po 17. auguste 2026 založiť úplne online?'
+    a: 'Nie. Zakladateľský dokument bude vyžadovať notársku zápisnicu alebo autorizáciu advokátom. Časť krokov zostane elektronická, ale návšteva prestane byť dobrovoľná.'
+  - q: 'Čo je rýchlejšie — s.r.o. alebo živnosť?'
+    a: 'Živnostenské oprávnenie vybavíte za 1 až 3 pracovné dni a takmer zadarmo. s.r.o. trvá dlhšie a stojí viac, ale obmedzuje vašu osobnú zodpovednosť.'
+  - q: 'Ako dlho trvá založenie s.r.o.?'
+    a: 'Pri pripravených dokumentoch 3 až 7 pracovných dní do zápisu. Plus čas na účet, daňový úrad a zvyšok.'
+  - q: 'Treba vložiť 5 000 eur základného imania na účet?'
+    a: 'Nie. Stačí vyhlásenie správcu vkladu, v ktorom zakladateľ deklaruje, že peniaze boli vložené do pokladne spoločnosti. Výpisy z účtu sa pri registrácii nevyžadujú.'
 ---
 ![Založenie s.r.o. na Slovensku v roku 2026 | White Eagles & Co.](/assets/blog/firmaotvorena.webp)
 
@@ -31,7 +42,7 @@ Jedno zjednodušenie nové pravidlá prinášajú, a je užitočné: **voľné �
 
 Záver je jednoduchý. Ak už je rozhodnuté, má zmysel stihnúť to do 17. augusta. Ak ešte zvažujete, kvôli jednému poplatku sa ponáhľať netreba: 300 eur nie je dôvod otvárať podnikanie, na ktoré nie ste pripravení.
 
-[CTA_FORM]
+[CTA_FORM:consult]
 
 ## Krok 1. Vyberte si predmety podnikania
 
@@ -96,7 +107,7 @@ Firma v registri ešte nie je fungujúce podnikanie. Čo nasleduje:
 3. **Vyriešiť DPH.** Registrácia platiteľa DPH je povinná po prekročení obratu, niekedy sa však oplatí aj dobrovoľne — ak sú vaši klienti sami platiteľmi.
 4. **Overiť, či potrebujete eKasu.** Ak prijímate hotovosť alebo karty od fyzických osôb, online pokladnica je povinná.
 
-[CTA_FORM]
+[CTA_FORM:webdev]
 
 ## Na čo sa takmer nikdy nemyslí včas — digitálna časť
 
@@ -159,4 +170,4 @@ Pracujem ako slovenské s.r.o.: vystavujem faktúru s IČO, ktorú si dáte do n
 
 **[Bezplatný SEO audit](/sk/seo-audit/)** — ak web už máte a neprináša zákazníkov, prejdem ho a pošlem konkrétny zoznam príčin do 3 pracovných dní. Ak web ešte nemáte, napíšte: pozrieme sa, čo presne vaše podnikanie potrebuje.
 
-[CTA_FORM]
+[CTA_FORM:audit]
