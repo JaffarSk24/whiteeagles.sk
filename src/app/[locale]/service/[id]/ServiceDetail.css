@@ -395,3 +395,55 @@
     padding: 22px 18px;
   }
 }
+
+/* Sibling services, between the card and the extended blocks. Same <section>
+   caveat as .detail-block: the global padding has to go. */
+.detail-related {
+  padding: 0;
+  margin-top: 48px;
+  max-width: 820px;
+}
+
+.detail-related h2 {
+  font-size: 1.3rem;
+  margin: 0 0 18px;
+  color: var(--text-primary);
+}
+
+.detail-related ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.detail-related a {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  padding: 18px 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.detail-related a:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.detail-related strong {
+  color: var(--accent-color);
+  font-size: 1.05rem;
+}
+
+.detail-related span {
+  color: var(--text-secondary);
+  line-height: 1.55;
+  font-size: 0.95rem;
+}

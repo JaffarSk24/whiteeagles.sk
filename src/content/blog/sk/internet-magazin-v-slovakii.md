@@ -119,7 +119,7 @@ E-shop bez nastavenej analytiky elektronického obchodu sú mesačné náklady n
 
 Minimum, ktoré má fungovať: zobrazenie produktu, pridanie do košíka, začatie objednávky, nákup. Potom je vidieť, kde ľudia odpadávajú: na karte produktu, na doprave alebo pri platbe.
 
-Ako to nastaviť — v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
+Ako to nastaviť — v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a na [stránke služby „Webová analytika"](/sk/service/analytics/). Keď meranie funguje, e-shopu dáva zmysel zapojiť [platenú návštevnosť](/sk/service/ads/) — bez merania sú to peniaze naslepo.
 
 ## Poradie spustenia
 

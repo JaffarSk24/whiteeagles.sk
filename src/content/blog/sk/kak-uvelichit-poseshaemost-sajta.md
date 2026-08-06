@@ -136,6 +136,8 @@ Môžem sa pozrieť, čo webu bráni rásť, a povedať, kde máte najrýchlejš
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
+Ak niet času čakať 3–6 mesiacov, organiku sa dá podoprieť plateným trafficom: [nastavenie reklamy](/sk/service/ads/) prináša dopyty od prvého dňa a [webová analytika](/sk/service/analytics/) ukáže, či sa to vracia.
+
 K téme: [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/), [Google Ads na Slovensku](/sk/blog/google-ads-small-business/) a [treba web po slovensky](/sk/blog/nuzhen-li-sajt-na-slovackom/).
 
 [CTA_FORM:webdev]

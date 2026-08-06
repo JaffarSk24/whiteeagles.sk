@@ -98,7 +98,7 @@ Tri prepojenia, ktoré sa robia raz a menia kvalitu údajov:
 
 **Search Console.** V GA4 pribudne prehľad vyhľadávacích dopytov — je vidieť, na aké slová ľudia prichádzajú a čo robia ďalej.
 
-**Google Ads.** Konverzie z GA4 sa posielajú do kampaní a algoritmus začne optimalizovať na dopyty, nie na kliknutia. Bez toho reklama míňa rozpočet na najlacnejšie kliky. Viac v článku [Google Ads pre malé firmy](/sk/blog/google-ads-small-business/).
+**Google Ads.** Konverzie z GA4 sa posielajú do kampaní a algoritmus začne optimalizovať na dopyty, nie na kliknutia. Bez toho reklama míňa rozpočet na najlacnejšie kliky. Viac v článku [Google Ads pre malé firmy](/sk/blog/google-ads-small-business/) a na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
 
 **Microsoft Clarity.** Bezplatná služba nahrávok relácií a teplotných máp. Odpovedá na otázku „prečo", keď GA4 už ukázal „čo": napríklad že všetci odchádzajú z formulára na treťom poli.
 

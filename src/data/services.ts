@@ -12,11 +12,18 @@ export interface Service {
   seoTitleKey?: string;
   seoDescKey?: string;
   seoKeywordsKey?: string;
+  /**
+   * Sibling services worth reading next. Also how link weight moves between
+   * them: webdev collects most of the incoming links from articles, so it
+   * passes to the two services people actually order alongside a site.
+   */
+  related?: string[];
 }
 
 export const services: Service[] = [
   {
     id: 'webdev',
+    related: ['ads', 'analytics'],
     titleKey: 'services.webdev.title',
     descKey: 'services.webdev.desc',
     priceRate: 35,
@@ -34,6 +41,7 @@ export const services: Service[] = [
   },
   {
     id: 'bugfix',
+    related: ['webdev', 'analytics'],
     titleKey: 'services.bugfix.title',
     descKey: 'services.bugfix.desc',
     priceRate: 35,
@@ -49,6 +57,7 @@ export const services: Service[] = [
   },
   {
     id: 'ads',
+    related: ['analytics', 'cookies'],
     titleKey: 'services.ads.title',
     descKey: 'services.ads.desc',
     priceRate: 25,
@@ -63,6 +72,7 @@ export const services: Service[] = [
   },
   {
     id: 'analytics',
+    related: ['ads', 'cookies'],
     titleKey: 'services.analytics.title',
     descKey: 'services.analytics.desc',
     priceRate: 25,
@@ -76,6 +86,7 @@ export const services: Service[] = [
   },
   {
     id: 'cookies',
+    related: ['analytics', 'ads'],
     titleKey: 'services.cookies.title',
     descKey: 'services.cookies.desc',
     priceRate: 25,
@@ -90,6 +101,7 @@ export const services: Service[] = [
   },
   {
     id: 'telegram',
+    related: ['webdev', 'analytics'],
     titleKey: 'services.telegram.title',
     descKey: 'services.telegram.desc',
     priceRate: 25,

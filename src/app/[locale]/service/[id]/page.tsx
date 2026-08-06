@@ -253,6 +253,29 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             />
           </div>
 
+          {/* Sibling services. Articles pile their links onto webdev, so without
+              this the services people order most often - advertising and
+              analytics - inherit none of that weight. */}
+          {service.related?.length ? (
+            <section className="detail-related">
+              <h2>{t("services.related_title")}</h2>
+              <ul>
+                {service.related.map((rid) => {
+                  const rel = services.find((s) => s.id === rid);
+                  if (!rel) return null;
+                  return (
+                    <li key={rid}>
+                      <Link href={`/service/${rid}` as any}>
+                        <strong>{t(rel.titleKey as any)}</strong>
+                        <span>{t(rel.descKey as any)}</span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          ) : null}
+
           {page && (
             <div className="detail-extended">
               {page.process?.length ? (
