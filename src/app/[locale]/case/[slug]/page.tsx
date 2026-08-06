@@ -2,7 +2,7 @@ import React from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
-import { getCaseBySlug, getAllCases } from '@/utils/cases';
+import { getCaseBySlug, getAllCases, getCaseSlugForLocale } from '@/utils/cases';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -30,10 +30,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   // stay out of the index for the same reason as the English blog: they would
   // draw impressions from countries the business does not serve. A noindexed
   // page has no business in anyone's hreflang either.
+  // Resolved through the shared key, so a case may carry a different slug in
+  // each language without hreflang pointing at an address that does not exist.
+  const skSlug = getCaseSlugForLocale(study.key, 'sk');
+  const ruSlug = getCaseSlugForLocale(study.key, 'ru');
+
   const languages = {
-    sk: `https://whiteeagles.sk/sk/case/${slug}/`,
-    ru: `https://whiteeagles.sk/ru/case/${slug}/`,
-    'x-default': `https://whiteeagles.sk/sk/case/${slug}/`,
+    ...(skSlug ? { sk: `https://whiteeagles.sk/sk/case/${skSlug}/` } : {}),
+    ...(ruSlug ? { ru: `https://whiteeagles.sk/ru/case/${ruSlug}/` } : {}),
+    ...(skSlug ? { 'x-default': `https://whiteeagles.sk/sk/case/${skSlug}/` } : {}),
   };
 
   return {

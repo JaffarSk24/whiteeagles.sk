@@ -21,6 +21,12 @@ export interface CaseStudy {
   service: string;
   content: string;
   locale: string;
+  /**
+   * Stable identifier shared by every language version. It is what lets each
+   * language keep a slug in its own language - see rule 11 in AGENTS.md.
+   * Falls back to the slug for cases written before this existed.
+   */
+  key: string;
   /** Sort key. Lower comes first, so the strongest cases lead the index. */
   order: number;
 }
@@ -37,6 +43,7 @@ export function getCaseBySlug(slug: string, locale: string): CaseStudy | null {
 
     return {
       slug,
+      key: typeof data.key === 'string' && data.key ? data.key : slug,
       title: data.title,
       description: data.description,
       client: data.client,
@@ -73,4 +80,13 @@ export function getAllCases(locale: string): CaseStudy[] {
     console.error(`Error reading cases for locale ${locale}:`, error);
     return [];
   }
+}
+
+/**
+ * The slug this case uses in another language, or null when that language has
+ * no version of it. hreflang must never name a URL that does not exist.
+ */
+export function getCaseSlugForLocale(key: string, locale: string): string | null {
+  const match = getAllCases(locale).find((item) => item.key === key);
+  return match ? match.slug : null;
 }

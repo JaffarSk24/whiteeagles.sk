@@ -77,22 +77,24 @@ const isIndexed = (locale, path) => !(locale === 'en' && (isBlog(path) || isCase
 // An article translated into only some languages must not be declared as an
 // alternate for the ones where it does not exist.
 const existsIn = (locale, p) => {
-  if (p.startsWith('blog/')) return altPath(locale, p) !== null;
-  if (p.startsWith('case/')) return casesFor(locale).includes(p.slice('case/'.length));
+  if (p.startsWith('blog/') || p.startsWith('case/')) return altPath(locale, p) !== null;
   return true;
 };
 
 // The same page in another language - which may live at a different slug.
+// Rule 11 in AGENTS.md: each language writes its URL in its own language, and
+// versions are paired by the `key` in front matter rather than by file name.
 const altPath = (locale, p) => {
-  if (!p.startsWith('blog/')) return p;
-  const slug = p.slice('blog/'.length);
-  const key = keyOf(contentDir, defaultLocale, slug) === slug
-    ? keyOf(contentDir, 'ru', slug) === slug
-      ? keyOf(contentDir, 'en', slug)
-      : keyOf(contentDir, 'ru', slug)
-    : keyOf(contentDir, defaultLocale, slug);
-  const alt = slugForKey(contentDir, locale, key);
-  return alt ? `blog/${alt}` : null;
+  const kind = p.startsWith('blog/') ? 'blog' : p.startsWith('case/') ? 'case' : null;
+  if (!kind) return p;
+  const dir = kind === 'blog' ? contentDir : casesDir;
+  const slug = p.slice(kind.length + 1);
+  // The key is read from whichever language actually holds this slug.
+  const key = ['sk', 'ru', 'en']
+    .map((l) => keyOf(dir, l, slug))
+    .find((k) => k !== slug) || slug;
+  const alt = slugForKey(dir, locale, key);
+  return alt ? `${kind}/${alt}` : null;
 };
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
