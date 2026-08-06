@@ -17,6 +17,14 @@ export interface BlogPost {
   content: string;
   locale: string;
   /**
+   * Stable identifier shared by every language version of one article. It is
+   * what lets each language keep a slug in its own language: without it the
+   * hreflang tags and the sitemap can only pair versions that happen to have
+   * the same file name. Falls back to the slug for articles written before
+   * this existed.
+   */
+  key: string;
+  /**
    * Questions declared in front matter. They are emitted as FAQPage markup,
    * which is what puts an article into the "People also ask" block - the
    * prose alone does not do it.
@@ -41,6 +49,7 @@ export function getPostBySlug(slug: string, locale: string): BlogPost | null {
 
     return {
       slug,
+      key: typeof data.key === 'string' && data.key ? data.key : slug,
       title: data.title,
       description: data.description,
       date: data.date,
@@ -78,4 +87,14 @@ export function getAllPosts(locale: string): BlogPost[] {
     console.error(`Error reading posts for locale ${locale}:`, error);
     return [];
   }
+}
+
+/**
+ * The slug the same article uses in another language, or null when that
+ * language has no version of it. hreflang must never name a URL that does not
+ * exist, so the caller drops the locale when this returns null.
+ */
+export function getSlugForLocale(key: string, locale: string): string | null {
+  const match = getAllPosts(locale).find((post) => post.key === key);
+  return match ? match.slug : null;
 }

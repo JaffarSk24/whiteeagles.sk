@@ -21,6 +21,19 @@ const slugsIn = (dir) => {
 };
 
 const postsFor = (locale) => slugsIn(path.join(contentDir, locale));
+
+// Article front matter may carry `key:` - a stable id shared by every language
+// version. It is what allows each language its own slug: without it two
+// versions can only be paired when the file names match.
+const matter = require('gray-matter');
+const keyOf = (dir, locale, slug) => {
+  const file = path.join(dir, locale, `${slug}.md`);
+  if (!fs.existsSync(file)) return slug;
+  const { data } = matter(fs.readFileSync(file, 'utf8'));
+  return typeof data.key === 'string' && data.key ? data.key : slug;
+};
+const slugForKey = (dir, locale, key) =>
+  slugsIn(path.join(dir, locale)).find((s) => keyOf(dir, locale, s) === key) || null;
 const casesFor = (locale) => slugsIn(path.join(casesDir, locale));
 const services = [
   'webdev',
@@ -64,9 +77,22 @@ const isIndexed = (locale, path) => !(locale === 'en' && (isBlog(path) || isCase
 // An article translated into only some languages must not be declared as an
 // alternate for the ones where it does not exist.
 const existsIn = (locale, p) => {
-  if (p.startsWith('blog/')) return postsFor(locale).includes(p.slice('blog/'.length));
+  if (p.startsWith('blog/')) return altPath(locale, p) !== null;
   if (p.startsWith('case/')) return casesFor(locale).includes(p.slice('case/'.length));
   return true;
+};
+
+// The same page in another language - which may live at a different slug.
+const altPath = (locale, p) => {
+  if (!p.startsWith('blog/')) return p;
+  const slug = p.slice('blog/'.length);
+  const key = keyOf(contentDir, defaultLocale, slug) === slug
+    ? keyOf(contentDir, 'ru', slug) === slug
+      ? keyOf(contentDir, 'en', slug)
+      : keyOf(contentDir, 'ru', slug)
+    : keyOf(contentDir, defaultLocale, slug);
+  const alt = slugForKey(contentDir, locale, key);
+  return alt ? `blog/${alt}` : null;
 };
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -87,9 +113,9 @@ locales.forEach((locale) => {
     locales
       .filter((alt) => isIndexed(alt, path) && existsIn(alt, path))
       .forEach((alt) => {
-        xml += `    <xhtml:link rel="alternate" hreflang="${alt}" href="${urlFor(alt, path)}"/>\n`;
+        xml += `    <xhtml:link rel="alternate" hreflang="${alt}" href="${urlFor(alt, altPath(alt, path))}"/>\n`;
       });
-    xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(defaultLocale, path)}"/>\n`;
+    xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(defaultLocale, altPath(defaultLocale, path) || path)}"/>\n`;
     xml += `    <lastmod>${lastmod}</lastmod>\n`;
     xml += `    <changefreq>${changefreq}</changefreq>\n`;
     xml += `    <priority>${priority}</priority>\n`;

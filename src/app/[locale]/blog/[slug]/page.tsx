@@ -2,7 +2,7 @@ import React from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
-import { getPostBySlug, getAllPosts } from '@/utils/blog';
+import { getPostBySlug, getAllPosts, getSlugForLocale } from '@/utils/blog';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 // Without this, GitHub-flavoured markdown - tables above all - renders as raw
@@ -50,12 +50,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   // stretches to about 40 pages a fortnight. The pages stay reachable; they
   // just stop competing for attention they cannot convert. Drop `en` from the
   // language set too, so hreflang never points at a noindexed page.
+  // Each language keeps a slug in its own language, so the counterpart URL is
+  // looked up by the shared key rather than assumed to be the same string.
+  const skSlug = getSlugForLocale(post.key, 'sk');
+  const ruSlug = getSlugForLocale(post.key, 'ru');
+
   const languages = isEnglish
     ? undefined
     : {
-        sk: `https://whiteeagles.sk/sk/blog/${slug}/`,
-        ru: `https://whiteeagles.sk/ru/blog/${slug}/`,
-        'x-default': `https://whiteeagles.sk/sk/blog/${slug}/`,
+        ...(skSlug ? { sk: `https://whiteeagles.sk/sk/blog/${skSlug}/` } : {}),
+        ...(ruSlug ? { ru: `https://whiteeagles.sk/ru/blog/${ruSlug}/` } : {}),
+        ...(skSlug ? { 'x-default': `https://whiteeagles.sk/sk/blog/${skSlug}/` } : {}),
       };
 
   return {
