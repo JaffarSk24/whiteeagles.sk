@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  # A push to main once landed without Actions creating a run for it, leaving
+  # the site a commit behind with nothing to click. This makes a redeploy
+  # possible from the Actions tab without an empty commit.
+  workflow_dispatch:
 
 jobs:
   deploy:
