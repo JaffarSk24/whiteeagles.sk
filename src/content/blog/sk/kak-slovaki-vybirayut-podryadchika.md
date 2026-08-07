@@ -4,6 +4,7 @@ description: >-
   Čo si slovenský klient overuje predtým, než napíše: údaje o firme, skutočné
   ukážky prác, zrozumiteľné ceny a recenzie. Kontrolný zoznam pre váš web.
 date: '2026-08-04'
+key: 'choosing-contractor'
 faq:
   - q: 'Čo si slovenský klient overuje ako prvé?'
     a: 'Či firma naozaj existuje. IČO, adresa a údaj o zápise v registri v pätičke webu sú prvé, čo hľadá pohľadom — zvlášť ak má poslať zálohu.'

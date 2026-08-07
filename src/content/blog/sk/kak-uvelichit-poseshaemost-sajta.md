@@ -5,6 +5,7 @@ description: >-
   karta v Googli, katalógy, komunity, partneri, siete, newsletter. Čo funguje
   na Slovensku, za aký čas a čím začať.
 date: '2026-08-04'
+key: 'website-traffic'
 faq:
   - q: 'Za aký čas narastie návštevnosť bez reklamy?'
     a: 'Karta v Googli a katalógy dajú prvé návštevy za dva-tri týždne. Vyhľadávacia návštevnosť z článkov sa rozbieha 3–6 mesiacov. Partnerské odkazy a komunity fungujú rýchlejšie než organika, ale vyžadujú vašu osobnú účasť.'

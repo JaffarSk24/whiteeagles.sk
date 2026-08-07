@@ -5,6 +5,7 @@ description: >-
   praktickejší než widget na webe a kedy bot netreba. S príkladmi zo slovenskej
   praxe.
 date: '2026-08-04'
+key: 'chatbot'
 faq:
   - q: 'Koľko stojí vývoj bota?'
     a: 'Bot na konkrétnu úlohu od 500 eur, úpravy po 25 eur za hodinu. Cena nezávisí od počtu správ, ale od integrácií: prepojenie s webom, kalendárom, skladom alebo platbami je hlavná časť práce.'

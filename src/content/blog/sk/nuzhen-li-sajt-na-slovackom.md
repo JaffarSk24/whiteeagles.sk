@@ -5,6 +5,7 @@ description: >-
   webu: vyhľadávanie, dôvera, požiadavky a partneri. A ako spraviť dvojjazyčný
   web správne.
 date: '2026-08-04'
+key: 'slovak-language-site'
 faq:
   - q: 'Ak všetci moji klienti hovoria po rusky, načo slovenská verzia?'
     a: 'Pretože otvára trh, ktorý je násobne väčší, obsluhuje slovenských partnerov a dodávateľov a robí firmu zrozumiteľnou pre úrady aj banky. Cudzojazyčná verzia obsluhuje súčasných klientov, slovenská privádza nových.'

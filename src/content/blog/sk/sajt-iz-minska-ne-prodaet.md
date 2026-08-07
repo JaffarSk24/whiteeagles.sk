@@ -4,6 +4,7 @@ description: >-
   Sedem rozdielov slovenského zákazníka, o ktorých vzdialené štúdio nevie: od
   platobných metód a povinných údajov po to, ako sa tu vyberá dodávateľ.
 date: '2026-08-04'
+key: 'offshore-website'
 faq:
   - q: 'Je problém v kvalite práce zahraničných štúdií?'
     a: 'Nie. Aj tam sú silní vývojári a dizajnéri a výhrada nesmeruje k remeslu. Ide o znalosť trhu: web môže byť technicky bezchybný a napriek tomu neodpovedať na otázky, ktoré si kladie slovenský zákazník.'

@@ -4,6 +4,7 @@ description: >-
   Všetko o doméne .sk: kto ju môže registrovať, ako si vybrať registrátora,
   koľko stojí obnova a čo robiť, keď je vybrané meno obsadené.
 date: '2026-08-04'
+key: 'sk-domain'
 faq:
   - q: 'Môže doménu .sk zaregistrovať cudzinec?'
     a: 'Áno. Obmedzenie podľa občianstva ani pobytu pri doméne .sk neexistuje — držiteľom môže byť fyzická osoba aj firma z inej krajiny.'
