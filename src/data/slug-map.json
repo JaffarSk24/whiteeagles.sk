@@ -1,0 +1,281 @@
+{
+  "blog": {
+    "chatbot-dlya-biznesa": {
+      "sk": "chatbot-dlya-biznesa",
+      "en": "chatbot-for-business",
+      "ru": "chatbot-dlya-biznesa"
+    },
+    "chatbot-for-business": {
+      "sk": "chatbot-dlya-biznesa",
+      "en": "chatbot-for-business",
+      "ru": "chatbot-dlya-biznesa"
+    },
+    "cookie-lista-2026-povinnosti": {
+      "sk": "cookie-lista-2026-povinnosti",
+      "en": "cookie-banner-2026",
+      "ru": "cookie-lista-2026-povinnosti"
+    },
+    "cookie-banner-2026": {
+      "sk": "cookie-lista-2026-povinnosti",
+      "en": "cookie-banner-2026",
+      "ru": "cookie-lista-2026-povinnosti"
+    },
+    "domen-sk-kak-kupit": {
+      "sk": "domen-sk-kak-kupit",
+      "en": "sk-domain-guide",
+      "ru": "domen-sk-kak-kupit"
+    },
+    "sk-domain-guide": {
+      "sk": "domen-sk-kak-kupit",
+      "en": "sk-domain-guide",
+      "ru": "domen-sk-kak-kupit"
+    },
+    "dph-registraciya": {
+      "sk": "dph-registraciya",
+      "en": "vat-registration-slovakia",
+      "ru": "dph-registraciya"
+    },
+    "vat-registration-slovakia": {
+      "sk": "dph-registraciya",
+      "en": "vat-registration-slovakia",
+      "ru": "dph-registraciya"
+    },
+    "ekasa-online-kassa-slovakia": {
+      "sk": "ekasa-online-kassa-slovakia",
+      "en": "ekasa-online-cash-register",
+      "ru": "ekasa-online-kassa-slovakia"
+    },
+    "ekasa-online-cash-register": {
+      "sk": "ekasa-online-kassa-slovakia",
+      "en": "ekasa-online-cash-register",
+      "ru": "ekasa-online-kassa-slovakia"
+    },
+    "gdpr-dlya-maloy-firmy": {
+      "sk": "gdpr-dlya-maloy-firmy",
+      "en": "gdpr-for-small-business",
+      "ru": "gdpr-dlya-maloy-firmy"
+    },
+    "gdpr-for-small-business": {
+      "sk": "gdpr-dlya-maloy-firmy",
+      "en": "gdpr-for-small-business",
+      "ru": "gdpr-dlya-maloy-firmy"
+    },
+    "google-ads-alebo-meta": {
+      "sk": "google-ads-alebo-meta",
+      "en": "google-ads-or-meta",
+      "ru": "google-ads-ili-meta"
+    },
+    "google-ads-or-meta": {
+      "sk": "google-ads-alebo-meta",
+      "en": "google-ads-or-meta",
+      "ru": "google-ads-ili-meta"
+    },
+    "google-ads-ili-meta": {
+      "sk": "google-ads-alebo-meta",
+      "en": "google-ads-or-meta",
+      "ru": "google-ads-ili-meta"
+    },
+    "google-ads-small-business": {
+      "sk": "google-ads-small-business",
+      "en": "google-ads-getting-started",
+      "ru": "google-ads-small-business"
+    },
+    "google-ads-getting-started": {
+      "sk": "google-ads-small-business",
+      "en": "google-ads-getting-started",
+      "ru": "google-ads-small-business"
+    },
+    "internet-magazin-v-slovakii": {
+      "sk": "internet-magazin-v-slovakii",
+      "en": "online-shop-in-slovakia",
+      "ru": "internet-magazin-v-slovakii"
+    },
+    "online-shop-in-slovakia": {
+      "sk": "internet-magazin-v-slovakii",
+      "en": "online-shop-in-slovakia",
+      "ru": "internet-magazin-v-slovakii"
+    },
+    "kak-slovaki-vybirayut-podryadchika": {
+      "sk": "kak-slovaki-vybirayut-podryadchika",
+      "en": "how-slovaks-choose-contractor",
+      "ru": "kak-slovaki-vybirayut-podryadchika"
+    },
+    "how-slovaks-choose-contractor": {
+      "sk": "kak-slovaki-vybirayut-podryadchika",
+      "en": "how-slovaks-choose-contractor",
+      "ru": "kak-slovaki-vybirayut-podryadchika"
+    },
+    "kak-uvelichit-poseshaemost-sajta": {
+      "sk": "kak-uvelichit-poseshaemost-sajta",
+      "en": "grow-website-traffic",
+      "ru": "kak-uvelichit-poseshaemost-sajta"
+    },
+    "grow-website-traffic": {
+      "sk": "kak-uvelichit-poseshaemost-sajta",
+      "en": "grow-website-traffic",
+      "ru": "kak-uvelichit-poseshaemost-sajta"
+    },
+    "kolko-stoji-reklama-na-slovensku": {
+      "sk": "kolko-stoji-reklama-na-slovensku",
+      "en": "google-ads-cost-slovakia",
+      "ru": "skolko-stoit-reklama-v-slovakii"
+    },
+    "google-ads-cost-slovakia": {
+      "sk": "kolko-stoji-reklama-na-slovensku",
+      "en": "google-ads-cost-slovakia",
+      "ru": "skolko-stoit-reklama-v-slovakii"
+    },
+    "skolko-stoit-reklama-v-slovakii": {
+      "sk": "kolko-stoji-reklama-na-slovensku",
+      "en": "google-ads-cost-slovakia",
+      "ru": "skolko-stoit-reklama-v-slovakii"
+    },
+    "nastavenie-google-analytics-4": {
+      "sk": "nastavenie-google-analytics-4",
+      "en": "ga4-setup",
+      "ru": "nastavenie-google-analytics-4"
+    },
+    "ga4-setup": {
+      "sk": "nastavenie-google-analytics-4",
+      "en": "ga4-setup",
+      "ru": "nastavenie-google-analytics-4"
+    },
+    "nuzhen-li-sajt-na-slovackom": {
+      "sk": "nuzhen-li-sajt-na-slovackom",
+      "en": "do-you-need-slovak-website",
+      "ru": "nuzhen-li-sajt-na-slovackom"
+    },
+    "do-you-need-slovak-website": {
+      "sk": "nuzhen-li-sajt-na-slovackom",
+      "en": "do-you-need-slovak-website",
+      "ru": "nuzhen-li-sajt-na-slovackom"
+    },
+    "obyazatelnye-rekvizity-sajta": {
+      "sk": "obyazatelnye-rekvizity-sajta",
+      "en": "mandatory-website-details",
+      "ru": "obyazatelnye-rekvizity-sajta"
+    },
+    "mandatory-website-details": {
+      "sk": "obyazatelnye-rekvizity-sajta",
+      "en": "mandatory-website-details",
+      "ru": "obyazatelnye-rekvizity-sajta"
+    },
+    "otkryt-sro-v-slovakii": {
+      "sk": "otkryt-sro-v-slovakii",
+      "en": "open-sro-in-slovakia",
+      "ru": "otkryt-sro-v-slovakii"
+    },
+    "open-sro-in-slovakia": {
+      "sk": "otkryt-sro-v-slovakii",
+      "en": "open-sro-in-slovakia",
+      "ru": "otkryt-sro-v-slovakii"
+    },
+    "priem-oplaty-kartoy": {
+      "sk": "priem-oplaty-kartoy",
+      "en": "accept-card-payments",
+      "ru": "priem-oplaty-kartoy"
+    },
+    "accept-card-payments": {
+      "sk": "priem-oplaty-kartoy",
+      "en": "accept-card-payments",
+      "ru": "priem-oplaty-kartoy"
+    },
+    "reklama-bezi-dopyty-nechodia": {
+      "sk": "reklama-bezi-dopyty-nechodia",
+      "en": "ads-running-no-leads",
+      "ru": "reklama-idet-zayavok-net"
+    },
+    "ads-running-no-leads": {
+      "sk": "reklama-bezi-dopyty-nechodia",
+      "en": "ads-running-no-leads",
+      "ru": "reklama-idet-zayavok-net"
+    },
+    "reklama-idet-zayavok-net": {
+      "sk": "reklama-bezi-dopyty-nechodia",
+      "en": "ads-running-no-leads",
+      "ru": "reklama-idet-zayavok-net"
+    },
+    "sajt-iz-minska-ne-prodaet": {
+      "sk": "sajt-iz-minska-ne-prodaet",
+      "en": "cheap-offshore-website",
+      "ru": "sajt-iz-minska-ne-prodaet"
+    },
+    "cheap-offshore-website": {
+      "sk": "sajt-iz-minska-ne-prodaet",
+      "en": "cheap-offshore-website",
+      "ru": "sajt-iz-minska-ne-prodaet"
+    },
+    "seo-audit-check-website": {
+      "sk": "seo-audit-check-website",
+      "en": "seo-audit-yourself",
+      "ru": "seo-audit-check-website"
+    },
+    "seo-audit-yourself": {
+      "sk": "seo-audit-check-website",
+      "en": "seo-audit-yourself",
+      "ru": "seo-audit-check-website"
+    },
+    "website-cost-2026": {
+      "sk": "website-cost-2026",
+      "en": "website-cost-slovakia",
+      "ru": "website-cost-2026"
+    },
+    "website-cost-slovakia": {
+      "sk": "website-cost-2026",
+      "en": "website-cost-slovakia",
+      "ru": "website-cost-2026"
+    },
+    "wordpress-vs-custom-website": {
+      "sk": "wordpress-vs-custom-website",
+      "en": "wordpress-or-custom",
+      "ru": "wordpress-vs-custom-website"
+    },
+    "wordpress-or-custom": {
+      "sk": "wordpress-vs-custom-website",
+      "en": "wordpress-or-custom",
+      "ru": "wordpress-vs-custom-website"
+    },
+    "zivnost-alebo-sro": {
+      "sk": "zivnost-alebo-sro",
+      "en": "zivnost-or-sro",
+      "ru": "zivnost-alebo-sro"
+    },
+    "zivnost-or-sro": {
+      "sk": "zivnost-alebo-sro",
+      "en": "zivnost-or-sro",
+      "ru": "zivnost-alebo-sro"
+    }
+  },
+  "case": {
+    "biliardovna": {
+      "sk": "biliardovna",
+      "en": "biliardovna",
+      "ru": "biliardovna"
+    },
+    "bodabo": {
+      "sk": "bodabo",
+      "en": "bodabo",
+      "ru": "bodabo"
+    },
+    "studio-krasy": {
+      "sk": "studio-krasy",
+      "en": "studio-krasy",
+      "ru": "studio-krasy"
+    },
+    "synchrozralok": {
+      "sk": "synchrozralok",
+      "en": "synchrozralok",
+      "ru": "synchrozralok"
+    },
+    "top-kobka": {
+      "sk": "top-kobka",
+      "en": "top-kobka",
+      "ru": "top-kobka"
+    },
+    "top-sklad": {
+      "sk": "top-sklad",
+      "en": "top-sklad",
+      "ru": "top-sklad"
+    }
+  }
+}

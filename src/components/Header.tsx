@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { useRouter, usePathname, Link } from "@/i18n/navigation";
 import Image from "next/image";
+import slugMap from "@/data/slug-map.json";
 import "./Header.css";
 
 const LOCALE_NAMES = { sk: "Slovak", ru: "Russian", en: "English" } as const;
@@ -29,11 +30,26 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Articles and cases carry a different slug in every language, so the path
+  // has to be translated rather than reused. Falls back to the section index
+  // when a version is missing, which beats sending the visitor to a 404.
+  const translatePath = (target: "sk" | "en" | "ru") => {
+    const match = pathname.match(/^\/(blog|case)\/([^/]+)\/?$/);
+    if (!match) return pathname;
+
+    const [, kind, slug] = match;
+    const section: Record<string, Partial<Record<string, string>>> =
+      slugMap[kind as "blog" | "case"];
+    const translated = section[slug]?.[target];
+    if (translated) return `/${kind}/${translated}`;
+    return kind === "blog" ? "/blog" : "/portfolio";
+  };
+
   const changeLanguage = (lng: "sk" | "en" | "ru") => {
     if (typeof window !== "undefined") {
       localStorage.setItem("NEXT_LOCALE", lng);
     }
-    router.replace(pathname, { locale: lng });
+    router.replace(translatePath(lng), { locale: lng });
     setIsMobileMenuOpen(false);
   };
 
@@ -131,12 +147,12 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
             {t("contacts")}
           </a>
 
-          {/* Deliberately buttons, not links. Not every page exists in every
-              language - fifteen articles have no English version - so a link
+          {/* Deliberately buttons, not links. Every article now exists in all
+              three languages, but each language has its own slug, so a link
               built from the current path would point at a 404 and a crawler
-              would follow it. Language versions are declared per page with
-              hreflang in <head>, which is both the documented mechanism and
-              accurate about which locales actually exist. */}
+              would follow it. The switcher translates the slug itself (see
+              changeLanguage); language versions stay declared per page with
+              hreflang in <head>, which is the documented mechanism. */}
           <div className="lang-switcher">
             {(["sk", "ru", "en"] as const).map((lng) => (
               <button

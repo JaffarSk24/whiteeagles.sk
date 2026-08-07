@@ -129,3 +129,32 @@ xml += `</urlset>\n`;
 
 fs.writeFileSync('public/sitemap.xml', xml);
 console.log(`Generated sitemap.xml with ${count} URLs (English blog and cases excluded: noindex).`);
+
+// Each language has its own slug, so the language switcher cannot build the
+// target address from the current path - it would land on a slug that only
+// exists in the language you are leaving. This map pairs the versions by their
+// `key` and is read by the switcher in the header.
+const slugMap = { blog: {}, case: {} };
+[
+  ['blog', contentDir],
+  ['case', casesDir],
+].forEach(([kind, dir]) => {
+  const byKey = {};
+  locales.forEach((locale) => {
+    slugsIn(path.join(dir, locale)).forEach((slug) => {
+      const key = keyOf(dir, locale, slug);
+      byKey[key] = { ...(byKey[key] || {}), [locale]: slug };
+    });
+  });
+  Object.values(byKey).forEach((versions) => {
+    Object.values(versions).forEach((slug) => {
+      slugMap[kind][slug] = versions;
+    });
+  });
+});
+
+const slugMapFile = path.join(__dirname, 'src', 'data', 'slug-map.json');
+fs.writeFileSync(slugMapFile, `${JSON.stringify(slugMap, null, 2)}\n`);
+console.log(
+  `Generated slug-map.json: ${Object.keys(slugMap.blog).length} article slugs, ${Object.keys(slugMap.case).length} case slugs.`,
+);
