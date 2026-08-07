@@ -127,6 +127,6 @@ Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukáže
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
-K téme: [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/), [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/).
+K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/) — ak ešte neviete, ktorou platformou začať, [koľko stojí reklama na Slovensku](/sk/blog/kolko-stoji-reklama-na-slovensku/), [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
 [CTA_FORM:audit]

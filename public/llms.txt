@@ -21,8 +21,14 @@ at the domain root; visitors are routed to their language automatically.
 - Russian: https://whiteeagles.sk/ru/
 - English: https://whiteeagles.sk/en/
 
-Every URL below exists in all three languages - replace the `/sk/` segment with
-`/ru/` or `/en/`. All URLs use a trailing slash.
+Service and portfolio URLs exist in all three languages - replace the `/sk/`
+segment with `/ru/` or `/en/`. All URLs use a trailing slash.
+
+Blog articles exist in Slovak and Russian; the English blog is deliberately not
+indexed and holds only a few older pieces. Articles published up to 4 August
+share one slug across both languages, so swapping `/sk/` for `/ru/` works.
+Newer ones are written with a slug in each language and are listed as pairs
+under "Articles" below.
 
 ## Core Services
 
@@ -63,15 +69,18 @@ Every URL below exists in all three languages - replace the `/sk/` segment with
     - https://whiteeagles.sk/sk/blog/dph-registraciya/
     - https://whiteeagles.sk/sk/blog/ekasa-online-kassa-slovakia/
     - https://whiteeagles.sk/sk/blog/gdpr-dlya-maloy-firmy/
+    - https://whiteeagles.sk/sk/blog/google-ads-alebo-meta/ (ru: /ru/blog/google-ads-ili-meta/)
     - https://whiteeagles.sk/sk/blog/google-ads-small-business/
     - https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/
     - https://whiteeagles.sk/sk/blog/kak-slovaki-vybirayut-podryadchika/
     - https://whiteeagles.sk/sk/blog/kak-uvelichit-poseshaemost-sajta/
+    - https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/ (ru: /ru/blog/skolko-stoit-reklama-v-slovakii/)
     - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
     - https://whiteeagles.sk/sk/blog/nuzhen-li-sajt-na-slovackom/
     - https://whiteeagles.sk/sk/blog/obyazatelnye-rekvizity-sajta/
     - https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/
     - https://whiteeagles.sk/sk/blog/priem-oplaty-kartoy/
+    - https://whiteeagles.sk/sk/blog/reklama-bezi-dopyty-nechodia/ (ru: /ru/blog/reklama-idet-zayavok-net/)
     - https://whiteeagles.sk/sk/blog/sajt-iz-minska-ne-prodaet/
     - https://whiteeagles.sk/sk/blog/seo-audit-check-website/
     - https://whiteeagles.sk/sk/blog/website-cost-2026/

@@ -154,8 +154,10 @@ Ready to automate your business or build a new digital product?
 
 ## 6. Blog: guides for doing business in Slovakia
 
-Every article exists in Slovak and Russian. Replace `/sk/` with `/ru/` for
-the Russian version. The English blog is intentionally not indexed.
+Every article exists in Slovak and Russian. Articles published up to 4 August
+share one slug across both languages, so `/sk/` can be swapped for `/ru/`.
+Newer ones carry a slug in each language - those pairs are listed together
+below. The English blog is intentionally not indexed.
 
 - **Chatbot pre firmu: kedy sa vráti a kedy klientov iba otravuje**
   - https://whiteeagles.sk/sk/blog/chatbot-dlya-biznesa/
@@ -169,6 +171,8 @@ the Russian version. The English blog is intentionally not indexed.
   - https://whiteeagles.sk/sk/blog/ekasa-online-kassa-slovakia/
 - **GDPR pre malú firmu: čo naozaj treba mať na webe**
   - https://whiteeagles.sk/sk/blog/gdpr-dlya-maloy-firmy/
+- **Google Ads alebo Meta: kam ísť s malou firmou na Slovensku**
+  - https://whiteeagles.sk/sk/blog/google-ads-alebo-meta/
 - **Google Ads na Slovensku: ako neminúť rozpočet nazmar hneď na začiatku**
   - https://whiteeagles.sk/sk/blog/google-ads-small-business/
 - **E-shop na Slovensku: čo si vybrať a čo je povinné zo zákona**
@@ -177,6 +181,8 @@ the Russian version. The English blog is intentionally not indexed.
   - https://whiteeagles.sk/sk/blog/kak-slovaki-vybirayut-podryadchika/
 - **Ako zvýšiť návštevnosť webu na Slovensku: 7 zdrojov bez reklamného rozpočtu**
   - https://whiteeagles.sk/sk/blog/kak-uvelichit-poseshaemost-sajta/
+- **Koľko stojí reklama v Google Ads na Slovensku: rozpočet, cena kliknutia**
+  - https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/
 - **Nastavenie GA4 v roku 2026: aby sa dopyty naozaj počítali**
   - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
 - **Treba web po slovensky, keď sú klienti cudzojazyční?**
@@ -189,6 +195,8 @@ the Russian version. The English blog is intentionally not indexed.
   - https://whiteeagles.sk/sk/blog/priem-oplaty-kartoy/
 - **Prečo lacný web zo zahraničia na Slovensku nepredáva**
   - https://whiteeagles.sk/sk/blog/sajt-iz-minska-ne-prodaet/
+- **Reklama beží, dopyty nechodia: 7 príčin a ako každú overiť**
+  - https://whiteeagles.sk/sk/blog/reklama-bezi-dopyty-nechodia/
 - **SEO audit webu svojpomocne: 9 kontrol, ktoré nájdu skutočné problémy**
   - https://whiteeagles.sk/sk/blog/seo-audit-check-website/
 - **Koľko stojí web na Slovensku v roku 2026: ceny podľa typu a čo je v nich**

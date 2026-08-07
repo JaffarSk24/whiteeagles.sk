@@ -138,6 +138,6 @@ NAP — это название, адрес и телефон. Правило п
 
 Если ждать 3–6 месяцев некогда, органику можно подпереть платным трафиком: [настройка рекламы](/ru/service/ads/) даёт заявки с первого дня, а [веб-аналитика](/ru/service/analytics/) покажет, окупается ли это.
 
-По теме: [как словаки выбирают подрядчика](/ru/blog/kak-slovaki-vybirayut-podryadchika/), [Google Ads в Словакии](/ru/blog/google-ads-small-business/) и [нужен ли сайт на словацком](/ru/blog/nuzhen-li-sajt-na-slovackom/).
+По теме: [как словаки выбирают подрядчика](/ru/blog/kak-slovaki-vybirayut-podryadchika/), [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), [Google Ads в Словакии](/ru/blog/google-ads-small-business/) и [нужен ли сайт на словацком](/ru/blog/nuzhen-li-sajt-na-slovackom/).
 
 [CTA_FORM:webdev]

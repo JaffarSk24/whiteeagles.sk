@@ -136,6 +136,6 @@ Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukáže
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
-Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/). K téme: [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
+Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/). K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
 
 [CTA_FORM:audit]

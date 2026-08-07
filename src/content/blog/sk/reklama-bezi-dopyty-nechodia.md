@@ -133,6 +133,6 @@ Prejdem kampane aj web, nájdem, kde sa reťaz trhá, a poviem, čo opraviť ako
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-Detaily — [nastavenie reklamy](/sk/service/ads/) a [webová analytika](/sk/service/analytics/). Ak web máte, ale neviete, čo s ním — [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Detaily — [nastavenie reklamy](/sk/service/ads/) a [webová analytika](/sk/service/analytics/). Ak pochybujete o samotnej platforme, nie o nastaveniach: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/). Ak web máte, ale neviete, čo s ním — [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 [CTA_FORM:audit]

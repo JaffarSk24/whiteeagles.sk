@@ -136,6 +136,6 @@ Google не берёт фиксированную цену. Работает а�
 
 Живу в Словакии больше десяти лет, работаю как словацкое s.r.o., выставляю фактуру с IČO, которую вы проведёте в расходы. Общаемся по-русски или по-словацки.
 
-Подробности — на [странице услуги «Настройка рекламы»](/ru/service/ads/). По теме: [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [настройка веб-аналитики](/ru/service/analytics/).
+Подробности — на [странице услуги «Настройка рекламы»](/ru/service/ads/). По теме: [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [настройка веб-аналитики](/ru/service/analytics/).
 
 [CTA_FORM:audit]

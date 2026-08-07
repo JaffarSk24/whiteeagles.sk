@@ -127,6 +127,6 @@ zadarmo, zdarma, kurz, škola, práca, brigáda, návod, sám, svojpomocne,
 
 Живу в Словакии больше десяти лет, работаю как словацкое s.r.o., выставляю фактуру с IČO, которую вы проведёте в расходы. Общаемся по-русски или по-словацки.
 
-По теме: [SEO-аудит своими руками](/ru/blog/seo-audit-check-website/), [настройка GA4](/ru/blog/nastavenie-google-analytics-4/) и [сколько стоит сайт в Словакии](/ru/blog/website-cost-2026/).
+По теме: [Google Ads или Meta](/ru/blog/google-ads-ili-meta/) — если ещё не решили, с какой площадки начинать, [сколько стоит реклама в Словакии](/ru/blog/skolko-stoit-reklama-v-slovakii/), [настройка GA4](/ru/blog/nastavenie-google-analytics-4/) и [SEO-аудит своими руками](/ru/blog/seo-audit-check-website/).
 
 [CTA_FORM:audit]
