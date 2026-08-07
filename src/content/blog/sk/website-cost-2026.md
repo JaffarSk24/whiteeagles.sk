@@ -4,6 +4,7 @@ description: >-
   Skutočné ceny za tvorbu webu na Slovensku: landing page od 1 500 €, firemný web
   od 3 500 €, e-shop od 5 000 €. Čo je v cene a na aké náklady sa zabúda.
 date: '2026-08-04'
+key: 'website-cost'
 faq:
   - q: 'Koľko stojí web na Slovensku?'
     a: 'Jednoduchá landing page od 1 500 eur, firemný web od 3 500 eur, e-shop od 5 000 eur. Hodinová sadzba je 35 eur. Výsledok závisí od počtu stránok a jazykov, integrácií a od toho, či treba rezervácie alebo platby.'

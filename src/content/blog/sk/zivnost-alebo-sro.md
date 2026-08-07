@@ -4,6 +4,7 @@ description: >-
   Poctivé porovnanie živnosti a s.r.o.: ručenie, cena a rýchlosť rozbehu, ako
   vás vnímajú klienti a čo na tomto rozhodnutí mení reforma od 17. augusta 2026.
 date: '2026-08-04'
+key: 'zivnost-or-sro'
 faq:
   - q: 'Môžem mať živnosť aj s.r.o. súčasne?'
     a: 'Áno, je to prípustné a stáva sa to. Daňové a odvodové dôsledky takejto kombinácie si však vopred prepočítajte s účtovníkom.'

@@ -5,6 +5,7 @@ description: >-
   klientov na Slovensku: indexácia, duplicitné adresy, meranie dopytov, rýchlosť,
   povinné údaje. S konkrétnymi príkazmi a bezplatnými nástrojmi.
 date: '2026-08-04'
+key: 'seo-audit'
 faq:
   - q: 'Ako dlho trvá základný SEO audit svojpomocne?'
     a: 'Asi hodinu, ak idete po zozname a nezabŕdate do detailov. Prvé štyri kontroly — indexácia, duplicitné adresy, meranie dopytov a rýchlosť — zaberú dvadsať minút a nájdu väčšinu vážnych problémov.'

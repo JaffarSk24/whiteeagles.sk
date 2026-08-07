@@ -3,6 +3,7 @@ title: 'Google Ads for Small Business: A Step-by-Step Guide'
 description: >-
   A complete guide to Google Ads for small businesses. Learn how to set up your campaign correctly, avoid wasting budget, and attract your first customers.
 date: '2026-05-21'
+key: 'google-ads-start'
 ---
 ![Google Ads for Small Business: A Step-by-Step Guide | White Eagles & Co.](/assets/blog/blog6.webp)
 

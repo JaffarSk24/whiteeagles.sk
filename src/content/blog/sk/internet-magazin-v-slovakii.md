@@ -5,6 +5,7 @@ description: >-
   platba kartou, doprava, eKasa a DPH, povinné dokumenty na webe. Rozbor pre
   tých, ktorí začínajú.
 date: '2026-08-04'
+key: 'online-shop'
 faq:
   - q: 'Koľko stojí e-shop na Slovensku?'
     a: 'E-shop na mieru od 5 000 eur. Hotová platforma vyjde na štarte lacnejšie, ale berie si mesačný poplatok a percento. Rátať treba náklady na dva-tri roky, nie iba spustenie.'

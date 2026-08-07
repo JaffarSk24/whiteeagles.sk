@@ -4,6 +4,7 @@ description: >-
   Ako prijímať platby kartou na webe na Slovensku: platobné brány, poplatky, čo
   vyžaduje zákon od 1. mája 2026 a prečo je QR kód niekedy lacnejší než terminál.
 date: '2026-08-04'
+key: 'card-payments'
 faq:
   - q: 'Musím prijímať bezhotovostnú platbu?'
     a: 'Od 1. mája 2026 je predávajúci povinný umožniť kupujúcemu zaplatiť bezhotovostne pri nákupe nad jedno euro. Jedinou výnimkou je nedostupné internetové pripojenie v mieste predaja. Zákon vyžaduje možnosť platby, nie konkrétne terminál — QR kód na prevod tejto požiadavke vyhovie.'

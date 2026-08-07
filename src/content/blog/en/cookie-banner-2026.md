@@ -4,6 +4,7 @@ description: >-
   Find out the current legal requirements for Cookie banners and what Google
   Consent Mode V2 means for your website.
 date: '2026-05-10'
+key: 'cookie-banner'
 ---
 ![Cookie banner in 2026: Obligations and Consent Mode V2 | White Eagles & Co.](/assets/blog/blog4.webp)
 

@@ -4,6 +4,7 @@ description: >-
   A comparison between WordPress and custom-coded websites. Find out which
   technology is better for your business.
 date: '2026-05-12'
+key: 'wordpress-vs-custom'
 ---
 ![WordPress vs Custom Website: Which is better? | White Eagles & Co.](/assets/blog/blog2.webp)
 

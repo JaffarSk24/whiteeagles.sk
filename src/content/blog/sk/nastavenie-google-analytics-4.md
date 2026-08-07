@@ -5,6 +5,7 @@ description: >-
   udalosti, kľúčové udalosti, prepojenie so Search Console a Ads. A päť chýb,
   pre ktoré je v prehľadoch nula konverzií, hoci dopyty chodia.
 date: '2026-08-04'
+key: 'ga4-setup'
 faq:
   - q: 'Prečo je v GA4 nula konverzií, hoci dopyty chodia?'
     a: 'Najčastejšia príčina: udalosť ide do dataLayer, ale v Tag Manageri nie je tag, ktorý ju posiela do GA4. Druhá najčastejšia: udalosť dorazí, ale nie je označená ako kľúčová, takže v prehľade konverzií nie je. Obe sa overia za desať minút.'

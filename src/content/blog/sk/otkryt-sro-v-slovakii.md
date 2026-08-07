@@ -5,6 +5,7 @@ description: >-
   poplatok, lehoty a reforma od 17. augusta 2026, po ktorej registrácia
   zdražie viac než dvojnásobne a nezaobíde sa bez notára.
 date: '2026-08-03'
+key: 'open-sro'
 faq:
   - q: 'Musím byť rezident SR, aby som mohol založiť s.r.o.?'
     a: 'Nie. Zakladateľom môže byť aj občan inej krajiny. Osobitné požiadavky sa môžu týkať konateľa, to je lepšie overiť pre konkrétnu situáciu.'

@@ -4,6 +4,7 @@ description: >-
   Aké údaje musí na webe uvádzať slovenská firma aj živnostník: IČO, DIČ, zápis
   v registri, dozorný orgán a čo navyše potrebuje e-shop.
 date: '2026-08-04'
+key: 'website-details'
 faq:
   - q: 'Aké údaje sú povinné na webe s.r.o.?'
     a: 'Obchodné meno presne v znení z registra, sídlo, IČO, DIČ a pri registrácii platiteľa aj IČ DPH, plus údaj o zápise v Obchodnom registri: súd, oddiel a číslo vložky.'

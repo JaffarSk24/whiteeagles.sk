@@ -5,6 +5,7 @@ description: >-
   rozpočtu treba, ktoré nastavenia kampaň zabíjajú, vylučujúce slová, meranie
   konverzií a Consent Mode. S rozborom chýb, ktoré stoja skutočné peniaze.
 date: '2026-08-04'
+key: 'google-ads-start'
 faq:
   - q: 'Koľko rozpočtu treba na Google Ads na Slovensku?'
     a: 'Orientačne pri úzkej službe v Bratislave od 10–15 eur denne, teda 300–450 mesačne. Menej tiež funguje, ale na závery zo štatistiky sa bude čakať dlhšie: aby sa dalo posúdiť, či sa kampaň vracia, treba nazbierať aspoň 20–30 dopytov.'

@@ -4,6 +4,7 @@ description: >-
   Kedy je cookie lišta povinná, ako má podľa pravidiel EÚ vyzerať, čo je Consent
   Mode v2 a prečo bez neho prichádzate o dáta aj o remarketing.
 date: '2026-08-04'
+key: 'cookie-banner'
 faq:
   - q: 'Potrebujem cookie lištu, ak mám len Google Analytics?'
     a: 'Áno. Analytické cookies vyžadujú súhlas rovnako ako reklamné. Bez súhlasu sa dá zaobísť len s nevyhnutnými technickými cookies — tými, bez ktorých web nefunguje.'

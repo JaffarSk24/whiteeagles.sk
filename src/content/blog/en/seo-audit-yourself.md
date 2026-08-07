@@ -3,6 +3,7 @@ title: 'SEO Audit: How to Check and Improve Your Website'
 description: >-
   A step-by-step guide to conducting a basic DIY SEO audit. Learn how to find technical errors, test speed, and improve your Google search rankings.
 date: '2026-05-21'
+key: 'seo-audit'
 ---
 ![SEO Audit: How to Check and Improve Your Website | White Eagles & Co.](/assets/blog/blog5.webp)
 

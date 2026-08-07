@@ -4,6 +4,7 @@ description: >-
   A complete guide to transitioning and correctly setting up Google Analytics 4
   for conversion tracking in 2026.
 date: '2026-05-11'
+key: 'ga4-setup'
 ---
 ![How to correctly set up Google Analytics 4 (GA4) | White Eagles & Co.](/assets/blog/blog3.webp)
 

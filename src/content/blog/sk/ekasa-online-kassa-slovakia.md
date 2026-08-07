@@ -5,6 +5,7 @@ description: >-
   výnimiek, od 1. mája prijímanie bezhotovostnej platby nad 1 euro. Pokuty,
   výnimky a čo s tým.
 date: '2026-08-04'
+key: 'ekasa'
 faq:
   - q: 'Potrebujem eKasu, ak prijímam platby len prevodom na účet?'
     a: 'Nie. Povinnosť vzniká pri prijímaní hotovosti a pri platbe kartou na mieste. Úhrada faktúry bankovým prevodom pod evidenciu tržieb cez eKasu nespadá.'

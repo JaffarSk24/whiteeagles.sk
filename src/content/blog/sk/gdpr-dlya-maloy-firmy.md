@@ -4,6 +4,7 @@ description: >-
   Čo z GDPR sa naozaj týka menšej firmy na Slovensku: aké dokumenty patria na
   web, čo má byť pri formulári a na čom sa najčastejšie chybuje.
 date: '2026-08-04'
+key: 'gdpr-small-business'
 faq:
   - q: 'Týka sa GDPR aj celkom malých firiem?'
     a: 'Áno. Hranica podľa veľkosti neexistuje — pravidlá platia pre každého, kto spracúva osobné údaje. Oslobodenie od vedenia záznamov o spracovateľských činnostiach pre organizácie do 250 zamestnancov existuje, ale neplatí, ak je spracúvanie pravidelné — a formulár na webe je práve pravidelné spracúvanie.'

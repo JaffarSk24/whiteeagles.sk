@@ -5,6 +5,7 @@ description: >-
   skutočné náklady vlastníctva, rýchlosť, bezpečnosť, povinné údaje a cookie
   lišta. Komu sedí čo a kedy je voľba jednoznačná.
 date: '2026-08-04'
+key: 'wordpress-vs-custom'
 faq:
   - q: 'Čo je lacnejšie — WordPress alebo web na mieru?'
     a: 'Na štarte WordPress. Za tri roky rozdiel často zmizne: predplatné pluginov, aktualizácie, obnova po napadnutí a prerábka, keď šablóna narazí na strop. Rátať treba náklady vlastníctva, nie len prvú faktúru.'

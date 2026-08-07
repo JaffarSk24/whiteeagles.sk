@@ -4,6 +4,7 @@ description: >-
   A complete overview of website development costs. Find out how much a simple
   landing page, corporate site, and e-commerce platform cost.
 date: '2026-05-13'
+key: 'website-cost'
 ---
 ![How much does a website cost in 2026? | White Eagles & Co.](/assets/blog/blog1.webp)
 

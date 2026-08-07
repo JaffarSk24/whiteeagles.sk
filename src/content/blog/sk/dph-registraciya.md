@@ -5,6 +5,7 @@ description: >-
   žiadosti, sadzby 23, 19 a 5 percent a kedy sa dobrovoľná registrácia oplatí
   viac než povinná.
 date: '2026-08-04'
+key: 'vat-registration'
 faq:
   - q: 'Od akého obratu treba registráciu na DPH?'
     a: 'Hranice sú dve. Pri prekročení 50 000 eur za kalendárny rok sa stávate platiteľom od 1. januára nasledujúceho roka. Pri prekročení 62 500 eur sa ním stávate hneď tým dodaním, ktorým bola hranica prekročená.'
