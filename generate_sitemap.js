@@ -60,7 +60,22 @@ const pathsFor = (locale) => [
   ...postsFor(locale).map((p) => ({ path: `blog/${p}`, changefreq: 'monthly', priority: '0.7' }))
 ];
 
-const lastmod = new Date().toISOString().split('T')[0];
+// lastmod comes from the article's front matter `date`, not from the build
+// date. Stamping "today" on all 86 URLs at every deploy told search engines
+// the whole site was rewritten each time, which devalues the signal and hides
+// the pages that really changed. Pages with no content date (home, services)
+// simply omit lastmod - the sitemap spec allows it, and an absent value is
+// more honest than an invented one. Consequence: a real edit to an article
+// must bump its `date:` to be announced.
+const lastmodFor = (locale, p) => {
+  const kind = p.startsWith('blog/') ? contentDir : p.startsWith('case/') ? casesDir : null;
+  if (!kind) return null;
+  const file = path.join(kind, locale, `${p.split('/')[1]}.md`);
+  if (!fs.existsSync(file)) return null;
+  const { data } = matter(fs.readFileSync(file, 'utf8'));
+  const d = data.date instanceof Date ? data.date.toISOString().split('T')[0] : String(data.date || '');
+  return /^\d{4}-\d{2}-\d{2}$/.test(d) ? d : null;
+};
 
 const urlFor = (locale, path) =>
   path === '' ? `${baseUrl}/${locale}/` : `${baseUrl}/${locale}/${path}/`;
@@ -118,7 +133,8 @@ locales.forEach((locale) => {
         xml += `    <xhtml:link rel="alternate" hreflang="${alt}" href="${urlFor(alt, altPath(alt, path))}"/>\n`;
       });
     xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(defaultLocale, altPath(defaultLocale, path) || path)}"/>\n`;
-    xml += `    <lastmod>${lastmod}</lastmod>\n`;
+    const lastmod = lastmodFor(locale, path);
+    if (lastmod) xml += `    <lastmod>${lastmod}</lastmod>\n`;
     xml += `    <changefreq>${changefreq}</changefreq>\n`;
     xml += `    <priority>${priority}</priority>\n`;
     xml += `  </url>\n`;
