@@ -23,13 +23,14 @@ Disallow: /*/index.txt
 Disallow: /__next
 Disallow: /*/__next
 
+# The legal pages (terms, privacy, cookies) used to be disallowed here. That
+# was the wrong instrument: they carry a noindex tag, and a crawler that is
+# not allowed to fetch them never sees it. Search Console then reports them as
+# "blocked by robots.txt" indefinitely, and the URLs can still surface without
+# a snippet. Crawling is allowed so the noindex can be read and obeyed.
 User-agent: *
 Allow: /
-Allow: /*/service/cookies
 Disallow: /api/
-Disallow: /*/terms
-Disallow: /*/privacy
-Disallow: /*/cookies
 
 # Next.js static-export payload files. The browser needs them for client-side
 # navigation, so they stay reachable, but crawling them is pure waste: they

@@ -10,7 +10,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t("title"),
     description: t("description"),
-    robots: { index: false, follow: false }, // noindex
+    // Its own address, not the locale home page. Without this the page
+    // inherits the layout's canonical and tells Google it is a duplicate of
+    // the home page - while also carrying noindex, which is contradictory.
+    alternates: { canonical: `https://whiteeagles.sk/${locale}/terms/` },
+    // Kept out of the index, but the links are still worth following: nofollow
+    // only throws away the internal links this page carries.
+    robots: { index: false, follow: true },
   };
 }
 
