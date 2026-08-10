@@ -13,6 +13,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    # Declared here because a step's `if:` cannot read the secrets context -
+    # a workflow that tries is rejected before any job starts, which shows up
+    # as a run that failed instantly with no jobs and no log. Through env it
+    # is readable.
+    env:
+      BING_API_KEY: ${{ secrets.BING_API_KEY }}
+
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
@@ -70,8 +77,6 @@ jobs:
       # one has to be generated in Bing Webmaster Tools (Settings -> API access)
       # and stored as BING_API_KEY before this step does anything.
       - name: 🔍 Submit to Bing Webmaster API
-        if: ${{ secrets.BING_API_KEY != '' }}
+        if: ${{ env.BING_API_KEY != '' }}
         continue-on-error: true
-        env:
-          BING_API_KEY: ${{ secrets.BING_API_KEY }}
         run: node submit_to_bing.js
