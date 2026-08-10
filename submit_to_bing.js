@@ -32,8 +32,10 @@ async function main() {
   }
 
   console.log('📊 Checking Bing URL submission quota...\n');
+  let daily = null;
   try {
     const quota = await getQuota();
+    daily = Number(quota.DailyQuota);
     console.log(`  Daily quota remaining: ${quota.DailyQuota}`);
     console.log(`  Monthly quota remaining: ${quota.MonthlyQuota}\n`);
   } catch (error) {
@@ -50,7 +52,23 @@ async function main() {
     console.warn(`⚠️  Sitemap not found at ${SITEMAP_PATH}, submitting root URL only.`);
   }
 
-  const uniqueUrls = [...new Set(urls)];
+  let uniqueUrls = [...new Set(urls)];
+
+  // The daily quota is 100 URLs and the sitemap holds 86, so a second deploy on
+  // the same day would otherwise fail on quota rather than on anything real.
+  // Trim to what is left and say exactly what was dropped - a silent cut reads
+  // as "everything was submitted".
+  if (Number.isFinite(daily) && daily < uniqueUrls.length) {
+    const dropped = uniqueUrls.length - daily;
+    if (daily <= 0) {
+      console.warn('⚠️  Daily quota is exhausted - nothing submitted this run.');
+      return;
+    }
+    // The sitemap is written locale by locale, Slovak first, so the head of the
+    // list is the language that matters most here.
+    console.warn(`⚠️  Quota allows ${daily} of ${uniqueUrls.length} URLs; dropping the last ${dropped}.`);
+    uniqueUrls = uniqueUrls.slice(0, daily);
+  }
 
   console.log(`📤 Submitting ${uniqueUrls.length} URLs to Bing Webmaster API (SubmitUrlBatch)...\n`);
 
