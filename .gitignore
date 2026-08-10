@@ -79,6 +79,10 @@ typings/
 
 # Next.js build output
 .next
+# `.next` here is a symlink to `.next.nosync`, a name iCloud leaves alone. The
+# pattern above matches the link, not its target, so the build output showed up
+# as untracked on every status.
+.next.nosync/
 out
 
 # Nuxt.js build / generate output
