@@ -19,6 +19,7 @@ jobs:
     # is readable.
     env:
       BING_API_KEY: ${{ secrets.BING_API_KEY }}
+      GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
 
     steps:
       - name: 🚚 Get latest code
@@ -68,6 +69,20 @@ jobs:
       # outage at someone else's API must not repaint a finished deploy as a
       # failure - the step still shows red on its own, which is the signal
       # worth having.
+      # Google takes a sitemap and nothing else: there is no API that asks for
+      # an ordinary page to be indexed. Resubmitting tells it the file is worth
+      # re-reading now instead of whenever it next gets around to it.
+      - name: 🗺 Resubmit the sitemap to Search Console
+        if: ${{ env.GSC_SERVICE_ACCOUNT_JSON != '' }}
+        continue-on-error: true
+        run: |
+          # Written straight from the environment into a file outside the
+          # workspace, so the key never lands in the log or in the build. The
+          # trap removes it even when the script exits non-zero.
+          printf '%s' "$GSC_SERVICE_ACCOUNT_JSON" > "$RUNNER_TEMP/gsc-key.json"
+          trap 'rm -f "$RUNNER_TEMP/gsc-key.json"' EXIT
+          GOOGLE_KEY_FILE="$RUNNER_TEMP/gsc-key.json" node submit_to_google.js
+
       - name: 🔔 Submit to IndexNow
         continue-on-error: true
         run: node submit_to_indexnow.js
