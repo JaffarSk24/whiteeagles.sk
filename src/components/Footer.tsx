@@ -4,6 +4,7 @@ import { trackGAEvent } from "../utils/analytics";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import { services } from "../data/services";
 import "./Footer.css";
 
 // Google Business Profile card. Keep in sync with the address in
@@ -17,6 +18,8 @@ export const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="container">
+        <FooterNav />
+
         <div className="footer-grid">
           {/* Column 1: Logo */}
           <div className="footer-col footer-logo-col">
@@ -42,6 +45,58 @@ export const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
+  );
+};
+
+/**
+ * Sitewide links to the service pages, the portfolio and the audit landing.
+ *
+ * Before this block the only permanent links on the site were the header,
+ * which points at anchors on the home page rather than the pages themselves,
+ * and the three legal pages in the footer - which carry `noindex`. So every
+ * one of the 86 pages passed its link weight to pages that cannot rank, while
+ * the service pages depended on being mentioned in an article.
+ *
+ * Search Console showed the result: `/sk/seo-audit/`, `/ru/service/ads/` and
+ * `/en/service/telegram/` were unknown to Google, and `/sk/service/ads/` and
+ * `/sk/service/cookies/` were discovered but never crawled. The audit landing
+ * was the worst case - its only call to action is a modal button, not a link,
+ * so nothing on the site pointed at the page at all.
+ *
+ * The list is built from `services` so a new service appears here by itself.
+ */
+const FooterNav = () => {
+  const t = useTranslations();
+  return (
+    <nav className="footer-nav" aria-label={t("header.services")}>
+      <div className="footer-nav-col">
+        <h4 className="footer-nav-title">{t("header.services")}</h4>
+        <ul className="footer-nav-list">
+          {services.map((service) => (
+            <li key={service.id}>
+              <Link href={`/service/${service.id}`} className="footer-link-small">
+                {t(service.titleKey as never)}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="footer-nav-col">
+        <h4 className="footer-nav-title">{t("footer.nav_pages")}</h4>
+        <ul className="footer-nav-list">
+          <li>
+            <Link href="/seo-audit" className="footer-link-small">{t("footer.nav_audit")}</Link>
+          </li>
+          <li>
+            <Link href="/portfolio" className="footer-link-small">{t("header.portfolio")}</Link>
+          </li>
+          <li>
+            <Link href="/blog" className="footer-link-small">{t("header.blog")}</Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 

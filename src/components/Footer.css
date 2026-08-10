@@ -12,6 +12,38 @@
   margin-bottom: 40px;
 }
 
+/* Sitewide link row, above the logo/info/contacts grid. */
+.footer-nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.footer-nav-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 14px;
+}
+
+.footer-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+/* Six services in a single column would run longer than the rest of the
+   footer, so they sit two abreast while there is room for it. */
+.footer-nav-col:first-child .footer-nav-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 24px;
+}
+
 /* Column 1: Logo */
 .footer-logo {
   display: flex;
@@ -156,6 +188,24 @@
     text-align: center;
     gap: 20px; /* Minimal gap */
     margin-bottom: 20px;
+  }
+
+  .footer-nav {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+  }
+
+  .footer-nav-title {
+    margin-bottom: 10px;
+  }
+
+  /* Two columns of services still fit a phone; one would push the contacts
+     an extra screenful down. */
+  .footer-nav-col:first-child .footer-nav-list {
+    column-gap: 16px;
   }
   
   .footer-logo {

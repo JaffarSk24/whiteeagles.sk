@@ -619,7 +619,9 @@
     "company_desc": "Reklama a vývoj webových stránok",
     "terms": "Podmienky",
     "privacy": "Ochrana osobných údajov",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "nav_pages": "Stránky",
+    "nav_audit": "SEO audit zdarma"
   },
   "popup": {
     "title": "Neodchádzajte tak skoro!",

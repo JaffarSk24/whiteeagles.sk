@@ -619,7 +619,9 @@
     "company_desc": "Реклама и разработка сайтов",
     "terms": "Условия",
     "privacy": "Политика конфиденциальности",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "nav_pages": "Разделы",
+    "nav_audit": "Бесплатный SEO-аудит"
   },
   "popup": {
     "title": "Не спешите уходить!",

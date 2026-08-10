@@ -632,7 +632,9 @@
     "company_desc": "Advertising and website development",
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "nav_pages": "Pages",
+    "nav_audit": "Free SEO audit"
   },
   "chatbot": {
     "greeting_1": "Hello! My name is Kirill Mosin. I am the CEO of White Eagles & Co.",
