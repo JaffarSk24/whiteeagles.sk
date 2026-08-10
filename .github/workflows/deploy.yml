@@ -49,3 +49,29 @@ jobs:
             --exclude '/api/config.php' \
             -e "ssh -p 22 -o StrictHostKeyChecking=no" \
             dist/ "$SSH_USER@$SSH_HOST:$REMOTE_TARGET/"
+
+      # Announcing the deploy to the engines that accept being told. Google is
+      # not among them - it takes a sitemap and nothing else - so these two
+      # cover Bing, Yandex, Seznam and Naver.
+      #
+      # They run after rsync, never before: announcing a page that is not on
+      # the server yet earns a crawl of the old version.
+      #
+      # continue-on-error, because by this point the site is already live. An
+      # outage at someone else's API must not repaint a finished deploy as a
+      # failure - the step still shows red on its own, which is the signal
+      # worth having.
+      - name: 🔔 Submit to IndexNow
+        continue-on-error: true
+        run: node submit_to_indexnow.js
+
+      # Skipped until the secret exists, rather than failing on every deploy.
+      # The key this script was written against answers InvalidApiKey, so a new
+      # one has to be generated in Bing Webmaster Tools (Settings -> API access)
+      # and stored as BING_API_KEY before this step does anything.
+      - name: 🔍 Submit to Bing Webmaster API
+        if: ${{ secrets.BING_API_KEY != '' }}
+        continue-on-error: true
+        env:
+          BING_API_KEY: ${{ secrets.BING_API_KEY }}
+        run: node submit_to_bing.js
