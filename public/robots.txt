@@ -1,7 +1,18 @@
 # AI assistant crawlers are welcome: being read by them is how the company
-# gets recommended. Machine-readable summaries live at /llms.txt and
-# /llms-full.txt. The explicit groups below make the policy unambiguous even
-# if the wildcard group ever tightens.
+# gets recommended. Machine-readable summaries live at /llms.txt, with Slovak
+# and Russian versions at /llms-sk.txt and /llms-ru.txt (and the extended
+# /llms-full*.txt companions). Every page also declares them in its head with
+# rel="alternate" - a comment here is not machine-readable, so it is not the
+# pointer, only a note for people reading this file.
+#
+# "Allow: /" sits at the end of each group on purpose. The standard says the
+# most specific rule wins, so its position makes no difference to a correct
+# parser - but a naive one takes the first match, and with the blanket Allow
+# first it would hand out every path below, payload files included. At the end
+# the file reads the same under either logic.
+#
+# The explicit group below makes the policy unambiguous even if the wildcard
+# group ever tightens.
 User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
@@ -13,7 +24,6 @@ User-agent: Perplexity-User
 User-agent: Google-Extended
 User-agent: Applebot-Extended
 User-agent: meta-externalagent
-Allow: /
 # Same payload-file hygiene as the wildcard group: a named group replaces the
 # wildcard entirely for its agent, so the rules must be repeated here.
 Disallow: /api/
@@ -22,6 +32,7 @@ Disallow: /index.txt
 Disallow: /*/index.txt
 Disallow: /__next
 Disallow: /*/__next
+Allow: /
 
 # The legal pages (terms, privacy, cookies) used to be disallowed here. That
 # was the wrong instrument: they carry a noindex tag, and a crawler that is
@@ -29,9 +40,7 @@ Disallow: /*/__next
 # "blocked by robots.txt" indefinitely, and the URLs can still surface without
 # a snippet. Crawling is allowed so the noindex can be read and obeyed.
 User-agent: *
-Allow: /
 Disallow: /api/
-
 # Next.js static-export payload files. The browser needs them for client-side
 # navigation, so they stay reachable, but crawling them is pure waste: they
 # duplicate page content as plain text and Googlebot only makes about forty
@@ -41,5 +50,6 @@ Disallow: /index.txt
 Disallow: /*/index.txt
 Disallow: /__next
 Disallow: /*/__next
+Allow: /
 
 Sitemap: https://whiteeagles.sk/sitemap.xml
