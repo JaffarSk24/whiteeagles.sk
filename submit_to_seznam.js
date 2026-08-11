@@ -1,24 +1,13 @@
-const fs = require('fs');
-const path = require('path');
 const https = require('https');
 
 const KEY = '9631c2e7ad2c0af432d401329816cbd9e80689d5';
-const SITEMAP_PATH = path.join(__dirname, 'dist', 'sitemap.xml');
+const { collectUrls } = require('./submit_urls');
 
 async function main() {
-  const urls = [
-    'https://whiteeagles.sk/',
-    'https://whiteeagles.sk/sitemap.xml'
-  ];
-
-  if (fs.existsSync(SITEMAP_PATH)) {
-    const content = fs.readFileSync(SITEMAP_PATH, 'utf-8');
-    const matches = [...content.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
-    urls.push(...matches);
-  }
-
-  // Remove duplicates just in case
-  const uniqueUrls = [...new Set(urls)];
+  // This endpoint reindexes documents, so it takes pages and the llms files
+  // but not sitemap.xml or robots.txt - both used to be in this list and both
+  // came back 422.
+  const uniqueUrls = collectUrls();
 
   console.log(`Starting reindexing for ${uniqueUrls.length} URLs in Seznam...\n`);
 

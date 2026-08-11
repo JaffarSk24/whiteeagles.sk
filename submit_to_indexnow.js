@@ -1,5 +1,3 @@
-const fs = require('fs');
-const path = require('path');
 const https = require('https');
 
 const HOST = 'whiteeagles.sk';
@@ -8,25 +6,12 @@ const HOST = 'whiteeagles.sk';
 // file first - a key whose .txt answers 404 makes every submission fail.
 const KEY = '4c042a1bf13f43d1a14dc6a5cc920873';
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
-// generate_sitemap.js writes public/sitemap.xml on prebuild, and the build
-// copies it into dist/ afterwards. Reading the source keeps the list correct
-// even when this runs without a build.
-const SITEMAP_PATH = path.join(__dirname, 'public', 'sitemap.xml');
+const { collectUrls } = require('./submit_urls');
 
 async function main() {
-  // The sitemap itself is not a page and has no place in the list.
-  const urls = [`https://${HOST}/`];
-
-  if (fs.existsSync(SITEMAP_PATH)) {
-    const content = fs.readFileSync(SITEMAP_PATH, 'utf-8');
-    const matches = [...content.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
-    urls.push(...matches);
-  } else {
-    console.warn(`⚠️  Sitemap not found at ${SITEMAP_PATH}, submitting root URL only.`);
-  }
-
-  // Remove duplicates just in case
-  const uniqueUrls = [...new Set(urls)];
+  // Sitemap pages plus the llms files - see submit_urls.js for why the latter
+  // are not in the sitemap but are still worth announcing.
+  const uniqueUrls = collectUrls();
 
   console.log(`Submitting ${uniqueUrls.length} URLs to IndexNow for ${HOST}...\n`);
 

@@ -1,5 +1,3 @@
-const fs = require('fs');
-const path = require('path');
 const https = require('https');
 
 const HOST = 'whiteeagles.sk';
@@ -19,10 +17,7 @@ const SITE_URL = `https://${HOST}`;
 // purpose, and hard-coding it is correct.
 const BING_API_KEY = process.env.BING_API_KEY;
 
-// The sitemap is generated into public/ by generate_sitemap.js on prebuild and
-// only then copied into dist/. Reading the source means the list is right even
-// when the script runs without a build.
-const SITEMAP_PATH = path.join(__dirname, 'public', 'sitemap.xml');
+const { collectUrls } = require('./submit_urls');
 
 async function main() {
   if (!BING_API_KEY) {
@@ -42,17 +37,8 @@ async function main() {
     console.error('⚠️  Could not check quota:', error.message);
   }
 
-  const urls = [`${SITE_URL}/`];
-
-  if (fs.existsSync(SITEMAP_PATH)) {
-    const content = fs.readFileSync(SITEMAP_PATH, 'utf-8');
-    const matches = [...content.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
-    urls.push(...matches);
-  } else {
-    console.warn(`⚠️  Sitemap not found at ${SITEMAP_PATH}, submitting root URL only.`);
-  }
-
-  let uniqueUrls = [...new Set(urls)];
+  // Sitemap pages plus the llms files - see submit_urls.js.
+  let uniqueUrls = collectUrls();
 
   // The daily quota is 100 URLs and the sitemap holds 86, so a second deploy on
   // the same day would otherwise fail on quota rather than on anything real.

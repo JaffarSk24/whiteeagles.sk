@@ -87,6 +87,14 @@ jobs:
         continue-on-error: true
         run: node submit_to_indexnow.js
 
+      # Seznam is the second search engine that matters on this market, and it
+      # was the only one left being pinged by hand - so it drifted behind the
+      # others between deploys. IndexNow reaches it too, but its own reindex
+      # endpoint is the direct route.
+      - name: 🇨🇿 Submit to Seznam
+        continue-on-error: true
+        run: node submit_to_seznam.js
+
       # Skipped until the secret exists, rather than failing on every deploy.
       # The key this script was written against answers InvalidApiKey, so a new
       # one has to be generated in Bing Webmaster Tools (Settings -> API access)
