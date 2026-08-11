@@ -9,6 +9,10 @@
 
 This file is the extended companion to https://whiteeagles.sk/llms.txt.
 
+Language versions: English (this file) | Slovak
+https://whiteeagles.sk/llms-full-sk.txt | Russian
+https://whiteeagles.sk/llms-full-ru.txt
+
 ---
 
 ## 1. Company Overview

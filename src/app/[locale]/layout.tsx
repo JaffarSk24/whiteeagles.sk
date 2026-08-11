@@ -116,8 +116,28 @@ export default async function LocaleLayout({
             is a convention, not a standard, and HTML stays these bots' main
             channel. But finding the files was impossible before and is possible
             now. */}
-        <link rel="alternate" type="text/markdown" href="https://whiteeagles.sk/llms.txt" title="llms.txt" />
-        <link rel="alternate" type="text/markdown" href="https://whiteeagles.sk/llms-full.txt" title="llms-full.txt" />
+        {/* All three languages are declared, with the page's own language
+            first, so an assistant answering in Slovak or Russian reaches the
+            file written for that reader instead of translating the English one
+            and mangling IČO, DPH or faktúra along the way. */}
+        {([locale, ...["sk", "ru", "en"].filter((l) => l !== locale)] as const)
+          .flatMap((lng) => {
+            const suffix = lng === "en" ? "" : `-${lng}`;
+            return [
+              { file: `llms${suffix}.txt`, lng },
+              { file: `llms-full${suffix}.txt`, lng },
+            ];
+          })
+          .map(({ file, lng }) => (
+            <link
+              key={file}
+              rel="alternate"
+              type="text/markdown"
+              hrefLang={lng}
+              href={`https://whiteeagles.sk/${file}`}
+              title={file}
+            />
+          ))}
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
