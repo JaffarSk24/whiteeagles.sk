@@ -108,6 +108,16 @@ export default async function LocaleLayout({
     <html lang={locale} className={inter.variable}>
       <head>
         <meta name="seznam-wmt" content="WfarbRzOeP8RMWhMM7ARXPpViep5Zg9p" />
+        {/* The machine-readable summaries had no machine-readable pointer. The
+            only mention of them lived in a "#" comment inside robots.txt, and
+            parsers throw comments away - so across the whole log period AI
+            crawlers made ~18,000 requests, fetched robots.txt 1,234 times, and
+            fetched /llms.txt exactly zero times. Not a guarantee either: llms.txt
+            is a convention, not a standard, and HTML stays these bots' main
+            channel. But finding the files was impossible before and is possible
+            now. */}
+        <link rel="alternate" type="text/markdown" href="https://whiteeagles.sk/llms.txt" title="llms.txt" />
+        <link rel="alternate" type="text/markdown" href="https://whiteeagles.sk/llms-full.txt" title="llms-full.txt" />
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"

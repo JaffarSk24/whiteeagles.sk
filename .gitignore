@@ -40,6 +40,13 @@ build/Release
 
 # Dependency directories
 node_modules/
+# On this machine node_modules is a symlink to node_modules.nosync, the macOS
+# trick that keeps it out of iCloud. The pattern above ends in a slash, so it
+# matches directories only and let both the symlink and its target through -
+# "git add -A" then swept them in and the push was rejected, because one file
+# in @next/swc is over GitHub's 100 MB limit.
+node_modules
+node_modules.nosync/
 jspm_packages/
 
 # TypeScript v1 declaration files
