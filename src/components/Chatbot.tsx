@@ -354,7 +354,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
       <div id="we-chatbot-trigger" className={showTrigger && !isOpen ? "we-show" : ""} onClick={openChat}>
         <div className={`we-chatbot-bubble ${showBubble ? "we-show" : ""}`}>{t("bubble_text")}</div>
         <div className="we-chatbot-icon">
-          <Image src="/assets/Kirill_Mosin.png" alt="Kirill Mosin" width={56} height={56} className="we-avatar-img" />
+          <Image src="/assets/Kirill_Mosin.webp" alt="Kirill Mosin" width={56} height={56} className="we-avatar-img" />
           <span className="we-chatbot-trigger-status-dot"></span>
         </div>
       </div>
@@ -365,7 +365,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ isOrderFormOpen = false }) => 
           <div className="we-chatbot-header-title">
             <div className="we-chatbot-avatar-wrap">
               <Image
-                src="/assets/Kirill_Mosin.png"
+                src="/assets/Kirill_Mosin.webp"
                 alt="Kirill Mosin"
                 width={36}
                 height={36}

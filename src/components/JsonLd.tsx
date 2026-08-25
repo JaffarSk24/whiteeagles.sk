@@ -215,7 +215,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         "worksFor": { "@id": `${siteUrl}/#organization` },
         "knowsLanguage": ["sk", "ru", "en"],
         "knowsAbout": knowsAbout,
-        "image": `${siteUrl}/assets/Kirill_Mosin.png`,
+        "image": `${siteUrl}/assets/Kirill_Mosin.webp`,
         "url": `${siteUrl}/${locale}/`,
         "sameAs": sameAsLinks,
       },
