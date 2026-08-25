@@ -229,6 +229,26 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               {post.content}
             </ReactMarkdown>
           </div>
+
+          {/* The front-matter FAQ used to exist only as FAQPage markup, on a
+              page where the reader could not see a word of it. Google's
+              structured-data guidelines require the content to be visible, so
+              it is rendered here rather than dropped - the answers are worth
+              reading, and several of them are what people actually searched
+              for to arrive on the page. */}
+          {post.faq.length > 0 && (
+            <section className="post-faq">
+              <h2>{t('faq_title')}</h2>
+              <div className="post-faq-list">
+                {post.faq.map((item, i) => (
+                  <details key={i} className="post-faq-item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
         </article>
       </div>
     </div>
