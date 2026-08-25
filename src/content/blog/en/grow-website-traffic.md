@@ -133,7 +133,7 @@ Trying to do everything at once means doing nothing. The order:
 
 ## If you need help
 
-I can look at what is holding the site back and say where your fastest win is — the [free audit](/en/seo-audit/), result within 3 working days.
+I can look at what is holding the site back and say where your fastest win is — the [free website audit](/en/seo-audit/), result within 3 working days.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 

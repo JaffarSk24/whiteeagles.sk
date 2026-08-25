@@ -110,6 +110,6 @@ Web sa nevráti dizajnom, ale tým, či cezeň chodia dopyty. Všetko, za čo sa
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**: Biliardovňa, Krása štúdio, Top Sklad, Synchro Žralok, Bodabo. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
-Podrobnosti a čo je v cene nájdete na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Ak web už máte a neprináša klientov — [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Podrobnosti a čo je v cene nájdete na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Ak web už máte a neprináša klientov — [bezplatný SEO audit webstránky](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 [CTA_FORM:audit]

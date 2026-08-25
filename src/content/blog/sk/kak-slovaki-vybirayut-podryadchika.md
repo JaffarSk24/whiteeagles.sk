@@ -105,7 +105,7 @@ Každý nesplnený bod sú ľudia, ktorí sa na web dostali a odišli.
 
 ## Ak chcete, aby som sa pozrel
 
-Prejdem váš web očami slovenského klienta a pošlem konkrétny zoznam toho, čo bráni ľuďom napísať vám: od údajov a formulára po rýchlosť a to, ako web vyzerá vo výsledkoch vyhľadávania. **[Bezplatný audit](/sk/seo-audit/)**, výsledok do 3 pracovných dní.
+Prejdem váš web očami slovenského klienta a pošlem konkrétny zoznam toho, čo bráni ľuďom napísať vám: od údajov a formulára po rýchlosť a to, ako web vyzerá vo výsledkoch vyhľadávania. **[Bezplatný SEO audit stránky](/sk/seo-audit/)**, výsledok do 3 pracovných dní.
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**: Biliardovňa, Krása štúdio, Top Sklad, Synchro Žralok. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

@@ -133,7 +133,7 @@ Ak sa robí všetko naraz, nespraví sa nič. Poradie je takéto:
 
 ## Ak treba pomôcť
 
-Môžem sa pozrieť, čo webu bráni rásť, a povedať, kde máte najrýchlejší zisk — [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Môžem sa pozrieť, čo webu bráni rásť, a povedať, kde máte najrýchlejší zisk — [bezplatný audit webu](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

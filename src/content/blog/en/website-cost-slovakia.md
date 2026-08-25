@@ -111,6 +111,6 @@ A site pays for itself not through design but through whether enquiries arrive. 
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**: Biliardovňa, Krása štúdio, Top Sklad, Synchro Žralok, Bodabo. I work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
 
-Details and what is included on the [web development service page](/en/service/webdev/). If you already have a site and it brings no clients — the [free audit](/en/seo-audit/), result within 3 working days.
+Details and what is included on the [web development service page](/en/service/webdev/). If you already have a site and it brings no clients — the [free website SEO audit](/en/seo-audit/), result within 3 working days.
 
 [CTA_FORM:audit]

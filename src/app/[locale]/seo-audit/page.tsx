@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { ArrowLeft, Check } from "lucide-react";
 import { AuditCTA } from "@/components/AuditCTA";
+import slugMap from "@/data/slug-map.json";
 import "@/components/AuditCTA.css";
 import "./SeoAudit.css";
 
@@ -50,6 +51,14 @@ export default async function SeoAuditPage({ params }: { params: Promise<{ local
   const faq = t.raw("faq") as { q: string; a: string }[];
 
   const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
+
+  // The DIY article and this page were competing for the same queries. The
+  // link makes the split explicit: this page is for having it done, the
+  // article for doing it yourself. Slug per language comes from the map so
+  // it cannot drift out of sync with the content.
+  const diySlug = (slugMap.blog as Record<string, Partial<Record<string, string>>>)[
+    "seo-audit-check-website"
+  ]?.[locale];
 
   const schema = {
     "@context": "https://schema.org",
@@ -126,6 +135,11 @@ export default async function SeoAuditPage({ params }: { params: Promise<{ local
           <p className="audit-lead">{t("lead")}</p>
         </header>
 
+        <section className="audit-section">
+          <h2>{t("what_title")}</h2>
+          <p>{t("what_text")}</p>
+        </section>
+
         <AuditCTA
           title={t("cta_title")}
           text={t("cta_text")}
@@ -185,6 +199,16 @@ export default async function SeoAuditPage({ params }: { params: Promise<{ local
           <h2>{t("who_title")}</h2>
           <p>{t("who_text")}</p>
         </section>
+
+        {diySlug && (
+          <section className="audit-section">
+            <h2>{t("diy_title")}</h2>
+            <p>
+              {t("diy_text")}{" "}
+              <Link href={`/blog/${diySlug}` as any}>{t("diy_link")}</Link>.
+            </p>
+          </section>
+        )}
 
         <section className="audit-section audit-trust">
           <h2>{t("trust_title")}</h2>

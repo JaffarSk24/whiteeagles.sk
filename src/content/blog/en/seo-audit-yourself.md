@@ -26,6 +26,8 @@ Most guides to auditing your own site talk about Title length and keyword densit
 
 Below are nine checks in the order worth doing them. All free, all together about an hour. The order is not accidental: if the first one fails, the rest do not matter.
 
+If you would rather not do it yourself, I will go through the site for you — [a free website SEO audit](/en/seo-audit/), result within 3 working days.
+
 [CTA_FORM:audit]
 
 ## 1. Can Google see your pages at all?

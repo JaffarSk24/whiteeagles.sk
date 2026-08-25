@@ -129,6 +129,6 @@ Opravujem weby na WordPresse aj na vlastnom kóde: chyby po aktualizácii, biela
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO, ktorú si dáte do nákladov.
 
-Detaily na [stránke služby „Oprava chýb a úpravy"](/sk/service/bugfix/). Ak neviete, čo presne je s webom - [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Detaily na [stránke služby „Oprava chýb a úpravy"](/sk/service/bugfix/). Ak neviete, čo presne je s webom - [technická kontrola webu zdarma](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 [CTA_FORM:consult]

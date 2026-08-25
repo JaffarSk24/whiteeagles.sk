@@ -112,7 +112,7 @@ Poviem to priamo, lebo je to častejšie, než sa zdá:
 
 - **Dopytov je málo.** Ak je ich päť týždenne, nie je čo automatizovať.
 - **Každý dopyt je jedinečný.** Projektová práca, poradenstvo, zložité služby.
-- **Problém nie je v rýchlosti odpovede, ale v tom, že vás nenachádzajú.** Potom peniaze nepatria do bota, ale do webu a jeho viditeľnosti — začať treba [kontrolou webu](/sk/blog/seo-audit-check-website/).
+- **Problém nie je v rýchlosti odpovede, ale v tom, že vás nenachádzajú.** Potom peniaze nepatria do bota, ale do webu a jeho viditeľnosti — začať treba [kontrolou webu](/sk/seo-audit/).
 
 ## Ako prebieha nasadenie
 

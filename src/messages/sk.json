@@ -666,6 +666,8 @@
     "seo_desc": "Bezplatný SEO audit webstránky: technická kontrola, rýchlosť, indexácia v Google a chyby, ktoré vás stoja zákazníkov. Výsledok do 3 pracovných dní.",
     "h1": "Bezplatný SEO audit webstránky",
     "lead": "Prejdem váš web tak, ako ho vidí Google, a poviem konkrétne, čo mu bráni prinášať zákazníkov. Bez poplatku a bez záväzku.",
+    "what_title": "Čo je SEO audit webu",
+    "what_text": "Technická kontrola webstránky očami vyhľadávača: či ju Google vidí celú, ako rýchlo sa načítava, na aké dopyty sa zobrazuje a čo jej v tom bráni. Niekde sa tomu hovorí technický audit webovej stránky, inde hodnotenie webu alebo SEO kontrola — ide o to isté. Audit sám nič neopravuje: pomenuje, čo je zlé, koľko to stojí a v akom poradí to riešiť.",
     "why_title": "Prečo je audit zadarmo",
     "why_text": "Pretože je to najčestnejší spôsob, ako začať. Väčšina webov na Slovensku má dve-tri technické chyby, ktoré potichu berú väčšinu návštevnosti — a kým ich neuvidíte, nemá zmysel baviť sa o cene čohokoľvek ďalšieho. Ak si opravy spravíte sami, budem len rád. Ak nie, budete vedieť, čo presne si objednávate.",
     "check_title": "Čo v audite skontrolujem",
@@ -693,6 +695,9 @@
     ],
     "who_title": "Pre koho to má zmysel",
     "who_text": "Pre firmy na Slovensku, ktorých web existuje, ale neprináša dopyty. Pre e-shopy, ktoré platia za reklamu a nevedia, koľko z toho sa vráti. A pre každého, komu web robil niekto iný a nie je si istý, či bol spravený poriadne.",
+    "diy_title": "Chcete si web najprv pozrieť sami?",
+    "diy_text": "Prvé kontroly zvládnete za hodinu a bez toho, aby ste niekomu písali — indexácia, duplicitné adresy, rýchlosť na mobile a či sa dopyty vôbec počítajú. Postup krok za krokom je tu:",
+    "diy_link": "SEO audit webu svojpomocne: 9 kontrol",
     "trust_title": "Kto audit robí",
     "trust_text": "Kirill Mosin, White Eagles & Co. s.r.o. Na Slovensku žijem viac ako 10 rokov, mám za sebou vyše 12 spustených webov pre slovenské firmy a viem, ako sa tu správa zákazník aj úrad. Fakturujem so slovenským IČO. Hovoríme po slovensky, rusky aj anglicky.",
     "cta_title": "Chcete vedieť, čo brzdí váš web?",
@@ -723,6 +728,14 @@
       {
         "q": "Čo ak je web úplne v poriadku?",
         "a": "Tak vám to napíšem. Stáva sa to zriedka, ale stáva. Vtedy sa bavíme o obsahu a o tom, ako získať viac dopytov, nie o opravách."
+      },
+      {
+        "q": "Aký je rozdiel medzi SEO auditom a technickým auditom webu?",
+        "a": "V praxi sa tie pojmy prekrývajú. Technický audit sa zvykne používať pre užší rozsah — kód, rýchlosť, indexácia. Ja robím oboje naraz, pretože oddelene sa nedá vyvodiť, prečo web neprináša dopyty: rýchly web bez správnych dopytov je rovnako neúspešný ako pomalý."
+      },
+      {
+        "q": "Je súčasťou auditu aj konzultácia?",
+        "a": "Áno, ak ju chcete. Audit dostanete písomne a potom si ho môžeme prejsť — v Bratislave osobne alebo online. Za konzultáciu k auditu neúčtujem nič."
       }
     ]
   },

@@ -26,6 +26,8 @@ Väčšina návodov na vlastný audit hovorí o dĺžke Title a hustote kľúčo
 
 Nižšie je deväť kontrol v poradí, v akom ich má zmysel robiť. Všetky sú bezplatné a spolu zaberú asi hodinu. Poradie nie je náhodné: ak zlyhá prvá, ostatné nemajú význam.
 
+Ak sa do toho nechcete púšťať sami, prejdem váš web namiesto vás — [bezplatný SEO audit webstránky](/sk/seo-audit/), výsledok do 3 pracovných dní.
+
 [CTA_FORM:audit]
 
 ## 1. Vidí Google vaše stránky vôbec?

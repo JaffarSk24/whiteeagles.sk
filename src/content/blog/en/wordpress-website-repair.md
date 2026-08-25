@@ -129,6 +129,6 @@ I repair sites on WordPress and on custom code alike: errors after updates, whit
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
 
-Details on the [bugfix and support service page](/en/service/bugfix/). If you cannot tell what is wrong with the site — the [free audit](/en/seo-audit/), result within 3 working days.
+Details on the [bugfix and support service page](/en/service/bugfix/). If you cannot tell what is wrong with the site — the [free technical website check](/en/seo-audit/), result within 3 working days.
 
 [CTA_FORM:consult]
