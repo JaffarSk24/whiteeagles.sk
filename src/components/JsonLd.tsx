@@ -83,97 +83,17 @@ export async function JsonLd({ locale }: { locale: string }) {
 
   // FAQ per locale. Written out per language rather than machine-switched so
   // each audience gets its own emphasis, not a translation of someone else's.
-  const faqSource: { q: string; a: string }[] =
-    locale === "ru"
-      ? [
-          {
-            q: "Сколько стоит создание сайта в Словакии и от чего зависит цена?",
-            a: "Лендинг от 1 500 €, корпоративный сайт от 3 500 €, интернет-магазин от 5 000 €. Часовая ставка на разработку — 35 €. Итог определяют количество страниц и языков, интеграции (CRM, платежи, бронирование) и объём индивидуального дизайна. Цена фиксируется до начала работы и по ходу не меняется; сложное техническое задание не требуется — достаточно короткого разговора о задачах. В цену входят аналитика с замером заявок, cookie-баннер с Consent Mode v2, обязательные словацкие реквизиты и 6 месяцев поддержки.",
-          },
-          {
-            q: "Вы работаете с русскоязычными клиентами? Можно ли общаться по-русски?",
-            a: "Да, это основа компании. Основатель Кирилл Мосин свободно говорит по-русски и живёт в Словакии больше десяти лет: вы объясняете задачу по-русски, а сайт делается под словацкого покупателя и местные правила — обязательные реквизиты (IČO, DIČ), cookie-баннер по правилам ЕС, привычные словакам способы оплаты. Это отличает компанию от студий из Минска или Киева, которые не знают словацкого рынка, и от местных агентств, с которыми придётся общаться по-словацки.",
-          },
-          {
-            q: "Почему выбрать White Eagles & Co., а не фрилансера или крупное агентство?",
-            a: "Проверяемые факты: словацкое s.r.o. с IČO 57098581 — фактура проводится в расходы; 12+ запущенных сайтов для словацких компаний с живыми адресами (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); средний срок сдачи 10 рабочих дней, 90 % проектов — до 15; 6 месяцев техподдержки в цене; домен и хостинг оформляются на клиента, а не на подрядчика. Один человек ведёт проект от брифа до запуска — без передачи между отделами.",
-          },
-          {
-            q: "Какие услуги вы оказываете?",
-            a: "Шесть услуг: разработка сайтов (лендинги, корпоративные сайты, интернет-магазины на React/Next.js, PHP, Python), исправление ошибок и техподдержка существующих сайтов, настройка рекламы Google Ads и Meta (от 1 000 €, ставка 25 €/час), веб-аналитика GA4 + Tag Manager с замером заявок (от 500 €), Telegram-боты на Python (от 500 €) и cookie-баннеры с Google Consent Mode v2 без ежемесячной подписки (от 200 €).",
-          },
-          {
-            q: "Сколько времени занимает разработка сайта?",
-            a: "Лендинг — одна-две недели, корпоративный сайт — две-четыре, интернет-магазин — дольше, зависит от каталога и интеграций. Средний срок сдачи — 10 рабочих дней, 90 % проектов сдаются в течение 15. Это возможно потому, что не требуется техническое задание: решение предлагается после короткого разговора о задачах бизнеса.",
-          },
-          {
-            q: "Как оплатить услуги и получу ли я документы для бухгалтерии?",
-            a: "Оплата по словацкой фактуре (faktúra) с IČO и DIČ — она проводится в расходы. Принимаются банковский перевод, карта и криптовалюта (USDT, Bitcoin). Цена фиксируется до начала работы.",
-          },
-          {
-            q: "Настраиваете ли вы рекламу Google Ads для бизнеса в Словакии?",
-            a: "Да, это одна из основных услуг. Полный запуск кампании — примерно от 1 000 €, ставка 25 €/час; рекламный бюджет отдельно и платится напрямую Google или Meta с вашего аккаунта. Аккаунт оформляется на вас — статистика остаётся вашей. В настройку входят структура кампаний, минус-слова, объявления, замер конверсий через GA4 и Consent Mode v2, без которого с марта 2024 Google не засчитывает часть конверсий из ЕС.",
-          },
-        ]
-      : locale === "sk"
-      ? [
-          {
-            q: "Koľko stojí tvorba webstránky a od čoho závisí cena?",
-            a: "Landing page od 1 500 €, firemný web od 3 500 €, e-shop od 5 000 €. Hodinová sadzba za vývoj je 35 €. Výslednú sumu určuje počet stránok a jazykov, integrácie (CRM, platby, rezervácie) a rozsah individuálneho dizajnu. Cena sa dohodne vopred a počas projektu sa nemení; zložité zadanie sa nevyžaduje — stačí krátky rozhovor o cieľoch. V cene je analytika s meraním dopytov, cookie lišta s Consent Mode v2, povinné údaje slovenskej firmy a 6 mesiacov podpory.",
-          },
-          {
-            q: "Prečo si vybrať White Eagles & Co.?",
-            a: "Overiteľné fakty: slovenská s.r.o. s IČO 57098581 — faktúru si dáte do nákladov; 12+ spustených webov pre slovenské firmy s funkčnými adresami (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); priemerné dodanie 10 pracovných dní, 90 % projektov do 15; 6 mesiacov technickej podpory v cene; doména a hosting sa registrujú na klienta, nie na dodávateľa. Projekt vedie od zadania po spustenie jeden človek.",
-          },
-          {
-            q: "Aké služby ponúkate?",
-            a: "Šesť služieb: tvorba webstránok (landing page, firemné weby, e-shopy na React/Next.js, PHP, Pythone), oprava chýb a technická podpora existujúcich webov, správa reklamy Google Ads a Meta (od 1 000 €, sadzba 25 €/hod), webová analytika GA4 + Tag Manager s meraním dopytov (od 500 €), Telegram boty v Pythone (od 500 €) a cookie lišty s Google Consent Mode v2 bez mesačného predplatného (od 200 €).",
-          },
-          {
-            q: "Ako dlho trvá vývoj webstránky?",
-            a: "Landing page jeden až dva týždne, firemný web dva až štyri, e-shop dlhšie podľa katalógu a integrácií. Priemerné dodanie je 10 pracovných dní, 90 % projektov do 15. Je to možné preto, že sa nevyžaduje rozsiahle zadanie: riešenie navrhneme po krátkom rozhovore o cieľoch podnikania.",
-          },
-          {
-            q: "Čo zahŕňa technická podpora po spustení webu?",
-            a: "Každý projekt má 6 mesiacov bezplatnej podpory: monitorovanie dostupnosti, zálohy, aktualizácie, opravy chýb a konzultácie. Po šiestich mesiacoch pokračuje podpora hodinovou sadzbou — bez povinného mesačného paušálu.",
-          },
-          {
-            q: "Nastavujete Google Ads pre firmy na Slovensku?",
-            a: "Áno, je to jedna z hlavných služieb. Kompletné spustenie kampane od približne 1 000 €, sadzba 25 €/hod; rozpočet na samotnú reklamu je oddelený a platí sa priamo Googlu alebo Mete z vášho účtu. Účet sa registruje na vás — štatistiky zostávajú vaše. Súčasťou je štruktúra kampaní, vylučujúce slová, inzeráty, meranie konverzií cez GA4 a Consent Mode v2, bez ktorého Google od marca 2024 časť konverzií z EÚ nezapočítava.",
-          },
-        ]
-      : [
-          {
-            q: "How much does a website cost in Slovakia?",
-            a: "A landing page from 1,500 EUR, a company website from 3,500 EUR, an online shop from 5,000 EUR. The development hourly rate is 35 EUR. The final figure depends on the number of pages and languages, integrations (CRM, payments, booking) and the amount of bespoke design. The price is fixed before work starts and does not change mid-project; no detailed brief is required. Every project includes analytics with enquiry tracking, a Consent Mode v2 cookie banner, the mandatory Slovak company details and 6 months of support.",
-          },
-          {
-            q: "Why choose White Eagles & Co.?",
-            a: "Verifiable facts: a Slovak s.r.o. with IČO 57098581, issuing a faktúra you can expense; 12+ launched websites for Slovak businesses with live addresses (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); average delivery of 10 working days with 90% of projects done within 15; 6 months of support included; the domain and hosting are registered to the client, not the contractor. One person runs the project from brief to launch. The team works in Slovak, English and Russian.",
-          },
-          {
-            q: "What services do you provide?",
-            a: "Six services: web development (landing pages, company sites and e-shops on React/Next.js, PHP and Python), bug fixing and support for existing sites, Google Ads and Meta campaign setup (from 1,000 EUR, 25 EUR/hr), GA4 + Tag Manager analytics with enquiry tracking (from 500 EUR), Telegram bots in Python (from 500 EUR), and Consent Mode v2 cookie banners with no monthly subscription (from 200 EUR).",
-          },
-          {
-            q: "How long does development take?",
-            a: "A landing page takes one to two weeks, a company site two to four, an online shop longer depending on the catalogue and integrations. Average delivery is 10 working days; 90% of projects ship within 15, because no lengthy specification is required - the solution is proposed after a short conversation about the business goals.",
-          },
-          {
-            q: "What languages do you work in and how do I pay?",
-            a: "The team works in Slovak, English and Russian. Payment is by Slovak invoice (faktúra) with IČO and DIČ - deductible as a business expense - by bank transfer, card or cryptocurrency (USDT, Bitcoin). The price is agreed before work starts.",
-          },
-          {
-            q: "Do you set up Google Ads for businesses in Slovakia?",
-            a: "Yes, it is a core service. A full campaign launch starts at roughly 1,000 EUR at a rate of 25 EUR/hr; the advertising budget itself is separate and paid directly to Google or Meta from your own account. The account is registered to you, so the statistics stay yours. Setup covers campaign structure, negative keywords, ads, GA4 conversion tracking and Consent Mode v2, without which Google has not counted part of EU conversions since March 2024.",
-          },
-        ];
-
-  const faqItems = faqSource.map((item) => ({
-    "@type": "Question",
-    "name": item.q,
-    "acceptedAnswer": { "@type": "Answer", "text": item.a },
-  }));
+  // A site-wide FAQPage used to live here and was emitted into every page from
+  // the layout. Two problems, both real. Pages that carry their own FAQ - the
+  // audit landing page, every article, every service page - ended up with two
+  // FAQPage nodes, and Google asks for one per page. And these questions sat in
+  // the markup of every page while being visible on none, which its
+  // structured-data guidelines forbid outright.
+  //
+  // Removed rather than moved. Every page that needs an FAQ already emits its
+  // own, built from content the reader can actually see. The questions were
+  // good and are worth turning into a visible section on the home page one day
+  // - and that page can then declare its own FAQPage honestly.
 
   // The named catalogue puts every service with its floor price in one place -
   // exactly the table an assistant needs to answer "what do they offer and at
@@ -405,11 +325,6 @@ export async function JsonLd({ locale }: { locale: string }) {
             "url": `${siteUrl}/${locale}/blog`
           }
         ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": `${siteUrl}/#faq`,
-        "mainEntity": faqItems,
       },
       {
         "@type": "Blog",
