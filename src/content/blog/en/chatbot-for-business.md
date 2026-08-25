@@ -130,6 +130,6 @@ I write bots in Python — enquiries, booking, notifications, auto-posting. From
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
-Related: [the salon case with Telegram booking](/en/case/studio-krasy/) and [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/).
+Related: [online booking on your website](/en/blog/online-booking-system/), [the salon case with Telegram booking](/en/case/studio-krasy/) and [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/).
 
 [CTA_FORM:consult]

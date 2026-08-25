@@ -130,6 +130,6 @@ faq:
 
 Живу в Словакии больше десяти лет, работаю как словацкое s.r.o., выставляю фактуру с IČO. Общаемся по-русски или по-словацки.
 
-По теме: [кейс салона с записью через Telegram](/ru/case/studio-krasy/) и [как словаки выбирают подрядчика](/ru/blog/kak-slovaki-vybirayut-podryadchika/).
+По теме: [онлайн-бронирование на сайте](/ru/blog/onlajn-bronirovanie-na-sajte/), [кейс салона с записью через Telegram](/ru/case/studio-krasy/) и [как словаки выбирают подрядчика](/ru/blog/kak-slovaki-vybirayut-podryadchika/).
 
 [CTA_FORM:consult]

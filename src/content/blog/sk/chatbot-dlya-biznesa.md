@@ -130,6 +130,6 @@ Píšem botov v Pythone — prijímanie dopytov, rezervácie, upozornenia, autop
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-K téme: [projekt salónu s objednávaním cez Telegram](/sk/case/studio-krasy/) a [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/).
+K téme: [online rezervácia na webe](/sk/blog/online-rezervacia-na-webe/), [projekt salónu s objednávaním cez Telegram](/sk/case/studio-krasy/) a [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/).
 
 [CTA_FORM:consult]

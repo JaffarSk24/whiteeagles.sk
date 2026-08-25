@@ -122,6 +122,6 @@ I build sites to the brief, not to the technology. More often that means Next.js
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**: [Biliardovňa](/en/case/biliardovna/) with table booking, [Krása štúdio OK](/en/case/studio-krasy/) with booking through Telegram, [Top Sklad](/en/case/top-sklad/) with availability management. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
-Details on the [web development service page](/en/service/webdev/). If you already have a site and are unsure what to do with it — the [free audit](/en/seo-audit/), result within 3 working days.
+Details on the [web development service page](/en/service/webdev/). If the site is already broken, the order to work through is in [WordPress website repair](/en/blog/wordpress-website-repair/). If you already have a site and are unsure what to do with it — the [free audit](/en/seo-audit/), result within 3 working days.
 
 [CTA_FORM:webdev]

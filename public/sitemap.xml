@@ -273,6 +273,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/onlajn-bronirovanie-na-sajte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/remont-sajta-na-wordpress/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/otkryt-sro-v-slovakii/"/>
@@ -314,6 +332,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
     <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/sk/blog/server-side-gtm-nastavenie/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/server-side-gtm-nastavenie/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/servernyj-gtm-nastrojka-ga4/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/server-side-gtm-nastavenie/"/>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -679,6 +706,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/ru/blog/onlajn-bronirovanie-na-sajte/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/onlajn-bronirovanie-na-sajte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/ru/blog/otkryt-sro-v-slovakii/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/otkryt-sro-v-slovakii/"/>
@@ -706,6 +742,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/ru/blog/remont-sajta-na-wordpress/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/remont-sajta-na-wordpress/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/ru/blog/sajt-iz-minska-ne-prodaet/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/sajt-iz-minska-ne-prodaet/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/sajt-iz-minska-ne-prodaet/"/>
@@ -720,6 +765,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/seo-audit-check-website/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/seo-audit-check-website/"/>
     <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/ru/blog/servernyj-gtm-nastrojka-ga4/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/server-side-gtm-nastavenie/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/servernyj-gtm-nastrojka-ga4/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/server-side-gtm-nastavenie/"/>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

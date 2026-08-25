@@ -139,6 +139,6 @@ Nastavím GA4, Tag Manager a Consent Mode tak, aby čísla zodpovedali skutočno
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-K téme: [SEO audit webu svojpomocne](/sk/blog/seo-audit-check-website/) a [prečo je cookie lišta povinná](/sk/blog/cookie-lista-2026-povinnosti/).
+K téme: [server-side GTM: kedy sa oplatí](/sk/blog/server-side-gtm-nastavenie/), [SEO audit webu svojpomocne](/sk/blog/seo-audit-check-website/) a [prečo je cookie lišta povinná](/sk/blog/cookie-lista-2026-povinnosti/).
 
 [CTA_FORM:cookies]

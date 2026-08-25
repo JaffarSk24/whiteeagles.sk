@@ -116,6 +116,9 @@ cookie, привычные здесь способы оплаты, продви�
     - https://whiteeagles.sk/ru/blog/kak-slovaki-vybirayut-podryadchika/
     - https://whiteeagles.sk/ru/blog/kak-uvelichit-poseshaemost-sajta/
     - https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/
+    - https://whiteeagles.sk/ru/blog/onlajn-bronirovanie-na-sajte/ (sk: /sk/blog/online-rezervacia-na-webe/)
+    - https://whiteeagles.sk/ru/blog/remont-sajta-na-wordpress/ (sk: /sk/blog/oprava-wordpress-stranky/)
+    - https://whiteeagles.sk/ru/blog/servernyj-gtm-nastrojka-ga4/ (sk: /sk/blog/server-side-gtm-nastavenie/)
     - https://whiteeagles.sk/ru/blog/nuzhen-li-sajt-na-slovackom/
     - https://whiteeagles.sk/ru/blog/obyazatelnye-rekvizity-sajta/
     - https://whiteeagles.sk/ru/blog/otkryt-sro-v-slovakii/

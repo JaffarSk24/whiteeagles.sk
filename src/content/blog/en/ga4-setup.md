@@ -139,6 +139,6 @@ I will configure GA4, Tag Manager and Consent Mode so the numbers match reality,
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
-Related: [the DIY SEO audit](/en/blog/seo-audit-yourself/) and [why a cookie banner is mandatory](/en/blog/cookie-banner-2026/).
+Related: [server-side GTM: when it pays off](/en/blog/server-side-gtm-setup/), [the DIY SEO audit](/en/blog/seo-audit-yourself/) and [why a cookie banner is mandatory](/en/blog/cookie-banner-2026/).
 
 [CTA_FORM:cookies]

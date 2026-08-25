@@ -284,6 +284,12 @@ https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/
   - https://whiteeagles.sk/ru/blog/kak-uvelichit-poseshaemost-sajta/
 - **Настройка GA4 в 2026: чтобы заявки действительно считались**
   - https://whiteeagles.sk/ru/blog/nastavenie-google-analytics-4/
+- **Онлайн-бронирование на сайте: как работает и сколько стоит**
+  - https://whiteeagles.sk/ru/blog/onlajn-bronirovanie-na-sajte/ (sk: /sk/blog/online-rezervacia-na-webe/)
+- **Ремонт сайта на WordPress: что почините сами, а когда звать человека**
+  - https://whiteeagles.sk/ru/blog/remont-sajta-na-wordpress/ (sk: /sk/blog/oprava-wordpress-stranky/)
+- **Серверный GTM: когда окупается, а когда хватит обычного GA4**
+  - https://whiteeagles.sk/ru/blog/servernyj-gtm-nastrojka-ga4/ (sk: /sk/blog/server-side-gtm-nastavenie/)
 - **Нужен ли сайт на словацком, если все клиенты русскоязычные**
   - https://whiteeagles.sk/ru/blog/nuzhen-li-sajt-na-slovackom/
 - **Обязательные реквизиты на сайте словацкой фирмы: полный список**

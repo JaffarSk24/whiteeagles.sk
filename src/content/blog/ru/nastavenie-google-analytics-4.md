@@ -139,6 +139,6 @@ GA4 собирает часть событий сам: просмотры, пр�
 
 Живу в Словакии больше десяти лет, работаю как словацкое s.r.o., выставляю фактуру с IČO. Общаемся по-русски или по-словацки.
 
-По теме: [SEO-аудит сайта своими руками](/ru/blog/seo-audit-check-website/) и [почему cookie-баннер обязателен](/ru/blog/cookie-lista-2026-povinnosti/).
+По теме: [серверный GTM: когда окупается](/ru/blog/servernyj-gtm-nastrojka-ga4/), [SEO-аудит сайта своими руками](/ru/blog/seo-audit-check-website/) и [почему cookie-баннер обязателен](/ru/blog/cookie-lista-2026-povinnosti/).
 
 [CTA_FORM:cookies]

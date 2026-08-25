@@ -168,6 +168,6 @@ I will go through your site myself and send a list of findings sorted by impact 
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies** — from booking systems to online shops. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
-Related: [why a cheap website built abroad does not sell in Slovakia](/en/blog/cheap-offshore-website/), [how much a website costs in Slovakia](/en/blog/website-cost-slovakia/) and the [bugfix and support service page](/en/service/bugfix/).
+Related: [why a cheap website built abroad does not sell in Slovakia](/en/blog/cheap-offshore-website/), [how much a website costs in Slovakia](/en/blog/website-cost-slovakia/) , [WordPress website repair](/en/blog/wordpress-website-repair/) and the [bugfix and support service page](/en/service/bugfix/).
 
 [CTA_FORM:bugfix]

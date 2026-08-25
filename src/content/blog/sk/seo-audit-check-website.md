@@ -168,6 +168,6 @@ Prejdem váš web sám a pošlem zoznam nálezov zoradený podľa vplyvu — s v
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy** — od rezervačných systémov po e-shopy. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-K téme: [prečo lacný web zo zahraničia na Slovensku nepredáva](/sk/blog/sajt-iz-minska-ne-prodaet/), [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/) a [stránka služby „Oprava webstránok"](/sk/service/bugfix/).
+K téme: [prečo lacný web zo zahraničia na Slovensku nepredáva](/sk/blog/sajt-iz-minska-ne-prodaet/), [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/) , [oprava WordPress stránky](/sk/blog/oprava-wordpress-stranky/) a [stránka služby „Oprava webstránok"](/sk/service/bugfix/).
 
 [CTA_FORM:bugfix]

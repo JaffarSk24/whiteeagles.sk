@@ -289,6 +289,12 @@ differ per article and are reachable from the language switcher on the page.
   - https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/ (ru: /ru/blog/skolko-stoit-reklama-v-slovakii/)
 - **Nastavenie GA4 v roku 2026: aby sa dopyty naozaj počítali**
   - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
+- **Online rezervácia na webe: ako funguje, komu sa oplatí a koľko stojí**
+  - https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/ (ru: /ru/blog/onlajn-bronirovanie-na-sajte/)
+- **Oprava WordPress stránky: čo si opravíte sami a kedy volať človeka**
+  - https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/ (ru: /ru/blog/remont-sajta-na-wordpress/)
+- **Server-side GTM: kedy sa oplatí a kedy stačí obyčajné GA4**
+  - https://whiteeagles.sk/sk/blog/server-side-gtm-nastavenie/ (ru: /ru/blog/servernyj-gtm-nastrojka-ga4/)
 - **Treba web po slovensky, keď sú klienti cudzojazyční?**
   - https://whiteeagles.sk/sk/blog/nuzhen-li-sajt-na-slovackom/
 - **Povinné údaje na webe slovenskej firmy: úplný zoznam**

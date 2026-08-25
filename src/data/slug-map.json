@@ -160,6 +160,36 @@
       "en": "mandatory-website-details",
       "ru": "obyazatelnye-rekvizity-sajta"
     },
+    "online-rezervacia-na-webe": {
+      "sk": "online-rezervacia-na-webe",
+      "en": "online-booking-system",
+      "ru": "onlajn-bronirovanie-na-sajte"
+    },
+    "online-booking-system": {
+      "sk": "online-rezervacia-na-webe",
+      "en": "online-booking-system",
+      "ru": "onlajn-bronirovanie-na-sajte"
+    },
+    "onlajn-bronirovanie-na-sajte": {
+      "sk": "online-rezervacia-na-webe",
+      "en": "online-booking-system",
+      "ru": "onlajn-bronirovanie-na-sajte"
+    },
+    "oprava-wordpress-stranky": {
+      "sk": "oprava-wordpress-stranky",
+      "en": "wordpress-website-repair",
+      "ru": "remont-sajta-na-wordpress"
+    },
+    "wordpress-website-repair": {
+      "sk": "oprava-wordpress-stranky",
+      "en": "wordpress-website-repair",
+      "ru": "remont-sajta-na-wordpress"
+    },
+    "remont-sajta-na-wordpress": {
+      "sk": "oprava-wordpress-stranky",
+      "en": "wordpress-website-repair",
+      "ru": "remont-sajta-na-wordpress"
+    },
     "otkryt-sro-v-slovakii": {
       "sk": "otkryt-sro-v-slovakii",
       "en": "open-sro-in-slovakia",
@@ -214,6 +244,21 @@
       "sk": "seo-audit-check-website",
       "en": "seo-audit-yourself",
       "ru": "seo-audit-check-website"
+    },
+    "server-side-gtm-nastavenie": {
+      "sk": "server-side-gtm-nastavenie",
+      "en": "server-side-gtm-setup",
+      "ru": "servernyj-gtm-nastrojka-ga4"
+    },
+    "server-side-gtm-setup": {
+      "sk": "server-side-gtm-nastavenie",
+      "en": "server-side-gtm-setup",
+      "ru": "servernyj-gtm-nastrojka-ga4"
+    },
+    "servernyj-gtm-nastrojka-ga4": {
+      "sk": "server-side-gtm-nastavenie",
+      "en": "server-side-gtm-setup",
+      "ru": "servernyj-gtm-nastrojka-ga4"
     },
     "website-cost-2026": {
       "sk": "website-cost-2026",

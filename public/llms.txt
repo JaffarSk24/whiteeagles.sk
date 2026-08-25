@@ -120,6 +120,9 @@ slug per language. Where slugs differ, the pairs are listed below.
     - https://whiteeagles.sk/sk/blog/kak-uvelichit-poseshaemost-sajta/
     - https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/ (ru: /ru/blog/skolko-stoit-reklama-v-slovakii/)
     - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
+    - https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/ (ru: /ru/blog/onlajn-bronirovanie-na-sajte/)
+    - https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/ (ru: /ru/blog/remont-sajta-na-wordpress/)
+    - https://whiteeagles.sk/sk/blog/server-side-gtm-nastavenie/ (ru: /ru/blog/servernyj-gtm-nastrojka-ga4/)
     - https://whiteeagles.sk/sk/blog/nuzhen-li-sajt-na-slovackom/
     - https://whiteeagles.sk/sk/blog/obyazatelnye-rekvizity-sajta/
     - https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/
