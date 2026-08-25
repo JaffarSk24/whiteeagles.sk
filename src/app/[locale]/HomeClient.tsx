@@ -32,6 +32,8 @@ export default function HomeClient() {
   const tCommon = useTranslations("common");
   const tCases = useTranslations("cases");
   const tAbout = useTranslations("about");
+  const tFaq = useTranslations("home_faq");
+  const faqItems = tFaq.raw("items") as { q: string; a: string }[];
 
   const { openOrderModal } = useOrderModal();
 
@@ -246,6 +248,28 @@ export default function HomeClient() {
                 <Star size={42} strokeWidth={1.5} fill="var(--accent-color)" fillOpacity={0.2} />
               </div>
               <h3>{tSteps("success_stat")}</h3>
+            </div>
+          </FadeInSection>
+        </div>
+      </section>
+
+      {/* FAQ — the six answers that used to sit invisibly in the site-wide
+          JSON-LD. Rendered visibly so the FAQPage markup on this page is
+          honest, and because they answer exactly what a buyer weighs before
+          writing: price, speed, languages, support. */}
+      <section id="faq" className="home-faq-section">
+        <div className="container">
+          <FadeInSection>
+            <h2 className="section-title">{tFaq("title")}</h2>
+          </FadeInSection>
+          <FadeInSection>
+            <div className="home-faq-list">
+              {faqItems.map((item, i) => (
+                <details key={i} className="home-faq-item">
+                  <summary>{item.q}</summary>
+                  <p>{item.a}</p>
+                </details>
+              ))}
             </div>
           </FadeInSection>
         </div>

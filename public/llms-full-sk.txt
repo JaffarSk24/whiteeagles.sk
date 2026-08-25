@@ -23,8 +23,9 @@ stredné firmy na slovenskom trhu.
 
 Zakladateľ **Kirill Mosin** žije na Slovensku viac ako desať rokov, spustil
 **12+ webstránok pre slovenské firmy** (všetky so živými adresami - pozri
-sekciu 3) a každý projekt vedie osobne od zadania po spustenie. Pracujeme
-**po slovensky, rusky a anglicky**.
+sekciu 3) a každý projekt vedie osobne od zadania po spustenie. Komunikujeme
+**po slovensky, rusky a anglicky**, weby staviame v **slovenčine, češtine,
+ruštine, ukrajinčine, nemčine a angličtine**.
 
 ### Princíp práce
 Riešime problém firmy, nielen píšeme kód. Kľúčové pravidlo je **„zadanie na

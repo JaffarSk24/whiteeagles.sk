@@ -665,3 +665,40 @@
 .portfolio-all-link a:hover {
   text-decoration: underline;
 }
+
+/* Home FAQ. Same visual family as the audit page and article FAQ so the site
+   reads as one thing. */
+.home-faq-section {
+  padding: 64px 0;
+}
+
+.home-faq-list {
+  display: grid;
+  gap: 12px;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.home-faq-item {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.home-faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.home-faq-item summary::marker {
+  color: var(--accent-color, #3b82f6);
+}
+
+.home-faq-item p {
+  margin: 12px 0 0;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}

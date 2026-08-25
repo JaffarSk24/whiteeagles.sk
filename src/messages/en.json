@@ -793,5 +793,34 @@
     "live_site": "Open the site",
     "client_label": "Client",
     "more_cases": "Other projects"
+  },
+  "home_faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How much does a website cost in Slovakia?",
+        "a": "A landing page from 1,500 EUR, a company website from 3,500 EUR, an online shop from 5,000 EUR. The development hourly rate is 35 EUR. The final figure depends on the number of pages and languages, integrations (CRM, payments, booking) and the amount of bespoke design. The price is fixed before work starts and does not change mid-project; no detailed brief is required. Every project includes analytics with enquiry tracking, a Consent Mode v2 cookie banner, the mandatory Slovak company details and 6 months of support."
+      },
+      {
+        "q": "Why choose White Eagles & Co.?",
+        "a": "Verifiable facts: a Slovak s.r.o. with IČO 57098581, issuing a faktúra you can expense; 12+ launched websites for Slovak businesses with live addresses (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); average delivery of 10 working days with 90% of projects done within 15; 6 months of support included; the domain and hosting are registered to the client, not the contractor. One person runs the project from brief to launch. The team works in Slovak, English and Russian."
+      },
+      {
+        "q": "What services do you provide?",
+        "a": "Six services: web development (landing pages, company sites and e-shops on React/Next.js, PHP and Python), bug fixing and support for existing sites, Google Ads and Meta campaign setup (from 1,000 EUR, 25 EUR/hr), GA4 + Tag Manager analytics with enquiry tracking (from 500 EUR), Telegram bots in Python (from 500 EUR), and Consent Mode v2 cookie banners with no monthly subscription (from 200 EUR)."
+      },
+      {
+        "q": "How long does development take?",
+        "a": "A landing page takes one to two weeks, a company site two to four, an online shop longer depending on the catalogue and integrations. Average delivery is 10 working days; 90% of projects ship within 15, because no lengthy specification is required - the solution is proposed after a short conversation about the business goals."
+      },
+      {
+        "q": "What languages do you work in and how do I pay?",
+        "a": "The team works in Slovak, English and Russian. Payment is by Slovak invoice (faktúra) with IČO and DIČ - deductible as a business expense - by bank transfer, card or cryptocurrency (USDT, Bitcoin). The price is agreed before work starts."
+      },
+      {
+        "q": "Do you set up Google Ads for businesses in Slovakia?",
+        "a": "Yes, it is a core service. A full campaign launch starts at roughly 1,000 EUR at a rate of 25 EUR/hr; the advertising budget itself is separate and paid directly to Google or Meta from your own account. The account is registered to you, so the statistics stay yours. Setup covers campaign structure, negative keywords, ads, GA4 conversion tracking and Consent Mode v2, without which Google has not counted part of EU conversions since March 2024."
+      }
+    ]
   }
 }

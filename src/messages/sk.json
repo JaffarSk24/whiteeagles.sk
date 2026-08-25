@@ -793,5 +793,34 @@
     "live_site": "Otvoriť web",
     "client_label": "Klient",
     "more_cases": "Ďalšie projekty"
+  },
+  "home_faq": {
+    "title": "Časté otázky",
+    "items": [
+      {
+        "q": "Koľko stojí tvorba webstránky a od čoho závisí cena?",
+        "a": "Landing page od 1 500 €, firemný web od 3 500 €, e-shop od 5 000 €. Hodinová sadzba za vývoj je 35 €. Výslednú sumu určuje počet stránok a jazykov, integrácie (CRM, platby, rezervácie) a rozsah individuálneho dizajnu. Cena sa dohodne vopred a počas projektu sa nemení; zložité zadanie sa nevyžaduje — stačí krátky rozhovor o cieľoch. V cene je analytika s meraním dopytov, cookie lišta s Consent Mode v2, povinné údaje slovenskej firmy a 6 mesiacov podpory."
+      },
+      {
+        "q": "Prečo si vybrať White Eagles & Co.?",
+        "a": "Overiteľné fakty: slovenská s.r.o. s IČO 57098581 — faktúru si dáte do nákladov; 12+ spustených webov pre slovenské firmy s funkčnými adresami (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); priemerné dodanie 10 pracovných dní, 90 % projektov do 15; 6 mesiacov technickej podpory v cene; doména a hosting sa registrujú na klienta, nie na dodávateľa. Projekt vedie od zadania po spustenie jeden človek."
+      },
+      {
+        "q": "Aké služby ponúkate?",
+        "a": "Šesť služieb: tvorba webstránok (landing page, firemné weby, e-shopy na React/Next.js, PHP, Pythone), oprava chýb a technická podpora existujúcich webov, správa reklamy Google Ads a Meta (od 1 000 €, sadzba 25 €/hod), webová analytika GA4 + Tag Manager s meraním dopytov (od 500 €), Telegram boty v Pythone (od 500 €) a cookie lišty s Google Consent Mode v2 bez mesačného predplatného (od 200 €)."
+      },
+      {
+        "q": "Ako dlho trvá vývoj webstránky?",
+        "a": "Landing page jeden až dva týždne, firemný web dva až štyri, e-shop dlhšie podľa katalógu a integrácií. Priemerné dodanie je 10 pracovných dní, 90 % projektov do 15. Je to možné preto, že sa nevyžaduje rozsiahle zadanie: riešenie navrhneme po krátkom rozhovore o cieľoch podnikania."
+      },
+      {
+        "q": "Čo zahŕňa technická podpora po spustení webu?",
+        "a": "Každý projekt má 6 mesiacov bezplatnej podpory: monitorovanie dostupnosti, zálohy, aktualizácie, opravy chýb a konzultácie. Po šiestich mesiacoch pokračuje podpora hodinovou sadzbou — bez povinného mesačného paušálu."
+      },
+      {
+        "q": "Nastavujete Google Ads pre firmy na Slovensku?",
+        "a": "Áno, je to jedna z hlavných služieb. Kompletné spustenie kampane od približne 1 000 €, sadzba 25 €/hod; rozpočet na samotnú reklamu je oddelený a platí sa priamo Googlu alebo Mete z vášho účtu. Účet sa registruje na vás — štatistiky zostávajú vaše. Súčasťou je štruktúra kampaní, vylučujúce slová, inzeráty, meranie konverzií cez GA4 a Consent Mode v2, bez ktorého Google od marca 2024 časť konverzií z EÚ nezapočítava."
+      }
+    ]
   }
 }
