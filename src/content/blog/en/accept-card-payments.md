@@ -26,6 +26,8 @@ From 1 May 2026 a seller in Slovakia must give the buyer a way to pay cashlessly
 
 The good news: the law asks you to **make it possible**, not to buy hardware. There are three ways to do it, and they differ in cost by an order of magnitude.
 
+**To be clear:** I do not give legal advice or keep books. I build websites, run advertising and analytics — and this article covers the part of the topic that concerns the website.
+
 [CTA_FORM:consult]
 
 ## Three ways to take money

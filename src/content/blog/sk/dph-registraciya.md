@@ -26,7 +26,9 @@ DPH je otázka, kde chyba stojí najviac, pretože sa objaví so spätnou platno
 
 Nižšie je, kade vedú hranice, aké sú lehoty a kedy sa oplatí registrovať dobrovoľne.
 
-[CTA_FORM:consult]
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe.
+
+[CTA_FORM:webdev]
 
 ## Hranice sú dve, nie jedna
 
@@ -64,7 +66,7 @@ Päť pracovných dní je krátko. Práve preto sa obrat sleduje priebežne, nie
 
 Zmena roku 2026: na výrobky **so zvýšeným obsahom cukru a soli** sa uplatňuje základná sadzba **23 %** namiesto zníženej. Ak máte potravinovú predajňu alebo e-shop s potravinami, sortiment stojí za prehodnotenie.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## Kedy sa dobrovoľná registrácia oplatí
 

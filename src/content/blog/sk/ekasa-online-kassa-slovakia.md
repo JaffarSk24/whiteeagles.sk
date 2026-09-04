@@ -30,7 +30,9 @@ Od 1. januára 2026 platí na Slovensku nový zákon o evidencii tržieb — **�
 
 Nižšie je, koho sa to týka, koho nie a čo s tým.
 
-[CTA_FORM:consult]
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe.
+
+[CTA_FORM:webdev]
 
 ## Kto musí mať eKasu
 
@@ -76,7 +78,7 @@ Formulácia zákona je dôležitá: povinnosťou nie je mať terminál, ale **um
 
 Pokuta za nedodržanie je od **500 do 15 000 eur**.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## Povinné oznámenie v prevádzke
 

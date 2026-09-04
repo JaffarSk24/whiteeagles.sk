@@ -26,7 +26,9 @@ VAT is the question where a mistake costs the most, because it surfaces in hinds
 
 Below: where the thresholds sit, what the deadlines are, and when registering voluntarily is the better move.
 
-[CTA_FORM:consult]
+**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+
+[CTA_FORM:webdev]
 
 ## Two thresholds, not one
 
@@ -64,7 +66,7 @@ Five working days is short. That is exactly why turnover needs watching regularl
 
 The 2026 change: foods **high in sugar and salt** now carry the standard **23 %** rate instead of the reduced one. If you run a grocery shop or a food e-shop, the range is worth reviewing.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## When voluntary registration pays off
 

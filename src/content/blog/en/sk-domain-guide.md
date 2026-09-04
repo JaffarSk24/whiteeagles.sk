@@ -26,6 +26,8 @@ The domain is the cheapest part of a project and, at the same time, the part whe
 
 Here is what is worth knowing before you buy.
 
+**To be clear:** I do not give legal advice or keep books. I build websites, run advertising and analytics — and this article covers the part of the topic that concerns the website.
+
 [CTA_FORM:consult]
 
 ## Who may own a .sk domain

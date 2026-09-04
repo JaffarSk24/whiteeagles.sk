@@ -43,7 +43,9 @@ Jedno zjednodušenie nové pravidlá prinášajú, a je užitočné: **voľné �
 
 Záver je jednoduchý. Ak už je rozhodnuté, má zmysel stihnúť to do 17. augusta. Ak ešte zvažujete, kvôli jednému poplatku sa ponáhľať netreba: 300 eur nie je dôvod otvárať podnikanie, na ktoré nie ste pripravení.
 
-[CTA_FORM:consult]
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe.
+
+[CTA_FORM:webdev]
 
 ## Krok 1. Vyberte si predmety podnikania
 
@@ -108,7 +110,7 @@ Firma v registri ešte nie je fungujúce podnikanie. Čo nasleduje:
 3. **Vyriešiť DPH.** Registrácia platiteľa DPH je povinná po prekročení obratu, niekedy sa však oplatí aj dobrovoľne — ak sú vaši klienti sami platiteľmi.
 4. **Overiť, či potrebujete eKasu.** Ak prijímate hotovosť alebo karty od fyzických osôb, online pokladnica je povinná.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## Na čo sa takmer nikdy nemyslí včas — digitálna časť
 

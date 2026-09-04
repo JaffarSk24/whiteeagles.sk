@@ -27,6 +27,8 @@ Formulácia je dôležitá a stojí za pozorné prečítanie: zákon vyžaduje *
 
 Nižšie je, čo na slovenskom trhu existuje, koľko to stojí a ako si vybrať podľa obratu.
 
+**Aby bolo jasné:** právne poradenstvo ani účtovníctvo nerobím. Robím weby, reklamu a analytiku — a v tomto článku rozoberám tú časť témy, ktorá sa týka webu.
+
 [CTA_FORM:webdev]
 
 ## Tri spôsoby, ako prijať peniaze

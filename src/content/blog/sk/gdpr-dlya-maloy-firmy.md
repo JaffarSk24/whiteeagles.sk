@@ -25,6 +25,8 @@ Okolo GDPR je veľa strachu a málo konkrétnosti. Majiteľovi menšej firmy zvy
 
 Skutočnosť je uprostred: pre typickú menšiu firmu s webom, formulárom a analytikou je zoznam povinností obmedzený a dá sa vybaviť naraz. Nižšie je, čo presne treba.
 
+**Aby bolo jasné:** právne poradenstvo ani účtovníctvo nerobím. Robím weby, reklamu a analytiku — a v tomto článku rozoberám tú časť témy, ktorá sa týka webu.
+
 [CTA_FORM:cookies]
 
 ## Hranica podľa veľkosti neexistuje

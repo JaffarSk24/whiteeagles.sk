@@ -26,6 +26,8 @@ Two beliefs cost small companies the most here: "we are too small for this" and 
 
 Below is what genuinely applies to a small business, what has to be on the site, what belongs outside it, and where people get caught.
 
+**To be clear:** I do not give legal advice or keep books. I build websites, run advertising and analytics — and this article covers the part of the topic that concerns the website.
+
 [CTA_FORM:consult]
 
 ## There is no size threshold

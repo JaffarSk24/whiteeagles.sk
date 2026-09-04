@@ -1,9 +1,9 @@
 ---
-title: 'Koľko stojí reklama v Google Ads na Slovensku: rozpočet, cena kliknutia, za čo platíte'
+title: 'Koľko stojí reklama na Google na Slovensku: cena kliknutia, rozpočet, za čo platíte'
 description: >-
-  Reálne čísla o reklame na Slovensku: z čoho sa skladá cena kliknutia, aký
-  rozpočet treba na štart, koľko sa berie za správu a ako spočítať, či sa kampaň
-  vracia. Bez „od 100 eur do nekonečna".
+  Cena reklamy na Google na Slovensku bez „závisí": z čoho sa skladá cena
+  kliknutia, koľko stojí nastavenie a správa kampaní, aký rozpočet treba na
+  štart a ako zistiť, či sa platená reklama na Googli vracia.
 date: '2026-08-04'
 key: 'ads-pricing'
 faq:
@@ -20,11 +20,11 @@ faq:
 ---
 ![Koľko stojí reklama v Google Ads na Slovensku | White Eagles & Co.](/assets/blog/ads-how.webp)
 
-# Koľko stojí reklama v Google Ads na Slovensku: rozpočet, cena kliknutia, za čo platíte
+# Koľko stojí reklama na Google na Slovensku: cena kliknutia, rozpočet, za čo platíte
 
 Na otázku „koľko stojí reklama" sa zvyčajne odpovie „závisí". Pravdivé a úplne neužitočné — z takej odpovede sa nedá naplánovať rozpočet ani zistiť, či nepreplácate.
 
-Nižšie je, z čoho sa suma skladá, aké čísla sú na Slovensku normou a ako si za jeden večer overiť, či sa to, čo už beží, vracia.
+Nižšie je, z čoho sa cena reklamy na Google skladá, aké čísla sú na Slovensku normou, koľko stojí nastavenie a správa kampaní a ako si za jeden večer overiť, či sa to, čo už beží, vracia. Platená reklama na Googli má tri rôzne náklady a väčšina sklamaní vzniká z toho, že sa zamieňajú.
 
 [CTA_FORM:ads]
 
@@ -58,7 +58,7 @@ Z toho plynie praktický záver, ktorý ušetrí viac než akékoľvek doťahova
 
 Ako si overiť rýchlosť — v článku [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
-## Orientačné čísla pre Slovensko
+## Cena reklamy na Google: orientačné čísla pre Slovensko
 
 Presné hodnoty závisia od niky, ale rád veličín je takýto:
 
@@ -81,7 +81,7 @@ Odtiaľ orientačný údaj — **10–15 € denne na jednu službu v jednom mes
 
 Prvé pravidlo rozdelenia: **nerozotierať.** Malý rozpočet na celé Slovensko a šesť služieb nedá ani dopyty, ani štatistiku. Jedna služba, jedno mesto, potom rozšírenie.
 
-## Koľko stojí nastavenie a správa
+## Koľko stojí nastavenie a správa reklamy na Google
 
 Na slovenskom trhu sú tri schémy:
 
@@ -98,6 +98,10 @@ Na čo sa spýtať pred podpisom, bez ohľadu na schému:
 3. **Čo je v správe zahrnuté?** Konkrétny zoznam úkonov, nie „optimalizácia".
 
 [CTA_FORM:analytics]
+
+## A čo reklama na internete mimo Googlu
+
+Cena reklamy na internete sa nedá porovnať jedným číslom: v Meta (Facebook, Instagram) je kliknutie zvyčajne lacnejšie, ale podiel dopytov z kliknutia nižší, lebo človeka vyrušujete namiesto toho, aby vás hľadal. Kde začať, keď je rozpočet len na jednu platformu, rozoberám v článku [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/). Tento článok je o cene reklamy vo vyhľadávaní Google, kde človek už hľadá to, čo predávate.
 
 ## Skryté náklady, na ktoré nikto neupozorní
 
@@ -121,7 +125,7 @@ Príklad. Minuli ste 400 €, prišlo 30 kontaktov → dopyt 13,3 €. Klientmi 
 
 Opačná situácia tiež nastáva: klient stojí 300 € a prinesie 400. Vtedy nejde o reklamu, ale o maržu — a rozpočet zvyšovať nemožno.
 
-## Kedy reklamu nespúšťať
+## Kedy reklamu na Google nespúšťať
 
 Poviem to priamo, lebo to šetrí peniaze:
 

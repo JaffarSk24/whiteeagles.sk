@@ -53,7 +53,9 @@ Ak ste copywriter, dizajnér alebo konzultant a pracujete sám, maximálna škod
 
 Ak prevádzkujete sklad s cudzím tovarom, staviate, predávate potraviny, beriete zálohy na väčšie dodávky alebo zamestnávate ľudí — chyba môže stáť násobne viac, než ste zarobili. Tu sa osobné ručenie mení na reálne riziko pre rodinu, nie na riadok v zákone.
 
-[CTA_FORM:consult]
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe.
+
+[CTA_FORM:webdev]
 
 ## Cena a rýchlosť rozbehu
 
@@ -142,7 +144,7 @@ V B2B je rozdiel citeľný. Veľká slovenská firma, tender, spolupráca s vere
 
 A ešte jedna vec: **ako vás vnímajú, nezávisí len od formy**. Živnosť s poriadnym webom, e-mailom na vlastnej doméne a vyplneným profilom v Google pôsobí na klienta presvedčivejšie než s.r.o. s adresou na gmaile a bez webu. Právna forma je jeden riadok v údajoch, web je to, čo klient vidí ako prvé.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## Čo sa stane, keď podnikanie narastie
 

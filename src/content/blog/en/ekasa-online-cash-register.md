@@ -31,7 +31,9 @@ Since 1 January 2026 Slovakia has a new revenue recording act — **No. 384/2025
 
 Below is who this applies to, who it does not, and what to do about it.
 
-[CTA_FORM:consult]
+**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+
+[CTA_FORM:webdev]
 
 ## Who needs an eKasa
 
@@ -77,7 +79,7 @@ The wording of the law matters: the duty is not to install a terminal but to **m
 
 The penalty for non-compliance is **500 to 15,000 euros**.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## The mandatory notice on the premises
 

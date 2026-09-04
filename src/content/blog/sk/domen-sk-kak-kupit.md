@@ -25,6 +25,8 @@ Doména je najlacnejšia časť projektu a zároveň tá, kde chyba stojí najvi
 
 Nižšie je, čo sa oplatí vedieť pred kúpou.
 
+**Aby bolo jasné:** právne poradenstvo ani účtovníctvo nerobím. Robím weby, reklamu a analytiku — a v tomto článku rozoberám tú časť témy, ktorá sa týka webu.
+
 [CTA_FORM:consult]
 
 ## Kto môže vlastniť doménu .sk

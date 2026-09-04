@@ -26,7 +26,9 @@ Everywhere this question gets the same answer: a trade licence is cheaper, a com
 
 The choice actually turns on something else: **what you are liable with when something goes wrong**, and where the numbers stop favouring one form over the other. Below is both, with the 2026 figures.
 
-[CTA_FORM:consult]
+**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+
+[CTA_FORM:webdev]
 
 ## The difference in short
 
@@ -107,7 +109,7 @@ This is the important point. Below 33,333 € a year the deduction grows with in
 
 Rates change annually and the burden depends on your cost ratio and on how much you actually take out. **Run these numbers on your own turnover with an accountant before deciding** — between the two forms the difference is measured in thousands of euros a year.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## How clients read you
 

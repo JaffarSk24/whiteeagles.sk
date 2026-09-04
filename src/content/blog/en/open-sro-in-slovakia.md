@@ -43,7 +43,9 @@ There is one genuine improvement in the new rules: **free trades will be registe
 
 The conclusion is simple. If the decision to start a company is already made, it is worth being done before 17 August. If you are still deciding, one fee is no reason to rush: 300 euros is not a reason to start a business you are not ready for.
 
-[CTA_FORM:consult]
+**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+
+[CTA_FORM:webdev]
 
 ## Step 1. Decide on your trades
 
@@ -108,7 +110,7 @@ A company in the register is not yet a working business. What comes next:
 3. **Deal with VAT.** Registration becomes mandatory above a turnover threshold, but voluntary registration sometimes makes sense — particularly if your clients are VAT payers themselves.
 4. **Check whether you need eKasa.** If you take cash or cards from individuals, an online cash register is mandatory.
 
-[CTA_FORM:webdev]
+[CTA_FORM:consult]
 
 ## The digital part almost nobody does in time
 

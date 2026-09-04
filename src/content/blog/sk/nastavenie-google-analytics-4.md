@@ -30,7 +30,7 @@ Nižšie je poradie krokov a päť chýb, ktoré nachádzam najčastejšie, keď
 
 [CTA_FORM:analytics]
 
-## Poradie, v ktorom sa to robí
+## Nastavovanie Google Analytics 4: poradie, v ktorom sa to robí
 
 Poradie je dôležité: každý ďalší krok stojí na predchádzajúcom.
 
