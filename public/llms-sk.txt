@@ -127,6 +127,8 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
     - https://whiteeagles.sk/sk/blog/website-cost-2026/
     - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
     - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
+    - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
+    - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
 
 ## Cenník
 

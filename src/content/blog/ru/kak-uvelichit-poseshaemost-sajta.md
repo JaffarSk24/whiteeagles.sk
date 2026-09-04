@@ -141,4 +141,6 @@ NAP — это название, адрес и телефон. Правило п
 
 По теме: [как словаки выбирают подрядчика](/ru/blog/kak-slovaki-vybirayut-podryadchika/), [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), [Google Ads в Словакии](/ru/blog/google-ads-small-business/) и [нужен ли сайт на словацком](/ru/blog/nuzhen-li-sajt-na-slovackom/).
 
+Если у вас ресторан, кафе или бар, посещаемость устроена иначе, чем у услуг — [сайт для ресторана](/ru/blog/sajt-dlya-restorana/).
+
 [CTA_FORM:webdev]

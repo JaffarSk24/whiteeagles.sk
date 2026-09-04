@@ -140,4 +140,6 @@ I have lived in Slovakia for over ten years and launched **12+ websites for Slov
 
 Related: [živnosť or s.r.o.](/en/blog/zivnost-or-sro/), [VAT registration in Slovakia](/en/blog/vat-registration-slovakia/) and [mandatory details on a Slovak company website](/en/blog/mandatory-website-details/).
 
+What a new company sets up in its first month after the entry — domain, email, website, Google profile — is in [you have registered a company, now what](/en/blog/after-company-registration-digital-start/).
+
 [CTA_FORM:audit]

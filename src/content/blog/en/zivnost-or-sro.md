@@ -138,4 +138,6 @@ Whichever form you pick, the website carries your details, and they differ betwe
 
 I have lived in Slovakia for over ten years and launched **12+ websites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
+Whichever you choose, the digital start is the same — the order for the first 30 days is in [you have registered a company, now what](/en/blog/after-company-registration-digital-start/).
+
 [CTA_FORM:audit]

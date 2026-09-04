@@ -173,4 +173,6 @@ Pracujem ako slovenské s.r.o.: vystavujem faktúru s IČO, ktorú si dáte do n
 
 **[Bezplatný SEO audit](/sk/seo-audit/)** — ak web už máte a neprináša zákazníkov, prejdem ho a pošlem konkrétny zoznam príčin do 3 pracovných dní. Ak web ešte nemáte, napíšte: pozrieme sa, čo presne vaše podnikanie potrebuje.
 
+Čo si nová firma nastaví v prvom mesiaci po zápise — doména, e-mail, web, profil na Googli — je v článku [otvorili ste firmu, čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
+
 [CTA_FORM:audit]

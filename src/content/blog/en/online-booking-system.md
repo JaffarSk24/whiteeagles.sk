@@ -130,4 +130,6 @@ I have lived in Slovakia for over ten years and have launched **12+ sites for Sl
 
 Details on the [web development service page](/en/service/webdev/).
 
+For food and drink, table booking is only one part — menu, Google profile and footfall are covered in [a website for a restaurant](/en/blog/restaurant-website/).
+
 [CTA_FORM:consult]

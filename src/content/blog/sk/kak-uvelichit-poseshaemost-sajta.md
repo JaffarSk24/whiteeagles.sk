@@ -141,4 +141,6 @@ Ak niet času čakať 3–6 mesiacov, organiku sa dá podoprieť plateným traff
 
 K téme: [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads na Slovensku](/sk/blog/google-ads-small-business/) a [treba web po slovensky](/sk/blog/nuzhen-li-sajt-na-slovackom/).
 
+Ak máte reštauráciu, kaviareň alebo bar, návštevnosť sa rieši inak než u služieb — [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
+
 [CTA_FORM:webdev]

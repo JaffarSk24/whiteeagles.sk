@@ -114,4 +114,6 @@ I have lived in Slovakia for over ten years and have launched **12+ sites for Sl
 
 Related: [how to open an s.r.o.](/en/blog/open-sro-in-slovakia/), [the mandatory details on a website](/en/blog/mandatory-website-details/) and the [web development service page](/en/service/webdev/).
 
+The domain is the first of a new company's seven steps — the whole first-month list: [you have registered a company, now what](/en/blog/after-company-registration-digital-start/).
+
 [CTA_FORM:bugfix]

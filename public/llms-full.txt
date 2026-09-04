@@ -320,6 +320,10 @@ differ per article and are reachable from the language switcher on the page.
   - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
 - **Živnosť alebo s.r.o.: čo si vybrať pri podnikaní v roku 2026**
   - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
+- **Otvorili ste firmu — čo ďalej: digitálny štart za 30 dní**
+  - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
+- **Webstránka pre reštauráciu, kaviareň či bar: rezervácia stolov, menu, návštevnosť**
+  - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
 
 ---
 

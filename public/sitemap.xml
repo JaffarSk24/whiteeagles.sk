@@ -300,6 +300,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/"/>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/sk/blog/priem-oplaty-kartoy/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/priem-oplaty-kartoy/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/priem-oplaty-kartoy/"/>
@@ -350,6 +359,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/website-cost-2026/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/website-cost-2026/"/>
     <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/sajt-dlya-restorana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/"/>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -715,6 +733,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/"/>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/ru/blog/otkryt-sro-v-slovakii/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/otkryt-sro-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/otkryt-sro-v-slovakii/"/>
@@ -747,6 +774,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/remont-sajta-na-wordpress/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/"/>
     <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/ru/blog/sajt-dlya-restorana/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/sajt-dlya-restorana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/"/>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

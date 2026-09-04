@@ -219,4 +219,6 @@ Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov
 
 **[Bezplatný SEO audit](/sk/seo-audit/)** — ak web už máte, prejdem ho a pošlem konkrétny zoznam dôvodov, prečo neprináša zákazníkov, do 3 pracovných dní. Ak web ešte nemáte, napíšte a pozrieme sa, čo vaše podnikanie potrebuje.
 
+Nech si vyberiete čokoľvek, digitálny štart je rovnaký — poradie na prvých 30 dní je v článku [otvorili ste firmu, čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
+
 [CTA_FORM:audit]

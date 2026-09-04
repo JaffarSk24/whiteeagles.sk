@@ -113,4 +113,6 @@ Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovensk
 
 Súvisiace: [založenie s.r.o.](/sk/blog/otkryt-sro-v-slovakii/), [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/) a [stránka služby „Tvorba webstránok“](/sk/service/webdev/).
 
+Doména je prvý zo siedmich krokov novej firmy — celý zoznam na prvý mesiac: [otvorili ste firmu, čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
+
 [CTA_FORM:bugfix]

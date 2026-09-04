@@ -141,4 +141,6 @@ If waiting 3–6 months is not an option, organic growth can be propped up with 
 
 Related: [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/), [Google Ads or Meta](/en/blog/google-ads-or-meta/), [Google Ads in Slovakia](/en/blog/google-ads-getting-started/) and [do you need a site in Slovak](/en/blog/do-you-need-slovak-website/).
 
+If you run a restaurant, café or bar, footfall works differently from services — [a website for a restaurant](/en/blog/restaurant-website/).
+
 [CTA_FORM:webdev]

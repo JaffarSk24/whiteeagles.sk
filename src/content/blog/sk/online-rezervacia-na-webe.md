@@ -130,4 +130,6 @@ Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovensk�
 
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/).
 
+Pre gastro je rezervácia stolov iba jedna z častí — menu, profil na Googli a návštevnosť rozoberám v článku [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
+
 [CTA_FORM:consult]

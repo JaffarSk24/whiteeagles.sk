@@ -113,4 +113,6 @@ faq:
 
 Смежное: [как открыть s.r.o.](/ru/blog/otkryt-sro-v-slovakii/), [обязательные реквизиты на сайте](/ru/blog/obyazatelnye-rekvizity-sajta/) и [страница услуги «Разработка сайтов»](/ru/service/webdev/).
 
+Домен — первый из семи шагов новой фирмы, весь список на первый месяц: [открыли фирму, что дальше](/ru/blog/otkryli-firmu-chto-dalshe/).
+
 [CTA_FORM:bugfix]

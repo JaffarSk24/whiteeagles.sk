@@ -200,6 +200,21 @@
       "en": "open-sro-in-slovakia",
       "ru": "otkryt-sro-v-slovakii"
     },
+    "otvorili-ste-firmu-co-dalej": {
+      "sk": "otvorili-ste-firmu-co-dalej",
+      "en": "after-company-registration-digital-start",
+      "ru": "otkryli-firmu-chto-dalshe"
+    },
+    "after-company-registration-digital-start": {
+      "sk": "otvorili-ste-firmu-co-dalej",
+      "en": "after-company-registration-digital-start",
+      "ru": "otkryli-firmu-chto-dalshe"
+    },
+    "otkryli-firmu-chto-dalshe": {
+      "sk": "otvorili-ste-firmu-co-dalej",
+      "en": "after-company-registration-digital-start",
+      "ru": "otkryli-firmu-chto-dalshe"
+    },
     "priem-oplaty-kartoy": {
       "sk": "priem-oplaty-kartoy",
       "en": "accept-card-payments",
@@ -269,6 +284,21 @@
       "sk": "website-cost-2026",
       "en": "website-cost-slovakia",
       "ru": "website-cost-2026"
+    },
+    "webstranka-pre-restauraciu": {
+      "sk": "webstranka-pre-restauraciu",
+      "en": "restaurant-website",
+      "ru": "sajt-dlya-restorana"
+    },
+    "restaurant-website": {
+      "sk": "webstranka-pre-restauraciu",
+      "en": "restaurant-website",
+      "ru": "sajt-dlya-restorana"
+    },
+    "sajt-dlya-restorana": {
+      "sk": "webstranka-pre-restauraciu",
+      "en": "restaurant-website",
+      "ru": "sajt-dlya-restorana"
     },
     "wordpress-vs-custom-website": {
       "sk": "wordpress-vs-custom-website",
