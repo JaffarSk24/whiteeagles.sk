@@ -166,7 +166,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         "alternateName": ["White Eagles", "whiteeagles.sk"],
         "description": orgDescription,
         "slogan": slogan,
-        "url": siteUrl,
+        "url": `${siteUrl}/`,
         "logo": `${siteUrl}/assets/white-eagles-logo-white.webp`,
         "image": `${siteUrl}/assets/me.jpg`,
         "sameAs": sameAsLinks,
@@ -223,7 +223,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         "@type": "ProfessionalService",
         "@id": `${siteUrl}/#localbusiness`,
         "name": orgName,
-        "url": siteUrl,
+        "url": `${siteUrl}/`,
         "image": `${siteUrl}/assets/me.jpg`,
         "telephone": "+421949000077",
         "email": "welcome@whiteeagles.sk",
@@ -278,7 +278,7 @@ export async function JsonLd({ locale }: { locale: string }) {
       {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
-        "url": siteUrl,
+        "url": `${siteUrl}/`,
         "name": orgName,
         "publisher": { "@id": `${siteUrl}/#organization` },
         "inLanguage": locale,
@@ -322,7 +322,7 @@ export async function JsonLd({ locale }: { locale: string }) {
             "@type": "SiteNavigationElement",
             "position": 6,
             "name": locale === "sk" ? "Blog" : locale === "ru" ? "Блог" : "Blog",
-            "url": `${siteUrl}/${locale}/blog`
+            "url": `${siteUrl}/${locale}/blog/`
           }
         ]
       },
@@ -330,7 +330,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         "@type": "Blog",
         "@id": `${siteUrl}/${locale}/blog/#blog`,
         "name": locale === "sk" ? "Blog | White Eagles & Co." : locale === "ru" ? "Блог | White Eagles & Co." : "Blog & News | White Eagles & Co.",
-        "url": `${siteUrl}/${locale}/blog`,
+        "url": `${siteUrl}/${locale}/blog/`,
         "description": tHomeSeo("description"),
       },
       ...servicesList,

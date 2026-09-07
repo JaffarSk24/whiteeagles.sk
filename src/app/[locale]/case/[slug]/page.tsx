@@ -94,7 +94,7 @@ export default async function CasePage({ params }: { params: Promise<{ locale: s
         mainEntityOfPage: pageUrl,
         image: `https://whiteeagles.sk${study.image}`,
         about: { '@type': 'Organization', name: study.client, url: study.url },
-        author: { '@type': 'Person', name: 'Kirill Mosin', url: 'https://whiteeagles.sk' },
+        author: { '@type': 'Person', name: 'Kirill Mosin', url: 'https://whiteeagles.sk/' },
         publisher: { '@id': 'https://whiteeagles.sk/#organization' },
       },
     ],
