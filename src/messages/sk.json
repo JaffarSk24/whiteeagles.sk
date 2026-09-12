@@ -6,13 +6,13 @@
     "process": "Proces",
     "contacts": "Kontakty",
     "blog": "Blog",
-    "order": "Technický audit zdarma"
+    "order": "Chcem cenovú ponuku"
   },
   "hero": {
     "location": "Bratislava, Slovensko",
     "title": "Weby a reklama, ktoré prinášajú klientov vášmu biznisu na Slovensku",
     "subtitle": "Tvorba webov, analytika a online marketing pre firmy",
-    "cta": "Bezplatný audit",
+    "cta": "Chcem cenovú ponuku",
     "cta_secondary": "Pozrieť klientov",
     "stat1_num": "10+",
     "stat1_label": "rokov na Slovensku",
@@ -572,7 +572,7 @@
     "pride_title": "Výborný výsledok bez podrobných technických špecifikácií",
     "pride_desc": "Práca s freelancermi vo firme mi umožnila identifikovať hlavné ťažkosti, ktoré sa objavujú v spolupráci: veľké množstvo času stráveného manažmentom spoločnosti pri písaní podrobného technického zadania na opis všetkých obchodných procesov a očakávaní od webovej stránky. Od klienta nikdy nežiadam zložitú technickú špecifikáciu a sám poskytnem najvhodnejšie riešenie na schválenie.",
     "cta_text": "Objednajte si bezplatnú konzultáciu na prediskutovanie projektu a získanie osobnej ponuky.",
-    "cta_button": "Technický audit zdarma",
+    "cta_button": "Chcem cenovú ponuku",
     "payment_title": "Flexibilné možnosti platby",
     "payment_invoice": "Na faktúru",
     "payment_card": "Kreditnou kartou",
@@ -676,7 +676,9 @@
     "next_title": "Čo bude ďalej",
     "next_1": "Prečítam si, čo píšete, a pozriem web.",
     "next_2": "Do 24 hodín sa ozvem s otázkami alebo rovno s návrhom.",
-    "next_3": "Dostanete ponuku s cenou a termínom, bez záväzku."
+    "next_3": "Dostanete ponuku s cenou a termínom, bez záväzku.",
+    "service_placeholder": "— vyberte službu —",
+    "service_error": "Vyberte službu."
   },
   "company": {
     "name": "White Eagles & Co. s.r.o.",

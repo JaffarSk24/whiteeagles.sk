@@ -203,7 +203,7 @@ export default function HomeClient() {
                 <p>
                   <button
                     type="button"
-                    onClick={() => openOrderModal("audit")}
+                    onClick={() => openOrderModal()}
                     style={{
                       background: "none",
                       border: "none",

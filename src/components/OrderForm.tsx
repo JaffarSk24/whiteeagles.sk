@@ -25,7 +25,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
     name: "",
     email: "",
     phone: "",
-    service: initialService || services[0].id,
+    service: initialService || "",
     message: "",
     website: "",
   });
@@ -42,13 +42,13 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
       hasTrackedOpen.current = true;
       setFormData((prev) => ({
         ...prev,
-        service: initialService || services[0].id,
+        service: initialService || "",
       }));
 
-      const activeServiceId = initialService || services[0].id;
+      const activeServiceId = initialService || "";
       const activeObj = services.find((s) => s.id === activeServiceId);
 
-      trackGAEvent("form_open", { service: activeServiceId });
+      trackGAEvent("form_open", { service: activeServiceId || "none" });
       if (activeObj) trackGAEvent("add_to_cart", {
         currency: "EUR",
         value: activeObj?.priceRate || 0,
@@ -78,6 +78,10 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
     }
     if (isAudit && !formData.website.trim()) {
       alert(t("website_error"));
+      return;
+    }
+    if (!isAudit && !formData.service) {
+      alert(t("service_error"));
       return;
     }
 
@@ -263,6 +267,9 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
                 }}
                 required
               >
+                <option value="" disabled>
+                  {t("service_placeholder")}
+                </option>
                 {services.map((service) => (
                   <option key={service.id} value={service.id}>
                     {tServices(service.titleKey)}
@@ -283,7 +290,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
               />
             </div>
 
-            <button type="submit" className="btn btn-primary btn-submit" disabled={status === "submitting"}>
+            <button type="submit" className="btn btn-primary btn-submit" disabled={status === "submitting" || (!isAudit && !formData.service)}>
               {status === "submitting" ? t("sending") : isAudit ? t("audit_submit") : t("submit")}
             </button>
             <p className="reply-note">{t("reply_note")}</p>

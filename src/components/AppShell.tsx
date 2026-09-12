@@ -27,7 +27,7 @@ export const AppShell = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <OrderModalContext.Provider value={{ openOrderModal: handleOrderClick }}>
-      <Header onOrderClick={() => handleOrderClick("audit")} />
+      <Header onOrderClick={() => handleOrderClick()} />
       <main>{children}</main>
       <Footer />
       
