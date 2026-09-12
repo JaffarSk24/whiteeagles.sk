@@ -648,7 +648,7 @@
   "order": {
     "opt_if_phone": "(nepovinné, ak je uvedený telefón)",
     "opt_if_email": "(nepovinné, ak je uvedený email)",
-    "title": "Nezáväzná cenová ponuka",
+    "title": "Získať cenovú ponuku",
     "success_title": "Ďakujem za Vašu žiadosť",
     "success": "V blízkej dobe Vás budem kontaktovať pre prediskutovanie detailov a podmienok spolupráce.",
     "name": "Meno",

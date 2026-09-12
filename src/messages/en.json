@@ -661,7 +661,7 @@
   "order": {
     "opt_if_phone": "(optional if phone is provided)",
     "opt_if_email": "(optional if email is provided)",
-    "title": "Free quote, no obligation",
+    "title": "Get a quote",
     "success_title": "Thank you for your request",
     "success": "I will contact you shortly to discuss the details and terms of our collaboration.",
     "name": "Name",
