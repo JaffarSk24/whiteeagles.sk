@@ -1,0 +1,64 @@
+/* Phones only: on a desktop the button inside the card and the ones after the
+   process and the cases are always within reach. */
+.sticky-order-cta {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .sticky-order-cta {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 900;
+    /* The chat bubble floats in the bottom right corner (60px wide, 20px from
+       the edge) and sits above everything. The button stops short of it so it
+       is never covered and never swallows a tap meant for the chat. */
+    padding: 10px 86px calc(10px + env(safe-area-inset-bottom, 0px)) 16px;
+    background: rgba(55, 65, 97, 0.92);
+    border-top: 1px solid var(--border-color);
+    backdrop-filter: blur(8px);
+    transform: translateY(120%);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.25s ease, opacity 0.25s ease, visibility 0.25s;
+  }
+
+  .sticky-order-cta.is-visible {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .sticky-order-cta-btn {
+    display: block;
+    width: 100%;
+    padding: 15px 18px;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent-color);
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .sticky-order-cta-btn:active {
+    background: var(--accent-hover);
+  }
+
+  /* The bar floats over the bottom of the viewport, so the footer needs room
+     under its last line - otherwise it covers the contacts. */
+  body:has(.sticky-order-cta) .footer {
+    padding-bottom: 90px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sticky-order-cta {
+    transition: none;
+  }
+}

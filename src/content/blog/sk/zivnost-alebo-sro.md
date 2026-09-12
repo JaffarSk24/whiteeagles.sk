@@ -4,6 +4,7 @@ description: >-
   Poctivé porovnanie živnosti a s.r.o.: ručenie, cena a rýchlosť rozbehu, ako
   vás vnímajú klienti a čo na tomto rozhodnutí mení reforma od 17. augusta 2026.
 date: '2026-08-04'
+updated: '2026-09-13'
 key: 'zivnost-or-sro'
 faq:
   - q: 'Môžem mať živnosť aj s.r.o. súčasne?'
@@ -53,7 +54,7 @@ Ak ste copywriter, dizajnér alebo konzultant a pracujete sám, maximálna škod
 
 Ak prevádzkujete sklad s cudzím tovarom, staviate, predávate potraviny, beriete zálohy na väčšie dodávky alebo zamestnávate ľudí — chyba môže stáť násobne viac, než ste zarobili. Tu sa osobné ručenie mení na reálne riziko pre rodinu, nie na riadok v zákone.
 
-**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe.
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe. Ak je zápis už za vami, poradie krokov na prvý mesiac je v článku [Otvorili ste firmu — čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
 
 [CTA_FORM:webdev]
 

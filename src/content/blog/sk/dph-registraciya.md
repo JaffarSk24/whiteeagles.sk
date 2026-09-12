@@ -5,6 +5,7 @@ description: >-
   žiadosti, sadzby 23, 19 a 5 percent a kedy sa dobrovoľná registrácia oplatí
   viac než povinná.
 date: '2026-08-04'
+updated: '2026-09-13'
 key: 'vat-registration'
 faq:
   - q: 'Od akého obratu treba registráciu na DPH?'
@@ -26,7 +27,7 @@ DPH je otázka, kde chyba stojí najviac, pretože sa objaví so spätnou platno
 
 Nižšie je, kade vedú hranice, aké sú lehoty a kedy sa oplatí registrovať dobrovoľne.
 
-**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe.
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe. Ak je zápis už za vami, poradie krokov na prvý mesiac je v článku [Otvorili ste firmu — čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
 
 [CTA_FORM:webdev]
 

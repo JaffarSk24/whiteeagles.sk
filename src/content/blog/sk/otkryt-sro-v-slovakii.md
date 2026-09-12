@@ -5,6 +5,7 @@ description: >-
   poplatok, lehoty a reforma od 17. augusta 2026, po ktorej registrácia
   zdražie viac než dvojnásobne a nezaobíde sa bez notára.
 date: '2026-08-03'
+updated: '2026-09-13'
 key: 'open-sro'
 faq:
   - q: 'Musím byť rezident SR, aby som mohol založiť s.r.o.?'
@@ -43,7 +44,7 @@ Jedno zjednodušenie nové pravidlá prinášajú, a je užitočné: **voľné �
 
 Záver je jednoduchý. Ak už je rozhodnuté, má zmysel stihnúť to do 17. augusta. Ak ešte zvažujete, kvôli jednému poplatku sa ponáhľať netreba: 300 eur nie je dôvod otvárať podnikanie, na ktoré nie ste pripravení.
 
-**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe.
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe. Ak je zápis už za vami, poradie krokov na prvý mesiac je v článku [Otvorili ste firmu — čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
 
 [CTA_FORM:webdev]
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
-import { getPostBySlug, getAllPosts, getSlugForLocale } from '@/utils/blog';
+import { getPostBySlug, getAllPosts, getSlugForLocale, shortDescription } from '@/utils/blog';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 // Without this, GitHub-flavoured markdown - tables above all - renders as raw
@@ -10,6 +10,9 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { AuditCTA } from '@/components/AuditCTA';
 import '@/components/AuditCTA.css';
+import { getPublicImageSize } from '@/utils/imageSize';
+import { AuthorBox } from '@/components/AuthorBox';
+import '@/components/AuthorBox.css';
 import '../Blog.css';
 
 export function generateStaticParams(props: { params: { locale: string } }) {
@@ -31,7 +34,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
   
   const title = post.title;
-  const description = post.description;
+  // Trimmed to what a search result actually shows, so the snippet ends on a
+  // finished sentence instead of Google's own ellipsis.
+  const description = shortDescription(post.description);
   const pageUrl = `https://whiteeagles.sk/${locale}/blog/${slug}/`;
   const isEnglish = locale === 'en';
 
@@ -64,7 +69,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       };
 
   return {
-    title,
+    // The article headline is already the length of a full title tag; the
+    // site-wide "%s | White Eagles & Co." template pushed it past what a
+    // result shows and the end of the headline was cut off instead.
+    title: { absolute: title },
     description,
     ...(isEnglish ? { robots: { index: false, follow: true } } : {}),
     alternates: {
@@ -93,12 +101,37 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
   }
   
   const tCta = await getTranslations({ locale, namespace: 'cta' });
+  const tAuthor = await getTranslations({ locale, namespace: 'author' });
   let ctaIndex = 0;
+  let imageIndex = 0;
 
   // Articles pick which offer each form makes: [CTA_FORM:webdev] and so on.
   // A bare [CTA_FORM] falls back to a soft consultation rather than pushing
   // the same free audit three times down one page.
   const CTA_VARIANTS = ['consult', 'webdev', 'bugfix', 'audit', 'analytics', 'cookies', 'ads', 'bot'];
+
+  // Which order form each variant opens. The article has already told the
+  // reader what they need, so the form should not ask them again; only the
+  // soft consultation stays a general enquiry.
+  const CTA_SERVICE: Record<string, string | undefined> = {
+    consult: undefined,
+    webdev: 'webdev',
+    bugfix: 'bugfix',
+    audit: 'audit',
+    analytics: 'analytics',
+    cookies: 'cookies',
+    ads: 'ads',
+    bot: 'telegram',
+  };
+
+  // The author box at the foot of the article offers the same thing the
+  // article's first call to action did. Read from the source rather than from
+  // the renderer, because the markdown is rendered further down the tree.
+  const firstCtaMatch = post.content.match(/^\[CTA_FORM(?::([a-z]+))?\]$/m);
+  const firstCtaVariant = firstCtaMatch && CTA_VARIANTS.includes(firstCtaMatch[1] ?? '')
+    ? firstCtaMatch[1]!
+    : 'consult';
+  const authorService = CTA_SERVICE[firstCtaVariant];
 
   const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
   const blogName = locale === "ru" ? "Блог" : locale === "sk" ? "Blog" : "Blog";
@@ -211,11 +244,38 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                         text={tCta(`${variant}.text` as any)}
                         buttonText={tCta(`${variant}.button` as any)}
                         position={`blog_${slug}_${ctaIndex}_${variant}`}
+                        service={CTA_SERVICE[variant]}
                       />
                     );
                   }
                   
                   return <p>{children}</p>;
+                },
+                // Every image in an article used to arrive with no dimensions
+                // at all, so the text jumped down the page each time one
+                // loaded. The size is read out of the file itself at build
+                // time. The first image is the one the reader sees before
+                // scrolling: it is fetched at high priority and never lazily,
+                // while everything further down waits until it is near.
+                img: ({ node, src, alt, title, ...rest }) => {
+                  imageIndex += 1;
+                  const isHero = imageIndex === 1;
+                  const source = typeof src === 'string' ? src : '';
+                  const size = getPublicImageSize(source);
+
+                  return (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={source}
+                      alt={alt ?? ''}
+                      {...(title ? { title } : {})}
+                      {...(size ? { width: size.width, height: size.height } : {})}
+                      {...(isHero
+                        ? { fetchPriority: 'high' as const }
+                        : { loading: 'lazy' as const, decoding: 'async' as const })}
+                      {...rest}
+                    />
+                  );
                 },
                 // A comparison table wider than a phone screen has to scroll
                 // inside its own box, not drag the whole page sideways.
@@ -249,6 +309,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               </div>
             </section>
           )}
+
+          {/* A reader who reached the end is the one most likely to write, and
+              the page used to stop dead here. The offer repeats the one the
+              article's first call to action made. */}
+          <AuthorBox
+            line={tAuthor('line')}
+            buttonText={tAuthor('button')}
+            telegramText={locale === 'ru' ? tAuthor('telegram') : undefined}
+            service={authorService}
+            location={`blog_${slug}_author`}
+          />
         </article>
       </div>
     </div>

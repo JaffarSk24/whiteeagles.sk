@@ -133,7 +133,6 @@ export default async function LocaleLayout({
               key={file}
               rel="alternate"
               type="text/markdown"
-              hrefLang={lng}
               href={`https://whiteeagles.sk/${file}`}
               title={file}
             />

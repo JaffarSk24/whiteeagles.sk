@@ -201,3 +201,33 @@
     padding: 12px;
   }
 }
+
+.reply-note {
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.next-steps {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.next-steps-title {
+  margin: 0 0 6px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.next-steps ol {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.next-steps li {
+  margin: 2px 0;
+}

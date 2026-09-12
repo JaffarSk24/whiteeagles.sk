@@ -28,7 +28,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
             },
           }),
     },
-    openGraph: { title: t('seo_title'), description: t('seo_description'), url: pageUrl },
+    openGraph: {
+      title: t('seo_title'),
+      description: t('seo_description'),
+      url: pageUrl,
+      images: [{ url: '/assets/snippet.png', width: 1200, height: 630 }],
+    },
   };
 }
 

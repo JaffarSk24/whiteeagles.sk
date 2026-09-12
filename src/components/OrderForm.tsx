@@ -27,7 +27,13 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
     phone: "",
     service: initialService || services[0].id,
     message: "",
+    website: "",
   });
+  // "audit" is not a service in services.ts: it is the free audit, which has
+  // its own promise (a written check within 3 days) and its own first field,
+  // the address of the site to check. The same modal serves both so the
+  // reCAPTCHA, the API call and the success state are written once.
+  const isAudit = initialService === "audit";
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const hasTrackedOpen = React.useRef(false);
 
@@ -43,7 +49,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
       const activeObj = services.find((s) => s.id === activeServiceId);
 
       trackGAEvent("form_open", { service: activeServiceId });
-      trackGAEvent("add_to_cart", {
+      if (activeObj) trackGAEvent("add_to_cart", {
         currency: "EUR",
         value: activeObj?.priceRate || 0,
         items: [
@@ -70,6 +76,10 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
       alert(t("validation_error")); // "Please fill in required fields."
       return;
     }
+    if (isAudit && !formData.website.trim()) {
+      alert(t("website_error"));
+      return;
+    }
 
     if (formData.email) {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -90,8 +100,9 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
     setStatus("submitting");
 
     const selectedServiceObj = services.find((s) => s.id === formData.service);
-    const serviceName = selectedServiceObj ? tServices(selectedServiceObj.titleKey) : formData.service;
+    const serviceName = isAudit ? t("audit_service_name") : selectedServiceObj ? tServices(selectedServiceObj.titleKey) : formData.service;
     const priceString = selectedServiceObj ? `${selectedServiceObj.priceRate}€/${tCommon("hour")}` : "";
+    const messageText = isAudit ? `Web: ${formData.website.trim()}\n\n${formData.message}`.trim() : formData.message;
 
     try {
       // Execute reCAPTCHA
@@ -103,6 +114,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
+          message: messageText,
           service: serviceName, // Send localized name
           price: priceString, // Send localized price
           language: locale, // Send current language
@@ -112,7 +124,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
 
       if (response.ok) {
         setStatus("success");
-        setFormData({ name: "", email: "", phone: "", service: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", service: "", message: "", website: "" });
         sessionStorage.setItem("order_submitted", "true");
 
         const eventValue = selectedServiceObj?.priceRate || 0;
@@ -154,7 +166,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
           <X />
         </button>
 
-        <h2>{t("title")}</h2>
+        <h2>{isAudit ? t("audit_title") : t("title")}</h2>
 
         {status === "success" ? (
           <div className="success-popup">
@@ -169,6 +181,19 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
           </div>
         ) : (
           <form onSubmit={handleSubmit}>
+            {isAudit && (
+              <div className="form-group">
+                <label>{t("website")} *</label>
+                <input
+                  type="text"
+                  inputMode="url"
+                  required
+                  value={formData.website}
+                  onChange={(e) => setFormData({ ...formData, website: e.target.value })}
+                  placeholder={t("website_placeholder")}
+                />
+              </div>
+            )}
             <div className="form-group">
               <label>{t("name")} *</label>
               <input
@@ -200,6 +225,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
               />
             </div>
 
+            {!isAudit && (
             <div className="form-group">
               <label>{t("service")} *</label>
               <select
@@ -244,6 +270,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
                 ))}
               </select>
             </div>
+            )}
 
             <div className="form-group">
               <label>
@@ -257,8 +284,17 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
             </div>
 
             <button type="submit" className="btn btn-primary btn-submit" disabled={status === "submitting"}>
-              {status === "submitting" ? t("sending") : t("submit")}
+              {status === "submitting" ? t("sending") : isAudit ? t("audit_submit") : t("submit")}
             </button>
+            <p className="reply-note">{t("reply_note")}</p>
+            <div className="next-steps">
+              <p className="next-steps-title">{t("next_title")}</p>
+              <ol>
+                <li>{t("next_1")}</li>
+                <li>{t("next_2")}</li>
+                <li>{t("next_3")}</li>
+              </ol>
+            </div>
 
             {status === "error" && <p className="error-text">{t("error")}</p>}
 

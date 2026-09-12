@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import { getCaseBySlug, getAllCases, getCaseSlugForLocale } from '@/utils/cases';
+import { shortDescription } from '@/utils/blog';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -41,14 +42,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ...(skSlug ? { 'x-default': `https://whiteeagles.sk/sk/case/${skSlug}/` } : {}),
   };
 
+  // Same reasoning as the blog article: the case headline is a full title on
+  // its own, and the site-wide template only cut its ending off. The snippet
+  // is trimmed to the length a result shows.
+  const description = shortDescription(study.description);
+
   return {
-    title: study.title,
-    description: study.description,
+    title: { absolute: study.title },
+    description,
     ...(isEnglish ? { robots: { index: false, follow: true } } : {}),
     alternates: { canonical: pageUrl, ...(isEnglish ? {} : { languages }) },
     openGraph: {
       title: study.title,
-      description: study.description,
+      description,
       url: pageUrl,
       images: [`https://whiteeagles.sk${study.image}`],
     },

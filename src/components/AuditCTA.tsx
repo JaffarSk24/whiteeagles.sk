@@ -10,6 +10,12 @@ interface AuditCTAProps {
   buttonText: string;
   /** Where on the page this block sits, so GA4 shows which one converts. */
   position: string;
+  /**
+   * Which order form to open. The form arrives with the right service already
+   * chosen, instead of asking the reader to pick it again a paragraph after
+   * the article told them what they need. Left out for a general enquiry.
+   */
+  service?: string;
 }
 
 /**
@@ -17,7 +23,7 @@ interface AuditCTAProps {
  * long articles, where a single CTA at the very bottom is reached by almost
  * nobody.
  */
-export function AuditCTA({ title, text, buttonText, position }: AuditCTAProps) {
+export function AuditCTA({ title, text, buttonText, position, service }: AuditCTAProps) {
   const { openOrderModal } = useOrderModal();
 
   return (
@@ -29,8 +35,8 @@ export function AuditCTA({ title, text, buttonText, position }: AuditCTAProps) {
       <button
         className="btn btn-primary btn-lg audit-cta-button"
         onClick={() => {
-          trackGAEvent("cta_click", { location: position });
-          openOrderModal();
+          trackGAEvent("cta_click", { location: position, service });
+          openOrderModal(service);
         }}
       >
         {buttonText}

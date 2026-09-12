@@ -5,6 +5,7 @@ description: >-
   the filing deadlines, the 2026 rates, when voluntary registration pays off and
   what has to change on your website once you are registered.
 date: '2026-08-04'
+updated: '2026-09-13'
 key: 'vat-registration'
 faq:
   - q: 'At what turnover does VAT registration become mandatory in Slovakia?'
@@ -26,7 +27,7 @@ VAT is the question where a mistake costs the most, because it surfaces in hinds
 
 Below: where the thresholds sit, what the deadlines are, and when registering voluntarily is the better move.
 
-**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps. If the entry is already behind you, the order of steps for the first month is in [after company registration: the digital start](/en/blog/after-company-registration-digital-start/).
 
 [CTA_FORM:webdev]
 

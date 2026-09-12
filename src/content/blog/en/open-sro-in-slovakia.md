@@ -5,6 +5,7 @@ description: >-
   fee, timelines and the 17 August 2026 reform, after which starting a company
   costs roughly twice as much and cannot be done without a notary.
 date: '2026-08-03'
+updated: '2026-09-13'
 key: 'open-sro'
 faq:
   - q: 'Do I need to be a Slovak resident to open an s.r.o.?'
@@ -43,7 +44,7 @@ There is one genuine improvement in the new rules: **free trades will be registe
 
 The conclusion is simple. If the decision to start a company is already made, it is worth being done before 17 August. If you are still deciding, one fee is no reason to rush: 300 euros is not a reason to start a business you are not ready for.
 
-**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps. If the entry is already behind you, the order of steps for the first month is in [after company registration: the digital start](/en/blog/after-company-registration-digital-start/).
 
 [CTA_FORM:webdev]
 

@@ -5,6 +5,10 @@ import { ArrowLeft, ShieldCheck, FileText, CreditCard, CircleDollarSign, Bitcoin
 import { services } from "../../../../data/services";
 
 import { ServiceDetailClient } from "./ServiceDetailClient";
+import { ServiceFacts } from "../../../../components/ServiceFacts";
+import { ServiceCta } from "../../../../components/ServiceCta";
+import { StickyOrderCta } from "../../../../components/StickyOrderCta";
+import { RepairQuickForm } from "../../../../components/RepairQuickForm";
 import "./ServiceDetail.css";
 
 // Generate static params for static export
@@ -32,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const pageUrl = `https://whiteeagles.sk/${locale}/service/${id}/`;
 
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: {
       canonical: pageUrl,
@@ -47,6 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title,
       description,
       url: pageUrl,
+      images: [{ url: service.image, alt: title }],
     },
   };
 }
@@ -82,6 +87,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   const page = t.has(`services.${id}.page` as any)
     ? (t.raw(`services.${id}.page` as any) as {
         lead?: string;
+        facts?: { value: string; label: string }[];
         process_title?: string;
         process?: string[];
         cases_title?: string;
@@ -170,7 +176,10 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
           <div className="detail-header">
             <h1 className="detail-title">{t((service.internalTitleKey as any) || (service.titleKey as any))}</h1>
             {page?.lead && <p className="detail-lead">{page.lead}</p>}
+            {page?.facts?.length ? <ServiceFacts facts={page.facts} /> : null}
           </div>
+
+          {service.id === "bugfix" && <RepairQuickForm />}
 
           <div className="detail-card">
             {service.id === "webdev" && (
@@ -253,29 +262,6 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             />
           </div>
 
-          {/* Sibling services. Articles pile their links onto webdev, so without
-              this the services people order most often - advertising and
-              analytics - inherit none of that weight. */}
-          {service.related?.length ? (
-            <section className="detail-related">
-              <h2>{t("services.related_title")}</h2>
-              <ul>
-                {service.related.map((rid) => {
-                  const rel = services.find((s) => s.id === rid);
-                  if (!rel) return null;
-                  return (
-                    <li key={rid}>
-                      <Link href={`/service/${rid}` as any}>
-                        <strong>{t(rel.titleKey as any)}</strong>
-                        <span>{t(rel.descKey as any)}</span>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </section>
-          ) : null}
-
           {page && (
             <div className="detail-extended">
               {page.process?.length ? (
@@ -289,6 +275,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                       </li>
                     ))}
                   </ol>
+                  <ServiceCta serviceId={service.id} block="process" />
                 </section>
               ) : null}
 
@@ -298,6 +285,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   <ul className="detail-cases">
                     {page.cases.map((item, i) => <li key={i}>{item}</li>)}
                   </ul>
+                  <ServiceCta serviceId={service.id} block="cases" />
                 </section>
               ) : null}
 
@@ -323,8 +311,35 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               ) : null}
             </div>
           )}
+
+          {/* Sibling services, last on the page. Articles pile their links onto
+              webdev, so without this the services people order most often -
+              advertising and analytics - inherit none of that weight. It sits
+              after the FAQ so nothing leads away from the page before the
+              visitor has read the answers and the order button. */}
+          {service.related?.length ? (
+            <section className="detail-related">
+              <h2>{t("services.related_title")}</h2>
+              <ul>
+                {service.related.map((rid) => {
+                  const rel = services.find((s) => s.id === rid);
+                  if (!rel) return null;
+                  return (
+                    <li key={rid}>
+                      <Link href={`/service/${rid}` as any}>
+                        <strong>{t(rel.titleKey as any)}</strong>
+                        <span>{t(rel.descKey as any)}</span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          ) : null}
         </div>
       </div>
+
+      <StickyOrderCta serviceId={service.id} />
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.service-cta {
+  margin-top: 24px;
+}
+
+.service-cta .btn-activate {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .service-cta .btn-activate {
+    width: 100%;
+    letter-spacing: 1px;
+    padding: 14px 18px;
+  }
+}

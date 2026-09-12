@@ -44,8 +44,8 @@ export function HeroSection() {
             <button
               className="btn btn-activate"
               onClick={() => {
-                trackGAEvent("cta_click", { location: "hero_primary" });
-                openOrderModal();
+                trackGAEvent("cta_click", { location: "hero_primary", service: "audit" });
+                openOrderModal("audit");
               }}
             >
               {t("cta")}

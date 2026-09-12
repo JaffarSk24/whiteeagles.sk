@@ -33,7 +33,16 @@
     "back_to_blog": "Back to blog",
     "cta_title": "Need help with your website or marketing?",
     "cta_button": "Get a free technical audit",
-    "faq_title": "Frequently asked questions"
+    "faq_title": "Frequently asked questions",
+    "intro": "Practical notes on how a website earns its keep for a small company in Slovakia: what it costs, what breaks on it and which advertising actually brings enquiries. Everything here comes from the work itself — sites, repairs, campaigns and measurement done for Slovak companies.",
+    "topics": {
+      "website": "Websites",
+      "repair": "Repair and maintenance",
+      "ads": "Advertising",
+      "analytics": "Measurement and analytics",
+      "business": "Doing business in Slovakia",
+      "law": "Website obligations"
+    }
   },
   "home_seo": {
     "title": "Web Development & PPC in Slovakia | White Eagles & Co.",
@@ -63,8 +72,8 @@
         "Account creation and resource connection: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Web development in Bratislava — custom sites and online shops",
-      "seo_desc": "Web development in Bratislava and across Slovakia: company websites, online shops and booking systems built to order. 12+ launched projects, most within 15 working days.",
+      "seo_title": "Web development Bratislava: sites from 1 500 €, in 15 days",
+      "seo_desc": "Landing page from 1 500 €, company site with booking and enquiry tracking from 3 500 €, e-shop from 5 000 €. Delivered in about 10 working days, with an invoice.",
       "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site",
       "page": {
         "lead": "I have been building websites for companies in Slovakia for over ten years — from Bratislava, as a Slovak company, with an invoice you can put through your books. Not templates thrown together, but sites that bring in enquiries: booking systems, online shops, company websites. Most projects ship within 15 working days.",
@@ -90,7 +99,7 @@
         "faq": [
           {
             "q": "How much does a website cost?",
-            "a": "A simple landing page from 1,500 EUR, a company website from 3,500 EUR, an online shop from 5,000 EUR. The hourly rate is 35 EUR. I quote after the first conversation and do not change it mid-project. A full breakdown is in the article on website cost."
+            "a": "A simple landing page with contacts from 1 500 €, a full website with booking or time slots, email on your domain and enquiry tracking from 3 500 €, an e-shop from 5 000 €. Hourly rate 35 €. I state the exact price after the first conversation and do not change it later."
           },
           {
             "q": "How long does it take?",
@@ -112,6 +121,24 @@
             "q": "Do you work outside Bratislava?",
             "a": "Yes, across Slovakia and neighbouring countries. In Bratislava we can meet in person; with remote clients I work online, and it makes no difference to the result."
           }
+        ],
+        "facts": [
+          {
+            "value": "from €1,500",
+            "label": "one-page website (landing page)"
+          },
+          {
+            "value": "from €3,500",
+            "label": "company website with booking or slots, mail on your domain and measurement"
+          },
+          {
+            "value": "from €5,000",
+            "label": "online store"
+          },
+          {
+            "value": "10 working days",
+            "label": "average delivery, 90 % within 15"
+          }
         ]
       },
       "internal_title": "Web development in Bratislava",
@@ -129,8 +156,8 @@
         "Setup of automatic site backups on server + Google Drive",
         "Testing and fixing minor issues accompanying the main problem."
       ],
-      "seo_title": "Website and WordPress repair in Slovakia",
-      "seo_desc": "Website repair in Slovakia: WordPress, PHP, JavaScript and server side. Fixing errors, speeding sites up and securing them. Most faults resolved the same day.",
+      "seo_title": "Website and WordPress repair within 24 h | 35 €/hr",
+      "seo_desc": "Website repair in Bratislava and online: WordPress, PHP, JavaScript, server. Diagnosis the day you report it, 35 €/hr; same fault returns, fixed without a new invoice.",
       "seo_keywords": "website bug fix, website maintenance, wordpress support, fix php errors, site speed optimization",
       "internal_title": "Website and WordPress repair",
       "internal_desc": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, server side. Most faults are resolved the same day they are reported.",
@@ -181,6 +208,20 @@
             "q": "Is there a guarantee?",
             "a": "Yes. If the same fault returns, I deal with it without another invoice."
           }
+        ],
+        "facts": [
+          {
+            "value": "€35/hr",
+            "label": "repair rate, you pay for the hours worked"
+          },
+          {
+            "value": "same day",
+            "label": "most faults diagnosed the day you report them"
+          },
+          {
+            "value": "no new invoice",
+            "label": "if the same fault comes back"
+          }
         ]
       }
     },
@@ -204,8 +245,8 @@
         "Integration of analytics systems",
         "Optimization and scaling of advertising campaigns"
       ],
-      "seo_title": "Google Ads & PPC Campaign Management",
-      "seo_desc": "Google Ads and Meta setup: launch from ~€1,000 at €25/hr. The account and its statistics belong to you. Conversions measured through GA4 and Consent Mode v2.",
+      "seo_title": "Google Ads and Meta setup from 1 000 €, 25 €/hr",
+      "seo_desc": "Google Ads and Meta setup and management: full launch from about 1 000 €, 25 €/hr. The account and its statistics belong to you; conversions measured in GA4.",
       "seo_keywords": "google ads slovakia, facebook ads setup, ppc specialist bratislava, instagram promotion, contextual advertising",
       "page": {
         "lead": "Google Ads and Meta can bring enquiries on day one, unlike SEO where results take months. There is one condition: it has to be visible what comes back. Without tracking wired up properly the budget goes out blind and automated bidding has nothing to learn from.",
@@ -250,6 +291,20 @@
             "q": "Do you manage campaigns ongoing?",
             "a": "Yes. After launch continuous optimisation matters — without it a campaign loses performance over time."
           }
+        ],
+        "facts": [
+          {
+            "value": "~€1,000",
+            "label": "a complete campaign launch"
+          },
+          {
+            "value": "€25/hr",
+            "label": "management and changes after launch"
+          },
+          {
+            "value": "the account is yours",
+            "label": "statistics and access stay with you"
+          }
         ]
       }
     },
@@ -264,8 +319,8 @@
         "Microsoft Clarity / Bing console setup"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Professional GA4 & Google Tag Manager Setup",
-      "seo_desc": "GA4 and Tag Manager setup from €500: measuring enquiries, not visits. Linked to Google Ads, Consent Mode v2, server-side where it pays off.",
+      "seo_title": "Professional GA4 and Tag Manager setup from 500 €",
+      "seo_desc": "GA4 and Tag Manager setup from 500 €, 25 €/hr: enquiries measured, not visits; key events, Consent Mode v2, links to Google Ads and Search Console.",
       "seo_keywords": "web analytics, ga4 setup, google tag manager, server-side gtm, website tracking, conversion tracking",
       "page": {
         "lead": "Most companies run analytics that counts visits but cannot say how many enquiries the site produced. That is not a detail: without proper measurement decisions are guesswork and ad spend is optimised blind. I set up GA4, Tag Manager and conversion tracking so the numbers match reality.",
@@ -310,6 +365,20 @@
             "q": "Will I lose historical data?",
             "a": "No. The setup does not change what has already been collected, only what is collected from now on."
           }
+        ],
+        "facts": [
+          {
+            "value": "from €500",
+            "label": "GA4 and Tag Manager setup"
+          },
+          {
+            "value": "€25/hr",
+            "label": "changes and reports as needed"
+          },
+          {
+            "value": "enquiries, not visits",
+            "label": "measuring the events that matter"
+          }
         ]
       },
       "internal_title": "Professional Google Analytics 4 and Tag Manager setup",
@@ -326,8 +395,8 @@
         "Integration into site code, corporate style/color setup.",
         "Debugging and verification. Testing 15+ possible use cases."
       ],
-      "seo_title": "Cookie Banner & Consent Mode v2",
-      "seo_desc": "Setup and integration of custom Cookie banner with Google Consent Mode v2. Comply with GDPR guidelines without monthly paid subscription plugins.",
+      "seo_title": "Cookie banner with Consent Mode v2 from 200 €, no subscription",
+      "seo_desc": "A custom cookie banner under EU rules with Consent Mode v2 from 200 € one-off, no monthly plugin subscription. Measurement stays accurate after a refusal.",
       "seo_keywords": "cookie banner, consent mode v2, gdpr slovakia, cookie setup, google consent mode",
       "page": {
         "lead": "If your site runs analytics or advertising, cookie consent is mandatory — and not just any consent. Since March 2024 Google requires Consent Mode v2; without it you lose data and remarketing is restricted. I build a custom banner that meets the rules and carries no monthly subscription.",
@@ -372,6 +441,20 @@
             "q": "How long does it take?",
             "a": "Usually two to three working days including testing."
           }
+        ],
+        "facts": [
+          {
+            "value": "from €200",
+            "label": "a lawful banner, installed on your site"
+          },
+          {
+            "value": "one-off",
+            "label": "no monthly subscription"
+          },
+          {
+            "value": "Consent Mode v2",
+            "label": "consent wired into Google and your measurement"
+          }
         ]
       }
     },
@@ -390,8 +473,8 @@
         "Other bots for brand promotion and complicating competitors' lives"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Python Telegram Bot Development",
-      "seo_desc": "Professional Python Telegram bot development. Auto-posting to Bazos, request management, data parsing, and effective business process automation.",
+      "seo_title": "Telegram bots and automation in Python from 500 €",
+      "seo_desc": "Telegram bots for enquiries, bookings and automatic ad posting, in Python, from 500 € and 25 €/hr. A bot for a specific job, not a chat widget.",
       "seo_keywords": "telegram bot development, python bot, business automation, bazos bot, data parsing, custom chatbots",
       "page": {
         "lead": "A bot is not a toy but a way to stop doing by hand what can run itself. I write Python bots that handle enquiries and bookings, send messages, and post listings to Bazoš automatically — without you sitting at a computer.",
@@ -433,6 +516,20 @@
           {
             "q": "Can you connect a bot to an existing site?",
             "a": "Yes, including sites I did not build, as long as there is access."
+          }
+        ],
+        "facts": [
+          {
+            "value": "from €500",
+            "label": "a bot from brief to launch"
+          },
+          {
+            "value": "€25/hr",
+            "label": "additions and changes later"
+          },
+          {
+            "value": "Python",
+            "label": "a bot for one specific job, not a template"
           }
         ]
       }
@@ -581,7 +678,18 @@
     "sending": "Sending...",
     "submit": "Send Request",
     "error": "Something went wrong. Please try again.",
-    "privacy": "By submitting a request, you agree to the <link>personal data processing rules</link>."
+    "privacy": "By submitting a request, you agree to the <link>personal data processing rules</link>.",
+    "audit_title": "Free SEO audit of your website",
+    "website": "Website address",
+    "website_placeholder": "https://yourcompany.sk",
+    "website_error": "Please enter the website address.",
+    "audit_service_name": "Free SEO audit",
+    "audit_submit": "Get the free audit",
+    "reply_note": "I reply within 24 hours.",
+    "next_title": "What happens next",
+    "next_1": "I read what you wrote and look at the site.",
+    "next_2": "Within 24 hours I get back with questions or straight with a proposal.",
+    "next_3": "You receive a quote with a price and a deadline, no obligation."
   },
   "company": {
     "name": "White Eagles & Co. s.r.o.",
@@ -665,8 +773,8 @@
     "error_required": "This field is required."
   },
   "audit": {
-    "seo_title": "Free SEO audit of your website — technical check in Slovakia",
-    "seo_desc": "A free SEO audit: technical checks, speed, Google indexing and the errors keeping your site from bringing in customers. Delivered within 3 working days.",
+    "seo_title": "Free SEO audit: manual website check within 3 days",
+    "seo_desc": "A free SEO audit by a person, not a scanner: indexing, speed, queries, enquiry tracking. A written list of findings ranked by impact within 3 working days, no obligation.",
     "h1": "Free SEO audit of your website",
     "lead": "I go through your site the way Google sees it and tell you exactly what stops it bringing you customers. No fee, no obligation.",
     "what_title": "What a website SEO audit is",
@@ -801,7 +909,7 @@
     "items": [
       {
         "q": "How much does a website cost in Slovakia?",
-        "a": "A landing page from 1,500 EUR, a company website from 3,500 EUR, an online shop from 5,000 EUR. The development hourly rate is 35 EUR. The final figure depends on the number of pages and languages, integrations (CRM, payments, booking) and the amount of bespoke design. The price is fixed before work starts and does not change mid-project; no detailed brief is required. Every project includes analytics with enquiry tracking, a Consent Mode v2 cookie banner, the mandatory Slovak company details and 6 months of support."
+        "a": "A simple landing page with contacts and a form from 1 500 €. A full multi-page website with booking or time slots, email on your own domain and enquiry tracking from 3 500 €. An e-shop from 5 000 €. The development rate is 35 €/hr. The final sum depends on the number of pages and languages, integrations (CRM, payments, booking) and the extent of custom design. The price is agreed in advance and does not change mid-project; no complex brief is needed, a short conversation about goals is enough. Included: analytics with enquiry tracking, a cookie banner with Consent Mode v2, the mandatory Slovak company details and 6 months of support."
       },
       {
         "q": "Why choose White Eagles & Co.?",
@@ -824,5 +932,25 @@
         "a": "Yes, it is a core service. A full campaign launch starts at roughly 1,000 EUR at a rate of 25 EUR/hr; the advertising budget itself is separate and paid directly to Google or Meta from your own account. The account is registered to you, so the statistics stay yours. Setup covers campaign structure, negative keywords, ads, GA4 conversion tracking and Consent Mode v2, without which Google has not counted part of EU conversions since March 2024."
       }
     ]
+  },
+  "author": {
+    "line": "Founder of White Eagles & Co. s.r.o. More than 10 years in Slovakia, 12+ websites for Slovak companies: sites on a modern stack, website repair, advertising and measurement.",
+    "button": "Get a quote",
+    "telegram": "Message on Telegram"
+  },
+  "service_ui": {
+    "cta_button": "Get a quote",
+    "cta_button_repair": "Fix my website",
+    "repair_form": {
+      "title": "I will fix your website",
+      "subtitle": "Send the address and what is happening. I diagnose most faults the day they are reported.",
+      "url_placeholder": "Website address (e.g. yourdomain.sk)",
+      "problem_placeholder": "What is happening? Optional.",
+      "contact_placeholder": "Phone or email",
+      "submit": "Send for diagnosis",
+      "sending": "Sending...",
+      "success": "Received. I will get back to you within the working day with what is wrong and what it costs.",
+      "error": "Something went wrong. Please try again or write to welcome@whiteeagles.sk."
+    }
   }
 }

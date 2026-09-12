@@ -5,6 +5,7 @@ description: >-
   choice actually turns on: what you are liable with, the real 2026 numbers on
   tax and contributions, and where the sole trader''s advantage runs out.
 date: '2026-08-03'
+updated: '2026-09-13'
 key: 'zivnost-or-sro'
 faq:
   - q: 'Which is cheaper to start?'
@@ -26,7 +27,7 @@ Everywhere this question gets the same answer: a trade licence is cheaper, a com
 
 The choice actually turns on something else: **what you are liable with when something goes wrong**, and where the numbers stop favouring one form over the other. Below is both, with the 2026 figures.
 
-**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps. If the entry is already behind you, the order of steps for the first month is in [after company registration: the digital start](/en/blog/after-company-registration-digital-start/).
 
 [CTA_FORM:webdev]
 

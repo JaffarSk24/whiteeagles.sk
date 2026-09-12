@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: "audit" });
 
   return {
-    title: t("seo_title"),
+    title: { absolute: t("seo_title") },
     description: t("seo_desc"),
     alternates: {
       canonical: path(locale),
@@ -34,6 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t("seo_title"),
       description: t("seo_desc"),
       url: path(locale),
+      images: [{ url: "/assets/snippet.png", width: 1200, height: 630 }],
     },
   };
 }
@@ -141,6 +142,7 @@ export default async function SeoAuditPage({ params }: { params: Promise<{ local
         </section>
 
         <AuditCTA
+          service="audit"
           title={t("cta_title")}
           text={t("cta_text")}
           buttonText={t("cta_button")}
@@ -177,6 +179,7 @@ export default async function SeoAuditPage({ params }: { params: Promise<{ local
         </section>
 
         <AuditCTA
+          service="audit"
           title={t("cta_title")}
           text={t("cta_text")}
           buttonText={t("cta_button")}
@@ -228,6 +231,7 @@ export default async function SeoAuditPage({ params }: { params: Promise<{ local
         </section>
 
         <AuditCTA
+          service="audit"
           title={t("cta_title")}
           text={t("cta_text")}
           buttonText={t("cta_button")}

@@ -102,3 +102,65 @@ export function getSlugForLocale(key: string, locale: string): string | null {
   const match = getAllPosts(locale).find((post) => post.key === key);
   return match ? match.slug : null;
 }
+
+/**
+ * Words that end in a full stop without ending a sentence. Without this list
+ * "Kompletný rozbor registrácie s.r.o. Lehoty, poplatky…" is cut after the
+ * company form and the description reads as four words.
+ */
+const ABBREVIATIONS = new Set([
+  'napr', 'resp', 'tzv', 'tzn', 'atd', 'atď', 'str', 'cca', 'tis', 'mil', 'mld',
+  'č', 'kap', 'obr', 'tab', 'napr', 'zb', 'sb',
+  'напр', 'руб', 'см', 'стр', 'тыс', 'млн', 'млрд', 'рис', 'табл',
+  'etc', 'vs', 'approx', 'no', 'fig', 'incl',
+]);
+
+/**
+ * Whether the punctuation mark at `index` really closes a sentence.
+ */
+function endsSentence(text: string, index: number): boolean {
+  if (text[index] !== '.') return true;
+
+  const word = (text.slice(0, index).match(/\S+$/) ?? [''])[0];
+
+  // s.r.o., a.s., t.j. - a full stop inside the word gives it away.
+  if (word.includes('.')) return false;
+  // A single letter before the stop is an initial, not the end of a thought.
+  if (word.length <= 1) return false;
+
+  return !ABBREVIATIONS.has(word.toLowerCase());
+}
+
+/**
+ * A description short enough to survive a search result. Google shows roughly
+ * 155 characters; anything longer is cut mid-word with an ellipsis that the
+ * author did not write. Cutting at the last sentence end before the limit
+ * keeps the snippet a finished thought, and the last space is the fallback
+ * when the text has no sentence break that early.
+ */
+export function shortDescription(text: string, limit = 155): string {
+  const clean = (text || '').replace(/\s+/g, ' ').trim();
+
+  if (clean.length <= limit) {
+    return clean;
+  }
+
+  const window = clean.slice(0, limit);
+
+  for (let i = window.length - 2; i >= 0; i -= 1) {
+    const mark = window[i];
+    if ((mark === '.' || mark === '?' || mark === '!') && window[i + 1] === ' ') {
+      if (endsSentence(window, i)) {
+        // Keep the punctuation mark, drop the space that followed it.
+        return window.slice(0, i + 1);
+      }
+    }
+  }
+
+  // No sentence ends early enough: cut on a word boundary and say so, rather
+  // than leaving the line hanging in the middle of a thought.
+  const space = window.lastIndexOf(' ');
+  const cut = space > 0 ? window.slice(0, space) : window.slice(0, limit - 1);
+
+  return `${cut.replace(/[\s,;:\u2014\u2013-]+$/, '')}\u2026`;
+}
