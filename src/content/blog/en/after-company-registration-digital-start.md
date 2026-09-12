@@ -5,6 +5,7 @@ description: >-
   Slovakia sets up in its first month so customers can find it: domain,
   email, website, Google profile, enquiry tracking — in order, with prices.
 date: '2026-09-04'
+updated: '2026-09-12'
 key: 'digital-start'
 faq:
   - q: 'What should I do right after registering, before the website?'
@@ -64,7 +65,7 @@ This is where it is decided whether the company grows next year or rebuilds.
 
 What the price includes and what it does not, how to compare offers and why a 500-euro site costs more after a year — in [what a website costs in Slovakia](/en/blog/website-cost-slovakia/).
 
-One piece of advice for a new business: **do not start with a big website.** A landing page with one service, a contact and the mandatory details in two weeks beats a company site in two months during which nobody finds you. You can always expand.
+One piece of advice for a new business: **do not start with a big website.** A landing page with one service, a contact and the mandatory details in two weeks beats a company site in two months during which nobody finds you. You can always expand. And if you are considering a free site on a builder, first read [when it is enough and when it costs you customers](/en/blog/free-website-builder-vs-custom/).
 
 [CTA_FORM:consult]
 

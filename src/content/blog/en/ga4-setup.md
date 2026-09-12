@@ -5,6 +5,7 @@ description: >-
   v2: events, key events, linking Search Console and Ads. Plus five mistakes
   that leave reports showing zero conversions while enquiries keep arriving.
 date: '2026-08-04'
+updated: '2026-09-12'
 key: 'ga4-setup'
 faq:
   - q: 'Why does GA4 show zero conversions when enquiries are arriving?'
@@ -132,6 +133,8 @@ Three checks, fifteen minutes:
 3. A day later: **Reports → Engagement → Conversions** → the event should be in the list.
 
 If any step is empty, the chain is broken somewhere and has to be walked backwards from the end.
+
+If someone else set up your GA4 and you want to check the whole configuration, not just enquiries, the steps are in [how to check a GA4 setup](/en/blog/ga4-audit-checklist/).
 
 ## If it is easier to have someone else set it up
 

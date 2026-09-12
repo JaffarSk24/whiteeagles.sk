@@ -160,7 +160,7 @@ Telegram-бота или привести cookie-баннер в соответ�
 - Автопостинг объявлений на площадки (например, Bazoš).
 - Сбор и мониторинг данных, уведомления внутрь команды.
 
-### E. Багфикс и техподдержка — 25 €/час
+### E. Багфикс и техподдержка — 35 €/час
 *Адрес: https://whiteeagles.sk/ru/service/bugfix/*
 
 Спасение сломанных или медленных сайтов.
@@ -199,7 +199,7 @@ Cookie-баннеры по европейским правилам **без еж
 - **Аналитика и замер**: от 500 €.
 - **Telegram-бот**: от 500 €.
 - **Cookie-баннер с Consent Mode v2**: от 200 €, разово.
-- **Часовая ставка**: **35 €/час** на разработку, **25 €/час** на рекламу,
+- **Часовая ставка**: **35 €/час** на разработку и ремонт, **25 €/час** на рекламу,
   аналитику, cookie-баннеры и ботов.
 
 Что входит в цену сайта: структура под бизнес клиента, а не шаблон, адаптивная
@@ -317,6 +317,18 @@ https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/
   - https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/ (sk: /sk/blog/otvorili-ste-firmu-co-dalej/)
 - **Сайт для ресторана, кафе, бара: бронирование столов, меню, посещаемость**
   - https://whiteeagles.sk/ru/blog/sajt-dlya-restorana/ (sk: /sk/blog/webstranka-pre-restauraciu/)
+- **Взломали сайт на WordPress: как понять, что вас взломали, и что делать сразу**
+  - https://whiteeagles.sk/ru/blog/vzlomali-sajt-na-wordpress/ (sk: /sk/blog/napadnuty-wordpress-web/)
+- **Медленный сайт на WordPress: почему долго грузится и как его ускорить**
+  - https://whiteeagles.sk/ru/blog/medlennyj-sajt-na-wordpress/ (sk: /sk/blog/pomaly-wordpress-web/)
+- **Поддержка и доработка сайта на WordPress: обновления, бэкапы, правки и сколько это стоит**
+  - https://whiteeagles.sk/ru/blog/podderzhka-sajta-na-wordpress/ (sk: /sk/blog/sprava-a-udrzba-wordpress-webu/)
+- **Личный кабинет клиента на сайте: плагин WordPress или своя разработка**
+  - https://whiteeagles.sk/ru/blog/lichnyj-kabinet-klienta-na-sajte/ (sk: /sk/blog/klientska-zona-na-webe/)
+- **Как проверить настройку GA4: проверки, которые находят ошибки**
+  - https://whiteeagles.sk/ru/blog/kak-proverit-nastrojku-ga4/ (sk: /sk/blog/kontrola-nastavenia-ga4/)
+- **Сайт на конструкторе бесплатно: Webnode, Wix — когда хватит, а когда стоит клиентов**
+  - https://whiteeagles.sk/ru/blog/sajt-na-konstruktore-besplatno/ (sk: /sk/blog/web-zadarmo-webnode-wix/)
 
 ---
 

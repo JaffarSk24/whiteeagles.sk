@@ -5,6 +5,7 @@ description: >-
   site from 3,500 €, an online shop from 5,000 €. What the price covers and
   which costs people forget.
 date: '2026-08-04'
+updated: '2026-09-12'
 key: 'website-cost'
 faq:
   - q: 'What does a website cost in Slovakia?'
@@ -52,6 +53,8 @@ The problems start later:
 - attempting to add a non-standard feature reveals the template cannot do it
 
 After a year such a site is usually rebuilt. The final sum comes out higher than doing it properly at the start.
+
+The same goes for a "free" site on a builder: when it is enough and when it costs customers is covered in [a free website on Webnode or Wix](/en/blog/free-website-builder-vs-custom/).
 
 ## What the price includes
 

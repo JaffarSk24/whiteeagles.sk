@@ -5,6 +5,7 @@ description: >-
   udalosti, kľúčové udalosti, prepojenie so Search Console a Ads. A päť chýb,
   pre ktoré je v prehľadoch nula konverzií, hoci dopyty chodia.
 date: '2026-08-04'
+updated: '2026-09-12'
 key: 'ga4-setup'
 faq:
   - q: 'Prečo je v GA4 nula konverzií, hoci dopyty chodia?'
@@ -132,6 +133,8 @@ Tri kontroly, pätnásť minút:
 3. O deň neskôr: **Prehľady → Interakcia → Konverzie** → udalosť má byť v zozname.
 
 Ak je v ktoromkoľvek kroku prázdno, reťaz je niekde prerušená a treba ju prejsť odzadu.
+
+Ak vám GA4 nastavoval niekto iný a chcete overiť celé nastavenie, nie iba dopyty, postup je v článku [ako skontrolovať nastavenie GA4](/sk/blog/kontrola-nastavenia-ga4/).
 
 ## Ak je jednoduchšie, aby to nastavil niekto iný
 

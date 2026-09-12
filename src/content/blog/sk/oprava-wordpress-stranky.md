@@ -5,10 +5,11 @@ description: >-
   kontroly po najdrahšiu, čo robiť pri bielej stránke a napadnutí, a koľko
   oprava stojí na Slovensku.
 date: '2026-08-25'
+updated: '2026-09-12'
 key: 'wordpress-repair'
 faq:
   - q: 'Koľko stojí oprava WordPress stránky?'
-    a: 'Hodinová sadzba je 25 eur. Drobnosť ako nefunkčný formulár alebo chyba po aktualizácii býva hotová za hodinu až dve. Odstránenie napadnutia je dlhšie, lebo okrem opravy treba nájsť vstupný bod, inak sa to zopakuje.'
+    a: 'Hodinová sadzba je 35 eur. Drobnosť ako nefunkčný formulár alebo chyba po aktualizácii býva hotová za hodinu až dve. Odstránenie napadnutia je dlhšie, lebo okrem opravy treba nájsť vstupný bod, inak sa to zopakuje.'
   - q: 'Web hlási bielu stránku a nič iné. Čo teraz?'
     a: 'Biela obrazovka je fatálna chyba PHP so skrytým výpisom. Najčastejšie ju spôsobí posledný plugin alebo aktualizácia. Ak máte prístup na FTP, premenujte priečinok posledného pluginu - web sa zvyčajne vráti a viete, kto za to môže.'
   - q: 'Ako spoznám, že web napadli?'
@@ -72,7 +73,7 @@ Rovnaká logika platí pre tému: premenujte jej priečinok a WordPress prepne n
 
 ## Keď web presmeruje inam alebo Google varuje
 
-Toto už nie je porucha, toto je napadnutie, a platí tu jedno pravidlo: **samotné vyčistenie nestačí.**
+Toto už nie je porucha, toto je napadnutie, a platí tu jedno pravidlo: **samotné vyčistenie nestačí.** Celý postup od prvej hodiny po opätovnú kontrolu v Googli je v článku [napadnutý WordPress](/sk/blog/napadnuty-wordpress-web/).
 
 Ak vyčistíte súbory a nezavriete dieru, ktorou sa dnu dostali, o týždeň ste na začiatku. Mechanika býva vždy rovnaká - v populárnom plugine sa nájde zraniteľnosť, autor vydá aktualizáciu, a boti obchádzajú internet a hľadajú tých, ktorí neaktualizovali.
 
@@ -97,7 +98,7 @@ Otvorte **PageSpeed Insights**, záložku **Mobil**, nie Počítač. Dve najčas
 
 **Priveľa pluginov.** Každý ťahá vlastné skripty a štýly na každú stránku, aj tam, kde sa nepoužíva. Pätnásť pluginov namiesto troch je najbežnejšia príčina pomalého WordPressu - a nie je to vina samotného WordPressu, ako rozoberám v článku [WordPress alebo web na mieru](/sk/blog/wordpress-vs-custom-website/).
 
-Zvyšok kontrol je v [SEO audite svojpomocne](/sk/blog/seo-audit-check-website/).
+Zvyšok kontrol je v [SEO audite svojpomocne](/sk/blog/seo-audit-check-website/). Podrobný postup zrýchlenia a strop, ktorý neprerazí žiadny plugin, rozoberám v článku [pomalý WordPress web](/sk/blog/pomaly-wordpress-web/).
 
 ## Formulár, ktorý sa tvári, že odoslal
 
@@ -109,7 +110,7 @@ Formulár ukáže „ďakujeme", ale e-mail nikam nepríde. Po migrácii sa rozb
 
 ## Čo robiť, aby sa to neopakovalo
 
-Pravidelná údržba nie je voliteľná služba, ale súčasť nákladov na vlastníctvo webu na WordPresse.
+Pravidelná údržba nie je voliteľná služba, ale súčasť nákladov na vlastníctvo webu na WordPresse. Čo presne do nej patrí a koľko stojí: [správa a údržba WordPress webu](/sk/blog/sprava-a-udrzba-wordpress-webu/).
 
 1. **Zálohy, ktoré sa naozaj robia.** A aspoň raz vyskúšané obnovenie - záloha, ktorá sa nedá obnoviť, je len pocit istoty.
 2. **Aktualizácie raz mesačne**, nie raz ročne. Hromadné napadnutia idú takmer vždy cez diery, na ktoré aktualizácia už dávno existuje.
@@ -125,7 +126,7 @@ Vtedy je lacnejšie postaviť nanovo než ďalej platiť za udržiavanie. Reáln
 
 ## Ak potrebujete pomoc
 
-Opravujem weby na WordPresse aj na vlastnom kóde: chyby po aktualizácii, biela stránka, odstránenie škodlivého kódu, zrýchlenie, nefunkčné formuláre. **Hodinová sadzba 25 €**, bežnú poruchu viem diagnostikovať v ten istý deň.
+Opravujem weby na WordPresse aj na vlastnom kóde: chyby po aktualizácii, biela stránka, odstránenie škodlivého kódu, zrýchlenie, nefunkčné formuláre. **Hodinová sadzba 35 €**, bežnú poruchu viem diagnostikovať v ten istý deň.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO, ktorú si dáte do nákladov.
 

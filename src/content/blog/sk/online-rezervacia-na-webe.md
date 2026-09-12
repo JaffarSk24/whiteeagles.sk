@@ -5,6 +5,7 @@ description: >-
   vedieť, prečo je potvrdenie cez Telegram praktickejšie ako ďalší panel, čo
   rozhoduje o cene a kedy stačí obyčajný formulár.
 date: '2026-08-25'
+updated: '2026-09-12'
 key: 'online-booking'
 faq:
   - q: 'Koľko stojí rezervačný systém na webe?'
@@ -87,6 +88,8 @@ Praktický test je jediná otázka: **máte logiku, ktorú hotová aplikácia ne
 - rezervácia musí vedieť o sklade alebo o účtovníctve.
 
 Ak nič z toho, hotová služba je rozumný začiatok. Ak čokoľvek z toho, narazíte na strop skôr, než sa úspora vráti - rovnaká úvaha ako pri [WordPresse verzus web na mieru](/sk/blog/wordpress-vs-custom-website/).
+
+Ak majú zákazníci vidieť svoje rezervácie, meniť ich alebo rušiť bez telefonátu, rezervácia sa rozrastá na [klientskú zónu na webe](/sk/blog/klientska-zona-na-webe/).
 
 ## Čo určuje cenu
 

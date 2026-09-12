@@ -167,7 +167,7 @@ Custom Python bots that remove routine.
 - Auto-posting listings to portals (e.g. Bazoš).
 - Data parsing and monitoring, internal team notifications.
 
-### E. Bug Fixing & Maintenance - €25/hr
+### E. Bug Fixing & Maintenance - €35/hr
 *URL: https://whiteeagles.sk/sk/service/bugfix/*
 
 Rescue for broken or slow websites.
@@ -204,7 +204,7 @@ Prices are fixed per project and stated before the work starts.
 - **Analytics and tracking**: from €500.
 - **Telegram bot**: from €500.
 - **Cookie banner with Consent Mode v2**: from €200, one-off.
-- **Hourly rate**: **€35/hr** for development work, **€25/hr** for advertising,
+- **Hourly rate**: **€35/hr** for development and repair work, **€25/hr** for advertising,
   analytics, cookie banners and Telegram bots.
 
 What a website price includes: a structure built around the client's business
@@ -324,6 +324,18 @@ differ per article and are reachable from the language switcher on the page.
   - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
 - **Webstránka pre reštauráciu, kaviareň či bar: rezervácia stolov, menu, návštevnosť**
   - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
+- **Napadnutý WordPress: ako spoznať, že vás hacklo, a čo robiť hneď**
+  - https://whiteeagles.sk/sk/blog/napadnuty-wordpress-web/ (ru: /ru/blog/vzlomali-sajt-na-wordpress/)
+- **Pomalý WordPress web: prečo sa načítava pomaly a ako ho zrýchliť**
+  - https://whiteeagles.sk/sk/blog/pomaly-wordpress-web/ (ru: /ru/blog/medlennyj-sajt-na-wordpress/)
+- **Správa a údržba WordPress webu: aktualizácie, zálohy, úpravy a koľko to stojí**
+  - https://whiteeagles.sk/sk/blog/sprava-a-udrzba-wordpress-webu/ (ru: /ru/blog/podderzhka-sajta-na-wordpress/)
+- **Klientská zóna na webe: plugin do WordPressu alebo vlastné riešenie**
+  - https://whiteeagles.sk/sk/blog/klientska-zona-na-webe/ (ru: /ru/blog/lichnyj-kabinet-klienta-na-sajte/)
+- **Ako skontrolovať nastavenie GA4: kontroly, ktoré odhalia chyby**
+  - https://whiteeagles.sk/sk/blog/kontrola-nastavenia-ga4/ (ru: /ru/blog/kak-proverit-nastrojku-ga4/)
+- **Web zadarmo cez Webnode či Wix: kedy stačí a kedy stojí zákazníkov**
+  - https://whiteeagles.sk/sk/blog/web-zadarmo-webnode-wix/ (ru: /ru/blog/sajt-na-konstruktore-besplatno/)
 
 ---
 

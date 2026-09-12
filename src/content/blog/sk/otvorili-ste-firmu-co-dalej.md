@@ -5,6 +5,7 @@ description: >-
   nastaví v prvom mesiaci, aby ju zákazníci našli: doména, e-mail, web,
   profil na Googli, meranie dopytov — v poradí a s cenami.
 date: '2026-09-04'
+updated: '2026-09-12'
 key: 'digital-start'
 faq:
   - q: 'Čo treba urobiť hneď po založení firmy, ešte pred webom?'
@@ -64,7 +65,7 @@ Tu sa rozhoduje, či bude firma o rok rásť, alebo prerábať.
 
 Čo je v cene a čo nie, ako porovnávať ponuky a prečo web za 500 € vyjde po roku drahšie — v článku [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/).
 
-Jedna rada pre nový podnik: **nezačínajte veľkým webom.** Landing page s jednou službou, kontaktom a povinnými údajmi za dva týždne je lepšia než firemný web za dva mesiace, počas ktorých vás nikto nenájde. Rozšíriť sa dá vždy.
+Jedna rada pre nový podnik: **nezačínajte veľkým webom.** Landing page s jednou službou, kontaktom a povinnými údajmi za dva týždne je lepšia než firemný web za dva mesiace, počas ktorých vás nikto nenájde. Rozšíriť sa dá vždy. A ak zvažujete web zadarmo v konštruktore, najprv si prečítajte, [kedy stačí a kedy stojí zákazníkov](/sk/blog/web-zadarmo-webnode-wix/).
 
 [CTA_FORM:consult]
 

@@ -86,7 +86,7 @@ cookie, привычные здесь способы оплаты, продви�
   - Адрес: https://whiteeagles.sk/ru/service/telegram/
 
 - **Багфикс и техподдержка** — починка и сопровождение сайтов на WordPress и
-  собственных, ускорение, удаление вредоносного кода. 25 €/час.
+  собственных, ускорение, удаление вредоносного кода. 35 €/час.
   - Адрес: https://whiteeagles.sk/ru/service/bugfix/
 
 - **Cookie Consent Mode V2** — cookie-баннеры по европейским правилам с Google
@@ -137,6 +137,12 @@ cookie, привычные здесь способы оплаты, продви�
     - https://whiteeagles.sk/ru/blog/zivnost-alebo-sro/
     - https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/ (sk: /sk/blog/otvorili-ste-firmu-co-dalej/)
     - https://whiteeagles.sk/ru/blog/sajt-dlya-restorana/ (sk: /sk/blog/webstranka-pre-restauraciu/)
+    - https://whiteeagles.sk/ru/blog/vzlomali-sajt-na-wordpress/ (sk: /sk/blog/napadnuty-wordpress-web/)
+    - https://whiteeagles.sk/ru/blog/medlennyj-sajt-na-wordpress/ (sk: /sk/blog/pomaly-wordpress-web/)
+    - https://whiteeagles.sk/ru/blog/podderzhka-sajta-na-wordpress/ (sk: /sk/blog/sprava-a-udrzba-wordpress-webu/)
+    - https://whiteeagles.sk/ru/blog/lichnyj-kabinet-klienta-na-sajte/ (sk: /sk/blog/klientska-zona-na-webe/)
+    - https://whiteeagles.sk/ru/blog/kak-proverit-nastrojku-ga4/ (sk: /sk/blog/kontrola-nastavenia-ga4/)
+    - https://whiteeagles.sk/ru/blog/sajt-na-konstruktore-besplatno/ (sk: /sk/blog/web-zadarmo-webnode-wix/)
 
 ## Цены
 
@@ -149,7 +155,7 @@ cookie, привычные здесь способы оплаты, продви�
 - Настройка аналитики: от 500 €
 - Telegram-бот: от 500 €
 - Cookie-баннер с Consent Mode v2: от 200 €, разово
-- Часовая ставка: 35 €/час на разработку, 25 €/час на рекламу, аналитику,
+- Часовая ставка: 35 €/час на разработку и ремонт, 25 €/час на рекламу, аналитику,
   cookie-баннеры и ботов
 
 В каждый проект сайта входят аналитика с замером заявок, cookie-баннер с

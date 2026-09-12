@@ -5,6 +5,7 @@ description: >-
   what it has to do, why confirming through Telegram beats another admin panel,
   what actually drives the price, and when a plain form is enough.
 date: '2026-08-25'
+updated: '2026-09-12'
 key: 'online-booking'
 faq:
   - q: 'What does a booking system on a website cost?'
@@ -87,6 +88,8 @@ The practical test is a single question: **do you have logic the ready service d
 - booking that has to know about stock or accounting.
 
 If none of that applies, a ready service is a sensible start. If any of it does, you will hit the ceiling before the saving pays back — the same reasoning as in [WordPress or a custom build](/en/blog/wordpress-or-custom/).
+
+If customers should see their bookings and change or cancel them without a phone call, booking grows into [a client portal on your website](/en/blog/client-portal-website/).
 
 ## What drives the price
 

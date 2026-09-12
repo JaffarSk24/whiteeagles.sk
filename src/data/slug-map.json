@@ -115,6 +115,21 @@
       "en": "grow-website-traffic",
       "ru": "kak-uvelichit-poseshaemost-sajta"
     },
+    "klientska-zona-na-webe": {
+      "sk": "klientska-zona-na-webe",
+      "en": "client-portal-website",
+      "ru": "lichnyj-kabinet-klienta-na-sajte"
+    },
+    "client-portal-website": {
+      "sk": "klientska-zona-na-webe",
+      "en": "client-portal-website",
+      "ru": "lichnyj-kabinet-klienta-na-sajte"
+    },
+    "lichnyj-kabinet-klienta-na-sajte": {
+      "sk": "klientska-zona-na-webe",
+      "en": "client-portal-website",
+      "ru": "lichnyj-kabinet-klienta-na-sajte"
+    },
     "kolko-stoji-reklama-na-slovensku": {
       "sk": "kolko-stoji-reklama-na-slovensku",
       "en": "google-ads-cost-slovakia",
@@ -129,6 +144,36 @@
       "sk": "kolko-stoji-reklama-na-slovensku",
       "en": "google-ads-cost-slovakia",
       "ru": "skolko-stoit-reklama-v-slovakii"
+    },
+    "kontrola-nastavenia-ga4": {
+      "sk": "kontrola-nastavenia-ga4",
+      "en": "ga4-audit-checklist",
+      "ru": "kak-proverit-nastrojku-ga4"
+    },
+    "ga4-audit-checklist": {
+      "sk": "kontrola-nastavenia-ga4",
+      "en": "ga4-audit-checklist",
+      "ru": "kak-proverit-nastrojku-ga4"
+    },
+    "kak-proverit-nastrojku-ga4": {
+      "sk": "kontrola-nastavenia-ga4",
+      "en": "ga4-audit-checklist",
+      "ru": "kak-proverit-nastrojku-ga4"
+    },
+    "napadnuty-wordpress-web": {
+      "sk": "napadnuty-wordpress-web",
+      "en": "hacked-wordpress-site",
+      "ru": "vzlomali-sajt-na-wordpress"
+    },
+    "hacked-wordpress-site": {
+      "sk": "napadnuty-wordpress-web",
+      "en": "hacked-wordpress-site",
+      "ru": "vzlomali-sajt-na-wordpress"
+    },
+    "vzlomali-sajt-na-wordpress": {
+      "sk": "napadnuty-wordpress-web",
+      "en": "hacked-wordpress-site",
+      "ru": "vzlomali-sajt-na-wordpress"
     },
     "nastavenie-google-analytics-4": {
       "sk": "nastavenie-google-analytics-4",
@@ -215,6 +260,21 @@
       "en": "after-company-registration-digital-start",
       "ru": "otkryli-firmu-chto-dalshe"
     },
+    "pomaly-wordpress-web": {
+      "sk": "pomaly-wordpress-web",
+      "en": "slow-wordpress-site",
+      "ru": "medlennyj-sajt-na-wordpress"
+    },
+    "slow-wordpress-site": {
+      "sk": "pomaly-wordpress-web",
+      "en": "slow-wordpress-site",
+      "ru": "medlennyj-sajt-na-wordpress"
+    },
+    "medlennyj-sajt-na-wordpress": {
+      "sk": "pomaly-wordpress-web",
+      "en": "slow-wordpress-site",
+      "ru": "medlennyj-sajt-na-wordpress"
+    },
     "priem-oplaty-kartoy": {
       "sk": "priem-oplaty-kartoy",
       "en": "accept-card-payments",
@@ -274,6 +334,36 @@
       "sk": "server-side-gtm-nastavenie",
       "en": "server-side-gtm-setup",
       "ru": "servernyj-gtm-nastrojka-ga4"
+    },
+    "sprava-a-udrzba-wordpress-webu": {
+      "sk": "sprava-a-udrzba-wordpress-webu",
+      "en": "wordpress-maintenance-cost",
+      "ru": "podderzhka-sajta-na-wordpress"
+    },
+    "wordpress-maintenance-cost": {
+      "sk": "sprava-a-udrzba-wordpress-webu",
+      "en": "wordpress-maintenance-cost",
+      "ru": "podderzhka-sajta-na-wordpress"
+    },
+    "podderzhka-sajta-na-wordpress": {
+      "sk": "sprava-a-udrzba-wordpress-webu",
+      "en": "wordpress-maintenance-cost",
+      "ru": "podderzhka-sajta-na-wordpress"
+    },
+    "web-zadarmo-webnode-wix": {
+      "sk": "web-zadarmo-webnode-wix",
+      "en": "free-website-builder-vs-custom",
+      "ru": "sajt-na-konstruktore-besplatno"
+    },
+    "free-website-builder-vs-custom": {
+      "sk": "web-zadarmo-webnode-wix",
+      "en": "free-website-builder-vs-custom",
+      "ru": "sajt-na-konstruktore-besplatno"
+    },
+    "sajt-na-konstruktore-besplatno": {
+      "sk": "web-zadarmo-webnode-wix",
+      "en": "free-website-builder-vs-custom",
+      "ru": "sajt-na-konstruktore-besplatno"
     },
     "website-cost-2026": {
       "sk": "website-cost-2026",

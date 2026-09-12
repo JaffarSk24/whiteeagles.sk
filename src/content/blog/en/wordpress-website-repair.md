@@ -5,10 +5,11 @@ description: >-
   through, from the cheapest check to the most expensive, what to do about a
   white screen and a hack, and what repair costs in Slovakia.
 date: '2026-08-25'
+updated: '2026-09-12'
 key: 'wordpress-repair'
 faq:
   - q: 'What does repairing a WordPress site cost?'
-    a: 'The hourly rate is 25 euros. Something small like a broken form or an error after an update usually takes an hour or two. Cleaning up a hack takes longer: besides the repair you have to find the way in, or it happens again.'
+    a: 'The hourly rate is 35 euros. Something small like a broken form or an error after an update usually takes an hour or two. Cleaning up a hack takes longer: besides the repair you have to find the way in, or it happens again.'
   - q: 'The site shows a white screen and nothing else. What now?'
     a: 'A white screen is a fatal PHP error with the output suppressed. Usually the last plugin or update is to blame. If you have FTP access, rename the folder of the most recent plugin — the site normally comes back and you know the culprit.'
   - q: 'How do I know the site was hacked?'
@@ -72,7 +73,7 @@ The same logic applies to the theme: rename its folder and WordPress falls back 
 
 ## When the site redirects, or Google warns about it
 
-This is not a fault, this is a hack, and one rule applies: **cleaning up is not enough on its own.**
+This is not a fault, this is a hack, and one rule applies: **cleaning up is not enough on its own.** The full sequence, from the first hour to the review request in Google, is in [hacked WordPress site](/en/blog/hacked-wordpress-site/).
 
 If you clean the files without closing the hole they came through, you are back where you started in a week. The mechanism is almost always the same — a vulnerability is found in a popular plugin, the author releases an update, and bots sweep the internet looking for those who did not apply it.
 
@@ -97,7 +98,7 @@ Open **PageSpeed Insights**, the **Mobile** tab, not Desktop. The two most commo
 
 **Too many plugins.** Each one drags its own scripts and styles onto every page, including the ones where it is not used. Fifteen plugins instead of three is the most ordinary cause of a slow WordPress — and the fault is not WordPress itself, as covered in [WordPress or a custom build](/en/blog/wordpress-or-custom/).
 
-The remaining checks are in [the DIY SEO audit](/en/blog/seo-audit-yourself/).
+The remaining checks are in [the DIY SEO audit](/en/blog/seo-audit-yourself/). The detailed speed-up order, and the ceiling no plugin breaks through, are in [slow WordPress site](/en/blog/slow-wordpress-site/).
 
 ## The form that pretends to have sent
 
@@ -109,7 +110,7 @@ The form displays "thank you" and no email arrives. The mail script broke after 
 
 ## How to stop it happening again
 
-Regular maintenance is not an optional service but part of the cost of owning a WordPress site.
+Regular maintenance is not an optional service but part of the cost of owning a WordPress site. What exactly it covers and what it costs: [WordPress maintenance](/en/blog/wordpress-maintenance-cost/).
 
 1. **Backups that actually run.** And a restore tested at least once — a backup you cannot restore is only a feeling of safety.
 2. **Updates monthly**, not yearly. Mass compromises almost always go through holes for which an update has existed for ages.
@@ -125,7 +126,7 @@ At that point building afresh is cheaper than paying to keep it alive. Real pric
 
 ## If you need help
 
-I repair sites on WordPress and on custom code alike: errors after updates, white screens, malware removal, speed, broken forms. **25 €/hr**, and an ordinary fault I can diagnose the same day.
+I repair sites on WordPress and on custom code alike: errors after updates, white screens, malware removal, speed, broken forms. **35 €/hr**, and an ordinary fault I can diagnose the same day.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
 

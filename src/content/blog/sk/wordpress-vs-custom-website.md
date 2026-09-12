@@ -5,6 +5,7 @@ description: >-
   skutočné náklady vlastníctva, rýchlosť, bezpečnosť, povinné údaje a cookie
   lišta. Komu sedí čo a kedy je voľba jednoznačná.
 date: '2026-08-04'
+updated: '2026-09-12'
 key: 'wordpress-vs-custom'
 faq:
   - q: 'Čo je lacnejšie — WordPress alebo web na mieru?'
@@ -74,7 +75,7 @@ Mechanika je takmer vždy rovnaká: v populárnom plugine sa nájde zraniteľnos
 
 Z toho plynie praktický záver. Web na WordPresse vyžaduje pravidelnú údržbu — nie je to voliteľná služba, ale súčasť nákladov vlastníctva. Ak ju nemá kto robiť, otázka neznie „či napadnú", ale „kedy".
 
-Web na mieru má menší útočný povrch jednoducho preto, že cudzieho kódu v ňom takmer nie je.
+Web na mieru má menší útočný povrch jednoducho preto, že cudzieho kódu v ňom takmer nie je. Čo robiť, keď k napadnutiu už došlo: [napadnutý WordPress](/sk/blog/napadnuty-wordpress-web/).
 
 [CTA_FORM:bugfix]
 
@@ -106,6 +107,8 @@ Bez irónie, takých prípadov je dosť:
 - **Viac jazykov so správnym značkovaním** ako základ propagácie.
 - **Web bude rásť** a chcete, aby rast nenarazil na šablónu.
 - **Údržbe sa nebude nikto venovať** a treba riešenie, ktoré sa bez dozoru nerozpadne.
+
+Typický príklad logiky, ktorú plugin nezvládne dobre, je [klientská zóna na webe](/sk/blog/klientska-zona-na-webe/).
 
 ## Ako sa rozhodnúť za päť minút
 

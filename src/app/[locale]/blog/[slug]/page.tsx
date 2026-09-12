@@ -141,7 +141,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
         "headline": post.title,
         "description": post.description,
         "datePublished": post.date,
-        "dateModified": post.date,
+        "dateModified": post.updated || post.date,
         "mainEntityOfPage": `https://whiteeagles.sk/${locale}/blog/${slug}/`,
         "image": postImage,
         "author": {

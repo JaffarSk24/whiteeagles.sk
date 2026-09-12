@@ -89,7 +89,7 @@ slug per language. Where slugs differ, the pairs are listed below.
   - URL: https://whiteeagles.sk/sk/service/telegram/
 
 - **Bug Fixing** - repair and support of WordPress and custom sites, speed
-  optimisation, malware removal. €25/hr.
+  optimisation, malware removal. €35/hr.
   - URL: https://whiteeagles.sk/sk/service/bugfix/
 
 - **Cookie Consent V2** - GDPR-compliant cookie banners with Google Consent
@@ -140,6 +140,12 @@ slug per language. Where slugs differ, the pairs are listed below.
     - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
     - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
     - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
+    - https://whiteeagles.sk/sk/blog/napadnuty-wordpress-web/ (ru: /ru/blog/vzlomali-sajt-na-wordpress/)
+    - https://whiteeagles.sk/sk/blog/pomaly-wordpress-web/ (ru: /ru/blog/medlennyj-sajt-na-wordpress/)
+    - https://whiteeagles.sk/sk/blog/sprava-a-udrzba-wordpress-webu/ (ru: /ru/blog/podderzhka-sajta-na-wordpress/)
+    - https://whiteeagles.sk/sk/blog/klientska-zona-na-webe/ (ru: /ru/blog/lichnyj-kabinet-klienta-na-sajte/)
+    - https://whiteeagles.sk/sk/blog/kontrola-nastavenia-ga4/ (ru: /ru/blog/kak-proverit-nastrojku-ga4/)
+    - https://whiteeagles.sk/sk/blog/web-zadarmo-webnode-wix/ (ru: /ru/blog/sajt-na-konstruktore-besplatno/)
 
 ## Pricing
 
@@ -152,7 +158,7 @@ Fixed per project, stated before the work starts.
 - Analytics setup: from €500
 - Telegram bot: from €500
 - Cookie banner with Consent Mode v2: from €200, one-off
-- Hourly rate: €35/hr for development, €25/hr for advertising, analytics,
+- Hourly rate: €35/hr for development and repair, €25/hr for advertising, analytics,
   cookie banners and bots
 
 Every website project includes analytics with conversion tracking, a Consent

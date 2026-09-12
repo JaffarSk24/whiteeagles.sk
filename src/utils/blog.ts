@@ -14,6 +14,9 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  // Set when an article is materially revised; feeds dateModified and the
+  // sitemap lastmod while the visible publication date stays the same.
+  updated?: string;
   content: string;
   locale: string;
   /**
@@ -53,6 +56,7 @@ export function getPostBySlug(slug: string, locale: string): BlogPost | null {
       title: data.title,
       description: data.description,
       date: data.date,
+      updated: data.updated,
       content,
       locale,
       faq

@@ -65,15 +65,17 @@ const pathsFor = (locale) => [
 // the whole site was rewritten each time, which devalues the signal and hides
 // the pages that really changed. Pages with no content date (home, services)
 // simply omit lastmod - the sitemap spec allows it, and an absent value is
-// more honest than an invented one. Consequence: a real edit to an article
-// must bump its `date:` to be announced.
+// more honest than an invented one. A real edit to an article sets
+// `updated:` in its front matter, which wins over `date:` - that announces the
+// change without rewriting the publication date readers see.
 const lastmodFor = (locale, p) => {
   const kind = p.startsWith('blog/') ? contentDir : p.startsWith('case/') ? casesDir : null;
   if (!kind) return null;
   const file = path.join(kind, locale, `${p.split('/')[1]}.md`);
   if (!fs.existsSync(file)) return null;
   const { data } = matter(fs.readFileSync(file, 'utf8'));
-  const d = data.date instanceof Date ? data.date.toISOString().split('T')[0] : String(data.date || '');
+  const raw = data.updated || data.date;
+  const d = raw instanceof Date ? raw.toISOString().split('T')[0] : String(raw || '');
   return /^\d{4}-\d{2}-\d{2}$/.test(d) ? d : null;
 };
 

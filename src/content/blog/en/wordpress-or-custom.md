@@ -5,6 +5,7 @@ description: >-
   Slovakia: real cost of ownership, speed, security, mandatory company details
   and the cookie banner. Who suits what, and when the choice is obvious.
 date: '2026-08-04'
+updated: '2026-09-12'
 key: 'wordpress-vs-custom'
 faq:
   - q: 'Which is cheaper — WordPress or a custom build?'
@@ -74,7 +75,7 @@ The mechanics are almost always the same: a vulnerability is found in a popular 
 
 The practical conclusion follows. A WordPress site requires regular maintenance — not an optional service but part of the cost of ownership. If there is nobody to do it, the question is not whether it will be compromised but when.
 
-A custom site has a smaller attack surface simply because there is almost no third-party code in it.
+A custom site has a smaller attack surface simply because there is almost no third-party code in it. What to do once a hack has already happened: [hacked WordPress site](/en/blog/hacked-wordpress-site/).
 
 [CTA_FORM:bugfix]
 
@@ -106,6 +107,8 @@ Without irony — there are plenty of such cases:
 - **Several languages with correct markup** as the basis of your promotion.
 - **The site will grow** and you want that growth not to hit a template.
 - **Nobody will maintain it** and you need a solution that does not fall apart unattended.
+
+A typical example of logic a plugin handles badly is [a client portal on your website](/en/blog/client-portal-website/).
 
 ## How to decide in five minutes
 

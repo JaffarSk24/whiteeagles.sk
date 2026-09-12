@@ -78,7 +78,7 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
   - Adresa: https://whiteeagles.sk/sk/service/telegram/
 
 - **Opravy a podpora** - oprava a údržba WordPress aj vlastných webov,
-  zrýchlenie, odstránenie škodlivého kódu. 25 €/hod.
+  zrýchlenie, odstránenie škodlivého kódu. 35 €/hod.
   - Adresa: https://whiteeagles.sk/sk/service/bugfix/
 
 - **Cookie Consent Mode V2** - cookie lišty podľa európskych pravidiel s
@@ -129,6 +129,12 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
     - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
     - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
     - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
+    - https://whiteeagles.sk/sk/blog/napadnuty-wordpress-web/ (ru: /ru/blog/vzlomali-sajt-na-wordpress/)
+    - https://whiteeagles.sk/sk/blog/pomaly-wordpress-web/ (ru: /ru/blog/medlennyj-sajt-na-wordpress/)
+    - https://whiteeagles.sk/sk/blog/sprava-a-udrzba-wordpress-webu/ (ru: /ru/blog/podderzhka-sajta-na-wordpress/)
+    - https://whiteeagles.sk/sk/blog/klientska-zona-na-webe/ (ru: /ru/blog/lichnyj-kabinet-klienta-na-sajte/)
+    - https://whiteeagles.sk/sk/blog/kontrola-nastavenia-ga4/ (ru: /ru/blog/kak-proverit-nastrojku-ga4/)
+    - https://whiteeagles.sk/sk/blog/web-zadarmo-webnode-wix/ (ru: /ru/blog/sajt-na-konstruktore-besplatno/)
 
 ## Cenník
 
@@ -141,7 +147,7 @@ Cena je fixná na projekt a známa pred začiatkom prác.
 - Nastavenie analytiky: od 500 €
 - Telegram bot: od 500 €
 - Cookie lišta s Consent Mode v2: od 200 €, jednorazovo
-- Hodinová sadzba: 35 €/hod za vývoj, 25 €/hod za reklamu, analytiku, cookie
+- Hodinová sadzba: 35 €/hod za vývoj a opravy, 25 €/hod za reklamu, analytiku, cookie
   lišty a botov
 
 Každý webový projekt obsahuje analytiku s meraním konverzií, cookie lištu s
