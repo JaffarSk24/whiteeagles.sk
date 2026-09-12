@@ -1,4 +1,5 @@
 import React from 'react';
+import { ogImageFor } from '@/utils/ogImage';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { getAllPosts, shortDescription } from '@/utils/blog';
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title,
       description,
       url: pageUrl,
-      images: [{ url: '/assets/snippet.png', width: 1200, height: 630 }],
+      images: [{ url: ogImageFor(locale), width: 1200, height: 630 }],
     },
   };
 }

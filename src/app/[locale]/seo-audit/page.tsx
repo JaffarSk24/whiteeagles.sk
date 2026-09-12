@@ -1,4 +1,5 @@
 import React from "react";
+import { ogImageFor } from '@/utils/ogImage';
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t("seo_title"),
       description: t("seo_desc"),
       url: path(locale),
-      images: [{ url: "/assets/snippet.png", width: 1200, height: 630 }],
+      images: [{ url: ogImageFor(locale), width: 1200, height: 630 }],
     },
   };
 }

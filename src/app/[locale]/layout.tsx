@@ -1,4 +1,5 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { ogImageFor } from "@/utils/ogImage";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
@@ -60,7 +61,7 @@ export async function generateMetadata({
       description: t("description"),
       images: [
         {
-          url: "/assets/snippet.png",
+          url: ogImageFor(locale),
           width: 1200,
           height: 630,
           alt: "White Eagles & Co.",
@@ -71,7 +72,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images: ["/assets/snippet.png"],
+      images: [ogImageFor(locale)],
     },
     robots: {
       index: true,
