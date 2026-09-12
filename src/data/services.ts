@@ -80,6 +80,8 @@ export const services: Service[] = [
     image: '/assets/services/analytics.webp',
     detailsKey: 'services.analytics.details',
     guaranteeKey: 'services.analytics.guarantee',
+    internalTitleKey: 'services.analytics.internal_title',
+    internalDescKey: 'services.analytics.internal_desc',
     seoTitleKey: 'services.analytics.seo_title',
     seoDescKey: 'services.analytics.seo_desc',
     seoKeywordsKey: 'services.analytics.seo_keywords'

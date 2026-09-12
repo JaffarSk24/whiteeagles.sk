@@ -135,7 +135,7 @@ Ak je v ktoromkoľvek kroku prázdno, reťaz je niekde prerušená a treba ju pr
 
 ## Ak je jednoduchšie, aby to nastavil niekto iný
 
-Nastavím GA4, Tag Manager a Consent Mode tak, aby čísla zodpovedali skutočnosti, a ukážem, odkiaľ dopyty naozaj prichádzajú. Detaily na [stránke služby „Webová analytika"](/sk/service/analytics/).
+Nastavím GA4, Tag Manager a Consent Mode tak, aby čísla zodpovedali skutočnosti, a ukážem, odkiaľ dopyty naozaj prichádzajú. Detaily na [stránke služby „Profesionálne nastavenie GA4"](/sk/service/analytics/).
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

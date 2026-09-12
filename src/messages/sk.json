@@ -187,7 +187,7 @@
     "ads": {
       "title": "Reklamné kampane",
       "desc": "Tvorba a optimalizácia reklamných kampaní Google Ads a Meta",
-      "internal_title": "Správa kontextovej a cielenej reklamy",
+      "internal_title": "Platená reklama na Google a Facebooku: nastavenie a správa kampaní",
       "internal_desc": "Tvorba, správa a optimalizácia reklamných kampaní v Google Ads a Meta (Instagram, Facebook, Threads, WhatsApp)",
       "details_points": [
         "Audit existujúcich reklamných účtov",
@@ -204,7 +204,7 @@
         "Integrácia analytických systémov",
         "Optimalizácia a škálovanie reklamných kampaní"
       ],
-      "seo_title": "Správa Google Ads a PPC reklamy",
+      "seo_title": "Platená reklama na Google a Facebooku — nastavenie a správa",
       "seo_desc": "Nastavenie Google Ads a Meta reklamy: štart od ~1 000 €, sadzba 25 €/hod. Účet aj štatistiky patria vám. Konverzie merané cez GA4 a Consent Mode v2.",
       "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní",
       "page": {
@@ -264,7 +264,7 @@
         "Nastavenie Microsoft Clarity / Bing console"
       ],
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
-      "seo_title": "Webová analytika GA4 a GTM",
+      "seo_title": "Profesionálne nastavenie GA4 a Google Tag Manager",
       "seo_desc": "Nastavenie GA4 a Tag Manager od 500 €: meranie dopytov, nie návštev. Prepojenie s Google Ads, Consent Mode v2, server-side tam, kde sa oplatí.",
       "seo_keywords": "webová analytika, nastavenie ga4, google tag manager, server-side tracking, meranie konverzií, analýza návštevnosti",
       "page": {
@@ -311,7 +311,9 @@
             "a": "Nie. Nastavenie nemení to, čo už je nazbierané. Mení sa len to, čo sa zbiera odteraz."
           }
         ]
-      }
+      },
+      "internal_title": "Profesionálne nastavenie Google Analytics 4 a Tag Manager",
+      "internal_desc": "Nastavím GA4 a Tag Manager tak, aby merali dopyty, nie iba návštevy: udalosti, kľúčové udalosti, Consent Mode v2, prepojenie s Google Ads a Search Console. Ak analytiku už máte, najprv skontrolujem, čo v nej nefunguje."
     },
     "cookies": {
       "title": "Cookie Consent Mode V2",

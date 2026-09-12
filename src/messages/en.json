@@ -187,7 +187,7 @@
     "ads": {
       "title": "Advertising Campaigns",
       "desc": "Creation and optimization of Google Ads and Meta campaigns",
-      "internal_title": "Contextual and Targeted Advertising",
+      "internal_title": "Google Ads and Meta advertising: setup and management",
       "internal_desc": "Creation, management, and optimization of advertising campaigns in Google Ads and Meta (Instagram, Facebook, Threads, WhatsApp)",
       "details_points": [
         "Audit of existing advertising accounts",
@@ -264,7 +264,7 @@
         "Microsoft Clarity / Bing console setup"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Web Analytics: GA4 & GTM Setup",
+      "seo_title": "Professional GA4 & Google Tag Manager Setup",
       "seo_desc": "GA4 and Tag Manager setup from €500: measuring enquiries, not visits. Linked to Google Ads, Consent Mode v2, server-side where it pays off.",
       "seo_keywords": "web analytics, ga4 setup, google tag manager, server-side gtm, website tracking, conversion tracking",
       "page": {
@@ -311,7 +311,9 @@
             "a": "No. The setup does not change what has already been collected, only what is collected from now on."
           }
         ]
-      }
+      },
+      "internal_title": "Professional Google Analytics 4 and Tag Manager setup",
+      "internal_desc": "I set up GA4 and Tag Manager to measure enquiries, not just visits: events, key events, Consent Mode v2, links to Google Ads and Search Console. If analytics is already in place, I first check what in it does not work."
     },
     "cookies": {
       "title": "Cookie Consent Mode V2",
