@@ -198,37 +198,6 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
                 />
               </div>
             )}
-            <div className="form-group">
-              <label>{t("name")} *</label>
-              <input
-                type="text"
-                required
-                value={formData.name}
-                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                placeholder={t("name_placeholder")}
-              />
-            </div>
-
-            <div className="form-group">
-              <label>{t("email")} <span style={{ fontSize: "0.8em", opacity: 0.7 }}>{t("opt_if_phone")}</span></label>
-              <input
-                type="email"
-                value={formData.email}
-                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                placeholder={t("email_placeholder")}
-              />
-            </div>
-
-            <div className="form-group">
-              <label>{t("phone")} <span style={{ fontSize: "0.8em", opacity: 0.7 }}>{t("opt_if_email")}</span></label>
-              <input
-                type="tel"
-                value={formData.phone}
-                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                placeholder={t("phone_placeholder")}
-              />
-            </div>
-
             {!isAudit && (
             <div className="form-group">
               <label>{t("service")} *</label>
@@ -278,13 +247,44 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
               </select>
             </div>
             )}
+            <div className="form-group">
+              <label>{t("name")} *</label>
+              <input
+                type="text"
+                required
+                value={formData.name}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                placeholder={t("name_placeholder")}
+              />
+            </div>
+
+            <div className="form-group">
+              <label>{t("email")} <span style={{ fontSize: "0.8em", opacity: 0.7 }}>{t("opt_if_phone")}</span></label>
+              <input
+                type="email"
+                value={formData.email}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                placeholder={t("email_placeholder")}
+              />
+            </div>
+
+            <div className="form-group">
+              <label>{t("phone")} <span style={{ fontSize: "0.8em", opacity: 0.7 }}>{t("opt_if_email")}</span></label>
+              <input
+                type="tel"
+                value={formData.phone}
+                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                placeholder={t("phone_placeholder")}
+              />
+            </div>
+
 
             <div className="form-group">
               <label>
                 {t("message")} <span style={{ fontSize: "0.8em", opacity: 0.7, marginLeft: "6px" }}>({tCommon("optional")})</span>
               </label>
               <textarea
-                rows={3}
+                rows={2}
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               />
@@ -293,15 +293,9 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
             <button type="submit" className="btn btn-primary btn-submit" disabled={status === "submitting" || (!isAudit && !formData.service)}>
               {status === "submitting" ? t("sending") : isAudit ? t("audit_submit") : t("submit")}
             </button>
-            <p className="reply-note">{t("reply_note")}</p>
-            <div className="next-steps">
-              <p className="next-steps-title">{t("next_title")}</p>
-              <ol>
-                <li>{t("next_1")}</li>
-                <li>{t("next_2")}</li>
-                <li>{t("next_3")}</li>
-              </ol>
-            </div>
+            <p className="reply-note">
+              {t("reply_note")} {t("next_line")}
+            </p>
 
             {status === "error" && <p className="error-text">{t("error")}</p>}
 

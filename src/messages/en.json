@@ -686,12 +686,9 @@
     "audit_service_name": "Free SEO audit",
     "audit_submit": "Get the free audit",
     "reply_note": "I reply within 24 hours.",
-    "next_title": "What happens next",
-    "next_1": "I read what you wrote and look at the site.",
-    "next_2": "Within 24 hours I get back with questions or straight with a proposal.",
-    "next_3": "You receive a quote with a price and a deadline, no obligation.",
     "service_placeholder": "— choose a service —",
-    "service_error": "Please choose a service."
+    "service_error": "Please choose a service.",
+    "next_line": "I read what you wrote and within 24 hours send questions or a quote with a price and a deadline, no obligation."
   },
   "company": {
     "name": "White Eagles & Co. s.r.o.",

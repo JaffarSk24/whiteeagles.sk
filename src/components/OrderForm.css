@@ -8,18 +8,22 @@
   backdrop-filter: blur(5px);
   z-index: 2000;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 20px;
+  /* Auto margins centre the box when it fits and let the overlay scroll
+     when it does not, so the close button never leaves the screen. */
+  overflow-y: auto;
 }
 
 .modal-content {
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-color);
-  padding: 40px;
+  padding: 28px 32px;
   border-radius: 16px;
   width: 100%;
   max-width: 500px;
+  margin: auto;
   position: relative;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   animation: modalSlideIn 0.3s ease-out;
@@ -38,8 +42,8 @@
 
 .modal-close {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 14px;
+  right: 14px;
   background: transparent;
   color: var(--text-secondary);
   padding: 5px;
@@ -50,16 +54,17 @@
 }
 
 .modal-content h2 {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   font-size: 1.5rem;
   text-align: center;
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .form-group label {
+  display: block;
   display: block;
   margin-bottom: 8px;
   font-size: 0.9rem;
@@ -205,29 +210,7 @@
 .reply-note {
   margin: 10px 0 0;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
   color: var(--text-secondary);
-}
-
-.next-steps {
-  margin-top: 18px;
-  padding-top: 14px;
-  border-top: 1px solid var(--border-color);
-  font-size: 0.88rem;
-  color: var(--text-secondary);
-}
-
-.next-steps-title {
-  margin: 0 0 6px;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.next-steps ol {
-  margin: 0;
-  padding-left: 18px;
-}
-
-.next-steps li {
-  margin: 2px 0;
 }

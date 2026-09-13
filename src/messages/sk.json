@@ -673,12 +673,9 @@
     "audit_service_name": "SEO audit zdarma",
     "audit_submit": "Chcem audit zdarma",
     "reply_note": "Ozvem sa do 24 hodín.",
-    "next_title": "Čo bude ďalej",
-    "next_1": "Prečítam si, čo píšete, a pozriem web.",
-    "next_2": "Do 24 hodín sa ozvem s otázkami alebo rovno s návrhom.",
-    "next_3": "Dostanete ponuku s cenou a termínom, bez záväzku.",
     "service_placeholder": "— vyberte službu —",
-    "service_error": "Vyberte službu."
+    "service_error": "Vyberte službu.",
+    "next_line": "Prečítam si, čo píšete, a do 24 hodín pošlem otázky alebo rovno ponuku s cenou a termínom, bez záväzku."
   },
   "company": {
     "name": "White Eagles & Co. s.r.o.",
