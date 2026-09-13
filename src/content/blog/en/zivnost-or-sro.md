@@ -11,13 +11,13 @@ faq:
   - q: 'Which is cheaper to start?'
     a: 'A trade licence, by a wide margin. Free trades cost nothing when filed electronically and the licence arrives in 1–3 working days. An s.r.o. costs about 220 euros before 17 August 2026 and over 500 after it.'
   - q: 'Where is the real difference in money?'
-    a: 'Not in the tax rate — that differs by roughly one and a half percent. It is in contributions: a sole trader pays a minimum of about 425 euros a month, some 5,100 a year, regardless of what they earned.'
+    a: 'Not in the tax rate: that differs by roughly one and a half percent. It is in contributions: a sole trader pays a minimum of about 425 euros a month, some 5,100 a year, regardless of what they earned.'
   - q: 'Up to what income is a živnosť the better option?'
     a: 'Roughly up to 33,000 euros of income a year, while the lump-sum expense deduction still grows with income. Above that the deduction hits its 20,000 euro ceiling and the advantage fades.'
   - q: 'What am I liable with?'
-    a: 'As a sole trader, with everything you own. As an s.r.o., with the company''s assets — with the important exception of a managing director who acts negligently or in breach of their duties.'
+    a: 'As a sole trader, with everything you own. As an s.r.o., with the company''s assets: the important exception is a managing director who acts negligently or in breach of their duties.'
   - q: 'Can I switch later?'
-    a: 'Yes, and people do. But switching means registering the company, moving contracts, invoices, the bank account and often the website and its details — cheaper to think it through once at the start.'
+    a: 'Yes, and people do. But switching means registering the company, moving contracts, invoices, the bank account and often the website and its details. It is cheaper to think it through once at the start.'
 ---
 ![Živnosť or s.r.o. in Slovakia | White Eagles & Co.](/assets/blog/podniksro.webp)
 

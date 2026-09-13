@@ -7,7 +7,7 @@ date: '2026-08-04'
 key: 'gdpr-small-business'
 faq:
   - q: 'Týka sa GDPR aj celkom malých firiem?'
-    a: 'Áno. Hranica podľa veľkosti neexistuje — pravidlá platia pre každého, kto spracúva osobné údaje. Oslobodenie od vedenia záznamov o spracovateľských činnostiach pre organizácie do 250 zamestnancov existuje, ale neplatí, ak je spracúvanie pravidelné — a formulár na webe je práve pravidelné spracúvanie.'
+    a: 'Áno. Hranica podľa veľkosti neexistuje: pravidlá platia pre každého, kto spracúva osobné údaje. Oslobodenie od vedenia záznamov o spracovateľských činnostiach pre organizácie do 250 zamestnancov existuje, ale neplatí, ak je spracúvanie pravidelné, a formulár na webe je práve pravidelné spracúvanie.'
   - q: 'Potrebujem zodpovednú osobu za ochranu údajov?'
     a: 'Bežná menšia firma nie. Povinná je pre orgány verejnej moci a tam, kde je spracúvanie údajov hlavnou činnosťou alebo prebieha vo veľkom rozsahu s osobitnými kategóriami údajov.'
   - q: 'Čo musí byť na webe minimálne?'

@@ -11,12 +11,12 @@ faq:
     a: 'A Google listing and directories bring the first visits within two to three weeks. Search traffic from articles takes 3–6 months to build. Partner links and communities work faster than organic search but require your personal involvement.'
   - q: 'How many articles are needed to see a result?'
     a: 'Aim for 20–30 pages, each answering a specific question. One article produces nothing: search starts treating a site as a source when it sees a system, not a single text.'
-  - q: 'What matters more — the number of articles or their quality?'
+  - q: 'What matters more: the number of articles or their quality?'
     a: 'Neither on its own. What matters is hitting a specific question: a page that answers a real query better than the rest of the results beats both long general texts and a dozen short notes.'
   - q: 'Does social media bring visitors to a site?'
     a: 'As a source of direct traffic, weakly. As a source of trust and repeat contact, yes. For the Russian-speaking segment in Slovakia, substantive answers in communities are more useful than posts on your own profile.'
   - q: 'Is it worth buying links?'
-    a: 'No. It breaks the rules, and in Slovakia it is also pointless: the market is small and bought links are visible. The free alternative works better — links from clients'' sites, from directories and from partners.'
+    a: 'No. It breaks the rules, and in Slovakia it is also pointless: the market is small and bought links are visible. The free alternative works better: links from clients'' sites, from directories and from partners.'
 ---
 ![How to grow website traffic in Slovakia | White Eagles & Co.](/assets/blog/traffik.webp)
 

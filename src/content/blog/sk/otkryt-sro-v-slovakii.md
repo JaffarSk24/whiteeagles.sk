@@ -12,7 +12,7 @@ faq:
     a: 'Nie. Zakladateľom môže byť aj občan inej krajiny. Osobitné požiadavky sa môžu týkať konateľa, to je lepšie overiť pre konkrétnu situáciu.'
   - q: 'Dá sa firma po 17. auguste 2026 založiť úplne online?'
     a: 'Nie. Zakladateľský dokument bude vyžadovať notársku zápisnicu alebo autorizáciu advokátom. Časť krokov zostane elektronická, ale návšteva prestane byť dobrovoľná.'
-  - q: 'Čo je rýchlejšie — s.r.o. alebo živnosť?'
+  - q: 'Čo je rýchlejšie: s.r.o. alebo živnosť?'
     a: 'Živnostenské oprávnenie vybavíte za 1 až 3 pracovné dni a takmer zadarmo. s.r.o. trvá dlhšie a stojí viac, ale obmedzuje vašu osobnú zodpovednosť.'
   - q: 'Ako dlho trvá založenie s.r.o.?'
     a: 'Pri pripravených dokumentoch 3 až 7 pracovných dní do zápisu. Plus čas na účet, daňový úrad a zvyšok.'

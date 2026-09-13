@@ -12,11 +12,11 @@ faq:
   - q: 'Potrebuje reštaurácia vlastnú rezerváciu, alebo stačí Bookio či telefón?'
     a: 'Telefón stačí, kým máte kto dvíhať aj o desiatej večer. Hotová služba je rýchly štart, ale platíte mesačne a hostia odchádzajú z vášho webu na cudzí. Vlastná rezervácia sa oplatí, keď máte viac stolov, zložitejšie pravidlá alebo chcete, aby dáta o hosťoch zostali vám.'
   - q: 'Ako dať menu na web, aby ho Google zobrazil?'
-    a: 'Ako text na stránke so štruktúrovanými dátami Menu, nie ako PDF ani ako fotku. PDF Google číta zle, fotku vôbec — a hosť na mobile ich nevie ani priblížiť. Aktualizovať sa dá cez jednoduchú administráciu.'
+    a: 'Ako text na stránke so štruktúrovanými dátami Menu, nie ako PDF ani ako fotku. PDF Google číta zle, fotku vôbec, a hosť na mobile ich nevie ani priblížiť. Aktualizovať sa dá cez jednoduchú administráciu.'
   - q: 'Ako dlho trvá spustenie?'
     a: 'Web s menu a rezerváciou zvyčajne 2–3 týždne. Landing page s jednou ponukou a rezervačným formulárom do dvoch týždňov.'
-  - q: 'Čo je dôležitejšie — web alebo profil na Googli?'
-    a: 'Pre reštauráciu profil na Googli s fotkami a hodnoteniami — to je prvé, čo hosť vidí. Web je druhý krok: tam sa rezervuje, číta menu a overuje, či je podnik naozaj otvorený. Bez profilu web nenavštívi nikto; bez webu profil nemá kam poslať.'
+  - q: 'Čo je dôležitejšie: web alebo profil na Googli?'
+    a: 'Pre reštauráciu je to profil na Googli s fotkami a hodnoteniami, lebo je to prvé, čo hosť vidí. Web je druhý krok: tam sa rezervuje, číta menu a overuje, či je podnik naozaj otvorený. Bez profilu web nenavštívi nikto; bez webu profil nemá kam poslať.'
 ---
 ![Webstránka pre reštauráciu, kaviareň či bar | White Eagles & Co.](/assets/blog/new-web.webp)
 

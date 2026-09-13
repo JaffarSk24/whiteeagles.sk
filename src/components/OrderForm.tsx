@@ -184,7 +184,17 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit}>
+          <form
+            onSubmit={handleSubmit}
+            onFocusCapture={(e) => {
+              // iOS Safari does not scroll a fixed overlay to keep the focused
+              // field above the keyboard; do it once the keyboard has opened.
+              const el = e.target as HTMLElement;
+              if (/^(INPUT|SELECT|TEXTAREA)$/.test(el.tagName)) {
+                window.setTimeout(() => el.scrollIntoView({ block: "center", behavior: "smooth" }), 300);
+              }
+            }}
+          >
             {isAudit && (
               <div className="form-group">
                 <label>{t("website")} *</label>

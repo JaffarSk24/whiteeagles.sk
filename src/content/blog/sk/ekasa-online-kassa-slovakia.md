@@ -16,7 +16,7 @@ faq:
   - q: 'Zrušili sa výnimky pre služby?'
     a: 'Áno. Od 1. januára 2026 sa povinnosť vzťahuje na všetky služby bez výnimky, vrátane remeselných činností, ktoré boli predtým vyňaté.'
   - q: 'Aké druhy pokladnice existujú?'
-    a: 'Tri: online registračná pokladnica (ORP), virtuálna (VRP) a softvérová — cloudové riešenie. Voľba závisí od obratu, miesta predaja a od toho, či potrebujete fyzický prístroj.'
+    a: 'Tri: online registračná pokladnica (ORP), virtuálna (VRP) a softvérová, teda cloudové riešenie. Voľba závisí od obratu, miesta predaja a od toho, či potrebujete fyzický prístroj.'
 ---
 ![eKasa v roku 2026: kto musí mať online pokladnicu | White Eagles & Co.](/assets/blog/kassa.webp)
 

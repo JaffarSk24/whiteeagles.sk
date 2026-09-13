@@ -9,15 +9,15 @@ updated: '2026-09-12'
 key: 'online-booking'
 faq:
   - q: 'What does a booking system on a website cost?'
-    a: 'As part of a new site, from 3,500 euros — booking is added functionality, not a separate product. Adding it to an existing site is charged hourly at 35 euros; simple booking for a single service usually takes a few days.'
+    a: 'As part of a new site, from 3,500 euros: booking is added functionality, not a separate product. Adding it to an existing site is charged hourly at 35 euros; simple booking for a single service usually takes a few days.'
   - q: 'Do I need a custom system, or will a ready service do?'
     a: 'If you sell standard slots and you are fine with someone else''s look and a monthly fee, a ready service is the faster start. A custom one earns its keep where the logic is non-standard: several resources at once, dependent slots, time-based pricing, or a link to stock.'
   - q: 'How is a booking confirmed?'
-    a: 'Through Telegram works best: staff get a message, one tap confirms it, and the slot closes on the site automatically. A panel you have to log into separately does not take root in a small business — between two customers there is one minute, not ten.'
+    a: 'Through Telegram works best: staff get a message, one tap confirms it, and the slot closes on the site automatically. A panel you have to log into separately does not take root in a small business: between two customers there is one minute, not ten.'
   - q: 'What happens if two people pick the same slot?'
-    a: 'Nothing, if the system is built properly: availability is checked on submission, not on page load. This is exactly where spreadsheet-backed solutions fail — the double booking surfaces when both people are already at the door.'
+    a: 'Nothing, if the system is built properly: availability is checked on submission, not on page load. This is exactly where spreadsheet-backed solutions fail: the double booking surfaces when both people are already at the door.'
   - q: 'Should I take payment up front?'
-    a: 'No, and for services it usually hurts. Prepayment makes sense where no-shows cost real money — and then a deposit is enough, not the full amount.'
+    a: 'No, and for services it usually hurts. Prepayment makes sense where no-shows cost real money, and then a deposit is enough, not the full amount.'
 ---
 ![Online booking on your website | White Eagles & Co.](/assets/blog/Online-bookings.webp)
 

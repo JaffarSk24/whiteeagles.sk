@@ -11,11 +11,11 @@ faq:
   - q: 'Prečo je v GA4 nula konverzií, hoci dopyty chodia?'
     a: 'Najčastejšia príčina: udalosť ide do dataLayer, ale v Tag Manageri nie je tag, ktorý ju posiela do GA4. Druhá najčastejšia: udalosť dorazí, ale nie je označená ako kľúčová, takže v prehľade konverzií nie je. Obe sa overia za desať minút.'
   - q: 'Zapojiť GA4 priamo alebo cez Tag Manager?'
-    a: 'Cez Tag Manager. Priame zapojenie vyzerá jednoduchšie, ale o mesiac budete potrebovať druhý skript, tretí, súhlas s cookies a udalosti — a všetko by ste museli riešiť v kóde webu. Hlavné pravidlo: nezapájať oboma spôsobmi naraz, inak sa všetky čísla zdvoja.'
+    a: 'Cez Tag Manager. Priame zapojenie vyzerá jednoduchšie, ale o mesiac budete potrebovať druhý skript, tretí, súhlas s cookies a udalosti, a všetko by ste museli riešiť v kóde webu. Hlavné pravidlo: nezapájať oboma spôsobmi naraz, inak sa všetky čísla zdvoja.'
   - q: 'Čo je Consent Mode v2 a je povinný?'
     a: 'Je to režim, v ktorom Google dostáva signál o súhlase návštevníka a do súhlasu sa správa obmedzene. Od marca 2024 bez neho Google Ads neprijíma údaje z EÚ na remarketing a modelovanie konverzií. Prakticky to znamená: bez Consent Mode v2 sa časť konverzií nezapočíta vôbec.'
   - q: 'Ako dlho GA4 uchováva údaje?'
-    a: 'Predvolene dva mesiace. Mení sa to ručne v nastaveniach uchovávania údajov na 14 mesiacov — maximum bezplatnej verzie. Predvolenú hodnotu netreba nechávať: po dvoch mesiacoch sa už nedá porovnať obdobie s obdobím.'
+    a: 'Predvolene dva mesiace. Mení sa to ručne v nastaveniach uchovávania údajov na 14 mesiacov, čo je maximum bezplatnej verzie. Predvolenú hodnotu netreba nechávať: po dvoch mesiacoch sa už nedá porovnať obdobie s obdobím.'
   - q: 'Potrebuje malá firma serverový Tag Manager?'
     a: 'Zvyčajne nie. Rieši stratu údajov pre blokovače a obmedzenia prehliadačov a má zmysel tam, kde je citeľný reklamný rozpočet. Malá firma by mala najprv dosiahnuť, aby korektne fungovalo bežné meranie.'
 ---

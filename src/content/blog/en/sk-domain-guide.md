@@ -8,14 +8,14 @@ date: '2026-08-04'
 key: 'sk-domain'
 faq:
   - q: 'Can a foreigner register a .sk domain?'
-    a: 'Yes. There is no citizenship or residency restriction on registering a .sk domain — the owner may be an individual or a company from another country.'
+    a: 'Yes. There is no citizenship or residency restriction on registering a .sk domain: the owner may be an individual or a company from another country.'
   - q: 'Should I buy the domain before or after registering the company?'
     a: 'Before. A domain matching the company name is often already taken, and it is better to discover that before the name is fixed in the founding documents.'
   - q: 'What if the domain I want is taken?'
     a: 'Check whether it is actually in use. If there is no site, you can try contacting the owner through the registration data. If a purchase does not work out, choosing another name beats living with an awkward one for years.'
   - q: 'Do I need both .sk and .com?'
     a: 'For a business operating in Slovakia, .sk matters more: a local buyer trusts it more. A second domain is worth taking for the future and redirecting, not hosting a copy of the site on.'
-  - q: 'Who should own the domain — me or my contractor?'
+  - q: 'Who should own the domain: me or my contractor?'
     a: 'Only you. A domain registered to a contractor is a risk of losing your address when the relationship ends. The owner record must name you or your company.'
 ---
 ![The .sk domain: how to buy one and who may own it | White Eagles & Co.](/assets/blog/domensk.webp)

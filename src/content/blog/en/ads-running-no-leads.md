@@ -14,9 +14,9 @@ faq:
   - q: 'Why does Google bring irrelevant queries?'
     a: 'Broad match without negative keywords. Google interprets the query loosely, so an ad for "tvorba webstránok" reaches people looking for courses, jobs or a free template. It is visible in the search terms report.'
   - q: 'Can the landing page be to blame?'
-    a: 'Yes, and it is one of the most common causes. Advertising pointed at the home page instead of the specific service, slow loading on mobile, or no price — they clicked, you paid, they left.'
+    a: 'Yes, and it is one of the most common causes. Advertising pointed at the home page instead of the specific service, slow loading on mobile, or no price. They clicked, you paid, they left.'
   - q: 'Should I pause the ads while I investigate?'
-    a: 'If the cause is measurement or the form, yes — otherwise you are paying for enquiries you will never see. If it is irrelevant queries, no need: narrow the match types and add negative keywords instead.'
+    a: 'If the cause is measurement or the form, yes. Otherwise you are paying for enquiries you will never see. If it is irrelevant queries, no need: narrow the match types and add negative keywords instead.'
 ---
 ![Ads are running and no enquiries come | White Eagles & Co.](/assets/blog/0-orders.webp)
 

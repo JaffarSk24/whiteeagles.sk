@@ -10,11 +10,11 @@ faq:
   - q: 'What does a Slovak client check first?'
     a: 'Whether the company actually exists. The IČO, the address and the register entry in the site footer are the first things their eye looks for, especially when a deposit is involved.'
   - q: 'Do I need to show prices?'
-    a: 'At least the order of magnitude. "From this much", with an explanation of what the final figure depends on, earns more trust than "price on request" — the latter often reads as "this is going to be expensive".'
+    a: 'At least the order of magnitude. "From this much", with an explanation of what the final figure depends on, earns more trust than "price on request": the latter often reads as "this is going to be expensive".'
   - q: 'How important are reviews?'
     a: 'Important, but verifiable ones. A review naming a company with a link to its site weighs incomparably more than anonymous praise. Reviews on a Google profile work harder still, because you cannot write them yourself.'
   - q: 'Do people write or call?'
-    a: 'Usually they write. The form and the email must work flawlessly and the reply should come the same day — a day''s delay already loses to the competitor who answered within the hour.'
+    a: 'Usually they write. The form and the email must work flawlessly and the reply should come the same day: a day''s delay already loses to the competitor who answered within the hour.'
   - q: 'Does a Google profile matter?'
     a: 'Yes, a great deal. For local services the business listing is often the first point of contact, and its reviews are the deciding argument between two similar contractors.'
 ---

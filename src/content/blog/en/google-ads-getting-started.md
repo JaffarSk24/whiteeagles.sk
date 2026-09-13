@@ -10,7 +10,7 @@ faq:
   - q: 'How much budget do I need for Google Ads in Slovakia?'
     a: 'For a narrow service in Bratislava, from 10–15 euros a day, meaning 300–450 a month. Less works too, but conclusions take longer to arrive: judging whether a campaign pays needs at least 20–30 enquiries.'
   - q: 'How soon do the first enquiries appear?'
-    a: 'The first contacts are possible on launch day — that is the main difference from SEO. But the first two to three weeks go on collecting negative keywords and cutting off junk queries, so judging the return before a month has passed is premature.'
+    a: 'The first contacts are possible on launch day: that is the main difference from SEO. But the first two to three weeks go on collecting negative keywords and cutting off junk queries, so judging the return before a month has passed is premature.'
   - q: 'Why does a campaign spend the budget and bring no enquiries?'
     a: 'Most often conversions are not being passed to Google. The algorithm has nothing to optimise on and spends on the cheapest clicks, which lead nowhere. The second most common cause is broad match with no negative keywords.'
   - q: 'Do I have to build a separate page for the advertising?'

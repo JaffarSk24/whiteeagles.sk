@@ -8,15 +8,15 @@ date: '2026-08-04'
 key: 'seo-audit'
 faq:
   - q: 'How long does a basic DIY SEO audit take?'
-    a: 'About an hour if you follow the list and do not go deep. The first four checks — indexing, duplicate addresses, enquiry measurement and speed — take twenty minutes and find most of the serious problems.'
+    a: 'About an hour if you follow the list and do not go deep. The first four checks (indexing, duplicate addresses, enquiry measurement and speed) take twenty minutes and find most of the serious problems.'
   - q: 'Which tools are needed and what do they cost?'
     a: 'Everything listed is done with free tools: Google Search Console, PageSpeed Insights, an ordinary browser and a private window. Paid services belong to a later stage, once the basic errors are gone.'
   - q: 'What should I check first?'
-    a: 'Indexing and duplicate addresses. If Google cannot see your pages, or sees four copies of the site, everything else — texts, links, speed — is working for nothing.'
+    a: 'Indexing and duplicate addresses. If Google cannot see your pages, or sees four copies of the site, everything else (texts, links, speed) is working for nothing.'
   - q: 'My site is in Google but there are no enquiries. What does that mean?'
     a: 'Usually one of three things: the pages appear for irrelevant queries, the snippet gives no reason to click, or enquiries are in fact arriving but not being counted because measurement is not configured. All three can be checked in half an hour.'
   - q: 'Is an audit needed if the site is less than a year old?'
-    a: 'Especially then. First-year mistakes — wrong redirects, duplicates, missing measurement — accumulate a negative effect, and the later they are found the longer the recovery.'
+    a: 'Especially then. First-year mistakes (wrong redirects, duplicates, missing measurement) accumulate a negative effect, and the later they are found the longer the recovery.'
 ---
 ![A DIY SEO audit | White Eagles & Co.](/assets/blog/blog5.webp)
 

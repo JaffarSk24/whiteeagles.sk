@@ -10,7 +10,7 @@ faq:
   - q: 'What does an online shop cost in Slovakia?'
     a: 'A custom-built shop starts at 5,000 euros. A ready platform is cheaper to start but charges a monthly fee and a percentage. Compare the cost over two to three years, not the launch.'
   - q: 'Does an online shop need an eKasa?'
-    a: 'Not when payment is by card on the site or by bank transfer. It arises when you take cash or card in person — a courier collecting payment, or collection in person with payment on the spot.'
+    a: 'Not when payment is by card on the site or by bank transfer. It arises when you take cash or card in person: a courier collecting payment, or collection in person with payment on the spot.'
   - q: 'When must an online shop register for VAT?'
     a: 'At 50,000 euros of turnover in a calendar year, with an obligation to file. A second threshold of 62,500 has different timing consequences. Selling to other EU countries follows separate rules.'
   - q: 'What documents must be on the shop''s website?'

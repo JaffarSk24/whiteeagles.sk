@@ -11,7 +11,7 @@ faq:
   - q: 'What does repairing a WordPress site cost?'
     a: 'The hourly rate is 35 euros. Something small like a broken form or an error after an update usually takes an hour or two. Cleaning up a hack takes longer: besides the repair you have to find the way in, or it happens again.'
   - q: 'The site shows a white screen and nothing else. What now?'
-    a: 'A white screen is a fatal PHP error with the output suppressed. Usually the last plugin or update is to blame. If you have FTP access, rename the folder of the most recent plugin — the site normally comes back and you know the culprit.'
+    a: 'A white screen is a fatal PHP error with the output suppressed. Usually the last plugin or update is to blame. If you have FTP access, rename the folder of the most recent plugin: the site normally comes back and you know the culprit.'
   - q: 'How do I know the site was hacked?'
     a: 'Redirects to somebody else''s site, unknown users with administrator rights, files with odd names in the root, a browser warning, or a message in Search Console. Slowness alone does not mean a hack.'
   - q: 'Repair it, or build a new site?'

@@ -10,7 +10,7 @@ faq:
   - q: 'Koľko stojí e-shop na Slovensku?'
     a: 'E-shop na mieru od 5 000 eur. Hotová platforma vyjde na štarte lacnejšie, ale berie si mesačný poplatok a percento. Rátať treba náklady na dva-tri roky, nie iba spustenie.'
   - q: 'Potrebuje e-shop eKasu?'
-    a: 'Pri platbe kartou na webe alebo prevodom na účet eKasa netreba. Vzniká vtedy, keď prijímate hotovosť alebo kartu pri osobnom odovzdaní tovaru — napríklad kuriér berie platbu na mieste alebo je osobný odber s platbou.'
+    a: 'Pri platbe kartou na webe alebo prevodom na účet eKasa netreba. Vzniká vtedy, keď prijímate hotovosť alebo kartu pri osobnom odovzdaní tovaru, napríklad keď kuriér berie platbu na mieste alebo ide o osobný odber s platbou.'
   - q: 'Kedy sa e-shop musí registrovať na DPH?'
     a: 'Prah registrácie je obrat 50 000 eur za kalendárny rok s povinnosťou podať žiadosť. Existuje aj druhý prah, 62 500, s inými dôsledkami pri lehotách. Pri predaji do iných krajín EÚ platia samostatné pravidlá.'
   - q: 'Aké dokumenty musia byť na webe e-shopu?'

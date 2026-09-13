@@ -14,7 +14,7 @@ faq:
   - q: 'Dá sa klientská zóna vo WordPresse urobiť bez pluginu?'
     a: 'Dá, ale potom prihlasovanie, roly a logiku údajov píšete sami, teda staviate aplikáciu. WordPress je v tej chvíli iba ťažký obal okolo nej, ktorý treba ďalej aktualizovať. Čistejšie je postaviť zónu ako samostatnú aplikáciu na modernom stacku.'
   - q: 'Koľko stojí klientská zóna na mieru?'
-    a: 'Ako súčasť nového webu na mieru je zahrnutá v odhade projektu, firemný web začína od 3 500 €. Doplnenie zóny k existujúcemu webu sa účtuje hodinovo po 35 €. Cena sa povie pred začatím a počas projektu sa nemení, pri väčšom portáli sa vopred povie aj termín.'
+    a: 'Ako súčasť nového webu na mieru je zahrnutá v odhade projektu, firemný web začína od 3 500€. Doplnenie zóny k existujúcemu webu sa účtuje hodinovo po 35€. Cena sa povie pred začatím a počas projektu sa nemení, pri väčšom portáli sa vopred povie aj termín.'
   - q: 'Čo musí klientská zóna spĺňať kvôli GDPR?'
     a: 'Technicky prístup iba k vlastným údajom overený na serveri, šifrované spojenie, hashované heslá, záznamy o prístupoch a možnosť údaje klientovi vydať alebo zmazať. Právne dokumenty, ako zásady ochrany osobných údajov alebo zmluvy, pripravuje právnik, nie vývojár.'
 ---

@@ -14,7 +14,7 @@ faq:
   - q: 'Can a client portal be built in WordPress without a plugin?'
     a: 'It can, but then you write the login, roles and data logic yourself, which means you are building an application. WordPress at that point is only a heavy wrapper around it that still needs updating. The cleaner answer is a standalone application on a modern stack.'
   - q: 'What does a custom client portal cost?'
-    a: 'As part of a new custom site it is included in the project estimate; a company website starts at 3 500 €. Adding a portal to an existing site is billed hourly at 35 €. The price is stated before work starts and does not change mid-project; for a larger portal the deadline is stated in advance too.'
+    a: 'As part of a new custom site it is included in the project estimate; a company website starts at 3 500€. Adding a portal to an existing site is billed hourly at 35€. The price is stated before work starts and does not change mid-project; for a larger portal the deadline is stated in advance too.'
   - q: 'What does a client portal need for GDPR?'
     a: 'Technically: access only to one''s own data, checked on the server, an encrypted connection, hashed passwords, access logs, and the ability to hand clients their data or delete it. Legal documents such as a privacy policy or contracts are prepared by a lawyer, not a developer.'
 ---

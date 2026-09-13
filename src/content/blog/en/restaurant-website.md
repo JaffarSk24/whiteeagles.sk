@@ -13,11 +13,11 @@ faq:
   - q: 'Does a restaurant need its own booking system, or is Bookio or the phone enough?'
     a: 'The phone is enough while someone can pick up at ten in the evening. A ready service is a fast start, but you pay monthly and guests leave your site for someone else''s. Your own booking pays off with many tables, more complex rules, or when you want the guest data to stay yours.'
   - q: 'How do I put the menu online so Google shows it?'
-    a: 'As text on the page with Menu structured data, not as a PDF and not as a photo. Google reads PDFs badly and photos not at all — and a guest on a phone cannot even zoom them. It updates through a simple admin panel.'
+    a: 'As text on the page with Menu structured data, not as a PDF and not as a photo. Google reads PDFs badly and photos not at all, and a guest on a phone cannot even zoom them. It updates through a simple admin panel.'
   - q: 'How long does the launch take?'
     a: 'A site with menu and booking usually 2–3 weeks. A landing page with one offer and a booking form within two weeks.'
-  - q: 'Which matters more — the website or the Google profile?'
-    a: 'For a restaurant, the Google profile with photos and reviews — it is the first thing a guest sees. The website is the second step: that is where they book, read the menu and check the place is really open. Without the profile nobody visits the site; without the site the profile has nowhere to send them.'
+  - q: 'Which matters more: the website or the Google profile?'
+    a: 'For a restaurant, the Google profile with photos and reviews is the first thing a guest sees. The website is the second step: that is where they book, read the menu and check the place is really open. Without the profile nobody visits the site; without the site the profile has nowhere to send them.'
 ---
 ![A website for a restaurant, café or bar | White Eagles & Co.](/assets/blog/new-web.webp)
 

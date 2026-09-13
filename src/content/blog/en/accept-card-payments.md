@@ -8,7 +8,7 @@ date: '2026-08-04'
 key: 'card-payments'
 faq:
   - q: 'Am I obliged to accept cashless payment?'
-    a: 'From 1 May 2026, yes — on any purchase above one euro. The law requires you to make it possible, not to install a terminal, so a QR code for a bank transfer satisfies it.'
+    a: 'From 1 May 2026, yes: on any purchase above one euro. The law requires you to make it possible, not to install a terminal, so a QR code for a bank transfer satisfies it.'
   - q: 'Terminal or payment gateway?'
     a: 'A terminal makes sense where customers pay on the spot in volume. A gateway suits anyone selling remotely: usually a transaction fee only, no monthly rental.'
   - q: 'Can I take card details directly on my own site?'
@@ -16,7 +16,7 @@ faq:
   - q: 'What do Slovak buyers expect besides cards?'
     a: 'Apple Pay and Google Pay, payment through their own banking app, and often cash on delivery. Leaving only one method cuts off everyone who prefers another.'
   - q: 'How long does connecting a gateway take?'
-    a: 'The technical part is quick. The provider''s checks are not — they review your line of business and may ask for documents, and in some sectors that takes weeks. Start before you promise clients online payment.'
+    a: 'The technical part is quick. The provider''s checks are not: they review your line of business and may ask for documents, and in some sectors that takes weeks. Start before you promise clients online payment.'
 ---
 ![Accepting card payments on your website | White Eagles & Co.](/assets/blog/webvardpay.webp)
 

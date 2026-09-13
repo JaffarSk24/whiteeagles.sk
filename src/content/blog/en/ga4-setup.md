@@ -11,11 +11,11 @@ faq:
   - q: 'Why does GA4 show zero conversions when enquiries are arriving?'
     a: 'The most common cause: the event goes into dataLayer but there is no tag in Tag Manager passing it to GA4. The second most common: the event arrives but is not marked as a key event, so it is missing from the conversions report. Both take ten minutes to check.'
   - q: 'Should GA4 be connected directly or through Tag Manager?'
-    a: 'Through Tag Manager. Direct connection looks simpler, but within a month you will need a second script, a third, cookie consent and events — all of it requiring edits to the site code. The critical rule: never connect both ways at once, or every figure doubles.'
+    a: 'Through Tag Manager. Direct connection looks simpler, but within a month you will need a second script, a third, cookie consent and events. All of it requires edits to the site code. The critical rule: never connect both ways at once, or every figure doubles.'
   - q: 'What is Consent Mode v2 and is it mandatory?'
     a: 'It is the mode in which Google receives a signal about the visitor''s consent and behaves in a limited way until it arrives. Since March 2024, without it Google Ads does not accept EU data for remarketing and conversion modelling. In practice: without Consent Mode v2 some conversions are not counted at all.'
   - q: 'How long does GA4 keep data?'
-    a: 'Two months by default. It is changed by hand in the data retention settings to 14 months — the maximum for the free version. Leaving the default is a bad idea: after two months you can no longer compare period against period.'
+    a: 'Two months by default. It is changed by hand in the data retention settings to 14 months: the maximum for the free version. Leaving the default is a bad idea: after two months you can no longer compare period against period.'
   - q: 'Does a small company need server-side Tag Manager?'
     a: 'Usually not. It addresses data loss from blockers and browser restrictions and is justified where the advertising budget is significant. A small company should first get ordinary measurement working correctly.'
 ---

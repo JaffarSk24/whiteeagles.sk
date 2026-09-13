@@ -8,15 +8,15 @@ date: '2026-08-04'
 key: 'seo-audit'
 faq:
   - q: 'Ako dlho trvá základný SEO audit svojpomocne?'
-    a: 'Asi hodinu, ak idete po zozname a nezabŕdate do detailov. Prvé štyri kontroly — indexácia, duplicitné adresy, meranie dopytov a rýchlosť — zaberú dvadsať minút a nájdu väčšinu vážnych problémov.'
+    a: 'Asi hodinu, ak idete po zozname a nezabŕdate do detailov. Prvé štyri kontroly (indexácia, duplicitné adresy, meranie dopytov a rýchlosť) zaberú dvadsať minút a nájdu väčšinu vážnych problémov.'
   - q: 'Aké nástroje treba a koľko stoja?'
     a: 'Všetko uvedené sa dá spraviť bezplatnými nástrojmi: Google Search Console, PageSpeed Insights, bežný prehliadač a anonymné okno. Platené služby prídu na rad neskôr, keď sú základné chyby odstránené.'
   - q: 'Čo kontrolovať ako prvé?'
-    a: 'Indexáciu a duplicitné adresy. Ak Google stránky nevidí alebo vidí štyri kópie webu, všetko ostatné — texty, odkazy, rýchlosť — pracuje naprázdno.'
+    a: 'Indexáciu a duplicitné adresy. Ak Google stránky nevidí alebo vidí štyri kópie webu, všetko ostatné, teda texty, odkazy aj rýchlosť, pracuje naprázdno.'
   - q: 'Web v Googli mám, ale dopyty nechodia. Čo to znamená?'
     a: 'Najčastejšie jedno z troch: stránky sa zobrazujú na nerelevantné dopyty, útržok vo výsledkoch nedáva dôvod kliknúť, alebo dopyty naozaj chodia, len sa nemerajú. Všetky tri sa overia za pol hodiny.'
   - q: 'Má zmysel audit, keď má web menej ako rok?'
-    a: 'Práve vtedy áno. Chyby prvého roka — zlé presmerovania, duplicity, chýbajúce meranie — sa nabaľujú a čím neskôr sa nájdu, tým dlhšie trvá dostať sa z nich von.'
+    a: 'Práve vtedy áno. Chyby prvého roka (zlé presmerovania, duplicity, chýbajúce meranie) sa nabaľujú a čím neskôr sa nájdu, tým dlhšie trvá dostať sa z nich von.'
 ---
 ![SEO audit webu svojpomocne | White Eagles & Co.](/assets/blog/blog5.webp)
 

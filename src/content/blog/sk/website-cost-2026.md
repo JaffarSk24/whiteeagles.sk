@@ -16,7 +16,7 @@ faq:
   - q: 'Ako dlho trvá vývoj?'
     a: 'Landing page týždeň až dva, firemný web dva až štyri týždne, e-shop dlhšie. V priemere odovzdávam za 10 pracovných dní, 90 percent projektov do 15.'
   - q: 'Musím pripraviť zadanie?'
-    a: 'Nie. Stačí krátky rozhovor o úlohách podnikania — riešenie navrhnem ja. Požiadavka napísať štyridsaťstranový dokument zdržiava štart najviac.'
+    a: 'Nie. Stačí krátky rozhovor o úlohách podnikania a riešenie navrhnem ja. Požiadavka napísať štyridsaťstranový dokument zdržiava štart najviac.'
 ---
 ![Koľko stojí web na Slovensku v roku 2026 | White Eagles & Co.](/assets/blog/blog1.webp)
 

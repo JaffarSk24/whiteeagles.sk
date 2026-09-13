@@ -17,7 +17,7 @@ faq:
   - q: 'How long does development take?'
     a: 'A landing page one to two weeks, a company site two to four, an online shop longer. On average I deliver in 10 working days, and 90 per cent of projects within 15.'
   - q: 'Do I need to prepare a technical specification?'
-    a: 'No. A short conversation about the business goals is enough — I propose the solution. Demanding a forty-page document is what delays the start most.'
+    a: 'No. A short conversation about the business goals is enough: I propose the solution. Demanding a forty-page document is what delays the start most.'
 ---
 ![What a website costs in Slovakia in 2026 | White Eagles & Co.](/assets/blog/blog1.webp)
 

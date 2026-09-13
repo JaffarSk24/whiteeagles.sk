@@ -99,7 +99,7 @@
         "faq": [
           {
             "q": "How much does a website cost?",
-            "a": "A simple landing page with contacts from 1 500 €, a full website with booking or time slots, email on your domain and enquiry tracking from 3 500 €, an e-shop from 5 000 €. Hourly rate 35 €. I state the exact price after the first conversation and do not change it later."
+            "a": "A simple landing page with contacts from 1 500€, a full website with booking or time slots, email on your domain and enquiry tracking from 3 500€, an e-shop from 5 000€. Hourly rate 35€. I state the exact price after the first conversation and do not change it later."
           },
           {
             "q": "How long does it take?",
@@ -194,7 +194,7 @@
           },
           {
             "q": "Will you fix a site you did not build?",
-            "a": "Mostly those. WordPress, Shoptet, PHP, Python, JavaScript — the platform does not matter."
+            "a": "Mostly those. WordPress, Shoptet, PHP, Python, JavaScript, the platform does not matter."
           },
           {
             "q": "Do you need access?",
@@ -289,7 +289,7 @@
           },
           {
             "q": "Do you manage campaigns ongoing?",
-            "a": "Yes. After launch continuous optimisation matters — without it a campaign loses performance over time."
+            "a": "Yes. After launch continuous optimisation matters, without it a campaign loses performance over time."
           }
         ],
         "facts": [
@@ -503,7 +503,7 @@
           },
           {
             "q": "Where does it run and what does it cost monthly?",
-            "a": "On your server or mine. Running costs are small — a few euros a month, and I say exactly how much upfront."
+            "a": "On your server or mine. Running costs are small, a few euros a month, and I say exactly how much upfront."
           },
           {
             "q": "Is automated posting to Bazoš acceptable?",
@@ -825,7 +825,7 @@
       },
       {
         "q": "Do you need access to my site?",
-        "a": "Not for a basic audit — a public address is enough. Access to Google Search Console and Analytics makes it considerably more accurate, because I can see real queries and visitor behaviour."
+        "a": "Not for a basic audit: a public address is enough. Access to Google Search Console and Analytics makes it considerably more accurate, because I can see real queries and visitor behaviour."
       },
       {
         "q": "What if I want to fix things myself?",
@@ -841,11 +841,11 @@
       },
       {
         "q": "What is the difference between an SEO audit and a technical website audit?",
-        "a": "In practice the terms overlap. \"Technical audit\" usually means the narrower scope — code, speed, indexing. I do both at once, because separately there is no way to tell why a site brings no enquiries: a fast site on the wrong queries fails just as surely as a slow one."
+        "a": "In practice the terms overlap. \"Technical audit\" usually means the narrower scope: code, speed, indexing. I do both at once, because separately there is no way to tell why a site brings no enquiries: a fast site on the wrong queries fails just as surely as a slow one."
       },
       {
         "q": "Does the audit include a consultation?",
-        "a": "Yes, if you want one. You get the audit in writing and we can then go through it together — in person in Bratislava or online. I charge nothing for a consultation about the audit."
+        "a": "Yes, if you want one. You get the audit in writing and we can then go through it together, in person in Bratislava or online. I charge nothing for a consultation about the audit."
       }
     ]
   },
@@ -908,7 +908,7 @@
     "items": [
       {
         "q": "How much does a website cost in Slovakia?",
-        "a": "A simple landing page with contacts and a form from 1 500 €. A full multi-page website with booking or time slots, email on your own domain and enquiry tracking from 3 500 €. An e-shop from 5 000 €. The development rate is 35 €/hr. The final sum depends on the number of pages and languages, integrations (CRM, payments, booking) and the extent of custom design. The price is agreed in advance and does not change mid-project; no complex brief is needed, a short conversation about goals is enough. Included: analytics with enquiry tracking, a cookie banner with Consent Mode v2, the mandatory Slovak company details and 6 months of support."
+        "a": "A simple landing page with contacts and a form from 1 500€. A full multi-page website with booking or time slots, email on your own domain and enquiry tracking from 3 500€. An e-shop from 5 000€. The development rate is 35€/hr. The final sum depends on the number of pages and languages, integrations (CRM, payments, booking) and the extent of custom design. The price is agreed in advance and does not change mid-project; no complex brief is needed, a short conversation about goals is enough. Included: analytics with enquiry tracking, a cookie banner with Consent Mode v2, the mandatory Slovak company details and 6 months of support."
       },
       {
         "q": "Why choose White Eagles & Co.?",

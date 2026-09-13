@@ -12,7 +12,7 @@ faq:
   - q: 'Telegram or a widget on the site?'
     a: 'It depends where your client is. A widget catches someone already on the site, but the conversation dies when the tab closes. Telegram stays in the phone and lets you return to the thread a week later, and your staff need not open a separate panel.'
   - q: 'Will a bot replace an employee?'
-    a: 'No, and it should not. A bot takes the repetitive part: receiving enquiries, answering standard questions, reminders, notifications. Anything requiring a decision it hands to a person — faster than email does.'
+    a: 'No, and it should not. A bot takes the repetitive part: receiving enquiries, answering standard questions, reminders, notifications. Anything requiring a decision it hands to a person, and does so faster than email.'
   - q: 'How does a bot differ from an AI chat?'
     a: 'An ordinary bot follows a defined script and does exactly what was built. An AI chat answers freely and can get facts wrong, and on questions about prices and deadlines the cost of an error is high. For taking enquiries a script is more reliable.'
   - q: 'How long does development take?'

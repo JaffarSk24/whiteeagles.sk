@@ -10,7 +10,7 @@ faq:
   - q: 'Koľko rozpočtu treba na Google Ads na Slovensku?'
     a: 'Orientačne pri úzkej službe v Bratislave od 10–15 eur denne, teda 300–450 mesačne. Menej tiež funguje, ale na závery zo štatistiky sa bude čakať dlhšie: aby sa dalo posúdiť, či sa kampaň vracia, treba nazbierať aspoň 20–30 dopytov.'
   - q: 'Za ako dlho prídu prvé dopyty?'
-    a: 'Prvé dopyty sú možné v deň spustenia — v tom je hlavný rozdiel oproti SEO. Prvé dva-tri týždne však odídu na zbieranie vylučujúcich slov a odrezávanie odpadových dopytov, takže hodnotiť návratnosť skôr ako po mesiaci je predčasné.'
+    a: 'Prvé dopyty sú možné v deň spustenia a práve v tom je hlavný rozdiel oproti SEO. Prvé dva-tri týždne však odídu na zbieranie vylučujúcich slov a odrezávanie odpadových dopytov, takže hodnotiť návratnosť skôr ako po mesiaci je predčasné.'
   - q: 'Prečo kampaň míňa rozpočet a dopyty nechodia?'
     a: 'Najčastejšie sa konverzie neposielajú do Googlu. Algoritmus nemá na čom optimalizovať a míňa na najlacnejšie kliknutia, ktoré nikam nevedú. Druhá najčastejšia príčina je voľná zhoda bez vylučujúcich slov.'
   - q: 'Treba pre reklamu samostatnú stránku?'

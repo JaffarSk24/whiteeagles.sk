@@ -10,7 +10,7 @@ faq:
   - q: 'If all my clients speak Russian, why a Slovak version?'
     a: 'Because it opens a market several times larger, serves Slovak partners and suppliers, and makes the company legible to local authorities and banks. The Russian version serves the clients you have; the Slovak one brings new ones.'
   - q: 'Which version should be the main one?'
-    a: 'Usually Slovak — it matches the market the business is registered in and covers a larger volume of search queries. The Russian version remains a full version, not a second-class translation.'
+    a: 'Usually Slovak: it matches the market the business is registered in and covers a larger volume of search queries. The Russian version remains a full version, not a second-class translation.'
   - q: 'Is machine translation good enough?'
     a: 'No. A Slovak reader spots machine translation instantly, and it damages trust more than having no Slovak version at all.'
   - q: 'How should a bilingual site be built technically?'

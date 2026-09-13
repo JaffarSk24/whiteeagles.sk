@@ -14,9 +14,9 @@ faq:
   - q: 'Prečo Google privádza nerelevantné dopyty?'
     a: 'Pre voľnú zhodu bez vylučujúcich slov. Google si dopyt vykladá voľne a na reklamu „tvorba webstránok" prídu tí, čo hľadajú kurzy, prácu alebo šablónu zadarmo. Vidno to v prehľade vyhľadávacích dopytov.'
   - q: 'Môže byť na vine cieľová stránka?'
-    a: 'Áno, a je to jedna z najčastejších príčin. Reklama na úvodnú stránku namiesto stránky konkrétnej služby, pomalé načítanie na mobile alebo chýbajúca cena — človek klikol, vy ste zaplatili, on odišiel.'
+    a: 'Áno, a je to jedna z najčastejších príčin. Reklama na úvodnú stránku namiesto stránky konkrétnej služby, pomalé načítanie na mobile alebo chýbajúca cena: človek klikol, vy ste zaplatili, on odišiel.'
   - q: 'Mám reklamu počas hľadania príčiny vypnúť?'
-    a: 'Ak je príčina v meraní alebo formulári, tak áno — inak platíte za dopyty, ktoré neuvidíte. Ak sú to nerelevantné dopyty, netreba vypínať, stačí zúžiť zhodu a pridať vylučujúce slová.'
+    a: 'Ak je príčina v meraní alebo formulári, tak áno, lebo inak platíte za dopyty, ktoré neuvidíte. Ak sú to nerelevantné dopyty, netreba vypínať, stačí zúžiť zhodu a pridať vylučujúce slová.'
 ---
 ![Reklama beží, dopyty nechodia | White Eagles & Co.](/assets/blog/0-orders.webp)
 

@@ -12,11 +12,11 @@ faq:
   - q: 'How much data is lost without it?'
     a: 'It depends on the audience. For an ordinary Slovak company it is single digits to low tens of percent; for a technical audience more, because most of them run blockers. The exact figure cannot be guessed from outside, but it can be measured: compare the enquiries in your inbox with the conversions in GA4.'
   - q: 'What does running it cost?'
-    a: 'The setup itself from 500 euros at 25 euros an hour. On top of that a server running around the clock — a recurring monthly cost, unlike ordinary GA4, which costs nothing.'
+    a: 'The setup itself from 500 euros at 25 euros an hour. On top of that a server running around the clock: a recurring monthly cost, unlike ordinary GA4, which costs nothing.'
   - q: 'From what budget does it make sense?'
     a: 'While the ad budget is in the hundreds of euros a month, the gain will not pay for the server or the work. It starts making sense at a steady budget in the thousands, and for an online shop where measurement accuracy directly changes what the algorithm decides.'
   - q: 'Does server-side GTM replace cookie consent?'
-    a: 'No. Consent is a legal requirement and server-side tagging does not lift it — Consent Mode v2 has to work just the same. Anyone selling it as a way around consent is selling you a problem.'
+    a: 'No. Consent is a legal requirement and server-side tagging does not lift it: Consent Mode v2 has to work just the same. Anyone selling it as a way around consent is selling you a problem.'
 ---
 ![Server-side GTM and GA4 setup | White Eagles & Co.](/assets/blog/GTM-GA4.webp)
 

@@ -17,7 +17,7 @@ faq:
   - q: 'How long does opening an s.r.o. take?'
     a: 'With documents prepared, 3 to 7 working days until the entry appears in the register. Add time for the bank account, the tax office and everything after.'
   - q: 'Do I have to deposit 5,000 EUR of share capital into an account?'
-    a: 'No. A deposit administrator declaration is enough — the founder declares that the money has been paid into the company. Bank statements are not required for registration.'
+    a: 'No. A deposit administrator declaration is enough: the founder declares that the money has been paid into the company. Bank statements are not required for registration.'
 ---
 ![How to open an s.r.o. in Slovakia in 2026 | White Eagles & Co.](/assets/blog/firmaotvorena.webp)
 

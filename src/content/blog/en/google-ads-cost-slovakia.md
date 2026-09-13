@@ -12,7 +12,7 @@ faq:
   - q: 'What is the minimum budget worth starting on?'
     a: 'For one service in one city, from 10–15 euros a day. Less works too, but the statistics take three times as long to accumulate, and you pay throughout without having the data to decide on.'
   - q: 'What does campaign management cost?'
-    a: 'Three models exist on the Slovak market: a percentage of budget (usually 10–20 %), a fixed monthly fee, or an hourly rate. At small budgets a percentage does not pay an agency enough to give the campaign time.'
+    a: 'Three models exist on the Slovak market: a percentage of budget (usually 10–20%), a fixed monthly fee, or an hourly rate. At small budgets a percentage does not pay an agency enough to give the campaign time.'
   - q: 'How soon does advertising pay for itself?'
     a: 'First enquiries are possible on launch day. Judging the return before a month has passed is premature: the first two to three weeks go on collecting negative keywords and cutting off irrelevant traffic.'
   - q: 'Which is cheaper, Google Ads or SEO?'

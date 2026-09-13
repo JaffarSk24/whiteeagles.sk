@@ -12,10 +12,10 @@ faq:
   - q: 'Aký minimálny rozpočet má zmysel?'
     a: 'Pre jednu službu v jednom meste od 10–15 eur denne. Menej tiež funguje, ale štatistika sa zbiera trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.'
   - q: 'Koľko sa berie za správu kampaní?'
-    a: 'Na slovenskom trhu sú tri schémy: percento z rozpočtu (zvyčajne 10–20 %), pevná mesačná suma alebo hodinová sadzba. Pri malých rozpočtoch je percento pre agentúru nevýhodné, preto ponúkajú fix alebo hodiny. U mňa je hodinová sadzba 25 eur, plný rozbeh kampaní začína približne od 1000 eur a rozpočet na reklamu sa platí zvlášť priamo Googlu alebo Mete.'
+    a: 'Na slovenskom trhu sú tri schémy: percento z rozpočtu (zvyčajne 10–20%), pevná mesačná suma alebo hodinová sadzba. Pri malých rozpočtoch je percento pre agentúru nevýhodné, preto ponúkajú fix alebo hodiny. U mňa je hodinová sadzba 25 eur, plný rozbeh kampaní začína približne od 1000 eur a rozpočet na reklamu sa platí zvlášť priamo Googlu alebo Mete.'
   - q: 'Za ako dlho sa reklama vráti?'
     a: 'Prvé dopyty sú možné v deň spustenia. Hodnotiť návratnosť skôr ako po mesiaci je predčasné: prvé dva-tri týždne odídu na zbieranie vylučujúcich slov a odrezávanie nerelevantných dopytov.'
-  - q: 'Čo je lacnejšie — Google Ads alebo SEO?'
+  - q: 'Čo je lacnejšie: Google Ads alebo SEO?'
     a: 'Iný charakter nákladov. Reklama sú premenné náklady, ktoré končia spolu so zobrazovaním. SEO je investícia do aktíva, ktorá sa rozbieha 3–6 mesiacov a potom pracuje bez platby za kliknutie. Malá firma zvyčajne potrebuje oboje, len v inom čase.'
 ---
 ![Koľko stojí reklama v Google Ads na Slovensku | White Eagles & Co.](/assets/blog/ads-how.webp)

@@ -8,7 +8,7 @@ date: '2026-08-04'
 updated: '2026-09-12'
 key: 'wordpress-vs-custom'
 faq:
-  - q: 'Which is cheaper — WordPress or a custom build?'
+  - q: 'Which is cheaper: WordPress or a custom build?'
     a: 'At launch, WordPress. Over three years the gap often disappears: plugin subscriptions, updates, recovery after a compromise, and a rebuild when the template hits its ceiling. Count the cost of ownership, not the first invoice.'
   - q: 'Is it true that WordPress is slow?'
     a: 'What is slow is not WordPress but the typical build: a heavy theme plus a dozen plugins, each with its own scripts and styles. A carefully assembled WordPress runs fast, but it takes discipline and costs more than a cheap build.'
@@ -17,7 +17,7 @@ faq:
   - q: 'Will I be able to change texts myself on a custom site?'
     a: 'Yes, if it is planned for. An admin panel is built for the sections that actually change: prices, services, articles, gallery. The difference from WordPress is that you cannot accidentally break the layout.'
   - q: 'What should I choose for an online shop?'
-    a: 'It depends on the catalogue. A small shop with dozens of products lives well on a ready solution. A shop with more complex logic — volume pricing, warehouse integration, non-standard delivery — hits the limits of a plugin before the saving pays back.'
+    a: 'It depends on the catalogue. A small shop with dozens of products lives well on a ready solution. A shop with more complex logic (volume pricing, warehouse integration, non-standard delivery) hits the limits of a plugin before the saving pays back.'
 ---
 ![WordPress or a custom build | White Eagles & Co.](/assets/blog/blog2.webp)
 

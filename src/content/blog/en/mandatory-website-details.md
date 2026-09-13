@@ -8,7 +8,7 @@ date: '2026-08-04'
 key: 'website-details'
 faq:
   - q: 'What must an s.r.o. state on its website?'
-    a: 'Company name exactly as in the Commercial Register including the legal form, registered address, IČO, DIČ, IČ DPH if VAT registered, and the registration details — which court, which section, which insert number.'
+    a: 'Company name exactly as in the Commercial Register including the legal form, registered address, IČO, DIČ, IČ DPH if VAT registered, and the registration details: which court, which section, which insert number.'
   - q: 'Is a sole trader''s list different?'
     a: 'Yes. A sole trader states their name and surname, place of business, IČO and the trade register entry with the issuing authority. There is no Commercial Register insert number, because there is no entry there.'
   - q: 'Where do the details have to appear?'

@@ -8,7 +8,7 @@ date: '2026-08-04'
 updated: '2026-09-12'
 key: 'wordpress-vs-custom'
 faq:
-  - q: 'Čo je lacnejšie — WordPress alebo web na mieru?'
+  - q: 'Čo je lacnejšie: WordPress alebo web na mieru?'
     a: 'Na štarte WordPress. Za tri roky rozdiel často zmizne: predplatné pluginov, aktualizácie, obnova po napadnutí a prerábka, keď šablóna narazí na strop. Rátať treba náklady vlastníctva, nie len prvú faktúru.'
   - q: 'Je pravda, že WordPress je pomalý?'
     a: 'Pomalý nie je WordPress, ale typická zostava: ťažká téma plus desiatka pluginov, každý s vlastnými skriptmi a štýlmi. Starostlivo poskladaný WordPress beží rýchlo, ale vyžaduje disciplínu a stojí viac než lacná zostava.'
@@ -17,7 +17,7 @@ faq:
   - q: 'Budem si vedieť sám meniť texty na webe na mieru?'
     a: 'Áno, ak sa s tým počíta. Panel sa robí pre tie sekcie, ktoré sa naozaj menia: ceny, služby, články, galéria. Rozdiel oproti WordPressu je v tom, že si nedokážete náhodou rozbiť vzhľad.'
   - q: 'Čo si vybrať pre e-shop?'
-    a: 'Závisí od katalógu. Menší obchod s desiatkami produktov žije dobre na hotovom riešení. Obchod so zložitejšou logikou — ceny podľa objemu, napojenie na sklad, neštandardná doprava — narazí na limity pluginu skôr, než sa úspora vráti.'
+    a: 'Závisí od katalógu. Menší obchod s desiatkami produktov žije dobre na hotovom riešení. Obchod so zložitejšou logikou (ceny podľa objemu, napojenie na sklad, neštandardná doprava) narazí na limity pluginu skôr, než sa úspora vráti.'
 ---
 ![WordPress alebo web na mieru | White Eagles & Co.](/assets/blog/blog2.webp)
 

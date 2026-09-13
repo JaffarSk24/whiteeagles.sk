@@ -10,7 +10,7 @@ faq:
   - q: 'Ak všetci moji klienti hovoria po rusky, načo slovenská verzia?'
     a: 'Pretože otvára trh, ktorý je násobne väčší, obsluhuje slovenských partnerov a dodávateľov a robí firmu zrozumiteľnou pre úrady aj banky. Cudzojazyčná verzia obsluhuje súčasných klientov, slovenská privádza nových.'
   - q: 'Ktorá verzia má byť hlavná?'
-    a: 'Zvyčajne slovenská — zodpovedá trhu, na ktorom je podnikanie registrované, a pokrýva väčší objem vyhľadávacích dopytov. Druhá jazyková verzia zostáva plnohodnotná, nie preklad druhej kategórie.'
+    a: 'Zvyčajne slovenská, pretože zodpovedá trhu, na ktorom je podnikanie registrované, a pokrýva väčší objem vyhľadávacích dopytov. Druhá jazyková verzia zostáva plnohodnotná, nie preklad druhej kategórie.'
   - q: 'Stačí automatický preklad?'
     a: 'Nie. Strojový preklad slovenský čitateľ rozpozná okamžite a pôsobí proti dôvere silnejšie, než keby slovenská verzia nebola vôbec.'
   - q: 'Ako spraviť dvojjazyčný web technicky správne?'

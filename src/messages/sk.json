@@ -99,18 +99,18 @@
         "faq": [
           {
             "q": "Koľko stojí tvorba webstránky?",
-            "a": "Jednoduchá landing page s kontaktom od 1 500 €, plnohodnotný web s rezerváciou alebo slotmi, e-mailom na doméne a meraním dopytov od 3 500 €, e-shop od 5 000 €. Hodinová sadzba 35 €. Presnú cenu poviem po prvom rozhovore a v priebehu ju nemením."
+            "a": "Jednoduchá landing page s kontaktom od 1 500€, plnohodnotný web s rezerváciou alebo slotmi, e-mailom na doméne a meraním dopytov od 3 500€, e-shop od 5 000€. Hodinová sadzba 35€. Presnú cenu poviem po prvom rozhovore a v priebehu ju nemením."
           },
           {
             "q": "Ako dlho trvá spustenie webu?",
-            "a": "Priemerne 10 pracovných dní, 90 % projektov odovzdávam do 15 pracovných dní. Väčší e-shop alebo portál trvá dlhšie a termín poviem vopred."
+            "a": "Priemerne 10 pracovných dní, 90% projektov odovzdávam do 15 pracovných dní. Väčší e-shop alebo portál trvá dlhšie a termín poviem vopred."
           },
           {
             "q": "Musím pripraviť podrobné zadanie?",
             "a": "Nie. Práve preto, že to väčšinu firiem zdržuje najviac, riešenie navrhujem ja na základe krátkeho rozhovoru o vašich cieľoch."
           },
           {
-            "q": "Na čom weby staviate — WordPress alebo na mieru?",
+            "q": "Na čom weby staviate: na WordPresse alebo na mieru?",
             "a": "Podľa toho, čo dáva zmysel. WordPress tam, kde budete obsah spravovať sami a stačia hotové riešenia. Na mieru (PHP, Python, JS) tam, kde treba rýchlosť, neštandardnú funkčnosť alebo integrácie."
           },
           {
@@ -119,7 +119,7 @@
           },
           {
             "q": "Pracujete aj mimo Bratislavy?",
-            "a": "Áno, celé Slovensko aj okolité krajiny. V Bratislave sa vieme stretnúť osobne, so vzdialenejšími klientmi pracujem online — na kvalite to nič nemení."
+            "a": "Áno, celé Slovensko aj okolité krajiny. V Bratislave sa vieme stretnúť osobne, so vzdialenejšími klientmi pracujem online a na kvalite to nič nemení."
           }
         ],
         "facts": [
@@ -186,7 +186,7 @@
         "faq": [
           {
             "q": "Koľko stojí oprava webu?",
-            "a": "Hodinová sadzba 35 €. Väčšina bežných porúch je hodina až tri. Odhad poviem po diagnostike, ešte pred prácou."
+            "a": "Hodinová sadzba 35€. Väčšina bežných porúch je hodina až tri. Odhad poviem po diagnostike, ešte pred prácou."
           },
           {
             "q": "Ako rýchlo to opravíte?",
@@ -194,7 +194,7 @@
           },
           {
             "q": "Opravíte aj web, ktorý ste nerobili?",
-            "a": "Prevažne takéto opravujem. WordPress, Shoptet, PHP, Python, JavaScript — na platforme nezáleží."
+            "a": "Prevažne takéto opravujem. WordPress, Shoptet, PHP, Python, JavaScript, na platforme nezáleží."
           },
           {
             "q": "Potrebujete prístupy?",
@@ -273,7 +273,7 @@
         "faq": [
           {
             "q": "Koľko stojí nastavenie kampaní?",
-            "a": "Hodinová sadzba 25 €, kompletné spustenie začína okolo 1 000 €. Rozpočet na samotnú reklamu je oddelený a platíte ho priamo Googlu alebo Meta."
+            "a": "Hodinová sadzba 25€, kompletné spustenie začína okolo 1 000€. Rozpočet na samotnú reklamu je oddelený a platíte ho priamo Googlu alebo Meta."
           },
           {
             "q": "Aký rozpočet potrebujem?",
@@ -289,7 +289,7 @@
           },
           {
             "q": "Spravujete kampane aj priebežne?",
-            "a": "Áno. Po spustení má zmysel priebežná optimalizácia — bez nej kampaň časom stráca výkon."
+            "a": "Áno. Po spustení má zmysel priebežná optimalizácia, bez nej kampaň časom stráca výkon."
           }
         ],
         "facts": [
@@ -347,7 +347,7 @@
         "faq": [
           {
             "q": "Koľko stojí nastavenie analytiky?",
-            "a": "Hodinová sadzba 25 €, kompletné nastavenie pre bežný firemný web začína okolo 500 €. Presnú cenu poviem po krátkom audite toho, čo už máte."
+            "a": "Hodinová sadzba 25€, kompletné nastavenie pre bežný firemný web začína okolo 500€. Presnú cenu poviem po krátkom audite toho, čo už máte."
           },
           {
             "q": "Ako dlho to trvá?",
@@ -423,7 +423,7 @@
         "faq": [
           {
             "q": "Koľko stojí cookie lišta?",
-            "a": "Od 200 €, jednorazovo. Žiadne mesačné predplatné."
+            "a": "Od 200€, jednorazovo. Žiadne mesačné predplatné."
           },
           {
             "q": "Musím ju mať, keď mám len Google Analytics?",
@@ -499,11 +499,11 @@
         "faq": [
           {
             "q": "Koľko stojí bot?",
-            "a": "Hodinová sadzba 25 €, jednoduchší bot začína okolo 500 €. Cena závisí od toho, koľko systémov má prepojiť."
+            "a": "Hodinová sadzba 25€, jednoduchší bot začína okolo 500€. Cena závisí od toho, koľko systémov má prepojiť."
           },
           {
             "q": "Kde bot beží a čo to stojí mesačne?",
-            "a": "Na vašom serveri alebo na mojom. Prevádzka je lacná — rádovo jednotky eur mesačne, a poviem presne, koľko."
+            "a": "Na vašom serveri alebo na mojom. Prevádzka je lacná, rádovo jednotky eur mesačne, a presnú sumu poviem vopred."
           },
           {
             "q": "Je automatické pridávanie na Bazoš v poriadku?",
@@ -821,7 +821,7 @@
       },
       {
         "q": "Ako dlho audit trvá?",
-        "a": "Do 3 pracovných dní od chvíle, keď mi pošlete adresu webu. Pri veľkých e-shopoch to môže byť do 5 dní — vopred to poviem."
+        "a": "Do 3 pracovných dní od chvíle, keď mi pošlete adresu webu. Pri veľkých e-shopoch to môže byť do 5 dní, vopred to poviem."
       },
       {
         "q": "Potrebujete prístupy do môjho webu?",
@@ -833,7 +833,7 @@
       },
       {
         "q": "Robíte audit aj pre weby, ktoré ste nerobili vy?",
-        "a": "Prevažne áno — väčšina auditov je práve pre cudzie weby. Nezáleží na tom, či beží na WordPresse, na Shoptete alebo na vlastnom kóde."
+        "a": "Prevažne áno, väčšina auditov je práve pre cudzie weby. Nezáleží na tom, či beží na WordPresse, na Shoptete alebo na vlastnom kóde."
       },
       {
         "q": "Čo ak je web úplne v poriadku?",
@@ -841,11 +841,11 @@
       },
       {
         "q": "Aký je rozdiel medzi SEO auditom a technickým auditom webu?",
-        "a": "V praxi sa tie pojmy prekrývajú. Technický audit sa zvykne používať pre užší rozsah — kód, rýchlosť, indexácia. Ja robím oboje naraz, pretože oddelene sa nedá vyvodiť, prečo web neprináša dopyty: rýchly web bez správnych dopytov je rovnako neúspešný ako pomalý."
+        "a": "V praxi sa tie pojmy prekrývajú. Technický audit sa zvykne používať pre užší rozsah: kód, rýchlosť, indexácia. Ja robím oboje naraz, pretože oddelene sa nedá vyvodiť, prečo web neprináša dopyty: rýchly web bez správnych dopytov je rovnako neúspešný ako pomalý."
       },
       {
         "q": "Je súčasťou auditu aj konzultácia?",
-        "a": "Áno, ak ju chcete. Audit dostanete písomne a potom si ho môžeme prejsť — v Bratislave osobne alebo online. Za konzultáciu k auditu neúčtujem nič."
+        "a": "Áno, ak ju chcete. Audit dostanete písomne a potom si ho môžeme prejsť, v Bratislave osobne alebo online. Za konzultáciu k auditu neúčtujem nič."
       }
     ]
   },
@@ -908,27 +908,27 @@
     "items": [
       {
         "q": "Koľko stojí tvorba webstránky a od čoho závisí cena?",
-        "a": "Jednoduchá landing page s kontaktom a formulárom od 1 500 €. Plnohodnotný viacstránkový web s rezerváciou alebo slotmi, e-mailom na vlastnej doméne a meraním dopytov od 3 500 €. E-shop od 5 000 €. Hodinová sadzba za vývoj je 35 €. Výslednú sumu určuje počet stránok a jazykov, integrácie (CRM, platby, rezervácie) a rozsah individuálneho dizajnu. Cena sa dohodne vopred a počas projektu sa nemení; zložité zadanie sa nevyžaduje — stačí krátky rozhovor o cieľoch. V cene je analytika s meraním dopytov, cookie lišta s Consent Mode v2, povinné údaje slovenskej firmy a 6 mesiacov podpory."
+        "a": "Jednoduchá landing page s kontaktom a formulárom od 1 500€. Plnohodnotný viacstránkový web s rezerváciou alebo slotmi, e-mailom na vlastnej doméne a meraním dopytov od 3 500€. E-shop od 5 000€. Hodinová sadzba za vývoj je 35€. Výslednú sumu určuje počet stránok a jazykov, integrácie (CRM, platby, rezervácie) a rozsah individuálneho dizajnu. Cena sa dohodne vopred a počas projektu sa nemení; zložité zadanie sa nevyžaduje, stačí krátky rozhovor o cieľoch. V cene je analytika s meraním dopytov, cookie lišta s Consent Mode v2, povinné údaje slovenskej firmy a 6 mesiacov podpory."
       },
       {
         "q": "Prečo si vybrať White Eagles & Co.?",
-        "a": "Overiteľné fakty: slovenská s.r.o. s IČO 57098581 — faktúru si dáte do nákladov; 12+ spustených webov pre slovenské firmy s funkčnými adresami (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); priemerné dodanie 10 pracovných dní, 90 % projektov do 15; 6 mesiacov technickej podpory v cene; doména a hosting sa registrujú na klienta, nie na dodávateľa. Projekt vedie od zadania po spustenie jeden človek."
+        "a": "Overiteľné fakty: slovenská s.r.o. s IČO 57098581, takže faktúru si dáte do nákladov; 12+ spustených webov pre slovenské firmy s funkčnými adresami (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); priemerné dodanie 10 pracovných dní, 90% projektov do 15; 6 mesiacov technickej podpory v cene; doména a hosting sa registrujú na klienta, nie na dodávateľa. Projekt vedie od zadania po spustenie jeden človek."
       },
       {
         "q": "Aké služby ponúkate?",
-        "a": "Šesť služieb: tvorba webstránok (landing page, firemné weby, e-shopy na React/Next.js, PHP, Pythone), oprava chýb a technická podpora existujúcich webov, správa reklamy Google Ads a Meta (od 1 000 €, sadzba 25 €/hod), webová analytika GA4 + Tag Manager s meraním dopytov (od 500 €), Telegram boty v Pythone (od 500 €) a cookie lišty s Google Consent Mode v2 bez mesačného predplatného (od 200 €)."
+        "a": "Šesť služieb: tvorba webstránok (landing page, firemné weby, e-shopy na React/Next.js, PHP, Pythone), oprava chýb a technická podpora existujúcich webov, správa reklamy Google Ads a Meta (od 1 000€, sadzba 25€/hod), webová analytika GA4 + Tag Manager s meraním dopytov (od 500€), Telegram boty v Pythone (od 500€) a cookie lišty s Google Consent Mode v2 bez mesačného predplatného (od 200€)."
       },
       {
         "q": "Ako dlho trvá vývoj webstránky?",
-        "a": "Landing page jeden až dva týždne, firemný web dva až štyri, e-shop dlhšie podľa katalógu a integrácií. Priemerné dodanie je 10 pracovných dní, 90 % projektov do 15. Je to možné preto, že sa nevyžaduje rozsiahle zadanie: riešenie navrhneme po krátkom rozhovore o cieľoch podnikania."
+        "a": "Landing page jeden až dva týždne, firemný web dva až štyri, e-shop dlhšie podľa katalógu a integrácií. Priemerné dodanie je 10 pracovných dní, 90% projektov do 15. Je to možné preto, že sa nevyžaduje rozsiahle zadanie: riešenie navrhneme po krátkom rozhovore o cieľoch podnikania."
       },
       {
         "q": "Čo zahŕňa technická podpora po spustení webu?",
-        "a": "Každý projekt má 6 mesiacov bezplatnej podpory: monitorovanie dostupnosti, zálohy, aktualizácie, opravy chýb a konzultácie. Po šiestich mesiacoch pokračuje podpora hodinovou sadzbou — bez povinného mesačného paušálu."
+        "a": "Každý projekt má 6 mesiacov bezplatnej podpory: monitorovanie dostupnosti, zálohy, aktualizácie, opravy chýb a konzultácie. Po šiestich mesiacoch pokračuje podpora hodinovou sadzbou, bez povinného mesačného paušálu."
       },
       {
         "q": "Nastavujete Google Ads pre firmy na Slovensku?",
-        "a": "Áno, je to jedna z hlavných služieb. Kompletné spustenie kampane od približne 1 000 €, sadzba 25 €/hod; rozpočet na samotnú reklamu je oddelený a platí sa priamo Googlu alebo Mete z vášho účtu. Účet sa registruje na vás — štatistiky zostávajú vaše. Súčasťou je štruktúra kampaní, vylučujúce slová, inzeráty, meranie konverzií cez GA4 a Consent Mode v2, bez ktorého Google od marca 2024 časť konverzií z EÚ nezapočítava."
+        "a": "Áno, je to jedna z hlavných služieb. Kompletné spustenie kampane od približne 1 000€, sadzba 25€/hod; rozpočet na samotnú reklamu je oddelený a platí sa priamo Googlu alebo Mete z vášho účtu. Účet sa registruje na vás, takže štatistiky zostávajú vaše. Súčasťou je štruktúra kampaní, vylučujúce slová, inzeráty, meranie konverzií cez GA4 a Consent Mode v2, bez ktorého Google od marca 2024 časť konverzií z EÚ nezapočítava."
       }
     ]
   },

@@ -25,6 +25,14 @@ export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+// interactive-widget makes browsers that support it (Chrome, Android) shrink
+// the layout when the keyboard opens, so fixed forms are not covered by it.
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  interactiveWidget: "resizes-content" as const,
+};
+
 export async function generateMetadata({
   params,
 }: {

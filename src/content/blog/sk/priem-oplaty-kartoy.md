@@ -7,15 +7,15 @@ date: '2026-08-04'
 key: 'card-payments'
 faq:
   - q: 'Musím prijímať bezhotovostnú platbu?'
-    a: 'Od 1. mája 2026 je predávajúci povinný umožniť kupujúcemu zaplatiť bezhotovostne pri nákupe nad jedno euro. Jedinou výnimkou je nedostupné internetové pripojenie v mieste predaja. Zákon vyžaduje možnosť platby, nie konkrétne terminál — QR kód na prevod tejto požiadavke vyhovie.'
-  - q: 'Čo je lacnejšie — terminál alebo platba na webe?'
+    a: 'Od 1. mája 2026 je predávajúci povinný umožniť kupujúcemu zaplatiť bezhotovostne pri nákupe nad jedno euro. Jedinou výnimkou je nedostupné internetové pripojenie v mieste predaja. Zákon vyžaduje možnosť platby, nie konkrétne terminál, takže QR kód na prevod tejto požiadavke vyhovie.'
+  - q: 'Čo je lacnejšie: terminál alebo platba na webe?'
     a: 'Závisí od obratu. Terminál má prenájom a servis, online platba zvyčajne len percento z transakcie. Pri malom počte platieb sa oplatí online platba alebo QR kód, pri veľkom toku v prevádzke terminál.'
   - q: 'Potrebujem certifikát PCI DSS?'
     a: 'Ak používate platobnú bránu, údaje karty sa zadávajú na jej strane a na váš web sa vôbec nedostanú. Certifikácia je vtedy na bráne, nie na vás. Práve preto sa údaje kariet nemajú preberať priamo na vlastnom webe.'
   - q: 'Ako dlho trvá napojenie platby?'
-    a: 'Technická integrácia jeden až tri pracovné dni. Najdlhšie trvá overenie zo strany poskytovateľa — od niekoľkých dní po dva týždne podľa druhu činnosti.'
+    a: 'Technická integrácia jeden až tri pracovné dni. Najdlhšie trvá overenie zo strany poskytovateľa, od niekoľkých dní po dva týždne podľa druhu činnosti.'
   - q: 'Dá sa prijímať platba bez e-shopu?'
-    a: 'Áno. Stačí platobný odkaz alebo QR kód — klient ich dostane e-mailom či správou a zaplatí bez košíka a katalógu. Pri službách je to často najrozumnejšie riešenie.'
+    a: 'Áno. Stačí platobný odkaz alebo QR kód, ktorý klient dostane e-mailom či správou a zaplatí bez košíka a katalógu. Pri službách je to často najrozumnejšie riešenie.'
 ---
 ![Prijímanie platby kartou na webe na Slovensku | White Eagles & Co.](/assets/blog/webvardpay.webp)
 

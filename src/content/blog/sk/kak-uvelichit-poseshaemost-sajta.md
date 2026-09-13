@@ -11,12 +11,12 @@ faq:
     a: 'Karta v Googli a katalógy dajú prvé návštevy za dva-tri týždne. Vyhľadávacia návštevnosť z článkov sa rozbieha 3–6 mesiacov. Partnerské odkazy a komunity fungujú rýchlejšie než organika, ale vyžadujú vašu osobnú účasť.'
   - q: 'Koľko článkov treba, aby bol výsledok?'
     a: 'Orientačne 20–30 stránok, každá na konkrétnu otázku. Jeden článok výsledok nedá: vyhľadávanie začne web vnímať ako zdroj vtedy, keď vidí systém, nie jeden text.'
-  - q: 'Čo je dôležitejšie — počet článkov alebo ich kvalita?'
+  - q: 'Čo je dôležitejšie: počet článkov alebo ich kvalita?'
     a: 'Ani jedno samostatne. Dôležitejšie je trafiť konkrétnu otázku: stránka, ktorá na reálny dopyt odpovedá lepšie než ostatné vo výsledkoch, predbehne aj dlhé všeobecné texty, aj desiatku krátkych poznámok.'
   - q: 'Fungujú sociálne siete na privádzanie na web?'
     a: 'Ako zdroj priamej návštevnosti slabo. Ako zdroj dôvery a opakovaných kontaktov áno. Užitočnejšie sú obsažné odpovede v komunitách než príspevky vo vlastnom profile.'
   - q: 'Oplatí sa kupovať odkazy?'
-    a: 'Nie. Je to porušenie pravidiel a na Slovensku aj nezmyselné: trh je malý a kúpené odkazy vidno. Bezplatná alternatíva funguje lepšie — odkazy z webov klientov, z katalógov a od partnerov.'
+    a: 'Nie. Je to porušenie pravidiel a na Slovensku aj nezmyselné: trh je malý a kúpené odkazy vidno. Lepšie funguje bezplatná alternatíva, teda odkazy z webov klientov, z katalógov a od partnerov.'
 ---
 ![Ako zvýšiť návštevnosť webu na Slovensku | White Eagles & Co.](/assets/blog/traffik.webp)
 

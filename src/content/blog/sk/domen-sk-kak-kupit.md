@@ -7,14 +7,14 @@ date: '2026-08-04'
 key: 'sk-domain'
 faq:
   - q: 'Môže doménu .sk zaregistrovať cudzinec?'
-    a: 'Áno. Obmedzenie podľa občianstva ani pobytu pri doméne .sk neexistuje — držiteľom môže byť fyzická osoba aj firma z inej krajiny.'
-  - q: 'Kedy kúpiť doménu — pred založením firmy alebo po ňom?'
+    a: 'Áno. Obmedzenie podľa občianstva ani pobytu pri doméne .sk neexistuje: držiteľom môže byť fyzická osoba aj firma z inej krajiny.'
+  - q: 'Kedy kúpiť doménu: pred založením firmy alebo po ňom?'
     a: 'Pred. Doména zhodná s názvom firmy býva obsadená a zistiť to je lepšie skôr, než sa názov dostane do zakladateľských dokumentov.'
   - q: 'Čo robiť, keď je doména obsadená?'
     a: 'Overte si, či sa naozaj používa. Ak na nej web nie je, skúste kontaktovať držiteľa cez registračné údaje. Ak odkúpenie nevyjde, rozumnejšie je zvoliť iné meno než roky žiť s nepohodlnou adresou.'
   - q: 'Potrebujem popri .sk aj .com?'
-    a: 'Pre podnikanie na Slovensku je dôležitejšia .sk — miestny zákazník jej dôveruje viac. Druhú doménu má zmysel obsadiť do budúcna a nastaviť z nej presmerovanie, nie na nej držať kópiu webu.'
-  - q: 'Komu má doména patriť — mne alebo dodávateľovi?'
+    a: 'Pre podnikanie na Slovensku je dôležitejšia .sk, pretože miestny zákazník jej dôveruje viac. Druhú doménu má zmysel obsadiť do budúcna a nastaviť z nej presmerovanie, nie na nej držať kópiu webu.'
+  - q: 'Komu má doména patriť: mne alebo dodávateľovi?'
     a: 'Iba vám. Doména zapísaná na dodávateľa je riziko, že pri rozchode prídete o adresu. V údajoch držiteľa máte byť vy alebo vaša firma.'
 ---
 ![Doména .sk: ako ju kúpiť a kto ju môže vlastniť | White Eagles & Co.](/assets/blog/domensk.webp)

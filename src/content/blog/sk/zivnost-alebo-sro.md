@@ -9,7 +9,7 @@ key: 'zivnost-or-sro'
 faq:
   - q: 'Môžem mať živnosť aj s.r.o. súčasne?'
     a: 'Áno, je to prípustné a stáva sa to. Daňové a odvodové dôsledky takejto kombinácie si však vopred prepočítajte s účtovníkom.'
-  - q: 'Čo sa lacnejšie ukončuje — živnosť alebo s.r.o.?'
+  - q: 'Čo sa lacnejšie ukončuje: živnosť alebo s.r.o.?'
     a: 'Živnosť rýchlo a takmer zadarmo. s.r.o. vyžaduje likvidáciu: mesiace a citeľné náklady.'
   - q: 'Musím byť rezident SR?'
     a: 'Živnosť aj s.r.o. sú dostupné aj nerezidentom, požiadavky na doklady sa však líšia.'

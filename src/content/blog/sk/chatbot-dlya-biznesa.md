@@ -12,11 +12,11 @@ faq:
   - q: 'Telegram alebo widget na webe?'
     a: 'Závisí od toho, kde je váš klient. Widget zachytí toho, kto už je na webe, ale komunikácia sa preruší zatvorením karty. Telegram zostáva v telefóne a umožňuje vrátiť sa k rozhovoru aj o týždeň, pričom zamestnanec nemusí otvárať samostatný panel.'
   - q: 'Nahradí bot zamestnanca?'
-    a: 'Nie a ani nemá. Bot preberá opakujúcu sa časť: prijatie dopytu, odpovede na typové otázky, pripomienky, upozornenia. Všetko, čo si vyžaduje rozhodnutie, odovzdá človeku — rýchlejšie než e-mail.'
+    a: 'Nie a ani nemá. Bot preberá opakujúcu sa časť: prijatie dopytu, odpovede na typové otázky, pripomienky, upozornenia. Všetko, čo si vyžaduje rozhodnutie, odovzdá človeku, a to rýchlejšie než e-mail.'
   - q: 'Čím sa bot líši od chatu s umelou inteligenciou?'
     a: 'Bežný bot ide podľa scenára a robí presne to, čo má. Chat s AI odpovedá voľne a môže sa pomýliť vo faktoch, pričom pri cenách a termínoch je cena omylu vysoká. Na prijímanie dopytov je scenár spoľahlivejší.'
   - q: 'Ako dlho trvá vývoj?'
-    a: 'Jednoduchý bot na prijímanie dopytov s upozornením — pár dní. Bot s rezerváciami prepojený s webom a kalendárom — jeden až dva týždne, podľa toho, čo už existuje.'
+    a: 'Jednoduchý bot na prijímanie dopytov s upozornením je hotový za pár dní. Bot s rezerváciami prepojený s webom a kalendárom trvá jeden až dva týždne, podľa toho, čo už existuje.'
 ---
 ![Chatbot pre firmu | White Eagles & Co.](/assets/blog/chatbotbus.webp)
 
