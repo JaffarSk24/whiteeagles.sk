@@ -293,9 +293,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
             <button type="submit" className="btn btn-primary btn-submit" disabled={status === "submitting" || (!isAudit && !formData.service)}>
               {status === "submitting" ? t("sending") : isAudit ? t("audit_submit") : t("submit")}
             </button>
-            <p className="reply-note">
-              {t("reply_note")} {t("next_line")}
-            </p>
+            <p className="reply-note">{t("next_line")}</p>
 
             {status === "error" && <p className="error-text">{t("error")}</p>}
 
