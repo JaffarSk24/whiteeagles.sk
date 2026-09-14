@@ -6,6 +6,7 @@ description: >-
   the Google profile, booking measurement. With prices, and when a site is
   not needed.
 date: '2026-09-04'
+updated: '2026-09-14'
 key: 'restaurant-website'
 faq:
   - q: 'What does a restaurant website cost?'
@@ -19,7 +20,7 @@ faq:
   - q: 'Which matters more: the website or the Google profile?'
     a: 'For a restaurant, the Google profile with photos and reviews is the first thing a guest sees. The website is the second step: that is where they book, read the menu and check the place is really open. Without the profile nobody visits the site; without the site the profile has nowhere to send them.'
 ---
-![A website for a restaurant, café or bar | White Eagles & Co.](/assets/blog/new-web.webp)
+![A website for a restaurant, café or bar | White Eagles & Co.](/assets/blog/new-web2.webp)
 
 # A website for a restaurant, café or bar: table booking, menu, footfall
 

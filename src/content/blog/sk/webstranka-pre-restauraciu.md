@@ -5,6 +5,7 @@ description: >-
   rezervácia stolov bez telefonátov, menu, ktoré Google prečíta, profil na
   Googli, meranie rezervácií. S cenami a s tým, kedy web netreba.
 date: '2026-09-04'
+updated: '2026-09-14'
 key: 'restaurant-website'
 faq:
   - q: 'Koľko stojí web pre reštauráciu?'
@@ -18,7 +19,7 @@ faq:
   - q: 'Čo je dôležitejšie: web alebo profil na Googli?'
     a: 'Pre reštauráciu je to profil na Googli s fotkami a hodnoteniami, lebo je to prvé, čo hosť vidí. Web je druhý krok: tam sa rezervuje, číta menu a overuje, či je podnik naozaj otvorený. Bez profilu web nenavštívi nikto; bez webu profil nemá kam poslať.'
 ---
-![Webstránka pre reštauráciu, kaviareň či bar | White Eagles & Co.](/assets/blog/new-web.webp)
+![Webstránka pre reštauráciu, kaviareň či bar | White Eagles & Co.](/assets/blog/new-web2.webp)
 
 # Webstránka pre reštauráciu, kaviareň či bar: rezervácia stolov, menu, návštevnosť
 
