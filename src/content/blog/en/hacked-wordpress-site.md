@@ -6,6 +6,7 @@ description: >-
   to clean up in, how to close the hole, and when patching no longer pays and
   the site should be rebuilt.
 date: '2026-09-12'
+updated: '2026-09-14'
 key: 'hacked-wordpress'
 faq:
   - q: 'How do I tell whether my WordPress site has been hacked?'

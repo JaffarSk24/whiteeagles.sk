@@ -5,6 +5,7 @@ description: >-
   cudzí správca. Čo urobiť v prvej hodine, v akom poradí web vyčistiť, ako
   zavrieť dieru a kedy sa už neoplatí látať, ale postaviť web nanovo.
 date: '2026-09-12'
+updated: '2026-09-14'
 key: 'hacked-wordpress'
 faq:
   - q: 'Ako zistím, že je môj WordPress napadnutý?'
