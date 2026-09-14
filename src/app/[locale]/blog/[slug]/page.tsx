@@ -86,6 +86,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'article',
       images: [ogImage],
     },
+    // Without this the card falls back to the site-wide language image from
+    // the layout, so an article shared on X showed the home page picture.
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
+    },
   };
 }
 

@@ -5,7 +5,7 @@ description: >-
   v2: events, key events, linking Search Console and Ads. Plus five mistakes
   that leave reports showing zero conversions while enquiries keep arriving.
 date: '2026-08-04'
-updated: '2026-09-12'
+updated: '2026-09-14'
 key: 'ga4-setup'
 faq:
   - q: 'Why does GA4 show zero conversions when enquiries are arriving?'

@@ -5,7 +5,7 @@ description: >-
   udalosti, kľúčové udalosti, prepojenie so Search Console a Ads. A päť chýb,
   pre ktoré je v prehľadoch nula konverzií, hoci dopyty chodia.
 date: '2026-08-04'
-updated: '2026-09-12'
+updated: '2026-09-14'
 key: 'ga4-setup'
 faq:
   - q: 'Prečo je v GA4 nula konverzií, hoci dopyty chodia?'

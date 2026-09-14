@@ -58,6 +58,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       url: pageUrl,
       images: [`https://whiteeagles.sk${study.image}`],
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: study.title,
+      description,
+      images: [`https://whiteeagles.sk${study.image}`],
+    },
   };
 }
 
