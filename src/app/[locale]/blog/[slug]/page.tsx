@@ -102,6 +102,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
   
   const tCta = await getTranslations({ locale, namespace: 'cta' });
   const tAuthor = await getTranslations({ locale, namespace: 'author' });
+  const tServices = await getTranslations({ locale, namespace: 'services' });
+  const authorServices = ['webdev', 'bugfix', 'ads', 'analytics'].map((id) => ({
+    href: `/${locale}/service/${id}/`,
+    label: tServices(`${id}.title`),
+  }));
   let ctaIndex = 0;
   let imageIndex = 0;
 
@@ -319,6 +324,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             telegramText={locale === 'ru' ? tAuthor('telegram') : undefined}
             service={authorService}
             location={`blog_${slug}_author`}
+            services={authorServices}
           />
         </article>
       </div>

@@ -18,6 +18,13 @@ interface AuthorBoxProps {
   service?: string;
   /** GA4 location for the button, e.g. blog_<slug>_author. */
   location: string;
+  /**
+   * The service pages, as plain links with their names as anchors. Every
+   * article then points at the services from its body, which is where a
+   * crawler weighs a link; the header and footer buttons alone left the
+   * advertising page unfetched for a year.
+   */
+  services?: { href: string; label: string }[];
 }
 
 /**
@@ -29,7 +36,7 @@ interface AuthorBoxProps {
  * a server component and passes the translated strings in, so the text is in
  * the HTML while the button keeps its click handler.
  */
-export function AuthorBox({ line, buttonText, telegramText, service, location }: AuthorBoxProps) {
+export function AuthorBox({ line, buttonText, telegramText, service, location, services }: AuthorBoxProps) {
   const { openOrderModal } = useOrderModal();
 
   return (
@@ -44,6 +51,16 @@ export function AuthorBox({ line, buttonText, telegramText, service, location }:
       <div className="author-box-body">
         <p className="author-box-name">Kirill Mosin</p>
         <p className="author-box-line">{line}</p>
+        {services && services.length > 0 && (
+          <p className="author-box-services">
+            {services.map((s, i) => (
+              <React.Fragment key={s.href}>
+                {i > 0 && <span className="author-box-sep"> · </span>}
+                <a href={s.href}>{s.label}</a>
+              </React.Fragment>
+            ))}
+          </p>
+        )}
         <div className="author-box-actions">
           <button
             type="button"
