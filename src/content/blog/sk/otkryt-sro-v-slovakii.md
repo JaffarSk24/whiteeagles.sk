@@ -5,7 +5,7 @@ description: >-
   poplatok, lehoty a reforma od 17. augusta 2026, po ktorej registrácia
   zdražie viac než dvojnásobne a nezaobíde sa bez notára.
 date: '2026-08-03'
-updated: '2026-09-13'
+updated: '2026-09-14'
 key: 'open-sro'
 faq:
   - q: 'Musím byť rezident SR, aby som mohol založiť s.r.o.?'
@@ -18,6 +18,8 @@ faq:
     a: 'Pri pripravených dokumentoch 3 až 7 pracovných dní do zápisu. Plus čas na účet, daňový úrad a zvyšok.'
   - q: 'Treba vložiť 5 000 eur základného imania na účet?'
     a: 'Nie. Stačí vyhlásenie správcu vkladu, v ktorom zakladateľ deklaruje, že peniaze boli vložené do pokladne spoločnosti. Výpisy z účtu sa pri registrácii nevyžadujú.'
+  - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![Založenie s.r.o. na Slovensku v roku 2026 | White Eagles & Co.](/assets/blog/firmaotvorena.webp)
 

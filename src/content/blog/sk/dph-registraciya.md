@@ -5,7 +5,7 @@ description: >-
   žiadosti, sadzby 23, 19 a 5 percent a kedy sa dobrovoľná registrácia oplatí
   viac než povinná.
 date: '2026-08-04'
-updated: '2026-09-13'
+updated: '2026-09-14'
 key: 'vat-registration'
 faq:
   - q: 'Od akého obratu treba registráciu na DPH?'
@@ -18,6 +18,8 @@ faq:
     a: 'Podľa kalendárneho roka, od januára do decembra. Predchádzajúci výpočet za kĺzavých dvanásť mesiacov sa už neuplatňuje.'
   - q: 'Oplatí sa dobrovoľná registrácia?'
     a: 'Má zmysel, ak sú vaši klienti sami platiteľmi DPH a máte citeľné náklady s DPH na vstupe. Ak predávate fyzickým osobám, dobrovoľná registrácia vás väčšinou len zdraží oproti konkurencii.'
+  - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![Registrácia na DPH na Slovensku | White Eagles & Co.](/assets/blog/taxes.webp)
 

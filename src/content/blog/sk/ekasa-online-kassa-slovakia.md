@@ -5,6 +5,7 @@ description: >-
   výnimiek, od 1. mája prijímanie bezhotovostnej platby nad 1 euro. Pokuty,
   výnimky a čo s tým.
 date: '2026-08-04'
+updated: '2026-09-14'
 key: 'ekasa'
 faq:
   - q: 'Potrebujem eKasu, ak prijímam platby len prevodom na účet?'
@@ -17,6 +18,8 @@ faq:
     a: 'Áno. Od 1. januára 2026 sa povinnosť vzťahuje na všetky služby bez výnimky, vrátane remeselných činností, ktoré boli predtým vyňaté.'
   - q: 'Aké druhy pokladnice existujú?'
     a: 'Tri: online registračná pokladnica (ORP), virtuálna (VRP) a softvérová, teda cloudové riešenie. Voľba závisí od obratu, miesta predaja a od toho, či potrebujete fyzický prístroj.'
+  - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![eKasa v roku 2026: kto musí mať online pokladnicu | White Eagles & Co.](/assets/blog/kassa.webp)
 

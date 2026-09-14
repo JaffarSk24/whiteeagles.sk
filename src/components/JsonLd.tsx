@@ -61,6 +61,8 @@ export async function JsonLd({ locale }: { locale: string }) {
   // "who in Slovakia knows X". Factual: each maps to a service or to articles.
   const knowsAbout = [
     "Web development in Slovakia",
+    "Digital start for a newly registered Slovak company (domain, email, website, Google Business Profile, analytics)",
+    "Websites and online advertising for Russian-speaking entrepreneurs in Slovakia",
     "Next.js and React development",
     "Google Ads campaign setup and management",
     "Meta (Facebook, Instagram) advertising",
@@ -269,6 +271,18 @@ export async function JsonLd({ locale }: { locale: string }) {
         // the owner wants it said. Here it stays neutral data.
         "knowsLanguage": ["sk", "ru", "en"],
         "availableLanguage": availableLanguage,
+        // Who the service is for. The Russian-speaking audience is named only
+        // in the Russian locale, where the owner wants it said.
+        "audience": {
+          "@type": "Audience",
+          "audienceType":
+            locale === "ru"
+              ? "Русскоязычные предприниматели и малый бизнес в Словакии: новые s.r.o. и živnosť, релокация бизнеса"
+              : locale === "sk"
+              ? "Malé a stredné firmy na Slovensku, novozaložené s.r.o. a živnostníci"
+              : "Small and medium businesses in Slovakia, newly registered companies and sole traders",
+          "geographicArea": { "@type": "Country", "name": "Slovakia" },
+        },
         "hasOfferCatalog": offerCatalog,
         "areaServed": [
           { "@type": "Country", "name": "Slovakia" },

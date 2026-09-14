@@ -4,6 +4,7 @@ description: >-
   Všetko o doméne .sk: kto ju môže registrovať, ako si vybrať registrátora,
   koľko stojí obnova a čo robiť, keď je vybrané meno obsadené.
 date: '2026-08-04'
+updated: '2026-09-14'
 key: 'sk-domain'
 faq:
   - q: 'Môže doménu .sk zaregistrovať cudzinec?'
@@ -16,6 +17,8 @@ faq:
     a: 'Pre podnikanie na Slovensku je dôležitejšia .sk, pretože miestny zákazník jej dôveruje viac. Druhú doménu má zmysel obsadiť do budúcna a nastaviť z nej presmerovanie, nie na nej držať kópiu webu.'
   - q: 'Komu má doména patriť: mne alebo dodávateľovi?'
     a: 'Iba vám. Doména zapísaná na dodávateľa je riziko, že pri rozchode prídete o adresu. V údajoch držiteľa máte byť vy alebo vaša firma.'
+  - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![Doména .sk: ako ju kúpiť a kto ju môže vlastniť | White Eagles & Co.](/assets/blog/domensk.webp)
 

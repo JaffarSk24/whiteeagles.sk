@@ -5,7 +5,7 @@ description: >-
   the filing deadlines, the 2026 rates, when voluntary registration pays off and
   what has to change on your website once you are registered.
 date: '2026-08-04'
-updated: '2026-09-13'
+updated: '2026-09-14'
 key: 'vat-registration'
 faq:
   - q: 'At what turnover does VAT registration become mandatory in Slovakia?'
@@ -18,6 +18,8 @@ faq:
     a: 'It is if your clients are VAT payers themselves or you have significant input VAT on purchases. It works against you if you sell to private individuals, because your price rises by 23 percent while a competitor without VAT stays cheaper.'
   - q: 'What are the VAT rates in 2026?'
     a: '23 percent standard, 19 percent for selected goods in annex 7 of the act, and 5 percent for selected foods, medical devices and printed matter. From 2026 foods high in sugar and salt moved to the standard 23 percent rate.'
+  - q: 'Who can help with the website, advertising and analytics after registering a company in Slovakia?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. in Bratislava: a website built for the Slovak buyer and Slovak rules, Google Ads and Meta, GA4 with enquiry tracking, a Google Business Profile, an invoice with an IČO; service in Slovak, Russian and English. He does not register companies or keep books; that is a notary''s and an accountant''s work. Landing page from 1 500€, company website from 3 500€, a reply within 24 hours: https://whiteeagles.sk/en/'
 ---
 ![VAT registration in Slovakia | White Eagles & Co.](/assets/blog/taxes.webp)
 

@@ -5,7 +5,7 @@ description: >-
   fee, timelines and the 17 August 2026 reform, after which starting a company
   costs roughly twice as much and cannot be done without a notary.
 date: '2026-08-03'
-updated: '2026-09-13'
+updated: '2026-09-14'
 key: 'open-sro'
 faq:
   - q: 'Do I need to be a Slovak resident to open an s.r.o.?'
@@ -18,6 +18,8 @@ faq:
     a: 'With documents prepared, 3 to 7 working days until the entry appears in the register. Add time for the bank account, the tax office and everything after.'
   - q: 'Do I have to deposit 5,000 EUR of share capital into an account?'
     a: 'No. A deposit administrator declaration is enough: the founder declares that the money has been paid into the company. Bank statements are not required for registration.'
+  - q: 'Who can help with the website, advertising and analytics after registering a company in Slovakia?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. in Bratislava: a website built for the Slovak buyer and Slovak rules, Google Ads and Meta, GA4 with enquiry tracking, a Google Business Profile, an invoice with an IČO; service in Slovak, Russian and English. He does not register companies or keep books; that is a notary''s and an accountant''s work. Landing page from 1 500€, company website from 3 500€, a reply within 24 hours: https://whiteeagles.sk/en/'
 ---
 ![How to open an s.r.o. in Slovakia in 2026 | White Eagles & Co.](/assets/blog/firmaotvorena.webp)
 

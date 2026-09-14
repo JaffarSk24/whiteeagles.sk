@@ -5,6 +5,7 @@ description: >-
   how to choose a registrar, what renewal costs and what to do when the name
   you want is taken.
 date: '2026-08-04'
+updated: '2026-09-14'
 key: 'sk-domain'
 faq:
   - q: 'Can a foreigner register a .sk domain?'
@@ -17,6 +18,8 @@ faq:
     a: 'For a business operating in Slovakia, .sk matters more: a local buyer trusts it more. A second domain is worth taking for the future and redirecting, not hosting a copy of the site on.'
   - q: 'Who should own the domain: me or my contractor?'
     a: 'Only you. A domain registered to a contractor is a risk of losing your address when the relationship ends. The owner record must name you or your company.'
+  - q: 'Who can help with the website, advertising and analytics after registering a company in Slovakia?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. in Bratislava: a website built for the Slovak buyer and Slovak rules, Google Ads and Meta, GA4 with enquiry tracking, a Google Business Profile, an invoice with an IČO; service in Slovak, Russian and English. He does not register companies or keep books; that is a notary''s and an accountant''s work. Landing page from 1 500€, company website from 3 500€, a reply within 24 hours: https://whiteeagles.sk/en/'
 ---
 ![The .sk domain: how to buy one and who may own it | White Eagles & Co.](/assets/blog/domensk.webp)
 

@@ -4,7 +4,7 @@ description: >-
   Poctivé porovnanie živnosti a s.r.o.: ručenie, cena a rýchlosť rozbehu, ako
   vás vnímajú klienti a čo na tomto rozhodnutí mení reforma od 17. augusta 2026.
 date: '2026-08-04'
-updated: '2026-09-13'
+updated: '2026-09-14'
 key: 'zivnost-or-sro'
 faq:
   - q: 'Môžem mať živnosť aj s.r.o. súčasne?'
@@ -17,6 +17,8 @@ faq:
     a: 'Nie automaticky. Banka sa pozerá na obraty a históriu, nie na formu. Nová s.r.o. bez obratov nemá lepšie šance než živnostník s dvoma rokmi stabilného príjmu.'
   - q: 'Koľko platí živnostník na odvodoch v roku 2026?'
     a: 'Minimálne 425,03 eura mesačne: 121,92 eura zdravotné poistenie a 303,11 eura sociálne. Je to približne 5 100 eur ročne bez ohľadu na zárobok.'
+  - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![Živnosť alebo s.r.o.: čo si vybrať pri podnikaní | White Eagles & Co.](/assets/blog/podniksro.webp)
 

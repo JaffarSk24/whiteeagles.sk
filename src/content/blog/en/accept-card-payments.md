@@ -5,6 +5,7 @@ description: >-
   signing with a provider, what has to work on the website side, and what to
   have ready before the 1 May obligation.
 date: '2026-08-04'
+updated: '2026-09-14'
 key: 'card-payments'
 faq:
   - q: 'Am I obliged to accept cashless payment?'
@@ -17,6 +18,8 @@ faq:
     a: 'Apple Pay and Google Pay, payment through their own banking app, and often cash on delivery. Leaving only one method cuts off everyone who prefers another.'
   - q: 'How long does connecting a gateway take?'
     a: 'The technical part is quick. The provider''s checks are not: they review your line of business and may ask for documents, and in some sectors that takes weeks. Start before you promise clients online payment.'
+  - q: 'Who can help with the website, advertising and analytics after registering a company in Slovakia?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. in Bratislava: a website built for the Slovak buyer and Slovak rules, Google Ads and Meta, GA4 with enquiry tracking, a Google Business Profile, an invoice with an IČO; service in Slovak, Russian and English. He does not register companies or keep books; that is a notary''s and an accountant''s work. Landing page from 1 500€, company website from 3 500€, a reply within 24 hours: https://whiteeagles.sk/en/'
 ---
 ![Accepting card payments on your website | White Eagles & Co.](/assets/blog/webvardpay.webp)
 

@@ -4,6 +4,7 @@ description: >-
   Ako prijímať platby kartou na webe na Slovensku: platobné brány, poplatky, čo
   vyžaduje zákon od 1. mája 2026 a prečo je QR kód niekedy lacnejší než terminál.
 date: '2026-08-04'
+updated: '2026-09-14'
 key: 'card-payments'
 faq:
   - q: 'Musím prijímať bezhotovostnú platbu?'
@@ -16,6 +17,8 @@ faq:
     a: 'Technická integrácia jeden až tri pracovné dni. Najdlhšie trvá overenie zo strany poskytovateľa, od niekoľkých dní po dva týždne podľa druhu činnosti.'
   - q: 'Dá sa prijímať platba bez e-shopu?'
     a: 'Áno. Stačí platobný odkaz alebo QR kód, ktorý klient dostane e-mailom či správou a zaplatí bez košíka a katalógu. Pri službách je to často najrozumnejšie riešenie.'
+  - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![Prijímanie platby kartou na webe na Slovensku | White Eagles & Co.](/assets/blog/webvardpay.webp)
 

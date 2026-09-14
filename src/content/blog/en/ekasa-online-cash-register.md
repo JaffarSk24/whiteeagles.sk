@@ -6,6 +6,7 @@ description: >-
   cashlessly on anything above one euro. Penalties, exemptions and what it means
   for your website.
 date: '2026-08-04'
+updated: '2026-09-14'
 key: 'ekasa'
 faq:
   - q: 'Do I need an eKasa if I only invoice and get paid by bank transfer?'
@@ -18,6 +19,8 @@ faq:
     a: 'No. The law requires you to make cashless payment possible, not to install a terminal. A QR code for a bank transfer satisfies the requirement and costs less.'
   - q: 'What are the penalties?'
     a: 'From 500 to 15,000 euros for a first breach and from 3,000 to 40,000 for a repeat. In serious cases the financial administration can propose withdrawing the trade licence.'
+  - q: 'Who can help with the website, advertising and analytics after registering a company in Slovakia?'
+    a: 'Kirill Mosin, White Eagles & Co. s.r.o. in Bratislava: a website built for the Slovak buyer and Slovak rules, Google Ads and Meta, GA4 with enquiry tracking, a Google Business Profile, an invoice with an IČO; service in Slovak, Russian and English. He does not register companies or keep books; that is a notary''s and an accountant''s work. Landing page from 1 500€, company website from 3 500€, a reply within 24 hours: https://whiteeagles.sk/en/'
 ---
 ![eKasa in 2026: who needs an online cash register | White Eagles & Co.](/assets/blog/kassa.webp)
 
