@@ -68,7 +68,24 @@ const pathsFor = (locale) => [
 // more honest than an invented one. A real edit to an article sets
 // `updated:` in its front matter, which wins over `date:` - that announces the
 // change without rewriting the publication date readers see.
+// Static pages have no front matter, so their change dates live here and are
+// bumped by hand when the page content changes. Googlebot fetches this domain
+// about twenty times a day and a fresh lastmod is what pulls a page forward
+// in that queue: the service pages sat unfetched for a year without one.
+const STATIC_LASTMOD = {
+  '': '2026-09-13',
+  'blog': '2026-09-13',
+  'seo-audit': '2026-09-13',
+  'service/webdev': '2026-09-13',
+  'service/bugfix': '2026-09-13',
+  'service/ads': '2026-09-13',
+  'service/analytics': '2026-09-13',
+  'service/cookies': '2026-09-13',
+  'service/telegram': '2026-09-13',
+};
+
 const lastmodFor = (locale, p) => {
+  if (STATIC_LASTMOD[p]) return STATIC_LASTMOD[p];
   const kind = p.startsWith('blog/') ? contentDir : p.startsWith('case/') ? casesDir : null;
   if (!kind) return null;
   const file = path.join(kind, locale, `${p.split('/')[1]}.md`);
