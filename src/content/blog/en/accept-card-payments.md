@@ -1,7 +1,7 @@
 ---
 title: 'Accepting card payments on your website in Slovakia: what to choose in 2026'
 description: >-
-  Terminal, payment gateway or QR code — what each costs, what to check before
+  Terminal, payment gateway or QR code: what each costs, what to check before
   signing with a provider, what has to work on the website side, and what to
   have ready before the 1 May obligation.
 date: '2026-08-04'
@@ -29,7 +29,7 @@ From 1 May 2026 a seller in Slovakia must give the buyer a way to pay cashlessly
 
 The good news: the law asks you to **make it possible**, not to buy hardware. There are three ways to do it, and they differ in cost by an order of magnitude.
 
-**To be clear:** I do not give legal advice or keep books. I build websites, run advertising and analytics — and this article covers the part of the topic that concerns the website.
+**To be clear:** I do not give legal advice or keep books. I build websites, run advertising and analytics, and this article covers the part of the topic that concerns the website.
 
 [CTA_FORM:consult]
 
@@ -55,11 +55,11 @@ There are enough providers on the Slovak market, and they differ in more than th
 
 **The fee and its structure.** Look at the fixed part per transaction, not only the percentage. On an average order of 10 euros a fixed 0.25 euros weighs more than an extra half a percent.
 
-**Payout timing.** Providers transfer to your account with different delays — from the next day to a week. For working capital that matters.
+**Payout timing.** Providers transfer to your account with different delays: from the next day to a week. For working capital that matters.
 
 **Payment methods.** Cards are the minimum. But a Slovak buyer often expects Apple Pay, Google Pay and payment through their banking app too. Fewer steps, fewer abandoned carts.
 
-**Onboarding checks.** The provider reviews your line of business and may refuse or request documents. In some sectors that takes weeks — worth establishing before you promise clients online payment.
+**Onboarding checks.** The provider reviews your line of business and may refuse or request documents. In some sectors that takes weeks: worth establishing before you promise clients online payment.
 
 **Refunds.** How a refund is processed, what it costs and how long it takes. This is thought about last and then dealt with in a hurry.
 
@@ -81,15 +81,15 @@ Connecting a gateway is not only pasting a key into settings.
 
 **The return has to land somewhere meaningful.** After paying, the client should reach an order confirmation, not a blank "thank you" with no detail.
 
-**Payment errors have to be handled.** Card declined, insufficient funds, expired — each needs a clear message and a way to try again. Otherwise the client simply leaves.
+**Payment errors have to be handled.** Card declined, insufficient funds, expired: each needs a clear message and a way to try again. Otherwise the client simply leaves.
 
-**The funnel must be measured.** How many people reached the payment page, how many pressed the button, how many paid. Without it you learn about a problem a month later from the revenue. How to set it up — [configuring GA4](/en/blog/ga4-setup/).
+**The funnel must be measured.** How many people reached the payment page, how many pressed the button, how many paid. Without it you learn about a problem a month later from the revenue. How to set it up: [configuring GA4](/en/blog/ga4-setup/).
 
-**And the link to the cash register.** If you are obliged to run an eKasa, it makes sense for the receipt to be issued automatically on payment rather than typed in per order. Details — [eKasa in 2026](/en/blog/ekasa-online-cash-register/).
+**And the link to the cash register.** If you are obliged to run an eKasa, it makes sense for the receipt to be issued automatically on payment rather than typed in per order. Details: [eKasa in 2026](/en/blog/ekasa-online-cash-register/).
 
 ## What it costs
 
-Fees depend on the provider and your turnover, so I will not quote specific percentages — they change, and negotiating with a provider makes sense once turnover is meaningful.
+Fees depend on the provider and your turnover, so I will not quote specific percentages, because they change, and negotiating with a provider makes sense once turnover is meaningful.
 
 What is worth calculating:
 
@@ -103,7 +103,7 @@ It often turns out that for a small business the combination of a QR code plus p
 ## What to do before 1 May
 
 1. Decide how you make cashless payment possible. It is an obligation, not a preference.
-2. If you sell online, connect a gateway now — the provider's checks take time.
+2. If you sell online, connect a gateway now: the provider's checks take time.
 3. Test the payment page on a phone.
 4. Set up measurement of the payment funnel.
 5. Link payment to the cash register if one is mandatory for you.

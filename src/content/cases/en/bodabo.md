@@ -13,7 +13,7 @@ services:
   - 'Catalogue and cart'
 order: 5
 ---
-![BODA BODA — wholesale online shop for vanilla and coffee | White Eagles & Co.](/assets/portfolio-bodabo.webp)
+![BODA BODA, wholesale online shop for vanilla and coffee | White Eagles & Co.](/assets/portfolio-bodabo.webp)
 
 # BODA BODA: a wholesale online shop for vanilla, coffee and cacao beans
 
@@ -23,7 +23,7 @@ Wholesale trade in vanilla, coffee and cacao beans. An online shop built not for
 
 The difference is not in the design but in how the decision is made.
 
-A retail shopper chooses emotionally and orders on the spot. A wholesale buyer first establishes the facts: origin, harvest, variety, batch size, price by volume, delivery times. They compare, calculate and come back — sometimes a week later.
+A retail shopper chooses emotionally and orders on the spot. A wholesale buyer first establishes the facts: origin, harvest, variety, batch size, price by volume, delivery times. They compare, calculate and come back, sometimes a week later.
 
 It follows that the catalogue has to answer questions, not just show photographs. A product without a clear specification does not sell wholesale: there is nothing to compare it against.
 
@@ -31,7 +31,7 @@ It follows that the catalogue has to answer questions, not just show photographs
 
 A shop with a catalogue, cart and checkout built around wholesale logic: the product page carries the parameters a buyer decides on, not only a name and a price.
 
-It works fast on a phone — buyers often browse away from their desk.
+It works fast on a phone, because buyers often browse away from their desk.
 
 ## What it changed
 

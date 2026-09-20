@@ -114,8 +114,8 @@ Zóna znamená, že spracúvate osobné údaje klientov a zodpovedáte za ne. Te
 
 ## Koľko to stojí a ako dlho to trvá
 
-- **Zóna ako súčasť nového webu na mieru:** firemný web začína od **3 500 €**, rozsah zóny je súčasťou odhadu.
-- **Doplnenie zóny k existujúcemu webu:** hodinovo po **35 €**.
+- **Zóna ako súčasť nového webu na mieru:** firemný web začína od **3 500€**, rozsah zóny je súčasťou odhadu.
+- **Doplnenie zóny k existujúcemu webu:** hodinovo po **35€**.
 - **Termín:** priemerný web je hotový za 10 pracovných dní, väčší portál trvá dlhšie a termín sa povie vopred.
 
 Cena sa povie pred začatím práce a počas projektu sa nemení. Širší prehľad cien je v článku [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/).

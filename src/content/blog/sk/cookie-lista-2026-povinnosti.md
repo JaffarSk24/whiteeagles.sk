@@ -21,7 +21,7 @@ faq:
 
 # Cookie lišta v roku 2026: čo vyžadujú európske pravidlá a Consent Mode v2
 
-Hneď na úvod uvediem na pravú mieru to, čo sa často chápe nesprávne: **povinnosť pýtať si súhlas s cookies nevychádza zo slovenského zákona, ale z európskych pravidiel** — GDPR a smernice o súkromí v elektronických komunikáciách. Slovensko ich preberá, no vykladajú sa v celej Únii rovnako. Praktický dôsledok: požiadavky na váš web sú rovnaké ako na nemeckú či českú firmu.
+Hneď na úvod uvediem na pravú mieru to, čo sa často chápe nesprávne: **povinnosť pýtať si súhlas s cookies nevychádza zo slovenského zákona, ale z európskych pravidiel**: GDPR a smernice o súkromí v elektronických komunikáciách. Slovensko ich preberá, no vykladajú sa v celej Únii rovnako. Praktický dôsledok: požiadavky na váš web sú rovnaké ako na nemeckú či českú firmu.
 
 Druhá vec: od marca 2024 Google vyžaduje **Consent Mode v2**. To už nie je o zákone, ale o tom, či vám budú fungovať analytika a reklama.
 
@@ -35,8 +35,8 @@ Súhlas je potrebný, ak web používa akékoľvek cookies **okrem nevyhnutných
 
 **Všetko ostatné súhlas vyžaduje:**
 
-- analytika — Google Analytics, Microsoft Clarity, akékoľvek počítadlá
-- reklama a remarketing — Google Ads, Meta Pixel
+- analytika: Google Analytics, Microsoft Clarity, akékoľvek počítadlá
+- reklama a remarketing: Google Ads, Meta Pixel
 - vložené videá z YouTube a mapy, ak sa načítajú hneď
 - chaty, widgety sociálnych sietí, fonty z cudzích serverov
 
@@ -52,7 +52,7 @@ Práve tu sa najčastejšie chybuje, pretože lišta sa nasadzuje „aby bola“
 
 **Súhlas je konkrétny.** Kategórie oddelené: analytika, reklama, funkčné. Jedno tlačidlo „súhlasím so všetkým“ bez voľby nestačí.
 
-**Súhlas je odvolateľný.** Návštevník musí mať možnosť rozhodnutie zmeniť — zvyčajne cez odkaz v pätičke.
+**Súhlas je odvolateľný.** Návštevník musí mať možnosť rozhodnutie zmeniť: zvyčajne cez odkaz v pätičke.
 
 **Žiadne predškrtnuté políčka.** Analytické a reklamné kategórie sú v predvolenom stave vypnuté.
 
@@ -70,9 +70,9 @@ Consent Mode je mechanizmus, ktorým web oznamuje službám Google, či návšte
 - časť konverzií sa nezapočíta a kampane vyzerajú stratovejšie, než sú
 - v prehľadoch sa strácajú dáta, ktoré by Google vedel doplniť modelovaním
 
-Pri odmietnutí odosielajú systémy len anonymný signál bez cookie — dáta teda nezmiznú úplne, ale doplnia sa modelovaním. To všetko však funguje len vtedy, keď je Consent Mode nastavený.
+Pri odmietnutí odosielajú systémy len anonymný signál bez cookie: dáta teda nezmiznú úplne, ale doplnia sa modelovaním. To všetko však funguje len vtedy, keď je Consent Mode nastavený.
 
-Jeho absencia teda nebolí právne, ale priamo v peniazoch za reklamu. Ak kampane vediete, toto treba overiť ako prvé — rozbor je na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
+Jeho absencia teda nebolí právne, ale priamo v peniazoch za reklamu. Ak kampane vediete, toto treba overiť ako prvé: rozbor je na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
 
 [CTA_FORM:consult]
 
@@ -119,7 +119,7 @@ Ak aspoň jeden bod nesedí, lišta je tam len naoko.
 
 1. Overte si podľa zoznamu vyššie, či vaša lišta naozaj funguje.
 2. Uistite sa, že odmietnutie je rovnako ľahké ako súhlas.
-3. Skontrolujte, či je nastavený Consent Mode v2 — závisí od toho reklama.
+3. Skontrolujte, či je nastavený Consent Mode v2: závisí od toho reklama.
 4. Overte, že sa pred súhlasom nenačíta nič navyše.
 5. Doplňte stránku so zásadami cookies a odkaz na zmenu rozhodnutia.
 

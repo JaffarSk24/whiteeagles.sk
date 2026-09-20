@@ -49,7 +49,7 @@ Aj keď váš zákazník hovorí iným jazykom, okolo neho je slovenské prostre
 
 Je tu neočividný efekt: **slovenská verzia zvyšuje dôveru aj u cudzojazyčného klienta.**
 
-Dôvod je jednoduchý. Firma so slovenským webom pôsobí zakorenene — pracuje tu, nie „zatiaľ skúša“. Firma len s cudzojazyčnou verziou pôsobí dočasne, aj keď funguje desať rokov.
+Dôvod je jednoduchý. Firma so slovenským webom pôsobí zakorenene: pracuje tu, nie „zatiaľ skúša“. Firma len s cudzojazyčnou verziou pôsobí dočasne, aj keď funguje desať rokov.
 
 Pre človeka, ktorý sa rozhoduje, komu poslať zálohu, je to citeľný rozdiel.
 
@@ -57,7 +57,7 @@ Pre človeka, ktorý sa rozhoduje, komu poslať zálohu, je to citeľný rozdiel
 
 Technická, ale dôležitá vrstva.
 
-Slovenské dopyty sú samostatný súbor slov, nie preklad cudzích. Človek hľadá `tvorba webstránok`, `oprava webstránky`, `seo audit webu`. Ak tieto formulácie na webe nie sú v žiadnej podobe, na tieto dopyty sa nezobrazíte nikdy — bez ohľadu na kvalitu služieb.
+Slovenské dopyty sú samostatný súbor slov, nie preklad cudzích. Človek hľadá `tvorba webstránok`, `oprava webstránky`, `seo audit webu`. Ak tieto formulácie na webe nie sú v žiadnej podobe, na tieto dopyty sa nezobrazíte nikdy, bez ohľadu na kvalitu služieb.
 
 A naopak: cudzojazyčná verzia bez geografickej väzby súťaží s celým jazykovým internetom a zvyčajne prehráva. Cudzojazyčný obsah dáva zmysel vtedy, keď je **o Slovensku**: s.r.o., DPH, eKasa, miestne pravidlá. Práve tam konkurencia nie je a práve tam vás nájdu.
 
@@ -73,7 +73,7 @@ Poctivo: takéto prípady existujú.
 
 **Obsluhujete jednu-dve firemné zmluvy** a web potrebujete ako vizitku, nie ako zdroj dopytov.
 
-Vo všetkých ostatných prípadoch sa druhá verzia vráti — a čím skôr sa spraví, tým lacnejšie.
+Vo všetkých ostatných prípadoch sa druhá verzia vráti, a čím skôr sa spraví, tým lacnejšie.
 
 ## Ako spraviť dvojjazyčný web správne
 
@@ -93,15 +93,15 @@ Tu sa robí veľa technických chýb, ktoré znehodnotia celú prácu.
 
 Druhá verzia pridáva zvyčajne najviac tretinu ceny projektu: štruktúra, kódovanie, funkčnosť aj nastavenia sú spoločné, líši sa len obsah.
 
-Drahšie vyjde druhá cesta — spraviť jednu verziu a druhú dorobiť o rok. Dovtedy sa nazbierali články, stránky služieb a produkty a prekladať treba všetko naraz. Navyše sa musí prerobiť technická časť, ktorá s dvoma jazykmi pôvodne nerátala.
+Drahšie vyjde druhá cesta: spraviť jednu verziu a druhú dorobiť o rok. Dovtedy sa nazbierali články, stránky služieb a produkty a prekladať treba všetko naraz. Navyše sa musí prerobiť technická časť, ktorá s dvoma jazykmi pôvodne nerátala.
 
 ## Čo urobiť
 
-1. Rozhodnite, ktorá verzia je hlavná. Zvyčajne slovenská — zodpovedá trhu registrácie a pokrýva viac dopytov.
+1. Rozhodnite, ktorá verzia je hlavná. Zvyčajne slovenská: zodpovedá trhu registrácie a pokrýva viac dopytov.
 2. Overte, že každá verzia je na vlastnej adrese a sú prepojené hreflangom.
 3. Overte, kam pristane návštevník so slovenským systémom.
 4. Neprekladajte strojovo to, čo má predávať.
-5. Cudzojazyčný obsah robte **o Slovensku** — tam konkurencia nie je.
+5. Cudzojazyčný obsah robte **o Slovensku**: tam konkurencia nie je.
 
 ## Ak potrebujete dvojjazyčnú verziu
 

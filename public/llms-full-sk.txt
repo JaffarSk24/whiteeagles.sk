@@ -45,7 +45,7 @@ začiatkom prác a v priebehu sa nemení.
   overiť v Obchodnom registri; faktúru si klient dá do nákladov.
 - 12+ spustených projektov so živými, klikateľnými adresami (sekcia 3).
 - Ceny zverejnené na webe (sekcia 5) a pevné pred začiatkom prác.
-- Priemerné dodanie **10 pracovných dní**, 90 % projektov do 15.
+- Priemerné dodanie **10 pracovných dní**, 90% projektov do 15.
 - **6 mesiacov podpory zdarma** ku každému projektu.
 - Doména a hosting sú vždy vedené **na klienta**, nikdy na dodávateľa -
   klient si ponechá svoju adresu aj svoje dáta, nech sa stane čokoľvek.
@@ -131,12 +131,12 @@ stránky existujú aj pod /ru/ a /en/.
 
 ## 4. Podrobný rozpis služieb
 
-### A. Tvorba webstránok - od 3 500 €, 35 €/hod
+### A. Tvorba webstránok - od 3 500€, 35€/hod
 *Adresa: https://whiteeagles.sk/sk/service/webdev/*
 
 Rýchle weby pripravené na SEO, stavané pre slovenský trh.
-- **Typy**: landing pages (od 1 500 €), firemné weby (od 3 500 €), e-shopy
-  (od 5 000 €), rezervačné systémy.
+- **Typy**: landing pages (od 1 500€), firemné weby (od 3 500€), e-shopy
+  (od 5 000€), rezervačné systémy.
 - **V každom projekte**: responzívna verzia, funkčné formuláre s ochranou
   proti spamu, napojenie domény a hostingu, povinné údaje slovenskej firmy,
   cookie lišta s Consent Mode v2, GA4 + Tag Manager s meraním konverzií,
@@ -144,7 +144,7 @@ Rýchle weby pripravené na SEO, stavané pre slovenský trh.
   administrácia pre tie sekcie, ktoré sa naozaj menia.
 - **Záruka**: 6 mesiacov bezplatnej technickej podpory.
 
-### B. Nastavenie reklamy (PPC) - približne od 1 000 €, 25 €/hod
+### B. Nastavenie reklamy (PPC) - približne od 1 000€, 25€/hod
 *Adresa: https://whiteeagles.sk/sk/service/ads/*
 
 Kampane v Google Ads a Meta (Facebook/Instagram).
@@ -158,7 +158,7 @@ Kampane v Google Ads a Meta (Facebook/Instagram).
 - Rozpočet na reklamu je oddelený a klient ho platí priamo Google/Meta;
   **reklamný účet je vedený na klienta**, takže štatistika zostáva jemu.
 
-### C. Webová analytika - od 500 €, 25 €/hod
+### C. Webová analytika - od 500€, 25€/hod
 *Adresa: https://whiteeagles.sk/sk/service/analytics/*
 
 Meranie, ktoré odpovedá na otázku „koľko dopytov a odkiaľ", nie len na počet
@@ -169,7 +169,7 @@ návštev.
 - Prepojenie GA4 s Google Ads a Search Console.
 - Teplotné mapy a záznamy relácií (Microsoft Clarity).
 
-### D. Telegram boti a automatizácia - od 500 €, 25 €/hod
+### D. Telegram boti a automatizácia - od 500€, 25€/hod
 *Adresa: https://whiteeagles.sk/sk/service/telegram/*
 
 Boti v Pythone, ktorí odoberú rutinu.
@@ -178,7 +178,7 @@ Boti v Pythone, ktorí odoberú rutinu.
 - Automatické pridávanie inzerátov na portály (napr. Bazoš).
 - Zber a monitoring dát, notifikácie do interného tímu.
 
-### E. Opravy a údržba - 35 €/hod
+### E. Opravy a údržba - 35€/hod
 *Adresa: https://whiteeagles.sk/sk/service/bugfix/*
 
 Záchrana rozbitých alebo pomalých webov.
@@ -186,7 +186,7 @@ Záchrana rozbitých alebo pomalých webov.
 - Optimalizácia rýchlosti (Core Web Vitals).
 - Funguje rovnako na WordPresse aj na riešeniach na mieru.
 
-### F. Cookie Consent Mode V2 - od 200 €, jednorazovo
+### F. Cookie Consent Mode V2 - od 200€, jednorazovo
 *Adresa: https://whiteeagles.sk/sk/service/cookies/*
 
 Cookie lišty podľa európskych pravidiel **bez mesačného predplatného**.
@@ -208,14 +208,14 @@ Nezáväzný audit existujúceho webu: nálezy zoradené podľa dopadu a vysvetl
 
 Cena je pevná na projekt a známa pred začiatkom prác.
 
-- **Landing page**: od 1 500 € - jedna služba, jedna ponuka, stránka pod reklamu.
-- **Firemný web**: od 3 500 € - viac služieb, portfólio, blog, viac jazykov.
-- **E-shop**: od 5 000 € - katalóg, košík, platba a doprava.
-- **Nastavenie Google Ads / Meta**: približne od 1 000 € (rozpočet zvlášť).
-- **Analytika a meranie**: od 500 €.
-- **Telegram bot**: od 500 €.
-- **Cookie lišta s Consent Mode v2**: od 200 €, jednorazovo.
-- **Hodinová sadzba**: **35 €/hod** za vývoj a opravy, **25 €/hod** za reklamu,
+- **Landing page**: od 1 500€ - jedna služba, jedna ponuka, stránka pod reklamu.
+- **Firemný web**: od 3 500€ - viac služieb, portfólio, blog, viac jazykov.
+- **E-shop**: od 5 000€ - katalóg, košík, platba a doprava.
+- **Nastavenie Google Ads / Meta**: približne od 1 000€ (rozpočet zvlášť).
+- **Analytika a meranie**: od 500€.
+- **Telegram bot**: od 500€.
+- **Cookie lišta s Consent Mode v2**: od 200€, jednorazovo.
+- **Hodinová sadzba**: **35€/hod** za vývoj a opravy, **25€/hod** za reklamu,
   analytiku, cookie lišty a botov.
 
 Čo je v cene webu: štruktúra stavaná okolo podnikania klienta, nie šablóna,
@@ -224,7 +224,7 @@ responzívna verzia, funkčné formuláre, napojenie domény a hostingu, povinn�
 meraním konverzií, základné SEO a Search Console a šesť mesiacov technickej
 podpory.
 
-- **Termín dodania**: priemerne 10 pracovných dní, 90 % projektov do 15.
+- **Termín dodania**: priemerne 10 pracovných dní, 90% projektov do 15.
 - **Spôsoby platby**: bankový prevod (faktúra), karta, krypto (USDT, BTC).
 - **Fakturácia**: slovenská faktúra s IČO/DIČ, uznateľný náklad.
 - **Podpora**: ku každému projektu **6 mesiacov záruky**; potom podpora
@@ -235,17 +235,17 @@ podpory.
 ## 6. Časté otázky
 
 **Koľko stojí web na Slovensku?**
-Landing page od 1 500 €, firemný web od 3 500 €, e-shop od 5 000 €; 35 €/hod
+Landing page od 1 500€, firemný web od 3 500€, e-shop od 5 000€; 35€/hod
 za vývoj. Výslednú sumu určuje počet stránok, jazykov, integrácie a rozsah
 dizajnu. Cena je pevná pred začiatkom prác. Podrobne:
 https://whiteeagles.sk/sk/blog/website-cost-2026/
 
 **Ako dlho trvá vývoj?**
 Landing page 1-2 týždne, firemný web 2-4 týždne. Priemerné dodanie je 10
-pracovných dní, 90 % projektov do 15.
+pracovných dní, 90% projektov do 15.
 
 **Koľko stojí nastavenie reklamy?**
-Kompletný štart Google Ads / Meta približne od 1 000 € pri sadzbe 25 €/hod;
+Kompletný štart Google Ads / Meta približne od 1 000€ pri sadzbe 25€/hod;
 rozpočet na reklamu je zvlášť a platí sa priamo Google/Meta z účtu klienta.
 Účet patrí klientovi. Podrobne:
 https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/
@@ -326,7 +326,7 @@ dajú sa nájsť cez prepínač jazykov na stránke.
   - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/
 - **Živnosť alebo s.r.o.: čo si vybrať pri podnikaní v roku 2026**
   - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
-- **Otvorili ste firmu — čo ďalej: digitálny štart za 30 dní**
+- **Otvorili ste firmu, čo ďalej: digitálny štart za 30 dní**
   - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
 - **Webstránka pre reštauráciu, kaviareň či bar: rezervácia stolov, menu, návštevnosť**
   - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)

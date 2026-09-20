@@ -1,7 +1,7 @@
 ---
 title: 'Reklama beží, dopyty nechodia: 7 príčin a ako každú overiť'
 description: >-
-  Rozpočet sa míňa, kliknutia sú, dopyty nie. Rozbor siedmich príčin po poradí —
+  Rozpočet sa míňa, kliknutia sú, dopyty nie. Rozbor siedmich príčin po poradí:
   od nerelevantných dopytov a nezapočítaných konverzií po cieľovú stránku a
   formulár, ktorý ticho neposiela e-maily. S kontrolou ku každej.
 date: '2026-08-04'
@@ -34,7 +34,7 @@ Najčastejšia príčina a najrýchlejšia na overenie.
 
 **Ako overiť.** Google Ads → **Kampane → Štatistiky → Vyhľadávacie dopyty**. Nie sú to vaše kľúčové slová, ale skutočné frázy, na ktoré sa reklamy zobrazovali. Prejdite prvých päťdesiat.
 
-Čo sa zvyčajne nájde: `práca`, `kurz`, `zadarmo`, `ako urobiť sám`, `šablóna` — ľudia, ktorí hľadajú prácu, štúdium alebo spôsob, ako si to spraviť sami. Kliknú, vy zaplatíte, dopyt nepríde nikdy.
+Čo sa zvyčajne nájde: `práca`, `kurz`, `zadarmo`, `ako urobiť sám`, `šablóna`: ľudia, ktorí hľadajú prácu, štúdium alebo spôsob, ako si to spraviť sami. Kliknú, vy zaplatíte, dopyt nepríde nikdy.
 
 **Príčina.** Voľná zhoda bez zoznamu vylučujúcich slov. Google si dopyt vykladá voľne a privádza príbuzné publikum.
 
@@ -42,9 +42,9 @@ Najčastejšia príčina a najrýchlejšia na overenie.
 
 ## 2. Dopyty chodia, ale nepočítajú sa
 
-Druhá najčastejšia — a najmrzutejšia, lebo obchod beží a vy to nevidíte.
+Druhá najčastejšia, a najmrzutejšia, lebo obchod beží a vy to nevidíte.
 
-**Ako overiť.** Otvorte web v anonymnom okne, pošlite testovací dopyt z telefónu. Potom GA4 → **Prehľady → V reálnom čase** — udalosť sa má objaviť do minúty.
+**Ako overiť.** Otvorte web v anonymnom okne, pošlite testovací dopyt z telefónu. Potom GA4 → **Prehľady → V reálnom čase**: udalosť sa má objaviť do minúty.
 
 Čo sa zvyčajne nájde:
 
@@ -54,15 +54,15 @@ Druhá najčastejšia — a najmrzutejšia, lebo obchod beží a vy to nevidíte
 
 Posledný bod bolí dvakrát: nevidíte výsledok **a** algoritmus nemá na čom optimalizovať, tak šetrí rozpočet na najlacnejších kliknutiach, ktoré nikam nevedú.
 
-Rozbor krok za krokom — [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/), samotná služba — [webová analytika](/sk/service/analytics/).
+Rozbor krok za krokom: [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/), samotná služba: [webová analytika](/sk/service/analytics/).
 
 ## 3. Formulár sa tvári, že odoslal
 
 Samostatný prípad, ktorý sa v reklamnom rozhraní nedá nájsť vôbec.
 
-**Ako overiť.** Ten istý testovací dopyt — ale teraz sledujte poštu. Prišiel e-mail? Nie je v spame?
+**Ako overiť.** Ten istý testovací dopyt, ale teraz sledujte poštu. Prišiel e-mail? Nie je v spame?
 
-Čo sa zvyčajne nájde: formulár ukáže „ďakujeme", ale e-mail neodíde — po presune sa pokazil poštový skript, zmenilo sa heslo k schránke, správy padajú príjemcovi do spamu.
+Čo sa zvyčajne nájde: formulár ukáže „ďakujeme", ale e-mail neodíde: po presune sa pokazil poštový skript, zmenilo sa heslo k schránke, správy padajú príjemcovi do spamu.
 
 Skontrolujte aj schránku, kam to všetko chodí: ak je adresa na bezplatnej doméne a bez nastavených záznamov, časť správ sa do doručenej pošty nedostane. To je aj jeden z dôvodov, prečo sa oplatí mať [poštu na vlastnej doméne](/sk/blog/domen-sk-kak-kupit/).
 
@@ -74,13 +74,13 @@ Od marca 2024 Google neprijíma údaje z EHP na remarketing a modelovanie konver
 
 **Ako overiť.** Otvorte web, prijmite cookies, pošlite dopyt. Ak je v GA4 udalosť vidieť, ale v Google Ads sa konverzia do dňa neobjaví, takmer isto je to tu.
 
-Rozbor — [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
+Rozbor: [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
 
 [CTA_FORM:cookies]
 
 ## 5. Reklama vedie inam
 
-Človek hľadal `oprava wordpress webstránky` a pristál na úvodnej stránke so všetkými šiestimi službami. Musí hľadať ešte raz — teraz vnútri vášho webu. Časť odíde.
+Človek hľadal `oprava wordpress webstránky` a pristál na úvodnej stránke so všetkými šiestimi službami. Musí hľadať ešte raz, teraz vnútri vášho webu. Časť odíde.
 
 **Ako overiť.** Prejdite cestu sami: kliknite na vlastnú reklamu a pozrite, či stránka odpovedá na otázku, ktorá bola v dopyte. Nie „či sa to tam niekde spomína", ale konkrétne **prvá obrazovka**.
 
@@ -90,31 +90,31 @@ Rozbor — [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
 
 Viac než polovica kliknutí príde z mobilu. Ak sa stránka načítava 5 sekúnd, zaplatili ste kliknutie človeka, ktorý ju neuvidel.
 
-**Ako overiť.** PageSpeed Insights, karta **„Mobil"** — nie „Počítač". LCP do 2,5 sekundy.
+**Ako overiť.** PageSpeed Insights, karta **„Mobil"**, nie „Počítač". LCP do 2,5 sekundy.
 
 Osobitne sa pozrite na formulár očami človeka s telefónom v ruke: koľko polí, treba rolovať, neprekrýva ho cookie lišta?
 
 Tu je aj druhá, menej zjavná stránka veci: **rýchlosť stránky ovplyvňuje cenu kliknutia** cez skóre kvality. Pomalý web platíte dvakrát.
 
-Ako overiť zvyšok — [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
+Ako overiť zvyšok: [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
 ## 7. Chýba dôvod vybrať si vás
 
-Technicky všetko funguje, ľudia sú relevantní, stránka rýchla — a dopyty nie sú. Potom ide o ponuku.
+Technicky všetko funguje, ľudia sú relevantní, stránka rýchla, a dopyty nie sú. Potom ide o ponuku.
 
 Pozrite sa na svoju stránku očami toho, kto predtým otvoril tri stránky konkurencie. Je tam:
 
-- **cena alebo aspoň rozpätie** — jej absencia odradí viac ľudí než vysoké číslo;
-- **termíny** — konkrétne, nie „v čo najkratšom čase";
-- **dôkaz** — reálne projekty s menami, nie „viac než 100 spokojných klientov";
-- **povinné údaje** — IČO a sídlo, ktoré slovenský kupujúci pred platbou overuje ([čo treba](/sk/blog/obyazatelnye-rekvizity-sajta/));
-- **jednoduchý ďalší krok** — formulár na tri polia, nie dotazník.
+- **cena alebo aspoň rozpätie**: jej absencia odradí viac ľudí než vysoké číslo;
+- **termíny**: konkrétne, nie „v čo najkratšom čase";
+- **dôkaz**: reálne projekty s menami, nie „viac než 100 spokojných klientov";
+- **povinné údaje**: IČO a sídlo, ktoré slovenský kupujúci pred platbou overuje ([čo treba](/sk/blog/obyazatelnye-rekvizity-sajta/));
+- **jednoduchý ďalší krok**: formulár na tri polia, nie dotazník.
 
 Na čo sa slovenský zákazník pozerá, je rozobrané samostatne: [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/).
 
 ## Poradie kontroly
 
-Nie podľa dôležitosti, ale podľa rýchlosti — najprv to, čo sa zistí za minúty:
+Nie podľa dôležitosti, ale podľa rýchlosti, najprv to, čo sa zistí za minúty:
 
 | # | Kontrola | Čas |
 |---|---|---|
@@ -123,16 +123,16 @@ Nie podľa dôležitosti, ale podľa rýchlosti — najprv to, čo sa zistí za 
 | 3 | Je označená kľúčová udalosť, je Ads prepojený s GA4 | 10 min |
 | 4 | Rýchlosť stránky na mobile | 5 min |
 | 5 | Kam vedú reklamy | 10 min |
-| 6 | Je tam cena, termíny, dôkazy | — |
+| 6 | Je tam cena, termíny, dôkazy | hneď |
 
 Prvé štyri body pokryjú väčšinu prípadov a zaberú menej než hodinu.
 
 ## Ak je jednoduchšie, aby sa pozrel niekto iný
 
-Prejdem kampane aj web, nájdem, kde sa reťaz trhá, a poviem, čo opraviť ako prvé. Často sa ukáže, že reklama bola v poriadku a nepočítali sa dopyty — a vypínať ju bola chyba.
+Prejdem kampane aj web, nájdem, kde sa reťaz trhá, a poviem, čo opraviť ako prvé. Často sa ukáže, že reklama bola v poriadku a nepočítali sa dopyty, a vypínať ju bola chyba.
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-Detaily — [nastavenie reklamy](/sk/service/ads/) a [webová analytika](/sk/service/analytics/). Ak pochybujete o samotnej platforme, nie o nastaveniach: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/). Ak web máte, ale neviete, čo s ním — [bezplatný SEO audit webu](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Detaily: [nastavenie reklamy](/sk/service/ads/) a [webová analytika](/sk/service/analytics/). Ak pochybujete o samotnej platforme, nie o nastaveniach: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/). Ak web máte, ale neviete, čo s ním, [bezplatný SEO audit webu](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 [CTA_FORM:audit]

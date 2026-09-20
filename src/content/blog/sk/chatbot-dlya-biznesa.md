@@ -22,7 +22,7 @@ faq:
 
 # Chatbot pre firmu: kedy sa vráti a kedy klientov iba otravuje
 
-O botoch sa hovorí dvoma spôsobmi: „je to budúcnosť" a „je to otravné okienko, ktoré vyskočí po troch sekundách". Obe sú pravdivé — ide o to, akú úlohu bot rieši.
+O botoch sa hovorí dvoma spôsobmi: „je to budúcnosť" a „je to otravné okienko, ktoré vyskočí po troch sekundách". Obe sú pravdivé: ide o to, akú úlohu bot rieši.
 
 Nižšie je, kde naozaj šetrí peniaze, kde prekáža a koľko to stojí.
 
@@ -32,13 +32,13 @@ Nižšie je, kde naozaj šetrí peniaze, kde prekáža a koľko to stojí.
 
 Jednu vec, ale dôležitú: **opakujúce sa úkony bez variability.**
 
-**Prijímanie dopytov.** Človek pošle dopyt a vám príde upozornenie hneď — nie vtedy, keď si niekto otvorí poštu. V praxi je to často rozdiel medzi „odpovedali za dvadsať minút" a „odpovedali na druhý deň", pričom zákazník už medzitým napísal niekomu inému.
+**Prijímanie dopytov.** Človek pošle dopyt a vám príde upozornenie hneď, nie vtedy, keď si niekto otvorí poštu. V praxi je to často rozdiel medzi „odpovedali za dvadsať minút" a „odpovedali na druhý deň", pričom zákazník už medzitým napísal niekomu inému.
 
 **Rezervácie.** Klient si vyberie čas, zamestnancovi príde správa, jedno ťuknutie a je potvrdené, slot sa na webe automaticky zatvorí. Presne tak funguje objednávanie v [Krása štúdio OK](/sk/case/studio-krasy/): žiadne tabuľky, žiadne dvojité objednávky.
 
-**Odpovede na typové otázky.** Otváracie hodiny, adresa, ceny, ako sa dostať, čo si priniesť. To je 60-70 % prichádzajúcich správ takmer v každom podnikaní.
+**Odpovede na typové otázky.** Otváracie hodiny, adresa, ceny, ako sa dostať, čo si priniesť. To je 60-70% prichádzajúcich správ takmer v každom podnikaní.
 
-**Upozornenia do tímu.** Nový dopyt, nová objednávka, chyba na webe — do chatu, ktorý je aj tak otvorený.
+**Upozornenia do tímu.** Nový dopyt, nová objednávka, chyba na webe: do chatu, ktorý je aj tak otvorený.
 
 **Rutina bez klienta vôbec.** Napríklad autoposting inzerátov na Bazoš pre tých, ktorí tam pravidelne inzerujú: ručne to zaberie hodiny týždenne.
 
@@ -66,19 +66,19 @@ Voľba býva práve takáto a závisí od toho, kde je váš klient.
 | **Opakovaný kontakt** | nie | dá sa napísať neskôr |
 | **Rýchlosť odpovede klientovi** | treba sedieť v paneli | príde ako bežná správa |
 
-Praktický záver: **widget má zmysel na webe s veľkou návštevnosťou, kde niekto drží službu.** Vo všetkých ostatných prípadoch je Telegram praktickejší — pre klienta aj pre vás.
+Praktický záver: **widget má zmysel na webe s veľkou návštevnosťou, kde niekto drží službu.** Vo všetkých ostatných prípadoch je Telegram praktickejší, pre klienta aj pre vás.
 
 Dôvod je jednoduchý a nie technický: systém, kvôli ktorému musí zamestnanec otvárať samostatný panel, sa v malej firme neujme. V salóne je medzi procedúrami minúta, nie desať.
 
 ## Koľko to stojí
 
-**Bot na konkrétnu úlohu od 500 €.** Úpravy 25 € za hodinu.
+**Bot na konkrétnu úlohu od 500€.** Úpravy 25€ za hodinu.
 
 Cena nezávisí od počtu správ ani od „zložitosti umelej inteligencie", ale od integrácií:
 
-- bot sám o sebe, odpovedá podľa scenára — spodná hranica;
-- bot prepojený s webom (dopyty, rezervácie) — stred;
-- bot prepojený s kalendárom, skladom, platbami alebo účtovným systémom — horná hranica.
+- bot sám o sebe, odpovedá podľa scenára: spodná hranica;
+- bot prepojený s webom (dopyty, rezervácie): stred;
+- bot prepojený s kalendárom, skladom, platbami alebo účtovným systémom: horná hranica.
 
 Pre porovnanie: zamestnanec, ktorý ručne odpovedá na tie isté otázky hodinu denne, vyjde drahšie už za prvý mesiac.
 
@@ -88,7 +88,7 @@ Tri čísla, ktoré sa oplatí zaznamenať pred spustením a pozrieť o mesiac:
 
 1. **Koľko času teraz zaberú typové odpovede.** Aspoň približne.
 2. **Koľko času uplynie od dopytu po prvú odpoveď.**
-3. **Koľko dopytov sa stratí** — neodpovedali, zabudli, zapadli v pošte.
+3. **Koľko dopytov sa stratí**: neodpovedali, zabudli, zapadli v pošte.
 
 Bot sa vráti vtedy, keď sa zmení druhé a tretie číslo. Prvé je príjemný bonus.
 
@@ -112,13 +112,13 @@ Poviem to priamo, lebo je to častejšie, než sa zdá:
 
 - **Dopytov je málo.** Ak je ich päť týždenne, nie je čo automatizovať.
 - **Každý dopyt je jedinečný.** Projektová práca, poradenstvo, zložité služby.
-- **Problém nie je v rýchlosti odpovede, ale v tom, že vás nenachádzajú.** Potom peniaze nepatria do bota, ale do webu a jeho viditeľnosti — začať treba [kontrolou webu](/sk/seo-audit/).
+- **Problém nie je v rýchlosti odpovede, ale v tom, že vás nenachádzajú.** Potom peniaze nepatria do bota, ale do webu a jeho viditeľnosti: začať treba [kontrolou webu](/sk/seo-audit/).
 
 ## Ako prebieha nasadenie
 
 1. **Rozhovor na pol hodiny.** Aké otázky chodia najčastejšie a čo zaberá čas.
 2. **Scenár.** Čo bot vie a kde odovzdá človeku.
-3. **Vývoj** — od pár dní po dva týždne podľa integrácií.
+3. **Vývoj**: od pár dní po dva týždne podľa integrácií.
 4. **Test na skutočných dopytoch.**
 5. **Doladenie podľa toho, na čo sa naozaj pýtajú.**
 
@@ -126,7 +126,7 @@ Piaty krok je dôležitejší než prvé štyri: skutočné otázky sa vždy lí
 
 ## Ak potrebujete bota
 
-Píšem botov v Pythone — prijímanie dopytov, rezervácie, upozornenia, autoposting. Od 500 €, zvyčajne týždeň až dva. Detaily na [stránke služby „Telegram boti"](/sk/service/telegram/).
+Píšem botov v Pythone: prijímanie dopytov, rezervácie, upozornenia, autoposting. Od 500€, zvyčajne týždeň až dva. Detaily na [stránke služby „Telegram boti"](/sk/service/telegram/).
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

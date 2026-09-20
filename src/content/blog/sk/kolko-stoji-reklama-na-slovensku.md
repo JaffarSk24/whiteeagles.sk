@@ -25,7 +25,7 @@ faq:
 
 # Cena reklamy na Google na Slovensku 2026: koľko stojí klik, mesačný rozpočet a správa
 
-Na otázku „koľko stojí reklama" sa zvyčajne odpovie „závisí". Pravdivé a úplne neužitočné — z takej odpovede sa nedá naplánovať rozpočet ani zistiť, či nepreplácate.
+Na otázku „koľko stojí reklama" sa zvyčajne odpovie „závisí". Pravdivé a úplne neužitočné: z takej odpovede sa nedá naplánovať rozpočet ani zistiť, či nepreplácate.
 
 Nižšie je, z čoho sa cena reklamy na Google skladá, aké čísla sú na Slovensku normou, koľko stojí nastavenie a správa kampaní a ako si za jeden večer overiť, či sa to, čo už beží, vracia. Platená reklama na Googli má tri rôzne náklady a väčšina sklamaní vzniká z toho, že sa zamieňajú.
 
@@ -35,7 +35,7 @@ Nižšie je, z čoho sa cena reklamy na Google skladá, aké čísla sú na Slov
 
 Náklady nie sú jedny, ale troje, a zamieňať ich je drahé.
 
-**1. Rozpočet — peniaze, ktoré idú Googlu.** Platíte za kliknutia, nie za zobrazenia. Strhne sa až vtedy, keď človek prišiel na web.
+**1. Rozpočet: peniaze, ktoré idú Googlu.** Platíte za kliknutia, nie za zobrazenia. Strhne sa až vtedy, keď človek prišiel na web.
 
 **2. Nastavenie.** Jednorazovo: štruktúra kampaní, kľúčové slová, vylučujúce slová, reklamy, meranie konverzií.
 
@@ -49,17 +49,17 @@ Google nemá pevnú cenu. Funguje aukcia a vstupujú do nej dva činitele.
 
 **Ponuky konkurencie.** Čím viac záujemcov o ten istý dopyt, tým drahšie.
 
-**Skóre kvality** — hodnotenie od 1 do 10, nakoľko vaša reklama a cieľová stránka zodpovedajú dopytu. A tu je to zaujímavé: **pri vysokom skóre kvality platíte za rovnakú pozíciu menej než konkurent.**
+**Skóre kvality**: hodnotenie od 1 do 10, nakoľko vaša reklama a cieľová stránka zodpovedajú dopytu. A tu je to zaujímavé: **pri vysokom skóre kvality platíte za rovnakú pozíciu menej než konkurent.**
 
 Z čoho sa skladá:
 
 - očakávaná miera prekliku;
 - zhoda reklamy s dopytom;
-- **kvalita cieľovej stránky** — obsah, rýchlosť, použiteľnosť na mobile.
+- **kvalita cieľovej stránky**: obsah, rýchlosť, použiteľnosť na mobile.
 
-Z toho plynie praktický záver, ktorý ušetrí viac než akékoľvek doťahovanie ponúk: **stránka, na ktorú reklama vedie, ovplyvňuje cenu kliknutia.** Pomalý web so všeobecnými informáciami namiesto konkrétnej služby budete platiť dvakrát — nízkou konverziou aj zvýšenou cenou kliknutia.
+Z toho plynie praktický záver, ktorý ušetrí viac než akékoľvek doťahovanie ponúk: **stránka, na ktorú reklama vedie, ovplyvňuje cenu kliknutia.** Pomalý web so všeobecnými informáciami namiesto konkrétnej služby budete platiť dvakrát: nízkou konverziou aj zvýšenou cenou kliknutia.
 
-Ako si overiť rýchlosť — v článku [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
+Ako si overiť rýchlosť: v článku [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
 ## Cena reklamy na Google: orientačné čísla pre Slovensko
 
@@ -67,9 +67,9 @@ Presné hodnoty závisia od niky, ale rád veličín je takýto:
 
 | Typ dopytu | Orientačne za kliknutie |
 |---|---|
-| Lokálne služby, úzke dopyty | 0,30-0,80 € |
-| Služby pre firmy v Bratislave | 0,60-1,50 € |
-| Konkurenčné niky (právo, financie, reality) | od 2 € |
+| Lokálne služby, úzke dopyty | 0,30-0,80€ |
+| Služby pre firmy v Bratislave | 0,60-1,50€ |
+| Konkurenčné niky (právo, financie, reality) | od 2€ |
 | Značkové dopyty (váš názov) | zvyčajne centy |
 
 **Ako zistiť presné číslo pre svoje slová bez toho, aby ste niečo minuli:** Plánovač kľúčových slov v rozhraní Google Ads. Ukáže početnosť a rozpätie ponúk pre Slovensko ešte pred spustením a zadarmo.
@@ -78,9 +78,9 @@ Presné hodnoty závisia od niky, ale rád veličín je takýto:
 
 Rátať treba od dopytu, nie od rozpočtu.
 
-Vezmime službu v Bratislave: kliknutie 0,60 €, dopyt zanechá každý dvadsiaty — kontakt teda vyjde asi na 12 €. Aby sa dalo posúdiť, či sa to vracia, treba 20-30 kontaktov: **240-360 € len na nazbieranie štatistiky.**
+Vezmime službu v Bratislave: kliknutie 0,60€, dopyt zanechá každý dvadsiaty: kontakt teda vyjde asi na 12€. Aby sa dalo posúdiť, či sa to vracia, treba 20-30 kontaktov: **240-360€ len na nazbieranie štatistiky.**
 
-Odtiaľ orientačný údaj — **10-15 € denne na jednu službu v jednom meste**. Pri 5 € denne sa na dáta čaká trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.
+Odtiaľ orientačný údaj: **10-15€ denne na jednu službu v jednom meste**. Pri 5€ denne sa na dáta čaká trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.
 
 Prvé pravidlo rozdelenia: **nerozotierať.** Malý rozpočet na celé Slovensko a šesť služieb nedá ani dopyty, ani štatistiku. Jedna služba, jedno mesto, potom rozšírenie.
 
@@ -90,9 +90,9 @@ Z rovnakej matematiky vychádzajú tri sumy, s ktorými sa na Slovensku pracuje 
 
 | Situácia | Denne | Mesačne | Čo za to dostanete |
 |---|---|---|---|
-| Jedna služba, jedno mesto | 10 až 15 € | 300 až 450 € | 20 až 30 kontaktov za mesiac a podklad na rozhodnutie |
-| Jedna služba, celé Slovensko | 25 až 40 € | 750 až 1 200 € | rovnaká štatistika, ale dopyty z miest, kam sa oplatí ísť, treba oddeliť vylučovaním lokalít |
-| Tri až päť služieb alebo e-shop | od 50 € | od 1 500 € | každá služba má vlastnú kampaň a vlastné dáta, inak si rozpočet vezme tá najlacnejšia |
+| Jedna služba, jedno mesto | 10 až 15€ | 300 až 450€ | 20 až 30 kontaktov za mesiac a podklad na rozhodnutie |
+| Jedna služba, celé Slovensko | 25 až 40€ | 750 až 1 200€ | rovnaká štatistika, ale dopyty z miest, kam sa oplatí ísť, treba oddeliť vylučovaním lokalít |
+| Tri až päť služieb alebo e-shop | od 50€ | od 1 500€ | každá služba má vlastnú kampaň a vlastné dáta, inak si rozpočet vezme tá najlacnejšia |
 
 Pod prvým riadkom to má zmysel len pri veľmi úzkom dopyte s lacným kliknutím. Nad tretím riadkom už nejde o to, koľko minúť, ale o to, či sa každé euro vracia, a to bez merania nikto nezistí.
 
@@ -100,15 +100,15 @@ Pod prvým riadkom to má zmysel len pri veľmi úzkom dopyte s lacným kliknut�
 
 Na slovenskom trhu sú tri schémy:
 
-**Percento z rozpočtu** — zvyčajne 10-20 %. Logické pri veľkých rozpočtoch, ale pri 400 € mesačne dostane agentúra 40-80 € a fyzicky nemôže kampani venovať čas.
+**Percento z rozpočtu**: zvyčajne 10-20%. Logické pri veľkých rozpočtoch, ale pri 400€ mesačne dostane agentúra 40-80€ a fyzicky nemôže kampani venovať čas.
 
-**Pevná mesačná suma** — zrozumiteľné a predvídateľné.
+**Pevná mesačná suma**: zrozumiteľné a predvídateľné.
 
-**Hodinová sadzba.** U mňa je to tak: hodinová sadzba **25 €**, plný rozbeh kampaní začína približne **od 1 000 €**. Rozpočet na samotnú reklamu v tom nie je — ten platíte priamo Googlu alebo Mete zo svojho účtu. Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
+**Hodinová sadzba.** U mňa je to tak: hodinová sadzba **25€**, plný rozbeh kampaní začína približne **od 1 000€**. Rozpočet na samotnú reklamu v tom nie je. Ten platíte priamo Googlu alebo Mete zo svojho účtu. Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
 
 Na čo sa spýtať pred podpisom, bez ohľadu na schému:
 
-1. **Komu patrí účet Google Ads?** Má patriť vám. Ak vás agentúra vedie zo svojho účtu, pri rozchode prídete o celú nazbieranú štatistiku — a tá je hlavným aktívom kampane.
+1. **Komu patrí účet Google Ads?** Má patriť vám. Ak vás agentúra vedie zo svojho účtu, pri rozchode prídete o celú nazbieranú štatistiku, a tá je hlavným aktívom kampane.
 2. **Kto nastavuje meranie konverzií a ako?** Bez neho sa práca nedá vyhodnotiť.
 3. **Čo je v správe zahrnuté?** Konkrétny zoznam úkonov, nie „optimalizácia".
 
@@ -120,11 +120,11 @@ Cena reklamy na internete sa nedá porovnať jedným číslom: v Meta (Facebook,
 
 ## Skryté náklady, na ktoré nikto neupozorní
 
-**Prvý mesiac je drahší.** Kým nie je nazbieraný zoznam vylučujúcich slov, časť rozpočtu ide na nerelevantné kliknutia. Nie je to chyba dodávateľa, ale nevyhnutná cena za učenie kampane — treba s ňou však rátať.
+**Prvý mesiac je drahší.** Kým nie je nazbieraný zoznam vylučujúcich slov, časť rozpočtu ide na nerelevantné kliknutia. Nie je to chyba dodávateľa, ale nevyhnutná cena za učenie kampane. Treba s ňou však rátať.
 
-**Meranie.** Bez korektne nastavených konverzií nemá algoritmus na čom optimalizovať a míňa na najlacnejšie kliknutia. Ako to funguje — v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
+**Meranie.** Bez korektne nastavených konverzií nemá algoritmus na čom optimalizovať a míňa na najlacnejšie kliknutia. Ako to funguje: v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
 
-**Consent Mode v2.** Od marca 2024 bez signálu súhlasu Google neprijíma údaje z EÚ na remarketing a modelovanie konverzií. V praxi: reklama prináša dopyty a v prehľadoch je kampaň stratová, tak sa vypne. Rozbor — v článku [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
+**Consent Mode v2.** Od marca 2024 bez signálu súhlasu Google neprijíma údaje z EÚ na remarketing a modelovanie konverzií. V praxi: reklama prináša dopyty a v prehľadoch je kampaň stratová, tak sa vypne. Rozbor: v článku [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
 
 **Cieľová stránka.** Ak neexistuje, treba ju spraviť. Reklama na úvodnú stránku namiesto stránky služby je najčastejšia príčina drahého dopytu.
 
@@ -136,22 +136,22 @@ Tri čísla, všetko ostatné sú detaily:
 2. **Podiel dopytov, z ktorých boli klienti.** Ráta sa ručne, ale bez neho je prvé číslo bezvýznamné.
 3. **Cena klienta** = prvé ÷ druhé.
 
-Príklad. Minuli ste 400 €, prišlo 30 kontaktov → dopyt 13,3 €. Klientmi sa stalo 6 → klient vyšiel na 66 €. Ak je priemerná zákazka 3500 €, otázka neznie, či sa to vracia, ale prečo je rozpočet stále 400.
+Príklad. Minuli ste 400€, prišlo 30 kontaktov → dopyt 13,3€. Klientmi sa stalo 6 → klient vyšiel na 66€. Ak je priemerná zákazka 3500€, otázka neznie, či sa to vracia, ale prečo je rozpočet stále 400.
 
-Opačná situácia tiež nastáva: klient stojí 300 € a prinesie 400. Vtedy nejde o reklamu, ale o maržu — a rozpočet zvyšovať nemožno.
+Opačná situácia tiež nastáva: klient stojí 300€ a prinesie 400. Vtedy nejde o reklamu, ale o maržu, a rozpočet zvyšovať nemožno.
 
 ## Kedy reklamu na Google nespúšťať
 
 Poviem to priamo, lebo to šetrí peniaze:
 
-- **Web nie je pripravený.** Pomalý, bez stránky konkrétnej služby, s nefunkčnými formulármi — reklama bude zaplatený odchod návštevníkov.
+- **Web nie je pripravený.** Pomalý, bez stránky konkrétnej služby, s nefunkčnými formulármi: reklama bude zaplatený odchod návštevníkov.
 - **Meranie nie je nastavené.** Výsledok sa nedozviete a rozhodnúť sa nebudete môcť.
 - **Nie je rezerva na 2-3 mesiace.** Kampaň vypnutá po dvoch týždňoch sú peniaze minuté na učenie algoritmu, ktoré ste nevyužili.
-- **V hľadaní nie je dopyt.** Ak Plánovač ukazuje pri vašej téme jednotky dopytov mesačne, rozpočet patrí do iných kanálov — [rozbor zdrojov návštevnosti](/sk/blog/kak-uvelichit-poseshaemost-sajta/).
+- **V hľadaní nie je dopyt.** Ak Plánovač ukazuje pri vašej téme jednotky dopytov mesačne, rozpočet patrí do iných kanálov: [rozbor zdrojov návštevnosti](/sk/blog/kak-uvelichit-poseshaemost-sajta/).
 
 ## Ak treba pomôcť
 
-Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukážem, koľko dopyt reálne stojí. Účet sa vedie na vás — štatistika zostáva vaša za každých okolností.
+Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukážem, koľko dopyt reálne stojí. Účet sa vedie na vás: štatistika zostáva vaša za každých okolností.
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 

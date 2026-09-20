@@ -22,7 +22,7 @@ faq:
 
 # Google Ads or Meta: where a small business in Slovakia should go
 
-The question is usually put as "which is better". It cannot be answered that way — these are two different selling mechanics, and the choice depends not on the platform but on whether your client knows what they need.
+The question is usually put as "which is better". It cannot be answered that way: these are two different selling mechanics, and the choice depends not on the platform but on whether your client knows what they need.
 
 Below: the difference in substance, who suits what, what entry costs, and where to start when there is budget for only one.
 
@@ -32,7 +32,7 @@ Below: the difference in substance, who suits what, what entry costs, and where 
 
 **Google catches existing demand. Meta creates it.**
 
-Someone typing `oprava práčky bratislava` has already decided — all that remains is choosing who does the work. You arrive at the moment the money is effectively ready.
+Someone typing `oprava práčky bratislava` has already decided: all that remains is choosing who does the work. You arrive at the moment the money is effectively ready.
 
 Someone scrolling a feed was not looking for anything. They saw you between photographs of friends, and you have two seconds to explain why this deserves attention.
 
@@ -56,11 +56,11 @@ Everything else follows from that: price, copy, expectations about timing, and w
 
 **High price and a long decision.** In B2B, search is almost the only channel where someone arrives with intent rather than out of boredom.
 
-**Checking this is free and takes ten minutes.** The Keyword Planner inside Google Ads shows search volumes for Slovakia. Dozens of monthly searches on your topic means demand exists. Single digits means Google will not help you right now — and that is an answer.
+**Checking this is free and takes ten minutes.** The Keyword Planner inside Google Ads shows search volumes for Slovakia. Dozens of monthly searches on your topic means demand exists. Single digits means Google will not help you right now, and that is an answer.
 
 ## When it is clearly Meta
 
-**Nobody knows your solution exists.** If a person does not suspect the problem can be solved this way, they will never type the query. There is no search demand — it has to be created.
+**Nobody knows your solution exists.** If a person does not suspect the problem can be solved this way, they will never type the query. There is no search demand: it has to be created.
 
 **The result is visible to the eye.** Salons, renovation, patisserie, interiors, training. A before-and-after photograph sells better than any search ad.
 
@@ -72,13 +72,13 @@ Everything else follows from that: price, copy, expectations about timing, and w
 
 A couple of things that set this market apart from what general guides describe.
 
-**Facebook is more alive here than people assume.** The 30+ audience uses it actively — exactly the people who decide on services for the home and for business. Writing it off is premature.
+**Facebook is more alive here than people assume.** The 30+ audience uses it actively: exactly the people who decide on services for the home and for business. Writing it off is premature.
 
 **Instagram is younger** and works better where there is a visual result.
 
-**Search competition is lower than in big countries.** The Slovak market is small, and on many queries you will find two or three competitors in Google Ads rather than twenty. The click is correspondingly cheaper — figures in [what Google Ads costs in Slovakia](/en/blog/google-ads-cost-slovakia/).
+**Search competition is lower than in big countries.** The Slovak market is small, and on many queries you will find two or three competitors in Google Ads rather than twenty. The click is correspondingly cheaper: figures in [what Google Ads costs in Slovakia](/en/blog/google-ads-cost-slovakia/).
 
-**The language of the ads.** For a Slovak audience the ads must be in Slovak — it affects both response and Quality Score. Russian-speakers in Slovakia can and should be addressed in Russian, but that is a separate campaign with separate targeting, not a translation of the same one.
+**The language of the ads.** For a Slovak audience the ads must be in Slovak: it affects both response and Quality Score. Russian-speakers in Slovakia can and should be addressed in Russian, but that is a separate campaign with separate targeting, not a translation of the same one.
 
 [CTA_FORM:consult]
 
@@ -86,9 +86,9 @@ A couple of things that set this market apart from what general guides describe.
 
 The same for both platforms, and launching without it is pointless.
 
-**A page for the specific service.** Not the home page. Someone clicked an ad about fixing a website — they should land on the page about fixing websites.
+**A page for the specific service.** Not the home page. Someone clicked an ad about fixing a website: they should land on the page about fixing websites.
 
-**Measurement that works.** Google has its conversions, Meta has its pixel; one does not replace the other. Without measurement the algorithm has nothing to learn from and optimises towards the cheapest clicks. How to set it up — [configuring GA4](/en/blog/ga4-setup/).
+**Measurement that works.** Google has its conversions, Meta has its pixel; one does not replace the other. Without measurement the algorithm has nothing to learn from and optimises towards the cheapest clicks. How to set it up: [configuring GA4](/en/blog/ga4-setup/).
 
 **Consent Mode v2.** Since March 2024 Google does not accept EU data for remarketing and conversion modelling without a consent signal. Meta has its own consent mechanics, but the problem is identical: some conversions go uncounted, the campaign looks unprofitable, it gets switched off. [Analysis](/en/blog/cookie-banner-2026/).
 
@@ -98,7 +98,7 @@ The same for both platforms, and launching without it is pointless.
 
 **In Google, words decide.** Campaign structure, match types, negative keywords. The main job is cutting off the irrelevant: people looking for courses, jobs or a way to do it themselves click willingly and never buy.
 
-**In Meta, the creative decides.** The algorithm will find the audience itself if you give it a signal through measurement. The image and the first line, though, you make by hand — and will have to change every few weeks: the same ad burns out and response falls.
+**In Meta, the creative decides.** The algorithm will find the audience itself if you give it a signal through measurement. The image and the first line, though, you make by hand, and will have to change every few weeks: the same ad burns out and response falls.
 
 The practical consequence: **Google demands attention to settings, Meta demands constant production of material.** If there is nobody to shoot and refresh the creatives, Meta will stall regardless of budget.
 
@@ -108,12 +108,12 @@ The practical consequence: **Google demands attention to settings, Meta demands 
 
 **Expecting instant results from Meta.** Google can produce an enquiry on launch day; Meta almost never does. The algorithm needs to accumulate data and the person needs to see you several times. A campaign switched off after a week is money spent on training you never used.
 
-**Splitting a small budget in half.** Two campaigns, neither with enough data, deliver less than one properly trained. The arithmetic — [what advertising costs](/en/blog/google-ads-cost-slovakia/).
+**Splitting a small budget in half.** Two campaigns, neither with enough data, deliver less than one properly trained. The arithmetic: [what advertising costs](/en/blog/google-ads-cost-slovakia/).
 
 ## Where to start when there is budget for one
 
 1. **Check demand** in the Keyword Planner. Ten minutes, free, before any spending.
-2. **Demand exists → start with Google.** One service, one city, 10-15 € a day.
+2. **Demand exists → start with Google.** One service, one city, 10-15€ a day.
 3. **No demand → start with Meta.** But allow two or three months and material for the ads.
 4. **Take the first platform to a cost per enquiry you understand.** Not "to success" but to a number you can compare with the value of a client.
 5. **Only then add the second.**
@@ -124,15 +124,15 @@ That order matters because the second platform almost always looks more attracti
 
 There is a case where the pair beats either alone: **Google brings the people who are searching, Meta brings back the ones who did not buy first time.**
 
-Someone arrived from search, looked, left to think. Remarketing on Meta reminds them in the feed a day or two later. For services with a long decision — a website, renovation, training — this is often the most profitable part of the entire budget.
+Someone arrived from search, looked, left to think. Remarketing on Meta reminds them in the feed a day or two later. For services with a long decision (a website, renovation, training), this is often the most profitable part of the entire budget.
 
 But it only works with measurement configured: without it the system has no way to know who to bring back.
 
 ## If you need help
 
-I will look at your niche, check search demand and say plainly which platform to start with and why — before you spend anything.
+I will look at your niche, check search demand and say plainly which platform to start with and why, before you spend anything.
 
-My hourly rate is **25 €**; a full campaign launch starts at roughly **1,000 €**. The advertising budget itself is separate: you pay that directly to Google or Meta from your own account, and the account is registered to you — the statistics stay yours whatever happens next.
+My hourly rate is **25€**; a full campaign launch starts at roughly **1,000€**. The advertising budget itself is separate: you pay that directly to Google or Meta from your own account, and the account is registered to you: the statistics stay yours whatever happens next.
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
 

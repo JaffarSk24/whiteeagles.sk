@@ -75,9 +75,9 @@ Honestly, line by line:
 
 | Item | Cost |
 |---|---|
-| **Domain and hosting** | roughly 50-150 € a year |
+| **Domain and hosting** | roughly 50-150€ a year |
 | **Premium plugin and theme licences** | if the site uses them, each is paid yearly |
-| **Monthly maintenance** (updates, backup check, form test) | for a small company site usually 1-2 hours, at 35 € with me |
+| **Monthly maintenance** (updates, backup check, form test) | for a small company site usually 1-2 hours, at 35€ with me |
 | **Unplanned repairs** | after a bad update, a hack, or a forced PHP change |
 
 The last line is the most expensive because it cannot be planned. Regular maintenance does not eliminate it, but shrinks it considerably.
@@ -120,7 +120,7 @@ If you look after the site yourself, this is the monthly minimum:
 
 ## If you need help
 
-I maintain existing WordPress sites: updates with a backup and testing, off-server backups, PHP version changes, small changes, and repairs after bad updates. I bill hourly at **35 €**, with no flat fee for months when nothing is done. I do not sell hosting or plugin licences; my part is the work on the site.
+I maintain existing WordPress sites: updates with a backup and testing, off-server backups, PHP version changes, small changes, and repairs after bad updates. I bill hourly at **35€**, with no flat fee for months when nothing is done. I do not sell hosting or plugin licences; my part is the work on the site.
 
 I build new sites on a modern stack that need a fraction of the upkeep, and each comes with **six months of free support**. I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, such as [Krása štúdio OK](/en/case/studio-krasy/) with booking through Telegram. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 

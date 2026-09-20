@@ -47,13 +47,13 @@ Poradie je dôležité: každý ďalší krok stojí na predchádzajúcom.
 
 GA4 sa dá nasadiť dvoma spôsobmi: vložiť kód priamo do webu alebo ho zapojiť cez Google Tag Manager.
 
-Priame vloženie je rýchlejšie presne raz. Potom sa začne: treba pixel reklamy — zásah do kódu, treba udalosť odoslania formulára — zásah do kódu, treba to všetko vypnúť do udelenia súhlasu s cookies — opäť zásah do kódu. Cez Tag Manager sa to rieši v rozhraní, bez vývojára.
+Priame vloženie je rýchlejšie presne raz. Potom sa začne: treba pixel reklamy (zásah do kódu), treba udalosť odoslania formulára (zásah do kódu), treba to všetko vypnúť do udelenia súhlasu s cookies (opäť zásah do kódu). Cez Tag Manager sa to rieši v rozhraní, bez vývojára.
 
 **Dôležité varovanie.** Najdrahšia chyba v tomto kroku je zapojiť GA4 oboma spôsobmi naraz: aj priamo, aj cez kontajner. Potom sa každé zobrazenie počíta dvakrát a všetky čísla v prehľadoch sú presne dvojnásobné.
 
 Overí sa to ľahko. Otvorte web, pravé tlačidlo → „Zobraziť zdrojový kód stránky" a hľadajte `gtag/js?id=G-`. Ak taký riadok existuje a GA4 je zároveň v kontajneri, máte dvojité počítanie.
 
-## Krok 2. Consent Mode v2 — skôr než udalosti
+## Krok 2. Consent Mode v2, skôr než udalosti
 
 Poradie tu nie je zjavné, ale je zásadné. Consent Mode sa nastavuje **skôr** než udalosti, inak sa to neskôr celé prerába.
 
@@ -78,15 +78,15 @@ Dopyty treba posielať sám. Malej firme zvyčajne stačia štyri:
 
 Kliknutia na telefón a messengery sa zvyknú podceňovať, pritom na mobile sú často hlavným spôsobom kontaktu.
 
-**Kritické:** udalosť sa má spustiť po **úspešnom** odoslaní, nie po kliknutí na tlačidlo. Inak budú v prehľadoch dopyty, ktoré neexistovali: človek klikol, formulár vrátil chybu, e-mail neodišiel — a konverzia sa započítala.
+**Kritické:** udalosť sa má spustiť po **úspešnom** odoslaní, nie po kliknutí na tlačidlo. Inak budú v prehľadoch dopyty, ktoré neexistovali: človek klikol, formulár vrátil chybu, e-mail neodišiel, a konverzia sa započítala.
 
 Zvlášť varovanie. Nepoužívajte udalosť `purchase` na odoslanie formulára. Je to udalosť elektronického obchodu, ťahá so sebou tržbu a v prehľadoch sa objavia peniaze, ktoré nikto nezaplatil. Dopyt je `generate_lead`.
 
-## Krok 4. Kľúčové udalosti — inak konverzie nebudú
+## Krok 4. Kľúčové udalosti, inak konverzie nebudú
 
 Miesto, na ktorom sa potkne najviac ľudí.
 
-Udalosť môže do GA4 chodiť bezchybne, ale kým nie je označená ako **kľúčová**, v prehľade konverzií bude nula. A v Google Ads tiež nula — teda kampaň nemá na čom optimalizovať.
+Udalosť môže do GA4 chodiť bezchybne, ale kým nie je označená ako **kľúčová**, v prehľade konverzií bude nula. A v Google Ads tiež nula, teda kampaň nemá na čom optimalizovať.
 
 Robí sa to v GA4: **Správca → Udalosti** → prepínač „Označiť ako kľúčovú udalosť" pri tej správnej.
 
@@ -98,7 +98,7 @@ Kontrola trvá minútu: **Prehľady → V reálnom čase**, pošlite testovací 
 
 Tri prepojenia, ktoré sa robia raz a menia kvalitu údajov:
 
-**Search Console.** V GA4 pribudne prehľad vyhľadávacích dopytov — je vidieť, na aké slová ľudia prichádzajú a čo robia ďalej.
+**Search Console.** V GA4 pribudne prehľad vyhľadávacích dopytov: je vidieť, na aké slová ľudia prichádzajú a čo robia ďalej.
 
 **Google Ads.** Konverzie z GA4 sa posielajú do kampaní a algoritmus začne optimalizovať na dopyty, nie na kliknutia. Bez toho reklama míňa rozpočet na najlacnejšie kliky. Viac v článku [Google Ads pre malé firmy](/sk/blog/google-ads-small-business/) a na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
 
@@ -106,7 +106,7 @@ Tri prepojenia, ktoré sa robia raz a menia kvalitu údajov:
 
 ## Krok 6. Nastavenia, na ktoré sa zabúda
 
-**Uchovávanie údajov.** Predvolene GA4 uchováva podrobné údaje dva mesiace. Mení sa to v **Správca → Uchovávanie údajov** na 14 mesiacov — maximum bezplatnej verzie. Inak sa po dvoch mesiacoch nedá porovnať obdobie s obdobím.
+**Uchovávanie údajov.** Predvolene GA4 uchováva podrobné údaje dva mesiace. Mení sa to v **Správca → Uchovávanie údajov** na 14 mesiacov (maximum bezplatnej verzie). Inak sa po dvoch mesiacoch nedá porovnať obdobie s obdobím.
 
 **Filter vlastnej návštevnosti.** Vaše vlastné návštevy a návštevy dodávateľa idú do štatistiky a pri malých objemoch ju skresľujú. Nastavuje sa v dátovom toku, v sekcii internej návštevnosti.
 
@@ -116,13 +116,13 @@ Tri prepojenia, ktoré sa robia raz a menia kvalitu údajov:
 
 Nie je to teória, ale to, čo sa reálne nájde pri kontrole cudzích nastavení:
 
-1. **Udalosti idú do `dataLayer`, ale v kontajneri nie je tag**, ktorý ich posiela do GA4. Dopyty v prehľadoch nie sú vôbec — pritom je technicky všetko „nastavené".
-2. **GA4 je zapojený dvakrát** — priamo aj cez kontajner. Všetky čísla sú dvojnásobné.
+1. **Udalosti idú do `dataLayer`, ale v kontajneri nie je tag**, ktorý ich posiela do GA4. Dopyty v prehľadoch nie sú vôbec, pritom je technicky všetko „nastavené".
+2. **GA4 je zapojený dvakrát**: priamo aj cez kontajner. Všetky čísla sú dvojnásobné.
 3. **Kľúčová udalosť nie je označená.** Dopyty chodia, v konverziách nula.
 4. **`purchase` namiesto `generate_lead`.** V prehľadoch svieti neexistujúca tržba.
 5. **Cookie lišta blokuje meranie aj po súhlase.** Údaje sa strácajú potichu.
 
-Spoločné pre všetkých päť: web pritom funguje, dopyty chodia a nikto nič netuší — kým nepríde čas vyhodnotiť, či sa reklama vracia.
+Spoločné pre všetkých päť: web pritom funguje, dopyty chodia a nikto nič netuší, kým nepríde čas vyhodnotiť, či sa reklama vracia.
 
 ## Ako overiť, že to funguje
 

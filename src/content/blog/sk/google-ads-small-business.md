@@ -34,7 +34,7 @@ Poradie je tu dôležitejšie, než sa zdá. Reklama spustená na nepripravený 
 
 **1. Stránka pre konkrétnu službu.** Človek hľadal `oprava webstránky` a má pristáť na stránke o oprave webov, nie na úvodnej so všetkými službami naraz. Každý krok navyše k potrebnej informácii stojí časť návštevníkov.
 
-**2. Fungujúce meranie dopytov.** Bez neho sa kampaň nedá vyhodnotiť a — čo je dôležitejšie — Google nemá na čom optimalizovať. Ako to nastaviť, je v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
+**2. Fungujúce meranie dopytov.** Bez neho sa kampaň nedá vyhodnotiť, a čo je dôležitejšie, Google nemá na čom optimalizovať. Ako to nastaviť, je v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
 
 **3. Consent Mode v2.** Od marca 2024 Google neprijíma údaje z EÚ na remarketing a modelovanie konverzií bez signálu súhlasu. Praktický dôsledok: časť konverzií sa nezapočíta a kampaň vyzerá stratovo, hoci dopyty chodia. [Viac o lište](/sk/blog/cookie-lista-2026-povinnosti/).
 
@@ -44,9 +44,9 @@ Poradie je tu dôležitejšie, než sa zdá. Reklama spustená na nepripravený 
 
 Štandardná odpoveď „začnite s 5 eurami denne" neobstojí pri jednoduchom počítaní.
 
-Rátať treba odzadu. Povedzme, že kliknutie vo vašej nike stojí 0,60 € a dopyt zanechá každý dvadsiaty — dopyt teda vyjde asi na 12 €. Aby sa dalo posúdiť, či sa to vracia, treba 20-30 dopytov, čiže 240-360 € len na nazbieranie štatistiky.
+Rátať treba odzadu. Povedzme, že kliknutie vo vašej nike stojí 0,60€ a dopyt zanechá každý dvadsiaty: dopyt teda vyjde asi na 12€. Aby sa dalo posúdiť, či sa to vracia, treba 20-30 dopytov, čiže 240-360€ len na nazbieranie štatistiky.
 
-Z toho plynie praktický orientačný údaj pre úzku službu v Bratislave: **10-15 € denne**. Menej tiež funguje, ale na závery sa nebude čakať mesiac, ale tri — a celý ten čas sa platí.
+Z toho plynie praktický orientačný údaj pre úzku službu v Bratislave: **10-15€ denne**. Menej tiež funguje, ale na závery sa nebude čakať mesiac, ale tri, a celý ten čas sa platí.
 
 Začínať je lepšie s jedným mestom a jednou službou. Rozdrobiť malý rozpočet na celé Slovensko a šesť služieb je najrýchlejší spôsob, ako nezískať ani dáta, ani dopyty.
 
@@ -75,18 +75,18 @@ zadarmo, zdarma, kurz, škola, práca, brigáda, návod, sám, svojpomocne,
 
 A to isté po rusky, ak pracujete aj s rusky hovoriacim publikom: `бесплатно, курсы, работа, вакансии, своими руками, скачать, шаблон`.
 
-Ďalej sa zoznam dopĺňa z praxe. Raz týždenne v prvom mesiaci otvorte prehľad vyhľadávacích dopytov a pozrite, na aké slová sa reklamy naozaj zobrazovali. Odtiaľ pribúdajú vylučujúce slová — a tam sa objavia aj dopyty, na ktoré ste nepomysleli.
+Ďalej sa zoznam dopĺňa z praxe. Raz týždenne v prvom mesiaci otvorte prehľad vyhľadávacích dopytov a pozrite, na aké slová sa reklamy naozaj zobrazovali. Odtiaľ pribúdajú vylučujúce slová, a tam sa objavia aj dopyty, na ktoré ste nepomysleli.
 
 [CTA_FORM:analytics]
 
 ## Päť miest, kde sa rozpočet stráca najčastejšie
 
-Nie je to teória — je to to, čo sa nájde pri kontrole cudzích kampaní:
+Nie je to teória, je to to, čo sa nájde pri kontrole cudzích kampaní:
 
 1. **Konverzie sa neposielajú do Googlu.** Algoritmus nemá na čom optimalizovať, tak optimalizuje na kliknutia a míňa na tie najlacnejšie.
 2. **Voľná zhoda bez vylučujúcich slov.** Platíte za dopyty, ktoré s vaším podnikaním nesúvisia.
 3. **Reklama vedie na úvodnú stránku** namiesto stránky konkrétnej služby.
-4. **Jeden rozpočet na značkové a nové dopyty.** Ľudia, ktorí vašu firmu aj tak poznajú, zjedia väčšinu — a v prehľade to vyzerá ako výborná kampaň s lacnými konverziami.
+4. **Jeden rozpočet na značkové a nové dopyty.** Ľudia, ktorí vašu firmu aj tak poznajú, zjedia väčšinu, a v prehľade to vyzerá ako výborná kampaň s lacnými konverziami.
 5. **Chýba Consent Mode.** Časť konverzií sa nezapočíta a kampaň sa javí stratovo.
 
 Piaty bod je obzvlášť zákerný: na jeho základe sa vypína reklama, ktorá v skutočnosti fungovala.
@@ -95,7 +95,7 @@ Piaty bod je obzvlášť zákerný: na jeho základe sa vypína reklama, ktorá 
 
 Tri veci, ktoré naozaj vplývajú na cenu kliknutia aj na odozvu:
 
-**Nadpis opakuje dopyt.** Človek hľadá `oprava wordpress webstránky` — nadpis má tieto slová obsahovať. Vplýva to nielen na odozvu, ale aj na skóre kvality, a teda na cenu.
+**Nadpis opakuje dopyt.** Človek hľadá `oprava wordpress webstránky`: nadpis má tieto slová obsahovať. Vplýva to nielen na odozvu, ale aj na skóre kvality, a teda na cenu.
 
 **Je tam konkrétnosť.** „Oprava webov" prehráva s „Opravím web za 1-2 dni, platba po dokončení". Čísla, termíny a podmienky fungujú lepšie než prídavné mená.
 
@@ -105,11 +105,11 @@ Tri veci, ktoré naozaj vplývajú na cenu kliknutia aj na odozvu:
 
 Zabudnite na počet kliknutí a pozíciu reklamy. Pozerať treba tri čísla:
 
-- **Cena dopytu** — koľko ste zaplatili za jeden kontakt.
+- **Cena dopytu**: koľko ste zaplatili za jeden kontakt.
 - **Podiel dopytov, z ktorých boli klienti.** Ráta sa ručne, ale bez toho je predchádzajúce číslo bezvýznamné.
-- **Cena klienta** — cena dopytu delená týmto podielom.
+- **Cena klienta**: cena dopytu delená týmto podielom.
 
-Ďalej je počítanie jednoduché: ak vám klient prinesie 900 € zisku a stojí 120 € reklamy, kampaň netreba hodnotiť, ale škálovať.
+Ďalej je počítanie jednoduché: ak vám klient prinesie 900€ zisku a stojí 120€ reklamy, kampaň netreba hodnotiť, ale škálovať.
 
 ## Reklama a SEO: nie alebo, ale kedy
 
@@ -128,6 +128,6 @@ Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukáže
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
-K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/) — ak ešte neviete, ktorou platformou začať, [koľko stojí reklama na Slovensku](/sk/blog/kolko-stoji-reklama-na-slovensku/), [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
+K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), ak ešte neviete, ktorou platformou začať, [koľko stojí reklama na Slovensku](/sk/blog/kolko-stoji-reklama-na-slovensku/), [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
 [CTA_FORM:audit]

@@ -100,7 +100,7 @@ Nie počet rezervácií. Tieto štyri veci:
 3. **Napojenia.** Kalendár, Telegram, e-mail, platobná brána, účtovníctvo.
 4. **Jazyky.** Rezervácia v troch jazykoch je trikrát viac textov a testov.
 
-Ako súčasť nového webu ide rezervácia od **3 500 €** - je to funkčnosť navyše, nie samostatný produkt. Doplnenie do existujúceho webu sa počíta hodinovo, sadzba **35 €/hod**. Podrobný rozpis cien je v článku [koľko stojí web](/sk/blog/website-cost-2026/).
+Ako súčasť nového webu ide rezervácia od **3 500€** - je to funkčnosť navyše, nie samostatný produkt. Doplnenie do existujúceho webu sa počíta hodinovo, sadzba **35€/hod**. Podrobný rozpis cien je v článku [koľko stojí web](/sk/blog/website-cost-2026/).
 
 ## Platba vopred: väčšinou nie
 
@@ -127,13 +127,13 @@ Ako to nastaviť: [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
 
 ## Ak potrebujete pomoc
 
-Robím weby s rezerváciou, ktorá potvrdzuje cez Telegram a sama zatvára obsadené termíny - tak, aby personál nemusel nikam chodiť. Ako súčasť webu od **3 500 €**, doplnenie do existujúceho webu **35 €/hod**.
+Robím weby s rezerváciou, ktorá potvrdzuje cez Telegram a sama zatvára obsadené termíny - tak, aby personál nemusel nikam chodiť. Ako súčasť webu od **3 500€**, doplnenie do existujúceho webu **35€/hod**.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, medzi nimi rezervačné: [Biliardovňa](/sk/case/biliardovna/), [Krása štúdio OK](/sk/case/studio-krasy/), [TOP SKLAD](/sk/case/top-sklad/). Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/).
 
-Pre gastro je rezervácia stolov iba jedna z častí — menu, profil na Googli a návštevnosť rozoberám v článku [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
+Pre gastro je rezervácia stolov iba jedna z častí: menu, profil na Googli a návštevnosť rozoberám v článku [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
 
 Podobné rozbory pre ďalšie odvetvia: [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/), [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/).
 

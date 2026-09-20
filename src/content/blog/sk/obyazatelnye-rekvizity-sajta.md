@@ -29,12 +29,12 @@ Web bez IČO a adresy pôsobí rovnako podozrivo na kontrolóra aj na kupujúceh
 
 ## Čo musí uvádzať s.r.o.
 
-- **Obchodné meno** — presne v znení z Obchodného registra vrátane označenia právnej formy
+- **Obchodné meno**: presne v znení z Obchodného registra vrátane označenia právnej formy
 - **Sídlo**
-- **IČO** — identifikačné číslo organizácie
-- **DIČ** — daňové identifikačné číslo
-- **IČ DPH** — ak ste platiteľom DPH
-- **Údaj o zápise v Obchodnom registri** — ktorý súd, ktorý oddiel, aké číslo vložky
+- **IČO**: identifikačné číslo organizácie
+- **DIČ**: daňové identifikačné číslo
+- **IČ DPH**: ak ste platiteľom DPH
+- **Údaj o zápise v Obchodnom registri**: ktorý súd, ktorý oddiel, aké číslo vložky
 
 Posledný bod sa vynecháva najčastejšie. Formulácia vyzerá približne takto: „Spoločnosť je zapísaná v Obchodnom registri Okresného súdu …, oddiel: Sro, vložka č.: …“.
 
@@ -45,19 +45,19 @@ Posledný bod sa vynecháva najčastejšie. Formulácia vyzerá približne takto
 - **IČO**
 - **Údaj o zápise v živnostenskom registri** s označením úradu
 
-Živnostník neuvádza číslo vložky Obchodného registra — nemá ju.
+Živnostník neuvádza číslo vložky Obchodného registra, lebo ju nemá.
 
 ## Kam to patrí
 
 **Do pätičky webu.** Tak sú údaje na každej stránke vrátane tej, na ktorú návštevník prišiel z vyhľadávania. Vyhovuje to požiadavke aj klientovi.
 
-**Na stránku kontaktov** — rozpísané, spolu s telefónom, e-mailom a adresou.
+**Na stránku kontaktov**: rozpísané, spolu s telefónom, e-mailom a adresou.
 
 **Do obchodných podmienok**, ak máte e-shop.
 
-**Na faktúry** — tam platí vlastný súbor povinných údajov, ale musia sa zhodovať s webom.
+**Na faktúry**: tam platí vlastný súbor povinných údajov, ale musia sa zhodovať s webom.
 
-Dôležité: **údaje sa musia zhodovať všade**. Názov, adresa a IČO na webe, vo firemnom profile Google, v katalógoch aj na faktúrach majú byť identické — až po spôsob zápisu adresy. Nezrovnalosti bránia Googlu spojiť si vašu firmu do jednej entity a prichádzate o pozície v lokálnom vyhľadávaní. Nemyslí na to takmer nikto a stojí to draho.
+Dôležité: **údaje sa musia zhodovať všade**. Názov, adresa a IČO na webe, vo firemnom profile Google, v katalógoch aj na faktúrach majú byť identické, až po spôsob zápisu adresy. Nezrovnalosti bránia Googlu spojiť si vašu firmu do jednej entity a prichádzate o pozície v lokálnom vyhľadávaní. Nemyslí na to takmer nikto a stojí to draho.
 
 [CTA_FORM:consult]
 
@@ -71,11 +71,11 @@ Predaj fyzickým osobám cez internet pridáva povinnosti:
 
 **Reklamačný poriadok.** Kam sa obrátiť, v akých lehotách, kto platí prepravu.
 
-**Informácie o doprave a platbe** — spôsoby, lehoty, ceny. Konečná suma musí byť viditeľná pred potvrdením objednávky, nie až v poslednom kroku.
+**Informácie o doprave a platbe**: spôsoby, lehoty, ceny. Konečná suma musí byť viditeľná pred potvrdením objednávky, nie až v poslednom kroku.
 
-**Odkaz na platformu riešenia sporov.** Európska online platforma na mimosúdne riešenie — odkaz na ňu je povinný.
+**Odkaz na platformu riešenia sporov.** Európska online platforma na mimosúdne riešenie, odkaz na ňu je povinný.
 
-**Údaje o dozornom orgáne** — ktorá inšpekcia vykonáva dozor, aj s adresou.
+**Údaje o dozornom orgáne**: ktorá inšpekcia vykonáva dozor, aj s adresou.
 
 ## Časté chyby
 
@@ -94,16 +94,16 @@ Predaj fyzickým osobám cez internet pridáva povinnosti:
 ## Overte si web za dve minúty
 
 1. Otvorte ktorúkoľvek stránku okrem domovskej a posuňte sa dole. Je tam názov, adresa a IČO?
-2. Nájdite údaj o zápise v registri — súd, oddiel, číslo vložky.
+2. Nájdite údaj o zápise v registri: súd, oddiel, číslo vložky.
 3. Porovnajte adresu na webe s adresou vo firemnom profile Google. Zhoduje sa znak po znaku?
-4. Ak ste platiteľom DPH — je tam IČ DPH?
-5. Ak máte e-shop — sú tam obchodné podmienky, právo na odstúpenie a odkaz na platformu sporov?
+4. Ak ste platiteľom DPH, je tam IČ DPH?
+5. Ak máte e-shop, sú tam obchodné podmienky, právo na odstúpenie a odkaz na platformu sporov?
 
 ## Ak to treba dať do poriadku
 
-Úplnosť formulácií z právneho hľadiska posúdi právnik, najmä pri e-shope. Všetko okolo umiestnenia na webe — pätička na všetkých stránkach, stránka kontaktov, zosúladenie údajov s profilom Google a katalógmi, výpis údajov na faktúrach — robím ja.
+Úplnosť formulácií z právneho hľadiska posúdi právnik, najmä pri e-shope. Všetko okolo umiestnenia na webe (pätička na všetkých stránkach, stránka kontaktov, zosúladenie údajov s profilom Google a katalógmi, výpis údajov na faktúrach) robím ja.
 
-Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o., vystavujem faktúru s IČO — a na vlastnom webe držím ten istý súbor údajov, ktorý odporúčam vám.
+Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o., vystavujem faktúru s IČO, a na vlastnom webe držím ten istý súbor údajov, ktorý odporúčam vám.
 
 Súvisiace: [GDPR pre malú firmu](/sk/blog/gdpr-dlya-maloy-firmy/), [registrácia na DPH](/sk/blog/dph-registraciya/), [založenie s.r.o.](/sk/blog/otkryt-sro-v-slovakii/) a [stránka služby „Oprava chýb a úpravy“](/sk/service/bugfix/).
 

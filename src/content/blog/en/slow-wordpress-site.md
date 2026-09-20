@@ -104,7 +104,7 @@ Slowness returns with every new plugin, slider and tracking code. A simple rule 
 
 ## If you need help
 
-I speed up WordPress and custom sites: measurement, caching, images, plugins, third-party scripts, the server. **35 €/hr**; I measure first and state the work and the expected result before touching anything. If the ceiling is the theme, I say so plainly and do not bill hours that will not pay back. I do not run hosting for you, but I will help choose hosting that does not slow the site down.
+I speed up WordPress and custom sites: measurement, caching, images, plugins, third-party scripts, the server. **35€/hr**; I measure first and state the work and the expected result before touching anything. If the ceiling is the theme, I say so plainly and do not bill hours that will not pay back. I do not run hosting for you, but I will help choose hosting that does not slow the site down.
 
 I build new sites on a modern stack, fast by construction. I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, such as [Biliardovňa](/en/case/biliardovna/) with online table booking. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 

@@ -34,7 +34,7 @@
     "cta_title": "Potrebujete pomôcť s webom alebo marketingom?",
     "cta_button": "Získať technický audit zdarma",
     "faq_title": "Časté otázky",
-    "intro": "Píšem o tom, ako web zarába slovenským malým firmám: koľko stojí, čo sa na ňom kazí a ktorá reklama naozaj prináša dopyty. Všetko je z praxe — z webov, opráv, kampaní a merania, ktoré robím pre firmy na Slovensku.",
+    "intro": "Píšem o tom, ako web zarába slovenským malým firmám: koľko stojí, čo sa na ňom kazí a ktorá reklama naozaj prináša dopyty. Všetko je z praxe, z webov, opráv, kampaní a merania, ktoré robím pre firmy na Slovensku.",
     "topics": {
       "website": "Tvorba webu",
       "repair": "Oprava a údržba",
@@ -72,8 +72,8 @@
         "Vytvorenie účtov a pripojenie zdrojov: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
-      "seo_title": "Tvorba webstránok Bratislava: web na mieru od 1 500 €, do 15 dní",
-      "seo_desc": "Landing page od 1 500 €, firemný web s rezerváciou a meraním dopytov od 3 500 €, e-shop od 5 000 €. Odovzdanie v priemere do 10 pracovných dní, s.r.o. s faktúrou.",
+      "seo_title": "Tvorba webstránok Bratislava: web na mieru od 1 500€, do 15 dní",
+      "seo_desc": "Landing page od 1 500€, firemný web s rezerváciou a meraním dopytov od 3 500€, e-shop od 5 000€. Odovzdanie v priemere do 10 pracovných dní, s.r.o. s faktúrou.",
       "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava",
       "page": {
         "lead": "Robím weby pre firmy na Slovensku už viac ako desať rokov: z Bratislavy, ako slovenské s.r.o. a s faktúrou, ktorú si dáte do nákladov. Nie šablóny na kolene, ale stránky, cez ktoré chodia dopyty: rezervačné systémy, e-shopy, firemné weby. Väčšinu projektov odovzdávam do 15 pracovných dní.",
@@ -170,24 +170,32 @@
           {
             "q": "Komu patrí web po odovzdaní?",
             "a": "Vám. Doména, hosting, účty Google a administrácia sú vedené na vás, ja mám iba pracovný prístup. Pri zmene dodávateľa sa tak nemá čo stratiť."
+          },
+          {
+            "q": "Ste agentúra alebo pracujete sám?",
+            "a": "Som slovenské s.r.o. v Bratislave a pracujem sám, na konkrétnu úlohu si priberiem ďalších ľudí. Hovoríte teda s tým, kto web naozaj robí, nie s projektovým manažérom. Faktúru dostanete s IČO ako od každej slovenskej firmy."
+          },
+          {
+            "q": "Robíte weby na kľúč?",
+            "a": "Áno. Po odovzdaní nie je čo dokupovať: doména, hosting, e-mail na vlastnej doméne, formuláre s ochranou proti spamu, meranie dopytov, cookie lišta, povinné údaje a firemný profil Google sú nastavené. V cene je aj pol roka technickej podpory."
           }
         ],
         "facts": [
           {
-            "value": "od 1 500 €",
+            "value": "od 1 500€",
             "label": "jednostránkový web (landing page)"
           },
           {
-            "value": "od 3 500 €",
+            "value": "od 3 500€",
             "label": "firemný web s rezerváciou či slotmi, e-mailom na doméne a meraním"
           },
           {
-            "value": "od 5 000 €",
+            "value": "od 5 000€",
             "label": "e-shop"
           },
           {
             "value": "10 prac. dní",
-            "label": "priemerný čas dodania, 90 % do 15 dní"
+            "label": "priemerný čas dodania, 90% do 15 dní"
           }
         ],
         "pricing_title": "Cenník tvorby webstránok",
@@ -200,25 +208,25 @@
         "pricing": [
           {
             "type": "Landing page",
-            "price": "od 1 500 €",
+            "price": "od 1 500€",
             "includes": "jedna služba alebo ponuka, formulár s ochranou proti spamu, meranie dopytov v GA4, cookie lišta, základné SEO",
             "time": "5 až 10 prac. dní"
           },
           {
             "type": "Firemný web",
-            "price": "od 3 500 €",
+            "price": "od 3 500€",
             "includes": "viac stránok a jazykov, rezervácia alebo sloty, e-mail na vlastnej doméne, GA4 a Tag Manager, firemný profil Google",
             "time": "10 až 15 prac. dní"
           },
           {
             "type": "E-shop",
-            "price": "od 5 000 €",
+            "price": "od 5 000€",
             "includes": "katalóg, košík, platobná brána, doprava, Merchant Center, povinné údaje zo zákona, meranie nákupov",
             "time": "od 15 prac. dní"
           },
           {
             "type": "Úpravy a redizajn",
-            "price": "35 €/hod",
+            "price": "35€/hod",
             "includes": "nové sekcie, integrácie, presun existujúceho webu na nový základ so zachovaním pozícií v Google",
             "time": "podľa rozsahu"
           }
@@ -230,7 +238,7 @@
         }
       },
       "internal_title": "Tvorba webstránok Bratislava: weby na mieru, e-shopy a rezervačné systémy",
-      "internal_desc": "Firemné weby, e-shopy a rezervačné systémy na mieru — z Bratislavy pre celé Slovensko."
+      "internal_desc": "Firemné weby, e-shopy a rezervačné systémy na mieru, z Bratislavy pre celé Slovensko."
     },
     "bugfix": {
       "title": "Oprava chýb a úpravy",
@@ -244,11 +252,11 @@
         "Nastavenie automatického zálohovania webu na serveri + Google Drive",
         "Vykonávanie testov a odstraňovanie drobných chýb spojených s hlavným problémom"
       ],
-      "seo_title": "Oprava webstránky a WordPress webu do 24 h | 35 €/hod",
-      "seo_desc": "Oprava webu v Bratislave a online: WordPress, PHP, JavaScript, server. Diagnostika v deň nahlásenia, 35 €/hod; ak sa rovnaká porucha vráti, oprava bez faktúry.",
+      "seo_title": "Oprava webstránky a WordPress webu do 24 h | 35€/hod",
+      "seo_desc": "Oprava webu v Bratislave a online: WordPress, PHP, JavaScript, server. Diagnostika v deň nahlásenia, 35€/hod; ak sa rovnaká porucha vráti, oprava bez faktúry.",
       "seo_keywords": "oprava web stránok, údržba webu, wordpress podpora, zrýchlenie webu, odvírenie stránky, technická správa",
       "internal_title": "Oprava webstránky a WordPress webu",
-      "internal_desc": "Web nefunguje, spomalil sa alebo po aktualizácii vypísal chybu? Opravím WordPress aj stránky písané na mieru — PHP, JavaScript, serverovú časť. Väčšinu porúch riešim v deň nahlásenia.",
+      "internal_desc": "Web nefunguje, spomalil sa alebo po aktualizácii vypísal chybu? Opravím WordPress aj stránky písané na mieru: PHP, JavaScript, serverovú časť. Väčšinu porúch riešim v deň nahlásenia.",
       "page": {
         "lead": "Web spadol, spomalil sa alebo po aktualizácii hádže chybu? Opravujem WordPress aj stránky písané na mieru: PHP, JavaScript, databázy aj serverovú časť. Väčšinu porúch riešim v deň, keď mi ich nahlásite.",
         "process_title": "Ako opravujem",
@@ -299,7 +307,7 @@
         ],
         "facts": [
           {
-            "value": "35 €/hod",
+            "value": "35€/hod",
             "label": "sadzba za opravu, platíte len odpracovaný čas"
           },
           {
@@ -333,8 +341,8 @@
         "Integrácia analytických systémov",
         "Optimalizácia a škálovanie reklamných kampaní"
       ],
-      "seo_title": "Google Ads reklama Bratislava: nastavenie a správa od 1 000 €",
-      "seo_desc": "Nastavenie a správa Google Ads a Meta reklamy z Bratislavy: kompletný štart približne od 1 000 €, správa 25 €/hod. Účet aj štatistiky patria vám, konverzie merané cez GA4.",
+      "seo_title": "Google Ads reklama Bratislava: nastavenie a správa od 1 000€",
+      "seo_desc": "Nastavenie a správa Google Ads a Meta reklamy z Bratislavy: kompletný štart približne od 1 000€, správa 25€/hod. Účet aj štatistiky patria vám, konverzie merané cez GA4.",
       "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní",
       "page": {
         "lead": "Reklama v Google Ads a na Meta dokáže priniesť dopyty už v prvý deň, na rozdiel od SEO, kde sa čaká mesiace. Podmienka je jedna: musí byť vidieť, čo sa vracia. Bez správne nastaveného merania sa rozpočet míňa naslepo a automatické stratégie sa nemajú z čoho učiť.",
@@ -390,15 +398,19 @@
           {
             "q": "Robíte aj reklamu pre e-shopy?",
             "a": "Áno: Merchant Center, kampane Nákupy a Performance Max prepojené s katalógom e-shopu a meraním nákupov v GA4, aby sa rozpočet posúval k tovaru, ktorý sa naozaj predáva."
+          },
+          {
+            "q": "Robíte aj SEO a propagáciu webu?",
+            "a": "SEO ako samostatnú mesačnú službu nepredávam. Základné SEO nastavenie je súčasťou tvorby webu, a ak chcete vedieť, čo váš web brzdí vo vyhľadávaní, spravím bezplatný audit. Platená reklama v Google a Meta je samostatná služba, o ktorej je táto stránka."
           }
         ],
         "facts": [
           {
-            "value": "~1 000 €",
+            "value": "~1 000€",
             "label": "kompletný štart kampaní"
           },
           {
-            "value": "25 €/hod",
+            "value": "25€/hod",
             "label": "správa a úpravy po spustení"
           },
           {
@@ -416,30 +428,30 @@
         "pricing": [
           {
             "type": "Kompletný štart kampaní",
-            "price": "približne 1 000 €",
+            "price": "približne 1 000€",
             "includes": "audit konkurencie, výpočet rozpočtu, účty, štruktúra kampaní, inzeráty, vylučujúce slová, prepojenie s GA4 a Search Console",
             "time": "jednorazovo, účet je vedený na vás"
           },
           {
             "type": "Správa a optimalizácia",
-            "price": "25 €/hod",
+            "price": "25€/hod",
             "includes": "prehľady vyhľadávacích dopytov, čistenie vylučujúcich slov, úprava ponúk, testy inzerátov, mesačný prehľad",
             "time": "priebežne, rozsah podľa rozpočtu"
           },
           {
             "type": "Rozpočet na reklamu",
-            "price": "od 10 až 15 € denne",
+            "price": "od 10 až 15€ denne",
             "includes": "platí sa priamo Googlu alebo Mete z vášho účtu, nie mne",
             "time": "na jednu službu v jednom meste"
           },
           {
             "type": "Meranie konverzií, ak chýba",
-            "price": "od 500 €",
+            "price": "od 500€",
             "includes": "GA4, Tag Manager, Consent Mode v2, kľúčové udalosti, import konverzií do Google Ads",
             "time": "pozri službu Analytika"
           }
         ],
-        "pricing_note": "Cena kliknutia sa na Slovensku pohybuje od 0,30 € pri úzkych lokálnych dopytoch po 2 € a viac v práve, financiách a realitách. Rozbor s výpočtom rozpočtu a ceny dopytu je v článku",
+        "pricing_note": "Cena kliknutia sa na Slovensku pohybuje od 0,30€ pri úzkych lokálnych dopytoch po 2€ a viac v práve, financiách a realitách. Rozbor s výpočtom rozpočtu a ceny dopytu je v článku",
         "pricing_link": {
           "label": "Cena reklamy na Google na Slovensku.",
           "href": "/blog/kolko-stoji-reklama-na-slovensku"
@@ -457,8 +469,8 @@
         "Nastavenie Microsoft Clarity / Bing console"
       ],
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
-      "seo_title": "Profesionálne nastavenie GA4 a Tag Manager od 500 €",
-      "seo_desc": "Nastavenie GA4 a Tag Manager od 500 €, 25 €/hod: meranie dopytov, nie návštev, kľúčové udalosti, Consent Mode v2, prepojenie s Google Ads a Search Console.",
+      "seo_title": "Profesionálne nastavenie GA4 a Tag Manager od 500€",
+      "seo_desc": "Nastavenie GA4 a Tag Manager od 500€, 25€/hod: meranie dopytov, nie návštev, kľúčové udalosti, Consent Mode v2, prepojenie s Google Ads a Search Console.",
       "seo_keywords": "webová analytika, nastavenie ga4, google tag manager, server-side tracking, meranie konverzií, analýza návštevnosti",
       "page": {
         "lead": "Väčšina firiem má na webe analytiku, ktorá počíta návštevy, ale nevie povedať, koľko dopytov web priniesol. To nie je maličkosť: bez správneho merania sa rozhoduje odhadom a reklama sa optimalizuje naslepo. Nastavím GA4, Tag Manager a sledovanie konverzií tak, aby čísla zodpovedali skutočnosti.",
@@ -506,11 +518,11 @@
         ],
         "facts": [
           {
-            "value": "od 500 €",
+            "value": "od 500€",
             "label": "nastavenie GA4 a Tag Managera"
           },
           {
-            "value": "25 €/hod",
+            "value": "25€/hod",
             "label": "úpravy a reporty podľa potreby"
           },
           {
@@ -533,8 +545,8 @@
         "Integrácia do kódu webu, nastavenie firemného štýlu a farieb bannera.",
         "Ladenie a kontrolu funkčnosti. Testovanie na 15+ možných prípadoch."
       ],
-      "seo_title": "Cookie lišta s Consent Mode v2 od 200 €, bez predplatného",
-      "seo_desc": "Vlastná cookie lišta podľa európskych pravidiel s Consent Mode v2 od 200 € jednorazovo, bez mesačného predplatného. Meranie zostáva presné aj po odmietnutí.",
+      "seo_title": "Cookie lišta s Consent Mode v2 od 200€, bez predplatného",
+      "seo_desc": "Vlastná cookie lišta podľa európskych pravidiel s Consent Mode v2 od 200€ jednorazovo, bez mesačného predplatného. Meranie zostáva presné aj po odmietnutí.",
       "seo_keywords": "cookie lišta, consent mode v2, gdpr slovensko, nastavenie cookies, súhlas so spracovaním údajov",
       "page": {
         "lead": "Ak máte na webe analytiku alebo reklamu, súhlas so spracovaním cookies je povinný, a nie hocijaký. Google od marca 2024 vyžaduje Consent Mode v2, a bez neho prichádzate o dáta a remarketing sa obmedzí. Robím vlastnú lištu, ktorá spĺňa pravidlá a nestojí mesačné predplatné.",
@@ -582,7 +594,7 @@
         ],
         "facts": [
           {
-            "value": "od 200 €",
+            "value": "od 200€",
             "label": "lišta podľa zákona, nasadená na váš web"
           },
           {
@@ -611,8 +623,8 @@
         "Ostatné boti na popularizáciu značky a sťaženie života konkurentom"
       ],
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
-      "seo_title": "Telegram boty a automatizácia v Pythone od 500 €",
-      "seo_desc": "Telegram boty na dopyty, rezervácie a automatické pridávanie inzerátov, v Pythone, od 500 € a 25 €/hod. Bot na konkrétnu úlohu, nie chatovací widget.",
+      "seo_title": "Telegram boty a automatizácia v Pythone od 500€",
+      "seo_desc": "Telegram boty na dopyty, rezervácie a automatické pridávanie inzerátov, v Pythone, od 500€ a 25€/hod. Bot na konkrétnu úlohu, nie chatovací widget.",
       "seo_keywords": "telegram bot, python programovanie, automatizácia firmy, bot pre bazoš, parsovanie dát, chatbot na mieru",
       "page": {
         "lead": "Bot nie je hračka, ale spôsob, ako prestať robiť rukami to, čo sa dá robiť samo. Píšem boty v Pythone, ktoré spravujú dopyty a rezervácie, rozposielajú správy a automaticky pridávajú inzeráty na Bazoš bez toho, aby ste sedeli pri počítači.",
@@ -658,11 +670,11 @@
         ],
         "facts": [
           {
-            "value": "od 500 €",
+            "value": "od 500€",
             "label": "bot od zadania po spustenie"
           },
           {
-            "value": "25 €/hod",
+            "value": "25€/hod",
             "label": "doplnenia a zmeny neskôr"
           },
           {
@@ -811,7 +823,7 @@
     "audit_service_name": "SEO audit zdarma",
     "audit_submit": "Chcem audit zdarma",
     "reply_note": "Ozvem sa do 24 hodín.",
-    "service_placeholder": "— vyberte službu —",
+    "service_placeholder": "Vyberte službu",
     "service_error": "Vyberte službu.",
     "next_line": "Prečítam si, čo píšete, a do 24 hodín pošlem otázky alebo rovno ponuku s cenou a termínom, bez záväzku."
   },
@@ -915,14 +927,14 @@
     "h1": "Bezplatný SEO audit webstránky",
     "lead": "Prejdem váš web tak, ako ho vidí Google, a poviem konkrétne, čo mu bráni prinášať zákazníkov. Bez poplatku a bez záväzku.",
     "what_title": "Čo je SEO audit webu",
-    "what_text": "Technická kontrola webstránky očami vyhľadávača: či ju Google vidí celú, ako rýchlo sa načítava, na aké dopyty sa zobrazuje a čo jej v tom bráni. Niekde sa tomu hovorí technický audit webovej stránky, inde hodnotenie webu alebo SEO kontrola — ide o to isté. Audit sám nič neopravuje: pomenuje, čo je zlé, koľko to stojí a v akom poradí to riešiť.",
+    "what_text": "Technická kontrola webstránky očami vyhľadávača: či ju Google vidí celú, ako rýchlo sa načítava, na aké dopyty sa zobrazuje a čo jej v tom bráni. Niekde sa tomu hovorí technický audit webovej stránky, inde hodnotenie webu alebo SEO kontrola, ide o to isté. Audit sám nič neopravuje: pomenuje, čo je zlé, koľko to stojí a v akom poradí to riešiť.",
     "why_title": "Prečo je audit zadarmo",
-    "why_text": "Pretože je to najčestnejší spôsob, ako začať. Väčšina webov na Slovensku má dve-tri technické chyby, ktoré potichu berú väčšinu návštevnosti — a kým ich neuvidíte, nemá zmysel baviť sa o cene čohokoľvek ďalšieho. Ak si opravy spravíte sami, budem len rád. Ak nie, budete vedieť, čo presne si objednávate.",
+    "why_text": "Pretože je to najčestnejší spôsob, ako začať. Väčšina webov na Slovensku má dve-tri technické chyby, ktoré potichu berú väčšinu návštevnosti, a kým ich neuvidíte, nemá zmysel baviť sa o cene čohokoľvek ďalšieho. Ak si opravy spravíte sami, budem len rád. Ak nie, budete vedieť, čo presne si objednávate.",
     "check_title": "Čo v audite skontrolujem",
     "check_points": [
-      "Technický základ: stavové kódy, presmerovania, verzie s www aj bez www, HTTP verzus HTTPS — chyby, ktoré dokážu urobiť web pre Google neviditeľným.",
+      "Technický základ: stavové kódy, presmerovania, verzie s www aj bez www, HTTP verzus HTTPS. Sú to chyby, ktoré dokážu urobiť web pre Google neviditeľným.",
       "Indexácia: koľko stránok je skutočne v Google, ktoré chýbajú a prečo. Sitemap, robots.txt, canonical, hreflang.",
-      "Rýchlosť a Core Web Vitals na mobile aj na počítači — s konkrétnymi príčinami, nie iba so skóre.",
+      "Rýchlosť a Core Web Vitals na mobile aj na počítači, s konkrétnymi príčinami, nie iba so skóre.",
       "Obsah a kľúčové slová: na aké dopyty sa web zobrazuje dnes, na ktorých pozíciách a čo mu chýba, aby sa dostal na prvú stranu.",
       "Štruktúrované dáta a to, ako web vyzerá vo výsledkoch vyhľadávania.",
       "Meranie: či Google Analytics a Tag Manager naozaj zaznamenávajú dopyty, alebo len návštevy stránok. Býva to najčastejšie prekvapenie.",
@@ -930,7 +942,7 @@
     ],
     "get_title": "Čo dostanete",
     "get_points": [
-      "Zoznam nálezov zoradený podľa dopadu, nie podľa abecedy — od toho, čo vás stojí najviac, po drobnosti.",
+      "Zoznam nálezov zoradený podľa dopadu, nie podľa abecedy: od toho, čo vás stojí najviac, po drobnosti.",
       "Pri každom náleze, čo s ním treba spraviť a koľko práce to reálne je.",
       "Čo viete opraviť sami a čo si vyžaduje zásah do kódu.",
       "Odhad, čo z toho prinesie výsledok najskôr."
@@ -939,17 +951,17 @@
     "time_points": [
       "Napíšete adresu webu cez formulár nižšie.",
       "Do 3 pracovných dní dostanete audit v písomnej podobe.",
-      "Ak budete chcieť, prejdeme si ho spolu — v Bratislave osobne alebo online."
+      "Ak budete chcieť, prejdeme si ho spolu, v Bratislave osobne alebo online."
     ],
     "who_title": "Pre koho to má zmysel",
     "who_text": "Pre firmy na Slovensku, ktorých web existuje, ale neprináša dopyty. Pre e-shopy, ktoré platia za reklamu a nevedia, koľko z toho sa vráti. A pre každého, komu web robil niekto iný a nie je si istý, či bol spravený poriadne.",
     "diy_title": "Chcete si web najprv pozrieť sami?",
-    "diy_text": "Prvé kontroly zvládnete za hodinu a bez toho, aby ste niekomu písali — indexácia, duplicitné adresy, rýchlosť na mobile a či sa dopyty vôbec počítajú. Postup krok za krokom je tu:",
+    "diy_text": "Prvé kontroly zvládnete za hodinu a bez toho, aby ste niekomu písali: indexácia, duplicitné adresy, rýchlosť na mobile a či sa dopyty vôbec počítajú. Postup krok za krokom je tu:",
     "diy_link": "SEO audit webu svojpomocne: 9 kontrol",
     "trust_title": "Kto audit robí",
     "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s.r.o. Na Slovensku žijem viac ako 10 rokov, mám za sebou vyše 12 spustených webov pre slovenské firmy a viem, ako sa tu správa zákazník aj úrad. Fakturujem so slovenským IČO. Hovoríme po slovensky, rusky aj anglicky.",
     "cta_title": "Chcete vedieť, čo brzdí váš web?",
-    "cta_text": "Napíšte adresu stránky — ozvem sa s auditom do 3 pracovných dní.",
+    "cta_text": "Napíšte adresu stránky a ozvem sa s auditom do 3 pracovných dní.",
     "cta_button": "Chcem audit zdarma",
     "faq_title": "Časté otázky",
     "faq": [

@@ -33,13 +33,13 @@ Below: what booking on a website has to do, why confirmation is handled through 
 
 Not "being modern". It closes three specific losses.
 
-**Calls outside working hours.** Most bookings happen when the thought occurs — in the evening, at the weekend, during a break. Nobody is answering the phone then.
+**Calls outside working hours.** Most bookings happen when the thought occurs: in the evening, at the weekend, during a break. Nobody is answering the phone then.
 
 **Staff time.** Every call is interrupted work. In a salon that means a client in the chair waiting while you deal with somebody else.
 
 **Double bookings.** A spreadsheet two people write into will sooner or later produce two customers for the same slot. It always comes to light at the worst possible moment.
 
-A real example: at [Biliardovňa](/en/case/biliardovna/) online table booking replaced phone calls, and bookings through the site grew after launch. Not because people suddenly wanted to play more — because booking became possible at the moment they thought of it.
+A real example: at [Biliardovňa](/en/case/biliardovna/) online table booking replaced phone calls, and bookings through the site grew after launch. Not because people suddenly wanted to play more, but because booking became possible at the moment they thought of it.
 
 ## What booking has to do
 
@@ -49,7 +49,7 @@ The list is short, and every item has a reason.
 
 **Check availability on submission, not on page load.** The detail that decides everything. If the system verifies a free slot only when the page opens, two people with tabs open will happily book the same one.
 
-**Send the customer a confirmation.** An email or SMS with the time and address. Without it people ring to check the booking went through — and the saved call comes right back.
+**Send the customer a confirmation.** An email or SMS with the time and address. Without it people ring to check the booking went through, and the saved call comes right back.
 
 **Allow cancellation.** It sounds against your interests, but the opposite is true: a cancelled slot can be sold again, an uncancelled one is simply empty.
 
@@ -59,9 +59,9 @@ The list is short, and every item has a reason.
 
 Seemingly a technical detail, in fact the most important decision in the whole project.
 
-The usual solution: the booking lands in an admin area, staff log in and confirm. Sounds sensible. In a small business it does not work — **anything that requires logging in somewhere separately does not take root.** Between two customers there is one minute, not ten.
+The usual solution: the booking lands in an admin area, staff log in and confirm. Sounds sensible. In a small business it does not work: **anything that requires logging in somewhere separately does not take root.** Between two customers there is one minute, not ten.
 
-What does work: a message arrives in Telegram, which staff have open anyway. One tap confirms it and the slot closes on the site by itself. That is exactly how booking works at [Krása štúdio OK](/en/case/studio-krasy/) — no spreadsheets, no double entries.
+What does work: a message arrives in Telegram, which staff have open anyway. One tap confirms it and the slot closes on the site by itself. That is exactly how booking works at [Krása štúdio OK](/en/case/studio-krasy/): no spreadsheets, no double entries.
 
 The same logic applies beyond bookings; I cover it in [a chatbot for your business](/en/blog/chatbot-for-business/).
 
@@ -87,7 +87,7 @@ The practical test is a single question: **do you have logic the ready service d
 - pricing that changes by day or hour,
 - booking that has to know about stock or accounting.
 
-If none of that applies, a ready service is a sensible start. If any of it does, you will hit the ceiling before the saving pays back — the same reasoning as in [WordPress or a custom build](/en/blog/wordpress-or-custom/).
+If none of that applies, a ready service is a sensible start. If any of it does, you will hit the ceiling before the saving pays back: the same reasoning as in [WordPress or a custom build](/en/blog/wordpress-or-custom/).
 
 If customers should see their bookings and change or cancel them without a phone call, booking grows into [a client portal on your website](/en/blog/client-portal-website/).
 
@@ -100,13 +100,13 @@ Not the number of bookings. These four things:
 3. **Integrations.** Calendar, Telegram, email, payment gateway, accounting.
 4. **Languages.** Booking in three languages is three times the copy and the testing.
 
-As part of a new site, booking starts at **3,500 €** — it is added functionality, not a separate product. Adding it to an existing site is charged hourly at **35 €/hr**. A full breakdown of prices is in [what a website costs](/en/blog/website-cost-slovakia/).
+As part of a new site, booking starts at **3,500€**: it is added functionality, not a separate product. Adding it to an existing site is charged hourly at **35€/hr**. A full breakdown of prices is in [what a website costs](/en/blog/website-cost-slovakia/).
 
 ## Prepayment: usually not
 
 The question always comes up, and the answer usually surprises.
 
-Prepayment reduces the number of bookings. In services where the norm is to agree and turn up, demanding payment in advance is a barrier — and some people go to whoever does not have one.
+Prepayment reduces the number of bookings. In services where the norm is to agree and turn up, demanding payment in advance is a barrier, and some people go to whoever does not have one.
 
 It makes sense where a no-show costs real money: a reserved table in a full restaurant, a long treatment, rented equipment. And even there a **deposit** is enough, not the full sum. How to connect payments when they are warranted: [accepting card payments](/en/blog/accept-card-payments/).
 
@@ -117,23 +117,23 @@ Plainly, because it saves money:
 - **Few bookings.** Five a week are cheaper to take by phone than any system.
 - **Every job is different.** If the time gets agreed in conversation anyway, a calendar gets in the way.
 - **Nobody to confirm.** A system where bookings sit unconfirmed is worse than a phone.
-- **Nobody finds you.** Then the money belongs in the site's visibility, not in booking — start with [how to grow website traffic](/en/blog/grow-website-traffic/).
+- **Nobody finds you.** Then the money belongs in the site's visibility, not in booking: start with [how to grow website traffic](/en/blog/grow-website-traffic/).
 
 ## Measurement: without it you cannot tell whether it helped
 
-A booking is a conversion and has to be counted as one. The minimum that must work: calendar opened, booking started, booking completed. Only then can you see where people drop out — at picking a time, or later at filling in their details.
+A booking is a conversion and has to be counted as one. The minimum that must work: calendar opened, booking started, booking completed. Only then can you see where people drop out: at picking a time, or later at filling in their details.
 
 How to set it up: [configuring GA4](/en/blog/ga4-setup/).
 
 ## If you need help
 
-I build sites with booking that confirms through Telegram and closes taken slots by itself, so staff never have to go anywhere. As part of a site from **3,500 €**, added to an existing site at **35 €/hr**.
+I build sites with booking that confirms through Telegram and closes taken slots by itself, so staff never have to go anywhere. As part of a site from **3,500€**, added to an existing site at **35€/hr**.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, booking systems among them: [Biliardovňa](/en/case/biliardovna/), [Krása štúdio OK](/en/case/studio-krasy/), [TOP SKLAD](/en/case/top-sklad/). I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Details on the [web development service page](/en/service/webdev/).
 
-For food and drink, table booking is only one part — menu, Google profile and footfall are covered in [a website for a restaurant](/en/blog/restaurant-website/).
+For food and drink, table booking is only one part: menu, Google profile and footfall are covered in [a website for a restaurant](/en/blog/restaurant-website/).
 
 Similar breakdowns for other industries: [a website for a beauty salon](/en/blog/beauty-salon-website/), [a website for storage and space rental](/en/blog/storage-rental-website/).
 

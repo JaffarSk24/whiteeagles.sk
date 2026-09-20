@@ -14,7 +14,7 @@ services:
   - 'Správa obsadenosti'
 order: 3
 ---
-![TOP SKLAD — web prenájmu skladových priestorov | White Eagles & Co.](/assets/portfolio-topsklad.webp)
+![TOP SKLAD: web prenájmu skladových priestorov | White Eagles & Co.](/assets/portfolio-topsklad.webp)
 
 # TOP SKLAD: web prenájmu skladov s rezerváciou voľných miest
 
@@ -24,7 +24,7 @@ Prenájom skladových priestorov. Viacúčelový web s rezervačným systémom s
 
 Vizitka je v tomto podnikaní nanič z jedného dôvodu: hlavná otázka klienta znie „máte miesto v takejto veľkosti a odkedy“. Na to stránka s textom „ponúkame moderné skladové priestory“ odpovedať nevie.
 
-Takže klient aj tak píše alebo volá. Manažér otvorí tabuľku, overí, odpovie — a tak pri každom dopyte. Kým je dopytov málo, dá sa to zniesť. Keď ich pribudne, tabuľka sa začne rozchádzať s realitou a sľuby si začnú protirečiť.
+Takže klient aj tak píše alebo volá. Manažér otvorí tabuľku, overí, odpovie, a tak pri každom dopyte. Kým je dopytov málo, dá sa to zniesť. Keď ich pribudne, tabuľka sa začne rozchádzať s realitou a sľuby si začnú protirečiť.
 
 ## Čo sme spravili
 
@@ -50,6 +50,6 @@ Doména a hosting sú vedené na klienta.
 
 ## Ak máte podobné zadanie
 
-Každé podnikanie, kde sa predáva obmedzený zdroj — miesta, boxy, sloty, technika — získava tým, že obsadenosť je viditeľná na webe. A získava dvakrát: menej ručnej práce a viac dôvery.
+Každé podnikanie, kde sa predáva obmedzený zdroj (miesta, boxy, sloty, technika), získava tým, že obsadenosť je viditeľná na webe. A získava dvakrát: menej ručnej práce a viac dôvery.
 
-Detaily na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Podobné projekty: [TOP KOBKA](/sk/case/top-kobka/) — prenájom boxov, [Biliardovňa](/sk/case/biliardovna/) — rezervácia stolov, [Krása štúdio OK](/sk/case/studio-krasy/) — objednávanie s potvrdením v Telegrame.
+Detaily na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Podobné projekty: [TOP KOBKA](/sk/case/top-kobka/) (prenájom boxov), [Biliardovňa](/sk/case/biliardovna/) (rezervácia stolov), [Krása štúdio OK](/sk/case/studio-krasy/) (objednávanie s potvrdením v Telegrame).

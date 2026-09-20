@@ -134,7 +134,7 @@ Ak je v tabuľke viac ako dva riadky mimo dobrého stavu, čísla z GA4 by som n
 
 ## Ak potrebujete pomoc
 
-Nastavujem a kontrolujem GA4 a Tag Manager: udalosti dopytov, kľúčové udalosti, Consent Mode v2, prepojenie s Google Ads a Search Console a opravu chýb, ktoré audit nájde. Profesionálne nastavenie GA4 začína od **500 €**, práca sa účtuje po **25 €** za hodinu a cenu poviem pred začatím. Nespúšťam reklamu naslepo, bez fungujúceho merania, a nepredávam licencie GA4 ani „SEO balíčky".
+Nastavujem a kontrolujem GA4 a Tag Manager: udalosti dopytov, kľúčové udalosti, Consent Mode v2, prepojenie s Google Ads a Search Console a opravu chýb, ktoré audit nájde. Profesionálne nastavenie GA4 začína od **500€**, práca sa účtuje po **25€** za hodinu a cenu poviem pred začatím. Nespúšťam reklamu naslepo, bez fungujúceho merania, a nepredávam licencie GA4 ani „SEO balíčky".
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**. Každý nový web dostáva GA4 a Tag Manager s meraním dopytov a cookie lištu s Consent Mode v2. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

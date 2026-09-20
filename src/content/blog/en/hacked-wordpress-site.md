@@ -115,7 +115,7 @@ If you are not replacing the site yet, the minimum is clear: updates once a mont
 
 ## If you need help
 
-I clean hacked sites, including finding and closing the hole the attacker came through, and handle the review request in Search Console. **35 €/hr**; I usually diagnose on the day you report it and give an estimate before any work. I do not run hosting for you and do not give legal advice on the GDPR. My part is the site, cleaning it and securing it.
+I clean hacked sites, including finding and closing the hole the attacker came through, and handle the review request in Search Console. **35€/hr**; I usually diagnose on the day you report it and give an estimate before any work. I do not run hosting for you and do not give legal advice on the GDPR. My part is the site, cleaning it and securing it.
 
 I build new sites on a modern stack, without plugins and without a public admin panel. I have lived in Slovakia for over ten years, have launched **12+ sites for Slovak companies**, and work as a Slovak s.r.o. issuing a faktúra you can expense.
 

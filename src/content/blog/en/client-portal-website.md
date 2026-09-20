@@ -114,8 +114,8 @@ A portal means you process your clients' personal data and are responsible for i
 
 ## What it costs and how long it takes
 
-- **A portal as part of a new custom site:** a company website starts at **3 500 €**, and the portal's scope is part of the estimate.
-- **Adding a portal to an existing site:** billed hourly at **35 €**.
+- **A portal as part of a new custom site:** a company website starts at **3 500€**, and the portal's scope is part of the estimate.
+- **Adding a portal to an existing site:** billed hourly at **35€**.
 - **Timing:** an average site is delivered in 10 working days; a larger portal takes longer, and the deadline is stated in advance.
 
 The price is stated before work starts and does not change mid-project. A wider overview of prices is in [what a website costs in Slovakia](/en/blog/website-cost-slovakia/).

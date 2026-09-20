@@ -1,11 +1,18 @@
 ---
-title: 'Prečo lacný web zo zahraničia na Slovensku nepredáva'
+title: 'Komu zadať tvorbu webstránky: agentúra, freelancer alebo zahraničie'
 description: >-
-  Sedem rozdielov slovenského zákazníka, o ktorých vzdialené štúdio nevie: od
-  platobných metód a povinných údajov po to, ako sa tu vyberá dodávateľ.
+  Agentúra, dodávateľ na mieste, štúdio zo zahraničia alebo web svojpomocne: čím
+  sa líšia cenou aj výsledkom a prečo lacný web zo zahraničia neprináša dopyty.
 date: '2026-08-04'
+updated: '2026-09-20'
 key: 'offshore-website'
 faq:
+  - q: 'Ste agentúra alebo živnostník?'
+    a: 'Som slovenské s.r.o. v Bratislave, pracujem sám a na konkrétnu úlohu si priberiem ďalších ľudí, keď to zadanie vyžaduje. Pre vás to znamená, že hovoríte s tým, kto web píše, nie s manažérom, ktorý to tlmočí ďalej. Faktúru vystavujem s IČO ako každá slovenská firma.'
+  - q: 'Robíte weby na kľúč?'
+    a: 'Áno. Na kľúč znamená, že po odovzdaní nie je čo dokupovať: doména, hosting, e-mail na vlastnej doméne, formuláre s ochranou proti spamu, meranie dopytov, cookie lišta, povinné údaje a firemný profil Google sú nastavené hneď. V cene je aj pol roka technickej podpory.'
+  - q: 'Potrebujem programátora v Bratislave na jednorazovú úlohu, beriete to?'
+    a: 'Áno. Jednorazové práce a úpravy cudzieho webu počítam po hodinách, 35 eur za hodinu, rozsah poviem vopred. Ak vidím, že sa úloha nevráti, poviem to rovno a hodiny nevyfakturujem.'
   - q: 'Je problém v kvalite práce zahraničných štúdií?'
     a: 'Nie. Aj tam sú silní vývojári a dizajnéri a výhrada nesmeruje k remeslu. Ide o znalosť trhu: web môže byť technicky bezchybný a napriek tomu neodpovedať na otázky, ktoré si kladie slovenský zákazník.'
   - q: 'Nestačí web preložiť do slovenčiny?'
@@ -17,21 +24,36 @@ faq:
   - q: 'Je domáci dodávateľ vždy drahší?'
     a: 'Za hodinu často áno. V konečnom účte nie nutne: prerobiť web, ktorý nepredáva, stojí viac než spraviť ho hneď správne.'
 ---
-![Prečo lacný web zo zahraničia na Slovensku nepredáva | White Eagles & Co.](/assets/blog/bysite.webp)
+![Komu zadať tvorbu webstránky: agentúra, freelancer alebo zahraničie | White Eagles & Co.](/assets/blog/bysite.webp)
 
-# Prečo lacný web zo zahraničia na Slovensku nepredáva
+# Komu zadať tvorbu webstránky: agentúra, freelancer alebo zahraničie
+
+Otázka zvyčajne znie takto: zadať web agentúre, nájsť dodávateľa na mieste, dať to lacnejšie štúdiu v zahraničí, alebo si stránku poskladať sám na hotovej službe. Nižšie je porovnanie všetkých štyroch možností a za ním sedem konkrétnych rozdielov slovenského trhu, pre ktoré lacný web zo zahraničia najčastejšie neprináša dopyty.
 
 Hneď na začiatok, aby nedošlo k nedorozumeniu: **výhrada nesmeruje ku kvalite práce**. V zahraničných štúdiách sú silní vývojári a dizajnéri a mnohí robia veci lepšie než priemerný domáci dodávateľ. Nejde o remeslo.
 
-Ide o to, že web nepredáva kódom ani dizajnom. Web predáva **súladom s očakávaniami konkrétneho kupujúceho** — a slovenský kupujúci sa od zákazníka na inom trhu líši viac, než sa zdá.
+Ide o to, že web nepredáva kódom ani dizajnom. Web predáva **súladom s očakávaniami konkrétneho kupujúceho**, a slovenský kupujúci sa od zákazníka na inom trhu líši viac, než sa zdá.
 
 Nižšie je sedem konkrétnych rozdielov a každý z nich stojí dopyty.
 
 [CTA_FORM:webdev]
 
+## Štyri možnosti, medzi ktorými sa vyberá
+
+| Možnosť | Cena | Čo dostanete | Kde to škrípe |
+|---|---|---|---|
+| **Agentúra** | zvyčajne od 3 000€ | tím, dizajnér a projektový manažér, zmluva | hovoríte s manažérom, nie s tým, kto pracuje, termíny sú dlhšie, drobné úpravy po odovzdaní idú cez tiket |
+| **Dodávateľ na mieste** | od 1 500€ landing page, od 3 500€ firemný web | hovoríte priamo s tým, kto web robí, slovenská faktúra s IČO, dá sa stretnúť | jeden človek, takže objem za jednotku času je obmedzený |
+| **Štúdio zo zahraničia** | lacnejšie za hodinu, niekedy na polovicu | silná technická práca | nepozná miestne požiadavky ani zvyky zákazníka, faktúru je ťažšie zaúčtovať, pri výpadku iné časové pásmo |
+| **Web svojpomocne** | od 0 do 200€ ročne | rýchly štart | [podrobný rozbor tu](/sk/blog/web-zadarmo-webnode-wix/): cudzia doména v adrese, slabá rýchlosť, strop pri funkciách |
+
+Poctivá odpoveď závisí od zadania. Ak treba trojstránkovú vizitku a rozpočet nie je žiadny, hotová služba je úprimnejšia než drahý vývoj. Ak treba e-shop s integráciami a tímom na údržbu, agentúra pokryje objem, ktorý jeden človek neutiahne.
+
+Ďalej je reč o prípade uprostred, ktorý je najčastejší: firma potrebuje web, cez ktorý chodia dopyty, a otázka znie, či ho spraviť tu, alebo dať tam, kde je hodina lacnejšia.
+
 ## 1. Povinné údaje, o ktorých sa nevie
 
-Slovenská firma musí na webe uvádzať obchodné meno presne z registra, sídlo, IČO, DIČ a údaj o zápise v Obchodnom registri — so súdom, oddielom a číslom vložky.
+Slovenská firma musí na webe uvádzať obchodné meno presne z registra, sídlo, IČO, DIČ a údaj o zápise v Obchodnom registri: súd, oddiel a číslo vložky.
 
 Vzdialené štúdio zvyčajne dá do pätičky názov a telefón. Formálne je to porušenie. Prakticky slovenský kupujúci, ktorý je zvyknutý vidieť IČO, si jeho absenciu prečíta ako signál „nie je jasné, kto to je“. Zvlášť keď má poslať zálohu.
 
@@ -53,15 +75,15 @@ Typická lišta s jediným tlačidlom „Prijať“ požiadavkám nevyhovuje. K 
 
 Slovenský zákazník hľadá po slovensky a má vlastné dopyty. Doslovný preklad cudzích formulácií dáva spojenia, ktoré nikto nezadáva.
 
-K tomu tu zohrávajú rolu miestne portály — Firmy.sk, Azet, Bazoš — a firemný profil v Google. Pri lokálnom podnikaní privádza profil ľudí skôr, než web nazbiera pozície. Vzdialené štúdiá sa tým nezaoberajú, pretože pre ne tento svet neexistuje.
+K tomu tu zohrávajú rolu miestne portály (Firmy.sk, Azet, Bazoš) a firemný profil v Google. Pri lokálnom podnikaní privádza profil ľudí skôr, než web nazbiera pozície. Vzdialené štúdiá sa tým nezaoberajú, pretože pre ne tento svet neexistuje.
 
 [CTA_FORM:consult]
 
 ## 5. Tón, ktorý tu nefunguje
 
-Jemná vec, ale badateľná. Postupy zaužívané inde — superlatívy, „sme lídri“, „viac než 1000 spokojných klientov“, agresívne odpočty a vyskakovacie okná — vyvolávajú u slovenského zákazníka nedôveru, nie záujem.
+Jemná vec, ale badateľná. Postupy zaužívané inde (superlatívy, „sme lídri“, „viac než 1000 spokojných klientov“, agresívne odpočty a vyskakovacie okná) vyvolávajú u slovenského zákazníka nedôveru, nie záujem.
 
-Tu funguje zdržanlivosť: konkrétnosť namiesto sľubov, skutočné príklady namiesto „širokého spektra služieb“, zrozumiteľné ceny namiesto „od 1 €“. Web preložený aj s intonáciou originálu sa číta ako cudzí.
+Tu funguje zdržanlivosť: konkrétnosť namiesto sľubov, skutočné príklady namiesto „širokého spektra služieb“, zrozumiteľné ceny namiesto „od 1€“. Web preložený aj s intonáciou originálu sa číta ako cudzí.
 
 ## 6. Nemá kto prísť
 
@@ -81,7 +103,7 @@ Nie to, že sa na diaľku pracovať nedá. Veľa úloh sa výborne rieši na dia
 
 Vyplýva niečo iné: **web, ktorý má predávať na slovenskom trhu, musí byť spravený s porozumením tomuto trhu.** Nie je to o jazyku rozhrania. Je to o tom, aké údaje chce kupujúci vidieť, čím je zvyknutý platiť, kde vás hľadá a čo považuje za znak spoľahlivej firmy.
 
-Technicky bezchybný web, ktorý na tieto otázky neodpovedá, jednoducho neprináša dopyty. A najnepríjemnejšie je, že príčina nie je vidieť: web je pekný, rýchly, všetko funguje — a telefón nezvoní.
+Technicky bezchybný web, ktorý na tieto otázky neodpovedá, jednoducho neprináša dopyty. A najnepríjemnejšie je, že príčina nie je vidieť: web je pekný, rýchly, všetko funguje, a telefón nezvoní.
 
 ## Ako si web overiť
 
@@ -90,7 +112,7 @@ Technicky bezchybný web, ktorý na tieto otázky neodpovedá, jednoducho neprin
 3. Je odmietnutie cookies rovnako dostupné ako súhlas?
 4. Na aké slovenské dopyty sa web vôbec zobrazuje?
 5. Je vyplnený firemný profil v Google?
-6. Číta sa text ako napísaný tu — alebo ako preložený?
+6. Číta sa text ako napísaný tu alebo ako preložený?
 
 Ak aspoň tri body nesedia, problém nie je v dizajne.
 

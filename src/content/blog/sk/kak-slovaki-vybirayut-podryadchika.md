@@ -22,7 +22,7 @@ faq:
 
 # Ako si Slováci vyberajú dodávateľa: čo musí byť na webe, aby vám uverili
 
-Medzi „človek našiel váš web“ a „človek napísal“ prejde niekoľko minút, počas ktorých sa rozhodne. Texty nečíta celé — overuje si podľa zoznamu, či existujete, či to zvládnete a koľko to bude stáť.
+Medzi „človek našiel váš web“ a „človek napísal“ prejde niekoľko minút, počas ktorých sa rozhodne. Texty nečíta celé: overuje si podľa zoznamu, či existujete, či to zvládnete a koľko to bude stáť.
 
 Ten zoznam je dosť ustálený a dá sa podľa neho web ľahko skontrolovať.
 
@@ -32,7 +32,7 @@ Ten zoznam je dosť ustálený a dá sa podľa neho web ľahko skontrolovať.
 
 Skôr než začne hodnotiť vaše práce, uistí sa, že ste skutoční. Pozerá do pätičky.
 
-**IČO, adresa, údaj o zápise v registri.** Ich absencia sa neberie ako maličkosť — berie sa ako dôvod neriskovať. Zvlášť keď ide o zálohu.
+**IČO, adresa, údaj o zápise v registri.** Ich absencia sa neberie ako maličkosť: berie sa ako dôvod neriskovať. Zvlášť keď ide o zálohu.
 
 Úplný zoznam toho, čo tam patrí, je v [samostatnom článku](/sk/blog/obyazatelnye-rekvizity-sajta/).
 
@@ -52,7 +52,7 @@ Tu sa klienti strácajú najzbytočnejšie.
 
 „Cena na vyžiadanie“ sa číta ako „bude to drahé, ale najprv vás spracujeme“. Časť ľudí jednoducho zavrie záložku, aby sa nemuseli pustiť do vyjednávania.
 
-Funguje iné: **rádová cena a vysvetlenie, od čoho závisí**. „Od takej sumy, výsledok závisí od počtu stránok, integrácií a rezervačného systému“ — je to poctivé a odstraňuje hlavnú obavu, že cena bude nepredvídateľná.
+Funguje iné: **rádová cena a vysvetlenie, od čoho závisí**. „Od takej sumy, výsledok závisí od počtu stránok, integrácií a rezervačného systému“. Je to poctivé a odstraňuje hlavnú obavu, že cena bude nepredvídateľná.
 
 Presnú sumu uvádzať netreba. Stačí dať človeku možnosť pochopiť, či sa do vášho rozsahu vôbec zmestí.
 
@@ -86,9 +86,9 @@ Viac než polovica ľudí vás otvorí z mobilu. Ak tam treba zväčšovať text
 
 Samostatná vrstva, na ktorú sa myslí naposledy. Ani bezchybný web nefunguje, ak naň nikto nepríde.
 
-Pri lokálnych službách býva **firemný profil v Google** prvým bodom kontaktu — skôr než web. Je zadarmo a jeho vyplnenie zaberie jeden večer.
+Pri lokálnych službách býva **firemný profil v Google** prvým bodom kontaktu, skôr než web. Je zadarmo a jeho vyplnenie zaberie jeden večer.
 
-K tomu miestne katalógy: Firmy.sk, Azet, Zlaté stránky. Údaje v nich sa musia zhodovať s webom do znaku — inak si Google horšie spojí vašu firmu do jednej entity.
+K tomu miestne katalógy: Firmy.sk, Azet, Zlaté stránky. Údaje v nich sa musia zhodovať s webom do znaku, inak si Google horšie spojí vašu firmu do jednej entity.
 
 ## Kontrolný zoznam
 
@@ -97,7 +97,7 @@ Otvorte si vlastný web z telefónu v anonymnom okne a overte:
 1. Vidno IČO, adresu a údaj o zápise bez hľadania?
 2. Sú tam aspoň tri konkrétne ukážky prác s odkazmi?
 3. Je zrozumiteľná rádová cena?
-4. Sú tam overiteľné recenzie — s menami a odkazmi?
+4. Sú tam overiteľné recenzie: s menami a odkazmi?
 5. Funguje formulár? Pošlite si testovací dopyt hneď teraz.
 6. Dá sa to všetko pohodlne používať na malom displeji?
 7. Je vyplnený váš profil v Google a sú v ňom recenzie?

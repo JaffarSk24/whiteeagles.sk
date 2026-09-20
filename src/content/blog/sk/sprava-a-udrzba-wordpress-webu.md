@@ -75,9 +75,9 @@ Poctivo, po položkách:
 
 | Položka | Náklad |
 |---|---|
-| **Doména a hosting** | približne 50 až 150 € ročne |
+| **Doména a hosting** | približne 50 až 150€ ročne |
 | **Licencie prémiových pluginov a témy** | ak ich web používa, každá sa platí ročne |
-| **Mesačná údržba** (aktualizácie, kontrola záloh, test formulárov) | pri menšom firemnom webe zvyčajne 1 až 2 hodiny, u mňa po 35 € |
+| **Mesačná údržba** (aktualizácie, kontrola záloh, test formulárov) | pri menšom firemnom webe zvyčajne 1 až 2 hodiny, u mňa po 35€ |
 | **Neplánované opravy** | po zlej aktualizácii, pri napadnutí, pri vynútenej zmene PHP |
 
 Najdrahšia je posledná položka, lebo sa nedá naplánovať. Pravidelná údržba ju nevymaže, ale výrazne zmenšuje.
@@ -120,7 +120,7 @@ Ak sa o web staráte sami, toto je minimum raz mesačne:
 
 ## Ak potrebujete pomoc
 
-Udržiavam existujúce WordPress weby: aktualizácie so zálohou a testom, zálohy mimo servera, zmena verzie PHP, drobné úpravy a opravy po zlých aktualizáciách. Účtujem hodinovo po **35 €**, bez paušálu za čas, keď sa nič nerobí. Hosting ani licencie pluginov nepredávam, moja časť je práca na webe.
+Udržiavam existujúce WordPress weby: aktualizácie so zálohou a testom, zálohy mimo servera, zmena verzie PHP, drobné úpravy a opravy po zlých aktualizáciách. Účtujem hodinovo po **35€**, bez paušálu za čas, keď sa nič nerobí. Hosting ani licencie pluginov nepredávam, moja časť je práca na webe.
 
 Nové weby staviam na modernom stacku, s údržbou rádovo menšou, a ku každému dávam **šesť mesiacov podpory zadarmo**. Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, napríklad [Krása štúdio OK](/sk/case/studio-krasy/) s objednávaním cez Telegram. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

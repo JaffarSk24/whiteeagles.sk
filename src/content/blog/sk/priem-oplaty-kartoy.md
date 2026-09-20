@@ -30,7 +30,7 @@ Formulácia je dôležitá a stojí za pozorné prečítanie: zákon vyžaduje *
 
 Nižšie je, čo na slovenskom trhu existuje, koľko to stojí a ako si vybrať podľa obratu.
 
-**Aby bolo jasné:** právne poradenstvo ani účtovníctvo nerobím. Robím weby, reklamu a analytiku — a v tomto článku rozoberám tú časť témy, ktorá sa týka webu.
+**Aby bolo jasné:** právne poradenstvo ani účtovníctvo nerobím. Robím weby, reklamu a analytiku, a v tomto článku rozoberám tú časť témy, ktorá sa týka webu.
 
 [CTA_FORM:webdev]
 
@@ -56,11 +56,11 @@ Poskytovateľov je na slovenskom trhu dosť a rozdiel medzi nimi nie je len v pe
 
 **Poplatok a jeho štruktúra.** Pozerajte nielen na percento, ale aj na pevnú časť z transakcie. Pri priemernom nákupe 10 eur váži pevných 0,25 eura viac než pol percenta navyše.
 
-**Lehota výplaty.** Poskytovatelia posielajú peniaze na účet s rôznym oneskorením — od nasledujúceho dňa po týždeň. Pre prevádzkový kapitál to nie je maličkosť.
+**Lehota výplaty.** Poskytovatelia posielajú peniaze na účet s rôznym oneskorením: od nasledujúceho dňa po týždeň. Pre prevádzkový kapitál to nie je maličkosť.
 
 **Spôsoby platby.** Karty sú minimum. Slovenský zákazník však často čaká aj Apple Pay, Google Pay a platbu cez svoju bankovú aplikáciu. Čím menej krokov, tým menej opustených košíkov.
 
-**Overenie pri napojení.** Poskytovateľ preveruje predmet podnikania a môže odmietnuť alebo si vyžiadať ďalšie doklady. Pri niektorých odboroch trvá overenie týždne — to je dobré zistiť skôr, než klientom sľúbite platbu online.
+**Overenie pri napojení.** Poskytovateľ preveruje predmet podnikania a môže odmietnuť alebo si vyžiadať ďalšie doklady. Pri niektorých odboroch trvá overenie týždne, a to je dobré zistiť skôr, než klientom sľúbite platbu online.
 
 **Vrátenie platby.** Ako sa refundácia rieši, koľko stojí a ako dlho trvá. Myslí sa na to naposledy a potom sa rieši v zhone.
 
@@ -82,7 +82,7 @@ Napojenie brány nie je len vloženie kľúča do nastavení.
 
 **Treba návrat na zrozumiteľnú stránku.** Po zaplatení má klient pristáť na potvrdení objednávky, nie na prázdnej stránke „ďakujeme“ bez detailov.
 
-**Chyby platby treba ošetriť.** Karta zamietnutá, nedostatok prostriedkov, expirácia — na každý prípad treba zrozumiteľný text a možnosť skúsiť znova. Inak klient jednoducho odíde.
+**Chyby platby treba ošetriť.** Karta zamietnutá, nedostatok prostriedkov, expirácia, na každý prípad treba zrozumiteľný text a možnosť skúsiť znova. Inak klient jednoducho odíde.
 
 **Meranie lievika je nutnosť.** Koľko ľudí sa dostalo na platobnú stránku, koľko stlačilo tlačidlo, koľko zaplatilo. Bez toho sa o probléme dozviete o mesiac podľa obratu. Ako sa to nastavuje, je v článku [„Ako nastaviť Google Analytics 4“](/sk/blog/nastavenie-google-analytics-4/).
 
@@ -90,13 +90,13 @@ Napojenie brány nie je len vloženie kľúča do nastavení.
 
 ## Koľko to stojí
 
-Poplatky závisia od poskytovateľa a obratu, preto konkrétne percentá uvádzať nebudem — menia sa a pri väčšom obrate má zmysel o nich vyjednávať.
+Poplatky závisia od poskytovateľa a obratu, preto konkrétne percentá uvádzať nebudem: menia sa a pri väčšom obrate má zmysel o nich vyjednávať.
 
 Pri prepočte sa oplatí pozerať na toto:
 
-1. Zistite si **priemernú výšku nákupu**. Od nej závisí, čo váži viac — percento alebo pevná časť.
+1. Zistite si **priemernú výšku nákupu**. Od nej závisí, čo váži viac: percento alebo pevná časť.
 2. Spočítajte **počet transakcií za mesiac**. Pri malom počte platieb sa prenájom terminálu nevráti.
-3. Pripočítajte **cenu integrácie** — jednorazovú.
+3. Pripočítajte **cenu integrácie**: jednorazovú.
 4. Porovnajte s variantom „QR kód“, kde poplatok nie je vôbec.
 
 Často sa ukáže, že pre menšie podnikanie pokryje kombinácia „QR kód plus platba na webe“ požiadavku zákona aj potreby klientov lacnejšie než terminál.
@@ -111,7 +111,7 @@ Pri prepočte sa oplatí pozerať na toto:
 
 ## Ak potrebujete technickú časť
 
-Zmluvu s platobným poskytovateľom uzatvárate sami — sú to vaše peniaze a vaše podmienky. Všetko okolo webu — integrácia brány, platobná stránka, ošetrenie chýb, QR kódy, meranie lievika, prepojenie s pokladnicou — robím ja.
+Zmluvu s platobným poskytovateľom uzatvárate sami: sú to vaše peniaze a vaše podmienky. Všetko okolo webu: integrácia brány, platobná stránka, ošetrenie chýb, QR kódy, meranie lievika, prepojenie s pokladnicou, robím ja.
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**, medzi nimi e-shopy a rezervačné systémy s online platbou: Bodabo, Top Sklad, Krása štúdio, Biliardovňa. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

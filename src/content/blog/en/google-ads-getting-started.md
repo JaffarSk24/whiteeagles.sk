@@ -3,7 +3,7 @@ title: 'Google Ads in Slovakia: how not to waste the budget at the start'
 description: >-
   A practical guide to launching Google Ads for a small business in Slovakia:
   how much budget is needed, which settings kill a campaign, negative keywords,
-  conversion tracking and Consent Mode — with the mistakes that cost real money.
+  conversion tracking and Consent Mode: with the mistakes that cost real money.
 date: '2026-08-04'
 key: 'google-ads-start'
 faq:
@@ -34,7 +34,7 @@ The order matters more than it appears. Advertising pointed at an unprepared sit
 
 **1. A page for the specific service.** Someone searched `oprava webstránky` and should land on the page about fixing websites, not on a home page listing every service at once. Every extra step to the right information costs you part of the traffic.
 
-**2. Working enquiry measurement.** Without it the campaign cannot be evaluated and — more importantly — Google has nothing to optimise on. How to set it up is in [configuring GA4](/en/blog/ga4-setup/).
+**2. Working enquiry measurement.** Without it the campaign cannot be evaluated and, more importantly, Google has nothing to optimise on. How to set it up is in [configuring GA4](/en/blog/ga4-setup/).
 
 **3. Consent Mode v2.** Since March 2024 Google does not accept EU data for remarketing and conversion modelling without a consent signal. The practical effect: some conversions go uncounted and the campaign looks unprofitable even while enquiries arrive. [More about the banner](/en/blog/cookie-banner-2026/).
 
@@ -44,9 +44,9 @@ The order matters more than it appears. Advertising pointed at an unprepared sit
 
 The standard answer "start with 5 euros a day" does not survive the arithmetic.
 
-Work backwards. Say a click in your niche costs 0.60 € and one visitor in twenty leaves an enquiry — a contact costs about 12 €. To judge whether that pays you need 20-30 enquiries, that is 240-360 € purely on gathering statistics.
+Work backwards. Say a click in your niche costs 0.60€ and one visitor in twenty leaves an enquiry, so a contact costs about 12€. To judge whether that pays you need 20-30 enquiries, that is 240-360€ purely on gathering statistics.
 
-Hence the practical figure for a narrow service in Bratislava: **10-15 € a day**. Less works too, but the conclusions take three months rather than one — and you pay throughout.
+Hence the practical figure for a narrow service in Bratislava: **10-15€ a day**. Less works too, but the conclusions take three months rather than one, and you pay throughout.
 
 Better to start with one city and one service. Spreading a small budget across all of Slovakia and six services is the fastest way to get neither data nor enquiries.
 
@@ -75,13 +75,13 @@ zadarmo, zdarma, kurz, škola, práca, brigáda, návod, sám, svojpomocne,
 
 And the same in English if you work with an English-speaking audience: `free, course, jobs, vacancy, diy, download, template, tutorial`.
 
-The list then grows from practice. Once a week in the first month, open the search terms report and see which words your ads actually appeared for. Negative keywords come from there — and so do queries you never thought of.
+The list then grows from practice. Once a week in the first month, open the search terms report and see which words your ads actually appeared for. Negative keywords come from there, and so do queries you never thought of.
 
 [CTA_FORM:analytics]
 
 ## Five places where budget is most often lost
 
-Not theory — what turns up when checking other people's campaigns:
+Not theory, what turns up when checking other people's campaigns:
 
 1. **Conversions are not passed to Google.** The algorithm has nothing to optimise on, so it optimises for clicks and spends on the cheapest ones.
 2. **Broad match with no negative keywords.** You pay for queries unrelated to your business.
@@ -95,7 +95,7 @@ The fifth is especially treacherous: it is the basis on which people switch off 
 
 Three things that genuinely affect the cost per click and the response:
 
-**The headline repeats the query.** Someone searches `oprava wordpress webstránky` — the headline should contain those words. This affects not only response but Quality Score, and therefore price.
+**The headline repeats the query.** Someone searches `oprava wordpress webstránky`: the headline should contain those words. This affects not only response but Quality Score, and therefore price.
 
 **There are specifics.** "Website repair" loses to "Your site fixed in 1-2 days, pay afterwards". Numbers, timescales and terms work better than adjectives.
 
@@ -105,11 +105,11 @@ Three things that genuinely affect the cost per click and the response:
 
 Forget click counts and ad position. Three numbers matter:
 
-- **Cost per enquiry** — what you paid for one contact.
+- **Cost per enquiry**: what you paid for one contact.
 - **Share of enquiries that became clients.** Counted by hand, but without it the previous number is meaningless.
-- **Cost per client** — cost per enquiry divided by that share.
+- **Cost per client**: cost per enquiry divided by that share.
 
-Then the arithmetic is simple: if a client brings you 900 € of profit and costs 120 € in advertising, the campaign does not need evaluating, it needs scaling.
+Then the arithmetic is simple: if a client brings you 900€ of profit and costs 120€ in advertising, the campaign does not need evaluating, it needs scaling.
 
 ## Advertising and SEO: not either/or but when
 

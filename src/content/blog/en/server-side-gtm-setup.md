@@ -22,7 +22,7 @@ faq:
 
 # Server-side GTM: when it pays for itself and when plain GA4 is enough
 
-Server-side tagging is sold as the cure for lost data. Sometimes it genuinely is. Far more often it is an expensive solution to a problem the company does not have — while the ones it does have go unfixed.
+Server-side tagging is sold as the cure for lost data. Sometimes it genuinely is. Far more often it is an expensive solution to a problem the company does not have, while the ones it does have go unfixed.
 
 Below, factually: what it is, what it fixes, what it does not, what running it costs, and from what budget it is worth considering.
 
@@ -32,9 +32,9 @@ Below, factually: what it is, what it fixes, what it does not, what running it c
 
 In an ordinary setup the data goes to Google from **the visitor's browser**: a script loads, collects events and sends them straight to Google.
 
-With server-side tagging the route differs. The browser sends the data **to your own server**, and that server forwards it on — to GA4, to Google Ads, to Meta. The difference is who talks to Google: not a third-party script in a browser, but your infrastructure.
+With server-side tagging the route differs. The browser sends the data **to your own server**, and that server forwards it on: to GA4, to Google Ads, to Meta. The difference is who talks to Google: not a third-party script in a browser, but your infrastructure.
 
-Everything else follows from that — the benefits and the costs alike.
+Everything else follows from that: the benefits and the costs alike.
 
 ## What it genuinely fixes
 
@@ -42,9 +42,9 @@ Everything else follows from that — the benefits and the costs alike.
 
 **Browser restrictions.** Safari and Firefox cut the lifetime of cookies set by a browser script to a few days. A cookie set by the server is not subject to that, so a returning visitor does not show up as a new one.
 
-**Page speed.** Some scripts move off the page onto the server. On sites carrying five measurement tools at once it is noticeable — and Google factors speed into positions.
+**Page speed.** Some scripts move off the page onto the server. On sites carrying five measurement tools at once it is noticeable, and Google factors speed into positions.
 
-**Control over what leaves.** On the server you can strip out what does not belong in the data — an email address in a page URL, parameters carrying personal data.
+**Control over what leaves.** On the server you can strip out what does not belong in the data: an email address in a page URL, parameters carrying personal data.
 
 ## What it does not fix
 
@@ -64,10 +64,10 @@ The number most often inflated in proposals. The honest answer is that it depend
 
 **You cannot guess it from outside, but you can measure it.** Take a month and compare two numbers:
 
-1. how many enquiries actually arrived — inbox, Telegram, phone calls;
+1. how many enquiries actually arrived: inbox, Telegram, phone calls;
 2. how many conversions GA4 shows for the same period.
 
-The difference is your loss. And here comes the uncomfortable part: **in the overwhelming majority of cases I see, the blocker is not the culprit.** The culprit is measurement that never worked — the event does not reach GA4, it is not marked as a key event, GA4 is connected twice, or the cookie banner blocks measurement even after consent.
+The difference is your loss. And here comes the uncomfortable part: **in the overwhelming majority of cases I see, the blocker is not the culprit.** The culprit is measurement that never worked: the event does not reach GA4, it is not marked as a key event, GA4 is connected twice, or the cookie banner blocks measurement even after consent.
 
 Server-side GTM changes none of that. How to check is in [configuring GA4](/en/blog/ga4-setup/).
 
@@ -77,10 +77,10 @@ Server-side GTM changes none of that. How to check is in [configuring GA4](/en/b
 
 The order matters because it saves money. Until this works, server-side tagging has nothing to improve:
 
-1. **GA4 through Tag Manager**, not directly in the code — and certainly not both at once, or every figure doubles.
+1. **GA4 through Tag Manager**, not directly in the code, and certainly not both at once, or every figure doubles.
 2. **Consent Mode v2** configured before events.
 3. **Events that match reality**: `generate_lead` after a successful submission, clicks on the phone number and messenger.
-4. **Key events marked** — otherwise conversions read zero while enquiries keep arriving.
+4. **Key events marked**: otherwise conversions read zero while enquiries keep arriving.
 5. **Links to Google Ads and Search Console.**
 
 Only once those five work, and the gap between your inbox and GA4 is still large, is there anything to discuss about a server.
@@ -89,9 +89,9 @@ Only once those five work, and the gap between your inbox and GA4 is still large
 
 Two lines, and the second is the one people forget when deciding.
 
-**Setup** — from **500 €**, hourly rate **25 €/hr**. That covers the server, your own subdomain, moving the container, connecting GA4 and the ad accounts, and testing.
+**Setup**: from **500€**, hourly rate **25€/hr**. That covers the server, your own subdomain, moving the container, connecting GA4 and the ad accounts, and testing.
 
-**Running the server** — a recurring monthly cost. The exact figure depends on traffic; the point is that unlike ordinary GA4, which costs nothing, here you pay every month including the quiet ones.
+**Running the server**: a recurring monthly cost. The exact figure depends on traffic; the point is that unlike ordinary GA4, which costs nothing, here you pay every month including the quiet ones.
 
 ## From what budget it makes sense
 
@@ -106,7 +106,7 @@ Bluntly, because for most small companies the answer is "not yet":
 - a long decision cycle where a visitor returns over weeks and a shortened cookie splits them into several different people;
 - a technical audience where most people run blockers.
 
-If none of that applies, the same money does more in content or in advertising — what that costs and returns is in [what Google Ads costs in Slovakia](/en/blog/google-ads-cost-slovakia/).
+If none of that applies, the same money does more in content or in advertising: what that costs and returns is in [what Google Ads costs in Slovakia](/en/blog/google-ads-cost-slovakia/).
 
 ## How it is done
 
@@ -114,14 +114,14 @@ If none of that applies, the same money does more in content or in advertising �
 2. **Server and subdomain** on your own domain.
 3. **Moving the container** and connecting GA4, Google Ads, Meta.
 4. **Consent Mode v2** on the server side.
-5. **Running both routes side by side** for a few weeks — otherwise there is no way to say whether anything improved.
+5. **Running both routes side by side** for a few weeks: otherwise there is no way to say whether anything improved.
 6. **Switching the old route off** only after that is confirmed.
 
 Most guides skip the fifth step, and it is the one that answers whether the money was well spent.
 
 ## If you need help
 
-First I look at whether you are losing data to blockers or to measurement that never ran correctly — and I say so plainly even when it does not turn into a larger job. Measurement setup from **500 €**, rate **25 €/hr**.
+First I look at whether you are losing data to blockers or to measurement that never ran correctly, and I say so plainly even when it does not turn into a larger job. Measurement setup from **500€**, rate **25€/hr**.
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
 

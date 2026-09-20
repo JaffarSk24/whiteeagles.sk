@@ -25,7 +25,7 @@ Okolo GDPR je veľa strachu a málo konkrétnosti. Majiteľovi menšej firmy zvy
 
 Skutočnosť je uprostred: pre typickú menšiu firmu s webom, formulárom a analytikou je zoznam povinností obmedzený a dá sa vybaviť naraz. Nižšie je, čo presne treba.
 
-**Aby bolo jasné:** právne poradenstvo ani účtovníctvo nerobím. Robím weby, reklamu a analytiku — a v tomto článku rozoberám tú časť témy, ktorá sa týka webu.
+**Aby bolo jasné:** právne poradenstvo ani účtovníctvo nerobím. Robím weby, reklamu a analytiku, a v tomto článku rozoberám tú časť témy, ktorá sa týka webu.
 
 [CTA_FORM:cookies]
 
@@ -33,7 +33,7 @@ Skutočnosť je uprostred: pre typickú menšiu firmu s webom, formulárom a ana
 
 Prvý omyl: „sme traja, nás sa to netýka“. Týka. GDPR platí pre každého, kto spracúva osobné údaje, bez ohľadu na veľkosť.
 
-Úľava pre organizácie do 250 zamestnancov existuje — oslobodzuje od vedenia záznamov o spracovateľských činnostiach. Ani tá však neplatí, ak je spracúvanie **pravidelné**. Formulár na webe, ktorý beží každý deň, je pravidelné spracúvanie. Úľava sa na vás teda pravdepodobne nevzťahuje.
+Úľava pre organizácie do 250 zamestnancov existuje: oslobodzuje od vedenia záznamov o spracovateľských činnostiach. Ani tá však neplatí, ak je spracúvanie **pravidelné**. Formulár na webe, ktorý beží každý deň, je pravidelné spracúvanie. Úľava sa na vás teda pravdepodobne nevzťahuje.
 
 Dobrá správa: samotné záznamy sú pre malú firmu tabuľka na jednu stranu, nie zväzok.
 
@@ -47,17 +47,17 @@ Prakticky všetko, podľa čoho sa dá človek identifikovať:
 - komunikácia v chate na webe
 - údaje na faktúru
 
-Posledný bod prekvapí najčastejšie: údaje, ktoré musíte uchovávať pre účtovníctvo, sú tiež osobné údaje — len s iným právnym základom a inou dobou uchovávania.
+Posledný bod prekvapí najčastejšie: údaje, ktoré musíte uchovávať pre účtovníctvo, sú tiež osobné údaje, len s iným právnym základom a inou dobou uchovávania.
 
 ## Minimum, ktoré patrí na web
 
 **Zásady ochrany osobných údajov.** Samostatná stránka, kde je uvedené:
 
-- kto údaje spracúva — názov firmy, IČO, adresa, kontakt
+- kto údaje spracúva: názov firmy, IČO, adresa, kontakt
 - aké údaje a na aký účel
-- na akom právnom základe — súhlas, zmluva, zákonná povinnosť alebo oprávnený záujem
+- na akom právnom základe: súhlas, zmluva, zákonná povinnosť alebo oprávnený záujem
 - ako dlho sa uchovávajú
-- komu sa poskytujú — analytické služby, rozposielanie e-mailov, hosting
+- komu sa poskytujú: analytické služby, rozposielanie e-mailov, hosting
 - aké práva má dotknutá osoba a ako ich uplatniť
 
 **Správne formuláre.** V každom formulári, kde zbierate kontakty:
@@ -70,7 +70,7 @@ Posledný bod sa podceňuje najviac. Každé zbytočné pole je aj právne rizik
 
 **Cookie lišta**, ak máte analytiku alebo reklamu. Je to samostatná téma, podrobne v článku [„Cookie lišta v roku 2026“](/sk/blog/cookie-lista-2026-povinnosti/).
 
-**Povinné údaje o firme.** Formálne ide o inú požiadavku, ale kontroluje sa zvyčajne všetko naraz — [podrobnosti tu](/sk/blog/obyazatelnye-rekvizity-sajta/).
+**Povinné údaje o firme.** Formálne ide o inú požiadavku, ale kontroluje sa zvyčajne všetko naraz: [podrobnosti tu](/sk/blog/obyazatelnye-rekvizity-sajta/).
 
 [CTA_FORM:consult]
 
@@ -78,7 +78,7 @@ Posledný bod sa podceňuje najviac. Každé zbytočné pole je aj právne rizik
 
 **Záznamy o spracovateľských činnostiach.** Tabuľka: aké údaje, načo, na akom základe, ako dlho, komu ich posielame. Pre malú firmu je to jedna strana.
 
-**Zmluvy s dodávateľmi.** Hosting, e-mailová služba, CRM, účtovník — všetci spracúvajú vaše údaje a treba s nimi zmluvu o spracúvaní. Pri veľkých službách sa uzatvára prijatím podmienok v účte, nič osobitné sa nepodpisuje.
+**Zmluvy s dodávateľmi.** Hosting, e-mailová služba, CRM, účtovník, všetci spracúvajú vaše údaje a treba s nimi zmluvu o spracúvaní. Pri veľkých službách sa uzatvára prijatím podmienok v účte, nič osobitné sa nepodpisuje.
 
 **Postup pri úniku údajov.** Jednoduchá inštrukcia: komu volať, čo overiť, kto oznamuje dozornému úradu. Vymýšľať to v momente incidentu je zlý nápad, lehota je len **72 hodín**.
 
@@ -90,7 +90,7 @@ Posledný bod sa podceňuje najviac. Každé zbytočné pole je aj právne rizik
 
 **Analytika beží pred súhlasom.** Najrozšírenejšia technická chyba. Lišta sa zobrazí, no počítadlo už bežalo.
 
-**Formulár zbiera zbytočnosti.** Dátum narodenia, adresa, zamestnávateľ — „pre istotu“. Ak údaje nie sú potrebné na plnenie zmluvy, do formulára nepatria.
+**Formulár zbiera zbytočnosti.** Dátum narodenia, adresa, zamestnávateľ, „pre istotu“. Ak údaje nie sú potrebné na plnenie zmluvy, do formulára nepatria.
 
 **Zásady odkopírované od inej firmy.** Aj s cudzím názvom a cudzími službami. Kontrolór si to všimne okamžite.
 
@@ -104,7 +104,7 @@ Posledný bod sa podceňuje najviac. Každé zbytočné pole je aj právne rizik
 2. Ku každému zdroju určte účel, právny základ a dobu uchovávania.
 3. Napíšte zásady ochrany údajov na svoju skutočnú situáciu, nekopírujte ich.
 4. Skontrolujte formuláre: nepredškrtnuté súhlasy, odkaz na zásady, žiadne zbytočné polia.
-5. Overte cookie lištu — či sa niečo nenačíta pred súhlasom.
+5. Overte cookie lištu: či sa niečo nenačíta pred súhlasom.
 6. Pozbierajte zmluvy s dodávateľmi.
 7. Zapíšte si postup pri úniku údajov.
 
@@ -112,7 +112,7 @@ Prvé dva body a siedmy sú organizačné a pri neštandardnom spracúvaní ich 
 
 ## Ak potrebujete technickú časť
 
-Právne posúdenie vášho spracúvania spraví právnik. Všetko okolo webu — správne formuláre so správnymi súhlasmi, stránka so zásadami, cookie lišta s Consent Mode v2, nastavenie analytiky tak, aby nezbierala zbytočnosti — robím ja.
+Právne posúdenie vášho spracúvania spraví právnik. Všetko okolo webu: správne formuláre so správnymi súhlasmi, stránka so zásadami, cookie lišta s Consent Mode v2, nastavenie analytiky tak, aby nezbierala zbytočnosti, robím ja.
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy** s formulármi, rezerváciami aj platbami. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

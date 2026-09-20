@@ -132,7 +132,7 @@ If more than two rows are not in a good state, I would not yet base ad budget de
 
 ## If you need help
 
-I set up and audit GA4 and Tag Manager: enquiry events, key events, Consent Mode v2, links to Google Ads and Search Console, and fixing the errors an audit finds. A professional GA4 setup starts from **500 €**, the work is billed at **25 €** an hour, and I state the price before starting. I do not run advertising blind, without working measurement, and I do not sell GA4 licences or "SEO packages".
+I set up and audit GA4 and Tag Manager: enquiry events, key events, Consent Mode v2, links to Google Ads and Search Console, and fixing the errors an audit finds. A professional GA4 setup starts from **500€**, the work is billed at **25€** an hour, and I state the price before starting. I do not run advertising blind, without working measurement, and I do not sell GA4 licences or "SEO packages".
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. Every new site gets GA4 and Tag Manager with enquiry tracking and a cookie banner with Consent Mode v2. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 

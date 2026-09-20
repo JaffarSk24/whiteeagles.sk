@@ -25,7 +25,7 @@ faq:
 
 The owner's logic is clear enough: the clients speak Russian, business is conducted in Russian, so why pay for a second version. Besides, it can always be translated later.
 
-The logic holds right up until you start counting what is actually being lost. Point by point below — and at the end, when a Slovak version genuinely is not needed.
+The logic holds right up until you start counting what is actually being lost. Point by point below, and at the end, when a Slovak version genuinely is not needed.
 
 [CTA_FORM:webdev]
 
@@ -49,7 +49,7 @@ Even if your buyer speaks Russian, the environment around them is Slovak.
 
 There is a non-obvious effect: **a Slovak version raises trust even among Russian-speaking clients.**
 
-The reason is simple. A company with a site in Slovak looks rooted — it works here rather than "trying it for now". A company with only a Russian version reads as temporary, even at ten years old.
+The reason is simple. A company with a site in Slovak looks rooted: it works here rather than "trying it for now". A company with only a Russian version reads as temporary, even at ten years old.
 
 For someone deciding who to hand a deposit to, that is a tangible difference.
 
@@ -57,7 +57,7 @@ For someone deciding who to hand a deposit to, that is a tangible difference.
 
 A technical but important layer.
 
-Slovak queries are their own body of words, not a translation of Russian ones. People search for `tvorba webstránok`, `oprava webstránky`, `seo audit webu`. If those phrasings appear nowhere on your site, you never show up for them — regardless of how good the service is.
+Slovak queries are their own body of words, not a translation of Russian ones. People search for `tvorba webstránok`, `oprava webstránky`, `seo audit webu`. If those phrasings appear nowhere on your site, you never show up for them, regardless of how good the service is.
 
 And the reverse: a Russian-language version with no geographic anchor competes with the entire Russian-language internet and usually loses. Russian content makes sense when it is **about Slovakia**: s.r.o., DPH, eKasa, local rules. That is exactly where there is no competition and exactly where you get found.
 
@@ -73,7 +73,7 @@ Honestly, such cases exist.
 
 **You service one or two corporate contracts** and the site is a business card, not a source of enquiries.
 
-In every other case the second version pays for itself — and the earlier it is built, the cheaper it is.
+In every other case the second version pays for itself, and the earlier it is built, the cheaper it is.
 
 ## How to build a bilingual site properly
 
@@ -93,15 +93,15 @@ There are plenty of technical mistakes here that devalue the whole effort.
 
 A second version usually adds no more than a third to the project: structure, layout, functionality and settings are shared, only the content differs.
 
-The other route costs more — build one version and add the second a year later. By then articles, service pages and products have accumulated and everything has to be translated at once. Plus the technical side, never designed for two languages, has to be rebuilt.
+The other route costs more: build one version and add the second a year later. By then articles, service pages and products have accumulated and everything has to be translated at once. Plus the technical side, never designed for two languages, has to be rebuilt.
 
 ## What to do
 
-1. Decide which version is the main one. Usually Slovak — it matches the market the business is registered in and covers more queries.
+1. Decide which version is the main one. Usually Slovak: it matches the market the business is registered in and covers more queries.
 2. Check that each version has its own address and that they are linked by hreflang.
 3. Check where a visitor with a Slovak system lands.
 4. Do not machine-translate anything that is supposed to sell.
-5. Make the Russian content **about Slovakia** — there is no competition there.
+5. Make the Russian content **about Slovakia**: there is no competition there.
 
 ## If you need a bilingual version
 

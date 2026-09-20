@@ -2,7 +2,7 @@
 title: 'Ads are running and no enquiries come: 7 causes and how to check each one'
 description: >-
   The budget is going, the clicks are there, the inbox is empty. Seven causes in
-  the order the chain breaks — from irrelevant queries and uncounted conversions
+  the order the chain breaks: from irrelevant queries and uncounted conversions
   to the landing page and a form that silently sends nothing.
 date: '2026-08-04'
 key: 'ads-no-leads'
@@ -34,7 +34,7 @@ The most common cause, and the fastest to check.
 
 **How to check.** Google Ads → **Campaigns → Insights → Search terms**. These are not your keywords but the actual phrases your ads appeared on. Read the first fifty.
 
-What usually turns up: `práca`, `kurz`, `zadarmo`, `ako urobiť sám`, `šablóna` — people looking for a job, a course, or a way to do it themselves. They click willingly and never buy.
+What usually turns up: `práca`, `kurz`, `zadarmo`, `ako urobiť sám`, `šablóna`. These are people looking for a job, a course, or a way to do it themselves. They click willingly and never buy.
 
 **Cause.** Broad match without a negative keyword list. Google interprets the query loosely and brings in an adjacent audience.
 
@@ -42,9 +42,9 @@ What usually turns up: `práca`, `kurz`, `zadarmo`, `ako urobiť sám`, `šabló
 
 ## 2. Enquiries arrive but are not counted
 
-The second most common — and the most galling, because business is happening and you cannot see it.
+The second most common, and the most galling, because business is happening and you cannot see it.
 
-**How to check.** Open the site in a private window and send a test enquiry from a phone. Then GA4 → **Reports → Realtime** — the event should appear within a minute.
+**How to check.** Open the site in a private window and send a test enquiry from a phone. Then GA4 → **Reports → Realtime**: the event should appear within a minute.
 
 What usually turns up:
 
@@ -54,15 +54,15 @@ What usually turns up:
 
 That last one hurts twice: you cannot see the result **and** the algorithm has nothing to optimise on, so it economises on the cheapest clicks, which lead nowhere.
 
-Step by step — [configuring GA4](/en/blog/ga4-setup/); the service itself — [web analytics](/en/service/analytics/).
+Step by step: [configuring GA4](/en/blog/ga4-setup/); the service itself: [web analytics](/en/service/analytics/).
 
 ## 3. The form pretends to have sent
 
 A separate case, and one you will never find in the ads interface.
 
-**How to check.** The same test enquiry — but now watch the inbox. Did the email arrive? Not in spam?
+**How to check.** The same test enquiry, but now watch the inbox. Did the email arrive? Not in spam?
 
-What usually turns up: the form displays "thank you" but no email leaves — the mail script broke after a migration, a mailbox password changed, messages land in the recipient's spam.
+What usually turns up: the form displays "thank you" but no email leaves, because the mail script broke after a migration, a mailbox password changed, or messages land in the recipient's spam.
 
 Check the mailbox everything arrives at, too: if the address is on a free domain with no records configured, part of your mail never reaches the inbox. That is one more reason to have [email on your own domain](/en/blog/sk-domain-guide/).
 
@@ -74,7 +74,7 @@ Since March 2024 Google does not accept EEA data for remarketing and conversion 
 
 **How to check.** Open the site, accept cookies, send an enquiry. If GA4 shows the event but no conversion appears in Google Ads within a day, this is almost certainly it.
 
-Analysis — [the cookie banner in 2026](/en/blog/cookie-banner-2026/).
+Analysis: [the cookie banner in 2026](/en/blog/cookie-banner-2026/).
 
 [CTA_FORM:cookies]
 
@@ -90,31 +90,31 @@ Someone searched `oprava wordpress webstránky` and landed on a home page listin
 
 More than half of clicks come from mobile. If a page takes 5 seconds, you paid for a click from someone who never saw it.
 
-**How to check.** PageSpeed Insights, the **Mobile** tab — not Desktop. LCP under 2.5 seconds.
+**How to check.** PageSpeed Insights, the **Mobile** tab, not Desktop. LCP under 2.5 seconds.
 
 Look at the form separately, through the eyes of someone holding a phone: how many fields, does it need scrolling, does the cookie banner cover it?
 
 There is a second, less obvious side here: **page speed affects the cost per click** through Quality Score. A slow site is paid for twice.
 
-How to check the rest — [the DIY SEO audit](/en/blog/seo-audit-yourself/).
+How to check the rest: [the DIY SEO audit](/en/blog/seo-audit-yourself/).
 
 ## 7. There is no reason to choose you
 
-Technically everything works, the audience is right, the page is fast — and no enquiries. Then it is the offer.
+Technically everything works, the audience is right, the page is fast, and no enquiries. Then it is the offer.
 
 Look at your page through the eyes of someone who has just opened three competitors. Is there:
 
-- **a price, or at least a range** — its absence turns away more people than a high figure
-- **timelines** — specific, not "as soon as possible"
-- **proof** — real projects with names, not "over 100 satisfied clients"
-- **mandatory details** — the IČO and address a Slovak buyer checks before paying ([what is required](/en/blog/mandatory-website-details/))
-- **a simple next step** — a three-field form, not a questionnaire
+- **a price, or at least a range**: its absence turns away more people than a high figure
+- **timelines**: specific, not "as soon as possible"
+- **proof**: real projects with names, not "over 100 satisfied clients"
+- **mandatory details**: the IČO and address a Slovak buyer checks before paying ([what is required](/en/blog/mandatory-website-details/))
+- **a simple next step**: a three-field form, not a questionnaire
 
 What a Slovak client actually looks at is covered separately: [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/).
 
 ## The order to check in
 
-Not by importance but by speed — the things that take minutes first:
+Not by importance but by speed, the things that take minutes first:
 
 | # | Check | Time |
 |---|---|---|
@@ -123,16 +123,16 @@ Not by importance but by speed — the things that take minutes first:
 | 3 | Key event marked, Ads linked to GA4 | 10 min |
 | 4 | Page speed on mobile | 5 min |
 | 5 | Where the ads point | 10 min |
-| 6 | Price, timelines, proof present | — |
+| 6 | Price, timelines, proof present | at a glance |
 
 The first four cover most cases and take under an hour.
 
 ## If it is easier to have someone else look
 
-I go through the campaigns and the site, find where the chain breaks and say what to fix first. It often turns out the advertising was fine and the enquiries were not being counted — and switching it off was the mistake.
+I go through the campaigns and the site, find where the chain breaks and say what to fix first. It often turns out the advertising was fine and the enquiries were not being counted, and switching it off was the mistake.
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
-Details — [advertising setup](/en/service/ads/) and [web analytics](/en/service/analytics/). If you have a site and are unsure what to do with it, the [free audit](/en/seo-audit/) comes back within 3 working days.
+Details: [advertising setup](/en/service/ads/) and [web analytics](/en/service/analytics/). If you have a site and are unsure what to do with it, the [free audit](/en/seo-audit/) comes back within 3 working days.
 
 [CTA_FORM:audit]

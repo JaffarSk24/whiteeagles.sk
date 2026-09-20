@@ -21,7 +21,7 @@ faq:
 
 # The cookie banner in 2026: what EU rules require and what Consent Mode v2 is
 
-Let me clear up the thing most often misunderstood: **the obligation to ask for cookie consent comes not from Slovak law but from European rules** — GDPR and the ePrivacy directive. Slovakia transposes them, but they are interpreted identically across the Union. The practical consequence: the requirements for your site are the same as for a German or Czech company.
+Let me clear up the thing most often misunderstood: **the obligation to ask for cookie consent comes not from Slovak law but from European rules**: GDPR and the ePrivacy directive. Slovakia transposes them, but they are interpreted identically across the Union. The practical consequence: the requirements for your site are the same as for a German or Czech company.
 
 The second thing worth knowing: since March 2024 Google requires **Consent Mode v2**. That is no longer about the law but about whether your analytics and advertising will work at all.
 
@@ -35,12 +35,12 @@ Consent is needed if the site uses any cookies **other than strictly necessary o
 
 **Everything else requires consent:**
 
-- analytics — Google Analytics, Microsoft Clarity, any counter
-- advertising and remarketing — Google Ads, Meta Pixel
+- analytics: Google Analytics, Microsoft Clarity, any counter
+- advertising and remarketing: Google Ads, Meta Pixel
 - embedded YouTube videos and maps, if they load immediately
 - chats, social widgets, fonts from third-party servers
 
-Which is to say almost any modern website. If Google Analytics is installed, a banner is needed — even with no advertising at all.
+Which is to say almost any modern website. If Google Analytics is installed, a banner is needed, even with no advertising at all.
 
 ## What the banner must be like
 
@@ -52,7 +52,7 @@ This is where mistakes are most common, because banners get installed "so that t
 
 **Consent is specific.** Categories are separated: analytics, advertising, functional. A single "I agree to everything" button with no choice will not do.
 
-**Consent is revocable.** A visitor must be able to change their decision — usually through a link in the footer.
+**Consent is revocable.** A visitor must be able to change their decision, usually through a link in the footer.
 
 **No pre-ticked boxes.** Analytics and advertising categories are off by default.
 
@@ -70,9 +70,9 @@ Consent Mode is the mechanism through which a site tells Google's services wheth
 - some conversions go uncounted, and campaigns look less profitable than they are
 - reports lose data Google could otherwise have filled in through modelling
 
-When a visitor refuses, the systems send only an anonymous signal without cookies — the data does not disappear entirely but is modelled. All of that works only if Consent Mode is configured.
+When a visitor refuses, the systems send only an anonymous signal without cookies: the data does not disappear entirely but is modelled. All of that works only if Consent Mode is configured.
 
-So its absence hits not the legal side but the money in your advertising directly. If you run campaigns, it is the first thing to check — see the [advertising service page](/en/service/ads/).
+So its absence hits not the legal side but the money in your advertising directly. If you run campaigns, it is the first thing to check: see the [advertising service page](/en/service/ads/).
 
 [CTA_FORM:consult]
 
@@ -113,13 +113,13 @@ If even one item does not check out, the banner is there for appearances.
 
 **No cookie policy page.** The banner must link to an explanation of which cookies are used and why.
 
-**Consent is not stored.** The banner reappears on every page — visitors get annoyed and leave.
+**Consent is not stored.** The banner reappears on every page, so visitors get annoyed and leave.
 
 ## What to do
 
 1. Check against the list above whether your banner actually works.
 2. Make sure refusing is as simple as accepting.
-3. Check whether Consent Mode v2 is configured — your advertising depends on it.
+3. Check whether Consent Mode v2 is configured: your advertising depends on it.
 4. Make sure nothing extra loads before consent.
 5. Add a cookie policy page and a link for changing the decision.
 

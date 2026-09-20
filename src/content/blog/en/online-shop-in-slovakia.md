@@ -41,14 +41,14 @@ An argument with no universal answer, so let us be concrete.
 
 | | Ready platform | Custom |
 |---|---|---|
-| **Launch** | fast, cheaper | longer, from 5,000 € |
+| **Launch** | fast, cheaper | longer, from 5,000€ |
 | **Monthly** | subscription + a percentage of sales | hosting |
 | **Design** | template with limits | no limits |
 | **Non-standard logic** | via plugins, if they exist | built as required |
 | **Integrations** | whatever the platform anticipates | anything |
 | **Data** | with the platform | with you |
 
-The practical test is one question: **do you have logic the ready solution does not?** Volume pricing for wholesale buyers, warehouse integration, delivery with your own rules, a product configurator — that is where platforms end.
+The practical test is one question: **do you have logic the ready solution does not?** Volume pricing for wholesale buyers, warehouse integration, delivery with your own rules, a product configurator: that is where platforms end.
 
 If none of that applies, starting with a ready solution is sensible. An example of a custom build is the [BODA BODA wholesale shop](/en/case/bodabo/), where the product page carries the parameters a buyer decides on.
 
@@ -60,10 +60,10 @@ The key choice, affecting both conversion and cost.
 
 **What a Slovak buyer expects:**
 
-- **Card** — the basic method.
-- **Bank transfer** — established and still widely used.
-- **Cash on delivery (dobierka)** — many still choose it out of caution; its absence costs you a share of orders.
-- **Apple Pay / Google Pay** — on mobile it noticeably raises the share of completed purchases.
+- **Card**: the basic method.
+- **Bank transfer**: established and still widely used.
+- **Cash on delivery (dobierka)**: many still choose it out of caution; its absence costs you a share of orders.
+- **Apple Pay / Google Pay**: on mobile it noticeably raises the share of completed purchases.
 
 A comparison of gateways, fees and what to watch for in the contract is in [accepting card payments](/en/blog/accept-card-payments/).
 
@@ -75,13 +75,13 @@ A frequent source of panic, so point by point.
 
 **Not required** when payment goes by card on the site or by bank transfer.
 
-**Required** when you receive money in person: cash or card on handover — collection with payment on the spot, or a courier taking payment.
+**Required** when you receive money in person: cash or card on handover: collection with payment on the spot, or a courier taking payment.
 
 The full analysis including the changes from 1 January is in [eKasa in 2026](/en/blog/ekasa-online-cash-register/).
 
 ## VAT: from what turnover
 
-VAT registration becomes mandatory at 50,000 euros of turnover in a calendar year. A second threshold — 62,500 — carries different timing consequences. Sales to private individuals in other EU countries follow separate rules and separate limits.
+VAT registration becomes mandatory at 50,000 euros of turnover in a calendar year. A second threshold (62,500) carries different timing consequences. Sales to private individuals in other EU countries follow separate rules and separate limits.
 
 Practical advice: watch turnover in advance, not in hindsight. The thresholds and what changed are in [VAT registration in Slovakia](/en/blog/vat-registration-slovakia/).
 
@@ -91,17 +91,17 @@ Practical advice: watch turnover in advance, not in hindsight. The thresholds an
 
 Shops carry more requirements than a services site, and they are checked more often.
 
-**Company details** — name, registered address, IČO, DIČ, register entry. [The full list](/en/blog/mandatory-website-details/).
+**Company details**: name, registered address, IČO, DIČ, register entry. [The full list](/en/blog/mandatory-website-details/).
 
-**Terms of business** — a mandatory document: how an order is formed, deadlines, delivery, payment.
+**Terms of business**, a mandatory document: how an order is formed, deadlines, delivery, payment.
 
 **The 14-day right of withdrawal.** A consumer may return goods without giving a reason. The terms must be described clearly, not hidden.
 
-**Complaints procedure** — the process and the deadlines for handling.
+**Complaints procedure**: the process and the deadlines for handling.
 
-**Privacy policy** — stating what data is collected and why. [What GDPR requires](/en/blog/gdpr-for-small-business/).
+**Privacy policy**: stating what data is collected and why. [What GDPR requires](/en/blog/gdpr-for-small-business/).
 
-**A cookie banner with Consent Mode v2** — mandatory if there is analytics or advertising. [More](/en/blog/cookie-banner-2026/).
+**A cookie banner with Consent Mode v2**: mandatory if there is analytics or advertising. [More](/en/blog/cookie-banner-2026/).
 
 Any missing item is both a legal risk and a loss of trust: a Slovak buyer checks the details before paying.
 
@@ -111,7 +111,7 @@ Three things that affect sales more than they appear to:
 
 **Delivery cost visible before the cart.** A surprise at the final step is the main cause of abandoned carts.
 
-**A choice of collection point.** Packeta, courier services, the post office — Slovak buyers are used to choosing.
+**A choice of collection point.** Packeta, courier services, the post office. Slovak buyers are used to choosing.
 
 **A specific timeframe.** "2-3 working days" works better than "as soon as possible".
 
@@ -119,9 +119,9 @@ Three things that affect sales more than they appear to:
 
 A shop without e-commerce analytics configured is monthly spending in the dark.
 
-The minimum that has to work: product view, add to cart, checkout started, purchase. Then it becomes visible where people drop out — on the product page, at delivery, or at payment.
+The minimum that has to work: product view, add to cart, checkout started, purchase. Then it becomes visible where people drop out: on the product page, at delivery, or at payment.
 
-How to set it up — [configuring GA4](/en/blog/ga4-setup/).
+How to set it up: [configuring GA4](/en/blog/ga4-setup/).
 
 ## Launch order
 
@@ -135,7 +135,7 @@ How to set it up — [configuring GA4](/en/blog/ga4-setup/).
 
 ## If you need help
 
-I build custom online shops from 5,000 € — with payments connected, delivery, the mandatory documents and measurement configured. Details on the [web development service page](/en/service/webdev/).
+I build custom online shops from 5,000€: with payments connected, delivery, the mandatory documents and measurement configured. Details on the [web development service page](/en/service/webdev/).
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
 

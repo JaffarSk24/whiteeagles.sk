@@ -114,7 +114,7 @@ Ak web zatiaľ nahradiť nechcete, minimum je jasné: aktualizácie raz mesačne
 
 ## Ak potrebujete pomoc
 
-Čistím napadnuté weby vrátane nájdenia a zavretia diery, cez ktorú útočník prišiel, a vybavím opätovnú kontrolu v Search Console. **Hodinová sadzba 35 €**, diagnostiku robím zvyčajne v deň nahlásenia a odhad poviem ešte pred prácou. Hosting za vás neprevádzkujem a právne poradenstvo ku GDPR neposkytujem. Moja časť je web, jeho vyčistenie a zabezpečenie.
+Čistím napadnuté weby vrátane nájdenia a zavretia diery, cez ktorú útočník prišiel, a vybavím opätovnú kontrolu v Search Console. **Hodinová sadzba 35€**, diagnostiku robím zvyčajne v deň nahlásenia a odhad poviem ešte pred prácou. Hosting za vás neprevádzkujem a právne poradenstvo ku GDPR neposkytujem. Moja časť je web, jeho vyčistenie a zabezpečenie.
 
 Nové weby staviam na modernom stacku, bez pluginov a bez verejnej administrácie. Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy** a pracujem ako slovenské s.r.o. s faktúrou, ktorú si dáte do nákladov.
 

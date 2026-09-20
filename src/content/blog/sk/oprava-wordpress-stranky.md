@@ -126,7 +126,7 @@ Vtedy je lacnejšie postaviť nanovo než ďalej platiť za udržiavanie. Reáln
 
 ## Ak potrebujete pomoc
 
-Opravujem weby na WordPresse aj na vlastnom kóde: chyby po aktualizácii, biela stránka, odstránenie škodlivého kódu, zrýchlenie, nefunkčné formuláre. **Hodinová sadzba 35 €**, bežnú poruchu viem diagnostikovať v ten istý deň.
+Opravujem weby na WordPresse aj na vlastnom kóde: chyby po aktualizácii, biela stránka, odstránenie škodlivého kódu, zrýchlenie, nefunkčné formuláre. **Hodinová sadzba 35€**, bežnú poruchu viem diagnostikovať v ten istý deň.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO, ktorú si dáte do nákladov.
 

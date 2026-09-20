@@ -26,7 +26,7 @@ Väčšina návodov na vlastný audit hovorí o dĺžke Title a hustote kľúčo
 
 Nižšie je deväť kontrol v poradí, v akom ich má zmysel robiť. Všetky sú bezplatné a spolu zaberú asi hodinu. Poradie nie je náhodné: ak zlyhá prvá, ostatné nemajú význam.
 
-Ak sa do toho nechcete púšťať sami, prejdem váš web namiesto vás — [bezplatný SEO audit webstránky](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Ak sa do toho nechcete púšťať sami, prejdem váš web namiesto vás: [bezplatný SEO audit webstránky](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 [CTA_FORM:audit]
 
@@ -40,14 +40,14 @@ site:vasadomena.sk
 
 Spočítajte, koľko stránok ukázal, a porovnajte s tým, koľko ich naozaj máte.
 
-**Ak je ich citeľne menej** — časť webu Google nevidí. Dôvody bývajú rôzne: zakázané v `robots.txt`, nastavené `noindex`, na stránku nevedie ani jeden interný odkaz, alebo je web celý postavený na JavaScripte a bez neho je stránka prázdna.
+**Ak je ich citeľne menej**: časť webu Google nevidí. Dôvody bývajú rôzne: zakázané v `robots.txt`, nastavené `noindex`, na stránku nevedie ani jeden interný odkaz, alebo je web celý postavený na JavaScripte a bez neho je stránka prázdna.
 
-**Ak je ich citeľne viac** — máte duplicity. To je samostatný problém, vrátime sa k nemu v bode 3.
+**Ak je ich citeľne viac**: máte duplicity. To je samostatný problém, vrátime sa k nemu v bode 3.
 
 Ďalej Search Console, sekcia **Indexovanie → Stránky**. Nepozerajte na celkové číslo, ale na dôvody v zozname „Neindexované". Dve najčastejšie a najškodlivejšie diagnózy:
 
-- **„Prehľadané, ale zatiaľ neindexované"** — Google prišiel a rozhodol, že stránka nestojí za miesto v indexe. Zvyčajne je za tým tenký text alebo duplicita inej stránky.
-- **„Nájdené, zatiaľ neprehľadané"** — Google adresu pozná, ale nedostal sa k nej. Znak, že sa rozpočet na prehľadávanie míňa inde, napríklad na servisné súbory.
+- **„Prehľadané, ale zatiaľ neindexované"**: Google prišiel a rozhodol, že stránka nestojí za miesto v indexe. Zvyčajne je za tým tenký text alebo duplicita inej stránky.
+- **„Nájdené, zatiaľ neprehľadané"**: Google adresu pozná, ale nedostal sa k nej. Znak, že sa rozpočet na prehľadávanie míňa inde, napríklad na servisné súbory.
 
 ## 2. Čo sa deje na adrese vašej domény
 
@@ -78,7 +78,7 @@ Tri časté zdroje, ktoré má takmer každý:
 
 **S parametrami.** Adresy typu `?utm_source=...` alebo `?page=1` sa nemajú dostať do indexu ako samostatné stránky. Overí sa tým istým `site:`.
 
-**Jazykové verzie bez značkovania.** Ak je web vo viacerých jazykoch, verzie musia byť prepojené značkovaním `hreflang`. Bez neho ich Google považuje za duplicity a vyberie jednu — často nie tú správnu.
+**Jazykové verzie bez značkovania.** Ak je web vo viacerých jazykoch, verzie musia byť prepojené značkovaním `hreflang`. Bez neho ich Google považuje za duplicity a vyberie jednu, často nie tú správnu.
 
 Či značkovanie je, sa dá pozrieť priamo v prehliadači: pravé tlačidlo → „Zobraziť zdrojový kód stránky" → hľadať slovo `hreflang`.
 
@@ -90,16 +90,16 @@ Otvorte web v anonymnom okne, vyplňte formulár a odošlite ho. Potom choďte d
 
 Čo sa zvyčajne nájde:
 
-- udalosti idú do `dataLayer`, ale v Tag Manageri nie je tag, ktorý ich posiela do GA4 — dopyty v prehľadoch nie sú vôbec;
+- udalosti idú do `dataLayer`, ale v Tag Manageri nie je tag, ktorý ich posiela do GA4, dopyty v prehľadoch nie sú vôbec;
 - udalosť existuje, ale nie je označená ako kľúčová, takže v konverziách je nula;
-- GA4 je zapojený dvakrát — priamo aj cez Tag Manager — a všetky čísla sú zdvojené;
+- GA4 je zapojený dvakrát (priamo aj cez Tag Manager) a všetky čísla sú zdvojené;
 - cookie lišta blokuje meranie aj po udelení súhlasu.
 
 Kým toto nefunguje, akýkoľvek rozhovor o výkonnosti webu je bezpredmetný. Podrobný rozbor je v článku [ako správne nastaviť GA4](/sk/blog/nastavenie-google-analytics-4/).
 
 [CTA_FORM:analytics]
 
-## 5. Rýchlosť — ale pozerať treba mobilnú
+## 5. Rýchlosť, ale pozerať treba mobilnú
 
 Otvorte **PageSpeed Insights** a skontrolujte úvodnú stránku a jednu stránku služby. Dôležité: pozerajte kartu **„Mobil"**, nie „Počítač". Viac než polovica návštevníkov príde z telefónu a Google web hodnotí podľa mobilnej verzie.
 
@@ -117,9 +117,9 @@ Ak sú ukazovatele v červenom, najčastejšou príčinou sú ťažké obrázky.
 
 Zadajte `site:vasadomena.sk` a pozrite sa na výsledok očami človeka, ktorý vás nepozná.
 
-- **Title** — jedinečný pri každej stránke, do 60 znakov, začína podstatou, nie názvom firmy.
-- **Description** — do 160 znakov, vysvetľuje, čo človek dostane. Ak chýba, Google si vezme náhodný kus textu.
-- **Adresa** — čitateľná.
+- **Title**: jedinečný pri každej stránke, do 60 znakov, začína podstatou, nie názvom firmy.
+- **Description**: do 160 znakov, vysvetľuje, čo človek dostane. Ak chýba, Google si vezme náhodný kus textu.
+- **Adresa**: čitateľná.
 
 Osobitne skontrolujte úvodnú stránku. Prázdny alebo nezmyselný útržok pri úvodnej stránke je typická príčina situácie „zobrazení veľa, kliknutí žiadne".
 
@@ -127,7 +127,7 @@ Osobitne skontrolujte úvodnú stránku. Prázdny alebo nezmyselný útržok pri
 
 Pravidlo je jednoduché: **jeden H1 na stránku**, ďalej H2 a H3 podľa logiky textu.
 
-Častá chyba v šablónach je H1 v hlavičke na každej stránke (zvyčajne logo) — a potom všetky stránky webu hlásia rovnaký hlavný nadpis.
+Častá chyba v šablónach je H1 v hlavičke na každej stránke (zvyčajne logo), a potom všetky stránky webu hlásia rovnaký hlavný nadpis.
 
 Overí sa v konzole prehliadača:
 
@@ -141,9 +141,9 @@ Odpoveď má byť `1`.
 
 Toto je slovenské špecifikum a šablónové weby ho takmer vždy vynechajú.
 
-Na webe slovenskej firmy musí byť názov, sídlo, IČO, DIČ a údaj o zápise v registri. Nie je to len požiadavka zákona — je to prvé, čo slovenský kupujúci pred platbou overuje. Úplný zoznam je v článku [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/).
+Na webe slovenskej firmy musí byť názov, sídlo, IČO, DIČ a údaj o zápise v registri. Nie je to len požiadavka zákona, je to prvé, čo slovenský kupujúci pred platbou overuje. Úplný zoznam je v článku [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/).
 
-Cookie lišta je povinná, ak je na webe analytika alebo reklama, a musí fungovať s Consent Mode v2. Lišta, ktorá len oznamuje „používame cookies", požiadavkám nevyhovuje — rozbor je v článku [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
+Cookie lišta je povinná, ak je na webe analytika alebo reklama, a musí fungovať s Consent Mode v2. Lišta, ktorá len oznamuje „používame cookies", požiadavkám nevyhovuje: rozbor je v článku [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
 
 ## 9. Kto už obsadzuje vaše dopyty
 
@@ -157,18 +157,18 @@ Vezmite tri-štyri dopyty, na ktorých vás majú nájsť, a zadajte ich do Goog
 
 Poradie opráv sa nezhoduje s poradím kontrol. Najprv to, čo blokuje všetko ostatné:
 
-1. **Duplicitné adresy a indexácia** — bez toho sa ostatné nepočíta.
-2. **Meranie dopytov** — inak sa nedozviete, či niečo pomohlo.
-3. **Povinné údaje a cookie lišta** — je to aj právne riziko.
+1. **Duplicitné adresy a indexácia**: bez toho sa ostatné nepočíta.
+2. **Meranie dopytov**: inak sa nedozviete, či niečo pomohlo.
+3. **Povinné údaje a cookie lišta**: je to aj právne riziko.
 4. **Rýchlosť na mobile**.
 5. **Útržky a nadpisy**.
-6. **Obsah stránok** — najdlhšia časť a zároveň tá, ktorá prináša najviac.
+6. **Obsah stránok**: najdlhšia časť a zároveň tá, ktorá prináša najviac.
 
 ## Ak je jednoduchšie, aby sa pozrel niekto iný
 
-Prejdem váš web sám a pošlem zoznam nálezov zoradený podľa vplyvu — s vysvetlením, čo sa dá opraviť svojpomocne a čo si vyžaduje zásah do kódu. **[Bezplatný SEO audit](/sk/seo-audit/)**, výsledok do 3 pracovných dní, bez záväzkov.
+Prejdem váš web sám a pošlem zoznam nálezov zoradený podľa vplyvu, s vysvetlením, čo sa dá opraviť svojpomocne a čo si vyžaduje zásah do kódu. **[Bezplatný SEO audit](/sk/seo-audit/)**, výsledok do 3 pracovných dní, bez záväzkov.
 
-Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy** — od rezervačných systémov po e-shopy. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
+Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, od rezervačných systémov po e-shopy. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
 K téme: [prečo lacný web zo zahraničia na Slovensku nepredáva](/sk/blog/sajt-iz-minska-ne-prodaet/), [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/) , [oprava WordPress stránky](/sk/blog/oprava-wordpress-stranky/) a [stránka služby „Oprava webstránok"](/sk/service/bugfix/).
 

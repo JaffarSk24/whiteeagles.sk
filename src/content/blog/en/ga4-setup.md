@@ -47,13 +47,13 @@ The sequence matters: each step rests on the previous one.
 
 GA4 can be installed two ways: paste the code into the site, or connect it through Google Tag Manager.
 
-Pasting directly is faster exactly once. Then it starts: an advertising pixel is needed — edit the code; a form submission event is needed — edit the code; all of it needs disabling until cookie consent — edit the code again. Through Tag Manager this is done in an interface, without a developer.
+Pasting directly is faster exactly once. Then it starts: an advertising pixel is needed, edit the code; a form submission event is needed, edit the code; all of it needs disabling until cookie consent, edit the code again. Through Tag Manager this is done in an interface, without a developer.
 
-**An important warning.** The most expensive mistake at this step is connecting GA4 both ways — directly and through the container. Every pageview is then counted twice, and every figure in the reports is exactly double the reality.
+**An important warning.** The most expensive mistake at this step is connecting GA4 both ways: directly and through the container. Every pageview is then counted twice, and every figure in the reports is exactly double the reality.
 
 Checking is simple. Open the site, right-click → "View page source" and search for `gtag/js?id=G-`. If that line is there and GA4 is also in the container, you have double counting.
 
-## Step 2. Consent Mode v2 — before configuring events
+## Step 2. Consent Mode v2: before configuring events
 
 The order here is not obvious but it matters. Consent Mode is configured **before** events, otherwise everything has to be redone later.
 
@@ -82,7 +82,7 @@ Clicks on phone numbers and messengers are usually underrated, and on mobile the
 
 A separate warning. Do not use the `purchase` event for a form submission. That is an e-commerce event, it carries revenue with it, and money nobody paid starts appearing in reports. An enquiry is `generate_lead`.
 
-## Step 4. Key events — without them there are no conversions
+## Step 4. Key events: without them there are no conversions
 
 The point people stumble on most.
 
@@ -98,11 +98,11 @@ Checking takes a minute: **Reports → Realtime**, send a test enquiry from a ph
 
 Three connections, made once, that change the quality of the data:
 
-**Search Console.** A search queries report appears inside GA4 — you can see which words bring people in and what they do next.
+**Search Console.** A search queries report appears inside GA4: you can see which words bring people in and what they do next.
 
 **Google Ads.** Conversions from GA4 pass into the campaigns and the algorithm starts optimising towards enquiries rather than clicks. Without this, advertising spends the budget on the cheapest clicks. More in [Google Ads for a small business](/en/blog/google-ads-getting-started/) and on the [advertising service page](/en/service/ads/).
 
-**Microsoft Clarity.** A free session recording and heatmap service. It answers "why" once GA4 has shown "what" — for instance, that everyone abandons the form at the third field.
+**Microsoft Clarity.** A free session recording and heatmap service. It answers "why" once GA4 has shown "what": for instance, that everyone abandons the form at the third field.
 
 ## Step 6. Settings people forget
 
@@ -114,15 +114,15 @@ Three connections, made once, that change the quality of the data:
 
 ## Five mistakes I find most often
 
-Not theory — what actually turns up when checking other people's setups:
+Not theory. What actually turns up when checking other people's setups:
 
 1. **Events go into `dataLayer` but there is no tag in the container** passing them to GA4. No enquiries in the reports at all, while technically everything is "configured".
-2. **GA4 connected twice** — directly and through the container. Every figure doubled.
+2. **GA4 connected twice**: directly and through the container. Every figure doubled.
 3. **The key event is not marked.** Enquiries arrive, conversions read zero.
 4. **`purchase` instead of `generate_lead`.** Non-existent revenue glowing in the reports.
 5. **The cookie banner blocks measurement after consent.** Data lost silently.
 
-What all five share: the site works, enquiries arrive, and nobody suspects anything — until it is time to judge whether the advertising pays.
+What all five share: the site works, enquiries arrive, and nobody suspects anything, until it is time to judge whether the advertising pays.
 
 ## How to check everything works
 

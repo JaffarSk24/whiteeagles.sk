@@ -104,7 +104,7 @@ Pomalosť sa vracia s každým novým pluginom, sliderom a meracím kódom. Pom�
 
 ## Ak potrebujete pomoc
 
-Zrýchľujem WordPress weby aj weby na mieru: meranie, cache, obrázky, pluginy, skripty tretích strán, server. **Hodinová sadzba 35 €**, najprv zmeriam a poviem, koľko práce to bude a čo to prinesie, ešte pred zásahom. Ak je strop v téme, poviem to rovno a neúčtujem hodiny, ktoré sa nevrátia. Hosting za vás neprevádzkujem, pomôžem však vybrať taký, ktorý web nebrzdí.
+Zrýchľujem WordPress weby aj weby na mieru: meranie, cache, obrázky, pluginy, skripty tretích strán, server. **Hodinová sadzba 35€**, najprv zmeriam a poviem, koľko práce to bude a čo to prinesie, ešte pred zásahom. Ak je strop v téme, poviem to rovno a neúčtujem hodiny, ktoré sa nevrátia. Hosting za vás neprevádzkujem, pomôžem však vybrať taký, ktorý web nebrzdí.
 
 Nové weby staviam na modernom stacku, rýchle svojou stavbou. Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, napríklad [Biliardovňa](/sk/case/biliardovna/) s online rezerváciou stolov. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

@@ -34,27 +34,27 @@ Below: what a restaurant website **has** to do to bring guests, what can be left
 
 Before anyone thinks about design, know why a person comes to a restaurant website. The order is stable:
 
-1. **Whether it is open, and until when** — today's hours.
-2. **Where it is** — address, map, parking.
-3. **What you offer and at what price** — the menu with prices.
-4. **Whether they can book** — now, without calling.
-5. **What it looks like** — photos of the room, not only the food.
+1. **Whether it is open, and until when**: today's hours.
+2. **Where it is**: address, map, parking.
+3. **What you offer and at what price**: the menu with prices.
+4. **Whether they can book**: now, without calling.
+5. **What it looks like**: photos of the room, not only the food.
 
 All on one phone screen without searching. A site where the menu hides in a PDF and booking means "call us" loses the guest at step three.
 
 ## Table booking: why the phone is not enough
 
-Most bookings happen when the thought occurs — at half past ten in the evening, at the weekend, over lunch. Nobody picks up the phone then, and the guest calls somewhere else.
+Most bookings happen when the thought occurs: at half past ten in the evening, at the weekend, over lunch. Nobody picks up the phone then, and the guest calls somewhere else.
 
 What booking has to do in order to work rather than merely exist:
 
 - **Show real availability**, not a "tell us when suits you" form.
-- **Check availability on submission**, not on page load — otherwise two people with tabs open book the same table.
-- **Send the guest a confirmation** — without it they ring to check, and the saved call is back.
-- **Allow cancellation** — a cancelled table sells again, an uncancelled one sits empty.
-- **Confirm with one tap** — staff get a Telegram message, tap, and the table closes on the site. A panel you have to log into between two orders does not survive a service.
+- **Check availability on submission**, not on page load, otherwise two people with tabs open book the same table.
+- **Send the guest a confirmation**: without it they ring to check, and the saved call is back.
+- **Allow cancellation**: a cancelled table sells again, an uncancelled one sits empty.
+- **Confirm with one tap**: staff get a Telegram message, tap, and the table closes on the site. A panel you have to log into between two orders does not survive a service.
 
-That is exactly how table booking works at [Biliardovňa](/en/case/biliardovna/): online booking replaced phone calls, and bookings grew after launch. Not because people suddenly wanted to play more — because booking became possible at the moment they thought of it. More on how to build it: [online booking on your website](/en/blog/online-booking-system/).
+That is exactly how table booking works at [Biliardovňa](/en/case/biliardovna/): online booking replaced phone calls, and bookings grew after launch. Not because people suddenly wanted to play more, but because booking became possible at the moment they thought of it. More on how to build it: [online booking on your website](/en/blog/online-booking-system/).
 
 ## Ready service or your own booking
 
@@ -69,15 +69,15 @@ Honestly, because ready services have their place.
 | **Rules** | whatever the app can do | yours: terrace, large groups, tastings |
 | **Look** | theirs | yours |
 
-The practical test: **one room and standard hours — a ready service is a sensible start.** A terrace with its own rules, large groups that need approving, or tasting evenings with prepayment — you hit the ceiling before the saving pays back.
+The practical test: **one room and standard hours: a ready service is a sensible start.** A terrace with its own rules, large groups that need approving, or tasting evenings with prepayment: you hit the ceiling before the saving pays back.
 
 [CTA_FORM:bot]
 
 ## The menu: how to publish it so both Google and the guest can read it
 
-The most common mistake on restaurant sites: the menu as a PDF or a photo. A guest on a phone cannot read it without zooming, Google reads little from a PDF and nothing from a photo — and the menu is exactly what guests decide on.
+The most common mistake on restaurant sites: the menu as a PDF or a photo. A guest on a phone cannot read it without zooming, Google reads little from a PDF and nothing from a photo. The menu is exactly what guests decide on.
 
-Correct: **the menu as text on the page**, with prices, allergens and `Menu` structured data. Google can then show dishes straight in the results and the guest sees prices without downloading. Updates through a simple admin panel — the lunch menu should change in a minute, not through a designer.
+Correct: **the menu as text on the page**, with prices, allergens and `Menu` structured data. Google can then show dishes straight in the results and the guest sees prices without downloading. Updates through a simple admin panel: the lunch menu should change in a minute, not through a designer.
 
 Put the prices on the site. A restaurant without prices online is, to the guest, a restaurant with high prices.
 
@@ -85,17 +85,17 @@ Put the prices on the site. A restaurant without prices online is, to the guest,
 
 The website by itself brings no guests. Three things do, in this order:
 
-**The Google profile.** For a restaurant, the first contact with a guest — map, photos, reviews, hours. Free, an hour to fill in, then a photo or a post once a week. Reviews are the deciding factor; asking a happy guest for one is the cheapest marketing there is.
+**The Google profile.** For a restaurant, the first contact with a guest: map, photos, reviews, hours. Free, an hour to fill in, then a photo or a post once a week. Reviews are the deciding factor; asking a happy guest for one is the cheapest marketing there is.
 
-**Local search.** "restaurant Petržalka", "breakfast Ružinov", "pizza delivery Nivy" — the district has to be in the site's text, not only in the address. Where a small business gets traffic without a budget: [how to grow website traffic](/en/blog/grow-website-traffic/).
+**Local search.** "restaurant Petržalka", "breakfast Ružinov", "pizza delivery Nivy": the district has to be in the site's text, not only in the address. Where a small business gets traffic without a budget: [how to grow website traffic](/en/blog/grow-website-traffic/).
 
-**Social media.** For food it works — a photo of a dish sells. But as a complement to the Google profile, not instead of it: nobody opens Instagram asking "where do I eat today".
+**Social media.** For food it works: a photo of a dish sells. But as a complement to the Google profile, not instead of it: nobody opens Instagram asking "where do I eat today".
 
 ## What a restaurant website does not need
 
 Plainly, because it saves money:
 
-- **Your own delivery**, if you do not do it — an "order" button with no system behind it angers the guest.
+- **Your own delivery**, if you do not do it: an "order" button with no system behind it angers the guest.
 - **Booking**, if you have ten tables and they are always free. The phone will do.
 - **Several languages**, if you are not in the centre and have no tourists. Slovak plus a short English version is enough.
 - **A gallery of two hundred photos.** Ten good ones, the room and the food.
@@ -103,17 +103,17 @@ Plainly, because it saves money:
 
 ## What the law requires
 
-A restaurant is a company too. On the site: the name from the register, registered address, IČO, DIČ, the register entry ([the full list](/en/blog/mandatory-website-details/)). A cookie banner with Consent Mode v2 if the site has analytics or advertising ([why](/en/blog/cookie-banner-2026/)). And if you take prepayment for a tasting or an event — [accepting card payments](/en/blog/accept-card-payments/) and the eKasa question.
+A restaurant is a company too. On the site: the name from the register, registered address, IČO, DIČ, the register entry ([the full list](/en/blog/mandatory-website-details/)). A cookie banner with Consent Mode v2 if the site has analytics or advertising ([why](/en/blog/cookie-banner-2026/)). And if you take prepayment for a tasting or an event: [accepting card payments](/en/blog/accept-card-payments/) and the eKasa question.
 
 ## Measurement: a booking is a conversion
 
-Without measurement you cannot tell whether the site helped. The minimum: booking opened, booking started, booking completed; taps on the phone number and on the map route. Then you see where guests drop out — at picking a time, or later at filling in details. How to set it up: [configuring GA4](/en/blog/ga4-setup/).
+Without measurement you cannot tell whether the site helped. The minimum: booking opened, booking started, booking completed; taps on the phone number and on the map route. Then you see where guests drop out: at picking a time, or later at filling in details. How to set it up: [configuring GA4](/en/blog/ga4-setup/).
 
 ## What it costs
 
-- **A landing page** with menu, contact and a booking form — from **1,500 €**, within two weeks.
-- **A restaurant website** with its own booking, a menu with an admin panel, several sections — from **3,500 €**, 2-3 weeks.
-- Changes and adding booking to an existing site — **35 €/hr**.
+- **A landing page** with menu, contact and a booking form, from **1,500€**, within two weeks.
+- **A restaurant website** with its own booking, a menu with an admin panel, several sections, from **3,500€**, 2-3 weeks.
+- Changes and adding booking to an existing site: **35€/hr**.
 
 Included: the Google profile set up and linked, booking measurement, the cookie banner, the mandatory details, domain and hosting registered to you, 6 months of support. The full breakdown: [what a website costs](/en/blog/website-cost-slovakia/).
 
@@ -123,7 +123,7 @@ I build sites for food and drink businesses with booking that confirms through T
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, booking systems among them: [Biliardovňa](/en/case/biliardovna/), [Krása štúdio OK](/en/case/studio-krasy/), [TOP SKLAD](/en/case/top-sklad/). I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
-Details on the [web development service page](/en/service/webdev/). If you already have a site and no bookings come — the [free audit](/en/seo-audit/), result within 3 working days.
+Details on the [web development service page](/en/service/webdev/). If you already have a site and no bookings come: the [free audit](/en/seo-audit/), result within 3 working days.
 
 Similar breakdowns for other industries: [a website for a beauty salon](/en/blog/beauty-salon-website/), [a website for a sports club](/en/blog/sports-club-website/), [a website for storage and space rental](/en/blog/storage-rental-website/).
 

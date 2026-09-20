@@ -80,8 +80,8 @@ Rátať treba celé obdobie, nie prvý deň:
 
 | Položka | Konštruktor | Web na mieru |
 |---|---|---|
-| **Štart** | zadarmo | landing page od 1 500 €, firemný web od 3 500 € |
-| **Vlastná doména, web bez cudzej značky** | platený balík, platí sa stále | doména a hosting na vás, približne 50-150 € ročne |
+| **Štart** | zadarmo | landing page od 1 500€, firemný web od 3 500€ |
+| **Vlastná doména, web bez cudzej značky** | platený balík, platí sa stále | doména a hosting na vás, približne 50-150€ ročne |
 | **Povinné údaje, cookie lišta, meranie dopytov** | riešite sami alebo s niekým za príplatok | v cene |
 | **Váš čas** | tvorba a úpravy večer po práci | krátky rozhovor, riešenie navrhnem ja |
 | **Keď firma web prerastie** | nový web a ručný presun obsahu | web sa rozširuje |
@@ -96,7 +96,7 @@ Web na konštruktore je prenájom. Texty a fotky sú vaše, ale **kód webu zost
 
 Web na modernom stacku (React, Next.js, TypeScript) je postavený pre konkrétnu firmu, nie poskladaný z blokov, ktoré majú sedieť každému. Pri každom novom webe je v cene:
 
-- doména a hosting **registrované na vás** (približne 50-150 € ročne), nie účet v cudzom systéme;
+- doména a hosting **registrované na vás** (približne 50-150€ ročne), nie účet v cudzom systéme;
 - e-mail na vlastnej doméne;
 - GA4 a Tag Manager s meraním dopytov;
 - cookie lišta s Consent Mode v2;
@@ -104,7 +104,7 @@ Web na modernom stacku (React, Next.js, TypeScript) je postavený pre konkrétnu
 - základné SEO;
 - **šesť mesiacov podpory zadarmo**: monitoring, zálohy, aktualizácie a oprava chýb.
 
-Ceny: **landing page od 1 500 €, firemný web od 3 500 €**. Cena je povedaná pred začiatkom práce a počas projektu sa nemení. V priemere odovzdávam za 10 pracovných dní.
+Ceny: **landing page od 1 500€, firemný web od 3 500€**. Cena je povedaná pred začiatkom práce a počas projektu sa nemení. V priemere odovzdávam za 10 pracovných dní.
 
 Funkcie sa robia podľa podnikania, nie podľa toho, čo ponúka šablóna. V [Biliardovni](/sk/case/biliardovna/) nahradila online rezervácia stolov telefonáty, na webe [TOP SKLAD](/sk/case/top-sklad/) sú voľné priestory vidieť online a dajú sa rezervovať a dvojjazyčný web [Synchro Žralok](/sk/case/synchrozralok/) preberá novinky automaticky z verejného Instagramu.
 

@@ -80,8 +80,8 @@ Count the whole period, not the first day:
 
 | Item | Builder | Custom site |
 |---|---|---|
-| **Start** | free | landing page from 1 500 €, company website from 3 500 € |
-| **Own domain, no third-party branding** | paid plan, paid indefinitely | domain and hosting registered to you, roughly 50-150 € a year |
+| **Start** | free | landing page from 1 500€, company website from 3 500€ |
+| **Own domain, no third-party branding** | paid plan, paid indefinitely | domain and hosting registered to you, roughly 50-150€ a year |
 | **Mandatory details, cookie banner, enquiry tracking** | on your own or with someone at extra cost | included |
 | **Your time** | building and editing in the evenings after work | a short conversation; I propose the solution |
 | **When the business outgrows the site** | a new site and moving content by hand | the site is extended |
@@ -96,7 +96,7 @@ A builder site is a rental. The texts and photos are yours, but **the site's cod
 
 A site on a modern stack (React, Next.js, TypeScript) is built for one specific business, not assembled from blocks meant to suit everyone. Every new site includes:
 
-- a domain and hosting **registered to you** (roughly 50-150 € a year), not an account in someone else's system;
+- a domain and hosting **registered to you** (roughly 50-150€ a year), not an account in someone else's system;
 - email on your own domain;
 - GA4 and Tag Manager with enquiry tracking;
 - a cookie banner with Consent Mode v2;
@@ -104,7 +104,7 @@ A site on a modern stack (React, Next.js, TypeScript) is built for one specific 
 - basic SEO;
 - **six months of free support**: monitoring, backups, updates and bug fixes.
 
-Prices: **a landing page from 1 500 €, a company website from 3 500 €**. The price is stated before work starts and does not change mid-project. On average I deliver in 10 working days.
+Prices: **a landing page from 1 500€, a company website from 3 500€**. The price is stated before work starts and does not change mid-project. On average I deliver in 10 working days.
 
 Features are built around the business, not around what a template offers. At [Biliardovňa](/en/case/biliardovna/), a billiard club, online table booking replaced phone calls; on the [TOP SKLAD](/en/case/top-sklad/) site, free spaces are visible online and can be reserved; and the bilingual [Synchro Žralok](/en/case/synchrozralok/) site pulls its news automatically from a public Instagram account.
 

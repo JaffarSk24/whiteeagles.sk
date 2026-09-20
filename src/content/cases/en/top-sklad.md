@@ -14,7 +14,7 @@ services:
   - 'Occupancy management'
 order: 3
 ---
-![TOP SKLAD — warehouse rental website | White Eagles & Co.](/assets/portfolio-topsklad.webp)
+![TOP SKLAD: warehouse rental website | White Eagles & Co.](/assets/portfolio-topsklad.webp)
 
 # TOP SKLAD: a warehouse rental site with online booking of free space
 
@@ -24,7 +24,7 @@ Warehouse rental. A multi-purpose site with a booking system and management of f
 
 A business card website is useless in this business for one reason: the client's real question is "do you have space of this size, and from when". A page saying "we offer modern warehouse facilities" cannot answer that.
 
-So the client writes or calls anyway. A manager opens a spreadsheet, checks, replies — for every single enquiry. While enquiries are few, that is bearable. As they grow, the spreadsheet drifts from reality and promises start to conflict.
+So the client writes or calls anyway. A manager opens a spreadsheet, checks, replies, for every single enquiry. While enquiries are few, that is bearable. As they grow, the spreadsheet drifts from reality and promises start to conflict.
 
 ## What was built
 
@@ -50,6 +50,6 @@ Domain and hosting are registered to the client.
 
 ## If this sounds familiar
 
-Any business selling a limited resource — units, boxes, slots, equipment — gains from showing availability on the site. It gains twice: less manual work and more trust.
+Any business selling a limited resource (units, boxes, slots, equipment) gains from showing availability on the site. It gains twice: less manual work and more trust.
 
 More on the [web development service page](/en/service/webdev/). Related projects: [TOP KOBKA](/en/case/top-kobka/), [Biliardovňa](/en/case/biliardovna/).

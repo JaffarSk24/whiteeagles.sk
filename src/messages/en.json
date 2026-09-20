@@ -34,7 +34,7 @@
     "cta_title": "Need help with your website or marketing?",
     "cta_button": "Get a free technical audit",
     "faq_title": "Frequently asked questions",
-    "intro": "Practical notes on how a website earns its keep for a small company in Slovakia: what it costs, what breaks on it and which advertising actually brings enquiries. Everything here comes from the work itself — sites, repairs, campaigns and measurement done for Slovak companies.",
+    "intro": "Practical notes on how a website earns its keep for a small company in Slovakia: what it costs, what breaks on it and which advertising actually brings enquiries. Everything here comes from the work itself: sites, repairs, campaigns and measurement done for Slovak companies.",
     "topics": {
       "website": "Websites",
       "repair": "Repair and maintenance",
@@ -72,8 +72,8 @@
         "Account creation and resource connection: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Web development Bratislava: custom site from 1 500 €, in 15 days",
-      "seo_desc": "Landing page from 1 500 €, company site with booking and enquiry tracking from 3 500 €, e-shop from 5 000 €. Delivered in about 10 working days, with an invoice.",
+      "seo_title": "Web development Bratislava: custom site from 1 500€, in 15 days",
+      "seo_desc": "Landing page from 1 500€, company site with booking and enquiry tracking from 3 500€, e-shop from 5 000€. Delivered in about 10 working days, with an invoice.",
       "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site",
       "page": {
         "lead": "I have been building websites for companies in Slovakia for over ten years: from Bratislava, as a Slovak company, with an invoice you can put through your books. Not templates thrown together, but sites that bring in enquiries: booking systems, online shops, company websites. Most projects ship within 15 working days.",
@@ -170,6 +170,14 @@
           {
             "q": "Who owns the site after handover?",
             "a": "You do. Domain, hosting, Google accounts and the admin are registered to you; I only keep working access. Nothing is lost if you ever change supplier."
+          },
+          {
+            "q": "Are you an agency or do you work alone?",
+            "a": "I am a Slovak s.r.o. in Bratislava. I work on my own and bring in other people for a specific job, so you talk to whoever actually builds the site rather than to a project manager. The invoice carries an IČO like any Slovak company."
+          },
+          {
+            "q": "Do you build websites turnkey?",
+            "a": "Yes. Nothing is left to buy after handover: domain, hosting, mail on your own domain, spam-protected forms, enquiry tracking, the cookie bar, mandatory company details and the Google Business Profile are all set up. Six months of technical support are included."
           }
         ],
         "facts": [
@@ -187,7 +195,7 @@
           },
           {
             "value": "10 working days",
-            "label": "average delivery, 90 % within 15"
+            "label": "average delivery, 90% within 15"
           }
         ],
         "pricing_title": "Website pricing",
@@ -230,7 +238,7 @@
         }
       },
       "internal_title": "Web development in Bratislava: custom websites, online stores and booking systems",
-      "internal_desc": "Company websites, online shops and booking systems built to order — from Bratislava, across Slovakia."
+      "internal_desc": "Company websites, online shops and booking systems built to order, from Bratislava, across Slovakia."
     },
     "bugfix": {
       "title": "Bugfix & Maintenance",
@@ -244,11 +252,11 @@
         "Setup of automatic site backups on server + Google Drive",
         "Testing and fixing minor issues accompanying the main problem."
       ],
-      "seo_title": "Website and WordPress repair within 24 h | 35 €/hr",
-      "seo_desc": "Website repair in Bratislava and online: WordPress, PHP, JavaScript, server. Diagnosis the day you report it, 35 €/hr; same fault returns, fixed without a new invoice.",
+      "seo_title": "Website and WordPress repair within 24 h | 35€/hr",
+      "seo_desc": "Website repair in Bratislava and online: WordPress, PHP, JavaScript, server. Diagnosis the day you report it, 35€/hr; same fault returns, fixed without a new invoice.",
       "seo_keywords": "website bug fix, website maintenance, wordpress support, fix php errors, site speed optimization",
       "internal_title": "Website and WordPress repair",
-      "internal_desc": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, server side. Most faults are resolved the same day they are reported.",
+      "internal_desc": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites: PHP, JavaScript, server side. Most faults are resolved the same day they are reported.",
       "page": {
         "lead": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites: PHP, JavaScript, databases and server side. Most faults are resolved the same day they are reported.",
         "process_title": "How I work",
@@ -333,7 +341,7 @@
         "Integration of analytics systems",
         "Optimization and scaling of advertising campaigns"
       ],
-      "seo_title": "Google Ads management Bratislava: setup and management from 1 000 €",
+      "seo_title": "Google Ads management Bratislava: setup and management from 1 000€",
       "seo_desc": "Google Ads and Meta advertising set up and managed from Bratislava: full launch from about €1,000, management €25/hr. The account and its data stay yours, conversions tracked in GA4.",
       "seo_keywords": "google ads slovakia, facebook ads setup, ppc specialist bratislava, instagram promotion, contextual advertising",
       "page": {
@@ -390,6 +398,10 @@
           {
             "q": "Do you run ads for online stores?",
             "a": "Yes: Merchant Center, Shopping and Performance Max campaigns linked to the store catalogue and purchase tracking in GA4, so the budget moves towards the products that actually sell."
+          },
+          {
+            "q": "Do you also do SEO and website promotion?",
+            "a": "I do not sell SEO as a separate monthly service. Basic SEO setup is part of building the site, and if you want to know what holds your site back in search, I run a free audit. Paid advertising in Google and Meta is the separate service this page is about."
           }
         ],
         "facts": [
@@ -457,8 +469,8 @@
         "Microsoft Clarity / Bing console setup"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Professional GA4 and Tag Manager setup from 500 €",
-      "seo_desc": "GA4 and Tag Manager setup from 500 €, 25 €/hr: enquiries measured, not visits; key events, Consent Mode v2, links to Google Ads and Search Console.",
+      "seo_title": "Professional GA4 and Tag Manager setup from 500€",
+      "seo_desc": "GA4 and Tag Manager setup from 500€, 25€/hr: enquiries measured, not visits; key events, Consent Mode v2, links to Google Ads and Search Console.",
       "seo_keywords": "web analytics, ga4 setup, google tag manager, server-side gtm, website tracking, conversion tracking",
       "page": {
         "lead": "Most companies run analytics that counts visits but cannot say how many enquiries the site produced. That is not a detail: without proper measurement decisions are guesswork and ad spend is optimised blind. I set up GA4, Tag Manager and conversion tracking so the numbers match reality.",
@@ -533,8 +545,8 @@
         "Integration into site code, corporate style/color setup.",
         "Debugging and verification. Testing 15+ possible use cases."
       ],
-      "seo_title": "Cookie banner with Consent Mode v2 from 200 €, no subscription",
-      "seo_desc": "A custom cookie banner under EU rules with Consent Mode v2 from 200 € one-off, no monthly plugin subscription. Measurement stays accurate after a refusal.",
+      "seo_title": "Cookie banner with Consent Mode v2 from 200€, no subscription",
+      "seo_desc": "A custom cookie banner under EU rules with Consent Mode v2 from 200€ one-off, no monthly plugin subscription. Measurement stays accurate after a refusal.",
       "seo_keywords": "cookie banner, consent mode v2, gdpr slovakia, cookie setup, google consent mode",
       "page": {
         "lead": "If your site runs analytics or advertising, cookie consent is mandatory, and not just any consent. Since March 2024 Google requires Consent Mode v2; without it you lose data and remarketing is restricted. I build a custom banner that meets the rules and carries no monthly subscription.",
@@ -611,8 +623,8 @@
         "Other bots for brand promotion and complicating competitors' lives"
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Telegram bots and automation in Python from 500 €",
-      "seo_desc": "Telegram bots for enquiries, bookings and automatic ad posting, in Python, from 500 € and 25 €/hr. A bot for a specific job, not a chat widget.",
+      "seo_title": "Telegram bots and automation in Python from 500€",
+      "seo_desc": "Telegram bots for enquiries, bookings and automatic ad posting, in Python, from 500€ and 25€/hr. A bot for a specific job, not a chat widget.",
       "seo_keywords": "telegram bot development, python bot, business automation, bazos bot, data parsing, custom chatbots",
       "page": {
         "lead": "A bot is not a toy but a way to stop doing by hand what can run itself. I write Python bots that handle enquiries and bookings, send messages, and post listings to Bazoš automatically, without you sitting at a computer.",
@@ -824,7 +836,7 @@
     "audit_service_name": "Free SEO audit",
     "audit_submit": "Get the free audit",
     "reply_note": "I reply within 24 hours.",
-    "service_placeholder": "— choose a service —",
+    "service_placeholder": "Choose a service",
     "service_error": "Please choose a service.",
     "next_line": "I read what you wrote and within 24 hours send questions or a quote with a price and a deadline, no obligation."
   },
@@ -915,12 +927,12 @@
     "h1": "Free SEO audit of your website",
     "lead": "I go through your site the way Google sees it and tell you exactly what stops it bringing you customers. No fee, no obligation.",
     "what_title": "What a website SEO audit is",
-    "what_text": "A technical check of the site through a search engine’s eyes: whether Google sees all of it, how fast it loads, which queries it appears for and what is holding it back. Some call it a technical website audit, others a website evaluation or an SEO check — it is the same thing. The audit itself repairs nothing: it names what is wrong, what fixing it costs and in what order to do it.",
+    "what_text": "A technical check of the site through a search engine’s eyes: whether Google sees all of it, how fast it loads, which queries it appears for and what is holding it back. Some call it a technical website audit, others a website evaluation or an SEO check, and it is the same thing. The audit itself repairs nothing: it names what is wrong, what fixing it costs and in what order to do it.",
     "why_title": "Why the audit is free",
     "why_text": "Because it is the most honest way to start. Most sites carry two or three technical faults that quietly take most of the traffic, and until you see them there is no point discussing the price of anything else. Fix them yourself and I am glad. Don't, and at least you know exactly what you are buying.",
     "check_title": "What the audit covers",
     "check_points": [
-      "Technical foundation: status codes, redirects, www and non-www versions, HTTP against HTTPS — the faults that can make a site invisible to Google.",
+      "Technical foundation: status codes, redirects, www and non-www versions, HTTP against HTTPS. These are the faults that can make a site invisible to Google.",
       "Indexing: how many pages are actually in Google, which are missing and why. Sitemap, robots.txt, canonical, hreflang.",
       "Speed and Core Web Vitals on mobile and desktop, with the actual causes rather than just a score.",
       "Content and queries: what the site shows up for today, at which positions, and what it needs to reach the first page.",
@@ -930,7 +942,7 @@
     ],
     "get_title": "What you get",
     "get_points": [
-      "Findings ordered by impact rather than alphabetically — from what costs you most down to the details.",
+      "Findings ordered by impact rather than alphabetically: from what costs you most down to the details.",
       "For each finding, what to do about it and how much work it really is.",
       "What you can fix yourself and what needs a change in the code.",
       "An estimate of which fixes pay off soonest."
@@ -939,17 +951,17 @@
     "time_points": [
       "Send your website address through the form below.",
       "Within 3 working days you get the audit in writing.",
-      "If you want, we go through it together — in person in Bratislava or online."
+      "If you want, we go through it together, in person in Bratislava or online."
     ],
     "who_title": "Who it is for",
     "who_text": "Companies in Slovakia whose site exists but brings no enquiries. Online shops paying for ads without knowing what comes back. And anyone whose site was built by someone else and who is not sure it was done properly.",
     "diy_title": "Want to look at the site yourself first?",
-    "diy_text": "The first checks take an hour and require writing to nobody — indexing, duplicate addresses, speed on mobile, and whether enquiries are counted at all. The step-by-step is here:",
+    "diy_text": "The first checks take an hour and require writing to nobody: indexing, duplicate addresses, speed on mobile, and whether enquiries are counted at all. The step-by-step is here:",
     "diy_link": "A DIY SEO audit: 9 checks",
     "trust_title": "Who runs the audit",
     "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s.r.o. I have lived in Slovakia for more than 10 years, launched 12+ sites for Slovak companies, and know how buyers and institutions behave here. I invoice with a Slovak company number. We speak Slovak, Russian and English.",
     "cta_title": "Want to know what is holding your site back?",
-    "cta_text": "Send your address — I will come back with the audit within 3 working days.",
+    "cta_text": "Send your address and I will come back with the audit within 3 working days.",
     "cta_button": "Get the free audit",
     "faq_title": "Frequently asked questions",
     "faq": [

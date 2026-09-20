@@ -33,27 +33,27 @@ Nižšie to, čo web reštaurácie **musí** vedieť, aby priviedol hostí, čo 
 
 Než sa rieši dizajn, treba vedieť, po čo človek na web reštaurácie prichádza. Poradie je stabilné:
 
-1. **Je otvorené a dokedy** — otváracie hodiny, dnes.
-2. **Kde to je** — adresa, mapa, parkovanie.
-3. **Čo ponúkate a za koľko** — menu s cenami.
-4. **Dá sa rezervovať** — hneď, bez volania.
-5. **Ako to vyzerá** — fotky priestoru, nie iba jedál.
+1. **Je otvorené a dokedy**: otváracie hodiny, dnes.
+2. **Kde to je**: adresa, mapa, parkovanie.
+3. **Čo ponúkate a za koľko**: menu s cenami.
+4. **Dá sa rezervovať**: hneď, bez volania.
+5. **Ako to vyzerá**: fotky priestoru, nie iba jedál.
 
 Všetko na jednu obrazovku mobilu bez hľadania. Web, kde sa menu skrýva v PDF a rezervácia znie „zavolajte nám", stráca hosťa na treťom kroku.
 
 ## Rezervácia stolov: prečo telefón nestačí
 
-Väčšina rezervácií vzniká vtedy, keď si na to človek spomenie — o pol jedenástej večer, cez víkend, počas obeda. Telefón vtedy nikto nezdvíha, a hosť zavolá inam.
+Väčšina rezervácií vzniká vtedy, keď si na to človek spomenie: o pol jedenástej večer, cez víkend, počas obeda. Telefón vtedy nikto nezdvíha, a hosť zavolá inam.
 
 Čo musí rezervácia vedieť, aby fungovala a nie iba existovala:
 
 - **Ukázať skutočnú obsadenosť**, nie formulár „napíšte, kedy by ste chceli".
-- **Kontrolovať obsadenosť pri odoslaní**, nie pri načítaní stránky — inak si dvaja s otvorenou stránkou rezervujú ten istý stôl.
-- **Poslať potvrdenie hosťovi** — bez neho zavolá overiť, či to prešlo, a ušetrený hovor je späť.
-- **Umožniť zrušenie** — zrušený stôl sa predá znova, nezrušený je prázdny.
-- **Potvrdiť jedným ťuknutím** — personálu príde správa do Telegramu, ťukne, stôl sa na webe zavrie. Panel, do ktorého sa treba prihlasovať medzi dvoma objednávkami, sa v prevádzke neujme.
+- **Kontrolovať obsadenosť pri odoslaní**, nie pri načítaní stránky, inak si dvaja s otvorenou stránkou rezervujú ten istý stôl.
+- **Poslať potvrdenie hosťovi**: bez neho zavolá overiť, či to prešlo, a ušetrený hovor je späť.
+- **Umožniť zrušenie**: zrušený stôl sa predá znova, nezrušený je prázdny.
+- **Potvrdiť jedným ťuknutím**: personálu príde správa do Telegramu, ťukne, stôl sa na webe zavrie. Panel, do ktorého sa treba prihlasovať medzi dvoma objednávkami, sa v prevádzke neujme.
 
-Presne takto funguje rezervácia stolov v [Biliardovni](/sk/case/biliardovna/): online rezervácia nahradila telefonáty a rezervácií po spustení pribudlo. Nie preto, že by ľudia zrazu chceli hrať viac — preto, že sa dalo rezervovať vtedy, keď to napadlo. Podrobnejšie o tom, ako to postaviť: [online rezervácia na webe](/sk/blog/online-rezervacia-na-webe/).
+Presne takto funguje rezervácia stolov v [Biliardovni](/sk/case/biliardovna/): online rezervácia nahradila telefonáty a rezervácií po spustení pribudlo. Nie preto, že by ľudia zrazu chceli hrať viac, ale preto, že sa dalo rezervovať vtedy, keď to napadlo. Podrobnejšie o tom, ako to postaviť: [online rezervácia na webe](/sk/blog/online-rezervacia-na-webe/).
 
 ## Hotová služba alebo vlastná rezervácia
 
@@ -68,15 +68,15 @@ Poctivo, lebo hotové služby majú svoje miesto.
 | **Pravidlá** | čo vie aplikácia | vaše: terasa, veľké skupiny, degustácie |
 | **Vzhľad** | ich | váš |
 
-Praktický test: **ak máte jednu sálu a štandardné hodiny, hotová služba je rozumný začiatok.** Ak máte terasu s inými pravidlami, veľké skupiny, ktoré treba schváliť, alebo degustačné večery s platbou vopred — narazíte na strop skôr, než sa úspora vráti.
+Praktický test: **ak máte jednu sálu a štandardné hodiny, hotová služba je rozumný začiatok.** Ak máte terasu s inými pravidlami, veľké skupiny, ktoré treba schváliť, alebo degustačné večery s platbou vopred, narazíte na strop skôr, než sa úspora vráti.
 
 [CTA_FORM:bot]
 
 ## Menu: ako ho dať na web, aby ho čítal Google aj hosť
 
-Najčastejšia chyba webov reštaurácií: menu ako PDF alebo fotka. Hosť na mobile ho nevie prečítať bez približovania, Google z PDF prečíta málo a z fotky nič — a práve podľa menu sa hostia rozhodujú.
+Najčastejšia chyba webov reštaurácií: menu ako PDF alebo fotka. Hosť na mobile ho nevie prečítať bez približovania, Google z PDF prečíta málo a z fotky nič, a práve podľa menu sa hostia rozhodujú.
 
-Správne: **menu ako text na stránke**, s cenami, alergénmi a štruktúrovanými dátami typu `Menu`. Google potom vie zobraziť jedlá priamo vo výsledkoch a hosť vidí ceny bez sťahovania. Aktualizácia cez jednoduchú administráciu — obedové menu má byť zmenené za minútu, nie cez grafika.
+Správne: **menu ako text na stránke**, s cenami, alergénmi a štruktúrovanými dátami typu `Menu`. Google potom vie zobraziť jedlá priamo vo výsledkoch a hosť vidí ceny bez sťahovania. Aktualizácia cez jednoduchú administráciu: obedové menu má byť zmenené za minútu, nie cez grafika.
 
 Ceny na webe uvádzať. Reštaurácia bez cien na webe je pre hosťa reštaurácia s vysokými cenami.
 
@@ -84,17 +84,17 @@ Ceny na webe uvádzať. Reštaurácia bez cien na webe je pre hosťa reštaurác
 
 Web sám o sebe hostí neprivedie. Privedú ich tri veci v tomto poradí:
 
-**Profil na Googli.** Pre reštauráciu prvý kontakt s hosťom — mapa, fotky, hodnotenia, hodiny. Zadarmo, vyplniť za hodinu, potom raz týždenne fotka alebo príspevok. Hodnotenia sú rozhodujúci faktor; požiadať oň spokojného hosťa je najlacnejší marketing, aký existuje.
+**Profil na Googli.** Pre reštauráciu prvý kontakt s hosťom: mapa, fotky, hodnotenia, hodiny. Zadarmo, vyplniť za hodinu, potom raz týždenne fotka alebo príspevok. Hodnotenia sú rozhodujúci faktor; požiadať oň spokojného hosťa je najlacnejší marketing, aký existuje.
 
-**Lokálne vyhľadávanie.** „reštaurácia Petržalka", „raňajky Ružinov", „pizza rozvoz Nivy" — web musí mať mestskú časť v texte, nie iba v adrese. Rozbor, odkiaľ berie návštevnosť malý podnik bez rozpočtu: [ako zvýšiť návštevnosť webu](/sk/blog/kak-uvelichit-poseshaemost-sajta/).
+**Lokálne vyhľadávanie.** „reštaurácia Petržalka", „raňajky Ružinov", „pizza rozvoz Nivy". Web musí mať mestskú časť v texte, nie iba v adrese. Rozbor, odkiaľ berie návštevnosť malý podnik bez rozpočtu: [ako zvýšiť návštevnosť webu](/sk/blog/kak-uvelichit-poseshaemost-sajta/).
 
-**Sociálne siete.** Pre gastro fungujú — fotka jedla predáva. Ale ako doplnok k profilu na Googli, nie namiesto neho: Instagram nikto neotvorí s otázkou „kde sa dnes najem".
+**Sociálne siete.** Pre gastro fungujú: fotka jedla predáva. Ale ako doplnok k profilu na Googli, nie namiesto neho: Instagram nikto neotvorí s otázkou „kde sa dnes najem".
 
 ## Čo web reštaurácie nepotrebuje
 
 Poviem rovno, lebo to šetrí peniaze:
 
-- **Rozvoz vlastnými silami**, ak ho nerobíte — tlačidlo „objednať" bez systému za ním hosťa nahnevá.
+- **Rozvoz vlastnými silami**, ak ho nerobíte: tlačidlo „objednať" bez systému za ním hosťa nahnevá.
 - **Rezerváciu**, ak máte desať stolov a vždy voľno. Telefón stačí.
 - **Viac jazykov**, ak nie ste v centre a nemáte turistov. Slovenčina plus krátka angličtina stačí.
 - **Galériu s dvesto fotkami.** Desať dobrých, priestor a jedlo.
@@ -102,27 +102,27 @@ Poviem rovno, lebo to šetrí peniaze:
 
 ## Čo musí byť zo zákona
 
-Aj reštaurácia je firma. Na webe: názov z registra, sídlo, IČO, DIČ, údaj o zápise ([úplný zoznam](/sk/blog/obyazatelnye-rekvizity-sajta/)). Cookie lišta s Consent Mode v2, ak je na webe analytika alebo reklama ([prečo](/sk/blog/cookie-lista-2026-povinnosti/)). A ak sa platí vopred za degustáciu alebo akciu — [prijímanie platby kartou](/sk/blog/priem-oplaty-kartoy/) a otázka eKasy.
+Aj reštaurácia je firma. Na webe: názov z registra, sídlo, IČO, DIČ, údaj o zápise ([úplný zoznam](/sk/blog/obyazatelnye-rekvizity-sajta/)). Cookie lišta s Consent Mode v2, ak je na webe analytika alebo reklama ([prečo](/sk/blog/cookie-lista-2026-povinnosti/)). A ak sa platí vopred za degustáciu alebo akciu, [prijímanie platby kartou](/sk/blog/priem-oplaty-kartoy/) a otázka eKasy.
 
 ## Meranie: rezervácia je konverzia
 
-Bez merania nezistíte, či web pomohol. Minimum: otvorenie rezervácie, začatá rezervácia, dokončená; kliknutie na telefón a na trasu v mape. Potom vidíte, kde hostia odpadávajú — pri výbere času, alebo až pri vypĺňaní. Ako to nastaviť: [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
+Bez merania nezistíte, či web pomohol. Minimum: otvorenie rezervácie, začatá rezervácia, dokončená; kliknutie na telefón a na trasu v mape. Potom vidíte, kde hostia odpadávajú: pri výbere času, alebo až pri vypĺňaní. Ako to nastaviť: [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
 
 ## Koľko to stojí
 
-- **Landing page** s menu, kontaktom a rezervačným formulárom — od **1 500 €**, do dvoch týždňov.
-- **Web reštaurácie** s vlastnou rezerváciou, menu s administráciou, viacerými sekciami — od **3 500 €**, 2-3 týždne.
-- Úpravy a doplnenie rezervácie do existujúceho webu — **35 €/hod**.
+- **Landing page** s menu, kontaktom a rezervačným formulárom: od **1 500€**, do dvoch týždňov.
+- **Web reštaurácie** s vlastnou rezerváciou, menu s administráciou, viacerými sekciami: od **3 500€**, 2-3 týždne.
+- Úpravy a doplnenie rezervácie do existujúceho webu: **35€/hod**.
 
 V cene: profil na Googli nastavený a prepojený, meranie rezervácií, cookie lišta, povinné údaje, doména a hosting na vás, 6 mesiacov podpory. Podrobný rozpis: [koľko stojí web](/sk/blog/website-cost-2026/).
 
 ## Ak treba pomôcť
 
-Robím weby pre gastro s rezerváciou, ktorá potvrdzuje cez Telegram a sama zatvára obsadené stoly — tak, aby personál nemusel nikam chodiť. Zakladanie firmy, účtovníctvo ani hygienické povolenia nerobím; moja časť je web, rezervácia, profil na Googli a meranie.
+Robím weby pre gastro s rezerváciou, ktorá potvrdzuje cez Telegram a sama zatvára obsadené stoly, tak, aby personál nemusel nikam chodiť. Zakladanie firmy, účtovníctvo ani hygienické povolenia nerobím; moja časť je web, rezervácia, profil na Googli a meranie.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, medzi nimi s rezerváciou: [Biliardovňa](/sk/case/biliardovna/), [Krása štúdio OK](/sk/case/studio-krasy/), [TOP SKLAD](/sk/case/top-sklad/). Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/). Ak web už máte a rezervácie nechodia — [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/). Ak web už máte a rezervácie nechodia: [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 Podobné rozbory pre ďalšie odvetvia: [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/), [web pre športový klub](/sk/blog/web-pre-sportovy-klub/), [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/).
 

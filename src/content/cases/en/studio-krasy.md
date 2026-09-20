@@ -14,11 +14,11 @@ services:
   - 'Three languages'
 order: 2
 ---
-![Krása štúdio OK — beauty salon website in Bratislava | White Eagles & Co.](/assets/portfolio-studiokrasy.webp)
+![Krása štúdio OK: beauty salon website in Bratislava | White Eagles & Co.](/assets/portfolio-studiokrasy.webp)
 
 # Krása štúdio OK: a beauty salon website with booking through Telegram
 
-A beauty salon in Ružinov. A multi-page site with online booking — and the automation that makes that booking real rather than decorative.
+A beauty salon in Ružinov. A multi-page site with online booking, and the automation that makes that booking real rather than decorative.
 
 ## Where the difficulty is
 
@@ -48,7 +48,7 @@ Technically it matters that these are three versions on their own URLs linked by
 
 Booking stopped depending on who checks the inbox and when. The client gets a confirmation while still thinking about the appointment, not a day later.
 
-For the salon it is also protection against the most expensive mistake — a double booking. The slot is blocked the moment staff tap the button.
+For the salon it is also protection against the most expensive mistake: a double booking. The slot is blocked the moment staff tap the button.
 
 ## Technically
 

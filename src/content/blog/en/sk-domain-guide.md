@@ -29,7 +29,7 @@ The domain is the cheapest part of a project and, at the same time, the part whe
 
 Here is what is worth knowing before you buy.
 
-**To be clear:** I do not give legal advice or keep books. I build websites, run advertising and analytics — and this article covers the part of the topic that concerns the website.
+**To be clear:** I do not give legal advice or keep books. I build websites, run advertising and analytics, and this article covers the part of the topic that concerns the website.
 
 [CTA_FORM:consult]
 
@@ -41,7 +41,7 @@ Worth knowing, because the opposite belief is common and makes people postpone b
 
 ## Why you buy the domain before registering the company
 
-Most people go in this order: think of a name, register the company, go for the domain — and find it taken.
+Most people go in this order: think of a name, register the company, go for the domain, and find it taken.
 
 Two unpleasant options follow: change the name of an already registered company, or take an awkward address like `companyname-sk.sk`. Both cost more than a five-minute check at the start.
 
@@ -49,7 +49,7 @@ Two unpleasant options follow: change the name of an already registered company,
 
 ## How to choose a registrar
 
-A `.sk` domain is registered through accredited registrars. The difference between them is not the domain — that is the same one — but the terms of service.
+A `.sk` domain is registered through accredited registrars. The difference between them is not the domain (that is the same one) but the terms of service.
 
 **What to look at:**
 
@@ -59,7 +59,7 @@ A `.sk` domain is registered through accredited registrars. The difference betwe
 
 **The ability to transfer.** Ask in advance how a transfer to another registrar is handled and whether there is a fee.
 
-**DNS management.** You will need to change records — when changing hosting, connecting email, verifying the domain with services. The panel should be accessible and comprehensible.
+**DNS management.** You will need to change records: when changing hosting, connecting email, verifying the domain with services. The panel should be accessible and comprehensible.
 
 **Auto-renewal.** Switch it on. A domain lost through forgetfulness is a very common and very painful story.
 
@@ -67,7 +67,7 @@ A `.sk` domain is registered through accredited registrars. The difference betwe
 
 The situation comes up constantly: a studio built the site and, "while they were at it", registered the domain to themselves. While relations are good nobody thinks about it.
 
-Problems begin at parting. Formally the domain is not yours, and getting it back depends on goodwill. Sometimes a contractor simply stops replying — and the address your email, your business cards and your search positions depend on becomes unreachable.
+Problems begin at parting. Formally the domain is not yours, and getting it back depends on goodwill. Sometimes a contractor simply stops replying, and the address your email, your business cards and your search positions depend on becomes unreachable.
 
 **Check right now who your domain is registered to.** If it is not you, fix it while relations are still normal.
 
@@ -87,7 +87,7 @@ My approach is simple: the domain and hosting are always registered to the clien
 
 ## Do you also need a .com
 
-For a business operating in Slovakia the **main domain should be `.sk`**. A local buyer trusts it more — it is the "a company from here" signal a foreign domain does not carry.
+For a business operating in Slovakia the **main domain should be `.sk`**. A local buyer trusts it more: it is the "a company from here" signal a foreign domain does not carry.
 
 A second domain is worth taking, but not for a second site. The right move is a permanent redirect from it to the main one. Two identical copies of a site on different domains create duplicates, and the search engine has to choose which to show.
 
@@ -96,14 +96,14 @@ A second domain is worth taking, but not for a second site. The right move is a 
 Buying the domain is only the start. What to do on the same day:
 
 1. **Email on your own domain.** `info@yourdomain.sk` instead of gmail. Zero cost and a noticeable difference in how a Slovak counterparty reads you.
-2. **Mail protection records** — SPF, DKIM, DMARC. Without them your mail goes to spam and you never find out.
+2. **Mail protection records**: SPF, DKIM, DMARC. Without them your mail goes to spam and you never find out.
 3. **HTTPS.** The certificate is free, and a browser marks a site without one as not secure.
 4. **Auto-renewal of the domain.**
 5. **Domain verification in Search Console**, so you can see how the site looks to search.
 
 ## What to do
 
-1. Check the domain is free — before you fix the company name.
+1. Check the domain is free before you fix the company name.
 2. Register it to yourself, not to a contractor.
 3. Compare the renewal price, not just the first year.
 4. Switch on auto-renewal.
@@ -111,12 +111,12 @@ Buying the domain is only the start. What to do on the same day:
 
 ## If you need help
 
-You can buy a domain yourself in ten minutes — that is not a task worth paying for. What comes next, though — email with the right records, HTTPS, moving a site without losing positions, connecting to Search Console — is what I do.
+You can buy a domain yourself in ten minutes: that is not a task worth paying for. What comes next, though (email with the right records, HTTPS, moving a site without losing positions, connecting to Search Console) is what I do.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. Domains and hosting are always registered to the client. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Related: [how to open an s.r.o.](/en/blog/open-sro-in-slovakia/), [the mandatory details on a website](/en/blog/mandatory-website-details/) and the [web development service page](/en/service/webdev/).
 
-The domain is the first of a new company's seven steps — the whole first-month list: [you have registered a company, now what](/en/blog/after-company-registration-digital-start/).
+The domain is the first of a new company's seven steps, the whole first-month list: [you have registered a company, now what](/en/blog/after-company-registration-digital-start/).
 
 [CTA_FORM:bugfix]

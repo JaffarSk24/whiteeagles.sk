@@ -23,7 +23,7 @@ faq:
 
 # How Slovaks choose a contractor: what a website needs for people to trust you
 
-Between "someone found your site" and "someone wrote to you" a few minutes pass, and the decision is made in them. They do not read your texts through — they check off a list: do you exist, can you handle this, and what will it cost.
+Between "someone found your site" and "someone wrote to you" a few minutes pass, and the decision is made in them. They do not read your texts through. They check off a list: do you exist, can you handle this, and what will it cost.
 
 That list is fairly consistent, and it makes an easy test for your own site.
 
@@ -33,7 +33,7 @@ That list is fairly consistent, and it makes an easy test for your own site.
 
 Before assessing your work, a person makes sure you are real. They look at the footer.
 
-**IČO, address, register entry details.** Their absence does not read as a detail — it reads as a reason not to take the risk. Especially where a deposit is involved.
+**IČO, address, register entry details.** Their absence does not read as a detail: it reads as a reason not to take the risk. Especially where a deposit is involved.
 
 The full list of what belongs there is in [a separate article](/en/blog/mandatory-website-details/).
 
@@ -53,7 +53,7 @@ This is where clients are most often lost for no good reason.
 
 "Price on request" reads as "this will be expensive, but first we will work on you". Some people simply close the tab rather than enter negotiations.
 
-Something else works: **the order of magnitude and an explanation of what it depends on.** "From this much; the final figure depends on the number of pages, integrations and the booking system" is honest and removes the main fear — that the price will turn out to be unpredictable.
+Something else works: **the order of magnitude and an explanation of what it depends on.** "From this much; the final figure depends on the number of pages, integrations and the booking system" is honest and removes the main fear: that the price will turn out to be unpredictable.
 
 You do not have to publish an exact price. It is enough to let a person work out whether they fall inside your range.
 
@@ -87,7 +87,7 @@ More than half of people will open you on a phone. If the text has to be pinch-z
 
 A separate layer, and the last one people think about. Even a flawless site does nothing if nobody reaches it.
 
-For local services the **Google Business Profile** is often the first point of contact — before the site. It is free and filling it in takes an evening.
+For local services the **Google Business Profile** is often the first point of contact, before the site. It is free and filling it in takes an evening.
 
 Plus local directories: Firmy.sk, Azet, Zlaté stránky. The data in them must match the site to the character, otherwise Google links your company into a single entity less reliably.
 
@@ -98,7 +98,7 @@ Open your own site on a phone in a private window and check:
 1. Are the IČO, address and registration details visible without searching?
 2. Are there at least three specific examples of work, with links?
 3. Is the order of the price clear?
-4. Are there verifiable reviews — with names and links?
+4. Are there verifiable reviews, with names and links?
 5. Does the form work? Send a test enquiry right now.
 6. Is all of this comfortable on a small screen?
 7. Is your Google profile filled in, and does it have reviews?

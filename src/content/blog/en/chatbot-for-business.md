@@ -2,7 +2,7 @@
 title: 'A chatbot for your business: when it pays for itself and when it just annoys clients'
 description: >-
   No hype: which jobs a bot genuinely does, what it costs, why Telegram beats a
-  website widget, and the cases where a bot is not needed at all — with examples
+  website widget, and the cases where a bot is not needed at all, with examples
   from Slovak practice.
 date: '2026-08-04'
 key: 'chatbot'
@@ -22,7 +22,7 @@ faq:
 
 # A chatbot for your business: when it pays for itself and when it just annoys clients
 
-People talk about bots in two ways: "this is the future" and "this is the irritating box that jumps out after three seconds". Both are true — the question is which job the bot is doing.
+People talk about bots in two ways: "this is the future" and "this is the irritating box that jumps out after three seconds". Both are true: the question is which job the bot is doing.
 
 Below: where it genuinely saves money, where it gets in the way, and what it costs.
 
@@ -32,13 +32,13 @@ Below: where it genuinely saves money, where it gets in the way, and what it cos
 
 One thing only, but an important one: **repetitive actions with no variation.**
 
-**Taking enquiries.** Someone sends a request and you are notified immediately — not when somebody next opens the inbox. In practice that is often the difference between "answered in twenty minutes" and "answered the next day", by which point the client has written to somebody else.
+**Taking enquiries.** Someone sends a request and you are notified immediately: not when somebody next opens the inbox. In practice that is often the difference between "answered in twenty minutes" and "answered the next day", by which point the client has written to somebody else.
 
 **Booking.** The client picks a time, staff get a message, one tap confirms it and the slot closes on the site automatically. That is exactly how booking works at [Krása štúdio OK](/en/case/studio-krasy/): no spreadsheets, no double bookings.
 
-**Answering standard questions.** Opening hours, address, prices, how to get there, what to bring. That is 60-70 % of incoming messages in almost any business.
+**Answering standard questions.** Opening hours, address, prices, how to get there, what to bring. That is 60-70% of incoming messages in almost any business.
 
-**Notifications inside the team.** A new enquiry, a new order, an error on the site — into the chat that is open anyway.
+**Notifications inside the team.** A new enquiry, a new order, an error on the site: into the chat that is open anyway.
 
 **Routine with no client involved at all.** Auto-posting listings on Bazoš, for instance, for anyone who posts there regularly: by hand it eats hours a week.
 
@@ -66,19 +66,19 @@ That is usually the choice, and it depends on where your client is.
 | **Second touch** | none | you can write later |
 | **Speed of reply** | requires sitting in the panel | arrives as an ordinary message |
 
-The practical conclusion: **a widget fits a high-traffic site where somebody is on duty.** In every other case Telegram is more convenient — for the client and for you.
+The practical conclusion: **a widget fits a high-traffic site where somebody is on duty.** In every other case Telegram is more convenient: for the client and for you.
 
 The reason is simple and not technical: any system that requires staff to open a separate panel does not take root in a small business. Between two treatments in a salon there is one minute, not ten.
 
 ## What it costs
 
-**A bot for a specific job — from 500 €.** Changes at 25 € an hour.
+**A bot for a specific job: from 500€.** Changes at 25€ an hour.
 
 The price depends not on the number of messages or the "sophistication of the AI" but on integrations:
 
-- a standalone bot answering from a script — the lower bound;
-- a bot linked to the site (enquiries, booking) — the middle;
-- a bot linked to a calendar, stock, payments or an accounting system — the top.
+- a standalone bot answering from a script: the lower bound;
+- a bot linked to the site (enquiries, booking): the middle;
+- a bot linked to a calendar, stock, payments or an accounting system: the top.
 
 For comparison: an employee answering the same questions by hand for an hour a day costs more than that in the first month.
 
@@ -88,7 +88,7 @@ Three numbers worth recording before launch and checking a month later:
 
 1. **How much time standard replies take now.** Roughly is fine.
 2. **How long passes between an enquiry and the first reply.**
-3. **How many enquiries are lost** — unanswered, forgotten, buried in email.
+3. **How many enquiries are lost**: unanswered, forgotten, buried in email.
 
 A bot pays for itself when the second and third numbers change. The first is a bonus.
 
@@ -112,13 +112,13 @@ Plainly, because this is more common than it seems:
 
 - **Few enquiries.** Five a week is nothing to automate.
 - **Every enquiry is unique.** Project work, consulting, complex services.
-- **The problem is not reply speed but that nobody finds you.** Then the money belongs in the site and its visibility, not a bot — start with [checking the site](/en/blog/seo-audit-yourself/).
+- **The problem is not reply speed but that nobody finds you.** Then the money belongs in the site and its visibility, not a bot: start with [checking the site](/en/blog/seo-audit-yourself/).
 
 ## What building one looks like
 
 1. **A half-hour conversation.** Which questions come up most and what eats time.
 2. **A script.** What the bot can do and where it hands over to a person.
-3. **Development** — a few days to two weeks, depending on integrations.
+3. **Development**: a few days to two weeks, depending on integrations.
 4. **Testing on real enquiries.**
 5. **Refinement based on what people actually ask.**
 
@@ -126,7 +126,7 @@ The fifth step matters more than the first four: real questions always differ fr
 
 ## If you need a bot
 
-I write bots in Python — enquiries, booking, notifications, auto-posting. From 500 €, usually one to two weeks. Details on the [bot development service page](/en/service/telegram/).
+I write bots in Python: enquiries, booking, notifications, auto-posting. From 500€, usually one to two weeks. Details on the [bot development service page](/en/service/telegram/).
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
 

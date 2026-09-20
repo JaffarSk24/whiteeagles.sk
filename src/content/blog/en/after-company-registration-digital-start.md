@@ -1,9 +1,9 @@
 ---
-title: 'You have registered a company — now what: the digital start in 30 days'
+title: 'You have registered a company, now what: the digital start in 30 days'
 description: >-
   The register entry is the beginning, not the end. What a new company in
   Slovakia sets up in its first month so customers can find it: domain,
-  email, website, Google profile, enquiry tracking — in order, with prices.
+  email, website, Google profile, enquiry tracking: in order, with prices.
 date: '2026-09-04'
 updated: '2026-09-12'
 key: 'digital-start'
@@ -19,51 +19,51 @@ faq:
   - q: 'Do you register companies or keep the books?'
     a: 'No. The register entry is a notary''s job, bookkeeping and taxes an accountant''s. My work begins after the entry: website, domain, email, advertising and measurement. This article is about that part.'
 ---
-![You have registered a company — now what | White Eagles & Co.](/assets/blog/otkryli-firmu.webp)
+![You have registered a company, now what | White Eagles & Co.](/assets/blog/otkryli-firmu.webp)
 
-# You have registered a company — now what: the digital start in 30 days
+# You have registered a company, now what: the digital start in 30 days
 
 The entry in the Obchodný register has arrived, the IČO is assigned, the bank account is open. Most people exhale at this point and get to work. Three months later they discover that customers cannot find them, the email goes out from gmail, and the domain that "someone sorted out" is registered to that someone.
 
-**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins exactly here: website, domain, email, advertising, measurement. Below is the order that makes sense, with prices, and what you can do in one evening with nobody's help.
+**To be clear from the start:** I do not register companies, keep books or handle taxes: that is a notary's and an accountant's job. My work begins exactly here: website, domain, email, advertising, measurement. Below is the order that makes sense, with prices, and what you can do in one evening with nobody's help.
 
 [CTA_FORM:webdev]
 
 ## Week one: three things that cost nothing and cannot be skipped
 
-### 1. The domain — in the company's name, not the contractor's
+### 1. The domain, in the company's name, not the contractor's
 
 Check whether the `.sk` with your company name is free. If not, a different short word beats `companyname-sk.sk` with a hyphen and digits nobody can dictate over the phone.
 
-The key point: **the domain's owner is the company or its director.** Not the web studio, not the friend who "sorted it out". A domain in someone else's name is the most expensive mistake of the first month — part ways and you lose the address, the email and everything that stood on it. How to choose a registrar and what to watch: [the .sk domain](/en/blog/sk-domain-guide/).
+The key point: **the domain's owner is the company or its director.** Not the web studio, not the friend who "sorted it out". A domain in someone else's name is the most expensive mistake of the first month: part ways and you lose the address, the email and everything that stood on it. How to choose a registrar and what to watch: [the .sk domain](/en/blog/sk-domain-guide/).
 
 ### 2. Email on your own domain
 
 `info@yourcompany.sk` instead of `yourcompany2026@gmail.com`. It costs nothing extra, and a Slovak supplier, bank or customer reads those two addresses very differently.
 
-Set up SPF, DKIM and DMARC straight away — three DNS records without which your proposals land in spam and you never find out.
+Set up SPF, DKIM and DMARC straight away: three DNS records without which your proposals land in spam and you never find out.
 
 ### 3. A Google Business Profile
 
-For a local service it is often the first contact with a customer — before the website. Free, an hour to fill in. Name, address and phone **exactly** as they will appear on the website and in directories: discrepancies in the address are the most common reason local results never come.
+For a local service it is often the first contact with a customer, before the website. Free, an hour to fill in. Name, address and phone **exactly** as they will appear on the website and in directories: discrepancies in the address are the most common reason local results never come.
 
 ## Week two: what the website must carry by law
 
-Before anyone thinks about design, know what **has** to be there. A Slovak company states on its website the name exactly as in the register, the registered address, IČO, DIČ and the register entry — court, section, insert. Without it the site formally breaches the rules, and practically a Slovak buyer used to seeing an IČO reads its absence as "no idea who this is". The full list: [the mandatory details on a website](/en/blog/mandatory-website-details/).
+Before anyone thinks about design, know what **has** to be there. A Slovak company states on its website the name exactly as in the register, the registered address, IČO, DIČ and the register entry: court, section, insert. Without it the site formally breaches the rules, and practically a Slovak buyer used to seeing an IČO reads its absence as "no idea who this is". The full list: [the mandatory details on a website](/en/blog/mandatory-website-details/).
 
-If the site will carry analytics or advertising — and it will — you need a cookie banner under EU rules with Consent Mode v2. Not "we use cookies, OK", but one where refusing is as easy as accepting. [What exactly is required](/en/blog/cookie-banner-2026/).
+If the site will carry analytics or advertising (and it will), you need a cookie banner under EU rules with Consent Mode v2. Not "we use cookies, OK", but one where refusing is as easy as accepting. [What exactly is required](/en/blog/cookie-banner-2026/).
 
-## Week three: the website — which kind and at what price
+## Week three: the website, which kind and at what price
 
 This is where it is decided whether the company grows next year or rebuilds.
 
 | Type | Price | When |
 |---|---|---|
-| **Landing page** | from 1,500 € | one service, one offer, you want to start fast |
-| **Company website** | from 3,500 € | several services, portfolio, blog, several languages |
-| **Online shop** | from 5,000 € | selling goods with a cart and payment |
+| **Landing page** | from 1,500€ | one service, one offer, you want to start fast |
+| **Company website** | from 3,500€ | several services, portfolio, blog, several languages |
+| **Online shop** | from 5,000€ | selling goods with a cart and payment |
 
-What the price includes and what it does not, how to compare offers and why a 500-euro site costs more after a year — in [what a website costs in Slovakia](/en/blog/website-cost-slovakia/).
+What the price includes and what it does not, how to compare offers and why a 500-euro site costs more after a year: in [what a website costs in Slovakia](/en/blog/website-cost-slovakia/).
 
 One piece of advice for a new business: **do not start with a big website.** A landing page with one service, a contact and the mandatory details in two weeks beats a company site in two months during which nobody finds you. You can always expand. And if you are considering a free site on a builder, first read [when it is enough and when it costs you customers](/en/blog/free-website-builder-vs-custom/).
 
@@ -90,9 +90,9 @@ Plainly, because it saves the first month's money:
 
 Two things that hurt to fix after the first month:
 
-**The domain in your own name.** Said already, repeated on purpose — I see it far too often.
+**The domain in your own name.** Said already, repeated on purpose. I see it far too often.
 
-**One version of the details everywhere.** Name, address, phone, email — identical on the website, in the Google profile, in directories, on the invoice. Decide it once at the start and never change it.
+**One version of the details everywhere.** Name, address, phone, email: identical on the website, in the Google profile, in directories, on the invoice. Decide it once at the start and never change it.
 
 ## The 30-day checklist
 
@@ -102,13 +102,13 @@ Two things that hurt to fix after the first month:
 4. The decision: landing page or company site.
 5. Mandatory details and the cookie banner ready before launch.
 6. GA4 + Tag Manager with enquiry tracking, Search Console.
-7. The first service page live — even a simple one.
+7. The first service page live, even a simple one.
 
 Seven points, one month, and the company exists for the customer, not only for the register. How a Slovak customer decides who to write to: [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/).
 
 ## If you need help
 
-Points 1-3 you can do yourself in an evening, and paying for them makes no sense. Points 4-7 are my work: a website with the mandatory details, cookie banner and measurement included, domain and hosting registered to you, 6 months of support. A landing page from **1,500 €**, a company site from **3,500 €**, average delivery 10 working days.
+Points 1-3 you can do yourself in an evening, and paying for them makes no sense. Points 4-7 are my work: a website with the mandatory details, cookie banner and measurement included, domain and hosting registered to you, 6 months of support. A landing page from **1,500€**, a company site from **3,500€**, average delivery 10 working days.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
 

@@ -1,9 +1,9 @@
 ---
-title: 'Otvorili ste firmu — čo ďalej: digitálny štart za 30 dní'
+title: 'Otvorili ste firmu, čo ďalej: digitálny štart za 30 dní'
 description: >-
   Zápis v registri je začiatok, nie koniec. Čo si nová firma na Slovensku
   nastaví v prvom mesiaci, aby ju zákazníci našli: doména, e-mail, web,
-  profil na Googli, meranie dopytov — v poradí a s cenami.
+  profil na Googli, meranie dopytov: v poradí a s cenami.
 date: '2026-09-04'
 updated: '2026-09-12'
 key: 'digital-start'
@@ -19,51 +19,51 @@ faq:
   - q: 'Zakladáte aj firmy alebo vediete účtovníctvo?'
     a: 'Nie. Zápis do registra je práca notára, účtovníctvo a dane účtovníka. Moja práca začína po zápise: web, doména, e-mail, reklama a meranie. Tento článok je o tejto časti.'
 ---
-![Otvorili ste firmu — čo ďalej | White Eagles & Co.](/assets/blog/otkryli-firmu.webp)
+![Otvorili ste firmu, čo ďalej | White Eagles & Co.](/assets/blog/otkryli-firmu.webp)
 
-# Otvorili ste firmu — čo ďalej: digitálny štart za 30 dní
+# Otvorili ste firmu, čo ďalej: digitálny štart za 30 dní
 
 Zápis v Obchodnom registri prišiel, IČO je pridelené, účet v banke otvorený. Väčšina ľudí v tomto bode vydýchne a začne pracovať. A o tri mesiace zistí, že zákazníci ich nenachádzajú, e-mail chodí z gmailu a doména, ktorú „niekto vybavil", je zapísaná na toho niekoho.
 
-**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína presne v tomto bode: web, doména, e-mail, reklama, meranie. Nižšie je poradie, v akom to má zmysel robiť, s cenami a s tým, čo sa dá spraviť za jeden večer bez kohokoľvek.
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím: to je práca notára a účtovníka. Moja práca začína presne v tomto bode: web, doména, e-mail, reklama, meranie. Nižšie je poradie, v akom to má zmysel robiť, s cenami a s tým, čo sa dá spraviť za jeden večer bez kohokoľvek.
 
 [CTA_FORM:webdev]
 
 ## Prvý týždeň: tri veci, ktoré nestoja nič a nedajú sa preskočiť
 
-### 1. Doména — na firmu, nie na dodávateľa
+### 1. Doména: na firmu, nie na dodávateľa
 
 Overte, či je voľný `.sk` s názvom firmy. Ak nie, radšej iné krátke slovo než `nazovfirmy-sk.sk` s pomlčkou a číslami, ktoré sa nedajú nadiktovať do telefónu.
 
-Kľúčové: **majiteľom domény je firma alebo konateľ.** Nie webová štúdio, nie kamarát, ktorý „to vybavil". Doména na cudzie meno je najdrahšia chyba prvého mesiaca — pri rozchode prídete o adresu, e-mail a všetko, čo na nej stálo. Ako vybrať registrátora a na čo si dať pozor: [doména .sk](/sk/blog/domen-sk-kak-kupit/).
+Kľúčové: **majiteľom domény je firma alebo konateľ.** Nie webová štúdio, nie kamarát, ktorý „to vybavil". Doména na cudzie meno je najdrahšia chyba prvého mesiaca: pri rozchode prídete o adresu, e-mail a všetko, čo na nej stálo. Ako vybrať registrátora a na čo si dať pozor: [doména .sk](/sk/blog/domen-sk-kak-kupit/).
 
 ### 2. E-mail na vlastnej doméne
 
 `info@vasafirma.sk` namiesto `vasafirma2026@gmail.com`. Stojí nula eur navyše a slovenský dodávateľ, banka aj zákazník čítajú tie dve adresy úplne inak.
 
-Hneď nastaviť SPF, DKIM a DMARC — tri záznamy v DNS, bez ktorých vaše ponuky chodia do spamu a vy sa to nedozviete.
+Hneď nastaviť SPF, DKIM a DMARC: tri záznamy v DNS, bez ktorých vaše ponuky chodia do spamu a vy sa to nedozviete.
 
 ### 3. Profil firmy na Googli
 
-Pre miestnu službu je to často prvý kontakt so zákazníkom — skôr než web. Zadarmo, vyplnenie zaberie hodinu. Názov, adresa a telefón **presne tak isto**, ako budú na webe a v katalógoch: rozdiely v adrese sú najčastejší dôvod, prečo lokálne výsledky neprídu.
+Pre miestnu službu je to často prvý kontakt so zákazníkom, skôr než web. Zadarmo, vyplnenie zaberie hodinu. Názov, adresa a telefón **presne tak isto**, ako budú na webe a v katalógoch: rozdiely v adrese sú najčastejší dôvod, prečo lokálne výsledky neprídu.
 
 ## Druhý týždeň: čo musí byť na webe zo zákona
 
-Skôr než sa rieši dizajn, treba vedieť, čo tam byť **musí**. Slovenská firma uvádza na webe názov presne z registra, sídlo, IČO, DIČ a údaj o zápise — súd, oddiel, vložka. Bez toho je web formálne v rozpore s predpismi, a prakticky: slovenský zákazník zvyknutý vidieť IČO číta jeho absenciu ako „neviem, kto to je". Úplný zoznam: [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/).
+Skôr než sa rieši dizajn, treba vedieť, čo tam byť **musí**. Slovenská firma uvádza na webe názov presne z registra, sídlo, IČO, DIČ a údaj o zápise: súd, oddiel, vložka. Bez toho je web formálne v rozpore s predpismi, a prakticky: slovenský zákazník zvyknutý vidieť IČO číta jeho absenciu ako „neviem, kto to je". Úplný zoznam: [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/).
 
-Ak bude na webe analytika alebo reklama — a bude —, treba cookie lištu podľa európskych pravidiel s Consent Mode v2. Nie „používame cookies, OK", ale s možnosťou odmietnuť rovnako ľahko ako súhlasiť. [Čo presne sa vyžaduje](/sk/blog/cookie-lista-2026-povinnosti/).
+Ak bude na webe analytika alebo reklama (a bude), treba cookie lištu podľa európskych pravidiel s Consent Mode v2. Nie „používame cookies, OK", ale s možnosťou odmietnuť rovnako ľahko ako súhlasiť. [Čo presne sa vyžaduje](/sk/blog/cookie-lista-2026-povinnosti/).
 
-## Tretí týždeň: web — aký a za koľko
+## Tretí týždeň: web, aký a za koľko
 
 Tu sa rozhoduje, či bude firma o rok rásť, alebo prerábať.
 
 | Typ | Cena | Kedy |
 |---|---|---|
-| **Landing page** | od 1 500 € | jedna služba, jedna ponuka, chcete rýchlo začať |
-| **Firemný web** | od 3 500 € | viac služieb, portfólio, blog, viac jazykov |
-| **E-shop** | od 5 000 € | predaj tovaru s košíkom a platbou |
+| **Landing page** | od 1 500€ | jedna služba, jedna ponuka, chcete rýchlo začať |
+| **Firemný web** | od 3 500€ | viac služieb, portfólio, blog, viac jazykov |
+| **E-shop** | od 5 000€ | predaj tovaru s košíkom a platbou |
 
-Čo je v cene a čo nie, ako porovnávať ponuky a prečo web za 500 € vyjde po roku drahšie — v článku [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/).
+Čo je v cene a čo nie, ako porovnávať ponuky a prečo web za 500€ vyjde po roku drahšie: v článku [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/).
 
 Jedna rada pre nový podnik: **nezačínajte veľkým webom.** Landing page s jednou službou, kontaktom a povinnými údajmi za dva týždne je lepšia než firemný web za dva mesiace, počas ktorých vás nikto nenájde. Rozšíriť sa dá vždy. A ak zvažujete web zadarmo v konštruktore, najprv si prečítajte, [kedy stačí a kedy stojí zákazníkov](/sk/blog/web-zadarmo-webnode-wix/).
 
@@ -90,9 +90,9 @@ Poviem na rovinu, lebo to šetrí peniaze prvého mesiaca:
 
 Dve veci, ktoré po prvom mesiaci opraviť bolí:
 
-**Doména na vlastné meno.** Už spomenuté, opakujem zámerne — vidím to príliš často.
+**Doména na vlastné meno.** Už spomenuté, opakujem zámerne, lebo to vidím príliš často.
 
-**Jedna verzia údajov všade.** Názov, adresa, telefón, e-mail — rovnaké na webe, v profile Googlu, v katalógoch, na faktúre. Rozhodnite to raz, na začiatku, a už nemeňte.
+**Jedna verzia údajov všade.** Názov, adresa, telefón, e-mail: rovnaké na webe, v profile Googlu, v katalógoch, na faktúre. Rozhodnite to raz, na začiatku, a už nemeňte.
 
 ## Kontrolný zoznam na 30 dní
 
@@ -102,13 +102,13 @@ Dve veci, ktoré po prvom mesiaci opraviť bolí:
 4. Rozhodnutie: landing page alebo firemný web.
 5. Povinné údaje a cookie lišta pripravené ešte pred spustením.
 6. GA4 + Tag Manager s meraním dopytov, Search Console.
-7. Prvá stránka služby spustená — hoci jednoduchá.
+7. Prvá stránka služby spustená, hoci jednoduchá.
 
 Sedem bodov, jeden mesiac, a firma existuje aj pre zákazníka, nie iba pre register. Ako sa slovenský zákazník rozhoduje, komu napíše: [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/).
 
 ## Ak treba pomôcť
 
-Body 1-3 zvládnete sami za večer, a nemá zmysel za ne platiť. Body 4-7 sú moja práca: web s povinnými údajmi, cookie lištou a meraním v cene, doména a hosting zapísané na vás, 6 mesiacov podpory. Landing page od **1 500 €**, firemný web od **3 500 €**, priemerné dodanie 10 pracovných dní.
+Body 1-3 zvládnete sami za večer, a nemá zmysel za ne platiť. Body 4-7 sú moja práca: web s povinnými údajmi, cookie lištou a meraním v cene, doména a hosting zapísané na vás, 6 mesiacov podpory. Landing page od **1 500€**, firemný web od **3 500€**, priemerné dodanie 10 pracovných dní.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO, ktorú si dáte do nákladov.
 

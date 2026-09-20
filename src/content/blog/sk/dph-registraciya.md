@@ -1,7 +1,7 @@
 ---
 title: 'Registrácia na DPH: kedy vzniká povinnosť a čo sa mení v roku 2026'
 description: >-
-  Hranice registrácie platiteľa DPH — 50 000 a 62 500 eur, lehoty na podanie
+  Hranice registrácie platiteľa DPH: 50 000 a 62 500 eur, lehoty na podanie
   žiadosti, sadzby 23, 19 a 5 percent a kedy sa dobrovoľná registrácia oplatí
   viac než povinná.
 date: '2026-08-04'
@@ -25,11 +25,11 @@ faq:
 
 # Registrácia na DPH: kedy vzniká povinnosť a čo sa mení v roku 2026
 
-DPH je otázka, kde chyba stojí najviac, pretože sa objaví so spätnou platnosťou. Prehliadnete hranicu, nepodáte žiadosť včas — a daň z už predaného tovaru doplácate z vlastného.
+DPH je otázka, kde chyba stojí najviac, pretože sa objaví so spätnou platnosťou. Prehliadnete hranicu, nepodáte žiadosť včas, a daň z už predaného tovaru doplácate z vlastného.
 
 Nižšie je, kade vedú hranice, aké sú lehoty a kedy sa oplatí registrovať dobrovoľne.
 
-**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím — to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe. Ak je zápis už za vami, poradie krokov na prvý mesiac je v článku [Otvorili ste firmu — čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
+**Aby bolo jasné hneď na začiatku:** zakladanie firiem, účtovníctvo ani dane nerobím: to je práca notára a účtovníka. Moja práca začína po zápise do registra: web, doména a e-mail, reklama, analytika. Tento článok je na to, aby ste sa zorientovali v postupe. Ak je zápis už za vami, poradie krokov na prvý mesiac je v článku [Otvorili ste firmu, čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
 
 [CTA_FORM:webdev]
 
@@ -39,16 +39,16 @@ Práve toto sa najčastejšie mýli. Hranice sú **dve** a dôsledky majú odli�
 
 | Hranica | Odkedy ste platiteľom |
 |---|---|
-| **50 000 €** za kalendárny rok | od **1. januára** nasledujúceho roka |
-| **62 500 €** za kalendárny rok | **okamžite**, tým dodaním, ktorým bola prekročená |
+| **50 000€** za kalendárny rok | od **1. januára** nasledujúceho roka |
+| **62 500€** za kalendárny rok | **okamžite**, tým dodaním, ktorým bola prekročená |
 
-Rozdiel je zásadný. Pri 50 000 máte čas sa pripraviť: do konca roka fungujete ako doteraz. Pri 62 500 sa stávate platiteľom v ten istý deň — a DPH musíte odviesť už z tohto predaja.
+Rozdiel je zásadný. Pri 50 000 máte čas sa pripraviť: do konca roka fungujete ako doteraz. Pri 62 500 sa stávate platiteľom v ten istý deň, a DPH musíte odviesť už z tohto predaja.
 
 Ešte jedna vec: ak ste podali žiadosť po prekročení 50 000 a do konca roka prekročíte aj 62 500, ste povinný to **bezodkladne oznámiť** daňovému úradu a platiteľom sa stávate skôr.
 
 ## Ako sa počíta obrat
 
-Podľa **kalendárneho roka** — od januára do decembra. Predchádzajúci výpočet za kĺzavých dvanásť mesiacov sa už neuplatňuje, čo veci zjednodušilo: stačí sledovať aktuálny rok.
+Podľa **kalendárneho roka**: od januára do decembra. Predchádzajúci výpočet za kĺzavých dvanásť mesiacov sa už neuplatňuje, čo veci zjednodušilo: stačí sledovať aktuálny rok.
 
 Obrat si sledujte sami, po mesiacoch. Daňový úrad upozornenie neposiela a zodpovednosť za prehliadnutú hranicu je na vás.
 
@@ -63,11 +63,11 @@ Päť pracovných dní je krátko. Práve preto sa obrat sleduje priebežne, nie
 
 | Sadzba | Na čo |
 |---|---|
-| **23 %** | základná sadzba, väčšina tovarov a služieb |
-| **19 %** | vybrané tovary z prílohy č. 7 zákona |
-| **5 %** | vybrané potraviny, zdravotnícke pomôcky, tlačoviny |
+| **23%** | základná sadzba, väčšina tovarov a služieb |
+| **19%** | vybrané tovary z prílohy č. 7 zákona |
+| **5%** | vybrané potraviny, zdravotnícke pomôcky, tlačoviny |
 
-Zmena roku 2026: na výrobky **so zvýšeným obsahom cukru a soli** sa uplatňuje základná sadzba **23 %** namiesto zníženej. Ak máte potravinovú predajňu alebo e-shop s potravinami, sortiment stojí za prehodnotenie.
+Zmena roku 2026: na výrobky **so zvýšeným obsahom cukru a soli** sa uplatňuje základná sadzba **23%** namiesto zníženej. Ak máte potravinovú predajňu alebo e-shop s potravinami, sortiment stojí za prehodnotenie.
 
 [CTA_FORM:consult]
 
@@ -79,15 +79,15 @@ Registrovať sa dá aj bez čakania na hranicu. Zmysel to má v dvoch prípadoch
 
 **Máte veľa nákladov s DPH na vstupe.** Tovar, vybavenie, subdodávatelia, reklama. Bez registrácie túto DPH zaplatíte a stratíte, s registráciou si ju odpočítate.
 
-**Kedy dobrovoľná registrácia škodí:** ak predávate fyzickým osobám. Pre nich vaša cena narastie o 23 % a konkurent bez DPH bude pri rovnakej marži lacnejší. Tu je registrácia priamym zásahom do konkurencieschopnosti.
+**Kedy dobrovoľná registrácia škodí:** ak predávate fyzickým osobám. Pre nich vaša cena narastie o 23% a konkurent bez DPH bude pri rovnakej marži lacnejší. Tu je registrácia priamym zásahom do konkurencieschopnosti.
 
-Osobitne: **platitelia DPH registrovaní počas celého kalendárneho roka nemôžu použiť paušálne výdavky**. Pre živnostníka to môže prevážiť všetky ostatné úvahy — podrobnosti v článku [„Živnosť alebo s.r.o.“](/sk/blog/zivnost-alebo-sro/).
+Osobitne: **platitelia DPH registrovaní počas celého kalendárneho roka nemôžu použiť paušálne výdavky**. Pre živnostníka to môže prevážiť všetky ostatné úvahy: podrobnosti v článku [„Živnosť alebo s.r.o.“](/sk/blog/zivnost-alebo-sro/).
 
 ## Čo sa po registrácii mení na webe
 
 Na toto sa myslí naposledy, hoci to klient vidí okamžite.
 
-**Ceny treba prehodnotiť a správne zobraziť.** Pri B2C sa uvádza cena s DPH, pri B2B často bez. Ak máte zmiešané publikum, rozumné je ukázať obe — inak polovica klientov považuje vašu cenu za vyššiu, než je.
+**Ceny treba prehodnotiť a správne zobraziť.** Pri B2C sa uvádza cena s DPH, pri B2B často bez. Ak máte zmiešané publikum, rozumné je ukázať obe, inak polovica klientov považuje vašu cenu za vyššiu, než je.
 
 **IČ DPH pribúda do povinných údajov.** Musí sa objaviť v pätičke webu, na faktúrach aj v obchodných podmienkach.
 
@@ -99,18 +99,18 @@ Ani jedna z týchto zmien nie je zložitá. Všetky sa predražia, ak sa robia p
 
 ## Časté chyby
 
-**Sledujú jednu hranicu.** Pamätajú si 50 000 a o 62 500 nevedia — a zistia, že platiteľom sú už mesiace.
+**Sledujú jednu hranicu.** Pamätajú si 50 000 a o 62 500 nevedia, a zistia, že platiteľom sú už mesiace.
 
 **Počítajú obrat raz ročne.** Päť pracovných dní na podanie žiadosti takému prístupu nedáva priestor.
 
 **Registrujú sa dobrovoľne „pre serióznosť“.** Ak sú klientmi fyzické osoby, len sa tým zdražia.
 
-**Zabudnú na web.** Ceny bez DPH, staré údaje, faktúry bez IČ DPH — a všetko to klient vidí.
+**Zabudnú na web.** Ceny bez DPH, staré údaje, faktúry bez IČ DPH, a všetko to klient vidí.
 
 ## Čo urobiť
 
 1. Zvyknite si sledovať obrat po mesiacoch.
-2. Vopred si rozmyslite, čo urobíte pri približovaní k 50 000 — niekedy sa oplatí predaj do konca roka pribrzdiť.
+2. Vopred si rozmyslite, čo urobíte pri približovaní k 50 000: niekedy sa oplatí predaj do konca roka pribrzdiť.
 3. Prepočítajte s účtovníkom, či sa dobrovoľná registrácia neoplatí už teraz.
 4. Hneď po registrácii aktualizujte ceny, údaje a faktúry na webe.
 
@@ -118,7 +118,7 @@ Prvé tri body patria účtovníkovi. Štvrtý je môj.
 
 ## Ak potrebujete pomoc s webom
 
-Registráciu a výpočty vybaví účtovník. Všetko, čo nasleduje — ceny s DPH aj bez, kategórie sadzieb v e-shope, povinné údaje, faktúry — nastavujem ja.
+Registráciu a výpočty vybaví účtovník. Všetko, čo nasleduje (ceny s DPH aj bez, kategórie sadzieb v e-shope, povinné údaje, faktúry), nastavujem ja.
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy** vrátane e-shopov s viacerými sadzbami DPH. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

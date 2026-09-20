@@ -22,7 +22,7 @@ faq:
 
 # Mandatory details on a Slovak company website: the complete list
 
-Two things make this worth doing properly. It is a legal requirement — and it is the first thing a Slovak buyer checks before paying a company they have not dealt with before.
+Two things make this worth doing properly. It is a legal requirement, and it is the first thing a Slovak buyer checks before paying a company they have not dealt with before.
 
 A site without these details reads as a site that might not be a real company. That impression costs more than any fine.
 
@@ -32,10 +32,10 @@ A site without these details reads as a site that might not be a real company. T
 
 - **Company name** exactly as entered in the Commercial Register, including the legal form
 - **Registered address** (sídlo)
-- **IČO** — the organisation identification number
-- **DIČ** — the tax number
-- **IČ DPH** — if you are VAT registered
-- **Commercial Register entry details** — which court, which section, which insert number
+- **IČO**: the organisation identification number
+- **DIČ**: the tax number
+- **IČ DPH**: if you are VAT registered
+- **Commercial Register entry details**: which court, which section, which insert number
 
 The last item is the one most often missed. The wording looks roughly like this: "Spoločnosť je zapísaná v Obchodnom registri Okresného súdu …, oddiel: Sro, vložka č.: …".
 
@@ -46,17 +46,17 @@ The last item is the one most often missed. The wording looks roughly like this:
 - **IČO**
 - **Trade register entry details** with the issuing authority
 
-A sole trader does not state a Commercial Register insert number — there is no entry there to state.
+A sole trader does not state a Commercial Register insert number: there is no entry there to state.
 
 ## Where to put it
 
 **In the site footer.** That puts the details on every page, including the one a visitor arrived at from search. It satisfies the requirement and it is convenient for the client.
 
-**On the contact page** — in full, alongside phone, email and address.
+**On the contact page**: in full, alongside phone, email and address.
 
 **In the terms of business**, if you run an online shop.
 
-**On invoices** — those have their own set of mandatory fields, but the data must match the website.
+**On invoices**: those have their own set of mandatory fields, but the data must match the website.
 
 Important: **these details have to match everywhere.** Name, address and IČO on the website, in your Google listing, in directories and on invoices should be identical, down to how the address is written. Discrepancies stop Google tying your company together as one entity, and you lose position in local search. Almost nobody thinks about this, and it is expensive.
 
@@ -70,11 +70,11 @@ Selling to private individuals online adds obligations:
 
 **Returns and complaints procedure.** Where to write, within what deadlines, who pays the postage.
 
-**Delivery and payment information** — methods, timelines, cost. The final sum must be visible before the order is confirmed, not appear at the last step.
+**Delivery and payment information**: methods, timelines, cost. The final sum must be visible before the order is confirmed, not appear at the last step.
 
-**A link to the dispute resolution platform.** The European online platform for out-of-court settlement — the link is mandatory.
+**A link to the dispute resolution platform.** The European online platform for out-of-court settlement: the link is mandatory.
 
-**Supervisory authority details** — which inspectorate supervises you, with its address.
+**Supervisory authority details**: which inspectorate supervises you, with its address.
 
 [CTA_FORM:webdev]
 
@@ -95,12 +95,12 @@ Selling to private individuals online adds obligations:
 ## Check your own site in two minutes
 
 1. Open any page other than the home page and scroll to the bottom. Are the name, address and IČO there?
-2. Find the register entry — court, section, insert number.
+2. Find the register entry: court, section, insert number.
 3. Compare the address on the site with the one in your Google listing. Character for character?
 4. If you are VAT registered, is the IČ DPH there?
-5. If you run a shop — are the terms, the right of withdrawal and the dispute platform link present?
+5. If you run a shop, are the terms, the right of withdrawal and the dispute platform link present?
 
-If any answer is no, it is fifteen minutes of work — and the same fifteen minutes decide whether a buyer trusts you enough to pay.
+If any answer is no, it is fifteen minutes of work, and the same fifteen minutes decide whether a buyer trusts you enough to pay.
 
 ## If it needs putting right
 

@@ -13,7 +13,7 @@ services:
   - 'Katalóg a košík'
 order: 5
 ---
-![BODA BODA — veľkoobchodný e-shop s vanilkou a kávou | White Eagles & Co.](/assets/portfolio-bodabo.webp)
+![BODA BODA: veľkoobchodný e-shop s vanilkou a kávou | White Eagles & Co.](/assets/portfolio-bodabo.webp)
 
 # BODA BODA: veľkoobchodný e-shop s vanilkou, kávou a kakaovými bôbmi
 
@@ -23,7 +23,7 @@ Veľkoobchodný predaj vanilky, kávy a kakaových bôbov. E-shop postavený nie
 
 Rozdiel nie je v dizajne, ale v tom, ako sa človek rozhoduje.
 
-Maloobchodný zákazník vyberá emocionálne a objedná hneď. Veľkoobchodný najprv zisťuje: pôvod, úrodu, odrodu, veľkosť dávky, cenu podľa objemu, termíny dodania. Porovnáva, počíta a vracia sa — niekedy o týždeň.
+Maloobchodný zákazník vyberá emocionálne a objedná hneď. Veľkoobchodný najprv zisťuje: pôvod, úrodu, odrodu, veľkosť dávky, cenu podľa objemu, termíny dodania. Porovnáva, počíta a vracia sa, niekedy o týždeň.
 
 Z toho vyplýva, že katalóg musí odpovedať na otázky, nielen ukazovať fotky. Tovar bez zrozumiteľného popisu sa vo veľkoobchode nepredá: nie je ho s čím porovnať oproti konkurencii.
 
@@ -31,7 +31,7 @@ Z toho vyplýva, že katalóg musí odpovedať na otázky, nielen ukazovať fotk
 
 E-shop s katalógom, košíkom a objednávkou, postavený okolo veľkoobchodnej logiky: karta produktu nesie parametre, podľa ktorých sa kupujúci rozhoduje, nie iba názov a cenu.
 
-Web funguje rýchlo na mobile — nákupca si katalóg často pozerá mimo pracovného stola.
+Web funguje rýchlo na mobile, lebo nákupca si katalóg často pozerá mimo pracovného stola.
 
 ## Čo to prinieslo
 

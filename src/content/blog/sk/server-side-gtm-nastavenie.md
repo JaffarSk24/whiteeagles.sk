@@ -89,7 +89,7 @@ Až keď týchto päť bodov funguje a rozdiel medzi schránkou a GA4 stále zos
 
 Dve položky, a druhá sa pri rozhodovaní často zabúda.
 
-**Nastavenie** - od **500 €**, hodinová sadzba **25 €/hod**. Zahŕňa server, vlastnú subdoménu, prenos kontajnera, prepojenie s GA4 a reklamnými účtami a testovanie.
+**Nastavenie** - od **500€**, hodinová sadzba **25€/hod**. Zahŕňa server, vlastnú subdoménu, prenos kontajnera, prepojenie s GA4 a reklamnými účtami a testovanie.
 
 **Prevádzka servera** - opakovaný mesačný náklad. Presná suma závisí od návštevnosti; podstatné je, že na rozdiel od bežného GA4, ktoré nestojí nič, tu platíte každý mesiac aj vtedy, keď je pokoj.
 
@@ -121,7 +121,7 @@ Piaty bod vynecháva väčšina návodov, a práve on odpovedá na otázku, či 
 
 ## Ak potrebujete pomoc
 
-Najprv sa pozriem, či strácate dáta kvôli blokovačom alebo kvôli meraniu, ktoré nikdy nebežalo správne - a poviem to na rovinu aj vtedy, keď z toho nevyjde väčšia zákazka. Nastavenie merania od **500 €**, sadzba **25 €/hod**.
+Najprv sa pozriem, či strácate dáta kvôli blokovačom alebo kvôli meraniu, ktoré nikdy nebežalo správne - a poviem to na rovinu aj vtedy, keď z toho nevyjde väčšia zákazka. Nastavenie merania od **500€**, sadzba **25€/hod**.
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 

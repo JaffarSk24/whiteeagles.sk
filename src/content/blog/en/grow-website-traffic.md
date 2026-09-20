@@ -28,11 +28,11 @@ Below are seven sources, each of which can be started with no advertising budget
 
 [CTA_FORM:consult]
 
-## 1. A Google Business Profile — the fastest
+## 1. A Google Business Profile, the fastest
 
 If you have an address or work in a specific city, this is the first thing to do.
 
-The listing appears on maps and in the local block above the organic results. It does not have to wait for the site to be indexed or for the domain to gain weight — it works almost immediately.
+The listing appears on maps and in the local block above the organic results. It does not have to wait for the site to be indexed or for the domain to gain weight, it works almost immediately.
 
 What actually affects its position:
 
@@ -55,7 +55,7 @@ Each entry gives a link and confirms the company exists. Individually trivial, t
 
 ## 3. Communities: the most underrated channel
 
-For a Russian-speaking entrepreneur in Slovakia this is arguably the most effective free source — and the most inconvenient, because it demands your personal involvement.
+For a Russian-speaking entrepreneur in Slovakia this is arguably the most effective free source, and the most inconvenient, because it demands your personal involvement.
 
 The mechanism: in Facebook groups and Telegram chats of Russian-speakers in Slovakia, people constantly ask about business, documents, websites, payments, cash registers. A substantive answer to such a question is reputation and traffic at once.
 
@@ -69,7 +69,7 @@ And a side benefit worth more than the traffic: **every question asked is a read
 
 ## 4. Links you already have
 
-If you make things for clients — websites, renovations, signage — you have access to places where a link to you belongs.
+If you make things for clients (websites, renovations, signage), you have access to places where a link to you belongs.
 
 A line in the footer of a client's site reading "Website by …" is a relevant link from a Slovak domain in the same field. Exactly what competitors pay money for.
 
@@ -90,7 +90,7 @@ What works in the Slovak context:
 
 **Realistic timescale:** first positions in 2-3 months, noticeable traffic in 4-6, at 20-30 pages.
 
-How to check whether the site has anything to grow from — [the DIY SEO audit](/en/blog/seo-audit-yourself/).
+How to check whether the site has anything to grow from: [the DIY SEO audit](/en/blog/seo-audit-yourself/).
 
 [CTA_FORM:audit]
 
@@ -98,7 +98,7 @@ How to check whether the site has anything to grow from — [the DIY SEO audit](
 
 The scheme that works best in Slovakia and is barely used.
 
-Your client has an accountant, a lawyer, a relocation agency, an estate agent, a translator. They have the same client but a different service — there is no competition and a recommendation is natural.
+Your client has an accountant, a lawyer, a relocation agency, an estate agent, a translator. They have the same client but a different service, so there is no competition and a recommendation is natural.
 
 Five to eight such partners produce a flow of enquiries independent of both Google and budget. And unlike advertising, it does not stop when you stop paying.
 
@@ -108,7 +108,7 @@ The easiest place to start is with people you have already worked alongside.
 
 The most underused resource is the people who have already bought from you, or enquired and did not buy.
 
-They need no explanation of who you are. A letter once a month with something useful — a change in the rules, a common mistake explained — keeps you in view. When the need arises they will remember you rather than the search results.
+They need no explanation of who you are. A letter once a month with something useful (a change in the rules, a common mistake explained) keeps you in view. When the need arises they will remember you rather than the search results.
 
 ## What not to do
 
@@ -116,7 +116,7 @@ Three things that waste time and sometimes cause harm:
 
 **Buying links.** Against the rules, and on a small Slovak market conspicuous as well.
 
-**Chasing traffic volume.** The visitor count means nothing by itself. Count enquiries — and for that you first need [measurement configured](/en/blog/ga4-setup/).
+**Chasing traffic volume.** The visitor count means nothing by itself. Count enquiries, and for that you first need [measurement configured](/en/blog/ga4-setup/).
 
 **Writing "for SEO".** A text stuffed with repeated keywords is closed after a paragraph, and search sees that in the behaviour.
 
@@ -129,11 +129,11 @@ Trying to do everything at once means doing nothing. The order:
 3. Add yourself to three Slovak directories with an identical NAP.
 4. Put links in the footers of sites you have access to.
 5. Pick two communities and start answering.
-6. Write the first page — on the question you are asked most often.
+6. Write the first page, on the question you are asked most often.
 
 ## If you need help
 
-I can look at what is holding the site back and say where your fastest win is — the [free website audit](/en/seo-audit/), result within 3 working days.
+I can look at what is holding the site back and say where your fastest win is: the [free website audit](/en/seo-audit/), result within 3 working days.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
@@ -141,6 +141,6 @@ If waiting 3-6 months is not an option, organic growth can be propped up with pa
 
 Related: [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/), [Google Ads or Meta](/en/blog/google-ads-or-meta/), [Google Ads in Slovakia](/en/blog/google-ads-getting-started/) and [do you need a site in Slovak](/en/blog/do-you-need-slovak-website/).
 
-If you run a restaurant, café or bar, footfall works differently from services — [a website for a restaurant](/en/blog/restaurant-website/).
+If you run a restaurant, café or bar, footfall works differently from services: [a website for a restaurant](/en/blog/restaurant-website/).
 
 [CTA_FORM:webdev]

@@ -1,8 +1,8 @@
 ---
 title: 'Koľko stojí web na Slovensku v roku 2026: ceny podľa typu a čo je v nich'
 description: >-
-  Skutočné ceny za tvorbu webu na Slovensku: landing page od 1 500 €, firemný web
-  od 3 500 €, e-shop od 5 000 €. Čo je v cene a na aké náklady sa zabúda.
+  Skutočné ceny za tvorbu webu na Slovensku: landing page od 1 500€, firemný web
+  od 3 500€, e-shop od 5 000€. Čo je v cene a na aké náklady sa zabúda.
 date: '2026-08-04'
 updated: '2026-09-20'
 key: 'website-cost'
@@ -32,17 +32,17 @@ Nižšie sú konkrétne čísla podľa typu a hlavne vysvetlenie, za čo sa vlas
 
 | Typ | Cena | Komu sedí |
 |---|---|---|
-| **Landing page** | **od 1 500 €** | jedna služba, jedna ponuka, reklama na konkrétny produkt |
-| **Firemný web** | **od 3 500 €** | firma s viacerými službami, portfóliom, blogom |
-| **E-shop** | **od 5 000 €** | predaj tovaru s košíkom, platbou a dopravou |
+| **Landing page** | **od 1 500€** | jedna služba, jedna ponuka, reklama na konkrétny produkt |
+| **Firemný web** | **od 3 500€** | firma s viacerými službami, portfóliom, blogom |
+| **E-shop** | **od 5 000€** | predaj tovaru s košíkom, platbou a dopravou |
 
-Hodinová sadzba za úpravy je **35 €**.
+Hodinová sadzba za úpravy je **35€**.
 
 Výsledok v rámci každej kategórie určujú štyri veci: počet stránok, počet jazykov, integrácie (CRM, platby, rezervácie, sklad) a rozsah individuálneho dizajnu.
 
 ## Prečo existuje web za 500 eur
 
-Takéto ponuky existujú a je dobré vedieť, čo je za nimi: hotová téma na WordPresse s vymenenými textami a logom. Nie je to podvod — pre niektoré úlohy je to funkčné riešenie.
+Takéto ponuky existujú a je dobré vedieť, čo je za nimi: hotová téma na WordPresse s vymenenými textami a logom. Nie je to podvod, pre niektoré úlohy je to funkčné riešenie.
 
 Problémy prídu neskôr:
 
@@ -60,16 +60,16 @@ Podobne je to s webom „zadarmo" v konštruktore: kedy stačí a kedy stojí z�
 Aby ste vedeli porovnávať ponuky, treba vedieť, čo vôbec môže byť v rozpočte:
 
 - **štruktúra podľa vašich úloh**, nie prispôsobovanie podnikania šablóne
-- **responzívne kódovanie** — viac než polovica návštevníkov príde z mobilu
+- **responzívne kódovanie**: viac než polovica návštevníkov príde z mobilu
 - **formuláre s ochranou proti spamu** a overením, že e-maily naozaj chodia
 - **napojenie domény a hostingu**, e-mail na vlastnej doméne
-- **povinné údaje** — IČO, DIČ, údaj o zápise v registri ([čo presne treba](/sk/blog/obyazatelnye-rekvizity-sajta/))
+- **povinné údaje**: IČO, DIČ, údaj o zápise v registri ([čo presne treba](/sk/blog/obyazatelnye-rekvizity-sajta/))
 - **cookie lišta s Consent Mode v2** ([prečo je povinná](/sk/blog/cookie-lista-2026-povinnosti/))
 - **analytika GA4 a Tag Manager** s meraním dopytov, nie len návštev
-- **základné SEO nastavenie** — nadpisy, štruktúrované dáta, sitemap, Search Console
+- **základné SEO nastavenie**: nadpisy, štruktúrované dáta, sitemap, Search Console
 - **šesť mesiacov technickej podpory** zadarmo
 
-Posledné štyri body v lacných ponukách zvyčajne chýbajú — a práve ony rozhodujú, či bude web prinášať dopyty.
+Posledné štyri body v lacných ponukách zvyčajne chýbajú, a práve ony rozhodujú, či bude web prinášať dopyty.
 
 [CTA_FORM:webdev]
 
@@ -77,7 +77,7 @@ Posledné štyri body v lacných ponukách zvyčajne chýbajú — a práve ony 
 
 Rozpočet na vývoj nie je celá cena vlastníctva webu.
 
-**Doména a hosting** — približne 50 až 150 € ročne. Drobnosť, ale vedené majú byť na vás, nie na dodávateľa ([prečo je to dôležité](/sk/blog/domen-sk-kak-kupit/)).
+**Doména a hosting**: približne 50 až 150€ ročne. Drobnosť, ale vedené majú byť na vás, nie na dodávateľa ([prečo je to dôležité](/sk/blog/domen-sk-kak-kupit/)).
 
 **Texty.** Kto ich napíše? Ak vy, počítajte s vlastným časom. Ak copywriter, je to samostatná a citeľná položka.
 
@@ -85,7 +85,7 @@ Rozpočet na vývoj nie je celá cena vlastníctva webu.
 
 **Platobná brána**, ak predávate: napojenie plus percento z každej transakcie ([ako si vybrať](/sk/blog/priem-oplaty-kartoy/)).
 
-**Podpora po spustení.** Aktualizácie, zálohy, opravy. U mňa je prvý polrok v cene, ďalej po hodinách. Inde býva predplatné 50 až 200 € mesačne.
+**Podpora po spustení.** Aktualizácie, zálohy, opravy. U mňa je prvý polrok v cene, ďalej po hodinách. Inde býva predplatné 50 až 200€ mesačne.
 
 Pýtajte sa na každú položku vopred. Rozdiel medzi „web za 2 000“ a „web za 3 500“ sa často vysvetlí práve týmto zoznamom.
 
@@ -101,11 +101,11 @@ Ponuka s nižšou cenou, kde na tieto otázky odpoveď nie je, vychádza zvyčaj
 
 ## Lehoty
 
-- landing page — týždeň až dva
-- firemný web — dva až štyri týždne
-- e-shop — dlhšie, podľa katalógu a integrácií
+- landing page: týždeň až dva
+- firemný web: dva až štyri týždne
+- e-shop: dlhšie, podľa katalógu a integrácií
 
-V priemere odovzdávam za **10 pracovných dní**, 90 % projektov do 15. Je to možné preto, že nevyžadujem štyridsaťstranové zadanie: riešenie navrhnem sám po krátkom rozhovore o úlohách podnikania.
+V priemere odovzdávam za **10 pracovných dní**, 90% projektov do 15. Je to možné preto, že nevyžadujem štyridsaťstranové zadanie: riešenie navrhnem sám po krátkom rozhovore o úlohách podnikania.
 
 ## Záver
 
@@ -113,7 +113,7 @@ Web sa nevráti dizajnom, ale tým, či cezeň chodia dopyty. Všetko, za čo sa
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**: Biliardovňa, Krása štúdio, Top Sklad, Synchro Žralok, Bodabo. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
-Podrobnosti a čo je v cene nájdete na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Ak web už máte a neprináša klientov — [bezplatný SEO audit webstránky](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Podrobnosti a čo je v cene nájdete na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Ak web už máte a neprináša klientov: [bezplatný SEO audit webstránky](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 Podobné rozbory pre ďalšie odvetvia: [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/), [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/), [web pre športový klub](/sk/blog/web-pre-sportovy-klub/), [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
 

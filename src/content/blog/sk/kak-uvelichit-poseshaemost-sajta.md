@@ -28,11 +28,11 @@ Nižšie je sedem zdrojov návštevnosti, z ktorých každý sa dá spustiť bez
 
 [CTA_FORM:consult]
 
-## 1. Karta v Google Business Profile — najrýchlejšie
+## 1. Karta v Google Business Profile: najrýchlejšie
 
 Ak máte adresu alebo pôsobíte v konkrétnom meste, toto treba spraviť ako prvé.
 
-Karta sa zobrazuje na mapách a v lokálnom bloku nad organickými výsledkami. Nemusí čakať na indexáciu webu ani zbierať váhu domény — funguje takmer okamžite.
+Karta sa zobrazuje na mapách a v lokálnom bloku nad organickými výsledkami. Nemusí čakať na indexáciu webu ani zbierať váhu domény, funguje takmer okamžite.
 
 Čo naozaj vplýva na jej pozíciu:
 
@@ -55,7 +55,7 @@ Každý záznam dá odkaz a potvrdí existenciu firmy. Jednotlivo je to drobnos�
 
 ## 3. Komunity: najviac podceňovaný kanál
 
-Je to pravdepodobne najúčinnejší bezplatný zdroj — a zároveň najnepohodlnejší, lebo vyžaduje osobnú účasť.
+Je to pravdepodobne najúčinnejší bezplatný zdroj, a zároveň najnepohodlnejší, lebo vyžaduje osobnú účasť.
 
 Mechanika: vo facebookových skupinách a telegramových chatoch sa neustále pýtajú na podnikanie, doklady, weby, platby, pokladne. Obsažná odpoveď na takú otázku je zároveň reputácia aj návštevnosť.
 
@@ -69,7 +69,7 @@ A vedľajší zisk, ktorý je cennejší než samotná návštevnosť: **každá
 
 ## 4. Odkazy, ktoré už máte
 
-Ak pre klientov niečo robíte — weby, rekonštrukcie, grafiku — máte prístup k miestam, kde je odkaz na vás namieste.
+Ak pre klientov niečo robíte (weby, rekonštrukcie, grafiku), máte prístup k miestam, kde je odkaz na vás namieste.
 
 Riadok v pätičke webu klienta v štýle „Web vytvoril …" je relevantný odkaz zo slovenskej domény z rovnakej oblasti. Presne to, čo konkurencia kupuje za peniaze.
 
@@ -98,7 +98,7 @@ Ako overiť, či má web z čoho rásť, je v článku [SEO audit svojpomocne](/
 
 Schéma, ktorá na Slovensku funguje najlepšie a takmer sa nevyužíva.
 
-Váš klient má účtovníka, právnika, realitného makléra, prekladateľa. Majú rovnakého klienta, ale inú službu — konkurencia neexistuje a odporúčanie je prirodzené.
+Váš klient má účtovníka, právnika, realitného makléra, prekladateľa. Majú rovnakého klienta, ale inú službu: konkurencia neexistuje a odporúčanie je prirodzené.
 
 Päť až osem takých partnerov dá tok dopytov, ktorý nezávisí ani od Googlu, ani od rozpočtu. A na rozdiel od reklamy sa nekončí vtedy, keď prestanete platiť.
 
@@ -116,7 +116,7 @@ Tri veci, ktoré míňajú čas a niekedy škodia:
 
 **Kupovať odkazy.** Porušenie pravidiel a na malom slovenskom trhu aj nápadné.
 
-**Naháňať objem návštevnosti.** Číslo návštevnosti samo osebe nič neznamená. Rátať treba dopyty — a na to najprv [nastaviť ich meranie](/sk/blog/nastavenie-google-analytics-4/).
+**Naháňať objem návštevnosti.** Číslo návštevnosti samo osebe nič neznamená. Rátať treba dopyty, a na to najprv [nastaviť ich meranie](/sk/blog/nastavenie-google-analytics-4/).
 
 **Písať „pre SEO".** Text napchatý opakovaním kľúčových slov čitateľ zavrie po odseku a vyhľadávanie to vidí na správaní.
 
@@ -129,11 +129,11 @@ Ak sa robí všetko naraz, nespraví sa nič. Poradie je takéto:
 3. Pridať sa do troch slovenských katalógov s rovnakým NAP.
 4. Doplniť odkazy do pätičiek webov, ku ktorým máte prístup.
 5. Vybrať dve komunity a začať odpovedať.
-6. Napísať prvú stránku — na otázku, ktorú dostávate najčastejšie.
+6. Napísať prvú stránku: na otázku, ktorú dostávate najčastejšie.
 
 ## Ak treba pomôcť
 
-Môžem sa pozrieť, čo webu bráni rásť, a povedať, kde máte najrýchlejší zisk — [bezplatný audit webu](/sk/seo-audit/), výsledok do 3 pracovných dní.
+Môžem sa pozrieť, čo webu bráni rásť, a povedať, kde máte najrýchlejší zisk: [bezplatný audit webu](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
@@ -141,6 +141,6 @@ Ak niet času čakať 3-6 mesiacov, organiku sa dá podoprieť plateným traffic
 
 K téme: [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads na Slovensku](/sk/blog/google-ads-small-business/) a [treba web po slovensky](/sk/blog/nuzhen-li-sajt-na-slovackom/).
 
-Ak máte reštauráciu, kaviareň alebo bar, návštevnosť sa rieši inak než u služieb — [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
+Ak máte reštauráciu, kaviareň alebo bar, návštevnosť sa rieši inak než u služieb: [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
 
 [CTA_FORM:webdev]

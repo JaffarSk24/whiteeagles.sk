@@ -26,21 +26,21 @@ faq:
 
 # eKasa in 2026: who needs an online cash register and what changed on 1 January
 
-Since 1 January 2026 Slovakia has a new revenue recording act — **No. 384/2025**. It changes two things, and each of them touches almost every small business.
+Since 1 January 2026 Slovakia has a new revenue recording act (**No. 384/2025**). It changes two things, and each of them touches almost every small business.
 
-**First: the exemptions for services are gone.** Some activities used to be exempt by SK NACE code. Not any more — the obligation now covers all services, craft trades included.
+**First: the exemptions for services are gone.** Some activities used to be exempt by SK NACE code. Not any more. The obligation now covers all services, craft trades included.
 
-**Second, and more important: from 1 May 2026 you must give the customer the option to pay cashlessly** — by card, transfer or QR code — on any purchase above one euro.
+**Second, and more important: from 1 May 2026 you must give the customer the option to pay cashlessly** (by card, transfer or QR code) on any purchase above one euro.
 
 Below is who this applies to, who it does not, and what to do about it.
 
-**To be clear from the start:** I do not register companies, keep books or handle taxes — that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
+**To be clear from the start:** I do not register companies, keep books or handle taxes: that is a notary's and an accountant's job. My work begins after the register entry: website, domain and email, advertising, analytics. This article is here so you know the order of steps.
 
 [CTA_FORM:webdev]
 
 ## Who needs an eKasa
 
-The obligation to record revenue applies to sellers — individuals and companies holding a business authorisation — **who take payment for goods or services in cash or by card on the spot**. Where you live or are registered makes no difference.
+The obligation to record revenue applies to sellers (individuals and companies holding a business authorisation) **who take payment for goods or services in cash or by card on the spot**. Where you live or are registered makes no difference.
 
 The key phrase is **cash or card on the spot**. If you issue an invoice and the client pays by bank transfer, you do not need an eKasa. That is exactly why many B2B companies operate without a cash register at all, entirely legally.
 
@@ -66,8 +66,8 @@ The new act recognises three options:
 
 | Type | What it is | Who it suits |
 |---|---|---|
-| **ORP** — online cash register | a physical device | fixed premises with heavy traffic |
-| **VRP** — virtual | an app on a phone or tablet | small turnover, work on the move |
+| **ORP**: online cash register | a physical device | fixed premises with heavy traffic |
+| **VRP**: virtual | an app on a phone or tablet | small turnover, work on the move |
 | **Software (cloud)** | the register as a service | integration with a website, shop or CRM |
 
 The software register entered the law as a category of its own in 2026. For anyone selling through a website who wants receipts issued automatically, it is the most practical option.
@@ -76,7 +76,7 @@ The software register entered the law as a category of its own in 2026. For anyo
 
 This is the part almost nobody is thinking about yet, and the date is close.
 
-From **1 May 2026** a seller must **give the buyer the option to pay cashlessly** — by card, transfer or QR code — on any purchase above **one euro**. The single exception is no internet connection at the point of sale.
+From **1 May 2026** a seller must **give the buyer the option to pay cashlessly** (by card, transfer or QR code) on any purchase above **one euro**. The single exception is no internet connection at the point of sale.
 
 The wording of the law matters: the duty is not to install a terminal but to **make it possible**. A QR code for a transfer meets the requirement and costs less than a terminal.
 
@@ -88,15 +88,15 @@ The penalty for non-compliance is **500 to 15,000 euros**.
 
 One more new duty: sellers accepting cash or the listed cashless methods must display, **in a visible and clearly legible place**, a notice stating that they are obliged to record revenue.
 
-A small thing — and exactly the kind of small thing an inspection catches.
+A small thing, and exactly the kind of small thing an inspection catches.
 
 ## Penalties
 
 The sanctions were tightened:
 
-- **first breach — 500 to 15,000 euros**
-- **repeat — 3,000 to 40,000 euros**
-- separately for failing to accept cashless payment — 500 to 15,000 euros
+- **first breach: 500 to 15,000 euros**
+- **repeat: 3,000 to 40,000 euros**
+- separately for failing to accept cashless payment: 500 to 15,000 euros
 - in serious cases the financial administration may propose **withdrawal of the trade licence**
 
 A separate reminder about cash limits: cash payments above **5,000 euros** are prohibited, and between private individuals outside business above **15,000 euros**.
@@ -115,7 +115,7 @@ Here is the part that usually gets missed, and it costs money.
 
 ## Common mistakes
 
-**Assuming a craft trade is still exempt.** It is not — that changed on 1 January.
+**Assuming a craft trade is still exempt.** It is not. That changed on 1 January.
 
 **Treating 1 May as an issue for shops only.** It applies to services too, including a courier taking payment on delivery.
 
