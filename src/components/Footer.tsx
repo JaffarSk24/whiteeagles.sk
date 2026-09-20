@@ -108,7 +108,12 @@ const FooterInfo = () => {
       <h3>
         White Eagles & Co. s.r.o. <span className="company-desc-inline">{t("company_desc")}</span>
       </h3>
-      <p className="company-details">IČO: 57098581, DIČ: 2122566292, Sídlo: Kukučínova 12, 900 31 Stupava</p>
+      {/* Povinné údaje podľa §3a Obchodného zákonníka: meno z registra, sídlo,
+          IČO a zápis v obchodnom registri. Zostáva po slovensky vo všetkých
+          jazykoch, lebo ide o údaje zo slovenského registra. */}
+      <p className="company-details">
+        IČO: 57098581, DIČ: 2122566292, Sídlo: Kukučínova 1562/12, 900 31 Stupava. Zapísaná v Obchodnom registri Mestského súdu Bratislava III, oddiel Sro, vložka č. 189990/B.
+      </p>
       <div className="footer-legal-links">
         <Link href="/terms" className="footer-link-small">{t("terms")}</Link>
         <Link href="/privacy" className="footer-link-small">{t("privacy")}</Link>
