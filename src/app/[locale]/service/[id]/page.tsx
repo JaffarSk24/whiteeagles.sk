@@ -303,10 +303,10 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                       <tbody>
                         {page.pricing.map((row, i) => (
                           <tr key={i}>
-                            <td>{row.type}</td>
-                            <td className="detail-price-table-price">{row.price}</td>
-                            <td>{row.includes}</td>
-                            <td>{row.time}</td>
+                            <td data-label={page.pricing_head?.type}>{row.type}</td>
+                            <td className="detail-price-table-price" data-label={page.pricing_head?.price}>{row.price}</td>
+                            <td data-label={page.pricing_head?.includes}>{row.includes}</td>
+                            <td data-label={page.pricing_head?.time}>{row.time}</td>
                           </tr>
                         ))}
                       </tbody>
