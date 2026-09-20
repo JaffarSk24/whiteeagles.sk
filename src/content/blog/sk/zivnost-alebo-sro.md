@@ -18,7 +18,7 @@ faq:
   - q: 'Koľko platí živnostník na odvodoch v roku 2026?'
     a: 'Minimálne 425,03 eura mesačne: 121,92 eura zdravotné poistenie a 303,11 eura sociálne. Je to približne 5 100 eur ročne bez ohľadu na zárobok.'
   - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
-    a: 'Ing. Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
+    a: 'Ing. Kirill Mosin, White Eagles & Co. s. r. o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![Živnosť alebo s.r.o.: čo si vybrať pri podnikaní | White Eagles & Co.](/assets/blog/podniksro.webp)
 

@@ -22,7 +22,7 @@ export async function JsonLd({ locale }: { locale: string }) {
 
   const siteUrl = "https://whiteeagles.sk";
   const orgName = "White Eagles & Co.";
-  const legalName = "White Eagles & Co. s.r.o.";
+  const legalName = "White Eagles & Co. s. r. o.";
 
   const sameAsLinks = [
     "https://t.me/whiteeaglessk",

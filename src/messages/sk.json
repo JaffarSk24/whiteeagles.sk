@@ -828,7 +828,7 @@
     "next_line": "Prečítam si, čo píšete, a do 24 hodín pošlem otázky alebo rovno ponuku s cenou a termínom, bez záväzku."
   },
   "company": {
-    "name": "White Eagles & Co. s.r.o.",
+    "name": "White Eagles & Co. s. r. o.",
     "address": "Kukučínova 1562/12, 900 31 Stupava",
     "id": "IČO: 57098581, DIČ: 2122566292, zapísaná v Obchodnom registri Mestského súdu Bratislava III, oddiel Sro, vložka č. 189990/B"
   },
@@ -850,7 +850,7 @@
     "description": "Ako zhromažďujeme, používame a chránime vaše osobné údaje.",
     "intro": "Vážime si vaše súkromie a zaväzujeme sa chrániť vaše osobné údaje.",
     "controller_title": "Prevádzkovateľ údajov",
-    "controller_text": "Prevádzkovateľom údajov je White Eagles & Co. s.r.o., Kukučínova 1562/12, 900 31 Stupava.",
+    "controller_text": "Prevádzkovateľom údajov je White Eagles & Co. s. r. o., Kukučínova 1562/12, 900 31 Stupava.",
     "data_collection_title": "Zhromažďované údaje",
     "data_collection_text": "Údaje zhromažďujeme prostredníctvom analytických nástrojov na zlepšenie našich služieb:",
     "purpose_title": "Účel spracovania",
@@ -959,7 +959,7 @@
     "diy_text": "Prvé kontroly zvládnete za hodinu a bez toho, aby ste niekomu písali: indexácia, duplicitné adresy, rýchlosť na mobile a či sa dopyty vôbec počítajú. Postup krok za krokom je tu:",
     "diy_link": "SEO audit webu svojpomocne: 9 kontrol",
     "trust_title": "Kto audit robí",
-    "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s.r.o. Na Slovensku žijem viac ako 10 rokov, mám za sebou vyše 12 spustených webov pre slovenské firmy a viem, ako sa tu správa zákazník aj úrad. Fakturujem so slovenským IČO. Hovoríme po slovensky, rusky aj anglicky.",
+    "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s. r. o. Na Slovensku žijem viac ako 10 rokov, mám za sebou vyše 12 spustených webov pre slovenské firmy a viem, ako sa tu správa zákazník aj úrad. Fakturujem so slovenským IČO. Hovoríme po slovensky, rusky aj anglicky.",
     "cta_title": "Chcete vedieť, čo brzdí váš web?",
     "cta_text": "Napíšte adresu stránky a ozvem sa s auditom do 3 pracovných dní.",
     "cta_button": "Chcem audit zdarma",
@@ -1083,7 +1083,7 @@
     ]
   },
   "author": {
-    "line": "Zakladateľ White Eagles & Co. s.r.o. Na Slovensku viac ako 10 rokov, 12+ webov pre slovenské firmy, weby na modernom stacku, oprava webov, reklama a meranie.",
+    "line": "Zakladateľ White Eagles & Co. s. r. o. Na Slovensku viac ako 10 rokov, 12+ webov pre slovenské firmy, weby na modernom stacku, oprava webov, reklama a meranie.",
     "button": "Chcem cenovú ponuku",
     "telegram": "Napísať na Telegram"
   },

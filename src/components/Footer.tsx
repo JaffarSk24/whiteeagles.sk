@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="copyright">
-          &copy; {new Date().getFullYear()} White Eagles & Co. s.r.o. All rights reserved.
+          &copy; {new Date().getFullYear()} White Eagles & Co. s. r. o. All rights reserved.
         </div>
       </div>
     </footer>
@@ -106,7 +106,7 @@ const FooterInfo = () => {
   return (
     <>
       <h3>
-        White Eagles & Co. s.r.o. <span className="company-desc-inline">{t("company_desc")}</span>
+        White Eagles & Co. s. r. o. <span className="company-desc-inline">{t("company_desc")}</span>
       </h3>
       {/* Povinné údaje podľa §3a Obchodného zákonníka: meno z registra, sídlo,
           IČO a zápis v obchodnom registri. Zostáva po slovensky vo všetkých

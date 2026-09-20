@@ -841,7 +841,7 @@
     "next_line": "I read what you wrote and within 24 hours send questions or a quote with a price and a deadline, no obligation."
   },
   "company": {
-    "name": "White Eagles & Co. s.r.o.",
+    "name": "White Eagles & Co. s. r. o.",
     "address": "Kukučínova 1562/12, 900 31 Stupava",
     "id": "IČO: 57098581, DIČ: 2122566292, registered in the Commercial Register of the Mestský súd Bratislava III, section Sro, insert no. 189990/B"
   },
@@ -863,7 +863,7 @@
     "description": "How we collect, use, and protect your personal data.",
     "intro": "We value your privacy and are committed to protecting your personal data.",
     "controller_title": "Data Controller",
-    "controller_text": "The data controller is White Eagles & Co. s.r.o., Kukučínova 1562/12, 900 31 Stupava.",
+    "controller_text": "The data controller is White Eagles & Co. s. r. o., Kukučínova 1562/12, 900 31 Stupava.",
     "data_collection_title": "Data We Collect",
     "data_collection_text": "We collect data through analytics tools to improve our services:",
     "purpose_title": "Purpose of Processing",
@@ -959,7 +959,7 @@
     "diy_text": "The first checks take an hour and require writing to nobody: indexing, duplicate addresses, speed on mobile, and whether enquiries are counted at all. The step-by-step is here:",
     "diy_link": "A DIY SEO audit: 9 checks",
     "trust_title": "Who runs the audit",
-    "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s.r.o. I have lived in Slovakia for more than 10 years, launched 12+ sites for Slovak companies, and know how buyers and institutions behave here. I invoice with a Slovak company number. We speak Slovak, Russian and English.",
+    "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s. r. o. I have lived in Slovakia for more than 10 years, launched 12+ sites for Slovak companies, and know how buyers and institutions behave here. I invoice with a Slovak company number. We speak Slovak, Russian and English.",
     "cta_title": "Want to know what is holding your site back?",
     "cta_text": "Send your address and I will come back with the audit within 3 working days.",
     "cta_button": "Get the free audit",
@@ -1083,7 +1083,7 @@
     ]
   },
   "author": {
-    "line": "Founder of White Eagles & Co. s.r.o. More than 10 years in Slovakia, 12+ websites for Slovak companies: sites on a modern stack, website repair, advertising and measurement.",
+    "line": "Founder of White Eagles & Co. s. r. o. More than 10 years in Slovakia, 12+ websites for Slovak companies: sites on a modern stack, website repair, advertising and measurement.",
     "button": "Get a quote",
     "telegram": "Message on Telegram"
   },

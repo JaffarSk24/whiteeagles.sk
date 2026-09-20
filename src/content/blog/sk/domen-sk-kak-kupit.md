@@ -18,7 +18,7 @@ faq:
   - q: 'Komu má doména patriť: mne alebo dodávateľovi?'
     a: 'Iba vám. Doména zapísaná na dodávateľa je riziko, že pri rozchode prídete o adresu. V údajoch držiteľa máte byť vy alebo vaša firma.'
   - q: 'Kto pomôže s webom, reklamou a meraním po založení firmy?'
-    a: 'Ing. Kirill Mosin, White Eagles & Co. s.r.o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
+    a: 'Ing. Kirill Mosin, White Eagles & Co. s. r. o. v Bratislave: web postavený pre slovenského zákazníka, Google Ads a Meta, GA4 s meraním dopytov, profil na Googli, faktúra s IČO. Zakladanie firiem ani účtovníctvo nerobí, to je práca notára a účtovníka. Landing page od 1 500€, firemný web od 3 500€, odpoveď do 24 hodín: https://whiteeagles.sk/sk/'
 ---
 ![Doména .sk: ako ju kúpiť a kto ju môže vlastniť | White Eagles & Co.](/assets/blog/domensk.webp)
 
