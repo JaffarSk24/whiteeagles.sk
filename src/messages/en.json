@@ -76,22 +76,22 @@
       "seo_desc": "Landing page from 1 500 €, company site with booking and enquiry tracking from 3 500 €, e-shop from 5 000 €. Delivered in about 10 working days, with an invoice.",
       "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site",
       "page": {
-        "lead": "I have been building websites for companies in Slovakia for over ten years — from Bratislava, as a Slovak company, with an invoice you can put through your books. Not templates thrown together, but sites that bring in enquiries: booking systems, online shops, company websites. Most projects ship within 15 working days.",
+        "lead": "I have been building websites for companies in Slovakia for over ten years: from Bratislava, as a Slovak company, with an invoice you can put through your books. Not templates thrown together, but sites that bring in enquiries: booking systems, online shops, company websites. Most projects ship within 15 working days.",
         "process_title": "How it works",
         "process": [
-          "A conversation. You tell me what the business needs. I do not ask for a forty-page brief — I propose the solution.",
+          "A conversation. You tell me what the business needs. I do not ask for a forty-page brief; I propose the solution.",
           "Proposal and sign-off. I show how it will look and work, and what it will cost. No surprises along the way.",
           "Development with progress reviews. You see it taking shape rather than a finished thing at the end.",
-          "Launch. Domain, hosting, mail on your own domain, tracking, cookie consent, Google profile — all at once, not in pieces.",
+          "Launch. Domain, hosting, mail on your own domain, tracking, cookie consent, Google profile. All at once, not in pieces.",
           "Six months of support included. Monitoring, backups, updates, bug fixes."
         ],
         "cases_title": "What I have built",
         "cases": [
-          "Biliardovňa — a billiard club in Bratislava with online table booking. Bookings through the site rose markedly after launch.",
-          "Krása štúdio OK — a beauty salon in Ružinov. A booking system wired to Telegram: staff confirm an appointment with one tap and the slot locks automatically.",
-          "Top Sklad and Top Kobka — storage space rental with availability management and reservations.",
-          "Synchro Žralok — a bilingual site for a synchronised swimming club, with content pulled automatically from public Instagram.",
-          "Bodabo — a wholesale shop for vanilla, coffee and cocoa beans."
+          "Biliardovňa: a billiard club in Bratislava with online table booking. Bookings through the site rose markedly after launch.",
+          "Krása štúdio OK: a beauty salon in Ružinov. A booking system wired to Telegram: staff confirm an appointment with one tap and the slot locks automatically.",
+          "Top Sklad and Top Kobka: storage space rental with availability management and reservations.",
+          "Synchro Žralok: a bilingual site for a synchronised swimming club, with content pulled automatically from public Instagram.",
+          "Bodabo: a wholesale shop for vanilla, coffee and cocoa beans."
         ],
         "industries_title": "Websites by industry",
         "industries_intro": "Every industry has one main action on its website: a table reservation, an appointment, an enquiry for a free unit, a purchase. I build the site around it. Breakdowns and finished projects:",
@@ -250,13 +250,13 @@
       "internal_title": "Website and WordPress repair",
       "internal_desc": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, server side. Most faults are resolved the same day they are reported.",
       "page": {
-        "lead": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites — PHP, JavaScript, databases and server side. Most faults are resolved the same day they are reported.",
+        "lead": "Site down, slowed to a crawl, or throwing an error after an update? I fix WordPress and custom-built sites: PHP, JavaScript, databases and server side. Most faults are resolved the same day they are reported.",
         "process_title": "How I work",
         "process": [
-          "Find out what is actually happening — in the logs, the code, the server. Not 'let us try reinstalling'.",
+          "Find out what is actually happening, in the logs, the code, the server. Not 'let us try reinstalling'.",
           "Tell you what it is and how much work it is, before touching anything.",
           "Back up first, fix second. Never the other way round.",
-          "Fix it and check what sits next to it — faults travel in groups.",
+          "Fix it and check what sits next to it, because faults travel in groups.",
           "Set up automated backups so the next fault is not expensive."
         ],
         "cases_title": "What I get called about",
@@ -265,11 +265,11 @@
           "A site loading slowly, which Google reflects in rankings.",
           "A form that appears to submit while no email arrives anywhere.",
           "A site infected with spam, redirects or someone else's code.",
-          "A working site with broken measurement — analytics shows visits but no enquiries.",
+          "A working site with broken measurement: analytics shows visits but no enquiries.",
           "The previous supplier vanished and nobody knows where the site runs or who holds the access."
         ],
         "geo_title": "Why having someone nearby helps",
-        "geo": "When a site is down, every day costs something. I am in Bratislava, in your time zone and on your working hours — no waiting until morning for someone on the other side of the world to wake up. The invoice carries a Slovak company number, and when something has to be sorted with a Slovak host or registrar, I speak their language.",
+        "geo": "When a site is down, every day costs something. I am in Bratislava, in your time zone and on your working hours, so there is no waiting until morning for someone on the other side of the world to wake up. The invoice carries a Slovak company number, and when something has to be sorted with a Slovak host or registrar, I speak their language.",
         "faq_title": "Frequently asked questions",
         "faq": [
           {
@@ -349,14 +349,14 @@
         ],
         "cases_title": "Where budget usually leaks",
         "cases": [
-          "A campaign running without conversion tracking — Google has nothing to optimise towards and spends on the cheapest clicks.",
+          "A campaign running without conversion tracking: Google has nothing to optimise towards and spends on the cheapest clicks.",
           "Broad match with no negatives: paying for queries unrelated to the business.",
           "Ads pointing at the home page instead of the page about that specific service.",
-          "One budget covering brand and non-brand queries — brand eats most of it and it looks like success.",
+          "One budget covering brand and non-brand queries: brand eats most of it and it looks like success.",
           "No Consent Mode, so a share of conversions is never counted and the campaign looks unprofitable."
         ],
         "geo_title": "The Slovak market has its own prices",
-        "geo": "Click prices, competition and buyer behaviour in Slovakia differ from larger markets. A budget copied from a foreign guide does not work here. I have worked here for over ten years and know what a click costs in your field and whether ads make sense at all — and if they do not, I say so before you spend.",
+        "geo": "Click prices, competition and buyer behaviour in Slovakia differ from larger markets. A budget copied from a foreign guide does not work here. I have worked here for over ten years and know what a click costs in your field and whether ads make sense at all. If they do not, I say so before you spend.",
         "faq_title": "Frequently asked questions",
         "faq": [
           {
@@ -473,14 +473,14 @@
         ],
         "cases_title": "What audits usually turn up",
         "cases": [
-          "Events pushed to the dataLayer with no GA4 tag in the container to forward them — enquiries are not measured at all.",
+          "Events pushed to the dataLayer with no GA4 tag in the container to forward them, so enquiries are not measured at all.",
           "GA4 loaded twice, once directly and once through Tag Manager, doubling every page view.",
           "A form firing a 'purchase' event with a value when nobody paid, putting revenue that never existed into the reports.",
           "A key event left unmarked, so conversions read zero while enquiries keep arriving.",
           "A cookie banner blocking measurement where it need not, quietly losing data."
         ],
         "geo_title": "Measurement and European rules",
-        "geo": "Analytics in Slovakia is not purely technical. Without consent wired up per Consent Mode v2 you lose data and Google restricts remarketing — and the consent itself has to take the form European rules require. I set up both at once, so neither is sacrificed for the other.",
+        "geo": "Analytics in Slovakia is not purely technical. Without consent wired up per Consent Mode v2 you lose data and Google restricts remarketing, and the consent itself has to take the form European rules require. I set up both at once, so neither is sacrificed for the other.",
         "faq_title": "Frequently asked questions",
         "faq": [
           {
@@ -537,12 +537,12 @@
       "seo_desc": "A custom cookie banner under EU rules with Consent Mode v2 from 200 € one-off, no monthly plugin subscription. Measurement stays accurate after a refusal.",
       "seo_keywords": "cookie banner, consent mode v2, gdpr slovakia, cookie setup, google consent mode",
       "page": {
-        "lead": "If your site runs analytics or advertising, cookie consent is mandatory — and not just any consent. Since March 2024 Google requires Consent Mode v2; without it you lose data and remarketing is restricted. I build a custom banner that meets the rules and carries no monthly subscription.",
+        "lead": "If your site runs analytics or advertising, cookie consent is mandatory, and not just any consent. Since March 2024 Google requires Consent Mode v2; without it you lose data and remarketing is restricted. I build a custom banner that meets the rules and carries no monthly subscription.",
         "process_title": "What you get",
         "process": [
           "A banner in your site's own style, not a third-party module bolted on top.",
           "Consent Mode v2 wired correctly into Google Analytics, Tag Manager and the ad accounts.",
-          "Consent split into analytics, advertising and functional — not one 'accept everything' button.",
+          "Consent split into analytics, advertising and functional, not one 'accept everything' button.",
           "The visitor's choice stored, and changeable at any time.",
           "Testing across more than fifteen scenarios: accept, reject, partial consent, repeat visit.",
           "A cookie policy page written to match."
@@ -552,11 +552,11 @@
           "Ready-made tools charge a monthly subscription forever; a custom banner is a one-off.",
           "Most plugins block measurement more than they need to, losing data even where consent was given.",
           "A third-party module slows the site down, which Google reflects in rankings.",
-          "With a ready-made tool you do not control what fires when — and that is exactly what decides whether Consent Mode works.",
+          "With a ready-made tool you do not control what fires when, and that is exactly what decides whether Consent Mode works.",
           "The design cannot be matched to the site without paying extra."
         ],
         "geo_title": "European rules, not Slovak ones",
-        "geo": "The duty to ask for consent does not come from Slovak law but from European rules — GDPR and the ePrivacy directive. Slovakia adopts them, but they are read the same way across the Union. In practice consent must be freely given, specific and revocable, and measurement may only start afterwards. I set it up so you meet the rules and do not lose data needlessly.",
+        "geo": "The duty to ask for consent does not come from Slovak law but from European rules: GDPR and the ePrivacy directive. Slovakia adopts them, but they are read the same way across the Union. In practice consent must be freely given, specific and revocable, and measurement may only start afterwards. I set it up so you meet the rules and do not lose data needlessly.",
         "faq_title": "Frequently asked questions",
         "faq": [
           {
@@ -615,24 +615,24 @@
       "seo_desc": "Telegram bots for enquiries, bookings and automatic ad posting, in Python, from 500 € and 25 €/hr. A bot for a specific job, not a chat widget.",
       "seo_keywords": "telegram bot development, python bot, business automation, bazos bot, data parsing, custom chatbots",
       "page": {
-        "lead": "A bot is not a toy but a way to stop doing by hand what can run itself. I write Python bots that handle enquiries and bookings, send messages, and post listings to Bazoš automatically — without you sitting at a computer.",
+        "lead": "A bot is not a toy but a way to stop doing by hand what can run itself. I write Python bots that handle enquiries and bookings, send messages, and post listings to Bazoš automatically, without you sitting at a computer.",
         "process_title": "What bots take over",
         "process": [
           "Enquiries from the site land straight in chat. Confirm or cancel with one button, no admin login.",
           "Bookings: the bot keeps the calendar, blocks taken slots and notifies the client by email.",
-          "Automated posting to Bazoš — listings refresh themselves on a schedule.",
+          "Automated posting to Bazoš: listings refresh themselves on a schedule.",
           "Broadcasts across a contact list.",
           "Collecting competitor and audience data for ad targeting.",
           "Alerts about what happens on the site: downtime, a broken form, a new enquiry."
         ],
         "cases_title": "What it looks like in practice",
         "cases": [
-          "Krása štúdio OK — a salon booking system wired to Telegram. The client picks a slot, staff get a message, one tap confirms it and the slot locks. No spreadsheets, no extra phone calls.",
-          "A Bazoš posting bot for companies that advertise there regularly — refreshing listings by hand costs hours every week.",
+          "Krása štúdio OK: a salon booking system wired to Telegram. The client picks a slot, staff get a message, one tap confirms it and the slot locks. No spreadsheets, no extra phone calls.",
+          "A Bazoš posting bot for companies that advertise there regularly. Refreshing listings by hand costs hours every week.",
           "New-enquiry alerts straight into chat, so nobody answers a day late."
         ],
         "geo_title": "Why Bazoš and Telegram specifically",
-        "geo": "Bazoš is where people in Slovakia actually search, and companies advertising there regularly spend hours a week refreshing listings. It can be automated — few know it. The same goes for Telegram: as a working tool it is widespread here and costs nothing to adopt. I build for this market rather than shipping generic templates.",
+        "geo": "Bazoš is where people in Slovakia actually search, and companies advertising there regularly spend hours a week refreshing listings. It can be automated; few know it. The same goes for Telegram: as a working tool it is widespread here and costs nothing to adopt. I build for this market rather than shipping generic templates.",
         "faq_title": "Frequently asked questions",
         "faq": [
           {

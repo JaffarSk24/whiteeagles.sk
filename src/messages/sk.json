@@ -76,22 +76,22 @@
       "seo_desc": "Landing page od 1 500 €, firemný web s rezerváciou a meraním dopytov od 3 500 €, e-shop od 5 000 €. Odovzdanie v priemere do 10 pracovných dní, s.r.o. s faktúrou.",
       "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava",
       "page": {
-        "lead": "Robím weby pre firmy na Slovensku už viac ako desať rokov — z Bratislavy, ako slovenské s.r.o. a s faktúrou, ktorú si dáte do nákladov. Nie šablóny na kolene, ale stránky, cez ktoré chodia dopyty: rezervačné systémy, e-shopy, firemné weby. Väčšinu projektov odovzdávam do 15 pracovných dní.",
+        "lead": "Robím weby pre firmy na Slovensku už viac ako desať rokov: z Bratislavy, ako slovenské s.r.o. a s faktúrou, ktorú si dáte do nákladov. Nie šablóny na kolene, ale stránky, cez ktoré chodia dopyty: rezervačné systémy, e-shopy, firemné weby. Väčšinu projektov odovzdávam do 15 pracovných dní.",
         "process_title": "Ako to prebieha",
         "process": [
-          "Rozhovor. Poviete, čo podnikanie potrebuje. Nepýtam si zadanie na štyridsať strán — návrh riešenia dodám ja.",
+          "Rozhovor. Poviete, čo podnikanie potrebuje. Nepýtam si zadanie na štyridsať strán, návrh riešenia dodám ja.",
           "Návrh a odsúhlasenie. Ukážem, ako to bude vyzerať a fungovať, a čo to bude stáť. Bez prekvapení v priebehu.",
           "Vývoj s priebežnými ukážkami. Vidíte postup, nie hotovú vec na konci.",
-          "Spustenie. Doména, hosting, e-mail na vlastnej doméne, meranie, cookie lišta, firemný profil Google — všetko naraz, nie po častiach.",
+          "Spustenie. Doména, hosting, e-mail na vlastnej doméne, meranie, cookie lišta, firemný profil Google. Všetko naraz, nie po častiach.",
           "Šesť mesiacov podpory zadarmo. Monitoring, zálohy, aktualizácie, oprava chýb."
         ],
         "cases_title": "Čo som už postavil",
         "cases": [
-          "Biliardovňa — web biliardového klubu v Bratislave s online rezerváciou stolov. Po spustení výrazne narástol počet rezervácií cez web.",
-          "Krása štúdio OK — salón krásy v Ružinove. Rezervačný systém prepojený s Telegramom: personál potvrdí termín jedným klikom, slot sa automaticky zablokuje. Žiadne tabuľky a telefonáty navyše.",
-          "Top Sklad a Top Kobka — prenájom skladových priestorov so správou voľných miest a rezerváciami.",
-          "Synchro Žralok — dvojjazyčný web klubu synchronizovaného plávania, obsah sa dopĺňa automaticky z verejného Instagramu.",
-          "Bodabo — veľkoobchodný e-shop s vanilkou, kávou a kakaovými bôbmi."
+          "Biliardovňa: web biliardového klubu v Bratislave s online rezerváciou stolov. Po spustení výrazne narástol počet rezervácií cez web.",
+          "Krása štúdio OK: salón krásy v Ružinove. Rezervačný systém prepojený s Telegramom: personál potvrdí termín jedným klikom, slot sa automaticky zablokuje. Žiadne tabuľky a telefonáty navyše.",
+          "Top Sklad a Top Kobka: prenájom skladových priestorov so správou voľných miest a rezerváciami.",
+          "Synchro Žralok: dvojjazyčný web klubu synchronizovaného plávania, obsah sa dopĺňa automaticky z verejného Instagramu.",
+          "Bodabo: veľkoobchodný e-shop s vanilkou, kávou a kakaovými bôbmi."
         ],
         "industries_title": "Weby podľa odvetvia",
         "industries_intro": "Každé odvetvie má na webe jednu hlavnú akciu: rezerváciu stola, objednanie termínu, dopyt na voľný priestor, nákup. Web staviam okolo nej. Rozbory a hotové projekty:",
@@ -128,7 +128,7 @@
           }
         ],
         "geo_title": "Prečo na tom, že som na Slovensku, záleží",
-        "geo": "Web nie je len dizajn. Slovenský zákazník má svoje zvyky pri výbere, svoje platobné metódy a svoje očakávania od firmy — a slovenský zákon má svoje požiadavky na povinné údaje, cookies a ochranu údajov. Štúdio, ktoré vám robí web zo zahraničia, o tom nevie a ani vedieť nemôže. Stretnúť sa v Bratislave môžeme osobne, faktúru dostanete so slovenským IČO, a keď treba niečo vybaviť na úrade alebo s dodávateľom, hovorím ich jazykom. S vami sa dohodneme po slovensky aj po rusky.",
+        "geo": "Web nie je len dizajn. Slovenský zákazník má svoje zvyky pri výbere, svoje platobné metódy a svoje očakávania od firmy, a slovenský zákon má svoje požiadavky na povinné údaje, cookies a ochranu údajov. Štúdio, ktoré vám robí web zo zahraničia, o tom nevie a ani vedieť nemôže. Stretnúť sa v Bratislave môžeme osobne, faktúru dostanete so slovenským IČO, a keď treba niečo vybaviť na úrade alebo s dodávateľom, hovorím ich jazykom. S vami sa dohodneme po slovensky aj po rusky.",
         "faq_title": "Časté otázky",
         "faq": [
           {
@@ -250,13 +250,13 @@
       "internal_title": "Oprava webstránky a WordPress webu",
       "internal_desc": "Web nefunguje, spomalil sa alebo po aktualizácii vypísal chybu? Opravím WordPress aj stránky písané na mieru — PHP, JavaScript, serverovú časť. Väčšinu porúch riešim v deň nahlásenia.",
       "page": {
-        "lead": "Web spadol, spomalil sa alebo po aktualizácii hádže chybu? Opravujem WordPress aj stránky písané na mieru — PHP, JavaScript, databázy aj serverovú časť. Väčšinu porúch riešim v deň, keď mi ich nahlásite.",
+        "lead": "Web spadol, spomalil sa alebo po aktualizácii hádže chybu? Opravujem WordPress aj stránky písané na mieru: PHP, JavaScript, databázy aj serverovú časť. Väčšinu porúch riešim v deň, keď mi ich nahlásite.",
         "process_title": "Ako opravujem",
         "process": [
-          "Zistím, čo sa naozaj deje. Nie „skúsime preinštalovať“, ale nájdenie príčiny — v logoch, v kóde, na serveri.",
+          "Zistím, čo sa naozaj deje. Nie „skúsime preinštalovať“, ale nájdenie príčiny v logoch, v kóde, na serveri.",
           "Poviem, čo to je a koľko práce to bude, ešte pred zásahom.",
           "Najprv záloha, potom oprava. Nikdy naopak.",
-          "Opravím a otestujem aj to, čo s problémom súvisí — poruchy chodia po skupinách.",
+          "Opravím a otestujem aj to, čo s problémom súvisí, lebo poruchy chodia po skupinách.",
           "Nastavím automatické zálohovanie, aby ďalšia porucha nebola drahá."
         ],
         "cases_title": "S čím ma volajú najčastejšie",
@@ -265,11 +265,11 @@
           "Web sa načítava pomaly a Google to zohľadňuje v pozíciách.",
           "Formulár tvári sa, že odoslal, ale e-maily nikam nechodia.",
           "Stránka napadnutá spamom, presmerovaniami alebo cudzím kódom.",
-          "Web funguje, ale meranie nie — v analytike sú len návštevy, žiadne dopyty.",
+          "Web funguje, ale meranie nie: v analytike sú len návštevy, žiadne dopyty.",
           "Pôvodný dodávateľ zmizol a nikto nevie, kde web beží a kto má prístupy."
         ],
         "geo_title": "Prečo je dobré mať niekoho blízko",
-        "geo": "Keď web nefunguje, každý deň niečo stojí. Som v Bratislave, v rovnakom časovom pásme a s rovnakými pracovnými hodinami ako vy — nečakáte do rána, kým sa niekto na druhom konci sveta zobudí. Faktúru dostanete so slovenským IČO. A ak treba niečo riešiť s hostingom alebo registrátorom na Slovensku, hovorím s nimi ich jazykom.",
+        "geo": "Keď web nefunguje, každý deň niečo stojí. Som v Bratislave, v rovnakom časovom pásme a s rovnakými pracovnými hodinami ako vy, takže nečakáte do rána, kým sa niekto na druhom konci sveta zobudí. Faktúru dostanete so slovenským IČO. A ak treba niečo riešiť s hostingom alebo registrátorom na Slovensku, hovorím s nimi ich jazykom.",
         "faq_title": "Časté otázky",
         "faq": [
           {
@@ -337,7 +337,7 @@
       "seo_desc": "Nastavenie a správa Google Ads a Meta reklamy z Bratislavy: kompletný štart približne od 1 000 €, správa 25 €/hod. Účet aj štatistiky patria vám, konverzie merané cez GA4.",
       "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní",
       "page": {
-        "lead": "Reklama v Google Ads a na Meta dokáže priniesť dopyty už v prvý deň — na rozdiel od SEO, kde sa čaká mesiace. Podmienka je jedna: musí byť vidieť, čo sa vracia. Bez správne nastaveného merania sa rozpočet míňa naslepo a automatické stratégie sa nemajú z čoho učiť.",
+        "lead": "Reklama v Google Ads a na Meta dokáže priniesť dopyty už v prvý deň, na rozdiel od SEO, kde sa čaká mesiace. Podmienka je jedna: musí byť vidieť, čo sa vracia. Bez správne nastaveného merania sa rozpočet míňa naslepo a automatické stratégie sa nemajú z čoho učiť.",
         "process_title": "Ako to robím",
         "process": [
           "Najprv meranie, potom kampane. Spúšťať reklamu bez sledovania konverzií znamená platiť za dáta, ktoré nikto nezbiera.",
@@ -349,14 +349,14 @@
         ],
         "cases_title": "Kde sa rozpočet stráca najčastejšie",
         "cases": [
-          "Kampaň beží, ale konverzie sa nemerajú — Google nemá podľa čoho optimalizovať a míňa na najlacnejšie kliky.",
+          "Kampaň beží, ale konverzie sa nemerajú: Google nemá podľa čoho optimalizovať a míňa na najlacnejšie kliky.",
           "Široké zhody bez vylučujúcich slov: platíte za dopyty, ktoré s vaším podnikaním nesúvisia.",
           "Reklama vedie na domovskú stránku namiesto na stránku o tej konkrétnej službe.",
-          "Rovnaký rozpočet na značkové aj nové dopyty — značka spotrebuje väčšinu a vyzerá to ako úspech.",
+          "Rovnaký rozpočet na značkové aj nové dopyty: značka spotrebuje väčšinu a vyzerá to ako úspech.",
           "Chýbajúci Consent Mode: časť konverzií sa vôbec nezapočíta a kampaň sa javí ako stratová."
         ],
         "geo_title": "Slovenský trh má svoje ceny",
-        "geo": "Ceny za klik, konkurencia aj správanie zákazníka sú na Slovensku iné než na väčších trhoch. Rozpočet skopírovaný z cudzieho návodu tu nefunguje. Pracujem tu viac ako desať rokov a viem, čo stojí klik vo vašom odbore a či sa vám reklama vôbec oplatí — a ak nie, poviem to skôr, než miniete peniaze.",
+        "geo": "Ceny za klik, konkurencia aj správanie zákazníka sú na Slovensku iné než na väčších trhoch. Rozpočet skopírovaný z cudzieho návodu tu nefunguje. Pracujem tu viac ako desať rokov a viem, čo stojí klik vo vašom odbore a či sa vám reklama vôbec oplatí. Ak nie, poviem to skôr, než miniete peniaze.",
         "faq_title": "Časté otázky",
         "faq": [
           {
@@ -469,18 +469,18 @@
           "Udalosti, na ktorých záleží: odoslanie formulára, klik na telefón, e-mail, WhatsApp, začatie objednávky.",
           "Označenie kľúčových udalostí, aby sa dopyty zobrazovali v konverziách, nie len v zozname eventov.",
           "Prepojenie s Google Ads a Search Console, aby bolo vidieť, čo prináša peniaze.",
-          "Microsoft Clarity na nahrávky a teplotné mapy — tam, kde čísla nestačia."
+          "Microsoft Clarity na nahrávky a teplotné mapy tam, kde čísla nestačia."
         ],
         "cases_title": "Čo sa najčastejšie nájde pri audite",
         "cases": [
-          "Udalosti sa posielajú do dataLayer, ale v kontajneri chýba tag, ktorý ich odovzdá do GA4 — dopyty sa nemerajú vôbec.",
+          "Udalosti sa posielajú do dataLayer, ale v kontajneri chýba tag, ktorý ich odovzdá do GA4, takže dopyty sa nemerajú vôbec.",
           "GA4 je nasadené dvakrát: raz priamo cez gtag.js a raz cez Tag Manager. Návštevy sú zdvojené.",
-          "Formulár posiela udalosť „purchase“ s cenou, hoci nikto nič nezaplatil — a v prehľadoch svieti neexistujúci obrat.",
+          "Formulár posiela udalosť „purchase“ s cenou, hoci nikto nič nezaplatil, a v prehľadoch svieti neexistujúci obrat.",
           "Kľúčová udalosť nie je označená, takže v konverziách je nula napriek tomu, že dopyty chodia.",
           "Cookie lišta blokuje meranie aj tam, kde to nie je potrebné, a dáta sa strácajú."
         ],
         "geo_title": "Meranie a slovenské pravidlá",
-        "geo": "Meranie na Slovensku nie je len technická úloha. Bez správne nastaveného súhlasu podľa Consent Mode v2 prichádzate o dáta a Google obmedzí remarketing — a zároveň musí byť súhlas v takej podobe, akú vyžadujú európske pravidlá. Nastavujem oboje naraz, aby ste neriešili jedno na úkor druhého.",
+        "geo": "Meranie na Slovensku nie je len technická úloha. Bez správne nastaveného súhlasu podľa Consent Mode v2 prichádzate o dáta a Google obmedzí remarketing. Zároveň musí byť súhlas v takej podobe, akú vyžadujú európske pravidlá. Nastavujem oboje naraz, aby ste neriešili jedno na úkor druhého.",
         "faq_title": "Časté otázky",
         "faq": [
           {
@@ -537,26 +537,26 @@
       "seo_desc": "Vlastná cookie lišta podľa európskych pravidiel s Consent Mode v2 od 200 € jednorazovo, bez mesačného predplatného. Meranie zostáva presné aj po odmietnutí.",
       "seo_keywords": "cookie lišta, consent mode v2, gdpr slovensko, nastavenie cookies, súhlas so spracovaním údajov",
       "page": {
-        "lead": "Ak máte na webe analytiku alebo reklamu, súhlas so spracovaním cookies je povinný — a nie hocijaký. Google od marca 2024 vyžaduje Consent Mode v2, a bez neho prichádzate o dáta a remarketing sa obmedzí. Robím vlastnú lištu, ktorá spĺňa pravidlá a nestojí mesačné predplatné.",
+        "lead": "Ak máte na webe analytiku alebo reklamu, súhlas so spracovaním cookies je povinný, a nie hocijaký. Google od marca 2024 vyžaduje Consent Mode v2, a bez neho prichádzate o dáta a remarketing sa obmedzí. Robím vlastnú lištu, ktorá spĺňa pravidlá a nestojí mesačné predplatné.",
         "process_title": "Čo dodám",
         "process": [
           "Lišta v štýle vášho webu, nie cudzí modul nalepený navrch.",
           "Consent Mode v2 správne prepojený s Google Analytics, Tag Managerom a reklamnými účtami.",
-          "Rozdelenie súhlasov na analytické, reklamné a funkčné — nie jedno tlačidlo „súhlasím so všetkým“.",
+          "Rozdelenie súhlasov na analytické, reklamné a funkčné, nie jedno tlačidlo „súhlasím so všetkým“.",
           "Uloženie voľby návštevníka a možnosť ju kedykoľvek zmeniť.",
           "Otestovanie na viac než pätnástich scenároch: prijatie, odmietnutie, čiastočný súhlas, opakovaná návšteva.",
           "Text zásad používania cookies na samostatnej stránke."
         ],
         "cases_title": "Prečo nie hotový plugin",
         "cases": [
-          "Hotové riešenia stoja mesačné predplatné, ktoré platíte navždy — vlastná lišta je jednorazová položka.",
+          "Hotové riešenia stoja mesačné predplatné, ktoré platíte navždy. Vlastná lišta je jednorazová položka.",
           "Väčšina pluginov blokuje meranie viac, než musí, a vy prichádzate o dáta aj tam, kde súhlas máte.",
           "Cudzí modul spomaľuje načítanie webu, čo Google zohľadňuje v pozíciách.",
-          "Pri hotovom riešení nemáte kontrolu nad tým, kedy sa čo spustí — a práve to rozhoduje o tom, či Consent Mode funguje.",
+          "Pri hotovom riešení nemáte kontrolu nad tým, kedy sa čo spustí, a práve to rozhoduje o tom, či Consent Mode funguje.",
           "Dizajn sa nedá zladiť s webom bez ďalšieho príplatku."
         ],
         "geo_title": "Európske pravidlá, nie slovenské",
-        "geo": "Povinnosť pýtať si súhlas nevychádza zo slovenského zákona, ale z európskych pravidiel — GDPR a smernice o súkromí v elektronických komunikáciách. Slovensko ich preberá, no vykladajú sa v celej Únii rovnako. Prakticky to znamená, že súhlas musí byť dobrovoľný, konkrétny a odvolateľný, a merať sa smie až po ňom. Nastavujem to tak, aby ste zároveň spĺňali pravidlá a neprichádzali o dáta zbytočne.",
+        "geo": "Povinnosť pýtať si súhlas nevychádza zo slovenského zákona, ale z európskych pravidiel: GDPR a smernice o súkromí v elektronických komunikáciách. Slovensko ich preberá, no vykladajú sa v celej Únii rovnako. Prakticky to znamená, že súhlas musí byť dobrovoľný, konkrétny a odvolateľný, a merať sa smie až po ňom. Nastavujem to tak, aby ste zároveň spĺňali pravidlá a neprichádzali o dáta zbytočne.",
         "faq_title": "Časté otázky",
         "faq": [
           {
@@ -615,24 +615,24 @@
       "seo_desc": "Telegram boty na dopyty, rezervácie a automatické pridávanie inzerátov, v Pythone, od 500 € a 25 €/hod. Bot na konkrétnu úlohu, nie chatovací widget.",
       "seo_keywords": "telegram bot, python programovanie, automatizácia firmy, bot pre bazoš, parsovanie dát, chatbot na mieru",
       "page": {
-        "lead": "Bot nie je hračka, ale spôsob, ako prestať robiť rukami to, čo sa dá robiť samo. Píšem boty v Pythone, ktoré spravujú dopyty a rezervácie, rozposielajú správy a automaticky pridávajú inzeráty na Bazoš — bez toho, aby ste sedeli pri počítači.",
+        "lead": "Bot nie je hračka, ale spôsob, ako prestať robiť rukami to, čo sa dá robiť samo. Píšem boty v Pythone, ktoré spravujú dopyty a rezervácie, rozposielajú správy a automaticky pridávajú inzeráty na Bazoš bez toho, aby ste sedeli pri počítači.",
         "process_title": "Čo boty riešia",
         "process": [
           "Dopyty z webu chodia rovno do chatu. Potvrdenie alebo zrušenie jedným tlačidlom, bez prihlasovania do administrácie.",
           "Rezervácie: bot drží kalendár, blokuje obsadené termíny a upozorní klienta e-mailom.",
-          "Automatické pridávanie inzerátov na Bazoš — inzeráty sa obnovujú samy podľa rozvrhu.",
+          "Automatické pridávanie inzerátov na Bazoš: inzeráty sa obnovujú samy podľa rozvrhu.",
           "Rozposielanie správ po databáze kontaktov.",
           "Zbieranie dát o konkurencii a publiku na cielenie reklamy.",
           "Upozornenia na to, čo sa deje na webe: výpadok, chyba formulára, nový dopyt."
         ],
         "cases_title": "Ako to vyzerá v praxi",
         "cases": [
-          "Krása štúdio OK — rezervačný systém salónu prepojený s Telegramom. Klient si vyberie termín, personálu príde správa, jedným klikom potvrdí a slot sa zablokuje. Žiadne tabuľky, žiadne telefonáty navyše.",
-          "Bot na automatické pridávanie inzerátov na Bazoš pre firmy, ktoré tam predávajú pravidelne — obnovovanie ručne stojí hodiny týždenne.",
+          "Krása štúdio OK: rezervačný systém salónu prepojený s Telegramom. Klient si vyberie termín, personálu príde správa, jedným klikom potvrdí a slot sa zablokuje. Žiadne tabuľky, žiadne telefonáty navyše.",
+          "Bot na automatické pridávanie inzerátov na Bazoš pre firmy, ktoré tam predávajú pravidelne. Obnovovanie ručne stojí hodiny týždenne.",
           "Notifikácie o nových dopytoch z webu priamo do chatu, aby sa neodpovedalo o deň neskôr."
         ],
         "geo_title": "Prečo Bazoš a Telegram práve tu",
-        "geo": "Bazoš je na Slovensku miesto, kde ľudia reálne hľadajú, a firmy, ktoré tam inzerujú pravidelne, strávia obnovovaním inzerátov hodiny týždenne. Automatizovať sa to dá — len o tom málokto vie. To isté platí pre Telegram: ako pracovný nástroj je tu rozšírený a nič sa doň nemusí kupovať. Robím riešenia pre tento trh, nie univerzálne šablóny.",
+        "geo": "Bazoš je na Slovensku miesto, kde ľudia reálne hľadajú, a firmy, ktoré tam inzerujú pravidelne, strávia obnovovaním inzerátov hodiny týždenne. Automatizovať sa to dá, len o tom málokto vie. To isté platí pre Telegram: ako pracovný nástroj je tu rozšírený a nič sa doň nemusí kupovať. Robím riešenia pre tento trh, nie univerzálne šablóny.",
         "faq_title": "Časté otázky",
         "faq": [
           {
