@@ -350,6 +350,51 @@
       "en": "wordpress-maintenance-cost",
       "ru": "podderzhka-sajta-na-wordpress"
     },
+    "velkoobchodny-eshop": {
+      "sk": "velkoobchodny-eshop",
+      "en": "wholesale-online-store",
+      "ru": "optovyj-internet-magazin"
+    },
+    "wholesale-online-store": {
+      "sk": "velkoobchodny-eshop",
+      "en": "wholesale-online-store",
+      "ru": "optovyj-internet-magazin"
+    },
+    "optovyj-internet-magazin": {
+      "sk": "velkoobchodny-eshop",
+      "en": "wholesale-online-store",
+      "ru": "optovyj-internet-magazin"
+    },
+    "web-pre-prenajom-skladov-a-priestorov": {
+      "sk": "web-pre-prenajom-skladov-a-priestorov",
+      "en": "storage-rental-website",
+      "ru": "sajt-dlya-arendy-skladov"
+    },
+    "storage-rental-website": {
+      "sk": "web-pre-prenajom-skladov-a-priestorov",
+      "en": "storage-rental-website",
+      "ru": "sajt-dlya-arendy-skladov"
+    },
+    "sajt-dlya-arendy-skladov": {
+      "sk": "web-pre-prenajom-skladov-a-priestorov",
+      "en": "storage-rental-website",
+      "ru": "sajt-dlya-arendy-skladov"
+    },
+    "web-pre-sportovy-klub": {
+      "sk": "web-pre-sportovy-klub",
+      "en": "sports-club-website",
+      "ru": "sajt-dlya-sportivnogo-kluba"
+    },
+    "sports-club-website": {
+      "sk": "web-pre-sportovy-klub",
+      "en": "sports-club-website",
+      "ru": "sajt-dlya-sportivnogo-kluba"
+    },
+    "sajt-dlya-sportivnogo-kluba": {
+      "sk": "web-pre-sportovy-klub",
+      "en": "sports-club-website",
+      "ru": "sajt-dlya-sportivnogo-kluba"
+    },
     "web-zadarmo-webnode-wix": {
       "sk": "web-zadarmo-webnode-wix",
       "en": "free-website-builder-vs-custom",
@@ -389,6 +434,21 @@
       "sk": "webstranka-pre-restauraciu",
       "en": "restaurant-website",
       "ru": "sajt-dlya-restorana"
+    },
+    "webstranka-pre-salon-krasy": {
+      "sk": "webstranka-pre-salon-krasy",
+      "en": "beauty-salon-website",
+      "ru": "sajt-dlya-salona-krasoty"
+    },
+    "beauty-salon-website": {
+      "sk": "webstranka-pre-salon-krasy",
+      "en": "beauty-salon-website",
+      "ru": "sajt-dlya-salona-krasoty"
+    },
+    "sajt-dlya-salona-krasoty": {
+      "sk": "webstranka-pre-salon-krasy",
+      "en": "beauty-salon-website",
+      "ru": "sajt-dlya-salona-krasoty"
     },
     "wordpress-vs-custom-website": {
       "sk": "wordpress-vs-custom-website",

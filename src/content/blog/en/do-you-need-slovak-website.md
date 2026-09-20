@@ -5,6 +5,7 @@ description: >-
   Slovak version: search, trust, requirements and partners. And how to build a
   bilingual site properly.
 date: '2026-08-04'
+updated: '2026-09-20'
 key: 'slovak-language-site'
 faq:
   - q: 'If all my clients speak Russian, why a Slovak version?'
@@ -109,5 +110,7 @@ Bilingual sites are exactly what I do. The site you are reading runs in three la
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, bilingual ones among them: Synchro Žralok (SK + EN), Krása štúdio (SK, RU, UA). I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Related: [why websites built abroad do not sell here](/en/blog/cheap-offshore-website/), [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/) and the [web development service page](/en/service/webdev/).
+
+Similar breakdowns for other industries: [a website for a sports club](/en/blog/sports-club-website/), [a website for a beauty salon](/en/blog/beauty-salon-website/).
 
 [CTA_FORM:audit]

@@ -5,6 +5,7 @@ description: >-
   examples of work, comprehensible prices and reviews. A checklist for going
   through your own site.
 date: '2026-08-04'
+updated: '2026-09-20'
 key: 'choosing-contractor'
 faq:
   - q: 'What does a Slovak client check first?'
@@ -111,5 +112,7 @@ I will go through your site with the eyes of a Slovak client and send a specific
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**: Biliardovňa, Krása štúdio, Top Sklad, Synchro Žralok. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Related: [why websites built abroad do not sell here](/en/blog/cheap-offshore-website/), [do you need a site in Slovak](/en/blog/do-you-need-slovak-website/) and the [web development service page](/en/service/webdev/).
+
+Similar breakdowns for other industries: [a website for storage and space rental](/en/blog/storage-rental-website/), [a website for a beauty salon](/en/blog/beauty-salon-website/).
 
 [CTA_FORM:consult]

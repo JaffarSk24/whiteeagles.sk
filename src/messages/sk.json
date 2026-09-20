@@ -102,29 +102,29 @@
             "note": "rezervácia stolov, menu, ktoré číta Google, návštevnosť bez reklamy"
           },
           {
+            "label": "Salón krásy, barbershop, kozmetika",
+            "href": "/blog/webstranka-pre-salon-krasy",
+            "note": "online objednávanie s potvrdením do Telegramu, projekt Krása štúdio OK"
+          },
+          {
+            "label": "Prenájom skladov, boxov a priestorov",
+            "href": "/blog/web-pre-prenajom-skladov-a-priestorov",
+            "note": "voľné miesta online a rezervácia, projekty TOP SKLAD a TOP KOBKA"
+          },
+          {
+            "label": "Športový klub, škola, krúžok",
+            "href": "/blog/web-pre-sportovy-klub",
+            "note": "dva jazyky, obsah z Instagramu, projekt Synchro Žralok"
+          },
+          {
+            "label": "Veľkoobchod a B2B e-shop",
+            "href": "/blog/velkoobchodny-eshop",
+            "note": "ceny podľa zákazníka, objednávky bez verejných cien, projekt BODA BODA"
+          },
+          {
             "label": "Biliardový klub",
             "href": "/case/biliardovna",
             "note": "online rezervácia stolov, po spustení nárast rezervácií cez web"
-          },
-          {
-            "label": "Salón krásy",
-            "href": "/case/studio-krasy",
-            "note": "objednanie termínu s potvrdením do Telegramu, slot sa zablokuje sám"
-          },
-          {
-            "label": "Prenájom skladov a priestorov",
-            "href": "/case/top-sklad",
-            "note": "správa voľných miest a rezervácie bez telefonátov"
-          },
-          {
-            "label": "Športový klub",
-            "href": "/case/synchrozralok",
-            "note": "dvojjazyčný web, obsah sa dopĺňa z Instagramu"
-          },
-          {
-            "label": "Veľkoobchod a e-shop",
-            "href": "/case/bodabo",
-            "note": "objednávky pre firemných zákazníkov, cenníky, platby"
           }
         ],
         "geo_title": "Prečo na tom, že som na Slovensku, záleží",
@@ -947,7 +947,7 @@
     "diy_text": "Prvé kontroly zvládnete za hodinu a bez toho, aby ste niekomu písali — indexácia, duplicitné adresy, rýchlosť na mobile a či sa dopyty vôbec počítajú. Postup krok za krokom je tu:",
     "diy_link": "SEO audit webu svojpomocne: 9 kontrol",
     "trust_title": "Kto audit robí",
-    "trust_text": "Kirill Mosin, White Eagles & Co. s.r.o. Na Slovensku žijem viac ako 10 rokov, mám za sebou vyše 12 spustených webov pre slovenské firmy a viem, ako sa tu správa zákazník aj úrad. Fakturujem so slovenským IČO. Hovoríme po slovensky, rusky aj anglicky.",
+    "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s.r.o. Na Slovensku žijem viac ako 10 rokov, mám za sebou vyše 12 spustených webov pre slovenské firmy a viem, ako sa tu správa zákazník aj úrad. Fakturujem so slovenským IČO. Hovoríme po slovensky, rusky aj anglicky.",
     "cta_title": "Chcete vedieť, čo brzdí váš web?",
     "cta_text": "Napíšte adresu stránky — ozvem sa s auditom do 3 pracovných dní.",
     "cta_button": "Chcem audit zdarma",

@@ -5,6 +5,7 @@ description: >-
   narazí, prečo „bez pluginu" v skutočnosti znamená písať aplikáciu a čo musí
   mať každá klientská zóna, aby boli údaje klientov v bezpečí.
 date: '2026-09-12'
+updated: '2026-09-20'
 key: 'client-portal'
 faq:
   - q: 'Čo je klientská zóna na webe?'
@@ -126,5 +127,7 @@ Staviam klientske zóny na mieru: prihlasovanie a roly, stav objednávok a záka
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO. Ku každému novému webu dávam **šesť mesiacov podpory zadarmo**.
 
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/), notifikácie a boty na [stránke služby Telegram bot](/sk/service/telegram/).
+
+Podobné rozbory pre ďalšie odvetvia: [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
 
 [CTA_FORM:webdev]

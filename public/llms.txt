@@ -4,7 +4,7 @@
 > Google Ads and Meta campaigns, web analytics, Telegram bots, Consent Mode v2
 > cookie banners and technical support for businesses on the Slovak market.
 
-Founder Kirill Mosin has lived in Slovakia for over 10 years and has delivered
+Founder Ing. Kirill Mosin has lived in Slovakia for over 10 years and has delivered
 12+ websites for Slovak businesses. The team communicates in Slovak, Russian and
 English, builds websites in Slovak, Czech, Russian, Ukrainian, German and
 English, issues a Slovak invoice (faktúra) with IČO/DIČ that clients can
@@ -179,6 +179,10 @@ slug per language. Where slugs differ, the pairs are listed below.
     - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
     - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
     - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
+    - https://whiteeagles.sk/sk/blog/webstranka-pre-salon-krasy/ (ru: /ru/blog/sajt-dlya-salona-krasoty/)
+    - https://whiteeagles.sk/sk/blog/web-pre-prenajom-skladov-a-priestorov/ (ru: /ru/blog/sajt-dlya-arendy-skladov/)
+    - https://whiteeagles.sk/sk/blog/web-pre-sportovy-klub/ (ru: /ru/blog/sajt-dlya-sportivnogo-kluba/)
+    - https://whiteeagles.sk/sk/blog/velkoobchodny-eshop/ (ru: /ru/blog/optovyj-internet-magazin/)
     - https://whiteeagles.sk/sk/blog/napadnuty-wordpress-web/ (ru: /ru/blog/vzlomali-sajt-na-wordpress/)
     - https://whiteeagles.sk/sk/blog/pomaly-wordpress-web/ (ru: /ru/blog/medlennyj-sajt-na-wordpress/)
     - https://whiteeagles.sk/sk/blog/sprava-a-udrzba-wordpress-webu/ (ru: /ru/blog/podderzhka-sajta-na-wordpress/)

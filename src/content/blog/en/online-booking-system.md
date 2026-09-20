@@ -5,7 +5,7 @@ description: >-
   what it has to do, why confirming through Telegram beats another admin panel,
   what actually drives the price, and when a plain form is enough.
 date: '2026-08-25'
-updated: '2026-09-12'
+updated: '2026-09-20'
 key: 'online-booking'
 faq:
   - q: 'What does a booking system on a website cost?'
@@ -134,5 +134,7 @@ I have lived in Slovakia for over ten years and have launched **12+ sites for Sl
 Details on the [web development service page](/en/service/webdev/).
 
 For food and drink, table booking is only one part — menu, Google profile and footfall are covered in [a website for a restaurant](/en/blog/restaurant-website/).
+
+Similar breakdowns for other industries: [a website for a beauty salon](/en/blog/beauty-salon-website/), [a website for storage and space rental](/en/blog/storage-rental-website/).
 
 [CTA_FORM:consult]

@@ -5,6 +5,7 @@ description: >-
   hits its limits, why "without a plugin" really means writing an application,
   and what every client portal must have to keep client data safe.
 date: '2026-09-12'
+updated: '2026-09-20'
 key: 'client-portal'
 faq:
   - q: 'What is a client portal on a website?'
@@ -126,5 +127,7 @@ I build custom client portals: login and roles, order and job status, bookings w
 I have lived in Slovakia for over ten years, have launched **12+ sites for Slovak companies**, and give every new site **six months of free support**. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Details on the [web development service page](/en/service/webdev/), and notifications and bots on the [Telegram bot service page](/en/service/telegram/).
+
+Similar breakdowns for other industries: [a wholesale online store](/en/blog/wholesale-online-store/).
 
 [CTA_FORM:webdev]

@@ -21,7 +21,7 @@ White Eagles & Co. — словацкая digital-компания в Брати
 **разработка сайтов**, **онлайн-реклама** и **автоматизация** для малого и
 среднего бизнеса на словацком рынке.
 
-Основатель **Кирилл Мосин** живёт в Словакии больше десяти лет, запустил
+Основатель **Ing. Kirill Mosin** (Кирилл Мосин) живёт в Словакии больше десяти лет, запустил
 **12+ сайтов для словацких компаний** (все с живыми адресами — см. раздел 3)
 и ведёт каждый проект лично от задачи до запуска. Общаемся **по-русски,
 по-словацки и по-английски**, сайты делаем на **словацком, чешском, русском,
@@ -346,6 +346,10 @@ https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/
   - https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/ (sk: /sk/blog/otvorili-ste-firmu-co-dalej/)
 - **Сайт для ресторана, кафе, бара: бронирование столов, меню, посещаемость**
   - https://whiteeagles.sk/ru/blog/sajt-dlya-restorana/ (sk: /sk/blog/webstranka-pre-restauraciu/)
+  - https://whiteeagles.sk/ru/blog/sajt-dlya-salona-krasoty/ (sk: /sk/blog/webstranka-pre-salon-krasy/)
+  - https://whiteeagles.sk/ru/blog/sajt-dlya-arendy-skladov/ (sk: /sk/blog/web-pre-prenajom-skladov-a-priestorov/)
+  - https://whiteeagles.sk/ru/blog/sajt-dlya-sportivnogo-kluba/ (sk: /sk/blog/web-pre-sportovy-klub/)
+  - https://whiteeagles.sk/ru/blog/optovyj-internet-magazin/ (sk: /sk/blog/velkoobchodny-eshop/)
 - **Взломали сайт на WordPress: как понять, что вас взломали, и что делать сразу**
   - https://whiteeagles.sk/ru/blog/vzlomali-sajt-na-wordpress/ (sk: /sk/blog/napadnuty-wordpress-web/)
 - **Медленный сайт на WordPress: почему долго грузится и как его ускорить**

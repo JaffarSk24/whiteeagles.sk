@@ -4,7 +4,7 @@ description: >-
   Skutočné ceny za tvorbu webu na Slovensku: landing page od 1 500 €, firemný web
   od 3 500 €, e-shop od 5 000 €. Čo je v cene a na aké náklady sa zabúda.
 date: '2026-08-04'
-updated: '2026-09-12'
+updated: '2026-09-20'
 key: 'website-cost'
 faq:
   - q: 'Koľko stojí web na Slovensku?'
@@ -114,5 +114,7 @@ Web sa nevráti dizajnom, ale tým, či cezeň chodia dopyty. Všetko, za čo sa
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**: Biliardovňa, Krása štúdio, Top Sklad, Synchro Žralok, Bodabo. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
 Podrobnosti a čo je v cene nájdete na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Ak web už máte a neprináša klientov — [bezplatný SEO audit webstránky](/sk/seo-audit/), výsledok do 3 pracovných dní.
+
+Podobné rozbory pre ďalšie odvetvia: [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/), [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/), [web pre športový klub](/sk/blog/web-pre-sportovy-klub/), [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
 
 [CTA_FORM:audit]

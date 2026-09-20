@@ -5,7 +5,7 @@ description: >-
   rezervácia stolov bez telefonátov, menu, ktoré Google prečíta, profil na
   Googli, meranie rezervácií. S cenami a s tým, kedy web netreba.
 date: '2026-09-04'
-updated: '2026-09-14'
+updated: '2026-09-20'
 key: 'restaurant-website'
 faq:
   - q: 'Koľko stojí web pre reštauráciu?'
@@ -123,5 +123,7 @@ Robím weby pre gastro s rezerváciou, ktorá potvrdzuje cez Telegram a sama zat
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, medzi nimi s rezerváciou: [Biliardovňa](/sk/case/biliardovna/), [Krása štúdio OK](/sk/case/studio-krasy/), [TOP SKLAD](/sk/case/top-sklad/). Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/). Ak web už máte a rezervácie nechodia — [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+
+Podobné rozbory pre ďalšie odvetvia: [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/), [web pre športový klub](/sk/blog/web-pre-sportovy-klub/), [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/).
 
 [CTA_FORM:audit]

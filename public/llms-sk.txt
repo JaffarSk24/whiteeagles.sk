@@ -4,7 +4,7 @@
 > kampane v Google Ads a Meta, webová analytika, Telegram boti, cookie lišty
 > s Consent Mode v2 a technická podpora pre firmy na slovenskom trhu.
 
-Zakladateľ Kirill Mosin žije na Slovensku viac ako 10 rokov a spustil 12+
+Zakladateľ Ing. Kirill Mosin žije na Slovensku viac ako 10 rokov a spustil 12+
 webstránok pre slovenské firmy. Komunikujeme po slovensky, rusky a anglicky, weby staviame v slovenčine,
 češtine, ruštine, ukrajinčine, nemčine a angličtine,
 vystavujeme slovenskú faktúru s IČO/DIČ, ktorú si klient dá do nákladov, cenu
@@ -154,6 +154,10 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
     - https://whiteeagles.sk/sk/blog/zivnost-alebo-sro/
     - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
     - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
+    - https://whiteeagles.sk/sk/blog/webstranka-pre-salon-krasy/ (ru: /ru/blog/sajt-dlya-salona-krasoty/)
+    - https://whiteeagles.sk/sk/blog/web-pre-prenajom-skladov-a-priestorov/ (ru: /ru/blog/sajt-dlya-arendy-skladov/)
+    - https://whiteeagles.sk/sk/blog/web-pre-sportovy-klub/ (ru: /ru/blog/sajt-dlya-sportivnogo-kluba/)
+    - https://whiteeagles.sk/sk/blog/velkoobchodny-eshop/ (ru: /ru/blog/optovyj-internet-magazin/)
     - https://whiteeagles.sk/sk/blog/napadnuty-wordpress-web/ (ru: /ru/blog/vzlomali-sajt-na-wordpress/)
     - https://whiteeagles.sk/sk/blog/pomaly-wordpress-web/ (ru: /ru/blog/medlennyj-sajt-na-wordpress/)
     - https://whiteeagles.sk/sk/blog/sprava-a-udrzba-wordpress-webu/ (ru: /ru/blog/podderzhka-sajta-na-wordpress/)

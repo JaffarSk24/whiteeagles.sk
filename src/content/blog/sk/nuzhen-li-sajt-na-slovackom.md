@@ -5,6 +5,7 @@ description: >-
   webu: vyhľadávanie, dôvera, požiadavky a partneri. A ako spraviť dvojjazyčný
   web správne.
 date: '2026-08-04'
+updated: '2026-09-20'
 key: 'slovak-language-site'
 faq:
   - q: 'Ak všetci moji klienti hovoria po rusky, načo slovenská verzia?'
@@ -109,5 +110,7 @@ Dvojjazyčné weby sú presne to, čomu sa venujem. Aj web, ktorý práve číta
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**, medzi nimi dvojjazyčné: Synchro Žralok (SK + EN), Krása štúdio (SK, RU, UA). Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
 Súvisiace: [prečo lacný web zo zahraničia nepredáva](/sk/blog/sajt-iz-minska-ne-prodaet/), [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/) a [stránka služby „Tvorba webstránok“](/sk/service/webdev/).
+
+Podobné rozbory pre ďalšie odvetvia: [web pre športový klub](/sk/blog/web-pre-sportovy-klub/), [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/).
 
 [CTA_FORM:audit]

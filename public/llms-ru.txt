@@ -4,7 +4,7 @@
 > кампании в Google Ads и Meta, веб-аналитика, Telegram-боты, cookie-баннеры
 > с Consent Mode v2 и техподдержка для бизнеса на словацком рынке.
 
-Основатель Кирилл Мосин живёт в Словакии больше 10 лет и запустил 12+ сайтов
+Основатель Ing. Kirill Mosin (Кирилл Мосин) живёт в Словакии больше 10 лет и запустил 12+ сайтов
 для словацких компаний. Общаемся по-русски, по-словацки и по-английски, сайты делаем на словацком,
 чешском, русском, украинском, немецком и английском,
 выставляем словацкую фактуру с IČO/DIČ, которую клиент проводит в расходы,
@@ -166,6 +166,10 @@ https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/
     - https://whiteeagles.sk/ru/blog/zivnost-alebo-sro/
     - https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/ (sk: /sk/blog/otvorili-ste-firmu-co-dalej/)
     - https://whiteeagles.sk/ru/blog/sajt-dlya-restorana/ (sk: /sk/blog/webstranka-pre-restauraciu/)
+    - https://whiteeagles.sk/ru/blog/sajt-dlya-salona-krasoty/ (sk: /sk/blog/webstranka-pre-salon-krasy/)
+    - https://whiteeagles.sk/ru/blog/sajt-dlya-arendy-skladov/ (sk: /sk/blog/web-pre-prenajom-skladov-a-priestorov/)
+    - https://whiteeagles.sk/ru/blog/sajt-dlya-sportivnogo-kluba/ (sk: /sk/blog/web-pre-sportovy-klub/)
+    - https://whiteeagles.sk/ru/blog/optovyj-internet-magazin/ (sk: /sk/blog/velkoobchodny-eshop/)
     - https://whiteeagles.sk/ru/blog/vzlomali-sajt-na-wordpress/ (sk: /sk/blog/napadnuty-wordpress-web/)
     - https://whiteeagles.sk/ru/blog/medlennyj-sajt-na-wordpress/ (sk: /sk/blog/pomaly-wordpress-web/)
     - https://whiteeagles.sk/ru/blog/podderzhka-sajta-na-wordpress/ (sk: /sk/blog/sprava-a-udrzba-wordpress-webu/)

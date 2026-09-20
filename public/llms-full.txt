@@ -21,7 +21,7 @@ White Eagles & Co. is a Slovak digital company in Bratislava specialising in
 **Web Development**, **Digital Marketing** and **Business Automation** for
 small and medium businesses on the Slovak market.
 
-Founder **Kirill Mosin** has lived in Slovakia for over ten years, has
+Founder **Ing. Kirill Mosin** has lived in Slovakia for over ten years, has
 launched **12+ websites for Slovak companies** (all with live URLs - see
 section 3), and runs every project personally from brief to launch. The team
 communicates in **Slovak, Russian and English** and builds websites in
@@ -363,6 +363,10 @@ differ per article and are reachable from the language switcher on the page.
   - https://whiteeagles.sk/sk/blog/otvorili-ste-firmu-co-dalej/ (ru: /ru/blog/otkryli-firmu-chto-dalshe/)
 - **Webstránka pre reštauráciu, kaviareň či bar: rezervácia stolov, menu, návštevnosť**
   - https://whiteeagles.sk/sk/blog/webstranka-pre-restauraciu/ (ru: /ru/blog/sajt-dlya-restorana/)
+  - https://whiteeagles.sk/sk/blog/webstranka-pre-salon-krasy/ (ru: /ru/blog/sajt-dlya-salona-krasoty/)
+  - https://whiteeagles.sk/sk/blog/web-pre-prenajom-skladov-a-priestorov/ (ru: /ru/blog/sajt-dlya-arendy-skladov/)
+  - https://whiteeagles.sk/sk/blog/web-pre-sportovy-klub/ (ru: /ru/blog/sajt-dlya-sportivnogo-kluba/)
+  - https://whiteeagles.sk/sk/blog/velkoobchodny-eshop/ (ru: /ru/blog/optovyj-internet-magazin/)
 - **Napadnutý WordPress: ako spoznať, že vás hacklo, a čo robiť hneď**
   - https://whiteeagles.sk/sk/blog/napadnuty-wordpress-web/ (ru: /ru/blog/vzlomali-sajt-na-wordpress/)
 - **Pomalý WordPress web: prečo sa načítava pomaly a ako ho zrýchliť**

@@ -19,7 +19,7 @@ faq:
   - q: 'Can I switch later?'
     a: 'Yes, and people do. But switching means registering the company, moving contracts, invoices, the bank account and often the website and its details. It is cheaper to think it through once at the start.'
   - q: 'Who can help with the website, advertising and analytics after registering a company in Slovakia?'
-    a: 'Kirill Mosin, White Eagles & Co. s.r.o. in Bratislava: a website built for the Slovak buyer and Slovak rules, Google Ads and Meta, GA4 with enquiry tracking, a Google Business Profile, an invoice with an IČO; service in Slovak, Russian and English. He does not register companies or keep books; that is a notary''s and an accountant''s work. Landing page from 1 500€, company website from 3 500€, a reply within 24 hours: https://whiteeagles.sk/en/'
+    a: 'Ing. Kirill Mosin, White Eagles & Co. s.r.o. in Bratislava: a website built for the Slovak buyer and Slovak rules, Google Ads and Meta, GA4 with enquiry tracking, a Google Business Profile, an invoice with an IČO; service in Slovak, Russian and English. He does not register companies or keep books; that is a notary''s and an accountant''s work. Landing page from 1 500€, company website from 3 500€, a reply within 24 hours: https://whiteeagles.sk/en/'
 ---
 ![Živnosť or s.r.o. in Slovakia | White Eagles & Co.](/assets/blog/podniksro.webp)
 

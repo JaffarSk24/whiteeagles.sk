@@ -5,7 +5,7 @@ description: >-
   vedieť, prečo je potvrdenie cez Telegram praktickejšie ako ďalší panel, čo
   rozhoduje o cene a kedy stačí obyčajný formulár.
 date: '2026-08-25'
-updated: '2026-09-12'
+updated: '2026-09-20'
 key: 'online-booking'
 faq:
   - q: 'Koľko stojí rezervačný systém na webe?'
@@ -134,5 +134,7 @@ Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovensk�
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/).
 
 Pre gastro je rezervácia stolov iba jedna z častí — menu, profil na Googli a návštevnosť rozoberám v článku [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
+
+Podobné rozbory pre ďalšie odvetvia: [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/), [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/).
 
 [CTA_FORM:consult]

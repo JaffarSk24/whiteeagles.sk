@@ -6,7 +6,7 @@ description: >-
   the Google profile, booking measurement. With prices, and when a site is
   not needed.
 date: '2026-09-04'
-updated: '2026-09-14'
+updated: '2026-09-20'
 key: 'restaurant-website'
 faq:
   - q: 'What does a restaurant website cost?'
@@ -124,5 +124,7 @@ I build sites for food and drink businesses with booking that confirms through T
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, booking systems among them: [Biliardovňa](/en/case/biliardovna/), [Krása štúdio OK](/en/case/studio-krasy/), [TOP SKLAD](/en/case/top-sklad/). I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Details on the [web development service page](/en/service/webdev/). If you already have a site and no bookings come — the [free audit](/en/seo-audit/), result within 3 working days.
+
+Similar breakdowns for other industries: [a website for a beauty salon](/en/blog/beauty-salon-website/), [a website for a sports club](/en/blog/sports-club-website/), [a website for storage and space rental](/en/blog/storage-rental-website/).
 
 [CTA_FORM:audit]

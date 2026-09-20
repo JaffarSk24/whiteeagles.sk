@@ -203,7 +203,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         // so he gets his own node rather than an inline value.
         "@type": "Person",
         "@id": `${siteUrl}/#founder`,
-        "name": "Kirill Mosin",
+        "name": "Ing. Kirill Mosin",
         "jobTitle": locale === "ru"
           ? "Веб-разработчик и специалист по онлайн-маркетингу"
           : locale === "sk"

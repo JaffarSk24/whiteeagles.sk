@@ -102,29 +102,29 @@
             "note": "table reservations, a menu Google can read, visitors without ads"
           },
           {
+            "label": "Beauty salon, barbershop, cosmetics",
+            "href": "/blog/beauty-salon-website",
+            "note": "online booking confirmed in Telegram, the Krása štúdio OK project"
+          },
+          {
+            "label": "Storage, box and space rental",
+            "href": "/blog/storage-rental-website",
+            "note": "live availability and booking, the TOP SKLAD and TOP KOBKA projects"
+          },
+          {
+            "label": "Sports club, school, children's group",
+            "href": "/blog/sports-club-website",
+            "note": "two languages, content from Instagram, the Synchro Žralok project"
+          },
+          {
+            "label": "Wholesale and B2B online store",
+            "href": "/blog/wholesale-online-store",
+            "note": "per-customer prices, orders without public prices, the BODA BODA project"
+          },
+          {
             "label": "Billiard club",
             "href": "/case/biliardovna",
             "note": "online table booking, more bookings through the site after launch"
-          },
-          {
-            "label": "Beauty salon",
-            "href": "/case/studio-krasy",
-            "note": "appointment booking confirmed in Telegram, the slot blocks itself"
-          },
-          {
-            "label": "Storage and space rental",
-            "href": "/case/top-sklad",
-            "note": "free units and bookings without phone calls"
-          },
-          {
-            "label": "Sports club",
-            "href": "/case/synchrozralok",
-            "note": "bilingual site, content pulled from Instagram"
-          },
-          {
-            "label": "Wholesale and online store",
-            "href": "/case/bodabo",
-            "note": "orders for business customers, price lists, payments"
           }
         ],
         "geo_title": "Why being in Slovakia matters",
@@ -947,7 +947,7 @@
     "diy_text": "The first checks take an hour and require writing to nobody — indexing, duplicate addresses, speed on mobile, and whether enquiries are counted at all. The step-by-step is here:",
     "diy_link": "A DIY SEO audit: 9 checks",
     "trust_title": "Who runs the audit",
-    "trust_text": "Kirill Mosin, White Eagles & Co. s.r.o. I have lived in Slovakia for more than 10 years, launched 12+ sites for Slovak companies, and know how buyers and institutions behave here. I invoice with a Slovak company number. We speak Slovak, Russian and English.",
+    "trust_text": "Ing. Kirill Mosin, White Eagles & Co. s.r.o. I have lived in Slovakia for more than 10 years, launched 12+ sites for Slovak companies, and know how buyers and institutions behave here. I invoice with a Slovak company number. We speak Slovak, Russian and English.",
     "cta_title": "Want to know what is holding your site back?",
     "cta_text": "Send your address — I will come back with the audit within 3 working days.",
     "cta_button": "Get the free audit",

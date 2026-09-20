@@ -49,7 +49,7 @@ export function AuthorBox({ line, buttonText, telegramText, service, location, s
         className="author-box-photo"
       />
       <div className="author-box-body">
-        <p className="author-box-name">Kirill Mosin</p>
+        <p className="author-box-name">Ing. Kirill Mosin</p>
         <p className="author-box-line">{line}</p>
         {services && services.length > 0 && (
           <p className="author-box-services">

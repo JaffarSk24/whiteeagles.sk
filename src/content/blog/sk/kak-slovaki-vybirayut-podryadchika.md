@@ -4,6 +4,7 @@ description: >-
   Čo si slovenský klient overuje predtým, než napíše: údaje o firme, skutočné
   ukážky prác, zrozumiteľné ceny a recenzie. Kontrolný zoznam pre váš web.
 date: '2026-08-04'
+updated: '2026-09-20'
 key: 'choosing-contractor'
 faq:
   - q: 'Čo si slovenský klient overuje ako prvé?'
@@ -110,5 +111,7 @@ Prejdem váš web očami slovenského klienta a pošlem konkrétny zoznam toho, 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy**: Biliardovňa, Krása štúdio, Top Sklad, Synchro Žralok. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
 Súvisiace: [prečo lacný web zo zahraničia nepredáva](/sk/blog/sajt-iz-minska-ne-prodaet/), [treba web po slovensky](/sk/blog/nuzhen-li-sajt-na-slovackom/) a [stránka služby „Tvorba webstránok“](/sk/service/webdev/).
+
+Podobné rozbory pre ďalšie odvetvia: [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/), [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/).
 
 [CTA_FORM:consult]

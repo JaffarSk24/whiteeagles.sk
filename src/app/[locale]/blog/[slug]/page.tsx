@@ -192,7 +192,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
         "image": postImage,
         "author": {
           "@type": "Person",
-          "name": "Kirill Mosin",
+          "name": "Ing. Kirill Mosin",
           "url": "https://whiteeagles.sk/"
         },
         "publisher": {
