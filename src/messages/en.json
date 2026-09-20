@@ -72,7 +72,7 @@
         "Account creation and resource connection: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Web development Bratislava: sites from 1 500 €, in 15 days",
+      "seo_title": "Web development Bratislava: custom site from 1 500 €, in 15 days",
       "seo_desc": "Landing page from 1 500 €, company site with booking and enquiry tracking from 3 500 €, e-shop from 5 000 €. Delivered in about 10 working days, with an invoice.",
       "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site",
       "page": {
@@ -92,6 +92,40 @@
           "Top Sklad and Top Kobka — storage space rental with availability management and reservations.",
           "Synchro Žralok — a bilingual site for a synchronised swimming club, with content pulled automatically from public Instagram.",
           "Bodabo — a wholesale shop for vanilla, coffee and cocoa beans."
+        ],
+        "industries_title": "Websites by industry",
+        "industries_intro": "Every industry has one main action on its website: a table reservation, an appointment, an enquiry for a free unit, a purchase. I build the site around it. Breakdowns and finished projects:",
+        "industries": [
+          {
+            "label": "Restaurant, café, bar",
+            "href": "/blog/restaurant-website",
+            "note": "table reservations, a menu Google can read, visitors without ads"
+          },
+          {
+            "label": "Billiard club",
+            "href": "/case/biliardovna",
+            "note": "online table booking, more bookings through the site after launch"
+          },
+          {
+            "label": "Beauty salon",
+            "href": "/case/studio-krasy",
+            "note": "appointment booking confirmed in Telegram, the slot blocks itself"
+          },
+          {
+            "label": "Storage and space rental",
+            "href": "/case/top-sklad",
+            "note": "free units and bookings without phone calls"
+          },
+          {
+            "label": "Sports club",
+            "href": "/case/synchrozralok",
+            "note": "bilingual site, content pulled from Instagram"
+          },
+          {
+            "label": "Wholesale and online store",
+            "href": "/case/bodabo",
+            "note": "orders for business customers, price lists, payments"
+          }
         ],
         "geo_title": "Why being in Slovakia matters",
         "geo": "A website is not only design. Slovak buyers have their own habits, payment methods and expectations, and Slovak law has its own requirements on company details, cookies and data protection. A studio building your site from another country cannot know that. In Bratislava we can meet in person, the invoice carries a Slovak company number, and when something has to be sorted with an authority or a supplier, I speak their language.",
@@ -120,6 +154,22 @@
           {
             "q": "Do you work outside Bratislava?",
             "a": "Yes, across Slovakia and neighbouring countries. In Bratislava we can meet in person; with remote clients I work online, and it makes no difference to the result."
+          },
+          {
+            "q": "Do you build online stores?",
+            "a": "Yes. A store from €5,000 with cart, payment gateway, shipping and a Merchant Center feed for Google Shopping. For wholesale: per-customer price lists and orders without public prices."
+          },
+          {
+            "q": "Custom build or a template?",
+            "a": "A template is enough when the site is a business card and you will manage the content yourself. Custom pays off when the site has to do work: bookings, slots, a client area, a link to stock or a calendar. The difference is not the design but what the site can do and how fast it loads."
+          },
+          {
+            "q": "Can you rebuild an existing site?",
+            "a": "Yes, both redesign and moving to a new base. I keep or redirect the page addresses so the site does not lose its Google rankings, and move the tracking without a gap."
+          },
+          {
+            "q": "Who owns the site after handover?",
+            "a": "You do. Domain, hosting, Google accounts and the admin are registered to you; I only keep working access. Nothing is lost if you ever change supplier."
           }
         ],
         "facts": [
@@ -139,9 +189,47 @@
             "value": "10 working days",
             "label": "average delivery, 90 % within 15"
           }
-        ]
+        ],
+        "pricing_title": "Website pricing",
+        "pricing_head": {
+          "type": "Type",
+          "price": "Price",
+          "includes": "What is included",
+          "time": "Time"
+        },
+        "pricing": [
+          {
+            "type": "Landing page",
+            "price": "from €1,500",
+            "includes": "one service or offer, spam-protected form, enquiry tracking in GA4, cookie banner, basic SEO",
+            "time": "5 to 10 working days"
+          },
+          {
+            "type": "Company website",
+            "price": "from €3,500",
+            "includes": "several pages and languages, booking or slots, mail on your domain, GA4 and Tag Manager, Google Business Profile",
+            "time": "10 to 15 working days"
+          },
+          {
+            "type": "Online store",
+            "price": "from €5,000",
+            "includes": "catalogue, cart, payment gateway, shipping, Merchant Center, legally required details, purchase tracking",
+            "time": "from 15 working days"
+          },
+          {
+            "type": "Changes and redesign",
+            "price": "€35/hr",
+            "includes": "new sections, integrations, moving an existing site to a new base while keeping its Google rankings",
+            "time": "by scope"
+          }
+        ],
+        "pricing_note": "I quote after the first call and do not change the price mid-project. Domain, hosting and payment gateway fees are paid directly to the providers. Six months of technical support come with every price. What the price is made of and which costs get forgotten:",
+        "pricing_link": {
+          "label": "How much a website costs in Slovakia in 2026.",
+          "href": "/blog/website-cost-slovakia"
+        }
       },
-      "internal_title": "Web development in Bratislava",
+      "internal_title": "Web development in Bratislava: custom websites, online stores and booking systems",
       "internal_desc": "Company websites, online shops and booking systems built to order — from Bratislava, across Slovakia."
     },
     "bugfix": {
@@ -245,8 +333,8 @@
         "Integration of analytics systems",
         "Optimization and scaling of advertising campaigns"
       ],
-      "seo_title": "Google Ads and Meta setup from 1 000 €, 25 €/hr",
-      "seo_desc": "Google Ads and Meta setup and management: full launch from about 1 000 €, 25 €/hr. The account and its statistics belong to you; conversions measured in GA4.",
+      "seo_title": "Google Ads management Bratislava: setup and management from 1 000 €",
+      "seo_desc": "Google Ads and Meta advertising set up and managed from Bratislava: full launch from about €1,000, management €25/hr. The account and its data stay yours, conversions tracked in GA4.",
       "seo_keywords": "google ads slovakia, facebook ads setup, ppc specialist bratislava, instagram promotion, contextual advertising",
       "page": {
         "lead": "Google Ads and Meta can bring enquiries on day one, unlike SEO where results take months. There is one condition: it has to be visible what comes back. Without tracking wired up properly the budget goes out blind and automated bidding has nothing to learn from.",
@@ -290,6 +378,18 @@
           {
             "q": "Do you manage campaigns ongoing?",
             "a": "Yes. After launch continuous optimisation matters, without it a campaign loses performance over time."
+          },
+          {
+            "q": "How much does Google advertising cost per month?",
+            "a": "A budget for one service in one city is €10 to 15 a day, so €300 to 450 a month, plus management by the hour. Less also works, but the statistics take three times longer to collect and you pay all that time without data to decide on."
+          },
+          {
+            "q": "Google Ads or Facebook: where to start?",
+            "a": "Google where people already search for the service: repairs, servicing, legal and accounting, local services. Meta where demand has to be created: a new product, food, beauty, events. With one budget I start with search, because a lead from it is cheaper to verify."
+          },
+          {
+            "q": "Do you run ads for online stores?",
+            "a": "Yes: Merchant Center, Shopping and Performance Max campaigns linked to the store catalogue and purchase tracking in GA4, so the budget moves towards the products that actually sell."
           }
         ],
         "facts": [
@@ -305,7 +405,45 @@
             "value": "the account is yours",
             "label": "statistics and access stay with you"
           }
-        ]
+        ],
+        "pricing_title": "Pricing: what Google and Meta advertising costs",
+        "pricing_head": {
+          "type": "Item",
+          "price": "Price",
+          "includes": "What is included",
+          "time": "Note"
+        },
+        "pricing": [
+          {
+            "type": "Complete campaign launch",
+            "price": "about €1,000",
+            "includes": "competitor audit, budget calculation, accounts, campaign structure, ads, negative keywords, link to GA4 and Search Console",
+            "time": "one-off, the account is registered to you"
+          },
+          {
+            "type": "Management and optimisation",
+            "price": "€25/hr",
+            "includes": "search term reports, negative keyword cleanup, bid changes, ad tests, monthly report",
+            "time": "ongoing, scope depends on the budget"
+          },
+          {
+            "type": "Ad budget",
+            "price": "from €10 to 15 a day",
+            "includes": "paid directly to Google or Meta from your account, not to me",
+            "time": "for one service in one city"
+          },
+          {
+            "type": "Conversion tracking, if missing",
+            "price": "from €500",
+            "includes": "GA4, Tag Manager, Consent Mode v2, key events, conversion import into Google Ads",
+            "time": "see the Analytics service"
+          }
+        ],
+        "pricing_note": "A click in Slovakia costs from €0.30 on narrow local queries to €2 and more in law, finance and real estate. The breakdown with a budget and cost-per-lead calculation is in the article",
+        "pricing_link": {
+          "label": "What Google advertising costs in Slovakia.",
+          "href": "/blog/google-ads-cost-slovakia"
+        }
       }
     },
     "analytics": {

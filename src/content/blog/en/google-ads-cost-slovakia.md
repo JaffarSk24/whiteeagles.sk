@@ -5,6 +5,7 @@ description: >-
   what budget a start actually needs, what management costs, and how to work out
   whether a campaign pays for itself.
 date: '2026-08-04'
+updated: '2026-09-20'
 key: 'ads-pricing'
 faq:
   - q: 'What does a click cost in Google Ads in Slovakia?'
@@ -80,6 +81,18 @@ Take a service in Bratislava: a click at 0.60 €, one in twenty visitors leaves
 Hence the working figure — **10–15 € a day for one service in one city**. At 5 € a day the data takes three times as long, and you pay throughout without grounds to decide.
 
 The first rule of allocation: **do not spread it thin.** A small budget across all of Slovakia and six services produces neither enquiries nor statistics. One service, one city, then expand.
+
+## What Google advertising costs per month: three typical budgets
+
+The same arithmetic gives the three sums Slovak businesses work with most often. This is the ad budget alone; management is separate.
+
+| Situation | Per day | Per month | What you get for it |
+|---|---|---|---|
+| One service, one city | €10 to 15 | €300 to 450 | 20 to 30 enquiries a month and grounds for a decision |
+| One service, all of Slovakia | €25 to 40 | €750 to 1,200 | the same statistics, but enquiries from towns not worth travelling to have to be cut with location exclusions |
+| Three to five services or an online store | from €50 | from €1,500 | every service gets its own campaign and its own data, otherwise the cheapest one takes the budget |
+
+Below the first row it only makes sense for a very narrow query with a cheap click. Above the third the question is no longer how much to spend but whether every euro comes back, and without conversion tracking nobody can tell.
 
 ## What setup and management cost
 

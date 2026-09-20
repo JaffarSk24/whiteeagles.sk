@@ -96,6 +96,14 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         geo?: string;
         faq_title?: string;
         faq?: { q: string; a: string }[];
+        pricing_title?: string;
+        pricing_note?: string;
+        pricing?: { type: string; price: string; includes: string; time: string }[];
+        pricing_head?: { type: string; price: string; includes: string; time: string };
+        pricing_link?: { label: string; href: string };
+        industries_title?: string;
+        industries_intro?: string;
+        industries?: { label: string; href: string; note: string }[];
       })
     : null;
 
@@ -279,6 +287,46 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                 </section>
               ) : null}
 
+              {page.pricing?.length && page.pricing_head ? (
+                <section className="detail-block">
+                  <h2>{page.pricing_title}</h2>
+                  <div className="detail-pricing-wrap">
+                    <table className="detail-pricing">
+                      <thead>
+                        <tr>
+                          <th>{page.pricing_head.type}</th>
+                          <th>{page.pricing_head.price}</th>
+                          <th>{page.pricing_head.includes}</th>
+                          <th>{page.pricing_head.time}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {page.pricing.map((row, i) => (
+                          <tr key={i}>
+                            <td>{row.type}</td>
+                            <td className="detail-pricing-price">{row.price}</td>
+                            <td>{row.includes}</td>
+                            <td>{row.time}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  {page.pricing_note && (
+                    <p className="detail-pricing-note">
+                      {page.pricing_note}
+                      {page.pricing_link && (
+                        <>
+                          {" "}
+                          <Link href={page.pricing_link.href as any}>{page.pricing_link.label}</Link>
+                        </>
+                      )}
+                    </p>
+                  )}
+                  <ServiceCta serviceId={service.id} block="process" />
+                </section>
+              ) : null}
+
               {page.cases?.length ? (
                 <section className="detail-block">
                   <h2>{page.cases_title}</h2>
@@ -286,6 +334,21 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                     {page.cases.map((item, i) => <li key={i}>{item}</li>)}
                   </ul>
                   <ServiceCta serviceId={service.id} block="cases" />
+                </section>
+              ) : null}
+
+              {page.industries?.length ? (
+                <section className="detail-block">
+                  <h2>{page.industries_title}</h2>
+                  {page.industries_intro && <p className="detail-industries-intro">{page.industries_intro}</p>}
+                  <ul className="detail-industries">
+                    {page.industries.map((item, i) => (
+                      <li key={i}>
+                        <Link href={item.href as any}>{item.label}</Link>
+                        <span>{item.note}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </section>
               ) : null}
 

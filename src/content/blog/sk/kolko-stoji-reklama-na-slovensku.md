@@ -1,12 +1,15 @@
 ---
-title: 'Koľko stojí reklama na Google na Slovensku: cena kliknutia, rozpočet, za čo platíte'
+title: 'Cena reklamy na Google na Slovensku 2026: koľko stojí klik, mesačný rozpočet a správa'
 description: >-
-  Cena reklamy na Google na Slovensku bez „závisí": z čoho sa skladá cena
-  kliknutia, koľko stojí nastavenie a správa kampaní, aký rozpočet treba na
-  štart a ako zistiť, či sa platená reklama na Googli vracia.
+  Cena reklamy na Google na Slovensku v roku 2026 bez „závisí": koľko stojí
+  klik podľa odvetvia, aký mesačný rozpočet treba na štart, čo stojí nastavenie
+  a správa kampaní a ako zistiť, či sa platená reklama na Googli vracia.
 date: '2026-08-04'
+updated: '2026-09-20'
 key: 'ads-pricing'
 faq:
+  - q: 'Koľko stojí reklama na Google mesačne?'
+    a: 'Na jednu službu v jednom meste 300 až 450 eur mesačne na samotnú reklamu, teda 10 až 15 eur denne, plus správa. Pri tomto rozpočte sa za mesiac nazbiera 20 až 30 kontaktov a dá sa rozhodnúť, či pokračovať. Celé Slovensko alebo viac služieb naraz potrebuje násobne viac.'
   - q: 'Koľko stojí kliknutie v Google Ads na Slovensku?'
     a: 'Závisí od niky a konkurencie. Pri službách pre firmy v Bratislave to býva 0,30–1,50 eura, pri úzkych B2B dopytoch aj viac. Presné číslo pre vaše slová ukáže Plánovač kľúčových slov ešte pred spustením a zadarmo.'
   - q: 'Aký minimálny rozpočet má zmysel?'
@@ -20,7 +23,7 @@ faq:
 ---
 ![Koľko stojí reklama v Google Ads na Slovensku | White Eagles & Co.](/assets/blog/ads-how.webp)
 
-# Koľko stojí reklama na Google na Slovensku: cena kliknutia, rozpočet, za čo platíte
+# Cena reklamy na Google na Slovensku 2026: koľko stojí klik, mesačný rozpočet a správa
 
 Na otázku „koľko stojí reklama" sa zvyčajne odpovie „závisí". Pravdivé a úplne neužitočné — z takej odpovede sa nedá naplánovať rozpočet ani zistiť, či nepreplácate.
 
@@ -80,6 +83,18 @@ Vezmime službu v Bratislave: kliknutie 0,60 €, dopyt zanechá každý dvadsia
 Odtiaľ orientačný údaj — **10–15 € denne na jednu službu v jednom meste**. Pri 5 € denne sa na dáta čaká trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.
 
 Prvé pravidlo rozdelenia: **nerozotierať.** Malý rozpočet na celé Slovensko a šesť služieb nedá ani dopyty, ani štatistiku. Jedna služba, jedno mesto, potom rozšírenie.
+
+## Koľko stojí reklama na Google mesačne: tri typické rozpočty
+
+Z rovnakej matematiky vychádzajú tri sumy, s ktorými sa na Slovensku pracuje najčastejšie. Je to rozpočet na samotnú reklamu, správa je zvlášť.
+
+| Situácia | Denne | Mesačne | Čo za to dostanete |
+|---|---|---|---|
+| Jedna služba, jedno mesto | 10 až 15 € | 300 až 450 € | 20 až 30 kontaktov za mesiac a podklad na rozhodnutie |
+| Jedna služba, celé Slovensko | 25 až 40 € | 750 až 1 200 € | rovnaká štatistika, ale dopyty z miest, kam sa oplatí ísť, treba oddeliť vylučovaním lokalít |
+| Tri až päť služieb alebo e-shop | od 50 € | od 1 500 € | každá služba má vlastnú kampaň a vlastné dáta, inak si rozpočet vezme tá najlacnejšia |
+
+Pod prvým riadkom to má zmysel len pri veľmi úzkom dopyte s lacným kliknutím. Nad tretím riadkom už nejde o to, koľko minúť, ale o to, či sa každé euro vracia, a to bez merania nikto nezistí.
 
 ## Koľko stojí nastavenie a správa reklamy na Google
 

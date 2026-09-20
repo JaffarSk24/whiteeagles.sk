@@ -72,7 +72,7 @@
         "Vytvorenie účtov a pripojenie zdrojov: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "Poskytujem záruku funkčnosti a bezplatnú technickú podporu po dobu 6 mesiacov ako darček pre všetkých mojich zákazníkov.",
-      "seo_title": "Tvorba webstránok Bratislava: web od 1 500 €, do 15 dní",
+      "seo_title": "Tvorba webstránok Bratislava: web na mieru od 1 500 €, do 15 dní",
       "seo_desc": "Landing page od 1 500 €, firemný web s rezerváciou a meraním dopytov od 3 500 €, e-shop od 5 000 €. Odovzdanie v priemere do 10 pracovných dní, s.r.o. s faktúrou.",
       "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava",
       "page": {
@@ -92,6 +92,40 @@
           "Top Sklad a Top Kobka — prenájom skladových priestorov so správou voľných miest a rezerváciami.",
           "Synchro Žralok — dvojjazyčný web klubu synchronizovaného plávania, obsah sa dopĺňa automaticky z verejného Instagramu.",
           "Bodabo — veľkoobchodný e-shop s vanilkou, kávou a kakaovými bôbmi."
+        ],
+        "industries_title": "Weby podľa odvetvia",
+        "industries_intro": "Každé odvetvie má na webe jednu hlavnú akciu: rezerváciu stola, objednanie termínu, dopyt na voľný priestor, nákup. Web staviam okolo nej. Rozbory a hotové projekty:",
+        "industries": [
+          {
+            "label": "Reštaurácia, kaviareň, bar",
+            "href": "/blog/webstranka-pre-restauraciu",
+            "note": "rezervácia stolov, menu, ktoré číta Google, návštevnosť bez reklamy"
+          },
+          {
+            "label": "Biliardový klub",
+            "href": "/case/biliardovna",
+            "note": "online rezervácia stolov, po spustení nárast rezervácií cez web"
+          },
+          {
+            "label": "Salón krásy",
+            "href": "/case/studio-krasy",
+            "note": "objednanie termínu s potvrdením do Telegramu, slot sa zablokuje sám"
+          },
+          {
+            "label": "Prenájom skladov a priestorov",
+            "href": "/case/top-sklad",
+            "note": "správa voľných miest a rezervácie bez telefonátov"
+          },
+          {
+            "label": "Športový klub",
+            "href": "/case/synchrozralok",
+            "note": "dvojjazyčný web, obsah sa dopĺňa z Instagramu"
+          },
+          {
+            "label": "Veľkoobchod a e-shop",
+            "href": "/case/bodabo",
+            "note": "objednávky pre firemných zákazníkov, cenníky, platby"
+          }
         ],
         "geo_title": "Prečo na tom, že som na Slovensku, záleží",
         "geo": "Web nie je len dizajn. Slovenský zákazník má svoje zvyky pri výbere, svoje platobné metódy a svoje očakávania od firmy — a slovenský zákon má svoje požiadavky na povinné údaje, cookies a ochranu údajov. Štúdio, ktoré vám robí web zo zahraničia, o tom nevie a ani vedieť nemôže. Stretnúť sa v Bratislave môžeme osobne, faktúru dostanete so slovenským IČO, a keď treba niečo vybaviť na úrade alebo s dodávateľom, hovorím ich jazykom. S vami sa dohodneme po slovensky aj po rusky.",
@@ -120,6 +154,22 @@
           {
             "q": "Pracujete aj mimo Bratislavy?",
             "a": "Áno, celé Slovensko aj okolité krajiny. V Bratislave sa vieme stretnúť osobne, so vzdialenejšími klientmi pracujem online a na kvalite to nič nemení."
+          },
+          {
+            "q": "Robíte aj e-shopy?",
+            "a": "Áno. E-shop od 5 000€ s košíkom, platobnou bránou, dopravou a napojením na Merchant Center pre Google Nákupy. Pri veľkoobchode aj cenníky podľa zákazníka a objednávky bez verejných cien."
+          },
+          {
+            "q": "Web na mieru alebo šablóna?",
+            "a": "Šablóna stačí, keď je web vizitka a obsah budete spravovať sami. Na mieru sa oplatí, keď web má robiť prácu: rezervácie, sloty, klientska zóna, prepojenie so skladom alebo kalendárom. Rozdiel nie je v dizajne, ale v tom, čo web dokáže a ako rýchlo sa načíta."
+          },
+          {
+            "q": "Prerobíte existujúci web?",
+            "a": "Áno, redizajn aj presun na nový základ. Adresy stránok zachovám alebo presmerujem, aby web nestratil pozície v Google, a meranie prenesiem bez výpadku."
+          },
+          {
+            "q": "Komu patrí web po odovzdaní?",
+            "a": "Vám. Doména, hosting, účty Google a administrácia sú vedené na vás, ja mám iba pracovný prístup. Pri zmene dodávateľa sa tak nemá čo stratiť."
           }
         ],
         "facts": [
@@ -139,9 +189,47 @@
             "value": "10 prac. dní",
             "label": "priemerný čas dodania, 90 % do 15 dní"
           }
-        ]
+        ],
+        "pricing_title": "Cenník tvorby webstránok",
+        "pricing_head": {
+          "type": "Typ webu",
+          "price": "Cena",
+          "includes": "Čo je v cene",
+          "time": "Termín"
+        },
+        "pricing": [
+          {
+            "type": "Landing page",
+            "price": "od 1 500 €",
+            "includes": "jedna služba alebo ponuka, formulár s ochranou proti spamu, meranie dopytov v GA4, cookie lišta, základné SEO",
+            "time": "5 až 10 prac. dní"
+          },
+          {
+            "type": "Firemný web",
+            "price": "od 3 500 €",
+            "includes": "viac stránok a jazykov, rezervácia alebo sloty, e-mail na vlastnej doméne, GA4 a Tag Manager, firemný profil Google",
+            "time": "10 až 15 prac. dní"
+          },
+          {
+            "type": "E-shop",
+            "price": "od 5 000 €",
+            "includes": "katalóg, košík, platobná brána, doprava, Merchant Center, povinné údaje zo zákona, meranie nákupov",
+            "time": "od 15 prac. dní"
+          },
+          {
+            "type": "Úpravy a redizajn",
+            "price": "35 €/hod",
+            "includes": "nové sekcie, integrácie, presun existujúceho webu na nový základ so zachovaním pozícií v Google",
+            "time": "podľa rozsahu"
+          }
+        ],
+        "pricing_note": "Cenu poviem po prvom rozhovore a v priebehu ju nemením. Doména, hosting a poplatky platobnej brány sa platia priamo poskytovateľom. Šesť mesiacov technickej podpory je v každej cene. Z čoho sa cena skladá a na aké náklady sa zabúda, rozoberám v článku",
+        "pricing_link": {
+          "label": "Koľko stojí web na Slovensku v roku 2026.",
+          "href": "/blog/website-cost-2026"
+        }
       },
-      "internal_title": "Tvorba webstránok Bratislava",
+      "internal_title": "Tvorba webstránok Bratislava: weby na mieru, e-shopy a rezervačné systémy",
       "internal_desc": "Firemné weby, e-shopy a rezervačné systémy na mieru — z Bratislavy pre celé Slovensko."
     },
     "bugfix": {
@@ -245,8 +333,8 @@
         "Integrácia analytických systémov",
         "Optimalizácia a škálovanie reklamných kampaní"
       ],
-      "seo_title": "Platená reklama na Googli a Facebooku: štart od 1 000 €",
-      "seo_desc": "Nastavenie a správa Google Ads a Meta: kompletný štart približne od 1 000 €, 25 €/hod. Účet aj štatistiky patria vám, konverzie merané cez GA4.",
+      "seo_title": "Google Ads reklama Bratislava: nastavenie a správa od 1 000 €",
+      "seo_desc": "Nastavenie a správa Google Ads a Meta reklamy z Bratislavy: kompletný štart približne od 1 000 €, správa 25 €/hod. Účet aj štatistiky patria vám, konverzie merané cez GA4.",
       "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní",
       "page": {
         "lead": "Reklama v Google Ads a na Meta dokáže priniesť dopyty už v prvý deň — na rozdiel od SEO, kde sa čaká mesiace. Podmienka je jedna: musí byť vidieť, čo sa vracia. Bez správne nastaveného merania sa rozpočet míňa naslepo a automatické stratégie sa nemajú z čoho učiť.",
@@ -290,6 +378,18 @@
           {
             "q": "Spravujete kampane aj priebežne?",
             "a": "Áno. Po spustení má zmysel priebežná optimalizácia, bez nej kampaň časom stráca výkon."
+          },
+          {
+            "q": "Koľko stojí reklama na Google mesačne?",
+            "a": "Rozpočet na jednu službu v jednom meste od 10 do 15€ denne, teda 300 až 450€ mesačne, plus správa podľa odpracovaných hodín. Menej tiež funguje, ale štatistika sa zbiera trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie."
+          },
+          {
+            "q": "Google Ads alebo Facebook: kde začať?",
+            "a": "Google tam, kde ľudia službu už hľadajú: opravy, servis, právne a účtovné služby, lokálne služby. Meta tam, kde treba dopyt vytvoriť: nový produkt, gastro, krása, udalosti. Pri jednom rozpočte začínam vyhľadávaním, lebo dopyt z neho je lacnejšie overiť."
+          },
+          {
+            "q": "Robíte aj reklamu pre e-shopy?",
+            "a": "Áno: Merchant Center, kampane Nákupy a Performance Max prepojené s katalógom e-shopu a meraním nákupov v GA4, aby sa rozpočet posúval k tovaru, ktorý sa naozaj predáva."
           }
         ],
         "facts": [
@@ -305,7 +405,45 @@
             "value": "účet je váš",
             "label": "štatistiky a prístupy zostávajú vám"
           }
-        ]
+        ],
+        "pricing_title": "Cenník: čo stojí reklama na Google a Meta",
+        "pricing_head": {
+          "type": "Položka",
+          "price": "Cena",
+          "includes": "Čo je v cene",
+          "time": "Poznámka"
+        },
+        "pricing": [
+          {
+            "type": "Kompletný štart kampaní",
+            "price": "približne 1 000 €",
+            "includes": "audit konkurencie, výpočet rozpočtu, účty, štruktúra kampaní, inzeráty, vylučujúce slová, prepojenie s GA4 a Search Console",
+            "time": "jednorazovo, účet je vedený na vás"
+          },
+          {
+            "type": "Správa a optimalizácia",
+            "price": "25 €/hod",
+            "includes": "prehľady vyhľadávacích dopytov, čistenie vylučujúcich slov, úprava ponúk, testy inzerátov, mesačný prehľad",
+            "time": "priebežne, rozsah podľa rozpočtu"
+          },
+          {
+            "type": "Rozpočet na reklamu",
+            "price": "od 10 až 15 € denne",
+            "includes": "platí sa priamo Googlu alebo Mete z vášho účtu, nie mne",
+            "time": "na jednu službu v jednom meste"
+          },
+          {
+            "type": "Meranie konverzií, ak chýba",
+            "price": "od 500 €",
+            "includes": "GA4, Tag Manager, Consent Mode v2, kľúčové udalosti, import konverzií do Google Ads",
+            "time": "pozri službu Analytika"
+          }
+        ],
+        "pricing_note": "Cena kliknutia sa na Slovensku pohybuje od 0,30 € pri úzkych lokálnych dopytoch po 2 € a viac v práve, financiách a realitách. Rozbor s výpočtom rozpočtu a ceny dopytu je v článku",
+        "pricing_link": {
+          "label": "Cena reklamy na Google na Slovensku.",
+          "href": "/blog/kolko-stoji-reklama-na-slovensku"
+        }
       }
     },
     "analytics": {
