@@ -3,6 +3,7 @@ title: 'TOP KOBKA: web prenájmu skladových boxov'
 description: >-
   Web služieb prenájmu skladových priestorov: zrozumiteľné podmienky, rozmery a
   ceny priamo na stránke, dopyt z webu namiesto telefonátu „či máte miesto“.
+date: '2026-08-04'
 client: 'TOP KOBKA'
 url: 'https://top-kobka.sk'
 image: '/assets/portfolio-topkobka.webp'

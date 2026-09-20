@@ -3,6 +3,7 @@ title: 'TOP SKLAD: a warehouse rental site with online booking of free space'
 description: >-
   A website for a warehouse rental company: free space is visible online and
   booking runs through the site instead of through messages and spreadsheets.
+date: '2026-08-04'
 client: 'TOP SKLAD'
 url: 'https://top-sklad.com'
 image: '/assets/portfolio-topsklad.webp'

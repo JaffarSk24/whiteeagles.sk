@@ -3,6 +3,7 @@ title: 'BODA BODA: veľkoobchodný e-shop s vanilkou, kávou a kakaovými bôbmi
 description: >-
   E-shop pre veľkoobchod s vanilkou, kávou a kakaovými bôbmi: katalóg, košík a
   objednávka postavené pre kupujúceho, ktorý berie po dávkach.
+date: '2026-08-04'
 client: 'BODA BODA'
 url: 'https://bodabo.ru'
 image: '/assets/portfolio-bodabo.webp'

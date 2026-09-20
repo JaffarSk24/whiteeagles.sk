@@ -3,6 +3,7 @@ title: 'Synchro Žralok: dvojjazyčný web klubu, ktorý sa aktualizuje sám'
 description: >-
   Web klubu synchronizovaného plávania v Bratislave v dvoch jazykoch, kde sa
   novinky ťahajú automaticky z verejného Instagramu, bez ručnej aktualizácie.
+date: '2026-08-04'
 client: 'Synchro ŽRALOK'
 url: 'https://synchrozralok.sk'
 image: '/assets/portfolio-synchrozralok.webp'

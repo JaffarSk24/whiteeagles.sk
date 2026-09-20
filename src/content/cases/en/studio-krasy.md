@@ -3,6 +3,7 @@ title: 'Krása štúdio OK: a beauty salon website with booking through Telegram
 description: >-
   A multilingual website for a beauty salon in Ružinov: the client picks a time,
   staff get a Telegram message, one tap confirms it and the slot closes.
+date: '2026-08-04'
 client: 'Krása štúdio "OK"'
 url: 'https://studio-krasy.sk'
 image: '/assets/portfolio-studiokrasy.webp'

@@ -3,6 +3,7 @@ title: 'Synchro Žralok: двуязычный сайт клуба, которы�
 description: >-
   Сайт клуба синхронного плавания в Братиславе на двух языках, где новости
   подтягиваются автоматически из публичного Instagram: без ручного обновления.
+date: '2026-08-04'
 client: 'Synchro ŽRALOK'
 url: 'https://synchrozralok.sk'
 image: '/assets/portfolio-synchrozralok.webp'

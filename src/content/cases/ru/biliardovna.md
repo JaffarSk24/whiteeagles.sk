@@ -4,6 +4,7 @@ description: >-
   Как бильярдный клуб в Братиславе перешёл от броней по телефону к
   онлайн-бронированию столов на сайте, и почему это изменило и загрузку зала,
   и работу администратора.
+date: '2026-08-04'
 client: 'Biliardovňa'
 url: 'https://biliardovna.sk'
 image: '/assets/portfolio-biliardovna.webp'

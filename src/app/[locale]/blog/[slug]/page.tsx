@@ -23,6 +23,15 @@ export function generateStaticParams(props: { params: { locale: string } }) {
   }));
 }
 
+// Front matter dates come through either as a string or, when the YAML parser
+// recognises them, as a Date. Open Graph wants ISO 8601 either way.
+function toIsoDate(value: unknown): string | undefined {
+  if (!value) return undefined;
+  if (value instanceof Date) return value.toISOString().split('T')[0];
+  const raw = String(value).trim();
+  return /^\d{4}-\d{2}-\d{2}/.test(raw) ? raw.split('T')[0] : undefined;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   const post = getPostBySlug(slug, locale);
@@ -84,6 +93,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description,
       url: pageUrl,
       type: 'article',
+      // LinkedIn and Facebook read the author and the dates from these
+      // og article tags, not from the JSON-LD below. Without them the
+      // LinkedIn Post Inspector reports "No author found" and no date,
+      // and a shared article loses its byline.
+      publishedTime: toIsoDate(post.date),
+      modifiedTime: toIsoDate(post.updated || post.date),
+      authors: ['Ing. Kirill Mosin'],
       images: [ogImage],
     },
     // Without this the card falls back to the site-wide language image from

@@ -29,6 +29,8 @@ export interface CaseStudy {
   key: string;
   /** Sort key. Lower comes first, so the strongest cases lead the index. */
   order: number;
+  /** Publication date, taken from when the page actually went live. */
+  date?: string;
 }
 
 export function getCaseBySlug(slug: string, locale: string): CaseStudy | null {
@@ -55,6 +57,12 @@ export function getCaseBySlug(slug: string, locale: string): CaseStudy | null {
       content,
       locale,
       order: typeof data.order === 'number' ? data.order : 99,
+      date:
+        data.date instanceof Date
+          ? data.date.toISOString().split('T')[0]
+          : typeof data.date === 'string'
+          ? data.date
+          : undefined,
     };
   } catch (error) {
     console.error(`Error reading case ${slug} in locale ${locale}:`, error);

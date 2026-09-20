@@ -3,6 +3,7 @@ title: 'Krása štúdio OK: web salónu krásy s objednávaním cez Telegram'
 description: >-
   Viacjazyčný web salónu krásy v Ružinove s online objednávaním: klientka si
   vyberie čas, obsluhe príde správa do Telegramu, jedno ťuknutie a slot je obsadený.
+date: '2026-08-04'
 client: 'Krása štúdio "OK"'
 url: 'https://studio-krasy.sk'
 image: '/assets/portfolio-studiokrasy.webp'

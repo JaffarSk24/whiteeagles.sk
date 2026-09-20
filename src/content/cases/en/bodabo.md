@@ -3,6 +3,7 @@ title: 'BODA BODA: a wholesale online shop for vanilla, coffee and cacao beans'
 description: >-
   An online shop built for wholesale buying of vanilla, coffee and cacao beans:
   catalogue, cart and checkout designed for someone who buys by the batch.
+date: '2026-08-04'
 client: 'BODA BODA'
 url: 'https://bodabo.ru'
 image: '/assets/portfolio-bodabo.webp'

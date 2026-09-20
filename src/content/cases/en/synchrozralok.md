@@ -3,6 +3,7 @@ title: 'Synchro Žralok: a bilingual club website that updates itself'
 description: >-
   A website for a synchronised swimming club in Bratislava in two languages,
   where news is pulled automatically from the club's public Instagram.
+date: '2026-08-04'
 client: 'Synchro ŽRALOK'
 url: 'https://synchrozralok.sk'
 image: '/assets/portfolio-synchrozralok.webp'

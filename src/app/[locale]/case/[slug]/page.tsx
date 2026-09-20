@@ -56,6 +56,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: study.title,
       description,
       url: pageUrl,
+      // Same reason as on the blog: LinkedIn reads the byline and the date
+      // from these tags, not from the JSON-LD further down the page.
+      type: 'article',
+      ...(study.date ? { publishedTime: study.date } : {}),
+      authors: ['Ing. Kirill Mosin'],
       images: [`https://whiteeagles.sk${study.image}`],
     },
     twitter: {
