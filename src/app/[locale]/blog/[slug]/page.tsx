@@ -97,7 +97,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       // og article tags, not from the JSON-LD below. Without them the
       // LinkedIn Post Inspector reports "No author found" and no date,
       // and a shared article loses its byline.
-      publishedTime: toIsoDate(post.date),
+      //
+      // Both dates carry the last change, the same value the sitemap puts in
+      // lastmod: a share should show how fresh the article is, and LinkedIn
+      // displays published_time, not modified_time. The true first-published
+      // date stays in the JSON-LD below, so nothing is lost.
+      publishedTime: toIsoDate(post.updated || post.date),
       modifiedTime: toIsoDate(post.updated || post.date),
       authors: ['Ing. Kirill Mosin'],
       images: [ogImage],

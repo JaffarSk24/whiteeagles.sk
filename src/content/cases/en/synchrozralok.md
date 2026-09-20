@@ -4,6 +4,7 @@ description: >-
   A website for a synchronised swimming club in Bratislava in two languages,
   where news is pulled automatically from the club's public Instagram.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'Synchro ŽRALOK'
 url: 'https://synchrozralok.sk'
 image: '/assets/portfolio-synchrozralok.webp'

@@ -31,6 +31,8 @@ export interface CaseStudy {
   order: number;
   /** Publication date, taken from when the page actually went live. */
   date?: string;
+  /** Last meaningful edit. Drives the sitemap lastmod and the og date. */
+  updated?: string;
 }
 
 export function getCaseBySlug(slug: string, locale: string): CaseStudy | null {
@@ -62,6 +64,12 @@ export function getCaseBySlug(slug: string, locale: string): CaseStudy | null {
           ? data.date.toISOString().split('T')[0]
           : typeof data.date === 'string'
           ? data.date
+          : undefined,
+      updated:
+        data.updated instanceof Date
+          ? data.updated.toISOString().split('T')[0]
+          : typeof data.updated === 'string'
+          ? data.updated
           : undefined,
     };
   } catch (error) {

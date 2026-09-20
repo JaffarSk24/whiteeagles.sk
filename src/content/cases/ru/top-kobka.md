@@ -4,6 +4,7 @@ description: >-
   Сайт услуг аренды складских помещений: понятные условия, размеры и цены на
   странице, обращение с сайта вместо звонка «уточнить, есть ли место».
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'TOP KOBKA'
 url: 'https://top-kobka.sk'
 image: '/assets/portfolio-topkobka.webp'

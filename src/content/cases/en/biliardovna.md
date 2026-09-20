@@ -4,6 +4,7 @@ description: >-
   How a Bratislava billiard club moved from phone bookings to booking tables
   online, and what that changed for both the floor and the staff.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'Biliardovňa'
 url: 'https://biliardovna.sk'
 image: '/assets/portfolio-biliardovna.webp'

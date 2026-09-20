@@ -4,6 +4,7 @@ description: >-
   Сайт компании по аренде складских помещений: свободные места видны онлайн,
   бронирование идёт через сайт, а не через переписку и таблицы.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'TOP SKLAD'
 url: 'https://top-sklad.com'
 image: '/assets/portfolio-topsklad.webp'

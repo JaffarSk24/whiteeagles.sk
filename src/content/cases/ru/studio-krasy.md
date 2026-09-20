@@ -4,6 +4,7 @@ description: >-
   Многоязычный сайт салона красоты в Ружинове с онлайн-записью: клиент выбирает
   время, мастеру приходит сообщение в Telegram, одно нажатие, и слот занят.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'Krása štúdio "OK"'
 url: 'https://studio-krasy.sk'
 image: '/assets/portfolio-studiokrasy.webp'

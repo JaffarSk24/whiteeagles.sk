@@ -4,6 +4,7 @@ description: >-
   Web firmy na prenájom skladových priestorov: voľné miesta sú viditeľné online,
   rezervácia beží cez web, nie cez písanie a tabuľky.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'TOP SKLAD'
 url: 'https://top-sklad.com'
 image: '/assets/portfolio-topsklad.webp'

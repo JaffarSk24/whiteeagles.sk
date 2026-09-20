@@ -4,6 +4,7 @@ description: >-
   A service website for storage unit rental: sizes, terms and prices on the page
   itself, so enquiries replace the call that only asks whether space is free.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'TOP KOBKA'
 url: 'https://top-kobka.sk'
 image: '/assets/portfolio-topkobka.webp'

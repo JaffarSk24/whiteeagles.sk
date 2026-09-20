@@ -4,6 +4,7 @@ description: >-
   Интернет-магазин для оптовой торговли ванилью, кофе и какао-бобами: каталог,
   корзина и оформление заказа под покупателя, который берёт партиями.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'BODA BODA'
 url: 'https://bodabo.ru'
 image: '/assets/portfolio-bodabo.webp'

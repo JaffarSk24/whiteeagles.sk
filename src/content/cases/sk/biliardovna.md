@@ -4,6 +4,7 @@ description: >-
   Ako biliardový klub v Bratislave prešiel od rezervácií cez telefón k online
   rezervácii stolov na webe, a čo to zmenilo na obsadenosti aj na práci obsluhy.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'Biliardovňa'
 url: 'https://biliardovna.sk'
 image: '/assets/portfolio-biliardovna.webp'

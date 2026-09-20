@@ -4,6 +4,7 @@ description: >-
   A multilingual website for a beauty salon in Ružinov: the client picks a time,
   staff get a Telegram message, one tap confirms it and the slot closes.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'Krása štúdio "OK"'
 url: 'https://studio-krasy.sk'
 image: '/assets/portfolio-studiokrasy.webp'

@@ -4,6 +4,7 @@ description: >-
   Web klubu synchronizovaného plávania v Bratislave v dvoch jazykoch, kde sa
   novinky ťahajú automaticky z verejného Instagramu, bez ručnej aktualizácie.
 date: '2026-08-04'
+updated: '2026-09-20'
 client: 'Synchro ŽRALOK'
 url: 'https://synchrozralok.sk'
 image: '/assets/portfolio-synchrozralok.webp'
