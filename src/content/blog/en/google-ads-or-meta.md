@@ -113,7 +113,7 @@ The practical consequence: **Google demands attention to settings, Meta demands 
 ## Where to start when there is budget for one
 
 1. **Check demand** in the Keyword Planner. Ten minutes, free, before any spending.
-2. **Demand exists → start with Google.** One service, one city, 10–15 € a day.
+2. **Demand exists → start with Google.** One service, one city, 10-15 € a day.
 3. **No demand → start with Meta.** But allow two or three months and material for the ads.
 4. **Take the first platform to a cost per enquiry you understand.** Not "to success" but to a number you can compare with the value of a client.
 5. **Only then add the second.**

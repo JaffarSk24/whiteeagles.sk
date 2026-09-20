@@ -113,7 +113,7 @@ Three things that affect sales more than they appear to:
 
 **A choice of collection point.** Packeta, courier services, the post office — Slovak buyers are used to choosing.
 
-**A specific timeframe.** "2–3 working days" works better than "as soon as possible".
+**A specific timeframe.** "2-3 working days" works better than "as soon as possible".
 
 ## Measurement: without it a shop is unreadable
 
@@ -126,7 +126,7 @@ How to set it up — [configuring GA4](/en/blog/ga4-setup/).
 ## Launch order
 
 1. Decide: a shop, or a catalogue with an enquiry form.
-2. Calculate the cost of ownership over 2–3 years, not the launch.
+2. Calculate the cost of ownership over 2-3 years, not the launch.
 3. Choose payment methods and check whether an eKasa is required.
 4. Prepare the mandatory documents.
 5. Build the shop.

@@ -16,7 +16,7 @@ faq:
   - q: 'How do I put the menu online so Google shows it?'
     a: 'As text on the page with Menu structured data, not as a PDF and not as a photo. Google reads PDFs badly and photos not at all, and a guest on a phone cannot even zoom them. It updates through a simple admin panel.'
   - q: 'How long does the launch take?'
-    a: 'A site with menu and booking usually 2–3 weeks. A landing page with one offer and a booking form within two weeks.'
+    a: 'A site with menu and booking usually 2-3 weeks. A landing page with one offer and a booking form within two weeks.'
   - q: 'Which matters more: the website or the Google profile?'
     a: 'For a restaurant, the Google profile with photos and reviews is the first thing a guest sees. The website is the second step: that is where they book, read the menu and check the place is really open. Without the profile nobody visits the site; without the site the profile has nowhere to send them.'
 ---
@@ -62,7 +62,7 @@ Honestly, because ready services have their place.
 
 | | Ready service (Bookio etc.) | Your own booking |
 |---|---|---|
-| **Start** | days | 2–3 weeks |
+| **Start** | days | 2-3 weeks |
 | **Payment** | monthly, sometimes % per booking | one-off |
 | **Where the guest books** | on someone else's site | on yours |
 | **Guest data** | with them | with you |
@@ -112,7 +112,7 @@ Without measurement you cannot tell whether the site helped. The minimum: bookin
 ## What it costs
 
 - **A landing page** with menu, contact and a booking form — from **1,500 €**, within two weeks.
-- **A restaurant website** with its own booking, a menu with an admin panel, several sections — from **3,500 €**, 2–3 weeks.
+- **A restaurant website** with its own booking, a menu with an admin panel, several sections — from **3,500 €**, 2-3 weeks.
 - Changes and adding booking to an existing site — **35 €/hr**.
 
 Included: the Google profile set up and linked, booking measurement, the cookie banner, the mandatory details, domain and hosting registered to you, 6 months of support. The full breakdown: [what a website costs](/en/blog/website-cost-slovakia/).

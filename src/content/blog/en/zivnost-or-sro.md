@@ -9,7 +9,7 @@ updated: '2026-09-14'
 key: 'zivnost-or-sro'
 faq:
   - q: 'Which is cheaper to start?'
-    a: 'A trade licence, by a wide margin. Free trades cost nothing when filed electronically and the licence arrives in 1–3 working days. An s.r.o. costs about 220 euros before 17 August 2026 and over 500 after it.'
+    a: 'A trade licence, by a wide margin. Free trades cost nothing when filed electronically and the licence arrives in 1-3 working days. An s.r.o. costs about 220 euros before 17 August 2026 and over 500 after it.'
   - q: 'Where is the real difference in money?'
     a: 'Not in the tax rate: that differs by roughly one and a half percent. It is in contributions: a sole trader pays a minimum of about 425 euros a month, some 5,100 a year, regardless of what they earned.'
   - q: 'Up to what income is a živnosť the better option?'
@@ -51,7 +51,7 @@ For a consultant working alone with small contracts, the risk is modest. For any
 
 ## Cost and speed of starting
 
-**Živnosť:** free trades cost 0 € electronically, craft trades 11 €. The licence arrives in 1–3 working days.
+**Živnosť:** free trades cost 0 € electronically, craft trades 11 €. The licence arrives in 1-3 working days.
 
 **s.r.o.:** about 220 € before 17 August 2026, over 500 € after — and from that date a notary or lawyer becomes mandatory. The full breakdown is in [how to open an s.r.o.](/en/blog/open-sro-in-slovakia/).
 
@@ -64,7 +64,7 @@ This is where the question is decided — but not where people usually look. The
 | Form | Income | Rate |
 |---|---|---|
 | **s.r.o.** | up to 100,000 € inclusive | **10 %** |
-| s.r.o. | 100,001 – 5,000,000 € | 21 % |
+| s.r.o. | 100,001-5,000,000 € | 21 % |
 | s.r.o. | above 5,000,000 € | 24 % |
 | **Živnosť** | up to 100,000 € inclusive | **15 %** |
 | Živnosť | above 100,000 € | 19 % on a base of roughly up to 43,983 €, then 25 % |

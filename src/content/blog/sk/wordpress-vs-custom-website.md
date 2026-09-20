@@ -46,7 +46,7 @@ Najčastejší omyl je porovnávať cenu spustenia.
 | | WordPress | Na mieru |
 |---|---|---|
 | **Spustenie** | lacnejšie | drahšie |
-| **Pluginy a predplatné** | 100–600 € ročne | zvyčajne žiadne |
+| **Pluginy a predplatné** | 100-600 € ročne | zvyčajne žiadne |
 | **Údržba** | povinná a pravidelná | minimálna |
 | **Zmeny** | časť sami, časť vývojár | vývojár |
 | **Po 3 rokoch** | často prerábka | funguje ďalej |

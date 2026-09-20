@@ -15,7 +15,7 @@ faq:
   - q: 'Ako dať menu na web, aby ho Google zobrazil?'
     a: 'Ako text na stránke so štruktúrovanými dátami Menu, nie ako PDF ani ako fotku. PDF Google číta zle, fotku vôbec, a hosť na mobile ich nevie ani priblížiť. Aktualizovať sa dá cez jednoduchú administráciu.'
   - q: 'Ako dlho trvá spustenie?'
-    a: 'Web s menu a rezerváciou zvyčajne 2–3 týždne. Landing page s jednou ponukou a rezervačným formulárom do dvoch týždňov.'
+    a: 'Web s menu a rezerváciou zvyčajne 2-3 týždne. Landing page s jednou ponukou a rezervačným formulárom do dvoch týždňov.'
   - q: 'Čo je dôležitejšie: web alebo profil na Googli?'
     a: 'Pre reštauráciu je to profil na Googli s fotkami a hodnoteniami, lebo je to prvé, čo hosť vidí. Web je druhý krok: tam sa rezervuje, číta menu a overuje, či je podnik naozaj otvorený. Bez profilu web nenavštívi nikto; bez webu profil nemá kam poslať.'
 ---
@@ -61,7 +61,7 @@ Poctivo, lebo hotové služby majú svoje miesto.
 
 | | Hotová služba (Bookio a pod.) | Vlastná rezervácia |
 |---|---|---|
-| **Štart** | dni | 2–3 týždne |
+| **Štart** | dni | 2-3 týždne |
 | **Platba** | mesačne, niekedy % z rezervácie | jednorazovo |
 | **Kde hosť rezervuje** | na cudzom webe | na vašom |
 | **Dáta o hosťoch** | u nich | u vás |
@@ -111,7 +111,7 @@ Bez merania nezistíte, či web pomohol. Minimum: otvorenie rezervácie, začat�
 ## Koľko to stojí
 
 - **Landing page** s menu, kontaktom a rezervačným formulárom — od **1 500 €**, do dvoch týždňov.
-- **Web reštaurácie** s vlastnou rezerváciou, menu s administráciou, viacerými sekciami — od **3 500 €**, 2–3 týždne.
+- **Web reštaurácie** s vlastnou rezerváciou, menu s administráciou, viacerými sekciami — od **3 500 €**, 2-3 týždne.
 - Úpravy a doplnenie rezervácie do existujúceho webu — **35 €/hod**.
 
 V cene: profil na Googli nastavený a prepojený, meranie rezervácií, cookie lišta, povinné údaje, doména a hosting na vás, 6 mesiacov podpory. Podrobný rozpis: [koľko stojí web](/sk/blog/website-cost-2026/).

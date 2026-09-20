@@ -13,7 +13,7 @@ faq:
   - q: 'Can a company still be opened entirely online after 17 August 2026?'
     a: 'No. The founding document will require a notarial deed or authorisation by a lawyer. Parts of the process stay electronic, but the visit stops being optional.'
   - q: 'Which is faster, an s.r.o. or a živnosť?'
-    a: 'A trade licence is issued in 1–3 working days and costs almost nothing. An s.r.o. takes longer and costs more, but it limits your personal liability.'
+    a: 'A trade licence is issued in 1-3 working days and costs almost nothing. An s.r.o. takes longer and costs more, but it limits your personal liability.'
   - q: 'How long does opening an s.r.o. take?'
     a: 'With documents prepared, 3 to 7 working days until the entry appears in the register. Add time for the bank account, the tax office and everything after.'
   - q: 'Do I have to deposit 5,000 EUR of share capital into an account?'
@@ -39,7 +39,7 @@ Below is the whole sequence, honest figures, and the part almost everyone leaves
 | Notary or lawyer | not required | **mandatory** |
 | Founding document | a qualified electronic signature is enough | notarial deed or a document authorised by a lawyer |
 | Who files with the court | an accountant with a power of attorney could | only founders, a notary or a lawyer |
-| Notary/lawyer fees | — | roughly **150–200 €** on top |
+| Notary/lawyer fees | — | roughly **150-200 €** on top |
 | **Total** | **about 220 €** | **over 500 €** |
 
 There is one genuine improvement in the new rules: **free trades will be registered automatically** when the company is founded, without a separate trip to the Trade Licensing Office. That used to be its own step.

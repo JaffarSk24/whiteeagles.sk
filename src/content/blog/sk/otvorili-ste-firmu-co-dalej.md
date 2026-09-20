@@ -13,7 +13,7 @@ faq:
   - q: 'Potrebuje nová firma hneď web, alebo stačí Facebook?'
     a: 'Na pár týždňov stačí profil na Googli a sociálna sieť. Ale slovenský zákazník pred platbou hľadá firmu na webe: IČO, adresu, ceny. Firma bez webu vyzerá dočasne, aj keď ňou nie je.'
   - q: 'Koľko stojí digitálny štart novej firmy?'
-    a: 'Doména a hosting zhruba 50–150€ ročne, e-mail a profil na Googli nič. Web od 1 500€ za landing page a od 3 500€ za firemný web, s analytikou, cookie lištou a povinnými údajmi v cene.'
+    a: 'Doména a hosting zhruba 50-150€ ročne, e-mail a profil na Googli nič. Web od 1 500€ za landing page a od 3 500€ za firemný web, s analytikou, cookie lištou a povinnými údajmi v cene.'
   - q: 'Kto musí byť uvedený ako majiteľ domény?'
     a: 'Firma alebo konateľ. Nikdy dodávateľ. Doména zapísaná na cudzieho človeka je najdrahšia chyba prvého mesiaca: pri rozchode s dodávateľom prídete o adresu, e-mail aj pozície.'
   - q: 'Zakladáte aj firmy alebo vediete účtovníctvo?'
@@ -108,7 +108,7 @@ Sedem bodov, jeden mesiac, a firma existuje aj pre zákazníka, nie iba pre regi
 
 ## Ak treba pomôcť
 
-Body 1–3 zvládnete sami za večer, a nemá zmysel za ne platiť. Body 4–7 sú moja práca: web s povinnými údajmi, cookie lištou a meraním v cene, doména a hosting zapísané na vás, 6 mesiacov podpory. Landing page od **1 500 €**, firemný web od **3 500 €**, priemerné dodanie 10 pracovných dní.
+Body 1-3 zvládnete sami za večer, a nemá zmysel za ne platiť. Body 4-7 sú moja práca: web s povinnými údajmi, cookie lištou a meraním v cene, doména a hosting zapísané na vás, 6 mesiacov podpory. Landing page od **1 500 €**, firemný web od **3 500 €**, priemerné dodanie 10 pracovných dní.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO, ktorú si dáte do nákladov.
 

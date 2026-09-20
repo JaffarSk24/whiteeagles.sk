@@ -75,9 +75,9 @@ Honestly, line by line:
 
 | Item | Cost |
 |---|---|
-| **Domain and hosting** | roughly 50–150 € a year |
+| **Domain and hosting** | roughly 50-150 € a year |
 | **Premium plugin and theme licences** | if the site uses them, each is paid yearly |
-| **Monthly maintenance** (updates, backup check, form test) | for a small company site usually 1–2 hours, at 35 € with me |
+| **Monthly maintenance** (updates, backup check, form test) | for a small company site usually 1-2 hours, at 35 € with me |
 | **Unplanned repairs** | after a bad update, a hack, or a forced PHP change |
 
 The last line is the most expensive because it cannot be planned. Regular maintenance does not eliminate it, but shrinks it considerably.

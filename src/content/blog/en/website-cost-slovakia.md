@@ -78,7 +78,7 @@ The last four items are usually missing from cheap offers — and they are preci
 
 The development quote is not the whole cost of owning a site.
 
-**Domain and hosting** — roughly 50–150 € a year. A trifle, but they must be registered to you, not the contractor ([why that matters](/en/blog/sk-domain-guide/)).
+**Domain and hosting** — roughly 50-150 € a year. A trifle, but they must be registered to you, not the contractor ([why that matters](/en/blog/sk-domain-guide/)).
 
 **Copy.** Who will write it? If you, budget your own time. If a copywriter, that is a separate and noticeable line.
 
@@ -86,7 +86,7 @@ The development quote is not the whole cost of owning a site.
 
 **A payment gateway**, if you sell: connection plus a percentage of every transaction ([how to choose](/en/blog/accept-card-payments/)).
 
-**Support after launch.** Updates, backups, fixes. With me the first six months are included, then by the hour. Others charge a subscription of 50–200 € a month.
+**Support after launch.** Updates, backups, fixes. With me the first six months are included, then by the hour. Others charge a subscription of 50-200 € a month.
 
 Ask about each item in advance. The difference between "a site for 2,000" and "a site for 3,500" is often explained entirely by this list.
 

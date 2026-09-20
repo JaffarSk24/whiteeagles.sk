@@ -8,9 +8,9 @@ date: '2026-08-04'
 key: 'website-traffic'
 faq:
   - q: 'Za aký čas narastie návštevnosť bez reklamy?'
-    a: 'Karta v Googli a katalógy dajú prvé návštevy za dva-tri týždne. Vyhľadávacia návštevnosť z článkov sa rozbieha 3–6 mesiacov. Partnerské odkazy a komunity fungujú rýchlejšie než organika, ale vyžadujú vašu osobnú účasť.'
+    a: 'Karta v Googli a katalógy dajú prvé návštevy za dva-tri týždne. Vyhľadávacia návštevnosť z článkov sa rozbieha 3-6 mesiacov. Partnerské odkazy a komunity fungujú rýchlejšie než organika, ale vyžadujú vašu osobnú účasť.'
   - q: 'Koľko článkov treba, aby bol výsledok?'
-    a: 'Orientačne 20–30 stránok, každá na konkrétnu otázku. Jeden článok výsledok nedá: vyhľadávanie začne web vnímať ako zdroj vtedy, keď vidí systém, nie jeden text.'
+    a: 'Orientačne 20-30 stránok, každá na konkrétnu otázku. Jeden článok výsledok nedá: vyhľadávanie začne web vnímať ako zdroj vtedy, keď vidí systém, nie jeden text.'
   - q: 'Čo je dôležitejšie: počet článkov alebo ich kvalita?'
     a: 'Ani jedno samostatne. Dôležitejšie je trafiť konkrétnu otázku: stránka, ktorá na reálny dopyt odpovedá lepšie než ostatné vo výsledkoch, predbehne aj dlhé všeobecné texty, aj desiatku krátkych poznámok.'
   - q: 'Fungujú sociálne siete na privádzanie na web?'
@@ -88,7 +88,7 @@ Pravidlo je jedno: **stránka sa píše na konkrétnu otázku, nie na tému.** �
 - porovnania: jedno riešenie proti druhému;
 - rozbory chýb: čo sa pokazí a prečo.
 
-**Reálny časový rámec:** prvé pozície za 2–3 mesiace, citeľná návštevnosť za 4–6, pri 20–30 stránkach.
+**Reálny časový rámec:** prvé pozície za 2-3 mesiace, citeľná návštevnosť za 4-6, pri 20-30 stránkach.
 
 Ako overiť, či má web z čoho rásť, je v článku [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
@@ -137,7 +137,7 @@ Môžem sa pozrieť, čo webu bráni rásť, a povedať, kde máte najrýchlejš
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-Ak niet času čakať 3–6 mesiacov, organiku sa dá podoprieť plateným trafficom: [nastavenie reklamy](/sk/service/ads/) prináša dopyty od prvého dňa a [webová analytika](/sk/service/analytics/) ukáže, či sa to vracia.
+Ak niet času čakať 3-6 mesiacov, organiku sa dá podoprieť plateným trafficom: [nastavenie reklamy](/sk/service/ads/) prináša dopyty od prvého dňa a [webová analytika](/sk/service/analytics/) ukáže, či sa to vracia.
 
 K téme: [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads na Slovensku](/sk/blog/google-ads-small-business/) a [treba web po slovensky](/sk/blog/nuzhen-li-sajt-na-slovackom/).
 

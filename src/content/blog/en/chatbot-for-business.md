@@ -36,7 +36,7 @@ One thing only, but an important one: **repetitive actions with no variation.**
 
 **Booking.** The client picks a time, staff get a message, one tap confirms it and the slot closes on the site automatically. That is exactly how booking works at [Krása štúdio OK](/en/case/studio-krasy/): no spreadsheets, no double bookings.
 
-**Answering standard questions.** Opening hours, address, prices, how to get there, what to bring. That is 60–70 % of incoming messages in almost any business.
+**Answering standard questions.** Opening hours, address, prices, how to get there, what to bring. That is 60-70 % of incoming messages in almost any business.
 
 **Notifications inside the team.** A new enquiry, a new order, an error on the site — into the chat that is open anyway.
 

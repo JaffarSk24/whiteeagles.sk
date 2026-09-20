@@ -11,15 +11,15 @@ faq:
   - q: 'Koľko stojí reklama na Google mesačne?'
     a: 'Na jednu službu v jednom meste 300 až 450 eur mesačne na samotnú reklamu, teda 10 až 15 eur denne, plus správa. Pri tomto rozpočte sa za mesiac nazbiera 20 až 30 kontaktov a dá sa rozhodnúť, či pokračovať. Celé Slovensko alebo viac služieb naraz potrebuje násobne viac.'
   - q: 'Koľko stojí kliknutie v Google Ads na Slovensku?'
-    a: 'Závisí od niky a konkurencie. Pri službách pre firmy v Bratislave to býva 0,30–1,50 eura, pri úzkych B2B dopytoch aj viac. Presné číslo pre vaše slová ukáže Plánovač kľúčových slov ešte pred spustením a zadarmo.'
+    a: 'Závisí od niky a konkurencie. Pri službách pre firmy v Bratislave to býva 0,30-1,50 eura, pri úzkych B2B dopytoch aj viac. Presné číslo pre vaše slová ukáže Plánovač kľúčových slov ešte pred spustením a zadarmo.'
   - q: 'Aký minimálny rozpočet má zmysel?'
-    a: 'Pre jednu službu v jednom meste od 10–15 eur denne. Menej tiež funguje, ale štatistika sa zbiera trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.'
+    a: 'Pre jednu službu v jednom meste od 10-15 eur denne. Menej tiež funguje, ale štatistika sa zbiera trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.'
   - q: 'Koľko sa berie za správu kampaní?'
-    a: 'Na slovenskom trhu sú tri schémy: percento z rozpočtu (zvyčajne 10–20%), pevná mesačná suma alebo hodinová sadzba. Pri malých rozpočtoch je percento pre agentúru nevýhodné, preto ponúkajú fix alebo hodiny. U mňa je hodinová sadzba 25 eur, plný rozbeh kampaní začína približne od 1000 eur a rozpočet na reklamu sa platí zvlášť priamo Googlu alebo Mete.'
+    a: 'Na slovenskom trhu sú tri schémy: percento z rozpočtu (zvyčajne 10-20%), pevná mesačná suma alebo hodinová sadzba. Pri malých rozpočtoch je percento pre agentúru nevýhodné, preto ponúkajú fix alebo hodiny. U mňa je hodinová sadzba 25 eur, plný rozbeh kampaní začína približne od 1000 eur a rozpočet na reklamu sa platí zvlášť priamo Googlu alebo Mete.'
   - q: 'Za ako dlho sa reklama vráti?'
     a: 'Prvé dopyty sú možné v deň spustenia. Hodnotiť návratnosť skôr ako po mesiaci je predčasné: prvé dva-tri týždne odídu na zbieranie vylučujúcich slov a odrezávanie nerelevantných dopytov.'
   - q: 'Čo je lacnejšie: Google Ads alebo SEO?'
-    a: 'Iný charakter nákladov. Reklama sú premenné náklady, ktoré končia spolu so zobrazovaním. SEO je investícia do aktíva, ktorá sa rozbieha 3–6 mesiacov a potom pracuje bez platby za kliknutie. Malá firma zvyčajne potrebuje oboje, len v inom čase.'
+    a: 'Iný charakter nákladov. Reklama sú premenné náklady, ktoré končia spolu so zobrazovaním. SEO je investícia do aktíva, ktorá sa rozbieha 3-6 mesiacov a potom pracuje bez platby za kliknutie. Malá firma zvyčajne potrebuje oboje, len v inom čase.'
 ---
 ![Koľko stojí reklama v Google Ads na Slovensku | White Eagles & Co.](/assets/blog/ads-how.webp)
 
@@ -67,8 +67,8 @@ Presné hodnoty závisia od niky, ale rád veličín je takýto:
 
 | Typ dopytu | Orientačne za kliknutie |
 |---|---|
-| Lokálne služby, úzke dopyty | 0,30–0,80 € |
-| Služby pre firmy v Bratislave | 0,60–1,50 € |
+| Lokálne služby, úzke dopyty | 0,30-0,80 € |
+| Služby pre firmy v Bratislave | 0,60-1,50 € |
 | Konkurenčné niky (právo, financie, reality) | od 2 € |
 | Značkové dopyty (váš názov) | zvyčajne centy |
 
@@ -78,9 +78,9 @@ Presné hodnoty závisia od niky, ale rád veličín je takýto:
 
 Rátať treba od dopytu, nie od rozpočtu.
 
-Vezmime službu v Bratislave: kliknutie 0,60 €, dopyt zanechá každý dvadsiaty — kontakt teda vyjde asi na 12 €. Aby sa dalo posúdiť, či sa to vracia, treba 20–30 kontaktov: **240–360 € len na nazbieranie štatistiky.**
+Vezmime službu v Bratislave: kliknutie 0,60 €, dopyt zanechá každý dvadsiaty — kontakt teda vyjde asi na 12 €. Aby sa dalo posúdiť, či sa to vracia, treba 20-30 kontaktov: **240-360 € len na nazbieranie štatistiky.**
 
-Odtiaľ orientačný údaj — **10–15 € denne na jednu službu v jednom meste**. Pri 5 € denne sa na dáta čaká trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.
+Odtiaľ orientačný údaj — **10-15 € denne na jednu službu v jednom meste**. Pri 5 € denne sa na dáta čaká trikrát dlhšie a celý ten čas platíte bez podkladov na rozhodnutie.
 
 Prvé pravidlo rozdelenia: **nerozotierať.** Malý rozpočet na celé Slovensko a šesť služieb nedá ani dopyty, ani štatistiku. Jedna služba, jedno mesto, potom rozšírenie.
 
@@ -100,7 +100,7 @@ Pod prvým riadkom to má zmysel len pri veľmi úzkom dopyte s lacným kliknut�
 
 Na slovenskom trhu sú tri schémy:
 
-**Percento z rozpočtu** — zvyčajne 10–20 %. Logické pri veľkých rozpočtoch, ale pri 400 € mesačne dostane agentúra 40–80 € a fyzicky nemôže kampani venovať čas.
+**Percento z rozpočtu** — zvyčajne 10-20 %. Logické pri veľkých rozpočtoch, ale pri 400 € mesačne dostane agentúra 40-80 € a fyzicky nemôže kampani venovať čas.
 
 **Pevná mesačná suma** — zrozumiteľné a predvídateľné.
 
@@ -146,7 +146,7 @@ Poviem to priamo, lebo to šetrí peniaze:
 
 - **Web nie je pripravený.** Pomalý, bez stránky konkrétnej služby, s nefunkčnými formulármi — reklama bude zaplatený odchod návštevníkov.
 - **Meranie nie je nastavené.** Výsledok sa nedozviete a rozhodnúť sa nebudete môcť.
-- **Nie je rezerva na 2–3 mesiace.** Kampaň vypnutá po dvoch týždňoch sú peniaze minuté na učenie algoritmu, ktoré ste nevyužili.
+- **Nie je rezerva na 2-3 mesiace.** Kampaň vypnutá po dvoch týždňoch sú peniaze minuté na učenie algoritmu, ktoré ste nevyužili.
 - **V hľadaní nie je dopyt.** Ak Plánovač ukazuje pri vašej téme jednotky dopytov mesačne, rozpočet patrí do iných kanálov — [rozbor zdrojov návštevnosti](/sk/blog/kak-uvelichit-poseshaemost-sajta/).
 
 ## Ak treba pomôcť

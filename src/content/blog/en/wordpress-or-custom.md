@@ -46,7 +46,7 @@ The most common mistake is comparing the launch price.
 | | WordPress | Custom |
 |---|---|---|
 | **Launch** | cheaper | dearer |
-| **Plugins and subscriptions** | 100–600 € a year | usually none |
+| **Plugins and subscriptions** | 100-600 € a year | usually none |
 | **Maintenance** | mandatory and regular | minimal |
 | **Changes** | partly yourself, partly a developer | a developer |
 | **After 3 years** | often a rebuild | still working |

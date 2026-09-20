@@ -8,9 +8,9 @@ date: '2026-08-04'
 key: 'website-traffic'
 faq:
   - q: 'How long before traffic grows without advertising?'
-    a: 'A Google listing and directories bring the first visits within two to three weeks. Search traffic from articles takes 3–6 months to build. Partner links and communities work faster than organic search but require your personal involvement.'
+    a: 'A Google listing and directories bring the first visits within two to three weeks. Search traffic from articles takes 3-6 months to build. Partner links and communities work faster than organic search but require your personal involvement.'
   - q: 'How many articles are needed to see a result?'
-    a: 'Aim for 20–30 pages, each answering a specific question. One article produces nothing: search starts treating a site as a source when it sees a system, not a single text.'
+    a: 'Aim for 20-30 pages, each answering a specific question. One article produces nothing: search starts treating a site as a source when it sees a system, not a single text.'
   - q: 'What matters more: the number of articles or their quality?'
     a: 'Neither on its own. What matters is hitting a specific question: a page that answers a real query better than the rest of the results beats both long general texts and a dozen short notes.'
   - q: 'Does social media bring visitors to a site?'
@@ -88,7 +88,7 @@ What works in the Slovak context:
 - comparisons: one solution against another;
 - post-mortems: what goes wrong and why.
 
-**Realistic timescale:** first positions in 2–3 months, noticeable traffic in 4–6, at 20–30 pages.
+**Realistic timescale:** first positions in 2-3 months, noticeable traffic in 4-6, at 20-30 pages.
 
 How to check whether the site has anything to grow from — [the DIY SEO audit](/en/blog/seo-audit-yourself/).
 
@@ -137,7 +137,7 @@ I can look at what is holding the site back and say where your fastest win is �
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
-If waiting 3–6 months is not an option, organic growth can be propped up with paid traffic: [advertising setup](/en/service/ads/) brings enquiries from day one, and [web analytics](/en/service/analytics/) shows whether it pays.
+If waiting 3-6 months is not an option, organic growth can be propped up with paid traffic: [advertising setup](/en/service/ads/) brings enquiries from day one, and [web analytics](/en/service/analytics/) shows whether it pays.
 
 Related: [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/), [Google Ads or Meta](/en/blog/google-ads-or-meta/), [Google Ads in Slovakia](/en/blog/google-ads-getting-started/) and [do you need a site in Slovak](/en/blog/do-you-need-slovak-website/).
 

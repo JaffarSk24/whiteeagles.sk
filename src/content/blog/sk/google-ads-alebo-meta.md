@@ -113,7 +113,7 @@ Praktický dôsledok: **Google si žiada pozornosť k nastaveniam, Meta neustál
 ## Čím začať, keď je rozpočet jeden
 
 1. **Overte dopyt** v Plánovači kľúčových slov. Desať minút, zadarmo, ešte pred akýmkoľvek výdavkom.
-2. **Dopyt je — začnite Googlom.** Jedna služba, jedno mesto, 10–15 € denne.
+2. **Dopyt je — začnite Googlom.** Jedna služba, jedno mesto, 10-15 € denne.
 3. **Dopyt nie je — začnite Metou.** Ale rátajte s dvoma-tromi mesiacmi a s materiálom na reklamy.
 4. **Dotiahnite prvú platformu do zrozumiteľnej ceny dopytu.** Nie „do úspechu", ale do čísla, ktoré sa dá porovnať s cenou klienta.
 5. **Až potom pridávajte druhú.**

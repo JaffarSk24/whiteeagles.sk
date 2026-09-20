@@ -35,8 +35,8 @@ Nižšie rozoberiem, z čoho sa rozhodnutie skutočne skladá a prečo je od **1
 | | Živnosť | s.r.o. |
 |---|---|---|
 | Čím ručíte za dlhy | **celým osobným majetkom** | iba majetkom firmy |
-| Cena rozbehu | **0–11 €** elektronicky | 220 € do 17. 8. 2026, cez 500 € potom |
-| Lehota | **1–3 pracovné dni** | 2–5 pracovných dní plus príprava |
+| Cena rozbehu | **0-11 €** elektronicky | 220 € do 17. 8. 2026, cez 500 € potom |
+| Lehota | **1-3 pracovné dni** | 2-5 pracovných dní plus príprava |
 | Základné imanie | netreba | 5 000 € (na účet vkladať netreba) |
 | Notár | netreba | **povinný od 17. 8. 2026** |
 | Účtovníctvo | jednoduché | podvojné, treba účtovníka |
@@ -64,7 +64,7 @@ Ak prevádzkujete sklad s cudzím tovarom, staviate, predávate potraviny, berie
 
 **Živnosť** vybavíte za 1 až 3 pracovné dni, maximálne za päť. Voľné živnosti stoja pri elektronickom podaní **0 eur** za každú, remeselné a viazané **11 eur**. Osobne na úrade je to drahšie: 7 a 22 eur.
 
-**s.r.o.** do 17. augusta 2026 — súdny poplatok 220 eur elektronicky, 2 až 5 pracovných dní. Od 17. augusta 270,60 eura plus povinný notár alebo advokát, orientačne ďalších 150–200 eur. Spolu cez 500 eur.
+**s.r.o.** do 17. augusta 2026 — súdny poplatok 220 eur elektronicky, 2 až 5 pracovných dní. Od 17. augusta 270,60 eura plus povinný notár alebo advokát, orientačne ďalších 150-200 eur. Spolu cez 500 eur.
 
 Základné imanie 5 000 eur netreba fyzicky vkladať na účet — stačí vyhlásenie správcu vkladu. Tento mechanizmus aj celý postup registrácie som rozobral v článku [„Založenie s.r.o. v roku 2026"](/sk/blog/otkryt-sro-v-slovakii/).
 
@@ -89,7 +89,7 @@ Práve tu sa rozhoduje — ale nie tam, kde sa to zvyčajne hľadá. Sadzba dane
 | Forma | Príjem | Sadzba |
 |---|---|---|
 | **s.r.o.** | do 100 000 € vrátane | **10 %** |
-| s.r.o. | 100 001 – 5 000 000 € | 21 % |
+| s.r.o. | 100 001-5 000 000 € | 21 % |
 | s.r.o. | nad 5 000 000 € | 24 % |
 | **Živnosť** | do 100 000 € vrátane | **15 %** |
 | Živnosť | nad 100 000 € | 19 % zo základu približne do 43 983 €, ďalej 25 % |

@@ -36,7 +36,7 @@ Jednu vec, ale dôležitú: **opakujúce sa úkony bez variability.**
 
 **Rezervácie.** Klient si vyberie čas, zamestnancovi príde správa, jedno ťuknutie a je potvrdené, slot sa na webe automaticky zatvorí. Presne tak funguje objednávanie v [Krása štúdio OK](/sk/case/studio-krasy/): žiadne tabuľky, žiadne dvojité objednávky.
 
-**Odpovede na typové otázky.** Otváracie hodiny, adresa, ceny, ako sa dostať, čo si priniesť. To je 60–70 % prichádzajúcich správ takmer v každom podnikaní.
+**Odpovede na typové otázky.** Otváracie hodiny, adresa, ceny, ako sa dostať, čo si priniesť. To je 60-70 % prichádzajúcich správ takmer v každom podnikaní.
 
 **Upozornenia do tímu.** Nový dopyt, nová objednávka, chyba na webe — do chatu, ktorý je aj tak otvorený.
 

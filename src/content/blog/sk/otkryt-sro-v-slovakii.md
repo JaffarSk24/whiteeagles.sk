@@ -39,7 +39,7 @@ Nižšie je celý postup, skutočné sumy a to, na čo sa zvyčajne zabúda — 
 | Notár alebo advokát | nie je potrebný | **povinný** |
 | Zakladateľský dokument | stačí kvalifikovaný elektronický podpis (KEP) | iba notárska zápisnica alebo dokument autorizovaný advokátom |
 | Kto podáva návrh na súd | aj účtovník na základe plnomocenstva | iba zakladatelia, notár alebo advokát |
-| Služby notára/advokáta | — | orientačne **150–200 €** navyše |
+| Služby notára/advokáta | — | orientačne **150-200 €** navyše |
 | **Spolu** | **približne 220 €** | **cez 500 €** |
 
 Jedno zjednodušenie nové pravidlá prinášajú, a je užitočné: **voľné živnosti sa budú otvárať automaticky** pri registrácii spoločnosti, bez samostatnej návštevy živnostenského úradu. Doteraz to bol osobitný krok.
@@ -136,7 +136,7 @@ Ani jedna z týchto vecí nie je drahá. Všetky sú drahšie, keď sa robia o r
 | Položka | Do 17. 8. 2026 | Od 17. 8. 2026 |
 |---|---|---|
 | Súdny poplatok | 220 € | 270,60 € |
-| Notár alebo advokát | — | 150–200 € |
+| Notár alebo advokát | — | 150-200 € |
 | Voľné živnosti (elektronicky) | 0 € | 0 € |
 | Remeselné živnosti (elektronicky, za kus) | 11 € | 11 € |
 | Základné imanie (netreba vkladať na účet) | 5 000 € v majetku | 5 000 € v majetku |

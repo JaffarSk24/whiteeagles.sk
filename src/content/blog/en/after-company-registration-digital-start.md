@@ -13,7 +13,7 @@ faq:
   - q: 'Does a new company need a website straight away, or is Facebook enough?'
     a: 'For a couple of weeks a Google profile and a social page will do. But a Slovak buyer looks the company up on a website before paying: IČO, address, prices. A company without a website reads as temporary, even when it is not.'
   - q: 'What does a new company''s digital start cost?'
-    a: 'Domain and hosting roughly 50–150€ a year, email and the Google profile nothing. A website from 1,500€ for a landing page and from 3,500€ for a company site: with analytics, a cookie banner and the mandatory company details included.'
+    a: 'Domain and hosting roughly 50-150€ a year, email and the Google profile nothing. A website from 1,500€ for a landing page and from 3,500€ for a company site: with analytics, a cookie banner and the mandatory company details included.'
   - q: 'Who should be the registered owner of the domain?'
     a: 'The company or its director. Never the contractor. A domain in someone else''s name is the most expensive mistake of the first month: part ways with the contractor and you lose the address, the email and the rankings.'
   - q: 'Do you register companies or keep the books?'
@@ -108,7 +108,7 @@ Seven points, one month, and the company exists for the customer, not only for t
 
 ## If you need help
 
-Points 1–3 you can do yourself in an evening, and paying for them makes no sense. Points 4–7 are my work: a website with the mandatory details, cookie banner and measurement included, domain and hosting registered to you, 6 months of support. A landing page from **1,500 €**, a company site from **3,500 €**, average delivery 10 working days.
+Points 1-3 you can do yourself in an evening, and paying for them makes no sense. Points 4-7 are my work: a website with the mandatory details, cookie banner and measurement included, domain and hosting registered to you, 6 months of support. A landing page from **1,500 €**, a company site from **3,500 €**, average delivery 10 working days.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
 

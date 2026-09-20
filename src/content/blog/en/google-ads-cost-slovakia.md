@@ -9,15 +9,15 @@ updated: '2026-09-20'
 key: 'ads-pricing'
 faq:
   - q: 'What does a click cost in Google Ads in Slovakia?'
-    a: 'It depends on the niche and competition. For business services in Bratislava it is usually 0.30–1.50 euros, more on narrow B2B queries. The exact figure for your own keywords is shown free by the Keyword Planner before you spend anything.'
+    a: 'It depends on the niche and competition. For business services in Bratislava it is usually 0.30-1.50 euros, more on narrow B2B queries. The exact figure for your own keywords is shown free by the Keyword Planner before you spend anything.'
   - q: 'What is the minimum budget worth starting on?'
-    a: 'For one service in one city, from 10–15 euros a day. Less works too, but the statistics take three times as long to accumulate, and you pay throughout without having the data to decide on.'
+    a: 'For one service in one city, from 10-15 euros a day. Less works too, but the statistics take three times as long to accumulate, and you pay throughout without having the data to decide on.'
   - q: 'What does campaign management cost?'
-    a: 'Three models exist on the Slovak market: a percentage of budget (usually 10–20%), a fixed monthly fee, or an hourly rate. At small budgets a percentage does not pay an agency enough to give the campaign time.'
+    a: 'Three models exist on the Slovak market: a percentage of budget (usually 10-20%), a fixed monthly fee, or an hourly rate. At small budgets a percentage does not pay an agency enough to give the campaign time.'
   - q: 'How soon does advertising pay for itself?'
     a: 'First enquiries are possible on launch day. Judging the return before a month has passed is premature: the first two to three weeks go on collecting negative keywords and cutting off irrelevant traffic.'
   - q: 'Which is cheaper, Google Ads or SEO?'
-    a: 'They are different kinds of cost. Advertising is variable spending that stops when the impressions stop. SEO is an investment that takes 3–6 months to build and then works without paying per click. A small business usually needs both, at different times.'
+    a: 'They are different kinds of cost. Advertising is variable spending that stops when the impressions stop. SEO is an investment that takes 3-6 months to build and then works without paying per click. A small business usually needs both, at different times.'
 ---
 ![What Google Ads costs in Slovakia | White Eagles & Co.](/assets/blog/ads-how.webp)
 
@@ -65,8 +65,8 @@ Exact values depend on the niche, but the order of magnitude is this:
 
 | Query type | Rough cost per click |
 |---|---|
-| Local services, narrow queries | 0.30–0.80 € |
-| Business services in Bratislava | 0.60–1.50 € |
+| Local services, narrow queries | 0.30-0.80 € |
+| Business services in Bratislava | 0.60-1.50 € |
 | Competitive niches (law, finance, property) | from 2 € |
 | Brand queries (your own name) | usually cents |
 
@@ -76,9 +76,9 @@ Exact values depend on the niche, but the order of magnitude is this:
 
 Work backwards from the enquiry, not from the budget.
 
-Take a service in Bratislava: a click at 0.60 €, one in twenty visitors leaves an enquiry — so a contact costs about 12 €. To judge whether that pays, you need 20–30 contacts: **240–360 € purely on gathering statistics.**
+Take a service in Bratislava: a click at 0.60 €, one in twenty visitors leaves an enquiry — so a contact costs about 12 €. To judge whether that pays, you need 20-30 contacts: **240-360 € purely on gathering statistics.**
 
-Hence the working figure — **10–15 € a day for one service in one city**. At 5 € a day the data takes three times as long, and you pay throughout without grounds to decide.
+Hence the working figure — **10-15 € a day for one service in one city**. At 5 € a day the data takes three times as long, and you pay throughout without grounds to decide.
 
 The first rule of allocation: **do not spread it thin.** A small budget across all of Slovakia and six services produces neither enquiries nor statistics. One service, one city, then expand.
 
@@ -98,7 +98,7 @@ Below the first row it only makes sense for a very narrow query with a cheap cli
 
 Three models exist on the Slovak market:
 
-**A percentage of budget** — usually 10–20 %. Logical at large budgets, but at 400 € a month an agency receives 40–80 € and physically cannot give the campaign attention.
+**A percentage of budget** — usually 10-20 %. Logical at large budgets, but at 400 € a month an agency receives 40-80 € and physically cannot give the campaign attention.
 
 **A fixed monthly fee** — clear and predictable.
 
@@ -140,7 +140,7 @@ Plainly, because it saves money:
 
 - **The site is not ready.** Slow, no page for the specific service, forms that do not work — advertising becomes a paid exit.
 - **Measurement is not set up.** You will not learn the result and cannot make a decision.
-- **No reserve for 2–3 months.** A campaign switched off after two weeks is money spent teaching an algorithm you never used.
+- **No reserve for 2-3 months.** A campaign switched off after two weeks is money spent teaching an algorithm you never used.
 - **There is no search demand.** If the Planner shows single-digit monthly volumes for your topic, the budget belongs in other channels — [where traffic comes from](/en/blog/grow-website-traffic/).
 
 ## If you need help

@@ -8,7 +8,7 @@ date: '2026-08-04'
 key: 'google-ads-start'
 faq:
   - q: 'Koľko rozpočtu treba na Google Ads na Slovensku?'
-    a: 'Orientačne pri úzkej službe v Bratislave od 10–15 eur denne, teda 300–450 mesačne. Menej tiež funguje, ale na závery zo štatistiky sa bude čakať dlhšie: aby sa dalo posúdiť, či sa kampaň vracia, treba nazbierať aspoň 20–30 dopytov.'
+    a: 'Orientačne pri úzkej službe v Bratislave od 10-15 eur denne, teda 300-450 mesačne. Menej tiež funguje, ale na závery zo štatistiky sa bude čakať dlhšie: aby sa dalo posúdiť, či sa kampaň vracia, treba nazbierať aspoň 20-30 dopytov.'
   - q: 'Za ako dlho prídu prvé dopyty?'
     a: 'Prvé dopyty sú možné v deň spustenia a práve v tom je hlavný rozdiel oproti SEO. Prvé dva-tri týždne však odídu na zbieranie vylučujúcich slov a odrezávanie odpadových dopytov, takže hodnotiť návratnosť skôr ako po mesiaci je predčasné.'
   - q: 'Prečo kampaň míňa rozpočet a dopyty nechodia?'
@@ -44,9 +44,9 @@ Poradie je tu dôležitejšie, než sa zdá. Reklama spustená na nepripravený 
 
 Štandardná odpoveď „začnite s 5 eurami denne" neobstojí pri jednoduchom počítaní.
 
-Rátať treba odzadu. Povedzme, že kliknutie vo vašej nike stojí 0,60 € a dopyt zanechá každý dvadsiaty — dopyt teda vyjde asi na 12 €. Aby sa dalo posúdiť, či sa to vracia, treba 20–30 dopytov, čiže 240–360 € len na nazbieranie štatistiky.
+Rátať treba odzadu. Povedzme, že kliknutie vo vašej nike stojí 0,60 € a dopyt zanechá každý dvadsiaty — dopyt teda vyjde asi na 12 €. Aby sa dalo posúdiť, či sa to vracia, treba 20-30 dopytov, čiže 240-360 € len na nazbieranie štatistiky.
 
-Z toho plynie praktický orientačný údaj pre úzku službu v Bratislave: **10–15 € denne**. Menej tiež funguje, ale na závery sa nebude čakať mesiac, ale tri — a celý ten čas sa platí.
+Z toho plynie praktický orientačný údaj pre úzku službu v Bratislave: **10-15 € denne**. Menej tiež funguje, ale na závery sa nebude čakať mesiac, ale tri — a celý ten čas sa platí.
 
 Začínať je lepšie s jedným mestom a jednou službou. Rozdrobiť malý rozpočet na celé Slovensko a šesť služieb je najrýchlejší spôsob, ako nezískať ani dáta, ani dopyty.
 
@@ -97,7 +97,7 @@ Tri veci, ktoré naozaj vplývajú na cenu kliknutia aj na odozvu:
 
 **Nadpis opakuje dopyt.** Človek hľadá `oprava wordpress webstránky` — nadpis má tieto slová obsahovať. Vplýva to nielen na odozvu, ale aj na skóre kvality, a teda na cenu.
 
-**Je tam konkrétnosť.** „Oprava webov" prehráva s „Opravím web za 1–2 dni, platba po dokončení". Čísla, termíny a podmienky fungujú lepšie než prídavné mená.
+**Je tam konkrétnosť.** „Oprava webov" prehráva s „Opravím web za 1-2 dni, platba po dokončení". Čísla, termíny a podmienky fungujú lepšie než prídavné mená.
 
 **Je tam odlišnosť.** Pre podnikateľa, ktorý hľadá dodávateľa, váži veta „faktúra s IČO, stretneme sa v Bratislave" viac než „profesionálny prístup".
 
@@ -116,7 +116,7 @@ Zabudnite na počet kliknutí a pozíciu reklamy. Pozerať treba tri čísla:
 Často sa stavajú proti sebe, hoci riešia rôzne úlohy v čase.
 
 **Reklama** dáva dopyty hneď a končí spolu s rozpočtom.
-**SEO** sa rozbieha 3–6 mesiacov a potom pracuje bez platby za kliknutie.
+**SEO** sa rozbieha 3-6 mesiacov a potom pracuje bez platby za kliknutie.
 
 Rozumné poradie pre malú firmu: najprv dať do poriadku web a meranie, potom spustiť reklamu na najziskovejšiu službu a za získané peniaze robiť obsah, ktorý časom nahradí časť platenej návštevnosti.
 

@@ -113,7 +113,7 @@ Tri veci, ktoré vplývajú na predaje viac, než sa zdá:
 
 **Je na výber odberné miesto.** Packeta, kuriérske služby, pošta — slovenský kupujúci je zvyknutý vyberať si.
 
-**Termín je uvedený konkrétne.** „2–3 pracovné dni" funguje lepšie než „v čo najkratšom čase".
+**Termín je uvedený konkrétne.** „2-3 pracovné dni" funguje lepšie než „v čo najkratšom čase".
 
 ## Meranie: bez neho je e-shop nečitateľný
 
@@ -126,7 +126,7 @@ Ako to nastaviť — v článku [nastavenie GA4](/sk/blog/nastavenie-google-anal
 ## Poradie spustenia
 
 1. Rozhodnúť: e-shop alebo katalóg s dopytom.
-2. Spočítať náklady vlastníctva na 2–3 roky, nie iba spustenie.
+2. Spočítať náklady vlastníctva na 2-3 roky, nie iba spustenie.
 3. Vybrať spôsoby platby a overiť, či treba eKasu.
 4. Pripraviť povinné dokumenty.
 5. Postaviť e-shop.
