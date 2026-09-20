@@ -190,7 +190,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Kukučínova 12",
+          "streetAddress": "Kukučínova 1562/12",
           "addressLocality": "Stupava",
           "postalCode": "900 31",
           "addressCountry": "SK"
