@@ -239,7 +239,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             </div>
 
             <div className="detail-pricing-row">
-              <div className="detail-pricing">
+              <div className="detail-price-table">
                 <span className="price-tag">
                   {service.priceRate}€ / {tCommon("hour")}
                 </span>
@@ -290,8 +290,8 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               {page.pricing?.length && page.pricing_head ? (
                 <section className="detail-block">
                   <h2>{page.pricing_title}</h2>
-                  <div className="detail-pricing-wrap">
-                    <table className="detail-pricing">
+                  <div className="detail-price-table-wrap">
+                    <table className="detail-price-table">
                       <thead>
                         <tr>
                           <th>{page.pricing_head.type}</th>
@@ -304,7 +304,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                         {page.pricing.map((row, i) => (
                           <tr key={i}>
                             <td>{row.type}</td>
-                            <td className="detail-pricing-price">{row.price}</td>
+                            <td className="detail-price-table-price">{row.price}</td>
                             <td>{row.includes}</td>
                             <td>{row.time}</td>
                           </tr>
@@ -313,7 +313,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                     </table>
                   </div>
                   {page.pricing_note && (
-                    <p className="detail-pricing-note">
+                    <p className="detail-price-table-note">
                       {page.pricing_note}
                       {page.pricing_link && (
                         <>

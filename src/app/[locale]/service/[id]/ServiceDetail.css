@@ -328,41 +328,41 @@
 /* Price table on the service page: one row per type of site, the way
    people compare offers. Scrolls sideways on a phone instead of wrapping
    four columns into a ladder. */
-.detail-pricing-wrap {
+.detail-price-table-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin-bottom: 16px;
 }
-.detail-pricing {
+.detail-price-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.95rem;
   line-height: 1.45;
 }
-.detail-pricing th,
-.detail-pricing td {
+.detail-price-table th,
+.detail-price-table td {
   text-align: left;
   vertical-align: top;
   padding: 12px 14px;
   border-bottom: 1px solid var(--border-color, rgba(255, 255, 255, 0.15));
 }
-.detail-pricing th {
+.detail-price-table th {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   opacity: 0.7;
   font-weight: 600;
 }
-.detail-pricing td:first-child {
+.detail-price-table td:first-child {
   font-weight: 600;
   white-space: nowrap;
 }
-.detail-pricing-price {
+.detail-price-table-price {
   white-space: nowrap;
   font-weight: 700;
   color: var(--accent-color, inherit);
 }
-.detail-pricing-note {
+.detail-price-table-note {
   margin: 0 0 20px;
   font-size: 0.95rem;
   opacity: 0.85;
@@ -393,11 +393,11 @@
   font-size: 0.95rem;
 }
 @media (max-width: 640px) {
-  .detail-pricing {
+  .detail-price-table {
     font-size: 0.88rem;
   }
-  .detail-pricing th,
-  .detail-pricing td {
+  .detail-price-table th,
+  .detail-price-table td {
     padding: 10px 10px;
   }
 }
