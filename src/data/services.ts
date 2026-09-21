@@ -41,7 +41,7 @@ export const services: Service[] = [
   },
   {
     id: 'bugfix',
-    related: ['webdev', 'analytics'],
+    related: ['webdev', 'ads', 'analytics'],
     titleKey: 'services.bugfix.title',
     descKey: 'services.bugfix.desc',
     priceRate: 35,
