@@ -3,6 +3,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ArrowLeft, ShieldCheck, FileText, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from "lucide-react";
 import { services } from "../../../../data/services";
+import { getSlugForLocale } from "../../../../utils/blog";
+import { getCaseSlugForLocale } from "../../../../utils/cases";
 
 import { ServiceDetailClient } from "./ServiceDetailClient";
 import { ServiceFacts } from "../../../../components/ServiceFacts";
@@ -100,12 +102,31 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         pricing_note?: string;
         pricing?: { type: string; price: string; includes: string; time: string }[];
         pricing_head?: { type: string; price: string; includes: string; time: string };
-        pricing_link?: { label: string; href: string };
+        pricing_link?: { label: string; ref: string };
         industries_title?: string;
         industries_intro?: string;
-        industries?: { label: string; href: string; note: string }[];
+        industries?: { label: string; ref: string; note: string }[];
       })
     : null;
+
+  // Links inside the translation files are stored as "blog:<key>" or
+  // "case:<key>", never as paths. next-intl serialises the whole message file
+  // into every page, so a stored path turned up in the page data of the home
+  // page, the portfolio and everywhere else - without a trailing slash and
+  // without the language, which sent crawlers through a redirect to the
+  // Slovak article. The key is resolved here to this language's own slug.
+  const resolveRef = (ref: string): string | null => {
+    const [kind, key] = ref.split(":");
+    if (kind === "blog") {
+      const slug = getSlugForLocale(key, locale);
+      return slug ? `/blog/${slug}/` : null;
+    }
+    if (kind === "case") {
+      const slug = getCaseSlugForLocale(key, locale);
+      return slug ? `/case/${slug}/` : null;
+    }
+    return null;
+  };
 
   const homeName = locale === "ru" ? "Главная" : locale === "sk" ? "Domov" : "Home";
   const serviceTitle = t((service.internalTitleKey as any) || (service.titleKey as any));
@@ -315,10 +336,10 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   {page.pricing_note && (
                     <p className="detail-price-table-note">
                       {page.pricing_note}
-                      {page.pricing_link && (
+                      {page.pricing_link && resolveRef(page.pricing_link.ref) && (
                         <>
                           {" "}
-                          <Link href={page.pricing_link.href as any}>{page.pricing_link.label}</Link>
+                          <Link href={resolveRef(page.pricing_link.ref) as any}>{page.pricing_link.label}</Link>
                         </>
                       )}
                     </p>
@@ -342,12 +363,16 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   <h2>{page.industries_title}</h2>
                   {page.industries_intro && <p className="detail-industries-intro">{page.industries_intro}</p>}
                   <ul className="detail-industries">
-                    {page.industries.map((item, i) => (
-                      <li key={i}>
-                        <Link href={item.href as any}>{item.label}</Link>
-                        <span>{item.note}</span>
-                      </li>
-                    ))}
+                    {page.industries.map((item, i) => {
+                      const href = resolveRef(item.ref);
+                      if (!href) return null;
+                      return (
+                        <li key={i}>
+                          <Link href={href as any}>{item.label}</Link>
+                          <span>{item.note}</span>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </section>
               ) : null}

@@ -98,33 +98,33 @@
         "industries": [
           {
             "label": "Ресторан, кафе, бар",
-            "href": "/blog/sajt-dlya-restorana",
-            "note": "бронирование столов, меню, которое читает Google, посетители без рекламы"
+            "note": "бронирование столов, меню, которое читает Google, посетители без рекламы",
+            "ref": "blog:restaurant-website"
           },
           {
             "label": "Салон красоты, барбершоп, косметология",
-            "href": "/blog/sajt-dlya-salona-krasoty",
-            "note": "онлайн-запись с подтверждением в Telegram, проект Krása štúdio OK"
+            "note": "онлайн-запись с подтверждением в Telegram, проект Krása štúdio OK",
+            "ref": "blog:beauty-salon-website"
           },
           {
             "label": "Аренда складов, боксов и помещений",
-            "href": "/blog/sajt-dlya-arendy-skladov",
-            "note": "свободные места онлайн и бронь, проекты TOP SKLAD и TOP KOBKA"
+            "note": "свободные места онлайн и бронь, проекты TOP SKLAD и TOP KOBKA",
+            "ref": "blog:storage-rental-website"
           },
           {
             "label": "Спортивный клуб, школа, кружок",
-            "href": "/blog/sajt-dlya-sportivnogo-kluba",
-            "note": "два языка, контент из Instagram, проект Synchro Žralok"
+            "note": "два языка, контент из Instagram, проект Synchro Žralok",
+            "ref": "blog:sports-club-website"
           },
           {
             "label": "Опт и B2B интернет-магазин",
-            "href": "/blog/optovyj-internet-magazin",
-            "note": "цены по клиентам, заказы без публичных цен, проект BODA BODA"
+            "note": "цены по клиентам, заказы без публичных цен, проект BODA BODA",
+            "ref": "blog:wholesale-online-store"
           },
           {
             "label": "Бильярдный клуб",
-            "href": "/case/biliardovna",
-            "note": "онлайн-бронь столов, после запуска рост броней через сайт"
+            "note": "онлайн-бронь столов, после запуска рост броней через сайт",
+            "ref": "case:biliardovna"
           }
         ],
         "geo_title": "Почему важно, что я в Словакии",
@@ -234,7 +234,7 @@
         "pricing_note": "Цену называю после первого разговора и по ходу работы не меняю. Домен, хостинг и комиссии платёжного шлюза оплачиваются напрямую поставщикам. Шесть месяцев технической поддержки входят в любую цену. Из чего складывается цена и о каких расходах забывают, разбираю в статье",
         "pricing_link": {
           "label": "Сколько стоит сайт в Словакии в 2026 году.",
-          "href": "/blog/website-cost-2026"
+          "ref": "blog:website-cost"
         }
       },
       "internal_title": "Создание сайтов в Братиславе: сайты на заказ, интернет-магазины и системы бронирования",
@@ -454,7 +454,7 @@
         "pricing_note": "Цена клика в Словакии: от 0,30€ на узких локальных запросах до 2€ и выше в праве, финансах и недвижимости. Разбор с расчётом бюджета и цены заявки в статье",
         "pricing_link": {
           "label": "Сколько стоит реклама в Google в Словакии.",
-          "href": "/blog/skolko-stoit-reklama-v-slovakii"
+          "ref": "blog:ads-pricing"
         }
       }
     },

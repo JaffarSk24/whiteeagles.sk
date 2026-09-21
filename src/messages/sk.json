@@ -98,33 +98,33 @@
         "industries": [
           {
             "label": "Reštaurácia, kaviareň, bar",
-            "href": "/blog/webstranka-pre-restauraciu",
-            "note": "rezervácia stolov, menu, ktoré číta Google, návštevnosť bez reklamy"
+            "note": "rezervácia stolov, menu, ktoré číta Google, návštevnosť bez reklamy",
+            "ref": "blog:restaurant-website"
           },
           {
             "label": "Salón krásy, barbershop, kozmetika",
-            "href": "/blog/webstranka-pre-salon-krasy",
-            "note": "online objednávanie s potvrdením do Telegramu, projekt Krása štúdio OK"
+            "note": "online objednávanie s potvrdením do Telegramu, projekt Krása štúdio OK",
+            "ref": "blog:beauty-salon-website"
           },
           {
             "label": "Prenájom skladov, boxov a priestorov",
-            "href": "/blog/web-pre-prenajom-skladov-a-priestorov",
-            "note": "voľné miesta online a rezervácia, projekty TOP SKLAD a TOP KOBKA"
+            "note": "voľné miesta online a rezervácia, projekty TOP SKLAD a TOP KOBKA",
+            "ref": "blog:storage-rental-website"
           },
           {
             "label": "Športový klub, škola, krúžok",
-            "href": "/blog/web-pre-sportovy-klub",
-            "note": "dva jazyky, obsah z Instagramu, projekt Synchro Žralok"
+            "note": "dva jazyky, obsah z Instagramu, projekt Synchro Žralok",
+            "ref": "blog:sports-club-website"
           },
           {
             "label": "Veľkoobchod a B2B e-shop",
-            "href": "/blog/velkoobchodny-eshop",
-            "note": "ceny podľa zákazníka, objednávky bez verejných cien, projekt BODA BODA"
+            "note": "ceny podľa zákazníka, objednávky bez verejných cien, projekt BODA BODA",
+            "ref": "blog:wholesale-online-store"
           },
           {
             "label": "Biliardový klub",
-            "href": "/case/biliardovna",
-            "note": "online rezervácia stolov, po spustení nárast rezervácií cez web"
+            "note": "online rezervácia stolov, po spustení nárast rezervácií cez web",
+            "ref": "case:biliardovna"
           }
         ],
         "geo_title": "Prečo na tom, že som na Slovensku, záleží",
@@ -234,7 +234,7 @@
         "pricing_note": "Cenu poviem po prvom rozhovore a v priebehu ju nemením. Doména, hosting a poplatky platobnej brány sa platia priamo poskytovateľom. Šesť mesiacov technickej podpory je v každej cene. Z čoho sa cena skladá a na aké náklady sa zabúda, rozoberám v článku",
         "pricing_link": {
           "label": "Koľko stojí web na Slovensku v roku 2026.",
-          "href": "/blog/website-cost-2026"
+          "ref": "blog:website-cost"
         }
       },
       "internal_title": "Tvorba webstránok Bratislava: weby na mieru, e-shopy a rezervačné systémy",
@@ -454,7 +454,7 @@
         "pricing_note": "Cena kliknutia sa na Slovensku pohybuje od 0,30€ pri úzkych lokálnych dopytoch po 2€ a viac v práve, financiách a realitách. Rozbor s výpočtom rozpočtu a ceny dopytu je v článku",
         "pricing_link": {
           "label": "Cena reklamy na Google na Slovensku.",
-          "href": "/blog/kolko-stoji-reklama-na-slovensku"
+          "ref": "blog:ads-pricing"
         }
       }
     },

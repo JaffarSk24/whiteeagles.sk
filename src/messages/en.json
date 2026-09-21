@@ -98,33 +98,33 @@
         "industries": [
           {
             "label": "Restaurant, café, bar",
-            "href": "/blog/restaurant-website",
-            "note": "table reservations, a menu Google can read, visitors without ads"
+            "note": "table reservations, a menu Google can read, visitors without ads",
+            "ref": "blog:restaurant-website"
           },
           {
             "label": "Beauty salon, barbershop, cosmetics",
-            "href": "/blog/beauty-salon-website",
-            "note": "online booking confirmed in Telegram, the Krása štúdio OK project"
+            "note": "online booking confirmed in Telegram, the Krása štúdio OK project",
+            "ref": "blog:beauty-salon-website"
           },
           {
             "label": "Storage, box and space rental",
-            "href": "/blog/storage-rental-website",
-            "note": "live availability and booking, the TOP SKLAD and TOP KOBKA projects"
+            "note": "live availability and booking, the TOP SKLAD and TOP KOBKA projects",
+            "ref": "blog:storage-rental-website"
           },
           {
             "label": "Sports club, school, children's group",
-            "href": "/blog/sports-club-website",
-            "note": "two languages, content from Instagram, the Synchro Žralok project"
+            "note": "two languages, content from Instagram, the Synchro Žralok project",
+            "ref": "blog:sports-club-website"
           },
           {
             "label": "Wholesale and B2B online store",
-            "href": "/blog/wholesale-online-store",
-            "note": "per-customer prices, orders without public prices, the BODA BODA project"
+            "note": "per-customer prices, orders without public prices, the BODA BODA project",
+            "ref": "blog:wholesale-online-store"
           },
           {
             "label": "Billiard club",
-            "href": "/case/biliardovna",
-            "note": "online table booking, more bookings through the site after launch"
+            "note": "online table booking, more bookings through the site after launch",
+            "ref": "case:biliardovna"
           }
         ],
         "geo_title": "Why being in Slovakia matters",
@@ -234,7 +234,7 @@
         "pricing_note": "I quote after the first call and do not change the price mid-project. Domain, hosting and payment gateway fees are paid directly to the providers. Six months of technical support come with every price. What the price is made of and which costs get forgotten:",
         "pricing_link": {
           "label": "How much a website costs in Slovakia in 2026.",
-          "href": "/blog/website-cost-slovakia"
+          "ref": "blog:website-cost"
         }
       },
       "internal_title": "Web development in Bratislava: custom websites, online stores and booking systems",
@@ -454,7 +454,7 @@
         "pricing_note": "A click in Slovakia costs from €0.30 on narrow local queries to €2 and more in law, finance and real estate. The breakdown with a budget and cost-per-lead calculation is in the article",
         "pricing_link": {
           "label": "What Google advertising costs in Slovakia.",
-          "href": "/blog/google-ads-cost-slovakia"
+          "ref": "blog:ads-pricing"
         }
       }
     },
