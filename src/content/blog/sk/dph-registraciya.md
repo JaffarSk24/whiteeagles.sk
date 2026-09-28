@@ -23,7 +23,7 @@ faq:
 ---
 ![Registrácia na DPH na Slovensku | White Eagles & Co.](/assets/blog/taxes.webp)
 
-# Registrácia na DPH: kedy vzniká povinnosť a čo sa mení v roku 2026
+# Registrácia na DPH 2026: povinnosť pri prekročení obratu 50 000€ a čo sa mení
 
 DPH je otázka, kde chyba stojí najviac, pretože sa objaví so spätnou platnosťou. Prehliadnete hranicu, nepodáte žiadosť včas, a daň z už predaného tovaru doplácate z vlastného.
 
