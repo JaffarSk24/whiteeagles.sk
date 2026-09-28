@@ -209,7 +209,7 @@ export default async function SeoAuditPage({ params }: { params: Promise<{ local
             <h2>{t("diy_title")}</h2>
             <p>
               {t("diy_text")}{" "}
-              <Link href={`/blog/${diySlug}` as any}>{t("diy_link")}</Link>.
+              <Link href={`/blog/${diySlug}/` as any}>{t("diy_link")}</Link>.
             </p>
           </section>
         )}

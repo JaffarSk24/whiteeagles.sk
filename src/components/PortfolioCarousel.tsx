@@ -74,7 +74,7 @@ export const PortfolioCarousel: React.FC = () => {
 
             return (
               <div key={`${item.id}-${index}`} className="portfolio-slide">
-                <Link href={`/case/${item.id}`} className="portfolio-card-slide">
+                <Link href={`/case/${item.id}/`} className="portfolio-card-slide">
                   {body}
                 </Link>
               </div>

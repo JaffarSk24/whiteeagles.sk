@@ -311,7 +311,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
               <p>
                 {t.rich("privacy", {
                   link: (chunks) => (
-                    <Link href="/privacy" className="privacy-link" target="_blank">
+                    <Link href="/privacy/" className="privacy-link" target="_blank">
                       {chunks}
                     </Link>
                   ),

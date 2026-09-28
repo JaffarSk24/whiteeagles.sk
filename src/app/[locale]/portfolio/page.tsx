@@ -87,7 +87,7 @@ export default async function PortfolioPage({ params }: { params: Promise<{ loca
         <ul className="case-grid case-grid-index">
           {cases.map((item) => (
             <li key={item.slug}>
-              <Link href={`/case/${item.slug}`} className="case-card">
+              <Link href={`/case/${item.slug}/`} className="case-card">
                 <img src={item.image} alt={item.client} loading="lazy" />
                 <div className="case-card-body">
                   <h2>{item.client}</h2>

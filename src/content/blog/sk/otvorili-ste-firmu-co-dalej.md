@@ -5,7 +5,7 @@ description: >-
   nastaví v prvom mesiaci, aby ju zákazníci našli: doména, e-mail, web,
   profil na Googli, meranie dopytov: v poradí a s cenami.
 date: '2026-09-04'
-updated: '2026-09-12'
+updated: '2026-09-28'
 key: 'digital-start'
 faq:
   - q: 'Čo treba urobiť hneď po založení firmy, ešte pred webom?'
@@ -112,6 +112,6 @@ Body 1-3 zvládnete sami za večer, a nemá zmysel za ne platiť. Body 4-7 sú m
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO, ktorú si dáte do nákladov.
 
-Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/). K téme: [založenie s.r.o.](/sk/blog/otkryt-sro-v-slovakii/), [živnosť alebo s.r.o.](/sk/blog/zivnost-alebo-sro/) a [prijímanie platby kartou](/sk/blog/priem-oplaty-kartoy/).
+Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/). Keď web beží, prvých zákazníkov naň privádza [Google Ads reklama pre firmy na Slovensku](/sk/service/ads/). K téme: [založenie s.r.o.](/sk/blog/otkryt-sro-v-slovakii/), [živnosť alebo s.r.o.](/sk/blog/zivnost-alebo-sro/) a [prijímanie platby kartou](/sk/blog/priem-oplaty-kartoy/).
 
 [CTA_FORM:audit]

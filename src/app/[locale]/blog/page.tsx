@@ -103,7 +103,7 @@ export default async function BlogIndexPage({ params }: { params: Promise<{ loca
 
             <div className="blog-grid">
               {group.items.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
+                <Link key={post.slug} href={`/blog/${post.slug}/`} className="blog-card">
                   <div className="blog-card-content">
                     <h3>{post.title}</h3>
                     <p className="blog-card-desc">{shortDescription(post.description, 120)}</p>

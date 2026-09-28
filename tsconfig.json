@@ -40,6 +40,7 @@
   ],
   "exclude": [
     "node_modules",
+    "node_modules.nosync",
     "_vite_backup",
     "src/_*",
     "src/_pages",

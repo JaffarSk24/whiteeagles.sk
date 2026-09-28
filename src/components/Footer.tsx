@@ -74,7 +74,7 @@ const FooterNav = () => {
         <ul className="footer-nav-list">
           {services.map((service) => (
             <li key={service.id}>
-              <Link href={`/service/${service.id}`} className="footer-link-small">
+              <Link href={`/service/${service.id}/`} className="footer-link-small">
                 {t(service.titleKey as never)}
               </Link>
             </li>
@@ -86,13 +86,13 @@ const FooterNav = () => {
         <h4 className="footer-nav-title">{t("footer.nav_pages")}</h4>
         <ul className="footer-nav-list">
           <li>
-            <Link href="/seo-audit" className="footer-link-small">{t("footer.nav_audit")}</Link>
+            <Link href="/seo-audit/" className="footer-link-small">{t("footer.nav_audit")}</Link>
           </li>
           <li>
-            <Link href="/portfolio" className="footer-link-small">{t("header.portfolio")}</Link>
+            <Link href="/portfolio/" className="footer-link-small">{t("header.portfolio")}</Link>
           </li>
           <li>
-            <Link href="/blog" className="footer-link-small">{t("header.blog")}</Link>
+            <Link href="/blog/" className="footer-link-small">{t("header.blog")}</Link>
           </li>
         </ul>
       </div>
@@ -115,9 +115,9 @@ const FooterInfo = () => {
         IČO: 57098581, DIČ: 2122566292, Sídlo: Kukučínova 1562/12, 900 31 Stupava. Zapísaná v Obchodnom registri Mestského súdu Bratislava III, oddiel Sro, vložka č. 189990/B.
       </p>
       <div className="footer-legal-links">
-        <Link href="/terms" className="footer-link-small">{t("terms")}</Link>
-        <Link href="/privacy" className="footer-link-small">{t("privacy")}</Link>
-        <Link href="/cookies" className="footer-link-small">{t("cookies")}</Link>
+        <Link href="/terms/" className="footer-link-small">{t("terms")}</Link>
+        <Link href="/privacy/" className="footer-link-small">{t("privacy")}</Link>
+        <Link href="/cookies/" className="footer-link-small">{t("cookies")}</Link>
       </div>
     </>
   );

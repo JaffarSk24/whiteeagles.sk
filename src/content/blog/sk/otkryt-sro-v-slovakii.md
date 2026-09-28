@@ -5,7 +5,7 @@ description: >-
   poplatok, lehoty a reforma od 17. augusta 2026, po ktorej registrácia
   zdražie viac než dvojnásobne a nezaobíde sa bez notára.
 date: '2026-08-03'
-updated: '2026-09-14'
+updated: '2026-09-28'
 key: 'open-sro'
 faq:
   - q: 'Musím byť rezident SR, aby som mohol založiť s.r.o.?'
@@ -174,7 +174,7 @@ Na Slovensku žijem viac ako desať rokov a spustil som **vyše 12 webov pre slo
 
 Pracujem ako slovenské s.r.o.: vystavujem faktúru s IČO, ktorú si dáte do nákladov. Rozprávať sa môžeme po slovensky aj po rusky, a web robím tak, aby predával slovenskému zákazníkovi.
 
-**[Bezplatný SEO audit](/sk/seo-audit/)**: ak web už máte a neprináša zákazníkov, prejdem ho a pošlem konkrétny zoznam príčin do 3 pracovných dní. Ak web ešte nemáte, napíšte: pozrieme sa, čo presne vaše podnikanie potrebuje.
+**[Bezplatný SEO audit](/sk/seo-audit/)**: ak web už máte a neprináša zákazníkov, prejdem ho a pošlem konkrétny zoznam príčin do 3 pracovných dní. Ak web ešte nemáte, začnite stránkou [tvorba webstránok v Bratislave](/sk/service/webdev/): ceny podľa typu webu, termíny a čo je v cene.
 
 Čo si nová firma nastaví v prvom mesiaci po zápise: doména, e-mail, web, profil na Googli, je v článku [otvorili ste firmu, čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
 

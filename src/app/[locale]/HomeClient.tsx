@@ -106,7 +106,7 @@ export default function HomeClient() {
                         pages had no incoming link anywhere on the site and Google
                         never indexed them. */}
                     <Link
-                      href={`/service/${service.id}` as any}
+                      href={`/service/${service.id}/` as any}
                       className="btn btn-secondary"
                     >
                       {tServicesNS("more_info")}
@@ -178,7 +178,7 @@ export default function HomeClient() {
             {/* The carousel is a client component; the index page below it is
                 what search engines can actually crawl into. */}
             <div className="portfolio-all-link">
-              <Link href="/portfolio">{tCases("title")} →</Link>
+              <Link href="/portfolio/">{tCases("title")} →</Link>
             </div>
           </FadeInSection>
         </div>

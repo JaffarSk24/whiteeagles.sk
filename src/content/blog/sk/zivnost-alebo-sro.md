@@ -4,7 +4,7 @@ description: >-
   Poctivé porovnanie živnosti a s.r.o.: ručenie, cena a rýchlosť rozbehu, ako
   vás vnímajú klienti a čo na tomto rozhodnutí mení reforma od 17. augusta 2026.
 date: '2026-08-04'
-updated: '2026-09-14'
+updated: '2026-09-28'
 key: 'zivnost-or-sro'
 faq:
   - q: 'Môžem mať živnosť aj s.r.o. súčasne?'
@@ -220,7 +220,7 @@ Na Slovensku žijem viac ako desať rokov a spustil som **vyše 12 webov pre slo
 
 Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov. Dohodnúť sa môžeme po slovensky aj po rusky.
 
-**[Bezplatný SEO audit](/sk/seo-audit/)**: ak web už máte, prejdem ho a pošlem konkrétny zoznam dôvodov, prečo neprináša zákazníkov, do 3 pracovných dní. Ak web ešte nemáte, napíšte a pozrieme sa, čo vaše podnikanie potrebuje.
+**[Bezplatný SEO audit](/sk/seo-audit/)**: ak web už máte, prejdem ho a pošlem konkrétny zoznam dôvodov, prečo neprináša zákazníkov, do 3 pracovných dní. Ak web ešte nemáte, ceny podľa typu webu a termíny sú na stránke [tvorba webstránok v Bratislave](/sk/service/webdev/).
 
 Nech si vyberiete čokoľvek, digitálny štart je rovnaký: poradie na prvých 30 dní je v článku [otvorili ste firmu, čo ďalej](/sk/blog/otvorili-ste-firmu-co-dalej/).
 

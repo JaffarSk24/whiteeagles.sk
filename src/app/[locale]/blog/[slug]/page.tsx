@@ -249,7 +249,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
       />
       <div className="container">
-        <Link href="/blog" className="back-link">
+        <Link href="/blog/" className="back-link">
           <ArrowLeft size={16} /> {t('back_to_blog')}
         </Link>
         

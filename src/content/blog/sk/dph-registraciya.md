@@ -1,11 +1,11 @@
 ---
-title: 'Registrácia na DPH: kedy vzniká povinnosť a čo sa mení v roku 2026'
+title: 'Registrácia na DPH 2026: povinnosť pri prekročení obratu 50 000€ a čo sa mení'
 description: >-
-  Hranice registrácie platiteľa DPH: 50 000 a 62 500 eur, lehoty na podanie
-  žiadosti, sadzby 23, 19 a 5 percent a kedy sa dobrovoľná registrácia oplatí
-  viac než povinná.
+  Kedy vzniká povinnosť registrácie na DPH pri prekročení obratu 50 000 a
+  62 500€, lehoty na podanie žiadosti, sadzby 23, 19 a 5% a kedy sa dobrovoľná
+  registrácia oplatí viac než povinná.
 date: '2026-08-04'
-updated: '2026-09-14'
+updated: '2026-09-28'
 key: 'vat-registration'
 faq:
   - q: 'Od akého obratu treba registráciu na DPH?'
@@ -122,6 +122,6 @@ Registráciu a výpočty vybaví účtovník. Všetko, čo nasleduje (ceny s DPH
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy** vrátane e-shopov s viacerými sadzbami DPH. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
-Súvisiace: [eKasa a online pokladnica](/sk/blog/ekasa-online-kassa-slovakia/), [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/), [prijímanie platby kartou](/sk/blog/priem-oplaty-kartoy/) a [stránka služby „Tvorba webstránok“](/sk/service/webdev/).
+Súvisiace: [eKasa a online pokladnica](/sk/blog/ekasa-online-kassa-slovakia/), [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/), [prijímanie platby kartou](/sk/blog/priem-oplaty-kartoy/) a [stránka služby „Tvorba webstránok“](/sk/service/webdev/). Keď je web s novými cenami hotový, zákazníkov naň privádza [Google Ads reklama pre firmy na Slovensku](/sk/service/ads/).
 
-[CTA_FORM:ads]
+[CTA_FORM:webdev]

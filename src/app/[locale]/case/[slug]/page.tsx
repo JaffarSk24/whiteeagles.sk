@@ -126,7 +126,7 @@ export default async function CasePage({ params }: { params: Promise<{ locale: s
     <div className="case-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }} />
       <div className="container">
-        <Link href="/portfolio" className="back-link">
+        <Link href="/portfolio/" className="back-link">
           <ArrowLeft size={16} /> {t('back_to_cases')}
         </Link>
 
@@ -164,7 +164,7 @@ export default async function CasePage({ params }: { params: Promise<{ locale: s
             <ul className="case-grid">
               {others.map((item) => (
                 <li key={item.slug}>
-                  <Link href={`/case/${item.slug}`} className="case-card">
+                  <Link href={`/case/${item.slug}/`} className="case-card">
                     <img src={item.image} alt={item.client} loading="lazy" />
                     <div className="case-card-body">
                       <h3>{item.client}</h3>

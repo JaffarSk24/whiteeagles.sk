@@ -414,7 +414,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   if (!rel) return null;
                   return (
                     <li key={rid}>
-                      <Link href={`/service/${rid}` as any}>
+                      <Link href={`/service/${rid}/` as any}>
                         <strong>{t(rel.titleKey as any)}</strong>
                         <span>{t(rel.descKey as any)}</span>
                       </Link>
