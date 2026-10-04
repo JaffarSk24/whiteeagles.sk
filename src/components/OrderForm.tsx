@@ -13,9 +13,10 @@ interface OrderFormProps {
   isOpen: boolean;
   onClose: () => void;
   initialService?: string;
+  initialMessage?: string;
 }
 
-export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialService = "" }) => {
+export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialService = "", initialMessage = "" }) => {
   const t = useTranslations("order");
   const tCommon = useTranslations("common");
   const tServices = useTranslations(); // access to root for service names
@@ -43,6 +44,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
       setFormData((prev) => ({
         ...prev,
         service: initialService || "",
+        message: initialMessage || prev.message,
       }));
 
       const activeServiceId = initialService || "";
@@ -64,7 +66,7 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
     } else if (!isOpen) {
       hasTrackedOpen.current = false;
     }
-  }, [isOpen, initialService, tServices]);
+  }, [isOpen, initialService, initialMessage, tServices]);
 
   if (!isOpen) return null;
 

@@ -7,7 +7,9 @@ import { OrderForm } from "./OrderForm";
 import { Chatbot } from "./Chatbot";
 
 interface OrderModalContextType {
-  openOrderModal: (serviceId?: string) => void;
+  /** `message` pre-fills the free-text field, which the price calculator
+      uses to hand over what the visitor picked. */
+  openOrderModal: (serviceId?: string, message?: string) => void;
 }
 
 const OrderModalContext = createContext<OrderModalContextType>({
@@ -19,9 +21,11 @@ export const useOrderModal = () => useContext(OrderModalContext);
 export const AppShell = ({ children }: { children: React.ReactNode }) => {
   const [isOrderFormOpen, setIsOrderFormOpen] = useState(false);
   const [selectedService, setSelectedService] = useState("");
+  const [initialMessage, setInitialMessage] = useState("");
 
-  const handleOrderClick = (serviceId: string = "") => {
+  const handleOrderClick = (serviceId: string = "", message: string = "") => {
     setSelectedService(serviceId);
+    setInitialMessage(message);
     setIsOrderFormOpen(true);
   };
 
@@ -35,6 +39,7 @@ export const AppShell = ({ children }: { children: React.ReactNode }) => {
         isOpen={isOrderFormOpen}
         onClose={() => setIsOrderFormOpen(false)}
         initialService={selectedService}
+        initialMessage={initialMessage}
       />
       <Chatbot isOrderFormOpen={isOrderFormOpen} />
     </OrderModalContext.Provider>

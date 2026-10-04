@@ -178,6 +178,10 @@
           {
             "q": "Do you build websites turnkey?",
             "a": "Yes. Nothing is left to buy after handover: domain, hosting, mail on your own domain, spam-protected forms, enquiry tracking, the cookie bar, mandatory company details and the Google Business Profile are all set up. Six months of technical support are included."
+          },
+          {
+            "q": "There are websites from €600 on the market. What is the difference?",
+            "a": "A low price is usually the price of what is not in it: enquiry tracking, a lawful cookie banner, mandatory company details, a Google profile, support after launch and someone who built sites for paying customers rather than for himself. All of that is in my price from €1,500, and every project in the portfolio is the site of a real Slovak business. A cheap site is often paid for twice: once at purchase and again when it has to be rebuilt to bring enquiries."
           }
         ],
         "facts": [
@@ -235,6 +239,100 @@
         "pricing_link": {
           "label": "How much a website costs in Slovakia in 2026.",
           "ref": "blog:website-cost"
+        },
+        "why_title": "Why a website from me, not the cheapest on the market",
+        "why": [
+          {
+            "t": "Client projects, not my own experiments",
+            "d": "12+ websites for companies in Slovakia that work and bring enquiries: bookings for a billiard club, an online store for a wholesaler, a bilingual site for a salon. The portfolio is a list of customers, not of my hobby projects."
+          },
+          {
+            "t": "Website and advertising from one pair of hands",
+            "d": "After launch the site does not sit empty: I set up Google Ads and Meta, conversion tracking and a budget for the Slovak market. It is not a pixel thrown in, it is a service I make my living from."
+          },
+          {
+            "t": "A Slovak company, a meeting in Bratislava",
+            "d": "An invoice with a company number for your books, a contract under Slovak law, legal details, cookies and GDPR the way they apply here. When needed, we meet in person."
+          },
+          {
+            "t": "Six months of support and code anyone can take over",
+            "d": "For half a year after handover I monitor, back up and fix for free. The source code, domain and hosting are yours and readable by any developer who comes next."
+          }
+        ],
+        "calc": {
+          "title": "A rough price in 30 seconds",
+          "intro": "Pick what the site needs. The result is the floor: I quote the exact price after the first call and do not change it afterwards.",
+          "type_label": "Type of site",
+          "types": [
+            {
+              "id": "landing",
+              "label": "Landing page",
+              "price": 1500,
+              "time": "5 to 10 working days"
+            },
+            {
+              "id": "company",
+              "label": "Company website",
+              "price": 3500,
+              "time": "10 to 15 working days"
+            },
+            {
+              "id": "eshop",
+              "label": "Online store",
+              "price": 5000,
+              "time": "from 15 working days"
+            }
+          ],
+          "langs_label": "Languages",
+          "langs_note": "The first language is included, each additional one is +€400. Translation of the texts is not included.",
+          "lang_price": 400,
+          "langs_word": "language(s)",
+          "extras_label": "What else you need",
+          "extras": [
+            {
+              "id": "booking",
+              "label": "Booking system or time slots",
+              "price": 600,
+              "included_in": [
+                "company",
+                "eshop"
+              ]
+            },
+            {
+              "id": "account",
+              "label": "Client area with login",
+              "price": 900
+            },
+            {
+              "id": "bot",
+              "label": "Telegram bot for enquiries",
+              "price": 500
+            },
+            {
+              "id": "tracking",
+              "label": "Extended tracking: GA4, Tag Manager, conversions",
+              "price": 500
+            },
+            {
+              "id": "ads",
+              "label": "Google Ads and Meta campaign launch",
+              "price": 1000
+            }
+          ],
+          "included_label": "In every price",
+          "included": [
+            "lawful cookie banner and company details",
+            "enquiry tracking in GA4",
+            "Google Business Profile",
+            "6 months of support",
+            "invoice from a Slovak company"
+          ],
+          "included_mark": "included",
+          "result_label": "Rough price",
+          "from": "from",
+          "time_label": "Time",
+          "cta": "Get an exact quote",
+          "message_prefix": "Website calculator:"
         }
       },
       "internal_title": "Web development in Bratislava: custom websites, online stores and booking systems",
@@ -455,7 +553,22 @@
         "pricing_link": {
           "label": "What Google advertising costs in Slovakia.",
           "ref": "blog:ads-pricing"
-        }
+        },
+        "why_title": "Why advertising from me",
+        "why": [
+          {
+            "t": "Campaigns, not just a pixel",
+            "d": "Installing a pixel is an hour of work. Advertising that brings enquiries is campaign structure, keywords, copy, budget and tracking that shows what comes back. I do the whole thing, not a piece of it."
+          },
+          {
+            "t": "I know what a click costs in Slovakia",
+            "d": "More than ten years of campaigns for Slovak businesses: salons, warehouses, a billiard club, wholesale. I say in advance whether ads pay off in your field, and if they do not, I will not let you in."
+          },
+          {
+            "t": "The account and the data are yours",
+            "d": "Campaigns run in your account; statistics and access stay with you. End the cooperation and nothing is lost."
+          }
+        ]
       }
     },
     "analytics": {

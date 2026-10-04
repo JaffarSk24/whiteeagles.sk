@@ -11,6 +11,7 @@ import { ServiceFacts } from "../../../../components/ServiceFacts";
 import { ServiceCta } from "../../../../components/ServiceCta";
 import { StickyOrderCta } from "../../../../components/StickyOrderCta";
 import { RepairQuickForm } from "../../../../components/RepairQuickForm";
+import { WebCalculator, type CalculatorTexts } from "../../../../components/WebCalculator";
 import "./ServiceDetail.css";
 
 // Generate static params for static export
@@ -106,6 +107,9 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         industries_title?: string;
         industries_intro?: string;
         industries?: { label: string; ref: string; note: string }[];
+        why_title?: string;
+        why?: { t: string; d: string }[];
+        calc?: CalculatorTexts;
       })
     : null;
 
@@ -293,6 +297,22 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
           {page && (
             <div className="detail-extended">
+              {/* What sets the work apart, before the process: the visitor
+                  comparing offers decides here, not after reading five steps. */}
+              {page.why?.length ? (
+                <section className="detail-block detail-why">
+                  <h2>{page.why_title}</h2>
+                  <ul className="detail-why-list">
+                    {page.why.map((item, i) => (
+                      <li key={i}>
+                        <strong>{item.t}</strong>
+                        <span>{item.d}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ) : null}
+
               {page.process?.length ? (
                 <section className="detail-block">
                   <h2>{page.process_title}</h2>
@@ -347,6 +367,8 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   <ServiceCta serviceId={service.id} block="process" />
                 </section>
               ) : null}
+
+              {page.calc ? <WebCalculator texts={page.calc} serviceId={service.id} /> : null}
 
               {page.cases?.length ? (
                 <section className="detail-block">

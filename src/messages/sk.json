@@ -178,6 +178,10 @@
           {
             "q": "Robíte weby na kľúč?",
             "a": "Áno. Po odovzdaní nie je čo dokupovať: doména, hosting, e-mail na vlastnej doméne, formuláre s ochranou proti spamu, meranie dopytov, cookie lišta, povinné údaje a firemný profil Google sú nastavené. V cene je aj pol roka technickej podpory."
+          },
+          {
+            "q": "Na trhu sú weby od 600€. V čom je rozdiel?",
+            "a": "Nízka cena je najčastejšie cena za to, čo v nej nie je: meranie dopytov, cookie lišta podľa zákona, povinné údaje, profil Google, podpora po spustení a niekto, kto web robil pre platiacich zákazníkov, nie pre seba. To všetko mám v cene od 1 500€ a každý projekt v portfóliu je web reálnej slovenskej firmy. Lacný web sa často platí dvakrát: raz pri kúpe a druhýkrát, keď ho treba prerobiť, aby cez neho chodili dopyty."
           }
         ],
         "facts": [
@@ -235,6 +239,100 @@
         "pricing_link": {
           "label": "Koľko stojí web na Slovensku v roku 2026.",
           "ref": "blog:website-cost"
+        },
+        "why_title": "Prečo web odo mňa, a nie najlacnejší na trhu",
+        "why": [
+          {
+            "t": "Klientske projekty, nie vlastné pokusy",
+            "d": "12+ webov pre firmy na Slovensku, ktoré fungujú a prinášajú dopyty: rezervácie pre biliardovňu, e-shop pre veľkoobchod, dvojjazyčný web pre salón. Portfólio je zoznam zákazníkov, nie mojich hobby projektov."
+          },
+          {
+            "t": "Web a reklama z jednej ruky",
+            "d": "Po spustení web nestojí prázdny: nastavím Google Ads a Meta, meranie konverzií a rozpočet pre slovenský trh. Nie je to pixel navyše, je to služba, ktorou sa živím."
+          },
+          {
+            "t": "Slovenské s.r.o., stretnutie v Bratislave",
+            "d": "Faktúra s IČO do nákladov, zmluva podľa slovenského práva, povinné údaje, cookies a GDPR podľa toho, čo platí tu. Keď treba, sadneme si osobne."
+          },
+          {
+            "t": "Šesť mesiacov podpory a kód, ktorý prevezme ktokoľvek",
+            "d": "Po odovzdaní pol roka monitorujem, zálohujem a opravujem zadarmo. Zdrojový kód, doména aj hosting sú vaše a čitateľné pre každého ďalšieho programátora."
+          }
+        ],
+        "calc": {
+          "title": "Orientačná cena za 30 sekúnd",
+          "intro": "Vyberte, čo web potrebuje. Výsledok je spodná hranica: presnú cenu poviem po prvom rozhovore a potom ju nemením.",
+          "type_label": "Typ webu",
+          "types": [
+            {
+              "id": "landing",
+              "label": "Landing page",
+              "price": 1500,
+              "time": "5 až 10 prac. dní"
+            },
+            {
+              "id": "company",
+              "label": "Firemný web",
+              "price": 3500,
+              "time": "10 až 15 prac. dní"
+            },
+            {
+              "id": "eshop",
+              "label": "E-shop",
+              "price": 5000,
+              "time": "od 15 prac. dní"
+            }
+          ],
+          "langs_label": "Jazyky webu",
+          "langs_note": "Prvý jazyk je v cene, každý ďalší +400€. Preklad textov nie je v cene.",
+          "lang_price": 400,
+          "langs_word": "jazyk(y)",
+          "extras_label": "Čo ešte potrebujete",
+          "extras": [
+            {
+              "id": "booking",
+              "label": "Rezervačný systém alebo sloty",
+              "price": 600,
+              "included_in": [
+                "company",
+                "eshop"
+              ]
+            },
+            {
+              "id": "account",
+              "label": "Klientska zóna s prihlásením",
+              "price": 900
+            },
+            {
+              "id": "bot",
+              "label": "Telegram bot na správu dopytov",
+              "price": 500
+            },
+            {
+              "id": "tracking",
+              "label": "Rozšírené meranie: GA4, Tag Manager, konverzie",
+              "price": 500
+            },
+            {
+              "id": "ads",
+              "label": "Spustenie reklamy Google Ads a Meta",
+              "price": 1000
+            }
+          ],
+          "included_label": "V každej cene",
+          "included": [
+            "cookie lišta a povinné údaje podľa zákona",
+            "meranie dopytov v GA4",
+            "firemný profil Google",
+            "6 mesiacov podpory",
+            "faktúra zo slovenského s.r.o."
+          ],
+          "included_mark": "v cene",
+          "result_label": "Orientačná cena",
+          "from": "od",
+          "time_label": "Termín",
+          "cta": "Chcem presnú ponuku",
+          "message_prefix": "Kalkulačka na webe:"
         }
       },
       "internal_title": "Tvorba webstránok Bratislava: weby na mieru, e-shopy a rezervačné systémy",
@@ -455,7 +553,22 @@
         "pricing_link": {
           "label": "Cena reklamy na Google na Slovensku.",
           "ref": "blog:ads-pricing"
-        }
+        },
+        "why_title": "Prečo reklamu odo mňa",
+        "why": [
+          {
+            "t": "Kampane, nie len pixel",
+            "d": "Nastavenie pixelu je hodina práce. Reklama, ktorá privádza dopyty, je štruktúra kampaní, kľúčové slová, texty, rozpočet a meranie, ktoré ukazuje, čo sa vracia. Robím celé, nie kúsok."
+          },
+          {
+            "t": "Viem, čo stojí klik na Slovensku",
+            "d": "Viac ako desať rokov kampaní pre slovenské firmy: salóny, sklady, biliardovňu, veľkoobchod. Poviem vopred, či sa reklama vo vašom odbore oplatí, a ak nie, nepustím vás do nej."
+          },
+          {
+            "t": "Účet a dáta sú vaše",
+            "d": "Kampane bežia vo vašom účte, štatistiky a prístupy ostávajú vám. Keď spoluprácu ukončíte, nič sa nestratí."
+          }
+        ]
       }
     },
     "analytics": {

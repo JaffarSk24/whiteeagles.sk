@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["--yes", "serve", "dist", "-l", "3010"],
       "port": 3010
+    },
+    {
+      "name": "whiteeagles-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev", "-p", "3011"],
+      "port": 3011
     }
   ]
 }
