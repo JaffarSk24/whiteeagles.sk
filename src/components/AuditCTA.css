@@ -45,4 +45,14 @@
   .audit-cta-button {
     width: 100%;
   }
+
+  /* Inside an article `.post-content h2` outranks the plain class and gave the
+     title article-heading size, at which "Автоматизировать" was wider than
+     the box on a 360px phone. */
+  .audit-cta .audit-cta-title {
+    font-size: 1.3rem;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
 }

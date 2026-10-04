@@ -5,6 +5,7 @@ description: >-
   show photos: a price list, free slots, confirmation through Telegram and
   no double bookings.
 date: '2026-09-20'
+updated: '2026-10-04'
 key: 'beauty-salon-website'
 faq:
   - q: 'What does a beauty salon website cost?'
@@ -16,7 +17,7 @@ faq:
   - q: 'Does a salon in Bratislava need the site in Russian or Ukrainian?'
     a: 'If some of your clients find Slovak hard to read, yes. Each language on its own URL with hreflang, not a switcher over one text, otherwise Google cannot tell which version to show to whom. Krása štúdio OK in Ružinov runs in Slovak, Russian and Ukrainian.'
   - q: 'How long does a salon website take?'
-    a: 'On average 10 working days, and 90% of projects fit within 15. A landing page with a form is quicker. What usually takes longest is collecting material on the salon side: the price list, photos, staff schedules.'
+    a: 'On average 10 working days, and 95% of projects fit within 15. A landing page with a form is quicker. What usually takes longest is collecting material on the salon side: the price list, photos, staff schedules.'
 ---
 ![A website for a beauty salon: online booking confirmed through Telegram | White Eagles & Co.](/assets/blog/web-salon-krasy.webp)
 
@@ -123,7 +124,7 @@ And when a site is not needed yet: one specialist, fully booked weeks ahead, cli
 - **A salon website** with its own booking, services with prices, staff and several languages from **3 500€**.
 - Changes and adding booking to an existing site at **35€/hour**.
 
-On average I deliver in 10 working days, and 90% of projects fit within 15. Included in the salon website: Telegram confirmation, the Google profile linked, booking measurement, the cookie bar, the mandatory company details, 6 months of support. The domain, hosting and every account are registered to you, not to me. A detailed breakdown: [what a website costs](/en/blog/website-cost-slovakia/).
+On average I deliver in 10 working days, and 95% of projects fit within 15. Included in the salon website: Telegram confirmation, the Google profile linked, booking measurement, the cookie bar, the mandatory company details, 6 months of support. The domain, hosting and every account are registered to you, not to me. A detailed breakdown: [what a website costs](/en/blog/website-cost-slovakia/).
 
 ## If you need help
 

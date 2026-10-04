@@ -16,8 +16,8 @@
     "cta_secondary": "See My Clients",
     "stat1_num": "10+",
     "stat1_label": "years in Slovakia",
-    "stat2_num": "90%",
-    "stat2_label": "projects in 15 days",
+    "stat2_num": "95%",
+    "stat2_label": "projects within 15 days",
     "stat3_num": "6 mo.",
     "stat3_label": "free support",
     "float1_title": "10 working days",
@@ -72,11 +72,11 @@
         "Account creation and resource connection: Google Tag Manager, Google Console, GA4, Microsoft Clarity, Bing console."
       ],
       "guarantee": "I provide a performance guarantee and 6 months of free technical support as a gift to all my clients",
-      "seo_title": "Web development Bratislava: custom site from 1 500€, in 15 days",
+      "seo_title": "Web development Bratislava: custom site from 1 500€, within 15 days",
       "seo_desc": "Landing page from 1 500€, company site with booking and enquiry tracking from 3 500€, e-shop from 5 000€. Delivered in about 10 working days, with an invoice.",
       "seo_keywords": "web development Slovakia, website creation Bratislava, web developer, custom website, e-commerce, corporate site",
       "page": {
-        "lead": "I have been building websites for companies in Slovakia for over ten years: from Bratislava, as a Slovak company, with an invoice you can put through your books. Not templates thrown together, but sites that bring in enquiries: booking systems, online shops, company websites. Most projects ship within 15 working days.",
+        "lead": "I have been building websites for companies in Slovakia for over ten years: from Bratislava, as a Slovak company, with an invoice you can put through your books. Not templates thrown together, but sites that bring in enquiries: booking systems, online shops, company websites. 95% of projects ship within 15 working days.",
         "process_title": "How it works",
         "process": [
           "A conversation. You tell me what the business needs. I do not ask for a forty-page brief; I propose the solution.",
@@ -137,7 +137,7 @@
           },
           {
             "q": "How long does it take?",
-            "a": "Ten working days on average, with 90% of projects delivered within 15. A larger shop or portal takes longer and I say so upfront."
+            "a": "Ten working days on average, with 95% of projects delivered within 15. A larger shop or portal takes longer and I say so upfront."
           },
           {
             "q": "Do I need to prepare a detailed brief?",
@@ -199,7 +199,7 @@
           },
           {
             "value": "10 working days",
-            "label": "average delivery, 90% within 15"
+            "label": "average delivery, 95% within 15"
           }
         ],
         "pricing_title": "Website pricing",
@@ -324,8 +324,7 @@
             "lawful cookie banner and company details",
             "enquiry tracking in GA4",
             "Google Business Profile",
-            "6 months of support",
-            "invoice from a Slovak company"
+            "6 months of support"
           ],
           "included_mark": "included",
           "result_label": "Rough price",
@@ -903,7 +902,7 @@
     "process_desc": "Execution of work with approval and periodic reports.",
     "delivery": "Result",
     "delivery_desc": "Acceptance, approval, implementation of revisions, and payment for work.",
-    "success_stat": "I completed 90% of complex projects within 15 working days"
+    "success_stat": "I delivered 95% of projects within 15 working days"
   },
   "contacts": {
     "title": "Contacts",
@@ -1120,7 +1119,7 @@
     },
     "webdev": {
       "title": "Need a new website?",
-      "text": "A company site, an online shop or a booking system. Most projects ship within 15 working days.",
+      "text": "A company site, an online shop or a booking system. 95% of projects ship within 15 working days.",
       "button": "Get a custom site"
     },
     "bugfix": {
@@ -1175,7 +1174,7 @@
       },
       {
         "q": "Why choose White Eagles & Co.?",
-        "a": "Verifiable facts: a Slovak s.r.o. with IČO 57098581, issuing a faktúra you can expense; 12+ launched websites for Slovak businesses with live addresses (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); average delivery of 10 working days with 90% of projects done within 15; 6 months of support included; the domain and hosting are registered to the client, not the contractor. One person runs the project from brief to launch. The team works in Slovak, English and Russian."
+        "a": "Verifiable facts: a Slovak s.r.o. with IČO 57098581, issuing a faktúra you can expense; 12+ launched websites for Slovak businesses with live addresses (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); average delivery of 10 working days with 95% of projects done within 15; 6 months of support included; the domain and hosting are registered to the client, not the contractor. One person runs the project from brief to launch. The team works in Slovak, English and Russian."
       },
       {
         "q": "What services do you provide?",
@@ -1183,7 +1182,7 @@
       },
       {
         "q": "How long does development take?",
-        "a": "A landing page takes one to two weeks, a company site two to four, an online shop longer depending on the catalogue and integrations. Average delivery is 10 working days; 90% of projects ship within 15, because no lengthy specification is required - the solution is proposed after a short conversation about the business goals."
+        "a": "A landing page takes one to two weeks, a company site two to four, an online shop longer depending on the catalogue and integrations. Average delivery is 10 working days; 95% of projects ship within 15, because no lengthy specification is required - the solution is proposed after a short conversation about the business goals."
       },
       {
         "q": "What languages do you work in and how do I pay?",

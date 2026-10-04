@@ -16,7 +16,7 @@
     "cta_secondary": "Pozrieť klientov",
     "stat1_num": "10+",
     "stat1_label": "rokov na Slovensku",
-    "stat2_num": "90%",
+    "stat2_num": "95%",
     "stat2_label": "projektov do 15 dní",
     "stat3_num": "6 mes.",
     "stat3_label": "bezplatná podpora",
@@ -76,7 +76,7 @@
       "seo_desc": "Landing page od 1 500€, firemný web s rezerváciou a meraním dopytov od 3 500€, e-shop od 5 000€. Odovzdanie v priemere do 10 pracovných dní, s.r.o. s faktúrou.",
       "seo_keywords": "tvorba web stránok, vytvorenie webstránky, webdizajn, e-shop na mieru, firemný web, programátor bratislava",
       "page": {
-        "lead": "Robím weby pre firmy na Slovensku už viac ako desať rokov: z Bratislavy, ako slovenské s.r.o. a s faktúrou, ktorú si dáte do nákladov. Nie šablóny na kolene, ale stránky, cez ktoré chodia dopyty: rezervačné systémy, e-shopy, firemné weby. Väčšinu projektov odovzdávam do 15 pracovných dní.",
+        "lead": "Robím weby pre firmy na Slovensku už viac ako desať rokov: z Bratislavy, ako slovenské s.r.o. a s faktúrou, ktorú si dáte do nákladov. Nie šablóny na kolene, ale stránky, cez ktoré chodia dopyty: rezervačné systémy, e-shopy, firemné weby. 95% projektov odovzdávam do 15 pracovných dní.",
         "process_title": "Ako to prebieha",
         "process": [
           "Rozhovor. Poviete, čo podnikanie potrebuje. Nepýtam si zadanie na štyridsať strán, návrh riešenia dodám ja.",
@@ -137,7 +137,7 @@
           },
           {
             "q": "Ako dlho trvá spustenie webu?",
-            "a": "Priemerne 10 pracovných dní, 90% projektov odovzdávam do 15 pracovných dní. Väčší e-shop alebo portál trvá dlhšie a termín poviem vopred."
+            "a": "Priemerne 10 pracovných dní, 95% projektov odovzdávam do 15 pracovných dní. Väčší e-shop alebo portál trvá dlhšie a termín poviem vopred."
           },
           {
             "q": "Musím pripraviť podrobné zadanie?",
@@ -199,7 +199,7 @@
           },
           {
             "value": "10 prac. dní",
-            "label": "priemerný čas dodania, 90% do 15 dní"
+            "label": "priemerný čas dodania, 95% do 15 dní"
           }
         ],
         "pricing_title": "Cenník tvorby webstránok",
@@ -324,8 +324,7 @@
             "cookie lišta a povinné údaje podľa zákona",
             "meranie dopytov v GA4",
             "firemný profil Google",
-            "6 mesiacov podpory",
-            "faktúra zo slovenského s.r.o."
+            "6 mesiacov podpory"
           ],
           "included_mark": "v cene",
           "result_label": "Orientačná cena",
@@ -890,7 +889,7 @@
     "process_desc": "Vykonávanie prác so schvaľovaním a pravidelnými správami.",
     "delivery": "Výsledok",
     "delivery_desc": "Prijatie, schválenie, zapracovanie pripomienok a platba za prácu.",
-    "success_stat": "90% zložitých projektov som zrealizoval do 15 pracovných dní"
+    "success_stat": "95% projektov som odovzdal do 15 pracovných dní"
   },
   "contacts": {
     "title": "Kontakty",
@@ -1120,7 +1119,7 @@
     },
     "webdev": {
       "title": "Potrebujete nový web?",
-      "text": "Firemný web, e-shop alebo rezervačný systém. Väčšinu projektov odovzdávam do 15 pracovných dní.",
+      "text": "Firemný web, e-shop alebo rezervačný systém. 95% projektov odovzdávam do 15 pracovných dní.",
       "button": "Chcem web na mieru"
     },
     "bugfix": {
@@ -1175,7 +1174,7 @@
       },
       {
         "q": "Prečo si vybrať White Eagles & Co.?",
-        "a": "Overiteľné fakty: slovenská s.r.o. s IČO 57098581, takže faktúru si dáte do nákladov; 12+ spustených webov pre slovenské firmy s funkčnými adresami (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); priemerné dodanie 10 pracovných dní, 90% projektov do 15; 6 mesiacov technickej podpory v cene; doména a hosting sa registrujú na klienta, nie na dodávateľa. Projekt vedie od zadania po spustenie jeden človek."
+        "a": "Overiteľné fakty: slovenská s.r.o. s IČO 57098581, takže faktúru si dáte do nákladov; 12+ spustených webov pre slovenské firmy s funkčnými adresami (Biliardovňa, Krása štúdio OK, Top Sklad, Synchro Žralok, BODA BODA); priemerné dodanie 10 pracovných dní, 95% projektov do 15; 6 mesiacov technickej podpory v cene; doména a hosting sa registrujú na klienta, nie na dodávateľa. Projekt vedie od zadania po spustenie jeden človek."
       },
       {
         "q": "Aké služby ponúkate?",
@@ -1183,7 +1182,7 @@
       },
       {
         "q": "Ako dlho trvá vývoj webstránky?",
-        "a": "Landing page jeden až dva týždne, firemný web dva až štyri, e-shop dlhšie podľa katalógu a integrácií. Priemerné dodanie je 10 pracovných dní, 90% projektov do 15. Je to možné preto, že sa nevyžaduje rozsiahle zadanie: riešenie navrhneme po krátkom rozhovore o cieľoch podnikania."
+        "a": "Landing page jeden až dva týždne, firemný web dva až štyri, e-shop dlhšie podľa katalógu a integrácií. Priemerné dodanie je 10 pracovných dní, 95% projektov do 15. Je to možné preto, že sa nevyžaduje rozsiahle zadanie: riešenie navrhneme po krátkom rozhovore o cieľoch podnikania."
       },
       {
         "q": "Čo zahŕňa technická podpora po spustení webu?",

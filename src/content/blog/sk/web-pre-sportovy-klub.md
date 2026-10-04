@@ -4,6 +4,7 @@ description: >-
   Prečo weby klubov umierajú do pol roka a ako postaviť taký, ktorý žije sám:
   novinky z Instagramu automaticky, rozvrh, ceny, prihláška, dva jazyky. S cenami.
 date: '2026-09-20'
+updated: '2026-10-04'
 key: 'sports-club-website'
 faq:
   - q: 'Koľko stojí web pre športový klub alebo krúžok?'
@@ -15,7 +16,7 @@ faq:
   - q: 'Potrebuje klub v Bratislave anglickú verziu?'
     a: 'Ak berie deti zo zahraničných rodín, áno. Angličtina je pre ne často jediný spôsob, ako zistiť, kam dieťa prihlásiť. Správne je to ako druhá verzia na vlastných adresách prepojená hreflangom, nie prepínač nad jedným textom.'
   - q: 'Ako dlho trvá spustenie webu klubu?'
-    a: 'Priemerne 10 pracovných dní od dodania podkladov, 90% projektov do 15. Najviac času zvyčajne berie zber rozvrhu, cien a fotiek na strane klubu, nie samotná výroba.'
+    a: 'Priemerne 10 pracovných dní od dodania podkladov, 95% projektov do 15. Najviac času zvyčajne berie zber rozvrhu, cien a fotiek na strane klubu, nie samotná výroba.'
 ---
 ![Web pre športový klub, tanečnú školu či krúžok | White Eagles & Co.](/assets/blog/web-sportovy-klub.webp)
 
@@ -115,7 +116,7 @@ Ak je klub plný cez známych, nábor nerobí a čakačka je na rok dopredu, web
 - **Web klubu v dvoch jazykoch** s automatickým obsahom z Instagramu a prihláškou: od **3 500€**.
 - Úpravy existujúceho webu, napríklad doplnenie prihlášky alebo feedu: **35€/hod**.
 
-Dodanie priemerne 10 pracovných dní, 90% projektov do 15. V cene: povinné údaje, cookie lišta, profil na Googli, meranie prihlášok, doména, hosting a účty na klube, šesť mesiacov podpory. Podrobný rozpis, z čoho sa cena skladá: [koľko stojí web](/sk/blog/website-cost-2026/).
+Dodanie priemerne 10 pracovných dní, 95% projektov do 15. V cene: povinné údaje, cookie lišta, profil na Googli, meranie prihlášok, doména, hosting a účty na klube, šesť mesiacov podpory. Podrobný rozpis, z čoho sa cena skladá: [koľko stojí web](/sk/blog/website-cost-2026/).
 
 ## Ak treba pomôcť
 

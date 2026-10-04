@@ -44,6 +44,17 @@
   color: var(--text-color);
 }
 
+/* A long Russian word ("предпринимателю") ran a few pixels past the card on
+   a 360px phone. */
+@media (max-width: 480px) {
+  .blog-card h3 {
+    font-size: 1.3rem;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
 .blog-card-desc {
   color: var(--text-muted);
   line-height: 1.6;
@@ -211,9 +222,21 @@
   .post-title {
     font-size: 2rem;
   }
-  
+
   .blog-page, .blog-post-page {
     padding-top: 100px;
+  }
+}
+
+/* The article title is the markdown's own h1, sized by the global h1 rule.
+   Long Russian words ("регистрироваться", "предпринимателю") were wider than
+   a 360px phone at that size and ran past the edge of the page. */
+@media (max-width: 480px) {
+  .post-content h1 {
+    font-size: 1.75rem;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
   }
 }
 

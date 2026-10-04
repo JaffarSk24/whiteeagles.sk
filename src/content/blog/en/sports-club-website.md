@@ -5,6 +5,7 @@ description: >-
   itself alive: news from Instagram automatically, schedule, prices, sign-up,
   two languages.
 date: '2026-09-20'
+updated: '2026-10-04'
 key: 'sports-club-website'
 faq:
   - q: 'How much does a website for a sports club or children''s group cost?'
@@ -16,7 +17,7 @@ faq:
   - q: 'Does a club in Bratislava need an English version?'
     a: 'If it takes children from international families, yes. English is often their only way of finding out where to enrol. The right way is a second version on its own URLs linked by hreflang, not a switcher over a single text.'
   - q: 'How long does a club website take to launch?'
-    a: 'On average 10 working days from receiving the materials, and 90% of projects are done within 15. What usually takes longest is collecting the schedule, prices and photos on the club''s side, not the build itself.'
+    a: 'On average 10 working days from receiving the materials, and 95% of projects are done within 15. What usually takes longest is collecting the schedule, prices and photos on the club''s side, not the build itself.'
 ---
 ![A website for a sports club, dance school or children's group | White Eagles & Co.](/assets/blog/web-sportovy-klub.webp)
 
@@ -116,7 +117,7 @@ If the club is full through word of mouth, does not recruit and has a waiting li
 - **A club site in two languages** with automatic content from Instagram and sign-up: from **3 500€**.
 - Changes to an existing site, such as adding a form or a feed: **35€/hour**.
 
-Delivery averages 10 working days, with 90% of projects done within 15. Included: mandatory legal details, cookie bar, Google Business Profile, sign-up tracking, domain, hosting and accounts registered to the club, six months of support. What makes up the price: [what a website costs](/en/blog/website-cost-slovakia/).
+Delivery averages 10 working days, with 95% of projects done within 15. Included: mandatory legal details, cookie bar, Google Business Profile, sign-up tracking, domain, hosting and accounts registered to the club, six months of support. What makes up the price: [what a website costs](/en/blog/website-cost-slovakia/).
 
 ## If you need help
 

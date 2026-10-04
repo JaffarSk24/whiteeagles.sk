@@ -5,6 +5,7 @@ description: >-
   voľné miesta ako stav systému, rozmery a ceny na stránke, dopyty, ktoré dôjdu.
   S cenami.
 date: '2026-09-20'
+updated: '2026-10-04'
 key: 'storage-rental-website'
 faq:
   - q: 'Koľko stojí web pre prenájom skladov alebo boxov?'
@@ -12,7 +13,7 @@ faq:
   - q: 'Dá sa obsadenosť doplniť do existujúceho webu?'
     a: 'Zvyčajne áno, účtujem to hodinovo. Najprv sa pozriem, na čom web beží a či sa doň dá zapísať stav miest tak, aby ho firma sama spravovala. Ak je to starý WordPress na desiatkach pluginov, býva lacnejšie postaviť web nanovo než ho dobiehať.'
   - q: 'Ako dlho trvá spustenie?'
-    a: 'Priemerne 10 pracovných dní, 90% projektov do 15. Landing page bez rezervácie býva hotová skôr. Najdlhšie zvyčajne trvá zozbierať od firmy rozmery, ceny a podmienky, nie samotné kódovanie.'
+    a: 'Priemerne 10 pracovných dní, 95% projektov do 15. Landing page bez rezervácie býva hotová skôr. Najdlhšie zvyčajne trvá zozbierať od firmy rozmery, ceny a podmienky, nie samotné kódovanie.'
   - q: 'Potrebujem online rezerváciu, alebo stačí formulár?'
     a: 'Ak máte pár jednotiek a všetky sú dlhodobo prenajaté, stačí stránka s rozmermi, cenami a formulárom. Rezervácia so živou obsadenosťou sa oplatí, keď sa miesta točia, dopytov je viac, než stíhate, a manažér trávi deň odpisovaním „či máte“.'
   - q: 'Má zmysel platba za prvý mesiac online?'
@@ -98,7 +99,7 @@ Kedy to netreba: ak máte pár jednotiek a všetky sú dlhodobo prenajaté, obsa
 - **Web so živou obsadenosťou a online rezerváciou**, administráciou pre firmu a stránkami podľa typov priestorov: od **3 500€**.
 - Úpravy a doplnenie obsadenosti do existujúceho webu: **35€/hod**.
 
-Priemerné dodanie je 10 pracovných dní, 90% projektov do 15. V cene: formuláre s ochranou proti spamu a overeným doručovaním, meranie dopytov v GA4, cookie lišta, povinné údaje, 6 mesiacov podpory. Doména, hosting a účty sú vedené na vás, nie na mňa. Podrobný rozpis: [koľko stojí web](/sk/blog/website-cost-2026/).
+Priemerné dodanie je 10 pracovných dní, 95% projektov do 15. V cene: formuláre s ochranou proti spamu a overeným doručovaním, meranie dopytov v GA4, cookie lišta, povinné údaje, 6 mesiacov podpory. Doména, hosting a účty sú vedené na vás, nie na mňa. Podrobný rozpis: [koľko stojí web](/sk/blog/website-cost-2026/).
 
 ## Ak treba pomôcť
 

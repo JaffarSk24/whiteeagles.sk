@@ -5,6 +5,7 @@ description: >-
   as a system state, sizes and prices on the page, enquiries that arrive.
   With prices.
 date: '2026-09-20'
+updated: '2026-10-04'
 key: 'storage-rental-website'
 faq:
   - q: 'What does a website for storage or box rental cost?'
@@ -12,7 +13,7 @@ faq:
   - q: 'Can availability be added to a site I already have?'
     a: 'Usually yes, billed by the hour. First I look at what the site runs on and whether the state of the units can be stored in it so the company manages it itself. If it is an old WordPress on dozens of plugins, rebuilding is often cheaper than catching it up.'
   - q: 'How long does the launch take?'
-    a: 'On average 10 working days, and 90% of projects fit within 15. A landing page without booking is usually ready sooner. The longest part is normally collecting sizes, prices and conditions from the company, not the coding.'
+    a: 'On average 10 working days, and 95% of projects fit within 15. A landing page without booking is usually ready sooner. The longest part is normally collecting sizes, prices and conditions from the company, not the coding.'
   - q: 'Do I need online booking, or is a form enough?'
     a: 'With a handful of units that are all rented long term, a page with sizes, prices and a form is enough. Booking with live availability pays off when units turn over, enquiries outnumber what you can handle and the manager spends the day replying "do you have one".'
   - q: 'Is online payment for the first month worth it?'
@@ -98,7 +99,7 @@ When it is not needed: with a handful of units all rented long term, occupancy c
 - **Site with live availability and online booking**, an admin panel for the company and pages by type of space: from **€3,500**.
 - Changes and adding availability to an existing site: **€35/hour**.
 
-Average delivery is 10 working days, and 90% of projects fit within 15. Included: forms with spam protection and verified delivery, enquiry measurement in GA4, the cookie banner, the mandatory details, 6 months of support. Domain, hosting and accounts are registered to you, not to me. The detailed breakdown: [what a website costs](/en/blog/website-cost-slovakia/).
+Average delivery is 10 working days, and 95% of projects fit within 15. Included: forms with spam protection and verified delivery, enquiry measurement in GA4, the cookie banner, the mandatory details, 6 months of support. Domain, hosting and accounts are registered to you, not to me. The detailed breakdown: [what a website costs](/en/blog/website-cost-slovakia/).
 
 ## If you need help
 

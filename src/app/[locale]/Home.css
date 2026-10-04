@@ -66,7 +66,9 @@
 /* Services */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  /* min() so on a 320px phone the card takes the column instead of being
+     280px wide in a 248px column and hanging over the right edge. */
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 30px;
 }
 
@@ -383,6 +385,19 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     justify-items: center;
+  }
+}
+
+/* Two 120px items plus padding did not fit a small phone and spilled past
+   the card. */
+@media (max-width: 480px) {
+  .payment-options-block {
+    padding: 24px 16px;
+  }
+
+  /* Scoped so it outranks the base .payment-item rule further down. */
+  .payment-options-block .payment-item {
+    min-width: 0;
   }
 }
 

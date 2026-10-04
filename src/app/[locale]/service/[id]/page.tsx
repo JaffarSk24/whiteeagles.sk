@@ -264,7 +264,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             </div>
 
             <div className="detail-pricing-row">
-              <div className="detail-price-table">
+              <div className="detail-pricing">
                 <span className="price-tag">
                   {service.priceRate}€ / {tCommon("hour")}
                 </span>
@@ -302,7 +302,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               {page.why?.length ? (
                 <section className="detail-block detail-why">
                   <h2>{page.why_title}</h2>
-                  <ul className="detail-why-list">
+                  <ul className={`detail-why-list${page.why.length === 3 ? " is-three" : ""}`}>
                     {page.why.map((item, i) => (
                       <li key={i}>
                         <strong>{item.t}</strong>

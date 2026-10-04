@@ -5,6 +5,7 @@ description: >-
   fotky: cenník, voľné termíny, potvrdenie cez Telegram bez dvojitých
   objednávok.
 date: '2026-09-20'
+updated: '2026-10-04'
 key: 'beauty-salon-website'
 faq:
   - q: 'Koľko stojí web pre salón krásy?'
@@ -16,7 +17,7 @@ faq:
   - q: 'Potrebuje salón v Bratislave web v ruštine alebo ukrajinčine?'
     a: 'Ak sú medzi klientkami ľudia, ktorí po slovensky čítajú ťažko, áno. Každý jazyk na vlastnej adrese s hreflangom, nie prepínač nad jedným textom, inak Google nevie, ktorú verziu komu ukázať. Krása štúdio OK v Ružinove beží po slovensky, rusky a ukrajinsky.'
   - q: 'Ako dlho trvá spustenie webu salónu?'
-    a: 'Priemerne 10 pracovných dní, 90% projektov do 15. Landing page s formulárom skôr. Najviac času zvyčajne zaberie zber podkladov na strane salónu: cenník, fotky, rozvrhy personálu.'
+    a: 'Priemerne 10 pracovných dní, 95% projektov do 15. Landing page s formulárom skôr. Najviac času zvyčajne zaberie zber podkladov na strane salónu: cenník, fotky, rozvrhy personálu.'
 ---
 ![Webstránka pre salón krásy: online objednávanie, ktoré potvrdí Telegram | White Eagles & Co.](/assets/blog/web-salon-krasy.webp)
 
@@ -126,7 +127,7 @@ A kedy web ešte netreba: jeden špecialista, plno na týždne dopredu, klientky
 - **Web salónu** s vlastným objednávaním, službami s cenami, personálom a viacerými jazykmi od **3 500€**.
 - Úpravy a doplnenie objednávania do existujúceho webu **35€/hod**.
 
-Priemerne dodám za 10 pracovných dní, 90% projektov do 15. V cene webu salónu: potvrdenie cez Telegram, profil na Googli nastavený a prepojený, meranie objednávok, cookie lišta, povinné údaje, 6 mesiacov podpory. Doména, hosting a všetky účty sú vedené na vás, nie na mňa. Podrobný rozpis: [koľko stojí web](/sk/blog/website-cost-2026/).
+Priemerne dodám za 10 pracovných dní, 95% projektov do 15. V cene webu salónu: potvrdenie cez Telegram, profil na Googli nastavený a prepojený, meranie objednávok, cookie lišta, povinné údaje, 6 mesiacov podpory. Doména, hosting a všetky účty sú vedené na vás, nie na mňa. Podrobný rozpis: [koľko stojí web](/sk/blog/website-cost-2026/).
 
 ## Ak treba pomôcť
 

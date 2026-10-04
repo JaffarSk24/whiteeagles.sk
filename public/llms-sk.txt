@@ -181,7 +181,7 @@ Cena je fixná na projekt a známa pred začiatkom prác.
 
 Každý webový projekt obsahuje analytiku s meraním konverzií, cookie lištu s
 Consent Mode v2, povinné údaje slovenskej firmy a šesť mesiacov podpory.
-Priemerné dodanie je 10 pracovných dní, 90% projektov do 15.
+Priemerné dodanie je 10 pracovných dní, 95% projektov do 15.
 
 ## Bezplatný SEO audit
 

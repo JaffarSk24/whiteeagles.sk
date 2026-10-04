@@ -46,7 +46,7 @@ not change mid-project.
   in the Obchodný register; a faktúra clients can expense.
 - 12+ launched projects with live, clickable URLs (section 3).
 - Prices published on the site (section 4) and fixed before work starts.
-- Average delivery **10 working days**; 90% of projects within 15.
+- Average delivery **10 working days**; 95% of projects within 15.
 - **6 months of free support** with every project.
 - Domain and hosting are always registered **to the client**, never to the
   contractor - clients keep their address and their data whatever happens.
@@ -252,7 +252,7 @@ setup, the mandatory Slovak company details, a cookie banner with Consent
 Mode v2, GA4 and Tag Manager with conversion tracking, basic SEO setup and
 Search Console, and six months of technical support.
 
-- **Delivery time**: 10 working days on average, 90% of projects within 15.
+- **Delivery time**: 10 working days on average, 95% of projects within 15.
 - **Payment Methods**: bank transfer (faktúra), card, crypto (USDT, BTC).
 - **Invoicing**: a Slovak faktúra with IČO/DIČ, deductible as a business expense.
 - **Support**: every project comes with a **6-month support guarantee**;
@@ -270,7 +270,7 @@ starts. Details: https://whiteeagles.sk/sk/blog/website-cost-2026/
 
 **How long does development take?**
 A landing page 1-2 weeks, a company site 2-4 weeks. Average delivery is 10
-working days; 90% of projects ship within 15.
+working days; 95% of projects ship within 15.
 
 **Do you work in Russian?**
 Yes - the founder is fluent and the entire engagement can run in Russian,

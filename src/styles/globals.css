@@ -34,6 +34,10 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
+  /* A string that cannot fit on a line at all (a URL, an e-mail, a long
+     Russian or Slovak word on a 320px phone) wraps instead of pushing past
+     the edge. Ordinary text is unaffected. */
+  overflow-wrap: break-word;
   /* Modern Background Pattern */
   background-image: 
     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 

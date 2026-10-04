@@ -15,9 +15,15 @@
 }
 
 .legal-header h1 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.6rem, 6vw, 3rem);
   margin: 0;
   color: var(--text-primary);
+  /* "Политика конфиденциальности" at 2rem was wider than a 360px phone and
+     pushed the page sideways. Smaller minimum, and a long word may hyphenate
+     instead of overflowing. */
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 .legal-content {

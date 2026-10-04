@@ -4,7 +4,7 @@ description: >-
   Skutočné ceny za tvorbu webu na Slovensku: landing page od 1 500€, firemný web
   od 3 500€, e-shop od 5 000€. Čo je v cene a na aké náklady sa zabúda.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-04'
 key: 'website-cost'
 faq:
   - q: 'Koľko stojí web na Slovensku?'
@@ -14,7 +14,7 @@ faq:
   - q: 'Aké náklady sa do rozpočtu zvyčajne nedostanú?'
     a: 'Doména a hosting, e-mail na vlastnej doméne, texty, fotografie, platobná brána a jej poplatky a technická podpora po spustení. Pri každej položke sa oplatí vopred opýtať, či je v cene.'
   - q: 'Ako dlho trvá vývoj?'
-    a: 'Landing page týždeň až dva, firemný web dva až štyri týždne, e-shop dlhšie. V priemere odovzdávam za 10 pracovných dní, 90 percent projektov do 15.'
+    a: 'Landing page týždeň až dva, firemný web dva až štyri týždne, e-shop dlhšie. V priemere odovzdávam za 10 pracovných dní, 95 percent projektov do 15.'
   - q: 'Musím pripraviť zadanie?'
     a: 'Nie. Stačí krátky rozhovor o úlohách podnikania a riešenie navrhnem ja. Požiadavka napísať štyridsaťstranový dokument zdržiava štart najviac.'
 ---
@@ -105,7 +105,7 @@ Ponuka s nižšou cenou, kde na tieto otázky odpoveď nie je, vychádza zvyčaj
 - firemný web: dva až štyri týždne
 - e-shop: dlhšie, podľa katalógu a integrácií
 
-V priemere odovzdávam za **10 pracovných dní**, 90% projektov do 15. Je to možné preto, že nevyžadujem štyridsaťstranové zadanie: riešenie navrhnem sám po krátkom rozhovore o úlohách podnikania.
+V priemere odovzdávam za **10 pracovných dní**, 95% projektov do 15. Je to možné preto, že nevyžadujem štyridsaťstranové zadanie: riešenie navrhnem sám po krátkom rozhovore o úlohách podnikania.
 
 ## Záver
 

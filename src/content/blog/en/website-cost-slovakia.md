@@ -5,7 +5,7 @@ description: >-
   site from 3,500€, an online shop from 5,000€. What the price covers and
   which costs people forget.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-04'
 key: 'website-cost'
 faq:
   - q: 'What does a website cost in Slovakia?'
@@ -15,7 +15,7 @@ faq:
   - q: 'Which costs usually stay out of the quote?'
     a: 'The domain and hosting, email on your own domain, copy, photographs, the payment gateway and its fees, and technical support after launch. Ask about each one in advance.'
   - q: 'How long does development take?'
-    a: 'A landing page one to two weeks, a company site two to four, an online shop longer. On average I deliver in 10 working days, and 90 per cent of projects within 15.'
+    a: 'A landing page one to two weeks, a company site two to four, an online shop longer. On average I deliver in 10 working days, and 95 per cent of projects within 15.'
   - q: 'Do I need to prepare a technical specification?'
     a: 'No. A short conversation about the business goals is enough: I propose the solution. Demanding a forty-page document is what delays the start most.'
 ---
@@ -106,7 +106,7 @@ An offer with a lower price and no answers to these questions usually turns out 
 - company site: two to four weeks
 - online shop: longer, depending on catalogue and integrations
 
-On average I deliver in **10 working days**, 90% of projects within 15. That is possible because I do not demand a forty-page technical specification: I propose the solution myself after a short conversation about the business goals.
+On average I deliver in **10 working days**, 95% of projects within 15. That is possible because I do not demand a forty-page technical specification: I propose the solution myself after a short conversation about the business goals.
 
 ## In short
 

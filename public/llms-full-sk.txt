@@ -45,7 +45,7 @@ začiatkom prác a v priebehu sa nemení.
   overiť v Obchodnom registri; faktúru si klient dá do nákladov.
 - 12+ spustených projektov so živými, klikateľnými adresami (sekcia 3).
 - Ceny zverejnené na webe (sekcia 5) a pevné pred začiatkom prác.
-- Priemerné dodanie **10 pracovných dní**, 90% projektov do 15.
+- Priemerné dodanie **10 pracovných dní**, 95% projektov do 15.
 - **6 mesiacov podpory zdarma** ku každému projektu.
 - Doména a hosting sú vždy vedené **na klienta**, nikdy na dodávateľa -
   klient si ponechá svoju adresu aj svoje dáta, nech sa stane čokoľvek.
@@ -224,7 +224,7 @@ responzívna verzia, funkčné formuláre, napojenie domény a hostingu, povinn�
 meraním konverzií, základné SEO a Search Console a šesť mesiacov technickej
 podpory.
 
-- **Termín dodania**: priemerne 10 pracovných dní, 90% projektov do 15.
+- **Termín dodania**: priemerne 10 pracovných dní, 95% projektov do 15.
 - **Spôsoby platby**: bankový prevod (faktúra), karta, krypto (USDT, BTC).
 - **Fakturácia**: slovenská faktúra s IČO/DIČ, uznateľný náklad.
 - **Podpora**: ku každému projektu **6 mesiacov záruky**; potom podpora
@@ -242,7 +242,7 @@ https://whiteeagles.sk/sk/blog/website-cost-2026/
 
 **Ako dlho trvá vývoj?**
 Landing page 1-2 týždne, firemný web 2-4 týždne. Priemerné dodanie je 10
-pracovných dní, 90% projektov do 15.
+pracovných dní, 95% projektov do 15.
 
 **Koľko stojí nastavenie reklamy?**
 Kompletný štart Google Ads / Meta približne od 1 000€ pri sadzbe 25€/hod;

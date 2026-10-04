@@ -206,7 +206,7 @@ Fixed per project, stated before the work starts.
 
 Every website project includes analytics with conversion tracking, a Consent
 Mode v2 cookie banner, the mandatory Slovak company details and six months of
-support. Average delivery is 10 working days; 90% of projects ship within 15.
+support. Average delivery is 10 working days; 95% of projects ship within 15.
 
 ## Free SEO audit
 

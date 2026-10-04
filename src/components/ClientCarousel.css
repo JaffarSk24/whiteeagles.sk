@@ -180,8 +180,25 @@
     height: 32px;
   }
 
+  /* The grid may shrink below the logos' natural width; otherwise it pushed
+     the right arrow off a 320px screen. */
+  .clients-grid,
+  .client-logo-item {
+    min-width: 0;
+  }
+
   .client-logo-img {
     height: 44px;
-    max-width: 90px;
+    max-width: min(90px, 100%);
+  }
+}
+
+@media (max-width: 400px) {
+  .clients-slider-wrap {
+    gap: 8px;
+  }
+
+  .client-logo-item {
+    padding: 14px 8px;
   }
 }
