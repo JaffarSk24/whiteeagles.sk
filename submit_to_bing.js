@@ -17,7 +17,7 @@ const SITE_URL = `https://${HOST}`;
 // purpose, and hard-coding it is correct.
 const BING_API_KEY = process.env.BING_API_KEY;
 
-const { collectUrls } = require('./submit_urls');
+const { collectUrls, sitemapLastmods } = require('./submit_urls');
 
 async function main() {
   if (!BING_API_KEY) {
@@ -40,19 +40,27 @@ async function main() {
   // Sitemap pages plus the llms files - see submit_urls.js.
   let uniqueUrls = collectUrls();
 
-  // The daily quota is 100 URLs and the sitemap holds 86, so a second deploy on
-  // the same day would otherwise fail on quota rather than on anything real.
-  // Trim to what is left and say exactly what was dropped - a silent cut reads
-  // as "everything was submitted".
+  // The daily quota is 100 URLs and the list holds more (116 sitemap pages plus
+  // the root and the llms files in October 2026), and a second deploy on the
+  // same day has even less left. Trim to what is left and say exactly what was
+  // dropped - a silent cut reads as "everything was submitted".
   if (Number.isFinite(daily) && daily < uniqueUrls.length) {
     const dropped = uniqueUrls.length - daily;
     if (daily <= 0) {
       console.warn('⚠️  Daily quota is exhausted - nothing submitted this run.');
       return;
     }
-    // The sitemap is written locale by locale, Slovak first, so the head of the
-    // list is the language that matters most here.
-    console.warn(`⚠️  Quota allows ${daily} of ${uniqueUrls.length} URLs; dropping the last ${dropped}.`);
+    // Newest first. The sitemap is written Slovak, English, Russian, so cutting
+    // the tail dropped the Russian pages every time, and whatever this deploy
+    // changed carries the latest lastmod and must not be the part that is cut.
+    // URLs without a lastmod (the root, the llms files) go last; IndexNow,
+    // which Bing reads as well, still receives the whole list.
+    const lastmods = sitemapLastmods();
+    uniqueUrls = uniqueUrls
+      .map((url, i) => ({ url, i, lastmod: lastmods.get(url) || '' }))
+      .sort((a, b) => (a.lastmod === b.lastmod ? a.i - b.i : a.lastmod < b.lastmod ? 1 : -1))
+      .map((x) => x.url);
+    console.warn(`⚠️  Quota allows ${daily} of ${uniqueUrls.length} URLs; sending the ${daily} changed most recently, dropping ${dropped}.`);
     uniqueUrls = uniqueUrls.slice(0, daily);
   }
 

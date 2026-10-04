@@ -47,4 +47,18 @@ function collectUrls({ includeAiFiles = true } = {}) {
   return [...new Set(urls)];
 }
 
-module.exports = { HOST, AI_FILES, SITEMAP_PATH, collectUrls };
+// lastmod of every sitemap URL, for a script that can send only part of the
+// list and should send what changed most recently first.
+function sitemapLastmods() {
+  const map = new Map();
+  if (!fs.existsSync(SITEMAP_PATH)) return map;
+  const content = fs.readFileSync(SITEMAP_PATH, 'utf-8');
+  for (const m of content.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+    const loc = /<loc>(.*?)<\/loc>/.exec(m[1]);
+    const lastmod = /<lastmod>(.*?)<\/lastmod>/.exec(m[1]);
+    if (loc) map.set(loc[1], lastmod ? lastmod[1] : '');
+  }
+  return map;
+}
+
+module.exports = { HOST, AI_FILES, SITEMAP_PATH, collectUrls, sitemapLastmods };

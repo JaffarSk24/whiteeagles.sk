@@ -12,10 +12,11 @@
     right: 0;
     bottom: 0;
     z-index: 900;
-    /* The chat bubble floats in the bottom right corner (60px wide, 20px from
-       the edge) and sits above everything. The button stops short of it so it
-       is never covered and never swallows a tap meant for the chat. */
-    padding: 10px 86px calc(10px + env(safe-area-inset-bottom, 0px)) 16px;
+    /* Centred. The right side used to stay 86px short for the chat bubble, but
+       the bubble shows only on the home page and this bar only on the service
+       pages, so on a phone the button sat pressed to the left with an empty
+       strip beside it. */
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
     background: rgba(55, 65, 97, 0.92);
     border-top: 1px solid var(--border-color);
     backdrop-filter: blur(8px);
@@ -34,6 +35,9 @@
   .sticky-order-cta-btn {
     display: block;
     width: 100%;
+    /* On a tablet a full-width button would stretch across 700px. */
+    max-width: 480px;
+    margin: 0 auto;
     padding: 15px 18px;
     border: none;
     border-radius: 10px;
