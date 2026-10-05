@@ -5,7 +5,7 @@ description: >-
   what budget a start actually needs, what management costs, and how to work out
   whether a campaign pays for itself.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-05'
 key: 'ads-pricing'
 faq:
   - q: 'What does a click cost in Google Ads in Slovakia?'
@@ -119,6 +119,8 @@ What to ask before signing, whichever model applies:
 **Measurement.** Without conversions configured properly the algorithm has nothing to optimise on and spends on the cheapest clicks. How it works: [configuring GA4](/en/blog/ga4-setup/).
 
 **Consent Mode v2.** Since March 2024 Google does not accept EU data for remarketing and conversion modelling without a consent signal. In practice: the advertising brings enquiries while the reports show a loss, and it gets switched off. Analysis: [the cookie banner in 2026](/en/blog/cookie-banner-2026/).
+
+**VAT, if you are not a VAT payer.** Google and Meta invoice from Ireland without VAT, and a non-payer pays the 23% on every invoice themselves, after a §7a registration before the first campaign. On a 300€ budget that is 69€ a month on top. Details: [Google and Facebook ads and Slovak VAT](/en/blog/slovak-vat-on-google-facebook-ads/).
 
 **The landing page.** If it does not exist, it has to be built. Advertising pointed at the home page instead of the service page is the most common cause of an expensive enquiry.
 

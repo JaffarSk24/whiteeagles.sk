@@ -5,7 +5,7 @@ description: >-
   klik podľa odvetvia, aký mesačný rozpočet treba na štart, čo stojí nastavenie
   a správa kampaní a ako zistiť, či sa platená reklama na Googli vracia.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-05'
 key: 'ads-pricing'
 faq:
   - q: 'Koľko stojí reklama na Google mesačne?'
@@ -125,6 +125,8 @@ Cena reklamy na internete sa nedá porovnať jedným číslom: v Meta (Facebook,
 **Meranie.** Bez korektne nastavených konverzií nemá algoritmus na čom optimalizovať a míňa na najlacnejšie kliknutia. Ako to funguje: v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
 
 **Consent Mode v2.** Od marca 2024 bez signálu súhlasu Google neprijíma údaje z EÚ na remarketing a modelovanie konverzií. V praxi: reklama prináša dopyty a v prehľadoch je kampaň stratová, tak sa vypne. Rozbor: v článku [cookie lišta v roku 2026](/sk/blog/cookie-lista-2026-povinnosti/).
+
+**DPH, ak nie ste platiteľ.** Google aj Meta fakturujú z Írska bez DPH a neplatiteľ zaplatí 23% z každej faktúry sám, po registrácii podľa §7a ešte pred prvou kampaňou. Pri rozpočte 300€ je to 69€ mesačne navyše. Rozbor: [reklama na Google a Facebooku a DPH](/sk/blog/reklama-google-facebook-dph-7a/).
 
 **Cieľová stránka.** Ak neexistuje, treba ju spraviť. Reklama na úvodnú stránku namiesto stránky služby je najčastejšia príčina drahého dopytu.
 

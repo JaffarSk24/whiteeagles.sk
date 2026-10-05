@@ -1,31 +1,31 @@
 ---
-title: 'E-shop na Slovensku: čo si vybrať a čo je povinné zo zákona'
+title: 'Tvorba e-shopu na Slovensku 2026: cena, Shoptet alebo na mieru a čo je povinné'
 description: >-
-  Ako spustiť e-shop na Slovensku: hotová platforma alebo vývoj na mieru, ceny,
-  platba kartou, doprava, eKasa a DPH, povinné dokumenty na webe. Rozbor pre
-  tých, ktorí začínajú.
+  Koľko stojí tvorba e-shopu na Slovensku: Shoptet a hotové platformy oproti
+  e-shopu na mieru, výpočet na tri roky, platba kartou, doprava, eKasa a DPH,
+  povinné dokumenty na webe. Rozbor pre tých, ktorí začínajú.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-05'
 key: 'online-shop'
 faq:
-  - q: 'Koľko stojí e-shop na Slovensku?'
-    a: 'E-shop na mieru od 5 000 eur. Hotová platforma vyjde na štarte lacnejšie, ale berie si mesačný poplatok a percento. Rátať treba náklady na dva-tri roky, nie iba spustenie.'
+  - q: 'Koľko stojí tvorba e-shopu na Slovensku?'
+    a: 'E-shop na mieru od 5 000 eur jednorazovo. Shoptet stojí podľa tarifu 16,50 až 173,50 eura mesačne bez DPH, pri tarife Business pre katalóg do 1 000 produktov približne 1 980 eur za tri roky, plus doplnky a poplatky za platby. Porovnávať treba náklady na dva-tri roky, nie iba spustenie.'
   - q: 'Potrebuje e-shop eKasu?'
     a: 'Pri platbe kartou na webe alebo prevodom na účet eKasa netreba. Vzniká vtedy, keď prijímate hotovosť alebo kartu pri osobnom odovzdaní tovaru, napríklad keď kuriér berie platbu na mieste alebo ide o osobný odber s platbou.'
   - q: 'Kedy sa e-shop musí registrovať na DPH?'
     a: 'Prah registrácie je obrat 50 000 eur za kalendárny rok s povinnosťou podať žiadosť. Existuje aj druhý prah, 62 500, s inými dôsledkami pri lehotách. Pri predaji do iných krajín EÚ platia samostatné pravidlá.'
   - q: 'Aké dokumenty musia byť na webe e-shopu?'
     a: 'Povinné údaje firmy, obchodné podmienky, ochrana osobných údajov, informácia o odstúpení od zmluvy do 14 dní a o reklamácii, plus cookie lišta s Consent Mode v2.'
-  - q: 'Hotová platforma alebo vývoj na mieru?'
-    a: 'Menší katalóg so štandardnou logikou žije dobre na hotovej platforme. Vývoj na mieru má zmysel vtedy, keď existuje logika, ktorú platforma nemá: ceny podľa objemu, napojenie na sklad alebo účtovný systém, neštandardná doprava.'
+  - q: 'Shoptet alebo e-shop na mieru?'
+    a: 'Menší katalóg so štandardnou logikou žije dobre na Shoptete alebo inej hotovej platforme a za tri roky vyjde lacnejšie. E-shop na mieru má zmysel vtedy, keď existuje logika, ktorú platforma nemá: ceny podľa objemu, napojenie na sklad alebo účtovný systém, neštandardná doprava.'
 ---
-![E-shop na Slovensku | White Eagles & Co.](/assets/blog/internetmag.webp)
+![Tvorba e-shopu na Slovensku | White Eagles & Co.](/assets/blog/internetmag.webp)
 
-# E-shop na Slovensku: čo si vybrať a čo je povinné zo zákona
+# Tvorba e-shopu na Slovensku 2026: cena, Shoptet alebo na mieru a čo je povinné
 
-Rozhovor o e-shope zvyčajne začína platformou a o pol roka končí otázkou „prečo nemáme predaje". Správne poradie je opačné: najprv čo predávate a komu, potom zákon a peniaze, a až potom technológia.
+Tvorba e-shopu zvyčajne začína otázkou platformy a ceny a o pol roka končí otázkou „prečo nemáme predaje". Správne poradie je opačné: najprv čo predávate a komu, potom zákon a peniaze, a až potom technológia.
 
-Nižšie je to v tomto poradí.
+Nižšie je to v tomto poradí, aj s výpočtom, koľko za tri roky stojí Shoptet a koľko e-shop na mieru.
 
 [CTA_FORM:consult]
 
@@ -35,14 +35,14 @@ Katalóg s košíkom nepotrebuje každý. Ak máte desať položiek, predaj preb
 
 E-shop s košíkom má zmysel vtedy, keď nákup prebehne bez vašej účasti: človek si vybral, zaplatil, dostal.
 
-## Hotová platforma alebo vývoj na mieru
+## Shoptet, hotová platforma alebo e-shop na mieru
 
 Spor bez univerzálnej odpovede, preto vecne.
 
-| | Hotová platforma | Na mieru |
+| | Hotová platforma (Shoptet a iné) | Na mieru |
 |---|---|---|
 | **Spustenie** | rýchlo, lacnejšie | dlhšie, od 5 000€ |
-| **Mesačne** | predplatné + percento z predaja | hosting |
+| **Mesačne** | predplatné, doplnky, poplatky za platby | hosting |
 | **Dizajn** | šablóna s obmedzeniami | bez obmedzení |
 | **Neštandardná logika** | cez pluginy, ak existujú | spraví sa, ako treba |
 | **Integrácie** | čo platforma predpokladá | akékoľvek |
@@ -52,7 +52,24 @@ Praktické kritérium je jedno: **máte logiku, ktorú hotové riešenie nemá?*
 
 Ak nič také nie je, začať s hotovým riešením je rozumné. Príklad riešenia na mieru je [veľkoobchodný e-shop BODA BODA](/sk/case/bodabo/), kde karta produktu nesie parametre, podľa ktorých sa nákupca rozhoduje.
 
-Reálne ceny vývoja sú v článku [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/).
+## Koľko stojí tvorba e-shopu: výpočet na tri roky
+
+Cena spustenia klame. Hotová platforma je lacná na začiatku a platí sa každý mesiac, e-shop na mieru stojí viac na štarte a potom už len hosting. Porovnávať preto treba náklady na tri roky.
+
+**Shoptet**, jedna z najrozšírenejších hotových platforiem v Česku a na Slovensku, podľa cenníka k októbru 2026 (ceny bez DPH):
+
+| Tarif | Mesačne | Produktov | Za 3 roky |
+|---|---|---|---|
+| Basic | 16,50€ | do 100 | 594€ |
+| Business | 55€ | do 1 000 | 1 980€ |
+| Profi | 91€ | do 5 000 | 3 276€ |
+| Enterprise | 173,50€ | do 50 000 | 6 246€ |
+
+Pri platbe na rok vopred je zľava 10%. K tarifu sa pripočítavajú platené doplnky, šablóna, ak vám nestačí základná, a poplatky za platby kartou: pri bráne Shoptet Pay od 1,19% + 0,08€ do 1,99% + 0,42€ z transakcie podľa tarifu.
+
+**E-shop na mieru** u mňa začína na 5 000€ jednorazovo. V cene sú platby, doprava, povinné dokumenty, meranie nákupov a šesť mesiacov podpory. Potom platíte hosting na vlastnom účte a poplatky platobnej brány, ktoré sú pri oboch riešeniach.
+
+Čo z toho plynie: pri bežnom katalógu do tisíc produktov so štandardnou logikou vyjde Shoptet za tri roky lacnejšie, približne 1 980€ oproti 5 000€. E-shop na mieru sa oplatí, keď potrebujete logiku, ktorú platforma nemá alebo ktorú by ste skladali z platených doplnkov, keď rastiete do vyšších tarifov, alebo keď chcete, aby kód aj dáta patrili vám. Orientačnú cenu pre váš prípad ukáže [kalkulačka na stránke tvorby webstránok](/sk/service/webdev/), podrobný rozpis je v článku [koľko stojí web na Slovensku](/sk/blog/website-cost-2026/).
 
 ## Prijímanie platieb
 

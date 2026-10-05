@@ -300,6 +300,21 @@
       "en": "ads-running-no-leads",
       "ru": "reklama-idet-zayavok-net"
     },
+    "reklama-google-facebook-dph-7a": {
+      "sk": "reklama-google-facebook-dph-7a",
+      "en": "slovak-vat-on-google-facebook-ads",
+      "ru": "dph-na-reklamu-google-facebook-7a"
+    },
+    "slovak-vat-on-google-facebook-ads": {
+      "sk": "reklama-google-facebook-dph-7a",
+      "en": "slovak-vat-on-google-facebook-ads",
+      "ru": "dph-na-reklamu-google-facebook-7a"
+    },
+    "dph-na-reklamu-google-facebook-7a": {
+      "sk": "reklama-google-facebook-dph-7a",
+      "en": "slovak-vat-on-google-facebook-ads",
+      "ru": "dph-na-reklamu-google-facebook-7a"
+    },
     "sajt-iz-minska-ne-prodaet": {
       "sk": "sajt-iz-minska-ne-prodaet",
       "en": "cheap-offshore-website",

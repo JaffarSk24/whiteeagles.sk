@@ -46,6 +46,7 @@ export const BLOG_TOPICS: Record<string, BlogTopic> = {
   'ads-google-vs-meta': 'ads',
   'google-ads-start': 'ads',
   'ads-no-leads': 'ads',
+  'ads-vat-7a': 'ads',
 
   'ga4-setup': 'analytics',
   'ga4-audit': 'analytics',

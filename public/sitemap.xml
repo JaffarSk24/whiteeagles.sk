@@ -184,7 +184,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -229,7 +229,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -265,7 +265,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/"/>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -374,6 +374,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/reklama-idet-zayavok-net/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/reklama-bezi-dopyty-nechodia/"/>
     <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/sk/blog/reklama-google-facebook-dph-7a/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/reklama-google-facebook-dph-7a/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/dph-na-reklamu-google-facebook-7a/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/reklama-google-facebook-dph-7a/"/>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -753,11 +762,20 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://whiteeagles.sk/ru/blog/dph-na-reklamu-google-facebook-7a/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/reklama-google-facebook-dph-7a/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/dph-na-reklamu-google-facebook-7a/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/reklama-google-facebook-dph-7a/"/>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://whiteeagles.sk/ru/blog/dph-registraciya/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -802,7 +820,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1027,7 +1045,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/"/>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

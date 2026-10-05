@@ -5,7 +5,7 @@ description: >-
   the filing deadlines, the 2026 rates, when voluntary registration pays off and
   what has to change on your website once you are registered.
 date: '2026-08-04'
-updated: '2026-09-14'
+updated: '2026-10-05'
 key: 'vat-registration'
 faq:
   - q: 'At what turnover does VAT registration become mandatory in Slovakia?'
@@ -106,6 +106,8 @@ None of these changes is difficult. All of them become expensive when done after
 **Registering voluntarily while selling to consumers.** The price rises by 23% and the deduction does not compensate for it.
 
 **Leaving the IČ DPH off the website.** It is part of the mandatory details: [the full list](/en/blog/mandatory-website-details/).
+
+**Paying for ads without registering.** A non-payer who pays Google or Meta for advertising has to register under §7a before the first campaign and pay 23% on every invoice. The steps: [Google and Facebook ads and Slovak VAT](/en/blog/slovak-vat-on-google-facebook-ads/).
 
 ## If the website side needs sorting
 

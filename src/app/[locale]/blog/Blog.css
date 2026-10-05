@@ -52,6 +52,8 @@
     overflow-wrap: break-word;
     -webkit-hyphens: auto;
     hyphens: auto;
+    /* Only long words: "registrácia" split as "re-gistrácia" read badly. */
+    hyphenate-limit-chars: 12 5 5;
   }
 }
 
@@ -237,6 +239,8 @@
     overflow-wrap: break-word;
     -webkit-hyphens: auto;
     hyphens: auto;
+    /* Only long words: "registrácia" split as "re-gistrácia" read badly. */
+    hyphenate-limit-chars: 12 5 5;
   }
 }
 

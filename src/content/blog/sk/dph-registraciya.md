@@ -5,7 +5,7 @@ description: >-
   62 500€, lehoty na podanie žiadosti, sadzby 23, 19 a 5% a kedy sa dobrovoľná
   registrácia oplatí viac než povinná.
 date: '2026-08-04'
-updated: '2026-09-28'
+updated: '2026-10-05'
 key: 'vat-registration'
 faq:
   - q: 'Od akého obratu treba registráciu na DPH?'
@@ -106,6 +106,8 @@ Ani jedna z týchto zmien nie je zložitá. Všetky sa predražia, ak sa robia p
 **Registrujú sa dobrovoľne „pre serióznosť“.** Ak sú klientmi fyzické osoby, len sa tým zdražia.
 
 **Zabudnú na web.** Ceny bez DPH, staré údaje, faktúry bez IČ DPH, a všetko to klient vidí.
+
+**Platia reklamu bez registrácie.** Neplatiteľ, ktorý platí Googlu alebo Mete za reklamu, sa musí ešte pred prvou kampaňou registrovať podľa §7a a z každej faktúry zaplatiť 23%. Postup je v článku [reklama na Google a Facebooku a DPH](/sk/blog/reklama-google-facebook-dph-7a/).
 
 ## Čo urobiť
 
