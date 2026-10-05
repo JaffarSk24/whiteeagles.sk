@@ -103,7 +103,7 @@ https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/
 - **Настройка рекламы**: Google Ads и Meta (Facebook/Instagram), настройка и
   ведение. Полный запуск примерно от 1 000€, 25€/час; рекламный бюджет
   отдельно и платится напрямую, рекламный аккаунт принадлежит клиенту.
-  - Адрес: https://whiteeagles.sk/ru/service/ads/
+  - Адрес: https://whiteeagles.sk/ru/service/reklama-google-ads/
 
 - **Веб-аналитика**: GA4, Google Tag Manager, серверный тегинг, Microsoft
   Clarity, замер конверсий. От 500€, 25€/час.

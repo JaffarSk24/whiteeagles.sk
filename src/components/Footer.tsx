@@ -1,10 +1,10 @@
 import React from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { trackGAEvent } from "../utils/analytics";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
-import { services } from "../data/services";
+import { services, serviceSlug } from "../data/services";
 import "./Footer.css";
 
 // Google Business Profile card. Keep in sync with the address in
@@ -67,6 +67,7 @@ export const Footer: React.FC = () => {
  */
 const FooterNav = () => {
   const t = useTranslations();
+  const locale = useLocale();
   return (
     <nav className="footer-nav" aria-label={t("header.services")}>
       <div className="footer-nav-col">
@@ -74,7 +75,7 @@ const FooterNav = () => {
         <ul className="footer-nav-list">
           {services.map((service) => (
             <li key={service.id}>
-              <Link href={`/service/${service.id}/`} className="footer-link-small">
+              <Link href={`/service/${serviceSlug(service, locale)}/`} className="footer-link-small">
                 {t(service.titleKey as never)}
               </Link>
             </li>

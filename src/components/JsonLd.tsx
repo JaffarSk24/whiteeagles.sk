@@ -1,6 +1,6 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
-import { services } from "../data/services";
+import { services, serviceSlug } from "../data/services";
 
 // Sitewide structured data. Two audiences read this: search engines building
 // rich results, and AI assistants deciding whom to recommend when someone asks
@@ -120,16 +120,16 @@ export async function JsonLd({ locale }: { locale: string }) {
       },
       "itemOffered": {
         "@type": "Service",
-        "@id": `${siteUrl}/${locale}/service/${service.id}/#service`,
+        "@id": `${siteUrl}/${locale}/service/${serviceSlug(service, locale)}/#service`,
         "name": tRoot(service.titleKey as any),
-        "url": `${siteUrl}/${locale}/service/${service.id}/`,
+        "url": `${siteUrl}/${locale}/service/${serviceSlug(service, locale)}/`,
       },
     })),
   };
 
   const servicesList = services.map((service) => ({
     "@type": "Service",
-    "@id": `${siteUrl}/${locale}/service/${service.id}/#service`,
+    "@id": `${siteUrl}/${locale}/service/${serviceSlug(service, locale)}/#service`,
     "serviceType": tRoot(service.titleKey as any),
     "provider": {
       "@type": "LocalBusiness",
@@ -153,7 +153,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         "priceCurrency": "EUR",
         "unitText": "hour",
       },
-      "url": `${siteUrl}/${locale}/service/${service.id}/`,
+      "url": `${siteUrl}/${locale}/service/${serviceSlug(service, locale)}/`,
     },
   }));
 

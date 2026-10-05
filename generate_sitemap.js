@@ -44,6 +44,14 @@ const services = [
   'telegram'
 ];
 
+// A service keeps its id as the URL segment in every language unless this
+// file says otherwise (the Russian advertising page since 5 Oct 2026). The
+// site code reads the same file, so the sitemap and the pages cannot disagree.
+const serviceSlugs = require('./src/data/service-slugs.json');
+const serviceSlug = (id, locale) => (serviceSlugs[id] && serviceSlugs[id][locale]) || id;
+const serviceIdOf = (slug) =>
+  services.find((id) => locales.some((l) => serviceSlug(id, l) === slug)) || slug;
+
 // Paths relative to the locale root, without leading or trailing slashes.
 // The site is built with `trailingSlash: true`, so every generated <loc> must
 // end with a slash to match the canonical URL exactly - otherwise each sitemap
@@ -55,7 +63,7 @@ const pathsFor = (locale) => [
   { path: 'seo-audit', changefreq: 'monthly', priority: '0.9' },
   { path: 'blog', changefreq: 'weekly', priority: '0.8' },
   { path: 'portfolio', changefreq: 'monthly', priority: '0.8' },
-  ...services.map((s) => ({ path: `service/${s}`, changefreq: 'monthly', priority: '0.8' })),
+  ...services.map((s) => ({ path: `service/${serviceSlug(s, locale)}`, changefreq: 'monthly', priority: '0.8' })),
   ...casesFor(locale).map((c) => ({ path: `case/${c}`, changefreq: 'yearly', priority: '0.7' })),
   ...postsFor(locale).map((p) => ({ path: `blog/${p}`, changefreq: 'monthly', priority: '0.7' }))
 ];
@@ -78,13 +86,15 @@ const STATIC_LASTMOD = {
   'seo-audit': '2026-09-13',
   'service/webdev': '2026-10-04',
   'service/bugfix': '2026-09-13',
-  'service/ads': '2026-10-04',
+  'service/ads': '2026-10-05',
   'service/analytics': '2026-09-13',
   'service/cookies': '2026-09-13',
   'service/telegram': '2026-09-13',
 };
 
 const lastmodFor = (locale, p) => {
+  // Service dates are kept per service id, whatever the slug in this language.
+  if (p.startsWith('service/')) return STATIC_LASTMOD[`service/${serviceIdOf(p.slice(8))}`] || null;
   if (STATIC_LASTMOD[p]) return STATIC_LASTMOD[p];
   const kind = p.startsWith('blog/') ? contentDir : p.startsWith('case/') ? casesDir : null;
   if (!kind) return null;
@@ -119,6 +129,7 @@ const existsIn = (locale, p) => {
 // Rule 11 in AGENTS.md: each language writes its URL in its own language, and
 // versions are paired by the `key` in front matter rather than by file name.
 const altPath = (locale, p) => {
+  if (p.startsWith('service/')) return `service/${serviceSlug(serviceIdOf(p.slice(8)), locale)}`;
   const kind = p.startsWith('blog/') ? 'blog' : p.startsWith('case/') ? 'case' : null;
   if (!kind) return p;
   const dir = kind === 'blog' ? contentDir : casesDir;
@@ -169,7 +180,7 @@ console.log(`Generated sitemap.xml with ${count} URLs (English blog and cases ex
 // target address from the current path - it would land on a slug that only
 // exists in the language you are leaving. This map pairs the versions by their
 // `key` and is read by the switcher in the header.
-const slugMap = { blog: {}, case: {} };
+const slugMap = { blog: {}, case: {}, service: {} };
 [
   ['blog', contentDir],
   ['case', casesDir],
@@ -188,8 +199,18 @@ const slugMap = { blog: {}, case: {} };
   });
 });
 
+// Services: one entry per slug, so the switcher can translate a service URL
+// the same way as an article, e.g. /ru/service/reklama-google-ads/ to
+// /sk/service/ads/.
+services.forEach((id) => {
+  const versions = Object.fromEntries(locales.map((l) => [l, serviceSlug(id, l)]));
+  Object.values(versions).forEach((slug) => {
+    slugMap.service[slug] = versions;
+  });
+});
+
 const slugMapFile = path.join(__dirname, 'src', 'data', 'slug-map.json');
 fs.writeFileSync(slugMapFile, `${JSON.stringify(slugMap, null, 2)}\n`);
 console.log(
-  `Generated slug-map.json: ${Object.keys(slugMap.blog).length} article slugs, ${Object.keys(slugMap.case).length} case slugs.`,
+  `Generated slug-map.json: ${Object.keys(slugMap.blog).length} article slugs, ${Object.keys(slugMap.case).length} case slugs, ${Object.keys(slugMap.service).length} service slugs.`,
 );

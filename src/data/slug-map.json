@@ -517,5 +517,42 @@
       "en": "top-sklad",
       "ru": "top-sklad"
     }
+  },
+  "service": {
+    "webdev": {
+      "sk": "webdev",
+      "en": "webdev",
+      "ru": "webdev"
+    },
+    "bugfix": {
+      "sk": "bugfix",
+      "en": "bugfix",
+      "ru": "bugfix"
+    },
+    "ads": {
+      "sk": "ads",
+      "en": "ads",
+      "ru": "reklama-google-ads"
+    },
+    "reklama-google-ads": {
+      "sk": "ads",
+      "en": "ads",
+      "ru": "reklama-google-ads"
+    },
+    "analytics": {
+      "sk": "analytics",
+      "en": "analytics",
+      "ru": "analytics"
+    },
+    "cookies": {
+      "sk": "cookies",
+      "en": "cookies",
+      "ru": "cookies"
+    },
+    "telegram": {
+      "sk": "telegram",
+      "en": "telegram",
+      "ru": "telegram"
+    }
   }
 }

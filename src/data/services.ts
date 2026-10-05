@@ -1,3 +1,5 @@
+import serviceSlugs from './service-slugs.json';
+
 export interface Service {
   id: string;
   titleKey: string;
@@ -118,3 +120,24 @@ export const services: Service[] = [
     seoKeywordsKey: 'services.telegram.seo_keywords'
   }
 ];
+
+/**
+ * The URL segment of a service in one language. Most services use their id in
+ * every language; `service-slugs.json` lists the exceptions. It is a JSON file
+ * because generate_sitemap.js, which is plain Node, reads the same list.
+ *
+ * The Russian advertising page moved from /ru/service/ads/ to
+ * /ru/service/reklama-google-ads/ on 5 Oct 2026: in seven weeks Googlebot never
+ * fetched the old address on its own (only the inspection tool did), so it was
+ * given a new one that Google treats as new. nginx answers the old address with
+ * a 301 to the new one.
+ */
+export const serviceSlug = (service: Service | string, locale: string): string => {
+  const id = typeof service === 'string' ? service : service.id;
+  const slugs = (serviceSlugs as Record<string, Partial<Record<string, string>>>)[id];
+  return slugs?.[locale] ?? id;
+};
+
+/** The service a URL segment stands for in a given language. */
+export const serviceBySlug = (slug: string, locale: string): Service | undefined =>
+  services.find((s) => serviceSlug(s, locale) === slug);

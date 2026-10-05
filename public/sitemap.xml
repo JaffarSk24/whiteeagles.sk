@@ -62,9 +62,9 @@
     <loc>https://whiteeagles.sk/sk/service/ads/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/ads/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/ads/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/reklama-google-ads/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/ads/"/>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -547,9 +547,9 @@
     <loc>https://whiteeagles.sk/en/service/ads/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/ads/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/ads/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/reklama-google-ads/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/ads/"/>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -641,12 +641,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://whiteeagles.sk/ru/service/ads/</loc>
+    <loc>https://whiteeagles.sk/ru/service/reklama-google-ads/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/service/ads/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://whiteeagles.sk/en/service/ads/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/ads/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/service/reklama-google-ads/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/service/ads/"/>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

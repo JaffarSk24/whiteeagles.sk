@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { services } from "../../data/services";
+import { services, serviceSlug } from "../../data/services";
 import {
   FileText,
   Users,
@@ -26,6 +26,7 @@ import "./HeroAndExtras.css";
 
 export default function HomeClient() {
   const t = useTranslations();
+  const locale = useLocale();
   const tSteps = useTranslations("steps");
   const tServicesNS = useTranslations("services");
   const tPortfolio = useTranslations("portfolio");
@@ -106,7 +107,7 @@ export default function HomeClient() {
                         pages had no incoming link anywhere on the site and Google
                         never indexed them. */}
                     <Link
-                      href={`/service/${service.id}/` as any}
+                      href={`/service/${serviceSlug(service, locale)}/` as any}
                       className="btn btn-secondary"
                     >
                       {tServicesNS("more_info")}

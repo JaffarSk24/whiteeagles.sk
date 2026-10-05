@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import { getPostBySlug, getAllPosts, getSlugForLocale, shortDescription } from '@/utils/blog';
+import { serviceSlug } from '@/data/services';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 // Without this, GitHub-flavoured markdown - tables above all - renders as raw
@@ -133,7 +134,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
   const tAuthor = await getTranslations({ locale, namespace: 'author' });
   const tServices = await getTranslations({ locale, namespace: 'services' });
   const authorServices = ['webdev', 'bugfix', 'ads', 'analytics'].map((id) => ({
-    href: `/${locale}/service/${id}/`,
+    href: `/${locale}/service/${serviceSlug(id, locale)}/`,
     label: tServices(`${id}.title`),
   }));
   let ctaIndex = 0;

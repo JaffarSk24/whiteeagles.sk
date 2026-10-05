@@ -30,18 +30,20 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Articles and cases carry a different slug in every language, so the path
-  // has to be translated rather than reused. Falls back to the section index
-  // when a version is missing, which beats sending the visitor to a 404.
+  // Articles, cases and some services carry a different slug in every
+  // language, so the path has to be translated rather than reused. Falls back
+  // to the section index when a version is missing, which beats sending the
+  // visitor to a 404.
   const translatePath = (target: "sk" | "en" | "ru") => {
-    const match = pathname.match(/^\/(blog|case)\/([^/]+)\/?$/);
+    const match = pathname.match(/^\/(blog|case|service)\/([^/]+)\/?$/);
     if (!match) return pathname;
 
     const [, kind, slug] = match;
     const section: Record<string, Partial<Record<string, string>>> =
-      slugMap[kind as "blog" | "case"];
+      slugMap[kind as "blog" | "case" | "service"];
     const translated = section[slug]?.[target];
     if (translated) return `/${kind}/${translated}`;
+    if (kind === "service") return "/";
     return kind === "blog" ? "/blog" : "/portfolio";
   };
 

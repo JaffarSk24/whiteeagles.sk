@@ -2,7 +2,7 @@ import React from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ArrowLeft, ShieldCheck, FileText, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from "lucide-react";
-import { services } from "../../../../data/services";
+import { services, serviceSlug, serviceBySlug } from "../../../../data/services";
 import { getSlugForLocale } from "../../../../utils/blog";
 import { getCaseSlugForLocale } from "../../../../utils/cases";
 
@@ -14,17 +14,18 @@ import { RepairQuickForm } from "../../../../components/RepairQuickForm";
 import { WebCalculator, type CalculatorTexts } from "../../../../components/WebCalculator";
 import "./ServiceDetail.css";
 
-// Generate static params for static export
-export function generateStaticParams() {
+// Generate static params for static export. Runs once per locale from the
+// layout above, so each language gets its own URL segment for a service.
+export function generateStaticParams({ params }: { params: { locale: string } }) {
   return services.map((service) => ({
-    id: service.id,
+    id: serviceSlug(service, params.locale),
   }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }) {
   const { locale, id } = await params;
   setRequestLocale(locale);
-  const service = services.find((s) => s.id === id);
+  const service = serviceBySlug(id, locale);
 
   if (!service) {
     return {
@@ -44,10 +45,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     alternates: {
       canonical: pageUrl,
       languages: {
-        sk: `https://whiteeagles.sk/sk/service/${id}/`,
-        en: `https://whiteeagles.sk/en/service/${id}/`,
-        ru: `https://whiteeagles.sk/ru/service/${id}/`,
-        "x-default": `https://whiteeagles.sk/sk/service/${id}/`,
+        sk: `https://whiteeagles.sk/sk/service/${serviceSlug(service, "sk")}/`,
+        en: `https://whiteeagles.sk/en/service/${serviceSlug(service, "en")}/`,
+        ru: `https://whiteeagles.sk/ru/service/${serviceSlug(service, "ru")}/`,
+        "x-default": `https://whiteeagles.sk/sk/service/${serviceSlug(service, "sk")}/`,
       },
     },
     openGraph: {
@@ -62,7 +63,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function ServiceDetailPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
   const { locale, id } = await params;
   setRequestLocale(locale);
-  const service = services.find((s) => s.id === id);
+  const service = serviceBySlug(id, locale);
 
   if (!service) {
     return (
@@ -87,8 +88,9 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
   // Only some services carry extended content. `t.has` avoids next-intl
   // logging a MISSING_MESSAGE error for every service that does not.
-  const page = t.has(`services.${id}.page` as any)
-    ? (t.raw(`services.${id}.page` as any) as {
+  // Keyed by the service id: `id` is the URL segment, which differs by language.
+  const page = t.has(`services.${service.id}.page` as any)
+    ? (t.raw(`services.${service.id}.page` as any) as {
         lead?: string;
         facts?: { value: string; label: string }[];
         process_title?: string;
@@ -436,7 +438,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   if (!rel) return null;
                   return (
                     <li key={rid}>
-                      <Link href={`/service/${rid}/` as any}>
+                      <Link href={`/service/${serviceSlug(rel, locale)}/` as any}>
                         <strong>{t(rel.titleKey as any)}</strong>
                         <span>{t(rel.descKey as any)}</span>
                       </Link>

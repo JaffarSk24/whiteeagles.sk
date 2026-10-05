@@ -136,6 +136,6 @@ faq:
 
 Живу в Словакии больше десяти лет, работаю как словацкое s.r.o., выставляю фактуру с IČO, которую вы проведёте в расходы. Общаемся по-русски или по-словацки.
 
-Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/ads/). По теме: [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [реклама идёт, а заявок нет](/ru/blog/reklama-idet-zayavok-net/).
+Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/reklama-google-ads/). По теме: [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [реклама идёт, а заявок нет](/ru/blog/reklama-idet-zayavok-net/).
 
 [CTA_FORM:audit]
