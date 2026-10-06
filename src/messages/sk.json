@@ -839,9 +839,10 @@
     "payment_invoice": "Na faktúru",
     "payment_card": "Kreditnou kartou",
     "payment_usdt": "V USDT",
-    "payment_bitcoin": "V Bitcoin",
+    "payment_bitcoin": "V bitcoinoch",
     "payment_rub": "V rubľoch",
-    "payment_uah": "V hrivnách"
+    "payment_uah": "V hrivnách",
+    "payment_note": "Platby týmito spôsobmi prijímajú naši partneri. V takom prípade uzatvárate zmluvu s partnerom a platíte priamo jemu."
   },
   "clients": {
     "title": "Pracoval som so značkami"

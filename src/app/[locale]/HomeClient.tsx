@@ -134,15 +134,15 @@ export default function HomeClient() {
                 </div>
                 <div className="payment-item">
                   <CircleDollarSign size={24} />
-                  <span>{tAbout("payment_usdt")}</span>
+                  <span>{tAbout("payment_usdt")}*</span>
                 </div>
                 <div className="payment-item">
                   <Bitcoin size={24} />
-                  <span>{tAbout("payment_bitcoin")}</span>
+                  <span>{tAbout("payment_bitcoin")}*</span>
                 </div>
                 <div className="payment-item">
                   <RussianRuble size={24} />
-                  <span>{tAbout("payment_rub")}</span>
+                  <span>{tAbout("payment_rub")}*</span>
                 </div>
                 <div className="payment-item">
                   <span
@@ -162,9 +162,13 @@ export default function HomeClient() {
                   >
                     ₴
                   </span>
-                  <span>{tAbout("payment_uah")}</span>
+                  <span>{tAbout("payment_uah")}*</span>
                 </div>
               </div>
+              {/* The company itself takes only the invoice and card payments.
+                  Without this note the list reads as the s.r.o. accepting
+                  crypto, rubles and hryvnias, which it does not. */}
+              <p className="payment-note">* {tAbout("payment_note")}</p>
             </div>
           </FadeInSection>
         </div>

@@ -281,10 +281,13 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               <div className="service-payment-icons">
                 <div className="spi-item"><FileText size={18} /><span>{tAbout("payment_invoice")}</span></div>
                 <div className="spi-item"><CreditCard size={18} /><span>{tAbout("payment_card")}</span></div>
-                <div className="spi-item"><CircleDollarSign size={18} /><span>{tAbout("payment_usdt")}</span></div>
-                <div className="spi-item"><Bitcoin size={18} /><span>{tAbout("payment_bitcoin")}</span></div>
-                <div className="spi-item"><RussianRuble size={18} /><span>{tAbout("payment_rub")}</span></div>
-                <div className="spi-item"><span className="payment-uah-icon">&#8372;</span><span>{tAbout("payment_uah")}</span></div>
+                <div className="spi-item"><CircleDollarSign size={18} /><span>{tAbout("payment_usdt")}*</span></div>
+                <div className="spi-item"><Bitcoin size={18} /><span>{tAbout("payment_bitcoin")}*</span></div>
+                <div className="spi-item"><RussianRuble size={18} /><span>{tAbout("payment_rub")}*</span></div>
+                <div className="spi-item"><span className="payment-uah-icon">&#8372;</span><span>{tAbout("payment_uah")}*</span></div>
+                {/* Same footnote as on the home page: starred methods go
+                    through partners, not through the company. */}
+                <p className="spi-note">* {tAbout("payment_note")}</p>
               </div>
             </div>
 

@@ -841,7 +841,8 @@
     "payment_usdt": "USDT",
     "payment_bitcoin": "Bitcoin",
     "payment_rub": "Rubles",
-    "payment_uah": "Hryvnias"
+    "payment_uah": "Hryvnias",
+    "payment_note": "Payments by these methods are accepted by our partners. In that case your contract is with the partner and you pay them directly."
   },
   "testimonials": {
     "title": "What My Clients Say",
@@ -1186,7 +1187,7 @@
       },
       {
         "q": "What languages do you work in and how do I pay?",
-        "a": "The team works in Slovak, English and Russian. Payment is by Slovak invoice (faktúra) with IČO and DIČ - deductible as a business expense - by bank transfer, card or cryptocurrency (USDT, Bitcoin). The price is agreed before work starts."
+        "a": "The team works in Slovak, English and Russian. Payment is by bank transfer or card against a Slovak invoice (faktúra) with IČO and DIČ, which you can deduct as a business expense. Payments in USDT, Bitcoin, rubles or hryvnias are accepted by our partners: in that case your contract is with the partner and you pay them directly. The price is agreed before work starts."
       },
       {
         "q": "Do you set up Google Ads for businesses in Slovakia?",
