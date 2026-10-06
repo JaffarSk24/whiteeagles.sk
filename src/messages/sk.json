@@ -842,7 +842,7 @@
     "payment_bitcoin": "V bitcoinoch",
     "payment_rub": "V rubľoch",
     "payment_uah": "V hrivnách",
-    "payment_note": "Platby týmito spôsobmi prijímajú naši partneri. V takom prípade uzatvárate zmluvu s partnerom a platíte priamo jemu."
+    "payment_note": "Pri výbere týchto spôsobov platby práce vykonávajú overení partneri, ktorým objednávateľ platí priamo. Kvalitu prác pri objednávkach zadaných cez web whiteeagles.sk kontroluje a garantuje spoločnosť <company>White Eagles & Co. s. r. o.</company>"
   },
   "clients": {
     "title": "Pracoval som so značkami"

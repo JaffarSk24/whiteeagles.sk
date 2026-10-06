@@ -287,7 +287,12 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                 <div className="spi-item"><span className="payment-uah-icon">&#8372;</span><span>{tAbout("payment_uah")}*</span></div>
                 {/* Same footnote as on the home page: starred methods go
                     through partners, not through the company. */}
-                <p className="spi-note">* {tAbout("payment_note")}</p>
+                <p className="spi-note">
+                  *{" "}
+                  {tAbout.rich("payment_note", {
+                    company: (chunks) => <span className="payment-company">{chunks}</span>,
+                  })}
+                </p>
               </div>
             </div>
 

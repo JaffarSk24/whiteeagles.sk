@@ -168,7 +168,12 @@ export default function HomeClient() {
               {/* The company itself takes only the invoice and card payments.
                   Without this note the list reads as the s.r.o. accepting
                   crypto, rubles and hryvnias, which it does not. */}
-              <p className="payment-note">* {tAbout("payment_note")}</p>
+              <p className="payment-note">
+                *{" "}
+                {tAbout.rich("payment_note", {
+                  company: (chunks) => <span className="payment-company">{chunks}</span>,
+                })}
+              </p>
             </div>
           </FadeInSection>
         </div>

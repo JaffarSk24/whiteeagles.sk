@@ -429,6 +429,11 @@
   color: var(--text-secondary);
 }
 
+/* The company name breaks between "Co." and "s. r. o." otherwise. */
+.payment-note .payment-company {
+  white-space: nowrap;
+}
+
 /* Steps */
 .steps-grid {
   display: grid;

@@ -263,7 +263,7 @@ export async function JsonLd({ locale }: { locale: string }) {
         "priceRange": "€€",
         "currenciesAccepted": "EUR",
         // Only what the company itself takes. Crypto, rubles and hryvnias are
-        // paid to partners under their own contract (about.payment_note).
+        // paid directly to partners (about.payment_note).
         "paymentAccepted": "Bank Transfer, Credit Card",
         "description": tHomeSeo("description"),
         "parentOrganization": { "@id": `${siteUrl}/#organization` },

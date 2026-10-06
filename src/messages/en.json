@@ -842,7 +842,7 @@
     "payment_bitcoin": "Bitcoin",
     "payment_rub": "Rubles",
     "payment_uah": "Hryvnias",
-    "payment_note": "Payments by these methods are accepted by our partners. In that case your contract is with the partner and you pay them directly."
+    "payment_note": "With these payment methods, the work is carried out by vetted partners, and the client pays them directly. For orders placed through whiteeagles.sk, <company>White Eagles & Co. s. r. o.</company> oversees and guarantees the quality of the work."
   },
   "testimonials": {
     "title": "What My Clients Say",
@@ -1187,7 +1187,7 @@
       },
       {
         "q": "What languages do you work in and how do I pay?",
-        "a": "The team works in Slovak, English and Russian. Payment is by bank transfer or card against a Slovak invoice (faktúra) with IČO and DIČ, which you can deduct as a business expense. Payments in USDT, Bitcoin, rubles or hryvnias are accepted by our partners: in that case your contract is with the partner and you pay them directly. The price is agreed before work starts."
+        "a": "The team works in Slovak, English and Russian. Payment is by bank transfer or card against a Slovak invoice (faktúra) with IČO and DIČ, which you can deduct as a business expense. If you pay in USDT, Bitcoin, rubles or hryvnias, the work is carried out by vetted partners whom you pay directly; for orders placed through our website, White Eagles & Co. s. r. o. still oversees and guarantees the quality. The price is agreed before work starts."
       },
       {
         "q": "Do you set up Google Ads for businesses in Slovakia?",
