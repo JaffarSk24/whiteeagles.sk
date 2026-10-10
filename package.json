@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start --port 3010",
     "lint": "eslint",
-    "prebuild": "node generate_sitemap.js"
+    "prebuild": "node generate_sitemap.js && node fetch_app_releases.js"
   },
   "dependencies": {
     "@types/nodemailer": "^8.0.0",

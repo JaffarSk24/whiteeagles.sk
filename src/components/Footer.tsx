@@ -95,6 +95,9 @@ const FooterNav = () => {
           <li>
             <Link href="/blog/" className="footer-link-small">{t("header.blog")}</Link>
           </li>
+          <li>
+            <Link href="/apps/" className="footer-link-small">{t("footer.nav_apps")}</Link>
+          </li>
         </ul>
       </div>
     </nav>

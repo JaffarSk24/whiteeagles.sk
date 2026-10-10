@@ -339,6 +339,12 @@ export async function JsonLd({ locale }: { locale: string }) {
             "position": 6,
             "name": locale === "sk" ? "Blog" : locale === "ru" ? "Блог" : "Blog",
             "url": `${siteUrl}/${locale}/blog/`
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 7,
+            "name": locale === "sk" ? "Aplikácie" : locale === "ru" ? "Приложения" : "Apps",
+            "url": `${siteUrl}/${locale}/apps/`
           }
         ]
       },

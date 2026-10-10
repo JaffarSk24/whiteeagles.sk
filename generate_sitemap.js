@@ -63,6 +63,7 @@ const pathsFor = (locale) => [
   { path: 'seo-audit', changefreq: 'monthly', priority: '0.9' },
   { path: 'blog', changefreq: 'weekly', priority: '0.8' },
   { path: 'portfolio', changefreq: 'monthly', priority: '0.8' },
+  { path: 'apps', changefreq: 'monthly', priority: '0.8' },
   ...services.map((s) => ({ path: `service/${serviceSlug(s, locale)}`, changefreq: 'monthly', priority: '0.8' })),
   ...casesFor(locale).map((c) => ({ path: `case/${c}`, changefreq: 'yearly', priority: '0.7' })),
   ...postsFor(locale).map((p) => ({ path: `blog/${p}`, changefreq: 'monthly', priority: '0.7' }))
@@ -84,6 +85,7 @@ const STATIC_LASTMOD = {
   '': '2026-10-06',
   'blog': '2026-09-13',
   'seo-audit': '2026-09-13',
+  'apps': '2026-10-10',
   'service/webdev': '2026-10-04',
   'service/bugfix': '2026-09-13',
   'service/ads': '2026-10-05',

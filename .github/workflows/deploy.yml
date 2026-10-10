@@ -34,7 +34,11 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm ci --legacy-peer-deps
 
+      # The token lifts the GitHub API rate limit for fetch_app_releases.js,
+      # which reads the latest release of each free app during prebuild.
       - name: 🛠 Build Project
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: npm run build
 
       # SCP only ever copies. Anything deleted from the build stayed on the

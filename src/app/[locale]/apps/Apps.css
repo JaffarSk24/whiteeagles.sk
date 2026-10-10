@@ -1,0 +1,273 @@
+.apps-page {
+  padding: 120px 0 80px;
+}
+
+.apps-page .container {
+  max-width: 1000px;
+}
+
+.apps-page .back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-bottom: 32px;
+}
+
+.apps-page .back-btn:hover {
+  color: var(--text-color);
+}
+
+.apps-header h1 {
+  margin: 0 0 16px;
+  font-size: clamp(1.9rem, 5vw, 2.8rem);
+  line-height: 1.15;
+}
+
+.apps-lead {
+  margin: 0;
+  max-width: 760px;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* These are <section> elements; the global `section { padding: 80px 0 }`
+   would add dead space between every block. */
+.apps-section {
+  padding: 0;
+  margin: 48px 0;
+}
+
+.apps-section h2 {
+  margin: 0 0 18px;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.apps-section > p {
+  margin: 0;
+  max-width: 760px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.apps-principles {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px 28px;
+}
+
+.apps-principles li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.apps-principles svg {
+  flex-shrink: 0;
+  margin-top: 4px;
+  color: var(--accent-color);
+}
+
+/* One card per app */
+.app-card {
+  margin: 48px 0;
+  padding: 32px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+}
+
+.app-card-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.app-card-head img {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  flex-shrink: 0;
+}
+
+.app-card-head h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.app-tagline {
+  margin: 4px 0 0;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.app-card-desc {
+  margin: 16px 0 0;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.app-shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 24px 0;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.app-features {
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.app-features li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.app-features svg {
+  flex-shrink: 0;
+  margin-top: 4px;
+  color: var(--accent-color);
+}
+
+.app-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn.app-dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  /* .btn-activate is styled for the one-word order button; file names and
+     platform names read better in normal case. */
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.app-version {
+  margin: 14px 0 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.app-version a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+
+.app-version a:hover {
+  color: var(--accent-color);
+}
+
+.app-links {
+  margin: 10px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-size: 0.9rem;
+}
+
+.app-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+}
+
+.app-links a:hover {
+  color: var(--accent-color);
+}
+
+/* The one-time macOS command and the Windows note, folded under the buttons */
+.app-notes {
+  margin-top: 22px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 18px;
+}
+
+.app-notes details + details {
+  margin-top: 10px;
+}
+
+.app-notes summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.app-notes p {
+  margin: 10px 0 0;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.app-notes pre {
+  margin: 10px 0 0;
+  padding: 12px 14px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  color: var(--text-primary);
+}
+
+.apps-faq {
+  display: grid;
+  gap: 10px;
+}
+
+.apps-faq details {
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+.apps-faq summary {
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.apps-faq p {
+  margin: 12px 0 0;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 600px) {
+  .app-card {
+    padding: 20px 16px;
+  }
+
+  .app-card-head h2 {
+    font-size: 1.3rem;
+  }
+
+  .app-downloads .btn.app-dl {
+    width: 100%;
+    justify-content: center;
+  }
+}

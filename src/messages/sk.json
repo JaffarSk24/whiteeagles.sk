@@ -6,6 +6,7 @@
     "process": "Proces",
     "contacts": "Kontakty",
     "blog": "Blog",
+    "apps": "Aplikácie",
     "order": "Chcem cenovú ponuku"
   },
   "hero": {
@@ -994,7 +995,8 @@
     "privacy": "Ochrana osobných údajov",
     "cookies": "Cookies",
     "nav_pages": "Stránky",
-    "nav_audit": "SEO audit zdarma"
+    "nav_audit": "SEO audit zdarma",
+    "nav_apps": "Bezplatné aplikácie"
   },
   "popup": {
     "title": "Neodchádzajte tak skoro!",
@@ -1033,6 +1035,81 @@
     "bubble_text": "Pomôžem vybrať službu za 1 minútu!",
     "bot_title": "Kirill Mosin",
     "error_required": "Toto pole je povinné."
+  },
+  "apps": {
+    "seo_title": "Bezplatné aplikácie pre freelancerov: sledovanie času a rozpočet",
+    "seo_desc": "Dve bezplatné aplikácie s otvoreným kódom pre macOS a Windows: WE Time Tracker na evidenciu odpracovaného času a platieb od klientov a WE Budget, kalendár platieb s obálkami. Dáta zostávajú vo vašom počítači.",
+    "h1": "Bezplatné aplikácie pre freelancerov a malé firmy",
+    "lead": "Dve aplikácie, ktoré som si urobil pre vlastnú prácu a dal som ich voľne k dispozícii: evidencia odpracovaného času s platbami od klientov a rozpočet postavený na kalendári platieb. Zadarmo, bez registrácie a bez našich serverov: dáta sú vo vašom počítači.",
+    "who_title": "Pre koho",
+    "who_text": "Pre freelancera, ktorý pracuje na hodiny pre viacerých klientov a chce vidieť, kto koľko dlhuje. A pre každého, kto vedie rodinný alebo firemný rozpočet podľa platieb (nájom, poistky, predplatné, dane) a chce vopred vedieť, na ktorú platbu nebudú peniaze.",
+    "principles_title": "Čo majú obe aplikácie spoločné",
+    "principles": [
+      "Bežia na macOS (Intel aj Apple Silicon) a Windows 10 alebo novšom, úplne offline.",
+      "Dáta v jednom súbore vo vašom počítači, s dennými kópiami. Synchronizácia medzi počítačmi je voliteľná, cez skrytý priečinok vášho Google Drive. Naše servery neexistujú.",
+      "Otvorený kód na GitHube pod licenciou MIT: môžete si overiť, čo je vnútri, a upraviť si ju.",
+      "Rozhranie v angličtine a ruštine, tmavá a svetlá téma. Aktualizácie si aplikácia inštaluje sama."
+    ],
+    "items": {
+      "time-tracker": {
+        "tagline": "Evidencia odpracovaného času a platieb od klientov",
+        "description": "Časovač s popisom úlohy, klientom a projektom, hodinová sadzba na klienta alebo projekt, denník platieb a zostatok: kto vám dlhuje a kto zaplatil vopred. Výkazy za obdobie s exportom do CSV pre Excel alebo Numbers. Bežiaci čas vidno v lište menu na Macu a v tray ikone vo Windows.",
+        "features": [
+          "Pauza a pokračovanie bez straty času, záznamy spätne",
+          "Každý záznam si drží sadzbu, s ktorou vznikol: zmena sadzby neprepíše minulé sumy",
+          "Platby, dlhy a zálohy za každého klienta",
+          "Export do CSV a JSON, filtre podľa klienta, projektu, stavu platby a obdobia"
+        ]
+      },
+      "budget": {
+        "tagline": "Kalendár platieb s obálkami",
+        "description": "Každý mesiac je zoznam platieb a príjmov so stavom: naplánované, odložené, zaplatené. Peniaze na budúce platby sa odkladajú do obálok na účtoch a aplikácia kedykoľvek ukáže, koľko je naozaj voľných a na ktorú platbu nebude stačiť. Pravidelné platby vypĺňajú budúce mesiace samy a kontrola podľa banky premení rozdiel na viditeľnú úpravu.",
+        "features": [
+          "Rozdelenie príjmu do obálok jedným potvrdením",
+          "Analytika: príjmy a výdavky po mesiacoch, výdavky podľa kategórií, plán oproti skutočnosti",
+          "Ciele s termínom a mesačným vkladom",
+          "Pripomienky platieb cez Google Kalendár, aby prišli na telefón",
+          "Mobilná verzia pre iPhone a Android: dnešné platby, rýchle výdavky, voľné peniaze"
+        ]
+      }
+    },
+    "download_mac_arm": "Stiahnuť pre Mac (Apple Silicon)",
+    "download_mac_intel": "Stiahnuť pre Mac (Intel)",
+    "download_mac": "Stiahnuť pre Mac",
+    "download_windows": "Stiahnuť pre Windows",
+    "download_phone": "Otvoriť verziu pre telefón",
+    "version": "Verzia {version} z {date}",
+    "all_releases": "všetky verzie a zoznam zmien",
+    "source": "Zdrojový kód na GitHube",
+    "privacy": "Ochrana osobných údajov",
+    "phone_title": "Ako nainštalovať verziu pre telefón",
+    "phone_text": "Otvorte mobilnú verziu v Safari na iPhone alebo v Chrome na Androide, ťuknite na Zdieľať a potom na Pridať na plochu. Prihláste sa tým istým účtom Google ako na počítači a rozpočet sa stiahne z vášho Google Drive. Plán, pravidelné platby a účty sa upravujú na počítači.",
+    "mac_note_title": "Pri prvom spustení na Macu",
+    "mac_note": "Aplikácie sú podpísané, ale nie notarizované Apple (na to treba platený vývojársky účet), preto macOS pri prvom otvorení povie, že súbor je poškodený. Súbor je v poriadku: príkaz nižšie iba odstráni značku, ktorú prehliadač pridá pri sťahovaní. Spustite ho raz v Termináli po tom, čo aplikáciu presuniete do Aplikácií. Ďalšie aktualizácie si aplikácia inštaluje sama, bez tohto kroku.",
+    "win_note_title": "Pri prvej inštalácii na Windows",
+    "win_note": "Inštalátor nie je podpísaný plateným certifikátom, preto SmartScreen upozorní na neznámeho vydavateľa: kliknite na Ďalšie informácie a potom na Spustiť aj tak. Inštaluje sa do vášho konta bez práv správcu a aktualizácie si aplikácia inštaluje sama, bez tohto okna.",
+    "cta_title": "Potrebujete podobnú aplikáciu pre svoju firmu?",
+    "cta_text": "Obe aplikácie robil ten istý človek rovnakým spôsobom ako weby a rezervačné systémy pre klientov: rýchlo, bez technického zadania a s dátami, ktoré patria vám. Napíšte, čo má vaša aplikácia robiť, a poviem, koľko to stojí.",
+    "cta_button": "Prebrať zadanie",
+    "faq_title": "Časté otázky",
+    "faq": [
+      {
+        "q": "Je to naozaj zadarmo?",
+        "a": "Áno. Aplikácie sú zverejnené pod licenciou MIT: používať, kopírovať a upravovať ich môžete bez obmedzení. Žiadne predplatné ani platené funkcie."
+      },
+      {
+        "q": "Kde sú moje dáta?",
+        "a": "V jednom súbore vo vašom počítači, v priečinku aplikácie. Ak zapnete synchronizáciu, kópia je v skrytom priečinku aplikácie na vašom Google Drive, ktorý vidí iba táto aplikácia. Na naše servery sa nič neposiela, jednoducho neexistujú."
+      },
+      {
+        "q": "Prečo macOS píše, že aplikácia je poškodená?",
+        "a": "Lebo nie je notarizovaná Apple. Súbor je v poriadku: takto macOS hlási každú nenotarizovanú aplikáciu stiahnutú prehliadačom. Jeden príkaz v Termináli, uvedený pod tlačidlami na stiahnutie, značku odstráni a aplikácia sa ďalej otvára ako každá iná."
+      },
+      {
+        "q": "Čo robiť, keď niečo nefunguje?",
+        "a": "Napíšte do Issues na GitHube alebo na welcome@whiteeagles.sk. Export všetkých dát je v nastaveniach oboch aplikácií, takže sa nič nestratí."
+      }
+    ]
   },
   "audit": {
     "seo_title": "SEO audit webstránky zdarma: ručná kontrola do 3 dní",

@@ -6,6 +6,7 @@
     "process": "Process",
     "contacts": "Contacts",
     "blog": "Blog & News",
+    "apps": "Apps",
     "order": "Get a quote"
   },
   "hero": {
@@ -1007,7 +1008,8 @@
     "privacy": "Privacy Policy",
     "cookies": "Cookies",
     "nav_pages": "Pages",
-    "nav_audit": "Free SEO audit"
+    "nav_audit": "Free SEO audit",
+    "nav_apps": "Free apps"
   },
   "chatbot": {
     "greeting_1": "Hello! My name is Kirill Mosin. I am the CEO of White Eagles & Co.",
@@ -1033,6 +1035,81 @@
     "bubble_text": "I will help you choose a service in 1 minute!",
     "bot_title": "Kirill Mosin (CEO)",
     "error_required": "This field is required."
+  },
+  "apps": {
+    "seo_title": "Free apps for freelancers: time tracking and budgeting",
+    "seo_desc": "Two free open-source apps for macOS and Windows: WE Time Tracker for work hours and client payments, and WE Budget, a payment calendar with envelopes. Your data stays on your own computer.",
+    "h1": "Free apps for freelancers and small businesses",
+    "lead": "Two apps I built for my own work and released for everyone: time tracking with payments per client, and a budget built around a payment calendar. Free, no sign-up and no servers of ours: the data lives on your computer.",
+    "who_title": "Who they are for",
+    "who_text": "For a freelancer who works by the hour for several clients and wants to see who owes what. And for anyone who runs a household or business budget by payments (rent, insurance, subscriptions, taxes) and wants to know in advance which payment the money will not stretch to.",
+    "principles_title": "What both apps have in common",
+    "principles": [
+      "Run on macOS (Intel and Apple Silicon) and Windows 10 or newer, fully offline.",
+      "Data in one file on your computer, with daily copies. Sync between computers is optional, through a hidden folder of your own Google Drive. There are no servers of ours.",
+      "Open source on GitHub under the MIT licence: check what is inside and adapt it.",
+      "Interface in English and Russian, dark and light theme. The app installs its own updates."
+    ],
+    "items": {
+      "time-tracker": {
+        "tagline": "Work hours and client payments",
+        "description": "A timer with a task description, client and project, an hourly rate per client or project, a payment ledger and a balance: who owes you and who has paid ahead. Reports for any period with CSV export for Excel or Numbers. The running timer shows in the Mac menu bar and the Windows tray.",
+        "features": [
+          "Pause and resume without losing time, entries added after the fact",
+          "Every entry keeps the rate it was made with: changing a rate never rewrites past earnings",
+          "Payments, debts and advances per client",
+          "CSV and JSON export, filters by client, project, payment status and period"
+        ]
+      },
+      "budget": {
+        "tagline": "A payment calendar with envelopes",
+        "description": "Each month is a list of payments and incomes with a status: planned, set aside, done. Money for upcoming payments is set aside in envelopes on your accounts, and the app shows at any moment how much is really free and which payment there will not be enough for. Recurring payments fill the months ahead by themselves, and checking against the bank turns any difference into a visible adjustment.",
+        "features": [
+          "Split an income across envelopes with one confirmation",
+          "Analytics: income and expenses by month, expenses by category, plan against fact",
+          "Goals with a date and a monthly contribution",
+          "Payment reminders through Google Calendar, so they reach your phone",
+          "A phone version for iPhone and Android: today's payments, quick expenses, free money"
+        ]
+      }
+    },
+    "download_mac_arm": "Download for Mac (Apple Silicon)",
+    "download_mac_intel": "Download for Mac (Intel)",
+    "download_mac": "Download for Mac",
+    "download_windows": "Download for Windows",
+    "download_phone": "Open the phone version",
+    "version": "Version {version}, {date}",
+    "all_releases": "all versions and release notes",
+    "source": "Source code on GitHub",
+    "privacy": "Privacy policy",
+    "phone_title": "Installing the phone version",
+    "phone_text": "Open the phone version in Safari on an iPhone or in Chrome on Android, tap Share, then Add to Home Screen. Sign in with the same Google account as on the computer and the budget comes down from your Google Drive. The plan, recurring payments and accounts are edited on the computer.",
+    "mac_note_title": "First launch on a Mac",
+    "mac_note": "The apps are signed but not notarised by Apple (that needs a paid developer account), so on the first open macOS says the file is damaged. It is not: the command below only removes the mark a browser puts on a download. Run it once in Terminal after dragging the app to Applications. Later updates are installed by the app itself, without this step.",
+    "win_note_title": "First install on Windows",
+    "win_note": "The installer is not signed with a paid certificate, so SmartScreen warns about an unknown publisher: choose More info, then Run anyway. It installs into your own account without administrator rights, and updates are installed by the app itself, without this window.",
+    "cta_title": "Need an app like this for your business?",
+    "cta_text": "Both apps were built by the same person, the same way as the websites and booking systems for clients: fast, without a formal specification, and with data that belongs to you. Tell me what your app should do and I will tell you what it costs.",
+    "cta_button": "Discuss the task",
+    "faq_title": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Is it really free?",
+        "a": "Yes. The apps are released under the MIT licence: use, copy and modify them without restriction. There are no subscriptions or paid features."
+      },
+      {
+        "q": "Where is my data?",
+        "a": "In one file on your computer, in the app's folder. If you turn on sync, a copy sits in the app's hidden folder on your own Google Drive, which only this app can see. Nothing is sent to our servers; there are none."
+      },
+      {
+        "q": "Why does macOS say the app is damaged?",
+        "a": "Because it is not notarised by Apple. The file is intact: this is how macOS reports any non-notarised app downloaded in a browser. The one Terminal command listed under the download buttons removes the mark, and from then on the app opens like any other."
+      },
+      {
+        "q": "What if something does not work?",
+        "a": "Open an issue on GitHub or write to welcome@whiteeagles.sk. Both apps export all data from Settings, so nothing gets lost."
+      }
+    ]
   },
   "audit": {
     "seo_title": "Free SEO audit: manual website check within 3 days",

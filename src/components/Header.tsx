@@ -139,6 +139,9 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
           <Link href="/blog/" onClick={() => setIsMobileMenuOpen(false)}>
             {t("blog")}
           </Link>
+          <Link href="/apps/" onClick={() => setIsMobileMenuOpen(false)}>
+            {t("apps")}
+          </Link>
           <a
             href="/#contacts"
             onClick={(e) => {
