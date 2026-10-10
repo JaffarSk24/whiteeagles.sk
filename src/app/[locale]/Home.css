@@ -72,6 +72,14 @@
   gap: 30px;
 }
 
+/* Six services: in the 1400px container auto-fit made four columns and left
+   two cards alone on the second row. Three columns keep two full rows. */
+@media (min-width: 1100px) {
+  .services-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 .service-card {
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-color);
@@ -703,7 +711,6 @@
 .home-faq-list {
   display: grid;
   gap: 12px;
-  max-width: 820px;
   margin: 0 auto;
 }
 

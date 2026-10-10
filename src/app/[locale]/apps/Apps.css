@@ -2,10 +2,6 @@
   padding: 120px 0 80px;
 }
 
-.apps-page .container {
-  max-width: 1000px;
-}
-
 .apps-page .back-btn {
   display: inline-flex;
   align-items: center;
@@ -28,7 +24,6 @@
 
 .apps-lead {
   margin: 0;
-  max-width: 760px;
   font-size: 1.15rem;
   line-height: 1.6;
   color: var(--text-secondary);
@@ -49,7 +44,6 @@
 
 .apps-section > p {
   margin: 0;
-  max-width: 760px;
   line-height: 1.7;
   color: var(--text-secondary);
 }
@@ -125,6 +119,48 @@
   margin: 24px 0;
   border-radius: 12px;
   border: 1px solid var(--border-color);
+}
+
+/* Text and buttons on the left, the screenshot on the right: in a full-width
+   card a screenshot under the text took a whole screen of height. */
+@media (min-width: 1000px) {
+  .app-card-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+
+  .app-card-body .app-shot {
+    margin: 16px 0 0;
+  }
+
+  .app-card-text .app-features {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 999px) {
+  /* On a phone the screenshot sits between the description and the list,
+     as before. */
+  .app-card-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-card-text .app-features {
+    margin-top: 18px;
+  }
+
+  .app-card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-card-body .app-shot {
+    order: -1;
+    margin: 20px 0 0;
+  }
 }
 
 .app-features {

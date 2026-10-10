@@ -154,10 +154,9 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
                   <p className="app-tagline">{t(`items.${app.id}.tagline`)}</p>
                 </div>
               </div>
+              <div className="app-card-body">
+              <div className="app-card-text">
               <p className="app-card-desc">{t(`items.${app.id}.description`)}</p>
-
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img className="app-shot" src={app.screenshot} alt={`${app.name}: ${t(`items.${app.id}.tagline`)}`} width={1200} height={750} loading="lazy" />
 
               <ul className="app-features">
                 {features.map((f, i) => (
@@ -179,6 +178,12 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
                 <a href={app.repoUrl} target="_blank" rel="noopener noreferrer"><Code2 size={16} /> {t("source")}</a>
                 <a href={app.privacyUrl} target="_blank" rel="noopener noreferrer">{t("privacy")}</a>
               </p>
+              </div>
+
+              {/* Beside the text on a wide screen, under the description on a phone. */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="app-shot" src={app.screenshot} alt={`${app.name}: ${t(`items.${app.id}.tagline`)}`} width={1200} height={750} loading="lazy" />
+              </div>
 
               <div className="app-notes">
                 {app.phoneUrl && (

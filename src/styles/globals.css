@@ -13,7 +13,11 @@
   
   --border-color: #556085;
   --font-main: 'Inter', sans-serif;
-  --container-width: min(1200px, 100% - 40px);
+  /* The same width as the header (Header.css, 1400px), so content lines up
+     with the logo and the order button instead of sitting inside them. Inner
+     pages no longer narrow it further: the owner wants less scrolling, not a
+     reading column in the middle of the screen (Oct 2026). */
+  --container-width: min(1400px, 100% - 40px);
   --header-height: 80px;
 }
 
