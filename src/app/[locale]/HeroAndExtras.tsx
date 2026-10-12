@@ -96,6 +96,10 @@ export function HeroSection() {
                 className="hero-portrait-img"
                 width={800}
                 height={1024}
+                // The portrait is the largest element of the first screen on
+                // every device: the browser should fetch it ahead of the
+                // scripts and the images further down.
+                fetchPriority="high"
               />
             </picture>
 

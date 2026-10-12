@@ -3,20 +3,15 @@ import { ogImageFor } from "@/utils/ogImage";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { Inter } from "next/font/google";
 import { AppShell } from "@/components/AppShell";
 import { JsonLd } from "@/components/JsonLd";
 import Script from "next/script";
 
 const noAnalytics = process.env.NEXT_PUBLIC_NO_ANALYTICS === "1";
 import "@/styles/globals.css";
+// Inter comes from fonts.css only. next/font loaded a second copy under its
+// own family name, which no style ever used, and preloaded three files of it.
 import "@/styles/fonts.css";
-
-const inter = Inter({
-  subsets: ["latin", "latin-ext", "cyrillic"],
-  display: "swap",
-  variable: "--font-inter",
-});
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -116,7 +111,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={inter.variable}>
+    <html lang={locale}>
       <head>
         <meta name="seznam-wmt" content="WfarbRzOeP8RMWhMM7ARXPpViep5Zg9p" />
         {/* The machine-readable summaries had no machine-readable pointer. The
@@ -164,9 +159,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KK389G5B');`,
           }}
         />
-        {/* Google tag (gtag.js) */}
+        {/* Google tag (gtag.js). The library loads after the page has
+            finished loading: it is 190 KB of script that otherwise competed
+            with the page's own on the first screen. The inline snippet below
+            still runs early, so gtag() exists from the start and everything
+            sent before the library arrives waits in dataLayer. */}
         <Script
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-31E4MKB8QX"
         />
         <Script
@@ -181,10 +180,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             `,
           }}
         />
-        {/* Microsoft Clarity */}
+        {/* Microsoft Clarity, after the page has loaded for the same reason.
+            Google Tag Manager stays afterInteractive: it carries the cookie
+            banner and the Consent Mode defaults, which must be in place before
+            any tag reads them. */}
         <Script
           id="clarity-script"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `(function(c,l,a,r,i,t,y){
 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
