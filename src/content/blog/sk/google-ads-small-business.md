@@ -124,7 +124,7 @@ Reklama pritom dáva to, čo SEO rýchlo nedá: **dáta o tom, ktoré dopyty nao
 
 ## Ak to má nastaviť niekto iný
 
-Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukážem, koľko dopyt reálne stojí. Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
+Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukážem, koľko dopyt reálne stojí. Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/).
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 

@@ -120,7 +120,7 @@ Pri štarte kampaní zakladám účet Google Ads a Meta na vašu firmu: účet a
 
 Registráciu na daňovom úrade, priznania ani účtovníctvo nerobím. To je práca účtovníka alebo daňového poradcu a ja nie som ani jedno.
 
-Kompletný štart kampaní stojí približne od 1 000€, správa 25€/hod, rozpočet na reklamu platíte priamo Googlu alebo Mete. Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
+Kompletný štart kampaní stojí približne od 1 000€, správa 25€/hod, rozpočet na reklamu platíte priamo Googlu alebo Mete. Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/).
 
 K téme: [koľko stojí reklama na Google](/sk/blog/kolko-stoji-reklama-na-slovensku/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [registrácia na DPH pri prekročení obratu](/sk/blog/dph-registraciya/) a [živnosť alebo s.r.o.](/sk/blog/zivnost-alebo-sro/).
 

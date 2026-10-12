@@ -5,7 +5,7 @@ description: >-
   klik podľa odvetvia, aký mesačný rozpočet treba na štart, čo stojí nastavenie
   a správa kampaní a ako zistiť, či sa platená reklama na Googli vracia.
 date: '2026-08-04'
-updated: '2026-10-05'
+updated: '2026-10-12'
 key: 'ads-pricing'
 faq:
   - q: 'Koľko stojí reklama na Google mesačne?'
@@ -27,7 +27,7 @@ faq:
 
 Na otázku „koľko stojí reklama" sa zvyčajne odpovie „závisí". Pravdivé a úplne neužitočné: z takej odpovede sa nedá naplánovať rozpočet ani zistiť, či nepreplácate.
 
-Nižšie je, z čoho sa cena reklamy na Google skladá, aké čísla sú na Slovensku normou, koľko stojí nastavenie a správa kampaní a ako si za jeden večer overiť, či sa to, čo už beží, vracia. Platená reklama na Googli má tri rôzne náklady a väčšina sklamaní vzniká z toho, že sa zamieňajú.
+Nižšie je, z čoho sa cena reklamy na Google skladá, aké čísla sú na Slovensku normou, koľko stojí nastavenie a správa kampaní a ako si za jeden večer overiť, či sa to, čo už beží, vracia. Ak hľadáte niekoho, kto kampane nastaví a bude spravovať, pozrite si [správu Google Ads a Meta reklamy](/sk/service/ads/): štart od 1 000€, správa 25€/hod. Platená reklama na Googli má tri rôzne náklady a väčšina sklamaní vzniká z toho, že sa zamieňajú.
 
 [CTA_FORM:ads]
 
@@ -104,7 +104,7 @@ Na slovenskom trhu sú tri schémy:
 
 **Pevná mesačná suma**: zrozumiteľné a predvídateľné.
 
-**Hodinová sadzba.** U mňa je to tak: hodinová sadzba **25€**, plný rozbeh kampaní začína približne **od 1 000€**. Rozpočet na samotnú reklamu v tom nie je. Ten platíte priamo Googlu alebo Mete zo svojho účtu. Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
+**Hodinová sadzba.** U mňa je to tak: hodinová sadzba **25€**, plný rozbeh kampaní začína približne **od 1 000€**. Rozpočet na samotnú reklamu v tom nie je. Ten platíte priamo Googlu alebo Mete zo svojho účtu. Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/).
 
 Na čo sa spýtať pred podpisom, bez ohľadu na schému:
 
@@ -157,6 +157,6 @@ Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukáže
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
-Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/). K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
+Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
 
 [CTA_FORM:audit]

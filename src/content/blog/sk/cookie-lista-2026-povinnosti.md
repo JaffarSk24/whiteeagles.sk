@@ -72,7 +72,7 @@ Consent Mode je mechanizmus, ktorým web oznamuje službám Google, či návšte
 
 Pri odmietnutí odosielajú systémy len anonymný signál bez cookie: dáta teda nezmiznú úplne, ale doplnia sa modelovaním. To všetko však funguje len vtedy, keď je Consent Mode nastavený.
 
-Jeho absencia teda nebolí právne, ale priamo v peniazoch za reklamu. Ak kampane vediete, toto treba overiť ako prvé: rozbor je na [stránke služby „Nastavenie reklamy"](/sk/service/ads/).
+Jeho absencia teda nebolí právne, ale priamo v peniazoch za reklamu. Ak kampane vediete, toto treba overiť ako prvé: rozbor je na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/).
 
 [CTA_FORM:consult]
 

@@ -114,7 +114,7 @@ slug per language. Where slugs differ, the pairs are listed below.
   from €1,500, e-shops from €5,000), €35/hr.
   - URL: https://whiteeagles.sk/sk/service/webdev/
 
-- **Advertising Campaigns** - Google Ads and Meta (Facebook/Instagram) setup
+- **Google Ads and Meta ads management** - Google Ads and Meta (Facebook/Instagram) setup and ongoing management
   and management. Full launch from ~€1,000, €25/hr; ad budget separate and
   paid by the client directly, the ad account belongs to the client.
   - URL: https://whiteeagles.sk/sk/service/ads/

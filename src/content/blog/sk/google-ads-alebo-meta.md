@@ -136,6 +136,6 @@ Hodinová sadzba **25€**, plný rozbeh kampaní začína približne **od 1 000
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
-Detaily na [stránke služby „Nastavenie reklamy"](/sk/service/ads/). K téme: [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [reklama beží, dopyty nechodia](/sk/blog/reklama-bezi-dopyty-nechodia/).
+Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [reklama beží, dopyty nechodia](/sk/blog/reklama-bezi-dopyty-nechodia/).
 
 [CTA_FORM:audit]

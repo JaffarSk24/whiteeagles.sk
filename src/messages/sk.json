@@ -420,10 +420,10 @@
       }
     },
     "ads": {
-      "title": "Reklamné kampane",
-      "desc": "Tvorba a optimalizácia reklamných kampaní Google Ads a Meta",
-      "internal_title": "Platená reklama na Googli a Facebooku: nastavenie a správa kampaní",
-      "internal_desc": "Tvorba, správa a optimalizácia reklamných kampaní v Google Ads a Meta (Instagram, Facebook, Threads, WhatsApp)",
+      "title": "Správa Google Ads a Meta reklamy",
+      "desc": "Nastavenie a správa PPC kampaní v Google Ads a Meta (Facebook, Instagram) pre firmy na Slovensku",
+      "internal_title": "Správa Google Ads a Meta Ads kampaní: PPC špecialista v Bratislave",
+      "internal_desc": "Nastavenie, správa a optimalizácia PPC kampaní v Google Ads a Meta Ads (Facebook, Instagram) pre firmy v Bratislave a na celom Slovensku",
       "details_points": [
         "Audit existujúcich reklamných účtov",
         "Vytvorenie reklamných účtov a kabinetov",
@@ -439,12 +439,12 @@
         "Integrácia analytických systémov",
         "Optimalizácia a škálovanie reklamných kampaní"
       ],
-      "seo_title": "Google Ads reklama Bratislava: nastavenie a správa od 1 000€",
-      "seo_desc": "Nastavenie a správa Google Ads a Meta reklamy z Bratislavy: kompletný štart približne od 1 000€, správa 25€/hod. Účet aj štatistiky patria vám, konverzie merané cez GA4.",
-      "seo_keywords": "google ads reklama, ppc kampane, facebook reklama, online marketing, ppc špecialista, správa kampaní",
+      "seo_title": "Správa Google Ads a Meta reklamy: PPC špecialista v Bratislave",
+      "seo_desc": "Správa Google Ads a Meta Ads kampaní pre firmy na Slovensku: audit, kľúčové slová, inzeráty, meranie konverzií v GA4. Štart od 1 000€, správa 25€/hod, bez viazanosti, účet je váš.",
+      "seo_keywords": "správa google ads, správa ppc kampaní, google ads bratislava, ppc špecialista, meta ads, facebook reklama, správa reklamy",
       "page": {
-        "lead": "Reklama v Google Ads a na Meta dokáže priniesť dopyty už v prvý deň, na rozdiel od SEO, kde sa čaká mesiace. Podmienka je jedna: musí byť vidieť, čo sa vracia. Bez správne nastaveného merania sa rozpočet míňa naslepo a automatické stratégie sa nemajú z čoho učiť.",
-        "process_title": "Ako to robím",
+        "lead": "Spravujem Google Ads a Meta Ads kampane pre firmy v Bratislave a na celom Slovensku: od auditu a nastavenia po priebežnú správu a optimalizáciu. PPC reklama dokáže priniesť dopyty už v prvý deň, na rozdiel od SEO, kde sa čaká mesiace. Podmienka je jedna: musí byť vidieť, čo sa vracia. Bez správne nastaveného merania sa rozpočet míňa naslepo a automatické stratégie sa nemajú z čoho učiť.",
+        "process_title": "Ako prebieha nastavenie a správa Google Ads",
         "process": [
           "Najprv meranie, potom kampane. Spúšťať reklamu bez sledovania konverzií znamená platiť za dáta, ktoré nikto nezbiera.",
           "Audit konkurencie: na aké dopyty inzerujú, čo sľubujú a koľko to približne stojí.",
@@ -453,7 +453,7 @@
           "Prepojenie s GA4, Search Console a webom, aby sa konverzie vracali späť do systému.",
           "Optimalizácia po nábehu dát a postupné škálovanie toho, čo funguje."
         ],
-        "cases_title": "Kde sa rozpočet stráca najčastejšie",
+        "cases_title": "Kde sa rozpočet v Google Ads stráca najčastejšie",
         "cases": [
           "Kampaň beží, ale konverzie sa nemerajú: Google nemá podľa čoho optimalizovať a míňa na najlacnejšie kliky.",
           "Široké zhody bez vylučujúcich slov: platíte za dopyty, ktoré s vaším podnikaním nesúvisia.",
@@ -461,10 +461,50 @@
           "Rovnaký rozpočet na značkové aj nové dopyty: značka spotrebuje väčšinu a vyzerá to ako úspech.",
           "Chýbajúci Consent Mode: časť konverzií sa vôbec nezapočíta a kampaň sa javí ako stratová."
         ],
-        "geo_title": "Slovenský trh má svoje ceny",
-        "geo": "Ceny za klik, konkurencia aj správanie zákazníka sú na Slovensku iné než na väčších trhoch. Rozpočet skopírovaný z cudzieho návodu tu nefunguje. Pracujem tu viac ako desať rokov a viem, čo stojí klik vo vašom odbore a či sa vám reklama vôbec oplatí. Ak nie, poviem to skôr, než miniete peniaze.",
-        "faq_title": "Časté otázky",
+        "industries_title": "Pre koho je správa Google Ads a Meta reklamy",
+        "industries_intro": "Reklama sa oplatí tam, kde sa dá spočítať, čo stojí dopyt a čo prinesie. Tieto firmy to spočítať vedia:",
+        "industries": [
+          {
+            "label": "Lokálne služby v Bratislave a okolí",
+            "note": "opravy, servis, remeselníci, právne a účtovné služby: kampane vo vyhľadávaní na telefonáty a formuláre, rozpočet od 10 až 15€ denne",
+            "ref": "blog:ads-pricing"
+          },
+          {
+            "label": "E-shopy",
+            "note": "Merchant Center, kampane Nákupy a Performance Max prepojené s katalógom a meraním nákupov v GA4",
+            "ref": "blog:online-shop"
+          },
+          {
+            "label": "Gastro, krása, udalosti",
+            "note": "tam, kde treba dopyt vytvoriť: Meta Ads s kreatívami a publikami, Google na rezervácie",
+            "ref": "blog:restaurant-website"
+          },
+          {
+            "label": "Nové firmy",
+            "note": "prvé dopyty bez čakania na SEO, ale až po tom, čo web a meranie fungujú",
+            "ref": "blog:digital-start"
+          }
+        ],
+        "geo_title": "Správa reklamy z Bratislavy pre slovenský trh",
+        "geo": "Ceny za klik, konkurencia aj správanie zákazníka sú na Slovensku iné než na väčších trhoch. Rozpočet skopírovaný z cudzieho návodu tu nefunguje. Kampane vediem z Bratislavy viac ako desať rokov a viem, čo stojí klik vo vašom odbore a či sa vám reklama vôbec oplatí. Ak nie, poviem to skôr, než miniete peniaze. Stretnúť sa môžeme osobne v Bratislave, so zvyškom Slovenska pracujem online.",
+        "faq_title": "Časté otázky o správe Google Ads a Meta Ads",
         "faq": [
+          {
+            "q": "Čo zahŕňa správa Google Ads kampaní?",
+            "a": "Pravidelné prehľady vyhľadávacích dopytov a čistenie vylučujúcich slov, úpravy ponúk a rozpočtov podľa toho, čo prináša dopyty, testy inzerátov, kontrola merania konverzií a mesačný prehľad v číslach, ktorým rozumiete: koľko stál dopyt a koľko ich prišlo. Správa je účtovaná podľa odpracovaných hodín, 25€/hod, bez viazanosti."
+          },
+          {
+            "q": "Prevezmete správu existujúceho účtu Google Ads?",
+            "a": "Áno. Začínam auditom účtu: štruktúra kampaní, vyhľadávacie dopyty, vylučujúce slová, meranie konverzií a Consent Mode. Povieme si, čo opraviť hneď a čo postupne, a účet zostáva vedený na vás."
+          },
+          {
+            "q": "Robíte aj reklamu na Facebooku a Instagrame (Meta Ads)?",
+            "a": "Áno. Kampane v Meta Ads nastavujem a spravujem rovnako ako Google Ads: publiká, kreatívy, rozpočet a meranie cez pixel a Conversions API, aby sa výsledky dali porovnať s vyhľadávaním. Pri jednom rozpočte zvyčajne začínam Googlom a Meta pridávam, keď treba dopyt vytvoriť."
+          },
+          {
+            "q": "Ste agentúra alebo PPC špecialista?",
+            "a": "Jeden človek, slovenská s.r.o. v Bratislave. Kampane nastavujem a spravujem sám, bez account manažéra medzi nami. Faktúru dostanete s IČO ako od každej slovenskej firmy."
+          },
           {
             "q": "Koľko stojí nastavenie kampaní?",
             "a": "Hodinová sadzba 25€, kompletné spustenie začína okolo 1 000€. Rozpočet na samotnú reklamu je oddelený a platíte ho priamo Googlu alebo Meta."
@@ -554,7 +594,7 @@
           "label": "Cena reklamy na Google na Slovensku.",
           "ref": "blog:ads-pricing"
         },
-        "why_title": "Prečo reklamu odo mňa",
+        "why_title": "Prečo správu Google Ads odo mňa",
         "why": [
           {
             "t": "Kampane, nie len pixel",
