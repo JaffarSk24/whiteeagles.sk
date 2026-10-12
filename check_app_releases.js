@@ -1,4 +1,4 @@
-// Run daily by .github/workflows/app-releases.yml. Asks GitHub for the latest
+// Run hourly by .github/workflows/app-releases.yml. Asks GitHub for the latest
 // release of each free app and checks that the live /apps/ page already links
 // to it. When it does not, the workflow redeploys the site, and the build
 // (fetch_app_releases.js in prebuild) bakes the new links and versions into
@@ -6,7 +6,7 @@
 //
 // It compares against the live page, not the committed app-releases.json, so
 // nothing has to be committed back to the repository, and a deploy that
-// failed is simply retried the next day.
+// failed is simply retried an hour later.
 const fs = require('fs');
 
 const APPS = ['WE-Budget', 'WE-Time-Tracker'];

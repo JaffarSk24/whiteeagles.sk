@@ -7,6 +7,8 @@ import { Inter } from "next/font/google";
 import { AppShell } from "@/components/AppShell";
 import { JsonLd } from "@/components/JsonLd";
 import Script from "next/script";
+
+const noAnalytics = process.env.NEXT_PUBLIC_NO_ANALYTICS === "1";
 import "@/styles/globals.css";
 import "@/styles/fonts.css";
 
@@ -146,6 +148,10 @@ export default async function LocaleLayout({
               title={file}
             />
           ))}
+        {/* Local test builds set NEXT_PUBLIC_NO_ANALYTICS=1: the tags are left
+            out entirely, so checks neither send hits to GA4 and Clarity nor
+            fill the console with failed requests. Production never sets it. */}
+        {!noAnalytics && (<>
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
@@ -187,17 +193,20 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 })(window, document, "clarity", "script", "uutrtzqy14");`,
           }}
         />
+        </>)}
       </head>
       <body>
         {/* GTM noscript fallback */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-KK389G5B"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
+        {!noAnalytics && (
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-KK389G5B"
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            />
+          </noscript>
+        )}
         <NextIntlClientProvider messages={messages}>
           <AppShell>
             {children}
