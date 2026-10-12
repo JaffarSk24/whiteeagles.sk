@@ -58,7 +58,7 @@
     "more_info": "Viac info",
     "webdev": {
       "title": "Tvorba webstránok",
-      "desc": "Stránky na mieru (PHP, Python, JS) alebo WordPress.",
+      "desc": "Weby na vlastnom kóde (PHP, Python, JS), bez WordPressu a konštruktorov.",
       "details": "Podrobnosti",
       "details_points": [
         "Definovanie cieľov a úloh podnikania",
@@ -146,7 +146,7 @@
           },
           {
             "q": "Na čom weby staviate: na WordPresse alebo na mieru?",
-            "a": "Podľa toho, čo dáva zmysel. WordPress tam, kde budete obsah spravovať sami a stačia hotové riešenia. Na mieru (PHP, Python, JS) tam, kde treba rýchlosť, neštandardnú funkčnosť alebo integrácie."
+            "a": "Nové weby iba na vlastnom kóde (PHP, Python, JS): sú rýchlejšie, spoľahlivejšie a bez neustálych aktualizácií pluginov. Na WordPresse ani v konštruktoroch nové weby nerobím. Ak už web na WordPresse máte, opravím ho, budem ho spravovať alebo ho presuniem na moderný stack."
           },
           {
             "q": "Čo je v cene okrem samotného webu?",

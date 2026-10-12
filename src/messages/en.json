@@ -58,7 +58,7 @@
     "more_info": "Read more",
     "webdev": {
       "title": "Web Development",
-      "desc": "Custom websites (PHP, Python, JS) or WordPress solutions.",
+      "desc": "Custom-coded websites (PHP, Python, JS), no WordPress or site builders.",
       "details": "Details",
       "details_points": [
         "Defining business goals and objectives",
@@ -146,7 +146,7 @@
           },
           {
             "q": "WordPress or custom-built?",
-            "a": "Whichever fits. WordPress where you will manage content yourself and ready-made solutions suffice. Custom (PHP, Python, JS) where speed, unusual functionality or integrations are needed."
+            "a": "New sites only on custom code (PHP, Python, JS): faster, more reliable and free of constant plugin updates. I do not build new sites on WordPress or site builders. If you already have a WordPress site, I repair it, maintain it or migrate it to a modern stack."
           },
           {
             "q": "What is included beyond the site itself?",
