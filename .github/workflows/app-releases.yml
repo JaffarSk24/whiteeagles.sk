@@ -1,0 +1,47 @@
+name: Check app releases
+
+# The /apps/ page bakes the latest WE Budget and WE Time Tracker releases into
+# the HTML at build time. Releases are published from the apps' own
+# repositories, which deploy nothing here, so this checks every hour whether
+# the live page links to the newest builds and redeploys the site when it
+# does not. Visitors see a new release sooner than that anyway: the page also
+# asks GitHub from the browser (src/utils/latestRelease.ts).
+#
+# This repository is public, so the hourly run costs no Actions minutes.
+# GitHub pauses scheduled workflows after 60 days without commits; a deploy
+# resumes them.
+
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  # A run started by the default token does not trigger other workflows,
+  # except through workflow_dispatch, which needs this.
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get the check script
+        uses: actions/checkout@v4
+
+      - name: 🟢 Usage Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 🔎 Compare the live page with the latest releases
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node check_app_releases.js
+
+      - name: 🚀 Redeploy the site
+        if: ${{ steps.check.outputs.stale == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main --repo "$GITHUB_REPOSITORY"

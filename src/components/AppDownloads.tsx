@@ -3,6 +3,7 @@
 import React, { useSyncExternalStore } from "react";
 import { Apple, Monitor, Smartphone } from "lucide-react";
 import { trackGAEvent } from "../utils/analytics";
+import { useLatestRelease } from "../utils/latestRelease";
 import type { AppRelease } from "../data/apps";
 
 interface Labels {
@@ -11,10 +12,14 @@ interface Labels {
   mac: string;
   windows: string;
   phone: string;
+  /** "Version {version}, {date}" with the placeholders left in. */
+  version: string;
+  allReleases: string;
 }
 
 interface AppDownloadsProps {
   appId: string;
+  repo: string;
   release: AppRelease;
   phoneUrl?: string;
   labels: Labels;
@@ -36,8 +41,9 @@ const noop = () => () => {};
 // hydrated, the visitor's own platform is moved first and gets the primary
 // style. The others use .btn-activate, the site-wide outlined button
 // (.btn-secondary lives in Home.css, which this page does not load).
-export function AppDownloads({ appId, release, phoneUrl, labels }: AppDownloadsProps) {
+export function AppDownloads({ appId, repo, release: baked, phoneUrl, labels }: AppDownloadsProps) {
   const platform = useSyncExternalStore<Platform>(noop, detect, () => "other");
+  const release = useLatestRelease(repo, baked);
 
   const { assets } = release;
   const universal = assets.macArm && assets.macIntel && assets.macArm.url === assets.macIntel.url;
@@ -99,5 +105,18 @@ export function AppDownloads({ appId, release, phoneUrl, labels }: AppDownloadsP
         ? [phoneButton, ...macButtons, winButton]
         : [...macButtons, winButton, phoneButton];
 
-  return <div className="app-downloads">{ordered}</div>;
+  const versionLine = labels.version
+    .replace("{version}", release.version)
+    .replace("{date}", release.publishedAt);
+
+  return (
+    <>
+      <div className="app-downloads">{ordered}</div>
+      <p className="app-version">
+        {versionLine}
+        {" · "}
+        <a href={release.page} target="_blank" rel="noopener noreferrer">{labels.allReleases}</a>
+      </p>
+    </>
+  );
 }

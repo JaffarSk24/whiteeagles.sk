@@ -59,6 +59,8 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
     mac: t("download_mac"),
     windows: t("download_windows"),
     phone: t("download_phone"),
+    version: t.raw("version") as string,
+    allReleases: t("all_releases"),
   };
 
   const schema = {
@@ -167,13 +169,10 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
                 ))}
               </ul>
 
-              <AppDownloads appId={app.id} release={app.release} phoneUrl={app.phoneUrl} labels={downloadLabels} />
+              {/* Also renders the version line, so a release newer than the
+                  build can update both in the visitor's browser. */}
+              <AppDownloads appId={app.id} repo={app.repo} release={app.release} phoneUrl={app.phoneUrl} labels={downloadLabels} />
 
-              <p className="app-version">
-                {t("version", { version: app.release.version, date: app.release.publishedAt })}
-                {" · "}
-                <a href={app.release.page} target="_blank" rel="noopener noreferrer">{t("all_releases")}</a>
-              </p>
               <p className="app-links">
                 <a href={app.repoUrl} target="_blank" rel="noopener noreferrer"><Code2 size={16} /> {t("source")}</a>
                 <a href={app.privacyUrl} target="_blank" rel="noopener noreferrer">{t("privacy")}</a>
