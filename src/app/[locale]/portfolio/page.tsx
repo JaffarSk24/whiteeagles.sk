@@ -44,6 +44,12 @@ export default async function PortfolioPage({ params }: { params: Promise<{ loca
 
   const t = await getTranslations({ locale, namespace: 'cases' });
   const cases = getAllCases(locale);
+  // Websites and advertising are different purchases, so the index shows
+  // them as two groups; the site work (including fixes) comes first.
+  const groups = [
+    { key: 'sites', title: t('group_sites'), items: cases.filter((item) => item.service !== 'ads') },
+    { key: 'ads', title: t('group_ads'), items: cases.filter((item) => item.service === 'ads') },
+  ].filter((group) => group.items.length > 0);
 
   const homeName = locale === 'ru' ? 'Главная' : locale === 'sk' ? 'Domov' : 'Home';
 
@@ -84,20 +90,25 @@ export default async function PortfolioPage({ params }: { params: Promise<{ loca
           <p className="case-index-lead">{t('lead')}</p>
         </header>
 
-        <ul className="case-grid case-grid-index">
-          {cases.map((item) => (
-            <li key={item.slug}>
-              <Link href={`/case/${item.slug}/`} className="case-card">
-                <img src={item.image} alt={item.client} loading="lazy" />
-                <div className="case-card-body">
-                  <h2>{item.client}</h2>
-                  <p>{item.summary}</p>
-                  <span className="case-card-link">{t('read_case')} →</span>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {groups.map((group) => (
+          <section key={group.key} className="case-index-group">
+            <h2>{group.title}</h2>
+            <ul className="case-grid case-grid-index">
+              {group.items.map((item) => (
+                <li key={item.slug}>
+                  <Link href={`/case/${item.slug}/`} className="case-card">
+                    <img src={item.image} alt={item.client} loading="lazy" />
+                    <div className="case-card-body">
+                      <h3>{item.client}</h3>
+                      <p>{item.summary}</p>
+                      <span className="case-card-link">{t('read_case')} →</span>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
       </div>
     </div>
   );

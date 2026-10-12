@@ -146,6 +146,14 @@ slug per language. Where slugs differ, the pairs are listed below.
     - https://whiteeagles.sk/sk/case/synchrozralok/ - sports club, bilingual, feed pulled from Instagram
     - https://whiteeagles.sk/sk/case/bodabo/ - wholesale online shop for vanilla, coffee and cacao
     - https://whiteeagles.sk/sk/case/top-kobka/ - storage box rental
+    - https://whiteeagles.sk/sk/case/chicago-uprava-webu/ - shooting range, WordPress improvements and fixes, search ads
+  - Advertising:
+    - https://whiteeagles.sk/sk/case/severske-drevo-reklama-google/ - online timber shop, Google Ads, 324 purchases worth 134,684€ for 18,022€ of spend
+    - https://whiteeagles.sk/sk/case/top-sklad-reklama-google/ - storage rental, Google Ads measured by paid rentals
+    - https://whiteeagles.sk/sk/case/ram-service-reklama-meta/ - electronics repair, Meta ads, 21 calls in a week at 3.79€ each
+    - https://whiteeagles.sk/sk/case/recorder-reklama-google-meta/ - refurbished electronics shop, Google Ads and Meta, 8.7% CTR at 0.25€ per click
+    - https://whiteeagles.sk/sk/case/astana-ballet-reklama-vo-viedni/ - ballet tour in Vienna, 21,610 clicks at 0.027€ in the first phase
+    - https://whiteeagles.sk/sk/case/moj-servis-reklama-google/ - car service, Google Ads rebuild
 
 - **Blog & News**: Guides on web development, advertising and running a
   business in Slovakia. Slovak URLs below; swap `/sk/` for `/ru/` unless a

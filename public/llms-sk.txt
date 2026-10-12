@@ -121,6 +121,14 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
     - https://whiteeagles.sk/sk/case/synchrozralok/ - športový klub, dvojjazyčný web, novinky ťahané z Instagramu
     - https://whiteeagles.sk/sk/case/bodabo/ - veľkoobchodný e-shop s vanilkou, kávou a kakaom
     - https://whiteeagles.sk/sk/case/top-kobka/ - prenájom skladovacích boxov
+    - https://whiteeagles.sk/sk/case/chicago-uprava-webu/ - strelnica, úpravy a opravy webu na WordPresse, reklama vo vyhľadávaní
+  - Reklama:
+    - https://whiteeagles.sk/sk/case/severske-drevo-reklama-google/ - e-shop s drevom, Google Ads, 324 nákupov za 134 684€ pri výdavkoch 18 022€
+    - https://whiteeagles.sk/sk/case/top-sklad-reklama-google/ - prenájom skladov, Google Ads, konverzia je zaplatený prenájom
+    - https://whiteeagles.sk/sk/case/ram-service-reklama-meta/ - servis elektroniky, Meta reklama, 21 hovorov za týždeň po 3,79€
+    - https://whiteeagles.sk/sk/case/recorder-reklama-google-meta/ - obchod s repasovanou technikou, Google Ads a Meta, CTR 8,7% pri kliku 0,25€
+    - https://whiteeagles.sk/sk/case/astana-ballet-reklama-vo-viedni/ - hosťovanie baletu vo Viedni, 21 610 preklikov po 0,027€ v prvej fáze
+    - https://whiteeagles.sk/sk/case/moj-servis-reklama-google/ - autoservis, prestavba Google Ads
 
 - **Blog** - návody k webu, reklame a podnikaniu na Slovensku. Nižšie
   slovenské adresy; ruskú verziu získate výmenou `/sk/` za `/ru/`, ak nie je v

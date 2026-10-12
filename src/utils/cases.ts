@@ -10,8 +10,9 @@ export interface CaseStudy {
   description: string;
   /** Brand name as the client writes it, used in headings and schema. */
   client: string;
-  /** Live site. Kept in one place so a client that goes offline is one edit. */
-  url: string;
+  /** Live site. Kept in one place so a client that goes offline is one edit.
+      Absent for work with no site of its own, such as an event campaign. */
+  url?: string;
   image: string;
   /** Short line for the index cards - the description is written for search. */
   summary: string;

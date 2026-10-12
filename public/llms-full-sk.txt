@@ -127,6 +127,20 @@ stránky existujú aj pod /ru/ a /en/.
 - **TOP KOBKA** - prenájom skladovacích boxov; rozmery, podmienky a ceny na
   stránke.
   - https://whiteeagles.sk/sk/case/top-kobka/
+- **CHICAGO** - strelnica v Bratislave; opravy a úpravy webu na WordPresse a WooCommerce (pošta, cache, prihláška do klubu, darčekový poukaz v PDF) a reklama vo vyhľadávaní: od marca 2025 92 objednávok cez web a 62 hovorov z reklám.
+  - https://whiteeagles.sk/sk/case/chicago-uprava-webu/
+- **Severské drevo** - e-shop s drevom; Google Ads s produktovým feedom, vyhľadávaním podľa skupín materiálov a Performance Max, objednávky sa merajú aj s hodnotou. Od apríla 2025 324 nákupov za 134 684€ pri výdavkoch 18 022€.
+  - https://whiteeagles.sk/sk/case/severske-drevo-reklama-google/
+- **TOP SKLAD (reklama)** - Google Ads pre prenájom skladov; konverzia je len prvý zaplatený prenájom nového zákazníka, CTR okolo 15% pri kliku okolo 1€.
+  - https://whiteeagles.sk/sk/case/top-sklad-reklama-google/
+- **RAM service** - reklama na Facebooku a Instagrame pre servis elektroniky; kampaň na hovory namiesto návštevnosti, 21 hovorov za prvý týždeň po 3,79€.
+  - https://whiteeagles.sk/sk/case/ram-service-reklama-meta/
+- **Recorder.sk** - Google Ads a Meta pre obchod s repasovanou technikou; za 90 dní CTR 8,7% pri kliku 0,25€.
+  - https://whiteeagles.sk/sk/case/recorder-reklama-google-meta/
+- **Astana Ballet Theatre** - reklama hosťovania vo Viedni; mediálny plán v troch fázach, nemecké a ruskojazyčné publikum, prvá fáza 21 610 preklikov po 0,027€.
+  - https://whiteeagles.sk/sk/case/astana-ballet-reklama-vo-viedni/
+- **Môj servis Kramáre** - audit a prestavba Google Ads pre autoservis; kampane podľa služieb, konverzia je rezervácia a hovor.
+  - https://whiteeagles.sk/sk/case/moj-servis-reklama-google/
 
 ---
 

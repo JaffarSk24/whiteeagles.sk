@@ -1272,16 +1272,19 @@
     }
   },
   "cases": {
-    "title": "Prípadové štúdie: weby pre slovenské firmy",
-    "seo_title": "Prípadové štúdie: weby a systémy pre firmy na Slovensku",
-    "seo_description": "Reálne projekty pre slovenské firmy: rezervácie, e-shopy, dvojjazyčné weby, automatizácia cez Telegram. Aké bolo zadanie a čo z toho vzniklo.",
-    "lead": "Projekty spustené na slovenskom trhu. Pri každom je zadanie, riešenie a čo to prinieslo. Bez všeobecných fráz o „moderných riešeniach“.",
+    "title": "Prípadové štúdie: weby a reklama pre slovenské firmy",
+    "seo_title": "Prípadové štúdie: weby a reklama pre firmy na Slovensku",
+    "seo_description": "Reálne projekty pre slovenské firmy: rezervácie, e-shopy, dvojjazyčné weby, reklama v Google Ads a Meta s číslami. Aké bolo zadanie a čo z toho vzniklo.",
+    "lead": "Weby a reklamné kampane pre slovenský trh. Pri každom projekte je zadanie, riešenie a čo to prinieslo. Bez všeobecných fráz o „moderných riešeniach“.",
     "back_to_cases": "Všetky prípadové štúdie",
     "read_case": "Pozrieť projekt",
     "services_label": "Čo sme robili",
     "live_site": "Otvoriť web",
     "client_label": "Klient",
-    "more_cases": "Ďalšie projekty"
+    "more_cases": "Ďalšie projekty",
+    "group_sites": "Weby a úpravy",
+    "group_ads": "Reklama",
+    "service_cases_title": "Prípadové štúdie"
   },
   "home_faq": {
     "title": "Časté otázky",

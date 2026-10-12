@@ -487,6 +487,21 @@
     }
   },
   "case": {
+    "astana-ballet-reklama-vo-viedni": {
+      "sk": "astana-ballet-reklama-vo-viedni",
+      "en": "astana-ballet-vienna-ads",
+      "ru": "astana-ballet-reklama-v-vene"
+    },
+    "astana-ballet-vienna-ads": {
+      "sk": "astana-ballet-reklama-vo-viedni",
+      "en": "astana-ballet-vienna-ads",
+      "ru": "astana-ballet-reklama-v-vene"
+    },
+    "astana-ballet-reklama-v-vene": {
+      "sk": "astana-ballet-reklama-vo-viedni",
+      "en": "astana-ballet-vienna-ads",
+      "ru": "astana-ballet-reklama-v-vene"
+    },
     "biliardovna": {
       "sk": "biliardovna",
       "en": "biliardovna",
@@ -496,6 +511,61 @@
       "sk": "bodabo",
       "en": "bodabo",
       "ru": "bodabo"
+    },
+    "chicago-uprava-webu": {
+      "sk": "chicago-uprava-webu",
+      "en": "chicago-website-fixes",
+      "ru": "chicago-dorabotka-sajta"
+    },
+    "chicago-website-fixes": {
+      "sk": "chicago-uprava-webu",
+      "en": "chicago-website-fixes",
+      "ru": "chicago-dorabotka-sajta"
+    },
+    "chicago-dorabotka-sajta": {
+      "sk": "chicago-uprava-webu",
+      "en": "chicago-website-fixes",
+      "ru": "chicago-dorabotka-sajta"
+    },
+    "moj-servis-reklama-google": {
+      "sk": "moj-servis-reklama-google",
+      "en": "moj-servis-google-ads",
+      "ru": "moj-servis-reklama-google"
+    },
+    "moj-servis-google-ads": {
+      "sk": "moj-servis-reklama-google",
+      "en": "moj-servis-google-ads",
+      "ru": "moj-servis-reklama-google"
+    },
+    "ram-service-reklama-meta": {
+      "sk": "ram-service-reklama-meta",
+      "en": "ram-service-meta-ads",
+      "ru": "ram-service-reklama-meta"
+    },
+    "ram-service-meta-ads": {
+      "sk": "ram-service-reklama-meta",
+      "en": "ram-service-meta-ads",
+      "ru": "ram-service-reklama-meta"
+    },
+    "recorder-reklama-google-meta": {
+      "sk": "recorder-reklama-google-meta",
+      "en": "recorder-google-meta-ads",
+      "ru": "recorder-reklama-google-meta"
+    },
+    "recorder-google-meta-ads": {
+      "sk": "recorder-reklama-google-meta",
+      "en": "recorder-google-meta-ads",
+      "ru": "recorder-reklama-google-meta"
+    },
+    "severske-drevo-reklama-google": {
+      "sk": "severske-drevo-reklama-google",
+      "en": "severske-drevo-google-ads",
+      "ru": "severske-drevo-reklama-google"
+    },
+    "severske-drevo-google-ads": {
+      "sk": "severske-drevo-reklama-google",
+      "en": "severske-drevo-google-ads",
+      "ru": "severske-drevo-reklama-google"
     },
     "studio-krasy": {
       "sk": "studio-krasy",
@@ -516,6 +586,16 @@
       "sk": "top-sklad",
       "en": "top-sklad",
       "ru": "top-sklad"
+    },
+    "top-sklad-reklama-google": {
+      "sk": "top-sklad-reklama-google",
+      "en": "top-sklad-google-ads",
+      "ru": "top-sklad-reklama-google"
+    },
+    "top-sklad-google-ads": {
+      "sk": "top-sklad-reklama-google",
+      "en": "top-sklad-google-ads",
+      "ru": "top-sklad-reklama-google"
     }
   },
   "service": {

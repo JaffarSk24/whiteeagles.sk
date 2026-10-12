@@ -4,7 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { ArrowLeft, ShieldCheck, FileText, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from "lucide-react";
 import { services, serviceSlug, serviceBySlug } from "../../../../data/services";
 import { getSlugForLocale } from "../../../../utils/blog";
-import { getCaseSlugForLocale } from "../../../../utils/cases";
+import { getAllCases, getCaseSlugForLocale } from "../../../../utils/cases";
 
 import { ServiceDetailClient } from "./ServiceDetailClient";
 import { ServiceFacts } from "../../../../components/ServiceFacts";
@@ -13,6 +13,7 @@ import { StickyOrderCta } from "../../../../components/StickyOrderCta";
 import { RepairQuickForm } from "../../../../components/RepairQuickForm";
 import { WebCalculator, type CalculatorTexts } from "../../../../components/WebCalculator";
 import "./ServiceDetail.css";
+import "@/styles/Cases.css";
 
 // Generate static params for static export. Runs once per locale from the
 // layout above, so each language gets its own URL segment for a service.
@@ -79,6 +80,12 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   const t = await getTranslations({ locale });
   const tCommon = await getTranslations({ locale, namespace: "common" });
   const tAbout = await getTranslations({ locale, namespace: "about" });
+  const tCases = await getTranslations({ locale, namespace: "cases" });
+  // The advertising and repair pages show their case studies as cards. The
+  // other pages already describe their projects in their own text block.
+  const caseStudies = ["ads", "bugfix"].includes(service.id)
+    ? getAllCases(locale).filter((item) => item.service === service.id)
+    : [];
 
   // Get points array from translations
   // Next-intl doesn't return arrays directly with `t()`, but we can check using raw config or structured objects.
@@ -387,6 +394,26 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                     {page.cases.map((item, i) => <li key={i}>{item}</li>)}
                   </ul>
                   <ServiceCta serviceId={service.id} block="cases" />
+                </section>
+              ) : null}
+
+              {caseStudies.length ? (
+                <section className="detail-block">
+                  <h2>{tCases("service_cases_title")}</h2>
+                  <ul className="case-grid">
+                    {caseStudies.map((item) => (
+                      <li key={item.slug}>
+                        <Link href={`/case/${item.slug}/` as any} className="case-card">
+                          <img src={item.image} alt={item.client} loading="lazy" />
+                          <div className="case-card-body">
+                            <h3>{item.client}</h3>
+                            <p>{item.summary}</p>
+                            <span className="case-card-link">{tCases("read_case")} →</span>
+                          </div>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </section>
               ) : null}
 

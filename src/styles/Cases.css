@@ -41,6 +41,22 @@
   color: var(--text-secondary);
 }
 
+/* The site-wide section padding (80px) is meant for page sections, not for
+   the two groups of the portfolio index. */
+.case-index-group {
+  padding: 0;
+}
+
+.case-index-group + .case-index-group {
+  margin-top: 64px;
+}
+
+.case-index-group h2 {
+  font-size: 1.5rem;
+  margin: 0 0 24px;
+  color: var(--text-primary);
+}
+
 .case-grid {
   list-style: none;
   margin: 0;

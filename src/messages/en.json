@@ -1232,16 +1232,19 @@
     }
   },
   "cases": {
-    "title": "Case studies: websites for Slovak businesses",
-    "seo_title": "Case studies: websites and systems for businesses in Slovakia",
-    "seo_description": "Real projects delivered on the Slovak market: booking systems, online shops, bilingual websites, Telegram automation.",
-    "lead": "Projects launched on the Slovak market. Each one states the brief, the solution and the outcome.",
+    "title": "Case studies: websites and advertising for Slovak businesses",
+    "seo_title": "Case studies: websites and advertising for businesses in Slovakia",
+    "seo_description": "Real projects on the Slovak market: booking systems, online shops, bilingual websites, Google Ads and Meta campaigns with numbers.",
+    "lead": "Websites and advertising campaigns for the Slovak market. Each one states the brief, the solution and the outcome.",
     "back_to_cases": "All case studies",
     "read_case": "View project",
     "services_label": "What was built",
     "live_site": "Open the site",
     "client_label": "Client",
-    "more_cases": "Other projects"
+    "more_cases": "Other projects",
+    "group_sites": "Websites and fixes",
+    "group_ads": "Advertising",
+    "service_cases_title": "Case studies"
   },
   "home_faq": {
     "title": "Frequently asked questions",

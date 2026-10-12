@@ -93,7 +93,14 @@ export default async function CasePage({ params }: { params: Promise<{ locale: s
   const pageUrl = `https://whiteeagles.sk/${locale}/case/${slug}/`;
   const homeName = locale === 'ru' ? 'Главная' : locale === 'sk' ? 'Domov' : 'Home';
 
-  const others = getAllCases(locale).filter((item) => item.slug !== slug).slice(0, 3);
+  // An advertising case is followed by other advertising cases; the website
+  // cases keep their plain order, which already puts website cases first.
+  const pool = getAllCases(locale).filter((item) => item.slug !== slug);
+  const others = (
+    study.service === 'ads'
+      ? [...pool.filter((item) => item.service === 'ads'), ...pool.filter((item) => item.service !== 'ads')]
+      : pool
+  ).slice(0, 3);
 
   const schemaJson = {
     '@context': 'https://schema.org',
@@ -115,7 +122,7 @@ export default async function CasePage({ params }: { params: Promise<{ locale: s
         description: study.description,
         mainEntityOfPage: pageUrl,
         image: `https://whiteeagles.sk${study.image}`,
-        about: { '@type': 'Organization', name: study.client, url: study.url },
+        about: { '@type': 'Organization', name: study.client, ...(study.url ? { url: study.url } : {}) },
         author: { '@type': 'Person', name: 'Ing. Kirill Mosin', url: 'https://whiteeagles.sk/' },
         publisher: { '@id': 'https://whiteeagles.sk/#organization' },
       },
@@ -133,9 +140,12 @@ export default async function CasePage({ params }: { params: Promise<{ locale: s
         <article className="case-article">
           <div className="case-meta">
             <span className="case-meta-client">{study.client}</span>
-            <a href={study.url} target="_blank" rel="noopener noreferrer" className="case-meta-link">
-              {t('live_site')} <ExternalLink size={14} />
-            </a>
+            {/* An event campaign has no site of its own to open. */}
+            {study.url && (
+              <a href={study.url} target="_blank" rel="noopener noreferrer" className="case-meta-link">
+                {t('live_site')} <ExternalLink size={14} />
+              </a>
+            )}
           </div>
 
           {study.services.length > 0 && (

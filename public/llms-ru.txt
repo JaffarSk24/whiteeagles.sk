@@ -133,6 +133,14 @@ https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/
     - https://whiteeagles.sk/ru/case/synchrozralok/: спортклуб, двуязычный сайт, новости тянутся из Instagram
     - https://whiteeagles.sk/ru/case/bodabo/: оптовый магазин ванили, кофе и какао
     - https://whiteeagles.sk/ru/case/top-kobka/: аренда складских боксов
+    - https://whiteeagles.sk/ru/case/chicago-dorabotka-sajta/: стрелковый тир, доработки и исправления сайта на WordPress, поисковая реклама
+  - Реклама:
+    - https://whiteeagles.sk/ru/case/severske-drevo-reklama-google/: интернет-магазин древесины, Google Ads, 324 покупки на 134 684€ при расходе 18 022€
+    - https://whiteeagles.sk/ru/case/top-sklad-reklama-google/: аренда складов, Google Ads, конверсия это оплаченная аренда
+    - https://whiteeagles.sk/ru/case/ram-service-reklama-meta/: сервис электроники, реклама в Meta, 21 звонок за неделю по 3,79€
+    - https://whiteeagles.sk/ru/case/recorder-reklama-google-meta/: магазин восстановленной техники, Google Ads и Meta, CTR 8,7% при клике 0,25€
+    - https://whiteeagles.sk/ru/case/astana-ballet-reklama-v-vene/: гастроли балета в Вене, 21 610 переходов по 0,027€ в первой фазе
+    - https://whiteeagles.sk/ru/case/moj-servis-reklama-google/: автосервис, перестройка Google Ads
 
 - **Блог**: разборы по сайтам, рекламе и ведению бизнеса в Словакии. Ниже
   русские адреса; словацкую версию можно получить заменой `/ru/` на `/sk/`,

@@ -157,6 +157,20 @@ under /ru/ and /en/.
   - https://whiteeagles.sk/sk/case/bodabo/
 - **TOP KOBKA** - storage box rental; sizes, terms and prices on the page.
   - https://whiteeagles.sk/sk/case/top-kobka/
+- **CHICAGO** - shooting range in Bratislava; WordPress and WooCommerce fixes and improvements (email, cache, club membership form, PDF gift voucher) and search ads: since March 2025, 92 orders through the site and 62 calls from the ads.
+  - https://whiteeagles.sk/sk/case/chicago-uprava-webu/
+- **Severské drevo** - online timber shop; Google Ads with a product feed, search by material group and Performance Max, orders tracked with their value. Since April 2025, 324 purchases worth 134,684€ for 18,022€ of spend.
+  - https://whiteeagles.sk/sk/case/severske-drevo-reklama-google/
+- **TOP SKLAD (advertising)** - Google Ads for storage rental; the only conversion is the first paid rental of a new customer, CTR around 15% at about 1€ per click.
+  - https://whiteeagles.sk/sk/case/top-sklad-reklama-google/
+- **RAM service** - Facebook and Instagram ads for an electronics repair service; a calls campaign instead of traffic, 21 calls in the first week at 3.79€ each.
+  - https://whiteeagles.sk/sk/case/ram-service-reklama-meta/
+- **Recorder.sk** - Google Ads and Meta for a refurbished electronics shop; 8.7% CTR at 0.25€ per click over 90 days.
+  - https://whiteeagles.sk/sk/case/recorder-reklama-google-meta/
+- **Astana Ballet Theatre** - advertising a tour in Vienna; a three-phase media plan, German and Russian-speaking audiences, 21,610 clicks at 0.027€ in the first phase.
+  - https://whiteeagles.sk/sk/case/astana-ballet-reklama-vo-viedni/
+- **Môj servis Kramáre** - Google Ads audit and rebuild for a car service; campaigns by service, bookings and calls as conversions.
+  - https://whiteeagles.sk/sk/case/moj-servis-reklama-google/
 
 ---
 
