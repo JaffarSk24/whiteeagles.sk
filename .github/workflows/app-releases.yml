@@ -2,18 +2,20 @@ name: Check app releases
 
 # The /apps/ page bakes the latest WE Budget and WE Time Tracker releases into
 # the HTML at build time. Releases are published from the apps' own
-# repositories, which deploy nothing here, so this checks every hour whether
+# repositories, which deploy nothing here, so this checks once a day whether
 # the live page links to the newest builds and redeploys the site when it
-# does not. Visitors see a new release sooner than that anyway: the page also
-# asks GitHub from the browser (src/utils/latestRelease.ts).
+# does not. Visitors see a new release at once anyway: the page also asks
+# GitHub from the browser (src/utils/latestRelease.ts), so the daily run only
+# brings the baked HTML and the SoftwareApplication markup up to date.
 #
-# This repository is public, so the hourly run costs no Actions minutes.
+# This repository is public, so the run costs no Actions minutes; daily is
+# the owner's choice all the same. 04:23 UTC is 05:23 or 06:23 in Bratislava.
 # GitHub pauses scheduled workflows after 60 days without commits; a deploy
 # resumes them.
 
 on:
   schedule:
-    - cron: '23 * * * *'
+    - cron: '23 4 * * *'
   workflow_dispatch:
 
 permissions:
