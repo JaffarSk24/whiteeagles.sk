@@ -356,7 +356,7 @@ https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/
   - https://whiteeagles.sk/ru/blog/medlennyj-sajt-na-wordpress/ (sk: /sk/blog/pomaly-wordpress-web/)
 - **Поддержка и доработка сайта на WordPress: обновления, бэкапы, правки и сколько это стоит**
   - https://whiteeagles.sk/ru/blog/podderzhka-sajta-na-wordpress/ (sk: /sk/blog/sprava-a-udrzba-wordpress-webu/)
-- **Личный кабинет клиента на сайте: плагин WordPress или своя разработка**
+- **Создание личного кабинета на сайте: плагин WordPress или своя разработка**
   - https://whiteeagles.sk/ru/blog/lichnyj-kabinet-klienta-na-sajte/ (sk: /sk/blog/klientska-zona-na-webe/)
 - **Как проверить настройку GA4: проверки, которые находят ошибки**
   - https://whiteeagles.sk/ru/blog/kak-proverit-nastrojku-ga4/ (sk: /sk/blog/kontrola-nastavenia-ga4/)

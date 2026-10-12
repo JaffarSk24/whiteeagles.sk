@@ -85,7 +85,7 @@ const STATIC_LASTMOD = {
   '': '2026-10-06',
   'blog': '2026-09-13',
   'seo-audit': '2026-09-13',
-  'apps': '2026-10-10',
+  'apps': '2026-10-12',
   'service/webdev': '2026-10-04',
   'service/bugfix': '2026-09-13',
   'service/ads': '2026-10-05',
