@@ -88,6 +88,7 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
   landing pages, firemné weby, e-shopy, rezervačné systémy. Od 3 500€
   (landing page od 1 500€, e-shop od 5 000€), 35€/hod.
   - Adresa: https://whiteeagles.sk/sk/service/webdev/
+  - Nové weby nerobím na WordPresse ani v konštruktoroch, iba vlastný kód. WordPress opravujem, spravujem a migrujem na moderný stack (pozri Opravy a podpora).
 
 - **Správa Google Ads a Meta reklamy** - Google Ads a Meta (Facebook/Instagram), nastavenie a priebežná správa PPC kampaní, nastavenie
   a správa. Kompletný štart približne od 1 000€, 25€/hod; rozpočet na

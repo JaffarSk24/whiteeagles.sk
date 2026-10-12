@@ -113,6 +113,7 @@ slug per language. Where slugs differ, the pairs are listed below.
   pages, company sites, e-shops, booking systems. From €3,500 (landing pages
   from €1,500, e-shops from €5,000), €35/hr.
   - URL: https://whiteeagles.sk/sk/service/webdev/
+  - New sites are never built on WordPress or site builders, only on custom code. WordPress sites are repaired, maintained and migrated to a modern stack (see Bug Fixing).
 
 - **Google Ads and Meta ads management** - Google Ads and Meta (Facebook/Instagram) setup and ongoing management
   and management. Full launch from ~€1,000, €25/hr; ad budget separate and

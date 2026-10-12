@@ -35,6 +35,7 @@ short discussion of the goals. The price is fixed before work starts and does
 not change mid-project.
 
 ### Technology Stack
+- **WordPress**: new sites are never built on WordPress or site builders, only on custom code. WordPress sites are repaired, maintained and migrated to a modern stack.
 - **Frontend**: React, Next.js, TypeScript, modern CSS (responsive flex/grid).
 - **Backend & Automation**: Python, PHP.
 - **CMS**: Custom solutions; WordPress where the brief genuinely fits it.
