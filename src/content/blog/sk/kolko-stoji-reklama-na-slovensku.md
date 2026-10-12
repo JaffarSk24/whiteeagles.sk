@@ -157,6 +157,8 @@ Nastavím kampane so správnym meraním, nazbieram vylučujúce slová a ukáže
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
+Skutočné čísla z mojich kampaní: klik vo vyhľadávaní stál 0,20€ pri strelnici [CHICAGO](/sk/case/chicago-uprava-webu/) a okolo 1€ pri [TOP SKLAD](/sk/case/top-sklad-reklama-google/), hovor z Meta 3,79€ pri [RAM service](/sk/case/ram-service-reklama-meta/) a nákup v obchode [Severské drevo](/sk/case/severske-drevo-reklama-google/) v najlepšom štvrťroku vyšiel približne na 35€.
+
 Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
 
 [CTA_FORM:audit]

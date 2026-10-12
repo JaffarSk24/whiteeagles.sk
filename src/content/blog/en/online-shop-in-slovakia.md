@@ -5,7 +5,7 @@ description: >-
   card payments, delivery, eKasa and VAT, and the documents that must be on the
   site. A walk-through for anyone starting out.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-12'
 key: 'online-shop'
 faq:
   - q: 'What does an online shop cost in Slovakia?'
@@ -138,6 +138,8 @@ How to set it up: [configuring GA4](/en/blog/ga4-setup/).
 I build custom online shops from 5,000€: with payments connected, delivery, the mandatory documents and measurement configured. Details on the [web development service page](/en/service/webdev/).
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
+
+How to bring buyers to a shop after launch is shown in the [Severské drevo](/en/case/severske-drevo-google-ads/) case study: a product feed, a Shopping campaign and search by product group, 324 purchases worth 134,684€ for 18,022€ of spend.
 
 Similar breakdowns for other industries: [a wholesale online store](/en/blog/wholesale-online-store/).
 

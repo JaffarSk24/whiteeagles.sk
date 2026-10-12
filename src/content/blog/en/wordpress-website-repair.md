@@ -5,7 +5,7 @@ description: >-
   through, from the cheapest check to the most expensive, what to do about a
   white screen and a hack, and what repair costs in Slovakia.
 date: '2026-08-25'
-updated: '2026-09-12'
+updated: '2026-10-12'
 key: 'wordpress-repair'
 faq:
   - q: 'What does repairing a WordPress site cost?'
@@ -129,6 +129,8 @@ At that point building afresh is cheaper than paying to keep it alive. Real pric
 I repair sites on WordPress and on custom code alike: errors after updates, white screens, malware removal, speed, broken forms. **35€/hr**, and an ordinary fault I can diagnose the same day.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**. I work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
+
+An example of this work: the [CHICAGO shooting range website](/en/case/chicago-website-fixes/) on WordPress, where I fixed a cache error and the delivery of order emails, then added a club membership form and PDF gift vouchers.
 
 Details on the [bugfix and support service page](/en/service/bugfix/). If you cannot tell what is wrong with the site: the [free technical website check](/en/seo-audit/), result within 3 working days.
 

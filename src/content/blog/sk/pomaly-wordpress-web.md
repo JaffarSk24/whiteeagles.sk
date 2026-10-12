@@ -5,6 +5,7 @@ description: >-
   ho zrýchliť a koľko to stojí. A kedy narazíte na strop, ktorý žiadny plugin
   na zrýchlenie neprerazí.
 date: '2026-09-12'
+updated: '2026-10-12'
 key: 'slow-wordpress'
 faq:
   - q: 'Ako zistím, či je môj web naozaj pomalý?'
@@ -107,6 +108,8 @@ Pomalosť sa vracia s každým novým pluginom, sliderom a meracím kódom. Pom�
 Zrýchľujem WordPress weby aj weby na mieru: meranie, cache, obrázky, pluginy, skripty tretích strán, server. **Hodinová sadzba 35€**, najprv zmeriam a poviem, koľko práce to bude a čo to prinesie, ešte pred zásahom. Ak je strop v téme, poviem to rovno a neúčtujem hodiny, ktoré sa nevrátia. Hosting za vás neprevádzkujem, pomôžem však vybrať taký, ktorý web nebrzdí.
 
 Nové weby staviam na modernom stacku, rýchle svojou stavbou. Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, napríklad [Biliardovňa](/sk/case/biliardovna/) s online rezerváciou stolov. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
+
+Príklad z praxe: na [webe strelnice CHICAGO](/sk/case/chicago-uprava-webu/) cache plugin W3 Total Cache hlásil chybu na PHP 8, opravené v kóde pluginu.
 
 Detaily na [stránke služby „Oprava webstránky a WordPress webu"](/sk/service/bugfix/). Ak neviete, čo presne web brzdí, [bezplatný audit](/sk/seo-audit/) to zmeria, výsledok do 3 pracovných dní.
 

@@ -1334,5 +1334,29 @@
       "success": "Prijaté. Ozvem sa počas pracovného dňa a poviem, v čom je problém a čo to bude stáť.",
       "error": "Niečo sa pokazilo. Skúste to znova alebo napíšte na welcome@whiteeagles.sk."
     }
+  },
+  "home_cases": {
+    "title": "Reklama v číslach",
+    "all": "Všetky projekty: weby a reklama",
+    "items": [
+      {
+        "case": "ads-severske-drevo",
+        "value": "134 684€",
+        "label": "objednávok z Google Ads pri výdavkoch 18 022€",
+        "client": "Severské drevo"
+      },
+      {
+        "case": "chicago",
+        "value": "92 objednávok",
+        "label": "a 62 hovorov z reklamy vo vyhľadávaní",
+        "client": "CHICAGO"
+      },
+      {
+        "case": "ads-ram-service",
+        "value": "3,79€",
+        "label": "za hovor z Meta reklamy, 21 hovorov za týždeň",
+        "client": "RAM service"
+      }
+    ]
   }
 }

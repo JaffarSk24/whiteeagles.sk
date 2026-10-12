@@ -5,6 +5,7 @@ description: >-
   the order the chain breaks: from irrelevant queries and uncounted conversions
   to the landing page and a form that silently sends nothing.
 date: '2026-08-04'
+updated: '2026-10-12'
 key: 'ads-no-leads'
 faq:
   - q: 'Ads have run for a month with zero enquiries. Is that normal?'
@@ -132,6 +133,8 @@ The first four cover most cases and take under an hour.
 I go through the campaigns and the site, find where the chain breaks and say what to fix first. It often turns out the advertising was fine and the enquiries were not being counted, and switching it off was the mistake.
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
+
+Two such stories from practice. For [RAM service](/en/case/ram-service-meta-ads/) a traffic campaign brought no calls in three months, and after switching to the calls objective it brought 21 calls in a week. For [Môj servis Kramáre](/en/case/moj-servis-google-ads/) more than 1,200 paid visits went to the price list and ended in a single conversion.
 
 Details: [advertising setup](/en/service/ads/) and [web analytics](/en/service/analytics/). If you have a site and are unsure what to do with it, the [free audit](/en/seo-audit/) comes back within 3 working days.
 

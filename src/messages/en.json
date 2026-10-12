@@ -1294,5 +1294,29 @@
       "success": "Received. I will get back to you within the working day with what is wrong and what it costs.",
       "error": "Something went wrong. Please try again or write to welcome@whiteeagles.sk."
     }
+  },
+  "home_cases": {
+    "title": "Advertising in numbers",
+    "all": "All case studies: websites and ads",
+    "items": [
+      {
+        "case": "ads-severske-drevo",
+        "value": "134,684€",
+        "label": "of orders from Google Ads for 18,022€ of spend",
+        "client": "Severské drevo"
+      },
+      {
+        "case": "chicago",
+        "value": "92 orders",
+        "label": "and 62 calls from search ads",
+        "client": "CHICAGO"
+      },
+      {
+        "case": "ads-ram-service",
+        "value": "3.79€",
+        "label": "per call from Meta ads, 21 calls in a week",
+        "client": "RAM service"
+      }
+    ]
   }
 }

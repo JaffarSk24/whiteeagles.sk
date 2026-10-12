@@ -5,7 +5,7 @@ description: >-
   udalosti, kľúčové udalosti, prepojenie so Search Console a Ads. A päť chýb,
   pre ktoré je v prehľadoch nula konverzií, hoci dopyty chodia.
 date: '2026-08-04'
-updated: '2026-09-14'
+updated: '2026-10-12'
 key: 'ga4-setup'
 faq:
   - q: 'Prečo je v GA4 nula konverzií, hoci dopyty chodia?'
@@ -141,6 +141,8 @@ Ak vám GA4 nastavoval niekto iný a chcete overiť celé nastavenie, nie iba do
 Nastavím GA4, Tag Manager a Consent Mode tak, aby čísla zodpovedali skutočnosti, a ukážem, odkiaľ dopyty naozaj prichádzajú. Detaily na [stránke služby „Profesionálne nastavenie GA4"](/sk/service/analytics/).
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
+
+Ako meranie mení reklamu, vidno na prípadových štúdiách: pri [TOP SKLAD](/sk/case/top-sklad-reklama-google/) je konverziou len zaplatený prenájom overený v databáze objednávok a v [Severské drevo](/sk/case/severske-drevo-reklama-google/) prichádzajú nákupy do Google aj s hodnotou objednávky.
 
 K téme: [server-side GTM: kedy sa oplatí](/sk/blog/server-side-gtm-nastavenie/), [SEO audit webu svojpomocne](/sk/blog/seo-audit-check-website/) a [prečo je cookie lišta povinná](/sk/blog/cookie-lista-2026-povinnosti/).
 

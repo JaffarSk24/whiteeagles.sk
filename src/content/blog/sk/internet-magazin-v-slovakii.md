@@ -5,7 +5,7 @@ description: >-
   e-shopu na mieru, výpočet na tri roky, platba kartou, doprava, eKasa a DPH,
   povinné dokumenty na webe. Rozbor pre tých, ktorí začínajú.
 date: '2026-08-04'
-updated: '2026-10-05'
+updated: '2026-10-12'
 key: 'online-shop'
 faq:
   - q: 'Koľko stojí tvorba e-shopu na Slovensku?'
@@ -155,6 +155,8 @@ Ako to nastaviť: v článku [nastavenie GA4](/sk/blog/nastavenie-google-analyti
 Robím e-shopy na mieru: od 5 000€, so zapojenými platbami, dopravou, povinnými dokumentmi a nastaveným meraním. Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/).
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
+
+Ako privádzať zákazníkov do obchodu po spustení, ukazuje prípadová štúdia [Severské drevo](/sk/case/severske-drevo-reklama-google/): produktový feed, nákupná kampaň a vyhľadávanie podľa skupín produktov, 324 nákupov za 134 684€ pri výdavkoch 18 022€.
 
 Podobné rozbory pre ďalšie odvetvia: [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
 

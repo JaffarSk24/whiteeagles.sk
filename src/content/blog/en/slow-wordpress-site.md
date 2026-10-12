@@ -5,6 +5,7 @@ description: >-
   to speed it up in, and what it costs. And when you hit a ceiling no speed
   plugin will break through.
 date: '2026-09-12'
+updated: '2026-10-12'
 key: 'slow-wordpress'
 faq:
   - q: 'How do I tell whether my site is really slow?'
@@ -107,6 +108,8 @@ Slowness returns with every new plugin, slider and tracking code. A simple rule 
 I speed up WordPress and custom sites: measurement, caching, images, plugins, third-party scripts, the server. **35€/hr**; I measure first and state the work and the expected result before touching anything. If the ceiling is the theme, I say so plainly and do not bill hours that will not pay back. I do not run hosting for you, but I will help choose hosting that does not slow the site down.
 
 I build new sites on a modern stack, fast by construction. I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, such as [Biliardovňa](/en/case/biliardovna/) with online table booking. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
+
+An example from practice: on the [CHICAGO shooting range website](/en/case/chicago-website-fixes/) the W3 Total Cache plugin threw an error on PHP 8, fixed in the plugin code.
 
 Details on the [website repair service page](/en/service/bugfix/). If you do not know what exactly slows the site, the [free audit](/en/seo-audit/) will measure it, with results within 3 working days.
 

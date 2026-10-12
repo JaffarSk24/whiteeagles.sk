@@ -5,7 +5,7 @@ description: >-
   as a system state, sizes and prices on the page, enquiries that arrive.
   With prices.
 date: '2026-09-20'
-updated: '2026-10-04'
+updated: '2026-10-12'
 key: 'storage-rental-website'
 faq:
   - q: 'What does a website for storage or box rental cost?'
@@ -106,6 +106,8 @@ Average delivery is 10 working days, and 95% of projects fit within 15. Included
 I build sites for companies that rent out a limited number of places: the site, the availability system, the enquiry forms, the Google profile and the measurement. I do not write rental contracts, do not handle legal or accounting matters and do not manage the units; that stays with you.
 
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, among them [TOP SKLAD](/en/case/top-sklad/), [TOP KOBKA](/en/case/top-kobka/) and the booking sites [Biliardovňa](/en/case/biliardovna/) and [Krása štúdio OK](/en/case/studio-krasy/). I work as a Slovak s.r.o. in Bratislava, issue a faktúra with an IČO, and work in Slovak and Russian.
+
+How to bring tenants to such a site with ads is covered in the [TOP SKLAD Google Ads case study](/en/case/top-sklad-google-ads/): only a paid rental counts as a conversion there.
 
 Details on the [web development service page](/en/service/webdev/). If you already have a site and no enquiries come, the [free audit](/en/seo-audit/) shows where they are being lost.
 

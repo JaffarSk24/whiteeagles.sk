@@ -5,7 +5,7 @@ description: >-
   kontroly po najdrahšiu, čo robiť pri bielej stránke a napadnutí, a koľko
   oprava stojí na Slovensku.
 date: '2026-08-25'
-updated: '2026-09-12'
+updated: '2026-10-12'
 key: 'wordpress-repair'
 faq:
   - q: 'Koľko stojí oprava WordPress stránky?'
@@ -129,6 +129,8 @@ Vtedy je lacnejšie postaviť nanovo než ďalej platiť za udržiavanie. Reáln
 Opravujem weby na WordPresse aj na vlastnom kóde: chyby po aktualizácii, biela stránka, odstránenie škodlivého kódu, zrýchlenie, nefunkčné formuláre. **Hodinová sadzba 35€**, bežnú poruchu viem diagnostikovať v ten istý deň.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO, ktorú si dáte do nákladov.
+
+Príklad takej práce: [web strelnice CHICAGO](/sk/case/chicago-uprava-webu/) na WordPresse, kde som opravil chybu cache a doručovanie e-mailov o objednávkach a potom pridal prihlášku do klubu a darčekové poukazy v PDF.
 
 Detaily na [stránke služby „Oprava chýb a úpravy"](/sk/service/bugfix/). Ak neviete, čo presne je s webom - [technická kontrola webu zdarma](/sk/seo-audit/), výsledok do 3 pracovných dní.
 

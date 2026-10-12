@@ -5,6 +5,7 @@ description: >-
   never be run blind, where maintenance ends and development begins, and what
   it all costs. And why a site on a modern stack needs a fraction of the upkeep.
 date: '2026-09-12'
+updated: '2026-10-12'
 key: 'wordpress-maintenance'
 faq:
   - q: 'What does WordPress maintenance include?'
@@ -123,6 +124,8 @@ If you look after the site yourself, this is the monthly minimum:
 I maintain existing WordPress sites: updates with a backup and testing, off-server backups, PHP version changes, small changes, and repairs after bad updates. I bill hourly at **35€**, with no flat fee for months when nothing is done. I do not sell hosting or plugin licences; my part is the work on the site.
 
 I build new sites on a modern stack that need a fraction of the upkeep, and each comes with **six months of free support**. I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**, such as [Krása štúdio OK](/en/case/studio-krasy/) with booking through Telegram. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
+
+An example of such support: the [CHICAGO shooting range website](/en/case/chicago-website-fixes/) on WordPress and WooCommerce, with cache and email fixes and improvements built in a child theme and separate plugins, so updates do not overwrite them.
 
 Details on the [website repair service page](/en/service/bugfix/). If you want to know what state your site is in today, the [free audit](/en/seo-audit/) returns results within 3 working days.
 

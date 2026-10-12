@@ -5,6 +5,7 @@ description: >-
   koľko stojí vstup do každej, ktoré chyby kampaň zabijú a čím začať, keď je
   rozpočet len jeden.
 date: '2026-08-07'
+updated: '2026-10-12'
 key: 'ads-google-vs-meta'
 faq:
   - q: 'Čo si vybrať, keď je rozpočet len na jednu platformu?'
@@ -135,6 +136,8 @@ Pozriem sa na vašu niku, overím dopyt vo vyhľadávaní a ešte skôr, než č
 Hodinová sadzba **25€**, plný rozbeh kampaní začína približne **od 1 000€**. Rozpočet na samotnú reklamu v tom nie je: platíte ho priamo Googlu alebo Mete zo svojho účtu, a účet sa vedie na vás. Štatistika zostáva vaša za každých okolností.
 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
+
+Ako to vyzerá v praxi: obchod s drevom [Severské drevo](/sk/case/severske-drevo-reklama-google/) predáva cez Google, 324 nákupov za 134 684€, a servisu elektroniky [RAM service](/sk/case/ram-service-reklama-meta/) Google reklamu na opravy nepustí, takže hovory prináša Meta: 21 hovorov za týždeň po 3,79€.
 
 Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [reklama beží, dopyty nechodia](/sk/blog/reklama-bezi-dopyty-nechodia/).
 

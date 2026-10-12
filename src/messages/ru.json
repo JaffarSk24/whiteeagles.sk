@@ -1298,5 +1298,29 @@
       "success": "Принято. Свяжусь с Вами в течение рабочего дня и скажу, в чём дело и сколько это будет стоить.",
       "error": "Что-то пошло не так. Попробуйте снова или напишите на welcome@whiteeagles.sk."
     }
+  },
+  "home_cases": {
+    "title": "Реклама в цифрах",
+    "all": "Все кейсы: сайты и реклама",
+    "items": [
+      {
+        "case": "ads-severske-drevo",
+        "value": "134 684€",
+        "label": "заказов с Google Ads при расходе 18 022€",
+        "client": "Severské drevo"
+      },
+      {
+        "case": "chicago",
+        "value": "92 заказа",
+        "label": "и 62 звонка с поисковой рекламы",
+        "client": "CHICAGO"
+      },
+      {
+        "case": "ads-ram-service",
+        "value": "3,79€",
+        "label": "за звонок из рекламы в Meta, 21 звонок за неделю",
+        "client": "RAM service"
+      }
+    ]
   }
 }

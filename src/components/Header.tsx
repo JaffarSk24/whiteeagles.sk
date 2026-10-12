@@ -109,15 +109,12 @@ export const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
           >
             {t("services")}
           </a>
-          <a
-            href="/#portfolio"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToSection("portfolio");
-            }}
-          >
+          {/* The full case list, not the carousel on the home page: since
+              12 Oct 2026 it holds the advertising cases too, and a real link
+              in the header reaches it from every page. */}
+          <Link href="/portfolio/" onClick={() => setIsMobileMenuOpen(false)}>
             {t("portfolio")}
-          </a>
+          </Link>
           <a
             href="/#testimonials"
             onClick={(e) => {

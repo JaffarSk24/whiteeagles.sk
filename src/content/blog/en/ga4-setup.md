@@ -5,7 +5,7 @@ description: >-
   v2: events, key events, linking Search Console and Ads. Plus five mistakes
   that leave reports showing zero conversions while enquiries keep arriving.
 date: '2026-08-04'
-updated: '2026-09-14'
+updated: '2026-10-12'
 key: 'ga4-setup'
 faq:
   - q: 'Why does GA4 show zero conversions when enquiries are arriving?'
@@ -141,6 +141,8 @@ If someone else set up your GA4 and you want to check the whole configuration, n
 I will configure GA4, Tag Manager and Consent Mode so the numbers match reality, and show where the enquiries actually come from. Details on the [web analytics service page](/en/service/analytics/).
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
+
+How measurement changes advertising shows in the case studies: for [TOP SKLAD](/en/case/top-sklad-google-ads/) only a paid rental checked against the order database counts as a conversion, and at [Severské drevo](/en/case/severske-drevo-google-ads/) purchases reach Google together with the order value.
 
 Related: [server-side GTM: when it pays off](/en/blog/server-side-gtm-setup/), [the DIY SEO audit](/en/blog/seo-audit-yourself/) and [why a cookie banner is mandatory](/en/blog/cookie-banner-2026/).
 

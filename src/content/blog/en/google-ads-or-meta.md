@@ -5,6 +5,7 @@ description: >-
   suits which, what entry costs on each, the mistakes that kill a campaign, and
   where to start when there is budget for only one.
 date: '2026-08-07'
+updated: '2026-10-12'
 key: 'ads-google-vs-meta'
 faq:
   - q: 'Which do I choose if there is budget for only one platform?'
@@ -135,6 +136,8 @@ I will look at your niche, check search demand and say plainly which platform to
 My hourly rate is **25€**; a full campaign launch starts at roughly **1,000€**. The advertising budget itself is separate: you pay that directly to Google or Meta from your own account, and the account is registered to you: the statistics stay yours whatever happens next.
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
+
+What this looks like in practice: the timber shop [Severské drevo](/en/case/severske-drevo-google-ads/) sells through Google, 324 purchases worth 134,684€, while Google rejects repair ads for the electronics service [RAM service](/en/case/ram-service-meta-ads/), so its calls come from Meta: 21 calls in a week at 3.79€ each.
 
 Details on the [advertising service page](/en/service/ads/). Related: [Google Ads: how not to waste the budget](/en/blog/google-ads-getting-started/) and [ads running, no enquiries](/en/blog/ads-running-no-leads/).
 

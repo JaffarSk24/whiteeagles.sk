@@ -5,7 +5,7 @@ description: >-
   voľné miesta ako stav systému, rozmery a ceny na stránke, dopyty, ktoré dôjdu.
   S cenami.
 date: '2026-09-20'
-updated: '2026-10-04'
+updated: '2026-10-12'
 key: 'storage-rental-website'
 faq:
   - q: 'Koľko stojí web pre prenájom skladov alebo boxov?'
@@ -106,6 +106,8 @@ Priemerné dodanie je 10 pracovných dní, 95% projektov do 15. V cene: formulá
 Robím weby pre firmy, ktoré prenajímajú obmedzený počet miest: web, systém obsadenosti, dopytové formuláre, profil na Googli a meranie. Nájomné zmluvy nepíšem, právne a účtovné veci nerobím a jednotky nespravujem; to zostáva na vás.
 
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, medzi nimi [TOP SKLAD](/sk/case/top-sklad/), [TOP KOBKA](/sk/case/top-kobka/) a rezervačné weby [Biliardovňa](/sk/case/biliardovna/) a [Krása štúdio OK](/sk/case/studio-krasy/). Pracujem ako slovenské s.r.o. v Bratislave, vystavujem faktúru s IČO, komunikujem po slovensky aj po rusky.
+
+Ako na takýto web privádzať nájomcov reklamou, rozoberá [prípadová štúdia TOP SKLAD o Google Ads](/sk/case/top-sklad-reklama-google/): konverziou je tam len zaplatený prenájom.
 
 Detaily na [stránke služby „Tvorba webstránok“](/sk/service/webdev/). Ak web už máte a dopyty nechodia, [bezplatný audit](/sk/seo-audit/) ukáže, kde sa strácajú.
 

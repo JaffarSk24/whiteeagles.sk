@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { services, serviceSlug } from "../../data/services";
+import { getCaseSlugForLocale } from "../../utils/cases";
 import {
   FileText,
   Users,
@@ -166,9 +167,14 @@ export default function HomeContent() {
   const tServicesNS = useTranslations("services");
   const tPortfolio = useTranslations("portfolio");
   const tCommon = useTranslations("common");
-  const tCases = useTranslations("cases");
   const tAbout = useTranslations("about");
   const tFaq = useTranslations("home_faq");
+  const tHomeCases = useTranslations("home_cases");
+  // The three strongest advertising results, each linked to its case. The
+  // messages hold the case key, not a path: the slug differs per language.
+  const adResults = (tHomeCases.raw("items") as { case: string; value: string; label: string; client: string }[])
+    .map((item) => ({ ...item, slug: getCaseSlugForLocale(item.case, locale) }))
+    .filter((item) => item.slug);
   const faqItems = tFaq.raw("items") as { q: string; a: string }[];
 
   return (
@@ -303,10 +309,28 @@ export default function HomeContent() {
           <FadeInSection>
             <h2 className="section-title">{tPortfolio("title")}</h2>
             <PortfolioCarousel />
+
+            {/* The carousel shows websites only; the advertising cases (since
+                12 Oct 2026) get their headline numbers here. */}
+            <div className="home-ad-results">
+              <h3 className="home-ad-results-title">{tHomeCases("title")}</h3>
+              <ul className="home-ad-results-grid">
+                {adResults.map((item) => (
+                  <li key={item.case}>
+                    <Link href={`/case/${item.slug}/` as any} className="home-ad-result">
+                      <span className="home-ad-result-value">{item.value}</span>
+                      <span className="home-ad-result-label">{item.label}</span>
+                      <span className="home-ad-result-client">{item.client} →</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
             {/* The carousel is a client component; the index page below it is
                 what search engines can actually crawl into. */}
             <div className="portfolio-all-link">
-              <Link href="/portfolio/">{tCases("title")} →</Link>
+              <Link href="/portfolio/" className="portfolio-all-btn">{tHomeCases("all")} →</Link>
             </div>
           </FadeInSection>
         </div>

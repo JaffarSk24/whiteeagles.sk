@@ -5,6 +5,7 @@ description: >-
   aktualizácia nesmie robiť naslepo, kde končí údržba a začína vývoj a koľko
   to celé stojí. A prečo je pri webe na modernom stacku údržby rádovo menej.
 date: '2026-09-12'
+updated: '2026-10-12'
 key: 'wordpress-maintenance'
 faq:
   - q: 'Čo zahŕňa údržba WordPress webu?'
@@ -123,6 +124,8 @@ Ak sa o web staráte sami, toto je minimum raz mesačne:
 Udržiavam existujúce WordPress weby: aktualizácie so zálohou a testom, zálohy mimo servera, zmena verzie PHP, drobné úpravy a opravy po zlých aktualizáciách. Účtujem hodinovo po **35€**, bez paušálu za čas, keď sa nič nerobí. Hosting ani licencie pluginov nepredávam, moja časť je práca na webe.
 
 Nové weby staviam na modernom stacku, s údržbou rádovo menšou, a ku každému dávam **šesť mesiacov podpory zadarmo**. Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, napríklad [Krása štúdio OK](/sk/case/studio-krasy/) s objednávaním cez Telegram. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
+
+Príklad takej správy: [web strelnice CHICAGO](/sk/case/chicago-uprava-webu/) na WordPresse a WooCommerce, opravy cache a pošty a úpravy cez detskú tému a samostatné pluginy, aby ich aktualizácie neprepísali.
 
 Detaily na [stránke služby „Oprava webstránky a WordPress webu"](/sk/service/bugfix/). Ak chcete vedieť, v akom stave je váš web dnes, [bezplatný audit](/sk/seo-audit/) s výsledkom do 3 pracovných dní.
 
