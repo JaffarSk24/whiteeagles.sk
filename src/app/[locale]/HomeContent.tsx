@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { services, serviceSlug } from "../../data/services";
@@ -14,17 +12,154 @@ import {
   CircleDollarSign,
   Bitcoin,
   RussianRuble,
+  Zap,
+  Award,
 } from "lucide-react";
 import { ClientCarousel } from "../../components/ClientCarousel";
 import { PortfolioCarousel } from "../../components/PortfolioCarousel";
 import { FadeInSection } from "../../components/FadeInSection";
-import { trackGAEvent } from "../../utils/analytics";
-import { useOrderModal } from "../../components/AppShell";
-import { HeroSection, TestimonialsSection, InlineContactForm } from "./HeroAndExtras";
+import { HeroActions, OrderButton, ScrollToHash, InlineContactForm } from "./HomeInteractive";
 import "./Home.css";
 import "./HeroAndExtras.css";
 
-export default function HomeClient() {
+// The home page, rendered on the server. The browser receives finished HTML
+// and runs code only for the parts that react to the visitor: the hero and
+// order buttons, the two carousels, the fade-ins and the contact form
+// (HomeInteractive.tsx). Their texts are passed to them already translated,
+// so the layout does not have to ship this page's messages to the browser.
+
+// =========================================
+// HERO SECTION
+// =========================================
+function HeroSection() {
+  const t = useTranslations("hero");
+
+  return (
+    <section className="hero-section">
+      <div className="hero-bg-glow" />
+      <div className="container hero-content">
+        {/* Left: text */}
+        <div className="hero-text">
+          <div className="hero-badge">
+            <span className="hero-badge-dot" />
+            {t("location")}
+          </div>
+
+          <h1 className="hero-title">
+            {t("title")}
+          </h1>
+
+          <p className="hero-subtitle">{t("subtitle")}</p>
+
+          <HeroActions cta={t("cta")} ctaSecondary={t("cta_secondary")} />
+
+          <div className="hero-stats">
+            <div className="hero-stat">
+              <span className="hero-stat-number">{t("stat1_num")}</span>
+              <span className="hero-stat-label">{t("stat1_label")}</span>
+            </div>
+            <div className="hero-stat">
+              <span className="hero-stat-number">{t("stat2_num")}</span>
+              <span className="hero-stat-label">{t("stat2_label")}</span>
+            </div>
+            <div className="hero-stat">
+              <span className="hero-stat-number">{t("stat3_num")}</span>
+              <span className="hero-stat-label">{t("stat3_label")}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Right: portrait + floating cards */}
+        <div className="hero-visual">
+          <div className="hero-portrait-wrapper">
+            <div className="hero-portrait-glow" />
+
+            {/* Floating card top-left */}
+            <div className="hero-float-card card-top">
+              <div className="float-card-icon">
+                <Zap size={18} />
+              </div>
+              <div className="float-card-text">
+                <span className="float-card-title">{t("float1_title")}</span>
+                <span className="float-card-sub">{t("float1_sub")}</span>
+              </div>
+            </div>
+
+            <picture>
+              <source srcSet="/assets/me-small.webp" media="(max-width: 768px)" type="image/webp" />
+              <source srcSet="/assets/me.webp" type="image/webp" />
+              <img
+                src="/assets/me.jpg"
+                alt="Kirill Mosin — White Eagles & Co."
+                className="hero-portrait-img"
+                width={800}
+                height={1024}
+                // The portrait is the largest element of the first screen on
+                // every device: the browser should fetch it ahead of the
+                // scripts and the images further down.
+                fetchPriority="high"
+              />
+            </picture>
+
+            {/* Floating card bottom-right */}
+            <div className="hero-float-card card-bottom">
+              <div className="float-card-icon">
+                <Award size={18} />
+              </div>
+              <div className="float-card-text">
+                <span className="float-card-title">{t("float2_title")}</span>
+                <span className="float-card-sub">{t("float2_sub")}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// =========================================
+// TESTIMONIALS SECTION
+// =========================================
+function TestimonialsSection() {
+  const t = useTranslations("testimonials");
+  const items = [
+    { name: t("items.0.name"), role: t("items.0.role"), text: t("items.0.text") },
+    { name: t("items.1.name"), role: t("items.1.role"), text: t("items.1.text") },
+    { name: t("items.2.name"), role: t("items.2.role"), text: t("items.2.text") },
+  ];
+
+  return (
+    <section id="testimonials" className="testimonials-section">
+      <div className="container">
+        <h2 className="section-title">{t("title")}</h2>
+        <div className="testimonials-grid">
+          {items.map((item, i) => (
+            <div key={i} className="testimonial-card">
+              <div className="testimonial-stars">
+                {Array.from({ length: 5 }).map((_, si) => (
+                  <Star key={si} size={16} fill="#fbbf24" strokeWidth={0} />
+                ))}
+              </div>
+              <p className="testimonial-text">{item.text}</p>
+              <div className="testimonial-author">
+                <div className="testimonial-avatar">
+                  {item.name.charAt(0)}
+                </div>
+                <div className="testimonial-author-info">
+                  <span className="testimonial-author-name">{item.name}</span>
+                  <span className="testimonial-author-role">{item.role}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default function HomeContent() {
   const t = useTranslations();
   const locale = useLocale();
   const tSteps = useTranslations("steps");
@@ -35,23 +170,6 @@ export default function HomeClient() {
   const tAbout = useTranslations("about");
   const tFaq = useTranslations("home_faq");
   const faqItems = tFaq.raw("items") as { q: string; a: string }[];
-
-  const { openOrderModal } = useOrderModal();
-
-  useEffect(() => {
-    if (window.location.hash) {
-      const id = window.location.hash.substring(1);
-      const element = document.getElementById(id);
-      if (element) {
-        setTimeout(() => {
-          const headerOffset = 80;
-          const elementPosition = element.getBoundingClientRect().top;
-          const offsetPosition = elementPosition + window.scrollY - headerOffset;
-          window.scrollTo({ top: offsetPosition, behavior: "smooth" });
-        }, 100);
-      }
-    }
-  }, []);
 
   return (
     <div className="home-page">
@@ -112,9 +230,9 @@ export default function HomeClient() {
                     >
                       {tServicesNS("more_info")}
                     </Link>
-                    <button className="btn btn-primary" onClick={() => openOrderModal(service.id)}>
+                    <OrderButton className="btn btn-primary" serviceId={service.id}>
                       {tServicesNS("apply")}
-                    </button>
+                    </OrderButton>
                   </div>
                 </div>
               ))}
@@ -211,9 +329,8 @@ export default function HomeClient() {
                 </div>
                 <h3>1. {tSteps("request")}</h3>
                 <p>
-                  <button
+                  <OrderButton
                     type="button"
-                    onClick={() => openOrderModal()}
                     style={{
                       background: "none",
                       border: "none",
@@ -226,7 +343,7 @@ export default function HomeClient() {
                     }}
                   >
                     {tSteps("request_desc_link")}
-                  </button>{" "}
+                  </OrderButton>{" "}
                   {tSteps("request_desc_rest")}
                 </p>
               </div>
@@ -290,6 +407,7 @@ export default function HomeClient() {
         <InlineContactForm />
       </FadeInSection>
 
+      <ScrollToHash />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { ogImageFor } from "@/utils/ogImage";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { pickClientMessages } from "@/i18n/clientMessages";
 import { AppShell } from "@/components/AppShell";
 import { JsonLd } from "@/components/JsonLd";
 import Script from "next/script";
@@ -209,7 +210,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             />
           </noscript>
         )}
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={pickClientMessages(messages)}>
           <AppShell>
             {children}
           </AppShell>

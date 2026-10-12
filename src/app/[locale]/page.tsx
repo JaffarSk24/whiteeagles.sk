@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import HomeClient from "./HomeClient";
+import HomeContent from "./HomeContent";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -16,7 +16,7 @@ export default async function Home({
   const tFaq = await getTranslations({ locale, namespace: "home_faq" });
   const faq = tFaq.raw("items") as { q: string; a: string }[];
 
-  // One FAQPage per page, describing the FAQ section HomeClient renders below
+  // One FAQPage per page, describing the FAQ section HomeContent renders below
   // - the questions are visible, so the markup is honest.
   const faqSchema = {
     "@context": "https://schema.org",
@@ -35,7 +35,7 @@ export default async function Home({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <HomeClient />
+      <HomeContent />
     </>
   );
 }

@@ -1,18 +1,21 @@
 "use client";
 
-import React, { useState } from "react";
+// The interactive pieces of the home page. Everything else on it is rendered
+// on the server by HomeContent.tsx: until 12 Oct 2026 the whole page was one
+// client component, so the phone had to run the code for every static block
+// again while loading, and formatting the payment note alone cost a 56 ms
+// task (4x slowed CPU) in the middle of it.
+
+import React, { useEffect, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { Star, ArrowRight, Zap, Award, ChevronDown, Send, MessageCircle, Mail } from "lucide-react";
+import { ArrowRight, Send, MessageCircle, Mail } from "lucide-react";
 import { useOrderModal } from "../../components/AppShell";
 import { trackGAEvent } from "../../utils/analytics";
-import Image from "next/image";
 
 // =========================================
-// HERO SECTION
+// HERO BUTTONS
 // =========================================
-export function HeroSection() {
-  const t = useTranslations("hero");
-
+export function HeroActions({ cta, ctaSecondary }: { cta: string; ctaSecondary: string }) {
   const { openOrderModal } = useOrderModal();
 
   const scrollToClients = () => {
@@ -24,141 +27,67 @@ export function HeroSection() {
   };
 
   return (
-    <section className="hero-section">
-      <div className="hero-bg-glow" />
-      <div className="container hero-content">
-        {/* Left: text */}
-        <div className="hero-text">
-          <div className="hero-badge">
-            <span className="hero-badge-dot" />
-            {t("location")}
-          </div>
-
-          <h1 className="hero-title">
-            {t("title")}
-          </h1>
-
-          <p className="hero-subtitle">{t("subtitle")}</p>
-
-          <div className="hero-cta-group">
-            <button
-              className="btn btn-activate"
-              onClick={() => {
-                trackGAEvent("cta_click", { location: "hero_primary" });
-                openOrderModal();
-              }}
-            >
-              {t("cta")}
-            </button>
-            <button className="hero-cta-secondary" onClick={scrollToClients}>
-              {t("cta_secondary")} <ArrowRight size={16} />
-            </button>
-          </div>
-
-          <div className="hero-stats">
-            <div className="hero-stat">
-              <span className="hero-stat-number">{t("stat1_num")}</span>
-              <span className="hero-stat-label">{t("stat1_label")}</span>
-            </div>
-            <div className="hero-stat">
-              <span className="hero-stat-number">{t("stat2_num")}</span>
-              <span className="hero-stat-label">{t("stat2_label")}</span>
-            </div>
-            <div className="hero-stat">
-              <span className="hero-stat-number">{t("stat3_num")}</span>
-              <span className="hero-stat-label">{t("stat3_label")}</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Right: portrait + floating cards */}
-        <div className="hero-visual">
-          <div className="hero-portrait-wrapper">
-            <div className="hero-portrait-glow" />
-
-            {/* Floating card top-left */}
-            <div className="hero-float-card card-top">
-              <div className="float-card-icon">
-                <Zap size={18} />
-              </div>
-              <div className="float-card-text">
-                <span className="float-card-title">{t("float1_title")}</span>
-                <span className="float-card-sub">{t("float1_sub")}</span>
-              </div>
-            </div>
-
-            <picture>
-              <source srcSet="/assets/me-small.webp" media="(max-width: 768px)" type="image/webp" />
-              <source srcSet="/assets/me.webp" type="image/webp" />
-              <img
-                src="/assets/me.jpg"
-                alt="Kirill Mosin — White Eagles & Co."
-                className="hero-portrait-img"
-                width={800}
-                height={1024}
-                // The portrait is the largest element of the first screen on
-                // every device: the browser should fetch it ahead of the
-                // scripts and the images further down.
-                fetchPriority="high"
-              />
-            </picture>
-
-            {/* Floating card bottom-right */}
-            <div className="hero-float-card card-bottom">
-              <div className="float-card-icon">
-                <Award size={18} />
-              </div>
-              <div className="float-card-text">
-                <span className="float-card-title">{t("float2_title")}</span>
-                <span className="float-card-sub">{t("float2_sub")}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div className="hero-cta-group">
+      <button
+        className="btn btn-activate"
+        onClick={() => {
+          trackGAEvent("cta_click", { location: "hero_primary" });
+          openOrderModal();
+        }}
+      >
+        {cta}
+      </button>
+      <button className="hero-cta-secondary" onClick={scrollToClients}>
+        {ctaSecondary} <ArrowRight size={16} />
+      </button>
+    </div>
   );
 }
 
 // =========================================
-// TESTIMONIALS SECTION
+// ORDER BUTTON (service cards, process step 1)
 // =========================================
-export function TestimonialsSection() {
-  const t = useTranslations("testimonials");
-  const items = [
-    { name: t("items.0.name"), role: t("items.0.role"), text: t("items.0.text") },
-    { name: t("items.1.name"), role: t("items.1.role"), text: t("items.1.text") },
-    { name: t("items.2.name"), role: t("items.2.role"), text: t("items.2.text") },
-  ];
-
+export function OrderButton({
+  serviceId,
+  type,
+  className,
+  style,
+  children,
+}: {
+  serviceId?: string;
+  type?: "button";
+  className?: string;
+  style?: React.CSSProperties;
+  children: React.ReactNode;
+}) {
+  const { openOrderModal } = useOrderModal();
   return (
-    <section id="testimonials" className="testimonials-section">
-      <div className="container">
-        <h2 className="section-title">{t("title")}</h2>
-        <div className="testimonials-grid">
-          {items.map((item, i) => (
-            <div key={i} className="testimonial-card">
-              <div className="testimonial-stars">
-                {Array.from({ length: 5 }).map((_, si) => (
-                  <Star key={si} size={16} fill="#fbbf24" strokeWidth={0} />
-                ))}
-              </div>
-              <p className="testimonial-text">{item.text}</p>
-              <div className="testimonial-author">
-                <div className="testimonial-avatar">
-                  {item.name.charAt(0)}
-                </div>
-                <div className="testimonial-author-info">
-                  <span className="testimonial-author-name">{item.name}</span>
-                  <span className="testimonial-author-role">{item.role}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <button type={type} className={className} style={style} onClick={() => openOrderModal(serviceId)}>
+      {children}
+    </button>
   );
+}
+
+// =========================================
+// SCROLL TO #section WHEN THE PAGE OPENS WITH ONE
+// =========================================
+export function ScrollToHash() {
+  useEffect(() => {
+    if (window.location.hash) {
+      const id = window.location.hash.substring(1);
+      const element = document.getElementById(id);
+      if (element) {
+        setTimeout(() => {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
+          window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, []);
+
+  return null;
 }
 
 // =========================================
@@ -181,7 +110,7 @@ export function InlineContactForm() {
 
     try {
       const isEmail = form.contact.includes("@");
-      
+
       const res = await fetch("/api/send-mail.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
