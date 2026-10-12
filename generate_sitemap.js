@@ -82,11 +82,11 @@ const pathsFor = (locale) => [
 // about twenty times a day and a fresh lastmod is what pulls a page forward
 // in that queue: the service pages sat unfetched for a year without one.
 const STATIC_LASTMOD = {
-  '': '2026-10-06',
+  '': '2026-10-12',
   'blog': '2026-09-13',
   'seo-audit': '2026-09-13',
   'apps': '2026-10-12',
-  'service/webdev': '2026-10-04',
+  'service/webdev': '2026-10-12',
   'service/bugfix': '2026-09-13',
   'service/ads': '2026-10-12',
   'service/analytics': '2026-09-13',
