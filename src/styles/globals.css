@@ -12,7 +12,7 @@
   --accent-hover: #ea580c;
   
   --border-color: #556085;
-  --font-main: 'Inter', sans-serif;
+  --font-main: 'Inter', 'Inter Fallback', sans-serif;
   /* The same width as the header (Header.css, 1400px), so content lines up
      with the logo and the order button instead of sitting inside them. Inner
      pages no longer narrow it further: the owner wants less scrolling, not a
