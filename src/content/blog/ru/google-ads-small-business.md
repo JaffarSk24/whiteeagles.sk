@@ -133,4 +133,6 @@ zadarmo, zdarma, kurz, škola, práca, brigáda, návod, sám, svojpomocne,
 
 По теме: [PPC-реклама: что это и как работает](/ru/blog/ppc-reklama-chto-eto/), [Google Shopping для интернет-магазина](/ru/blog/google-shopping-dlya-internet-magazina/), [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), если ещё не решили, с какой площадки начинать, [сколько стоит реклама в Словакии](/ru/blog/skolko-stoit-reklama-v-slovakii/), [настройка GA4](/ru/blog/nastavenie-google-analytics-4/) и [SEO-аудит своими руками](/ru/blog/seo-audit-check-website/).
 
+Ещё по теме: [реклама на YouTube](/ru/blog/reklama-na-youtube-stoimost/) и [реклама в Facebook и Instagram](/ru/blog/reklama-v-facebook-i-instagram/).
+
 [CTA_FORM:audit]

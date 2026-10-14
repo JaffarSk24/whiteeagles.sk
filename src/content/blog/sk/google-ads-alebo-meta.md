@@ -141,4 +141,6 @@ Ako to vyzerá v praxi: obchod s drevom [Severské drevo](/sk/case/severske-drev
 
 Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [reklama na Facebooku a Instagrame: koľko stojí a ako ju spustiť](/sk/blog/reklama-na-facebooku-a-instagrame/), [PPC reklama](/sk/blog/ppc-reklama/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [reklama beží, dopyty nechodia](/sk/blog/reklama-bezi-dopyty-nechodia/).
 
+Súvisiace články: [reklama na YouTube](/sk/blog/reklama-na-youtube/).
+
 [CTA_FORM:audit]

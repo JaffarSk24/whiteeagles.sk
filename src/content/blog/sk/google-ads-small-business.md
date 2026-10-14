@@ -133,4 +133,6 @@ Ako to vyzerá v praxi: pri [TOP SKLAD](/sk/case/top-sklad-reklama-google/) sa a
 
 K téme: [PPC reklama: čo to je a ako funguje](/sk/blog/ppc-reklama/), [Google Nákupy pre e-shop](/sk/blog/google-nakupy-pre-eshop/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), ak ešte neviete, ktorou platformou začať, [koľko stojí reklama na Slovensku](/sk/blog/kolko-stoji-reklama-na-slovensku/), [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
+Súvisiace články: [reklama na YouTube](/sk/blog/reklama-na-youtube/) a [reklama na Facebooku a Instagrame](/sk/blog/reklama-na-facebooku-a-instagrame/).
+
 [CTA_FORM:audit]

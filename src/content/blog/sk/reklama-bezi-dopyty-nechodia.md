@@ -138,6 +138,6 @@ Dva takéto prípady z praxe. Pri [RAM service](/sk/case/ram-service-reklama-met
 
 Detaily: [správu Google Ads a Meta kampaní](/sk/service/ads/) a [webová analytika](/sk/service/analytics/). Ak pochybujete o samotnej platforme, nie o nastaveniach: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/). Ak web máte, ale neviete, čo s ním, [bezplatný SEO audit webu](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
-Súvisiace články: [meranie konverzií pre Google Ads a Meta](/sk/blog/meta-pixel-a-meranie-konverzii/).
+Súvisiace články: [meranie konverzií pre Google Ads a Meta](/sk/blog/meta-pixel-a-meranie-konverzii/) a [reklama na Facebooku a Instagrame](/sk/blog/reklama-na-facebooku-a-instagrame/).
 
 [CTA_FORM:audit]

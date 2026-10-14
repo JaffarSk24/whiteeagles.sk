@@ -141,4 +141,6 @@ faq:
 
 Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/reklama-google-ads/). По теме: [реклама в Facebook и Instagram: сколько стоит и как запустить](/ru/blog/reklama-v-facebook-i-instagram/), [PPC-реклама](/ru/blog/ppc-reklama-chto-eto/), [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [реклама идёт, а заявок нет](/ru/blog/reklama-idet-zayavok-net/).
 
+Ещё по теме: [реклама на YouTube](/ru/blog/reklama-na-youtube-stoimost/).
+
 [CTA_FORM:audit]

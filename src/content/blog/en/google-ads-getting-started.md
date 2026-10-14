@@ -133,4 +133,6 @@ What this looks like in practice: for [TOP SKLAD](/en/case/top-sklad-google-ads/
 
 Related: [PPC advertising: what it is and how it works](/en/blog/ppc-advertising/), [Google Shopping for an online shop](/en/blog/google-shopping-for-online-shops/), [Google Ads or Meta](/en/blog/google-ads-or-meta/) if you have not decided which platform to start with, [what advertising costs in Slovakia](/en/blog/google-ads-cost-slovakia/), [configuring GA4](/en/blog/ga4-setup/) and [the DIY SEO audit](/en/blog/seo-audit-yourself/).
 
+See also: [YouTube ads](/en/blog/youtube-ads-cost/) and [Facebook and Instagram ads](/en/blog/facebook-instagram-ads-cost/).
+
 [CTA_FORM:audit]

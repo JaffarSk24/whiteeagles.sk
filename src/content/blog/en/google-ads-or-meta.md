@@ -141,4 +141,6 @@ What this looks like in practice: the timber shop [Severské drevo](/en/case/sev
 
 Details on the [advertising service page](/en/service/ads/). Related: [Facebook and Instagram ads: what they cost and how to start](/en/blog/facebook-instagram-ads-cost/), [PPC advertising](/en/blog/ppc-advertising/), [Google Ads: how not to waste the budget](/en/blog/google-ads-getting-started/) and [ads running, no enquiries](/en/blog/ads-running-no-leads/).
 
+See also: [YouTube ads](/en/blog/youtube-ads-cost/).
+
 [CTA_FORM:audit]

@@ -138,6 +138,6 @@ faq:
 
 Подробности: [настройка рекламы](/ru/service/reklama-google-ads/) и [веб-аналитика](/ru/service/analytics/). Если сомневаетесь в самой площадке, а не в настройках: [Google Ads или Meta](/ru/blog/google-ads-ili-meta/). Если сайт есть, но вы не уверены, что с ним, [бесплатный SEO-аудит сайта](/ru/seo-audit/) даст результат за 3 рабочих дня. Если дело в самой посадочной странице, а не в кампаниях: [создание сайтов в Братиславе](/ru/service/webdev/).
 
-Ещё по теме: [учёт конверсий для Google Ads и Meta](/ru/blog/meta-pixel-i-uchet-konversij/).
+Ещё по теме: [учёт конверсий для Google Ads и Meta](/ru/blog/meta-pixel-i-uchet-konversij/) и [реклама в Facebook и Instagram](/ru/blog/reklama-v-facebook-i-instagram/).
 
 [CTA_FORM:audit]

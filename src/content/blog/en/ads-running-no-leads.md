@@ -138,6 +138,6 @@ Two such stories from practice. For [RAM service](/en/case/ram-service-meta-ads/
 
 Details: [advertising setup](/en/service/ads/) and [web analytics](/en/service/analytics/). If you have a site and are unsure what to do with it, the [free audit](/en/seo-audit/) comes back within 3 working days.
 
-See also: [conversion tracking for Google Ads and Meta](/en/blog/meta-pixel-conversion-tracking/).
+See also: [conversion tracking for Google Ads and Meta](/en/blog/meta-pixel-conversion-tracking/) and [Facebook and Instagram ads](/en/blog/facebook-instagram-ads-cost/).
 
 [CTA_FORM:audit]
