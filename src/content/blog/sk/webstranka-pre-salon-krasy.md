@@ -5,7 +5,7 @@ description: >-
   fotky: cenník, voľné termíny, potvrdenie cez Telegram bez dvojitých
   objednávok.
 date: '2026-09-20'
-updated: '2026-10-04'
+updated: '2026-10-14'
 key: 'beauty-salon-website'
 faq:
   - q: 'Koľko stojí web pre salón krásy?'
@@ -136,5 +136,7 @@ Robím weby pre salóny, barbershopy a štúdiá s objednávaním, ktoré potvrd
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**, medzi nimi s rezerváciou: [Krása štúdio OK](/sk/case/studio-krasy/), [Biliardovňa](/sk/case/biliardovna/), [TOP SKLAD](/sk/case/top-sklad/). Pracujem ako slovenské s.r.o. v Bratislave, vystavujem faktúru s IČO, dohovoríme sa po slovensky aj po rusky. Podobný rozbor pre gastro: [webstránka pre reštauráciu](/sk/blog/webstranka-pre-restauraciu/).
 
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/), o prepojení s Telegramom na [stránke „Telegram boti"](/sk/service/telegram/). Ak web už máte a objednávky nechodia, [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+
+Súvisiace články: [Telegram bot pre firmu](/sk/blog/telegram-bot-pre-firmu/).
 
 [CTA_FORM:audit]

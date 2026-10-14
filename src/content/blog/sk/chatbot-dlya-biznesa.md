@@ -5,6 +5,7 @@ description: >-
   praktickejší než widget na webe a kedy bot netreba. S príkladmi zo slovenskej
   praxe.
 date: '2026-08-04'
+updated: '2026-10-14'
 key: 'chatbot'
 faq:
   - q: 'Koľko stojí vývoj bota?'
@@ -131,5 +132,7 @@ Píšem botov v Pythone: prijímanie dopytov, rezervácie, upozornenia, autopost
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
 K téme: [online rezervácia na webe](/sk/blog/online-rezervacia-na-webe/), [projekt salónu s objednávaním cez Telegram](/sk/case/studio-krasy/) a [ako si Slováci vyberajú dodávateľa](/sk/blog/kak-slovaki-vybirayut-podryadchika/).
+
+Súvisiace články: [Telegram bot pre firmu](/sk/blog/telegram-bot-pre-firmu/).
 
 [CTA_FORM:consult]

@@ -4,7 +4,7 @@ description: >-
   Čo si slovenský klient overuje predtým, než napíše: údaje o firme, skutočné
   ukážky prác, zrozumiteľné ceny a recenzie. Kontrolný zoznam pre váš web.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-14'
 key: 'choosing-contractor'
 faq:
   - q: 'Čo si slovenský klient overuje ako prvé?'
@@ -113,5 +113,7 @@ Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovensk
 Súvisiace: [prečo lacný web zo zahraničia nepredáva](/sk/blog/sajt-iz-minska-ne-prodaet/), [treba web po slovensky](/sk/blog/nuzhen-li-sajt-na-slovackom/) a [stránka služby „Tvorba webstránok“](/sk/service/webdev/).
 
 Podobné rozbory pre ďalšie odvetvia: [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/), [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/).
+
+Súvisiace články: [webdizajn pre firmu](/sk/blog/webdizajn-pre-firmu/).
 
 [CTA_FORM:consult]

@@ -5,6 +5,7 @@ description: >-
   per customer, orders without public prices, buyer accounts. Prices,
   and when it is too early.
 date: '2026-09-20'
+updated: '2026-10-14'
 key: 'wholesale-online-store'
 faq:
   - q: 'What does a wholesale online store cost?'
@@ -137,5 +138,7 @@ I build wholesale shops on a modern stack: a catalogue that answers the buyer's 
 Over ten years in Slovakia, and I have launched **12+ websites for Slovak companies**, among them [BODA BODA](/en/case/bodabo/), [TOP SKLAD](/en/case/top-sklad/) and [Biliardovňa](/en/case/biliardovna/). I work as a Slovak s.r.o. in Bratislava and invoice with an IČO; we can talk in Slovak or Russian.
 
 Details on the [web development service page](/en/service/webdev/). Shop already there but no orders from it: a [free audit](/en/seo-audit/), result within 3 working days.
+
+See also: [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/).
 
 [CTA_FORM:audit]

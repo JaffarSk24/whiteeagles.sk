@@ -6,6 +6,7 @@ description: >-
   товары и сколько это стоит. С цифрами магазина, где товарная кампания
   возвращает 14€ на каждый евро.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'google-shopping'
 faq:
   - q: 'Google Shopping бесплатный?'
@@ -124,5 +125,7 @@ Merchant Center у каждого товара пишет, чего ему не 
 В Словакии живу больше десяти лет, работаю как словацкое s.r.o. и выставляю фактуру с IČO в ваши расходы. Общаемся по-русски.
 
 Подробности на [странице услуги «Реклама в Google Ads и Meta»](/ru/service/reklama-google-ads/). Кейс: [Severské drevo, 324 покупки на 134 684€](/ru/case/severske-drevo-reklama-google/). По теме: [PPC-реклама](/ru/blog/ppc-reklama-chto-eto/), [оптовый интернет-магазин](/ru/blog/optovyj-internet-magazin/).
+
+Ещё по теме: [Shoptet, Shopify или магазин на своём коде](/ru/blog/shoptet-shopify-ili-svoj-magazin/) и [учёт конверсий для Google Ads и Meta](/ru/blog/meta-pixel-i-uchet-konversij/).
 
 [CTA_FORM:audit]

@@ -155,4 +155,6 @@ Real numbers from my campaigns: a search click cost 0.20€ for the shooting ran
 
 Related: [PPC advertising: what it is and how it works](/en/blog/ppc-advertising/), [Facebook and Instagram ads](/en/blog/facebook-instagram-ads-cost/), [Google Shopping for an online shop](/en/blog/google-shopping-for-online-shops/), [Google Ads: how not to waste the budget](/en/blog/google-ads-getting-started/), [Google Ads or Meta](/en/blog/google-ads-or-meta/) and [ads running, no enquiries](/en/blog/ads-running-no-leads/).
 
+See also: [YouTube ads](/en/blog/youtube-ads-cost/) and [conversion tracking for Google Ads and Meta](/en/blog/meta-pixel-conversion-tracking/).
+
 [CTA_FORM:audit]

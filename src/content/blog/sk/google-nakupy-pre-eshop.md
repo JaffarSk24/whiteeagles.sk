@@ -5,6 +5,7 @@ description: >-
   feed, nákupná kampaň alebo Performance Max, prečo Google zamieta produkty a
   koľko to stojí. S číslami e-shopu, kde nákupná kampaň vracia 14€ za euro.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'google-shopping'
 faq:
   - q: 'Sú Google Nákupy zadarmo?'
@@ -123,5 +124,7 @@ Nastavím Merchant Center, feed, nákupnú kampaň aj Performance Max a meranie 
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
 Detaily na [stránke služby „Správa Google Ads a Meta reklamy“](/sk/service/ads/). Prípadová štúdia: [Severské drevo, 324 nákupov za 134 684€](/sk/case/severske-drevo-reklama-google/). K téme: [PPC reklama](/sk/blog/ppc-reklama/), [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
+
+Súvisiace články: [Shoptet, Shopify alebo e-shop na mieru](/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/) a [meranie konverzií pre Google Ads a Meta](/sk/blog/meta-pixel-a-meranie-konverzii/).
 
 [CTA_FORM:audit]

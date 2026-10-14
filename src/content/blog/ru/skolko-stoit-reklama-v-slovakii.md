@@ -155,4 +155,6 @@ Google не берёт фиксированную цену. Работает а�
 
 Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/reklama-google-ads/). По теме: [PPC-реклама: что это и как работает](/ru/blog/ppc-reklama-chto-eto/), [реклама в Facebook и Instagram](/ru/blog/reklama-v-facebook-i-instagram/), [Google Shopping для интернет-магазина](/ru/blog/google-shopping-dlya-internet-magazina/), [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [настройка веб-аналитики](/ru/service/analytics/).
 
+Ещё по теме: [реклама на YouTube](/ru/blog/reklama-na-youtube-stoimost/) и [учёт конверсий для Google Ads и Meta](/ru/blog/meta-pixel-i-uchet-konversij/).
+
 [CTA_FORM:audit]

@@ -5,6 +5,7 @@ description: >-
   which campaign types Google Ads and Meta offer, what a click and a budget
   cost, what a PPC specialist does and when PPC beats SEO.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'ppc-advertising'
 faq:
   - q: 'What is PPC advertising?'
@@ -142,5 +143,7 @@ I set up and manage PPC campaigns in Google Ads and Meta myself, with no account
 I have lived in Slovakia for more than ten years, work as a Slovak s.r.o. and issue invoices with a company ID for your accounts.
 
 Details on the [Google Ads and Meta ads management page](/en/service/ads/). Related: [what Google Ads costs in Slovakia](/en/blog/google-ads-cost-slovakia/), [Google Ads: not wasting the budget at the start](/en/blog/google-ads-getting-started/) and [GA4 setup](/en/blog/ga4-setup/).
+
+See also: [YouTube ads](/en/blog/youtube-ads-cost/) and [conversion tracking for Google Ads and Meta](/en/blog/meta-pixel-conversion-tracking/).
 
 [CTA_FORM:audit]

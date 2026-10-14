@@ -321,6 +321,16 @@ dajú sa nájsť cez prepínač jazykov na stránke.
   - https://whiteeagles.sk/sk/blog/reklama-na-facebooku-a-instagrame/ (ru: /ru/blog/reklama-v-facebook-i-instagram/)
 - **Google Nákupy pre e-shop: Merchant Center, feed a koľko to stojí**
   - https://whiteeagles.sk/sk/blog/google-nakupy-pre-eshop/ (ru: /ru/blog/google-shopping-dlya-internet-magazina/)
+- **Meta pixel, Conversions API a meranie konverzií pre reklamu**
+  - https://whiteeagles.sk/sk/blog/meta-pixel-a-meranie-konverzii/ (ru: /ru/blog/meta-pixel-i-uchet-konversij/)
+- **Reklama na YouTube: koľko stojí a pre koho sa oplatí**
+  - https://whiteeagles.sk/sk/blog/reklama-na-youtube/ (ru: /ru/blog/reklama-na-youtube-stoimost/)
+- **Shoptet, Shopify alebo e-shop na mieru: ako si vybrať**
+  - https://whiteeagles.sk/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/ (ru: /ru/blog/shoptet-shopify-ili-svoj-magazin/)
+- **Telegram bot pre firmu: čo dokáže a koľko stojí**
+  - https://whiteeagles.sk/sk/blog/telegram-bot-pre-firmu/ (ru: /ru/blog/telegram-bot-dlya-biznesa/)
+- **Webdizajn pre firmu: čo má dobrý dizajn webu splniť a koľko stojí**
+  - https://whiteeagles.sk/sk/blog/webdizajn-pre-firmu/ (ru: /ru/blog/veb-dizajn-dlya-biznesa/)
 - **Nastavenie GA4 v roku 2026: aby sa dopyty naozaj počítali**
   - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
 - **Online rezervácia na webe: ako funguje, komu sa oplatí a koľko stojí**

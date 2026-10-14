@@ -5,6 +5,7 @@ description: >-
   платят в Meta, почему кнопки «продвигать публикацию» мало и как запустить
   первую кампанию, которая приносит заявки и звонки, а не лайки.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'meta-ads'
 faq:
   - q: 'Сколько стоит реклама в Instagram и Facebook?'
@@ -103,5 +104,7 @@ Meta сильна там, где спрос нужно создать: чело�
 В Словакии живу больше десяти лет, работаю как словацкое s.r.o. и выставляю фактуру с IČO в ваши расходы. Общаемся по-русски.
 
 Подробности на [странице услуги «Реклама в Google Ads и Meta»](/ru/service/reklama-google-ads/). Кейсы: [RAM service](/ru/case/ram-service-reklama-meta/), [Recorder.sk](/ru/case/recorder-reklama-google-meta/). По теме: [сколько стоит реклама в Google Ads](/ru/blog/skolko-stoit-reklama-v-slovakii/) и [настройка GA4](/ru/blog/nastavenie-google-analytics-4/).
+
+Ещё по теме: [учёт конверсий для Google Ads и Meta](/ru/blog/meta-pixel-i-uchet-konversij/) и [реклама на YouTube](/ru/blog/reklama-na-youtube-stoimost/).
 
 [CTA_FORM:audit]

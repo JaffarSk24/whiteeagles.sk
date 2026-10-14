@@ -160,4 +160,6 @@ Ako privádzať zákazníkov do obchodu po spustení, ukazuje prípadová štúd
 
 Podobné rozbory pre ďalšie odvetvia: [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
 
+Súvisiace články: [Shoptet, Shopify alebo e-shop na mieru](/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/).
+
 [CTA_FORM:audit]

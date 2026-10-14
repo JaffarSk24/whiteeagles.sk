@@ -5,6 +5,7 @@ description: >-
   кампаний есть в Google Ads и Meta, сколько стоит клик и бюджет, что делает
   PPC-специалист и когда PPC выгоднее SEO.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'ppc-advertising'
 faq:
   - q: 'Что такое PPC-реклама?'
@@ -142,5 +143,7 @@ PPC-кампании в Google Ads и Meta я настраиваю и веду �
 В Словакии живу больше десяти лет, работаю как словацкое s.r.o. и выставляю фактуру с IČO в ваши расходы. Общаемся по-русски, объявления пишу на словацком, русском, украинском и английском.
 
 Подробности на [странице услуги «Реклама в Google Ads и Meta»](/ru/service/reklama-google-ads/). По теме: [сколько стоит реклама в Google Ads](/ru/blog/skolko-stoit-reklama-v-slovakii/), [Google Ads: как не слить бюджет на старте](/ru/blog/google-ads-small-business/) и [настройка GA4](/ru/blog/nastavenie-google-analytics-4/).
+
+Ещё по теме: [реклама на YouTube](/ru/blog/reklama-na-youtube-stoimost/) и [учёт конверсий для Google Ads и Meta](/ru/blog/meta-pixel-i-uchet-konversij/).
 
 [CTA_FORM:audit]

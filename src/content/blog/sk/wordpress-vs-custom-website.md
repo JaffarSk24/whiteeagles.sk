@@ -5,7 +5,7 @@ description: >-
   skutočné náklady vlastníctva, rýchlosť, bezpečnosť, povinné údaje a cookie
   lišta. Komu sedí čo a kedy je voľba jednoznačná.
 date: '2026-08-04'
-updated: '2026-09-12'
+updated: '2026-10-14'
 key: 'wordpress-vs-custom'
 faq:
   - q: 'Čo je lacnejšie: WordPress alebo web na mieru?'
@@ -126,5 +126,7 @@ Robím weby podľa zadania, nie podľa technológie. Častejšie je to Next.js a
 Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovenské firmy**: [Biliardovňa](/sk/case/biliardovna/) s rezerváciou stolov, [Krása štúdio OK](/sk/case/studio-krasy/) s objednávaním cez Telegram, [Top Sklad](/sk/case/top-sklad/) so správou voľných miest. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
 
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/). Ak sa web už pokazil, postup je v článku [oprava WordPress stránky](/sk/blog/oprava-wordpress-stranky/). Ak web už máte a neviete, čo s ním: [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
+
+Súvisiace články: [webdizajn pre firmu](/sk/blog/webdizajn-pre-firmu/) a [Shoptet, Shopify alebo e-shop na mieru](/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/).
 
 [CTA_FORM:webdev]

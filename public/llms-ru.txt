@@ -174,6 +174,11 @@ https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/
     - https://whiteeagles.sk/ru/blog/ppc-reklama-chto-eto/ (sk: /sk/blog/ppc-reklama/)
     - https://whiteeagles.sk/ru/blog/reklama-v-facebook-i-instagram/ (sk: /sk/blog/reklama-na-facebooku-a-instagrame/)
     - https://whiteeagles.sk/ru/blog/google-shopping-dlya-internet-magazina/ (sk: /sk/blog/google-nakupy-pre-eshop/)
+    - https://whiteeagles.sk/ru/blog/meta-pixel-i-uchet-konversij/ (sk: /sk/blog/meta-pixel-a-meranie-konverzii/)
+    - https://whiteeagles.sk/ru/blog/reklama-na-youtube-stoimost/ (sk: /sk/blog/reklama-na-youtube/)
+    - https://whiteeagles.sk/ru/blog/shoptet-shopify-ili-svoj-magazin/ (sk: /sk/blog/shoptet-shopify-alebo-eshop-na-mieru/)
+    - https://whiteeagles.sk/ru/blog/telegram-bot-dlya-biznesa/ (sk: /sk/blog/telegram-bot-pre-firmu/)
+    - https://whiteeagles.sk/ru/blog/veb-dizajn-dlya-biznesa/ (sk: /sk/blog/webdizajn-pre-firmu/)
     - https://whiteeagles.sk/ru/blog/website-cost-2026/
     - https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/
     - https://whiteeagles.sk/ru/blog/zivnost-alebo-sro/

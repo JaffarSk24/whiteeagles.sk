@@ -143,4 +143,6 @@ How to bring buyers to a shop after launch is shown in the [Severské drevo](/en
 
 Similar breakdowns for other industries: [a wholesale online store](/en/blog/wholesale-online-store/).
 
+See also: [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/).
+
 [CTA_FORM:audit]

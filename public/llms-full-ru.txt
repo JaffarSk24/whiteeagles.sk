@@ -357,6 +357,16 @@ https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/
   - https://whiteeagles.sk/ru/blog/reklama-v-facebook-i-instagram/ (sk: /sk/blog/reklama-na-facebooku-a-instagrame/)
 - **Google Shopping для интернет-магазина: Merchant Center, фид и цена**
   - https://whiteeagles.sk/ru/blog/google-shopping-dlya-internet-magazina/ (sk: /sk/blog/google-nakupy-pre-eshop/)
+- **Meta pixel, Conversions API и учёт конверсий для рекламы**
+  - https://whiteeagles.sk/ru/blog/meta-pixel-i-uchet-konversij/ (sk: /sk/blog/meta-pixel-a-meranie-konverzii/)
+- **Реклама на YouTube в Словакии: сколько стоит и кому подходит**
+  - https://whiteeagles.sk/ru/blog/reklama-na-youtube-stoimost/ (sk: /sk/blog/reklama-na-youtube/)
+- **Shoptet, Shopify или магазин на своём коде: что выбрать в Словакии**
+  - https://whiteeagles.sk/ru/blog/shoptet-shopify-ili-svoj-magazin/ (sk: /sk/blog/shoptet-shopify-alebo-eshop-na-mieru/)
+- **Telegram-бот для бизнеса: что умеет и сколько стоит**
+  - https://whiteeagles.sk/ru/blog/telegram-bot-dlya-biznesa/ (sk: /sk/blog/telegram-bot-pre-firmu/)
+- **Веб-дизайн для бизнеса: каким должен быть сайт и сколько это стоит**
+  - https://whiteeagles.sk/ru/blog/veb-dizajn-dlya-biznesa/ (sk: /sk/blog/webdizajn-pre-firmu/)
 - **Сколько стоит сайт в Словакии в 2026: цены по типам и что входит**
   - https://whiteeagles.sk/ru/blog/website-cost-2026/
 - **WordPress или сайт на заказ: как выбрать по задаче, а не по моде**

@@ -5,7 +5,7 @@ description: >-
   Slovakia: real cost of ownership, speed, security, mandatory company details
   and the cookie banner. Who suits what, and when the choice is obvious.
 date: '2026-08-04'
-updated: '2026-09-12'
+updated: '2026-10-14'
 key: 'wordpress-vs-custom'
 faq:
   - q: 'Which is cheaper: WordPress or a custom build?'
@@ -126,5 +126,7 @@ I build sites to the brief, not to the technology. More often that means Next.js
 I have lived in Slovakia for over ten years and have launched **12+ sites for Slovak companies**: [Biliardovňa](/en/case/biliardovna/) with table booking, [Krása štúdio OK](/en/case/studio-krasy/) with booking through Telegram, [Top Sklad](/en/case/top-sklad/) with availability management. I work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Details on the [web development service page](/en/service/webdev/). If the site is already broken, the order to work through is in [WordPress website repair](/en/blog/wordpress-website-repair/). If you already have a site and are unsure what to do with it: the [free audit](/en/seo-audit/), result within 3 working days.
+
+See also: [web design for business](/en/blog/web-design-for-business/) and [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/).
 
 [CTA_FORM:webdev]

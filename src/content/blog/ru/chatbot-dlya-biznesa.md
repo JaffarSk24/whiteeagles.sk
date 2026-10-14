@@ -5,6 +5,7 @@ description: >-
   почему Telegram удобнее виджета на сайте и в каких случаях бот не нужен.
   С примерами из словацкой практики.
 date: '2026-08-04'
+updated: '2026-10-14'
 key: 'chatbot'
 faq:
   - q: 'Сколько стоит разработка бота?'
@@ -131,5 +132,7 @@ faq:
 Живу в Словакии больше десяти лет, работаю как словацкое s.r.o., выставляю фактуру с IČO. Общаемся по-русски или по-словацки.
 
 По теме: [онлайн-бронирование на сайте](/ru/blog/onlajn-bronirovanie-na-sajte/), [кейс салона с записью через Telegram](/ru/case/studio-krasy/) и [как словаки выбирают подрядчика](/ru/blog/kak-slovaki-vybirayut-podryadchika/).
+
+Ещё по теме: [Telegram-бот для бизнеса](/ru/blog/telegram-bot-dlya-biznesa/).
 
 [CTA_FORM:consult]

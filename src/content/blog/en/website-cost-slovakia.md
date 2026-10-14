@@ -5,7 +5,7 @@ description: >-
   site from 3,500€, an online shop from 5,000€. What the price covers and
   which costs people forget.
 date: '2026-08-04'
-updated: '2026-10-04'
+updated: '2026-10-14'
 key: 'website-cost'
 faq:
   - q: 'What does a website cost in Slovakia?'
@@ -117,5 +117,7 @@ I have lived in Slovakia for over ten years and have launched **12+ sites for Sl
 Details and what is included on the [web development service page](/en/service/webdev/). If you already have a site and it brings no clients: the [free website SEO audit](/en/seo-audit/), result within 3 working days.
 
 Similar breakdowns for other industries: [a website for a beauty salon](/en/blog/beauty-salon-website/), [a website for storage and space rental](/en/blog/storage-rental-website/), [a website for a sports club](/en/blog/sports-club-website/), [a wholesale online store](/en/blog/wholesale-online-store/).
+
+See also: [web design for business](/en/blog/web-design-for-business/).
 
 [CTA_FORM:audit]

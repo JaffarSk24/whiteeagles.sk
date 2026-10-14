@@ -5,7 +5,7 @@ description: >-
   show photos: a price list, free slots, confirmation through Telegram and
   no double bookings.
 date: '2026-09-20'
-updated: '2026-10-04'
+updated: '2026-10-14'
 key: 'beauty-salon-website'
 faq:
   - q: 'What does a beauty salon website cost?'
@@ -133,5 +133,7 @@ I build websites for salons, barbershops and studios with booking that the staff
 I have lived in Slovakia for more than ten years and have launched **12+ websites for Slovak companies**, among them with booking: [Krása štúdio OK](/en/case/studio-krasy/), [Biliardovňa](/en/case/biliardovna/), [TOP SKLAD](/en/case/top-sklad/). I work as a Slovak s.r.o. in Bratislava, invoice with an IČO, and work in Slovak and Russian. A similar breakdown for restaurants: [a website for a restaurant](/en/blog/restaurant-website/).
 
 Details on the [web development service page](/en/service/webdev/), and on the Telegram link on the [Telegram bots page](/en/service/telegram/). If you already have a site and the bookings are not coming, a [free audit](/en/seo-audit/), result within 3 working days.
+
+See also: [a Telegram bot for business](/en/blog/telegram-bot-for-business/).
 
 [CTA_FORM:audit]

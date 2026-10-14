@@ -6,6 +6,7 @@ description: >-
   products and what it costs. With figures from a shop where the Shopping
   campaign returns 14€ per euro.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'google-shopping'
 faq:
   - q: 'Is Google Shopping free?'
@@ -124,5 +125,7 @@ I set up Merchant Center, the feed, a Shopping campaign and Performance Max, plu
 I have lived in Slovakia for more than ten years, work as a Slovak s.r.o. and issue invoices with a company ID for your accounts.
 
 Details on the [Google Ads and Meta ads management page](/en/service/ads/). Case study: [Severské drevo, 324 purchases worth 134,684€](/en/case/severske-drevo-google-ads/). Related: [PPC advertising](/en/blog/ppc-advertising/), [wholesale online store](/en/blog/wholesale-online-store/).
+
+See also: [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/) and [conversion tracking for Google Ads and Meta](/en/blog/meta-pixel-conversion-tracking/).
 
 [CTA_FORM:audit]

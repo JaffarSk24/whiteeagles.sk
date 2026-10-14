@@ -5,7 +5,7 @@ description: >-
   examples of work, comprehensible prices and reviews. A checklist for going
   through your own site.
 date: '2026-08-04'
-updated: '2026-09-20'
+updated: '2026-10-14'
 key: 'choosing-contractor'
 faq:
   - q: 'What does a Slovak client check first?'
@@ -114,5 +114,7 @@ I have lived in Slovakia for over ten years and have launched **12+ sites for Sl
 Related: [why websites built abroad do not sell here](/en/blog/cheap-offshore-website/), [do you need a site in Slovak](/en/blog/do-you-need-slovak-website/) and the [web development service page](/en/service/webdev/).
 
 Similar breakdowns for other industries: [a website for storage and space rental](/en/blog/storage-rental-website/), [a website for a beauty salon](/en/blog/beauty-salon-website/).
+
+See also: [web design for business](/en/blog/web-design-for-business/).
 
 [CTA_FORM:consult]

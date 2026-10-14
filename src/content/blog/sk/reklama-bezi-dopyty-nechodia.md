@@ -5,7 +5,7 @@ description: >-
   od nerelevantných dopytov a nezapočítaných konverzií po cieľovú stránku a
   formulár, ktorý ticho neposiela e-maily. S kontrolou ku každej.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'ads-no-leads'
 faq:
   - q: 'Reklama beží mesiac, dopytov nula. Je to normálne?'
@@ -137,5 +137,7 @@ Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vyst
 Dva takéto prípady z praxe. Pri [RAM service](/sk/case/ram-service-reklama-meta/) kampaň na návštevnosť za tri mesiace nepriniesla ani jeden hovor a po prechode na cieľ „hovory“ dala 21 hovorov za týždeň. Pri [Môj servis Kramáre](/sk/case/moj-servis-reklama-google/) išlo viac ako 1 200 platených návštev na cenník a skončili jedinou konverziou.
 
 Detaily: [správu Google Ads a Meta kampaní](/sk/service/ads/) a [webová analytika](/sk/service/analytics/). Ak pochybujete o samotnej platforme, nie o nastaveniach: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/). Ak web máte, ale neviete, čo s ním, [bezplatný SEO audit webu](/sk/seo-audit/), výsledok do 3 pracovných dní.
+
+Súvisiace články: [meranie konverzií pre Google Ads a Meta](/sk/blog/meta-pixel-a-meranie-konverzii/).
 
 [CTA_FORM:audit]

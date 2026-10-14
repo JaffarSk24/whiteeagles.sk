@@ -119,4 +119,6 @@ Podrobnosti a čo je v cene nájdete na [stránke služby „Tvorba webstránok�
 
 Podobné rozbory pre ďalšie odvetvia: [web pre salón krásy](/sk/blog/webstranka-pre-salon-krasy/), [web pre prenájom skladov a priestorov](/sk/blog/web-pre-prenajom-skladov-a-priestorov/), [web pre športový klub](/sk/blog/web-pre-sportovy-klub/), [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
 
+Súvisiace články: [webdizajn pre firmu](/sk/blog/webdizajn-pre-firmu/).
+
 [CTA_FORM:audit]

@@ -161,4 +161,6 @@ Skutočné čísla z mojich kampaní: klik vo vyhľadávaní stál 0,20€ pri s
 
 Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [PPC reklama: čo to je a ako funguje](/sk/blog/ppc-reklama/), [Google Nákupy pre e-shop](/sk/blog/google-nakupy-pre-eshop/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
 
+Súvisiace články: [reklama na YouTube](/sk/blog/reklama-na-youtube/) a [meranie konverzií pre Google Ads a Meta](/sk/blog/meta-pixel-a-meranie-konverzii/).
+
 [CTA_FORM:audit]

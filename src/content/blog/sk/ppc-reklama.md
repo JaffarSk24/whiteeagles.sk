@@ -5,6 +5,7 @@ description: >-
   PPC kampaní má Google Ads a Meta, koľko stojí klik a rozpočet, čo robí PPC
   špecialista a kedy sa PPC oplatí viac než SEO.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'ppc-advertising'
 faq:
   - q: 'Čo je PPC reklama?'
@@ -142,5 +143,7 @@ PPC kampane v Google Ads a Meta nastavujem a spravujem sám, bez account manaž�
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
 Detaily na [stránke služby „Správa Google Ads a Meta reklamy“](/sk/service/ads/). K téme: [cena reklamy na Google](/sk/blog/kolko-stoji-reklama-na-slovensku/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
+
+Súvisiace články: [reklama na YouTube](/sk/blog/reklama-na-youtube/) a [meranie konverzií pre Google Ads a Meta](/sk/blog/meta-pixel-a-meranie-konverzii/).
 
 [CTA_FORM:audit]

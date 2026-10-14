@@ -5,6 +5,7 @@ description: >-
   website widget, and the cases where a bot is not needed at all, with examples
   from Slovak practice.
 date: '2026-08-04'
+updated: '2026-10-14'
 key: 'chatbot'
 faq:
   - q: 'What does building a bot cost?'
@@ -131,5 +132,7 @@ I write bots in Python: enquiries, booking, notifications, auto-posting. From 50
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO.
 
 Related: [online booking on your website](/en/blog/online-booking-system/), [the salon case with Telegram booking](/en/case/studio-krasy/) and [how Slovaks choose a contractor](/en/blog/how-slovaks-choose-contractor/).
+
+See also: [a Telegram bot for business](/en/blog/telegram-bot-for-business/).
 
 [CTA_FORM:consult]

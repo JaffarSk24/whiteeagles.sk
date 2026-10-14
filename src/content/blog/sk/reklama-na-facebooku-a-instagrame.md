@@ -5,6 +5,7 @@ description: >-
   sa v Mete platí, prečo „zvýšiť príspevok“ nestačí a ako spustiť prvú kampaň,
   ktorá prináša dopyty a hovory, nie len lajky.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'meta-ads'
 faq:
   - q: 'Koľko stojí reklama na Instagrame a Facebooku?'
@@ -103,5 +104,7 @@ Kampane v Meta Ads nastavujem a spravujem sám: cieľ, publiká v jazykoch vaši
 Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO do vašich nákladov.
 
 Detaily na [stránke služby „Správa Google Ads a Meta reklamy“](/sk/service/ads/). Prípadové štúdie: [RAM service](/sk/case/ram-service-reklama-meta/), [Recorder.sk](/sk/case/recorder-reklama-google-meta/). K téme: [cena reklamy na Google](/sk/blog/kolko-stoji-reklama-na-slovensku/) a [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/).
+
+Súvisiace články: [meranie konverzií pre Google Ads a Meta](/sk/blog/meta-pixel-a-meranie-konverzii/) a [reklama na YouTube](/sk/blog/reklama-na-youtube/).
 
 [CTA_FORM:audit]

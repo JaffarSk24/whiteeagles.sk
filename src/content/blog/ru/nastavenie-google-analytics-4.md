@@ -5,7 +5,7 @@ description: >-
   события, ключевые события, связка с Search Console и Ads. И пять ошибок,
   из-за которых в отчётах ноль конверсий при реальных заявках.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'ga4-setup'
 faq:
   - q: 'Почему в GA4 ноль конверсий, хотя заявки приходят?'
@@ -145,5 +145,7 @@ GA4 собирает часть событий сам: просмотры, пр�
 Как замер меняет рекламу, видно по кейсам: у [TOP SKLAD](/ru/case/top-sklad-reklama-google/) конверсией считается только оплаченная аренда, сверенная с базой заказов, а в [Severské drevo](/ru/case/severske-drevo-reklama-google/) покупки приходят в Google вместе с суммой заказа.
 
 По теме: [серверный GTM: когда окупается](/ru/blog/servernyj-gtm-nastrojka-ga4/), [SEO-аудит сайта своими руками](/ru/blog/seo-audit-check-website/) и [почему cookie-баннер обязателен](/ru/blog/cookie-lista-2026-povinnosti/).
+
+Ещё по теме: [учёт конверсий для Google Ads и Meta](/ru/blog/meta-pixel-i-uchet-konversij/).
 
 [CTA_FORM:cookies]

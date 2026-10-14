@@ -160,4 +160,6 @@ faq:
 
 Похожие разборы для других отраслей: [оптовый интернет-магазин](/ru/blog/optovyj-internet-magazin/).
 
+Ещё по теме: [Shoptet, Shopify или магазин на своём коде](/ru/blog/shoptet-shopify-ili-svoj-magazin/).
+
 [CTA_FORM:audit]

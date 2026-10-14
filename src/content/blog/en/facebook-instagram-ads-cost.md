@@ -5,6 +5,7 @@ description: >-
   Meta, why "boost post" is not enough, and how to launch a first campaign that
   brings enquiries and calls rather than likes.
 date: '2026-10-14'
+updated: '2026-10-14'
 key: 'meta-ads'
 faq:
   - q: 'What do Instagram and Facebook ads cost?'
@@ -103,5 +104,7 @@ I set up and manage Meta Ads campaigns myself: the goal, audiences in your custo
 I have lived in Slovakia for more than ten years, work as a Slovak s.r.o. and issue invoices with a company ID for your accounts.
 
 Details on the [Google Ads and Meta ads management page](/en/service/ads/). Case studies: [RAM service](/en/case/ram-service-meta-ads/), [Recorder.sk](/en/case/recorder-google-meta-ads/). Related: [what Google Ads costs in Slovakia](/en/blog/google-ads-cost-slovakia/) and [GA4 setup](/en/blog/ga4-setup/).
+
+See also: [conversion tracking for Google Ads and Meta](/en/blog/meta-pixel-conversion-tracking/) and [YouTube ads](/en/blog/youtube-ads-cost/).
 
 [CTA_FORM:audit]
