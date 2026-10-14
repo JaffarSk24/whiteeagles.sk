@@ -348,6 +348,12 @@ differ per article and are reachable from the language switcher on the page.
   - https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/ (ru: /ru/blog/skolko-stoit-reklama-v-slovakii/)
 - **Reklama na Google a Facebooku a DPH: registrácia podľa §7a v 2026**
   - https://whiteeagles.sk/sk/blog/reklama-google-facebook-dph-7a/ (ru: /ru/blog/dph-na-reklamu-google-facebook-7a/)
+- **PPC reklama: čo to je, ako funguje a koľko stojí kampaň na Google**
+  - https://whiteeagles.sk/sk/blog/ppc-reklama/ (ru: /ru/blog/ppc-reklama-chto-eto/)
+- **Reklama na Facebooku a Instagrame: koľko stojí a ako ju spustiť**
+  - https://whiteeagles.sk/sk/blog/reklama-na-facebooku-a-instagrame/ (ru: /ru/blog/reklama-v-facebook-i-instagram/)
+- **Google Nákupy pre e-shop: Merchant Center, feed a koľko to stojí**
+  - https://whiteeagles.sk/sk/blog/google-nakupy-pre-eshop/ (ru: /ru/blog/google-shopping-dlya-internet-magazina/)
 - **Nastavenie GA4 v roku 2026: aby sa dopyty naozaj počítali**
   - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
 - **Online rezervácia na webe: ako funguje, komu sa oplatí a koľko stojí**
@@ -370,7 +376,7 @@ differ per article and are reachable from the language switcher on the page.
   - https://whiteeagles.sk/sk/blog/reklama-bezi-dopyty-nechodia/ (ru: /ru/blog/reklama-idet-zayavok-net/)
 - **SEO audit webu svojpomocne: 9 kontrol, ktoré nájdu skutočné problémy**
   - https://whiteeagles.sk/sk/blog/seo-audit-check-website/
-- **Koľko stojí web na Slovensku v roku 2026: ceny podľa typu a čo je v nich**
+- **Tvorba web stránok: cena 2026 a koľko stojí web podľa typu**
   - https://whiteeagles.sk/sk/blog/website-cost-2026/
 - **WordPress alebo web na mieru: ako vybrať podľa zadania, nie podľa módy**
   - https://whiteeagles.sk/sk/blog/wordpress-vs-custom-website/

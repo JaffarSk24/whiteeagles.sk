@@ -5,7 +5,7 @@ description: >-
   rozpočtu treba, ktoré nastavenia kampaň zabíjajú, vylučujúce slová, meranie
   konverzií a Consent Mode. S rozborom chýb, ktoré stoja skutočné peniaze.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'google-ads-start'
 faq:
   - q: 'Koľko rozpočtu treba na Google Ads na Slovensku?'
@@ -131,6 +131,6 @@ Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vyst
 
 Ako to vyzerá v praxi: pri [TOP SKLAD](/sk/case/top-sklad-reklama-google/) sa ako konverzia počíta len zaplatený prenájom a prestavba [Môj servis Kramáre](/sk/case/moj-servis-reklama-google/) začala tým, že Performance Max posielal návštevnosť na cenník.
 
-K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), ak ešte neviete, ktorou platformou začať, [koľko stojí reklama na Slovensku](/sk/blog/kolko-stoji-reklama-na-slovensku/), [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
+K téme: [PPC reklama: čo to je a ako funguje](/sk/blog/ppc-reklama/), [Google Nákupy pre e-shop](/sk/blog/google-nakupy-pre-eshop/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), ak ešte neviete, ktorou platformou začať, [koľko stojí reklama na Slovensku](/sk/blog/kolko-stoji-reklama-na-slovensku/), [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a [SEO audit svojpomocne](/sk/blog/seo-audit-check-website/).
 
 [CTA_FORM:audit]

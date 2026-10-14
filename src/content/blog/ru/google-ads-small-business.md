@@ -5,7 +5,7 @@ description: >-
   сколько нужно бюджета, какие настройки убивают кампанию, минус-слова, замер
   конверсий и Consent Mode. С разбором ошибок, которые стоят реальных денег.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'google-ads-start'
 faq:
   - q: 'Сколько нужно бюджета на Google Ads в Словакии?'
@@ -131,6 +131,6 @@ zadarmo, zdarma, kurz, škola, práca, brigáda, návod, sám, svojpomocne,
 
 Как это выглядит на практике: у [TOP SKLAD](/ru/case/top-sklad-reklama-google/) конверсией считается только оплаченная аренда, а перестройка [Môj servis Kramáre](/ru/case/moj-servis-reklama-google/) началась с того, что Performance Max вёл трафик на прайс-лист.
 
-По теме: [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), если ещё не решили, с какой площадки начинать, [сколько стоит реклама в Словакии](/ru/blog/skolko-stoit-reklama-v-slovakii/), [настройка GA4](/ru/blog/nastavenie-google-analytics-4/) и [SEO-аудит своими руками](/ru/blog/seo-audit-check-website/).
+По теме: [PPC-реклама: что это и как работает](/ru/blog/ppc-reklama-chto-eto/), [Google Shopping для интернет-магазина](/ru/blog/google-shopping-dlya-internet-magazina/), [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), если ещё не решили, с какой площадки начинать, [сколько стоит реклама в Словакии](/ru/blog/skolko-stoit-reklama-v-slovakii/), [настройка GA4](/ru/blog/nastavenie-google-analytics-4/) и [SEO-аудит своими руками](/ru/blog/seo-audit-check-website/).
 
 [CTA_FORM:audit]

@@ -5,7 +5,7 @@ description: >-
   бизнесу что подходит, сколько стоит вход в каждую, какие ошибки убивают
   кампанию и с чего начинать, если бюджет один.
 date: '2026-08-07'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'ads-google-vs-meta'
 faq:
   - q: 'Что выбрать, если бюджет только на одну площадку?'
@@ -139,6 +139,6 @@ faq:
 
 Как это выглядит на практике: магазин древесины [Severské drevo](/ru/case/severske-drevo-reklama-google/) продаёт через Google, 324 покупки на 134 684€, а сервису электроники [RAM service](/ru/case/ram-service-reklama-meta/) Google рекламу ремонта не пропускает, и звонки приносит Meta: 21 звонок за неделю по 3,79€.
 
-Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/reklama-google-ads/). По теме: [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [реклама идёт, а заявок нет](/ru/blog/reklama-idet-zayavok-net/).
+Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/reklama-google-ads/). По теме: [реклама в Facebook и Instagram: сколько стоит и как запустить](/ru/blog/reklama-v-facebook-i-instagram/), [PPC-реклама](/ru/blog/ppc-reklama-chto-eto/), [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [реклама идёт, а заявок нет](/ru/blog/reklama-idet-zayavok-net/).
 
 [CTA_FORM:audit]

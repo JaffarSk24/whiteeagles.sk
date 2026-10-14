@@ -148,6 +148,9 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
     - https://whiteeagles.sk/sk/blog/kak-uvelichit-poseshaemost-sajta/
     - https://whiteeagles.sk/sk/blog/kolko-stoji-reklama-na-slovensku/ (ru: /ru/blog/skolko-stoit-reklama-v-slovakii/)
     - https://whiteeagles.sk/sk/blog/reklama-google-facebook-dph-7a/ (ru: /ru/blog/dph-na-reklamu-google-facebook-7a/)
+    - https://whiteeagles.sk/sk/blog/ppc-reklama/ (ru: /ru/blog/ppc-reklama-chto-eto/)
+    - https://whiteeagles.sk/sk/blog/reklama-na-facebooku-a-instagrame/ (ru: /ru/blog/reklama-v-facebook-i-instagram/)
+    - https://whiteeagles.sk/sk/blog/google-nakupy-pre-eshop/ (ru: /ru/blog/google-shopping-dlya-internet-magazina/)
     - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
     - https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/ (ru: /ru/blog/onlajn-bronirovanie-na-sajte/)
     - https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/ (ru: /ru/blog/remont-sajta-na-wordpress/)

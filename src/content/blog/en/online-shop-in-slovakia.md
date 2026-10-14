@@ -5,7 +5,7 @@ description: >-
   card payments, delivery, eKasa and VAT, and the documents that must be on the
   site. A walk-through for anyone starting out.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'online-shop'
 faq:
   - q: 'What does an online shop cost in Slovakia?'
@@ -121,7 +121,7 @@ A shop without e-commerce analytics configured is monthly spending in the dark.
 
 The minimum that has to work: product view, add to cart, checkout started, purchase. Then it becomes visible where people drop out: on the product page, at delivery, or at payment.
 
-How to set it up: [configuring GA4](/en/blog/ga4-setup/).
+How to set it up: [configuring GA4](/en/blog/ga4-setup/). Once tracking works, the usual first advertising for a shop is [Google Shopping](/en/blog/google-shopping-for-online-shops/): the product with its photo and price right in Google's results.
 
 ## Launch order
 

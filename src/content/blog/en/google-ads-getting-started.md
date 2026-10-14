@@ -5,7 +5,7 @@ description: >-
   how much budget is needed, which settings kill a campaign, negative keywords,
   conversion tracking and Consent Mode: with the mistakes that cost real money.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'google-ads-start'
 faq:
   - q: 'How much budget do I need for Google Ads in Slovakia?'
@@ -131,6 +131,6 @@ I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a
 
 What this looks like in practice: for [TOP SKLAD](/en/case/top-sklad-google-ads/) only a paid rental counts as a conversion, and the rebuild of [Môj servis Kramáre](/en/case/moj-servis-google-ads/) started with a Performance Max campaign sending traffic to the price list.
 
-Related: [Google Ads or Meta](/en/blog/google-ads-or-meta/) if you have not decided which platform to start with, [what advertising costs in Slovakia](/en/blog/google-ads-cost-slovakia/), [configuring GA4](/en/blog/ga4-setup/) and [the DIY SEO audit](/en/blog/seo-audit-yourself/).
+Related: [PPC advertising: what it is and how it works](/en/blog/ppc-advertising/), [Google Shopping for an online shop](/en/blog/google-shopping-for-online-shops/), [Google Ads or Meta](/en/blog/google-ads-or-meta/) if you have not decided which platform to start with, [what advertising costs in Slovakia](/en/blog/google-ads-cost-slovakia/), [configuring GA4](/en/blog/ga4-setup/) and [the DIY SEO audit](/en/blog/seo-audit-yourself/).
 
 [CTA_FORM:audit]

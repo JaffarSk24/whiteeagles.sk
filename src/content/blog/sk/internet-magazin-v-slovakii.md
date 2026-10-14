@@ -5,7 +5,7 @@ description: >-
   e-shopu na mieru, výpočet na tri roky, platba kartou, doprava, eKasa a DPH,
   povinné dokumenty na webe. Rozbor pre tých, ktorí začínajú.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'online-shop'
 faq:
   - q: 'Koľko stojí tvorba e-shopu na Slovensku?'
@@ -138,7 +138,7 @@ E-shop bez nastavenej analytiky elektronického obchodu sú mesačné náklady n
 
 Minimum, ktoré má fungovať: zobrazenie produktu, pridanie do košíka, začatie objednávky, nákup. Potom je vidieť, kde ľudia odpadávajú: na karte produktu, na doprave alebo pri platbe.
 
-Ako to nastaviť: v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a na [stránke služby „Webová analytika"](/sk/service/analytics/). Keď meranie funguje, e-shopu dáva zmysel zapojiť [platenú návštevnosť](/sk/service/ads/): bez merania sú to peniaze naslepo.
+Ako to nastaviť: v článku [nastavenie GA4](/sk/blog/nastavenie-google-analytics-4/) a na [stránke služby „Webová analytika"](/sk/service/analytics/). Keď meranie funguje, e-shopu dáva zmysel zapojiť [platenú návštevnosť](/sk/service/ads/): bez merania sú to peniaze naslepo. Pre e-shop býva prvou voľbou [Google Nákupy](/sk/blog/google-nakupy-pre-eshop/), produkt s fotkou a cenou priamo vo výsledkoch Google.
 
 ## Poradie spustenia
 

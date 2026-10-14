@@ -722,9 +722,9 @@
       }
     },
     "telegram": {
-      "title": "Python Bot Development",
+      "title": "Telegram bots in Python",
       "desc": "Bots for request management, ads auto-posting (bazoš) and brand feedback",
-      "internal_title": "Automation Bot Development",
+      "internal_title": "Custom Telegram bots and automation in Python",
       "internal_desc": "Creation of custom Python bots for request management, routine process automation, and brand feedback",
       "details": "Creation of custom Python bots for request management, routine process automation, and brand feedback",
       "details_points": [

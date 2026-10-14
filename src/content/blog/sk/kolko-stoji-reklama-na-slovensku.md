@@ -5,7 +5,7 @@ description: >-
   klik podľa odvetvia, aký mesačný rozpočet treba na štart, čo stojí nastavenie
   a správa kampaní a ako zistiť, či sa platená reklama na Googli vracia.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'ads-pricing'
 faq:
   - q: 'Koľko stojí reklama na Google mesačne?'
@@ -116,7 +116,7 @@ Na čo sa spýtať pred podpisom, bez ohľadu na schému:
 
 ## A čo reklama na internete mimo Googlu
 
-Cena reklamy na internete sa nedá porovnať jedným číslom: v Meta (Facebook, Instagram) je kliknutie zvyčajne lacnejšie, ale podiel dopytov z kliknutia nižší, lebo človeka vyrušujete namiesto toho, aby vás hľadal. Kde začať, keď je rozpočet len na jednu platformu, rozoberám v článku [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/). Tento článok je o cene reklamy vo vyhľadávaní Google, kde človek už hľadá to, čo predávate.
+Cena reklamy na internete sa nedá porovnať jedným číslom: v Meta (Facebook, Instagram) je kliknutie zvyčajne lacnejšie, ale podiel dopytov z kliknutia nižší, lebo človeka vyrušujete namiesto toho, aby vás hľadal. Kde začať, keď je rozpočet len na jednu platformu, rozoberám v článku [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), koľko stojí reklama v Mete na skutočných číslach, v článku [reklama na Facebooku a Instagrame](/sk/blog/reklama-na-facebooku-a-instagrame/). Tento článok je o cene reklamy vo vyhľadávaní Google, kde človek už hľadá to, čo predávate.
 
 ## Skryté náklady, na ktoré nikto neupozorní
 
@@ -159,6 +159,6 @@ Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vyst
 
 Skutočné čísla z mojich kampaní: klik vo vyhľadávaní stál 0,20€ pri strelnici [CHICAGO](/sk/case/chicago-uprava-webu/) a okolo 1€ pri [TOP SKLAD](/sk/case/top-sklad-reklama-google/), hovor z Meta 3,79€ pri [RAM service](/sk/case/ram-service-reklama-meta/) a nákup v obchode [Severské drevo](/sk/case/severske-drevo-reklama-google/) v najlepšom štvrťroku vyšiel približne na 35€.
 
-Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
+Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [PPC reklama: čo to je a ako funguje](/sk/blog/ppc-reklama/), [Google Nákupy pre e-shop](/sk/blog/google-nakupy-pre-eshop/), [Google Ads alebo Meta](/sk/blog/google-ads-alebo-meta/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [nastavenie webovej analytiky](/sk/service/analytics/).
 
 [CTA_FORM:audit]

@@ -1,13 +1,14 @@
 ---
-title: 'Koľko stojí web na Slovensku v roku 2026: ceny podľa typu a čo je v nich'
+title: 'Tvorba web stránok: cena 2026 a koľko stojí web podľa typu'
 description: >-
-  Skutočné ceny za tvorbu webu na Slovensku: landing page od 1 500€, firemný web
-  od 3 500€, e-shop od 5 000€. Čo je v cene a na aké náklady sa zabúda.
+  Tvorba web stránok a cena v roku 2026: landing page od 1 500€, firemný web od
+  3 500€, e-shop od 5 000€, úpravy 35€/hod. Cenník s termínmi, čo je v cene a na
+  aké náklady sa zabúda.
 date: '2026-08-04'
-updated: '2026-10-04'
+updated: '2026-10-14'
 key: 'website-cost'
 faq:
-  - q: 'Koľko stojí web na Slovensku?'
+  - q: 'Koľko stojí tvorba web stránok na Slovensku?'
     a: 'Jednoduchá landing page od 1 500 eur, firemný web od 3 500 eur, e-shop od 5 000 eur. Hodinová sadzba je 35 eur. Výsledok závisí od počtu stránok a jazykov, integrácií a od toho, či treba rezervácie alebo platby.'
   - q: 'Prečo jeden spraví web za 500 eur a iný za 5 000?'
     a: 'Za 500 eur sa zvyčajne nasadí hotová šablóna s minimálnymi úpravami. Rozdiel nie je v dizajne, ale v tom, čo je zahrnuté: vlastná štruktúra podľa vašich úloh, integrácie, nastavené meranie dopytov, súlad s požiadavkami a podpora po spustení.'
@@ -18,25 +19,26 @@ faq:
   - q: 'Musím pripraviť zadanie?'
     a: 'Nie. Stačí krátky rozhovor o úlohách podnikania a riešenie navrhnem ja. Požiadavka napísať štyridsaťstranový dokument zdržiava štart najviac.'
 ---
-![Koľko stojí web na Slovensku v roku 2026 | White Eagles & Co.](/assets/blog/blog1.webp)
+![Tvorba web stránok: cena 2026 | White Eagles & Co.](/assets/blog/blog1.webp)
 
-# Koľko stojí web na Slovensku v roku 2026: ceny podľa typu a čo je v nich
+# Tvorba web stránok: cena 2026 a koľko stojí web podľa typu
 
 Na otázku „koľko stojí web“ znie poctivá odpoveď nudne: závisí od toho, čo webom nazývate. Rozptyl od 500 do 50 000 eur nie je rozptyl cien jednej služby, sú to rôzne služby pod jedným slovom.
 
-Nižšie sú konkrétne čísla podľa typu a hlavne vysvetlenie, za čo sa vlastne platí.
+Nižšie je cenník tvorby web stránok s termínmi a hlavne vysvetlenie, za čo sa vlastne platí. Cena web stránky sa potom dá porovnať s akoukoľvek inou ponukou bod po bode.
 
 [CTA_FORM:consult]
 
-## Ceny podľa typu
+## Cenník tvorby web stránok 2026
 
-| Typ | Cena | Komu sedí |
-|---|---|---|
-| **Landing page** | **od 1 500€** | jedna služba, jedna ponuka, reklama na konkrétny produkt |
-| **Firemný web** | **od 3 500€** | firma s viacerými službami, portfóliom, blogom |
-| **E-shop** | **od 5 000€** | predaj tovaru s košíkom, platbou a dopravou |
+| Typ webu | Cena | Čo je v cene | Termín |
+|---|---|---|---|
+| **Landing page** | **od 1500€** | jedna služba alebo ponuka, formulár s ochranou proti spamu, meranie dopytov v GA4, cookie lišta, základné SEO | 5 až 10 prac. dní |
+| **Firemný web** | **od 3500€** | viac stránok a jazykov, rezervácia alebo sloty, e-mail na vlastnej doméne, GA4 a Tag Manager, firemný profil Google | 10 až 15 prac. dní |
+| **E-shop** | **od 5000€** | katalóg, košík, platobná brána, doprava, Merchant Center, povinné údaje zo zákona, meranie nákupov | od 15 prac. dní |
+| **Úpravy a redizajn** | **35€/hod** | nové sekcie, integrácie, presun existujúceho webu na nový základ so zachovaním pozícií v Google | podľa rozsahu |
 
-Hodinová sadzba za úpravy je **35€**.
+Cenu poviem po prvom rozhovore a v priebehu ju nemením. Doména, hosting a poplatky platobnej brány sa platia priamo poskytovateľom.
 
 Výsledok v rámci každej kategórie určujú štyri veci: počet stránok, počet jazykov, integrácie (CRM, platby, rezervácie, sklad) a rozsah individuálneho dizajnu.
 

@@ -83,7 +83,7 @@ const pathsFor = (locale) => [
 // in that queue: the service pages sat unfetched for a year without one.
 const STATIC_LASTMOD = {
   '': '2026-10-12',
-  'blog': '2026-09-13',
+  'blog': '2026-10-14',
   'seo-audit': '2026-09-13',
   'portfolio': '2026-10-12',
   'apps': '2026-10-12',
@@ -92,7 +92,7 @@ const STATIC_LASTMOD = {
   'service/ads': '2026-10-12',
   'service/analytics': '2026-09-13',
   'service/cookies': '2026-09-13',
-  'service/telegram': '2026-09-13',
+  'service/telegram': '2026-10-14',
 };
 
 const lastmodFor = (locale, p) => {

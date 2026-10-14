@@ -5,7 +5,7 @@ description: >-
   koľko stojí vstup do každej, ktoré chyby kampaň zabijú a čím začať, keď je
   rozpočet len jeden.
 date: '2026-08-07'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'ads-google-vs-meta'
 faq:
   - q: 'Čo si vybrať, keď je rozpočet len na jednu platformu?'
@@ -139,6 +139,6 @@ Na Slovensku žijem viac ako desať rokov, pracujem ako slovenské s.r.o. a vyst
 
 Ako to vyzerá v praxi: obchod s drevom [Severské drevo](/sk/case/severske-drevo-reklama-google/) predáva cez Google, 324 nákupov za 134 684€, a servisu elektroniky [RAM service](/sk/case/ram-service-reklama-meta/) Google reklamu na opravy nepustí, takže hovory prináša Meta: 21 hovorov za týždeň po 3,79€.
 
-Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [reklama beží, dopyty nechodia](/sk/blog/reklama-bezi-dopyty-nechodia/).
+Detaily na [stránke služby „Správa Google Ads a Meta reklamy"](/sk/service/ads/). K téme: [reklama na Facebooku a Instagrame: koľko stojí a ako ju spustiť](/sk/blog/reklama-na-facebooku-a-instagrame/), [PPC reklama](/sk/blog/ppc-reklama/), [Google Ads: ako neminúť rozpočet nazmar](/sk/blog/google-ads-small-business/) a [reklama beží, dopyty nechodia](/sk/blog/reklama-bezi-dopyty-nechodia/).
 
 [CTA_FORM:audit]

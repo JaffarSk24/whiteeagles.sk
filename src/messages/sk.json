@@ -238,7 +238,7 @@
         ],
         "pricing_note": "Cenu poviem po prvom rozhovore a v priebehu ju nemením. Doména, hosting a poplatky platobnej brány sa platia priamo poskytovateľom. Šesť mesiacov technickej podpory je v každej cene. Z čoho sa cena skladá a na aké náklady sa zabúda, rozoberám v článku",
         "pricing_link": {
-          "label": "Koľko stojí web na Slovensku v roku 2026.",
+          "label": "Tvorba web stránok: cena 2026.",
           "ref": "blog:website-cost"
         },
         "why_title": "Prečo web odo mňa, a nie najlacnejší na trhu",
@@ -762,9 +762,9 @@
       }
     },
     "telegram": {
-      "title": "Vývoj botov v Pythone",
+      "title": "Telegram boty v Pythone",
       "desc": "Boti na správu dopytov, automatické zverejňovanie inzerátov (bazoš) a spätnú väzbu od značky",
-      "internal_title": "Vývoj automatizačných botov",
+      "internal_title": "Telegram boty a automatizácia v Pythone na mieru",
       "internal_desc": "Vytváranie vlastných Python botov na správu dopytov, automatizáciu rutinných procesov a spätnú väzbu od značky",
       "details": "Vytváranie vlastných Python botov na správu dopytov, automatizáciu rutinných procesov a spätnú väzbu od značky",
       "details_points": [

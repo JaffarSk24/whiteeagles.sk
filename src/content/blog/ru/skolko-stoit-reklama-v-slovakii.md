@@ -5,7 +5,7 @@ description: >-
   бюджет нужен на старте, сколько берут за ведение и как посчитать, окупается ли
   кампания. Без «от 100 евро и до бесконечности».
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'ads-pricing'
 faq:
   - q: 'Сколько стоит клик в Google Ads в Словакии?'
@@ -153,6 +153,6 @@ Google не берёт фиксированную цену. Работает а�
 
 Реальные цифры из моих кампаний: клик в поиске стоил 0,20€ у тира [CHICAGO](/ru/case/chicago-dorabotka-sajta/) и около 1€ у [TOP SKLAD](/ru/case/top-sklad-reklama-google/), звонок из Meta 3,79€ у [RAM service](/ru/case/ram-service-reklama-meta/), а покупка в магазине [Severské drevo](/ru/case/severske-drevo-reklama-google/) в лучшем квартале обходилась примерно в 35€.
 
-Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/reklama-google-ads/). По теме: [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [настройка веб-аналитики](/ru/service/analytics/).
+Подробности смотрите на [странице услуги «Настройка рекламы»](/ru/service/reklama-google-ads/). По теме: [PPC-реклама: что это и как работает](/ru/blog/ppc-reklama-chto-eto/), [реклама в Facebook и Instagram](/ru/blog/reklama-v-facebook-i-instagram/), [Google Shopping для интернет-магазина](/ru/blog/google-shopping-dlya-internet-magazina/), [Google Ads или Meta](/ru/blog/google-ads-ili-meta/), [Google Ads: как не слить бюджет](/ru/blog/google-ads-small-business/) и [настройка веб-аналитики](/ru/service/analytics/).
 
 [CTA_FORM:audit]

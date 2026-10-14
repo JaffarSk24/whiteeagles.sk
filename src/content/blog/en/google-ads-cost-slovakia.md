@@ -5,7 +5,7 @@ description: >-
   what budget a start actually needs, what management costs, and how to work out
   whether a campaign pays for itself.
 date: '2026-08-04'
-updated: '2026-10-12'
+updated: '2026-10-14'
 key: 'ads-pricing'
 faq:
   - q: 'What does a click cost in Google Ads in Slovakia?'
@@ -153,6 +153,6 @@ I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a
 
 Real numbers from my campaigns: a search click cost 0.20€ for the shooting range [CHICAGO](/en/case/chicago-website-fixes/) and about 1€ for [TOP SKLAD](/en/case/top-sklad-google-ads/), a call from Meta 3.79€ for [RAM service](/en/case/ram-service-meta-ads/), and a purchase in the [Severské drevo](/en/case/severske-drevo-google-ads/) shop cost about 35€ in its best quarter.
 
-Related: [Google Ads: how not to waste the budget](/en/blog/google-ads-getting-started/), [Google Ads or Meta](/en/blog/google-ads-or-meta/) and [ads running, no enquiries](/en/blog/ads-running-no-leads/).
+Related: [PPC advertising: what it is and how it works](/en/blog/ppc-advertising/), [Facebook and Instagram ads](/en/blog/facebook-instagram-ads-cost/), [Google Shopping for an online shop](/en/blog/google-shopping-for-online-shops/), [Google Ads: how not to waste the budget](/en/blog/google-ads-getting-started/), [Google Ads or Meta](/en/blog/google-ads-or-meta/) and [ads running, no enquiries](/en/blog/ads-running-no-leads/).
 
 [CTA_FORM:audit]
