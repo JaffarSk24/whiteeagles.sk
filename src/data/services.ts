@@ -32,11 +32,21 @@ export interface Service {
    */
   partner?: boolean;
   /**
-   * Published work shown on the service page, linking to the original post.
-   * Paths and URLs live here and not in the message files, which are
-   * serialised into the pages.
+   * Published work shown on the service page in groups, each item linking to
+   * the original post, with views per network. Paths and URLs live here and
+   * not in the message files, which are serialised into the pages; titles
+   * and labels are in `services.<id>.page.example_groups`, in the same order.
    */
-  examples?: { image: string; url: string; views: number }[];
+  exampleGroups?: {
+    key: string;
+    items: {
+      image: string;
+      url: string;
+      /** Short language badge on the cover, for versions of one video. */
+      lang?: string;
+      views: { network: 'TikTok' | 'Facebook' | 'Instagram'; count: number }[];
+    }[];
+  }[];
 }
 
 export const services: Service[] = [
@@ -156,12 +166,29 @@ export const services: Service[] = [
     seoTitleKey: 'services.video.seo_title',
     seoDescKey: 'services.video.seo_desc',
     seoKeywordsKey: 'services.video.seo_keywords',
-    // Facebook views from the page's own statistics, 14 Oct 2026. Views only:
-    // the reels also ran in the client's earlier ad campaign, so clicks would
-    // credit the video with what the ads did.
-    examples: [
-      { image: '/assets/services/video-ram-1.webp', url: 'https://www.facebook.com/reel/2137092266937765/', views: 23597 },
-      { image: '/assets/services/video-ram-2.webp', url: 'https://www.facebook.com/reel/1370507118002322/', views: 11069 },
+    // RAM service reels by the partner, figures of 15 Oct 2026: TikTok from
+    // the public video pages, Facebook and Instagram from the page's own
+    // statistics. Views only: the reels also ran in the client's earlier ad
+    // campaign, so clicks would credit the video with what the ads did.
+    // The Slovak version of the first video and the August video were also
+    // posted on Facebook (and the August one on Instagram).
+    exampleGroups: [
+      {
+        key: 'voices',
+        items: [
+          { lang: 'SK', image: '/assets/services/video-ex-sk.webp', url: 'https://www.tiktok.com/@ramservice_bratislava/video/7687701632603245846', views: [{ network: 'TikTok', count: 92900 }, { network: 'Facebook', count: 23597 }] },
+          { lang: 'UA', image: '/assets/services/video-ex-ua.webp', url: 'https://www.tiktok.com/@ramservice_bratislava/video/7687702543119437059', views: [{ network: 'TikTok', count: 98900 }] },
+          { lang: 'RU', image: '/assets/services/video-ex-ru.webp', url: 'https://www.tiktok.com/@ramservice_bratislava/video/7687703152623127830', views: [{ network: 'TikTok', count: 137900 }] },
+          { lang: 'EN', image: '/assets/services/video-ex-en.webp', url: 'https://www.tiktok.com/@ramservice_bratislava/video/7687703566869482774', views: [{ network: 'TikTok', count: 58800 }] },
+        ],
+      },
+      {
+        key: 'more',
+        items: [
+          { image: '/assets/services/video-ex-repair.webp', url: 'https://www.tiktok.com/@ramservice_bratislava/video/7685047371801185558', views: [{ network: 'TikTok', count: 200900 }] },
+          { image: '/assets/services/video-ex-mission.webp', url: 'https://www.tiktok.com/@ramservice_bratislava/video/7676200127450713366', views: [{ network: 'TikTok', count: 44200 }, { network: 'Facebook', count: 11071 }, { network: 'Instagram', count: 323 }] },
+        ],
+      },
     ],
   }
 ];

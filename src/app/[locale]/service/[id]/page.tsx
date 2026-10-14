@@ -120,8 +120,9 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         why?: { t: string; d: string }[];
         examples_title?: string;
         examples_intro?: string;
-        examples?: { label: string }[];
-        examples_views?: string;
+        example_groups?: { title: string; labels: string[] }[];
+        examples_stats?: { tiktok: string; voices: string; meta: string };
+        examples_more?: string;
         calc?: CalculatorTexts;
       })
     : null;
@@ -231,6 +232,10 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
           {service.id === "bugfix" && <RepairQuickForm />}
 
           <div className="detail-card">
+            {/* On a wide screen the details list sits beside the service's
+                picture; on its own it left half the card empty. */}
+            <div className={`detail-top${service.image ? " has-visual" : ""}`}>
+            <div className="detail-top-main">
             {service.id === "webdev" && (
               <img src="/assets/icons/webdev-icon.png" alt="Web Development" className="service-detail-icon" />
             )}
@@ -280,6 +285,14 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   <p>{t("services.webdev.guarantee")}</p>
                 </div>
               )}
+            </div>
+            </div>
+            {service.image && (
+              <div className="detail-visual">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={service.image} alt="" width={1200} height={800} loading="lazy" />
+              </div>
+            )}
             </div>
 
             <div className="detail-pricing-row">
@@ -409,27 +422,70 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               {/* Published work, as cover pictures linking to the posts. The
                   posts are not embedded: an embed loads the network's scripts
                   and cookies on our page. */}
-              {page.examples_title && service.examples?.length ? (
-                <section className="detail-block">
-                  <h2>{page.examples_title}</h2>
-                  {page.examples_intro && <p className="detail-examples-intro">{page.examples_intro}</p>}
-                  <ul className="detail-examples">
-                    {service.examples.map((item, i) => (
-                      <li key={item.url}>
-                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="detail-example">
-                          <span className="detail-example-media">
-                            <img src={item.image} alt={page.examples?.[i]?.label ?? ""} width={360} height={640} loading="lazy" />
-                            <span className="detail-example-play" aria-hidden="true"><Play size={22} /></span>
-                          </span>
-                          <strong>{page.examples?.[i]?.label}</strong>
-                          <span>{page.examples_views?.replace("{n}", item.views.toLocaleString(locale === "en" ? "en-US" : locale).replace(/\u00a0|\u202f/g, " "))}</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                  <ServiceCta serviceId={service.id} block="cases" />
-                </section>
-              ) : null}
+              {page.examples_title && service.exampleGroups?.length ? (() => {
+                const groups = service.exampleGroups;
+                const fmt = (n: number) =>
+                  n.toLocaleString(locale === "en" ? "en-US" : locale).replace(/\u00a0|\u202f/g, " ");
+                const viewsOn = (items: typeof groups[number]["items"], networks: string[]) =>
+                  items.reduce((sum, item) => sum + item.views.filter((v) => networks.includes(v.network)).reduce((a, v) => a + v.count, 0), 0);
+                const all = groups.flatMap((g) => g.items);
+                const stats = [
+                  { value: viewsOn(all, ["TikTok"]), label: page.examples_stats?.tiktok },
+                  { value: viewsOn(groups[0].items, ["TikTok"]), label: page.examples_stats?.voices },
+                  { value: viewsOn(all, ["Facebook", "Instagram"]), label: page.examples_stats?.meta },
+                ];
+                return (
+                  <section className="detail-block detail-examples-block">
+                    <h2>{page.examples_title}</h2>
+                    {page.examples_intro && <p className="detail-examples-intro">{page.examples_intro}</p>}
+                    <div className="detail-example-groups">
+                      {groups.map((group, gi) => (
+                        <div
+                          key={group.key}
+                          className="detail-example-group"
+                          style={{ "--n": group.items.length } as React.CSSProperties}
+                        >
+                          <h3>{page.example_groups?.[gi]?.title}</h3>
+                          <ul className="detail-examples">
+                            {group.items.map((item, i) => (
+                              <li key={item.url}>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer" className="detail-example">
+                                  <span className="detail-example-media">
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                                    <img src={item.image} alt={page.example_groups?.[gi]?.labels?.[i] ?? ""} width={360} height={640} loading="lazy" />
+                                    {item.lang && <span className="detail-example-lang">{item.lang}</span>}
+                                    <span className="detail-example-play" aria-hidden="true"><Play size={20} /></span>
+                                  </span>
+                                  <strong>{page.example_groups?.[gi]?.labels?.[i]}</strong>
+                                  <span className="detail-example-views">
+                                    {item.views.map((v) => (
+                                      <span key={v.network}>{v.network}: {fmt(v.count)}</span>
+                                    ))}
+                                  </span>
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="detail-examples-footer">
+                      <ul className="detail-examples-stats">
+                        {stats.map((st, i) => (
+                          <li key={i}>
+                            <strong>{fmt(st.value)}</strong>
+                            <span>{st.label}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="detail-examples-more">
+                        {page.examples_more && <p>{page.examples_more}</p>}
+                        <ServiceCta serviceId={service.id} block="cases" />
+                      </div>
+                    </div>
+                  </section>
+                );
+              })() : null}
 
               {page.cases?.length ? (
                 <section className="detail-block">

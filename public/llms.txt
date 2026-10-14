@@ -128,7 +128,7 @@ slug per language. Where slugs differ, the pairs are listed below.
   auto-posting. From €500, €25/hr.
   - URL: https://whiteeagles.sk/sk/service/telegram/
 
-- **Short videos and reels (partner service)** - vertical videos for TikTok, Reels, Shorts and Facebook: script, filming, editing, subtitles and covers. Made by a regular partner; the client contracts and pays the partner directly, and White Eagles runs the ads that use the videos. 4 videos from €350, €62.5-100 per video.
+- **Short videos and reels (partner service)** - vertical videos for TikTok, Reels, Shorts and Facebook: script, filming, editing, subtitles, voice-over in any language and covers. Made by a regular partner; the client contracts and pays the partner directly, and White Eagles runs the ads that use the videos. 4 videos from €350, €62.5-100 per video.
   - URL: https://whiteeagles.sk/sk/service/tvorba-videi/
 
 - **Bug Fixing** - repair and support of WordPress and custom sites, speed

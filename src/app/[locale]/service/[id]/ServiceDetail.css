@@ -146,22 +146,72 @@
 }
 
 
-/* Published videos: vertical covers linking to the posts. */
+/* Details beside the service picture on wide screens. The picture is only
+   decoration, so phones keep the small icon and skip it. */
+.detail-visual {
+  display: none;
+}
+
+.detail-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+@media (min-width: 1024px) {
+  .detail-top.has-visual {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.75fr);
+    gap: 48px;
+    align-items: start;
+    margin-bottom: 8px;
+  }
+
+  .detail-top.has-visual .detail-visual {
+    display: block;
+    position: sticky;
+    top: calc(var(--header-height) + 24px);
+  }
+
+  .detail-top.has-visual .service-detail-icon {
+    display: none;
+  }
+}
+
+/* Published videos: groups of vertical covers linking to the posts, sized
+   so that each group's share of the row matches its number of videos. */
 .detail-examples-intro {
-  margin: 0 0 16px;
+  margin: 0 0 20px;
+}
+
+.detail-example-groups {
+  display: flex;
+  gap: 32px;
+}
+
+.detail-example-group {
+  flex: var(--n) 1 0;
+  min-width: 0;
+}
+
+.detail-example-group h3 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-weight: 600;
 }
 
 .detail-examples {
   list-style: none;
-  margin: 0 0 8px;
+  margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.detail-examples li {
-  width: min(220px, calc(50% - 10px));
+  display: grid;
+  grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+  gap: 16px;
 }
 
 .detail-example {
@@ -194,13 +244,26 @@
   transform: scale(1.03);
 }
 
+.detail-example-lang {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--accent-color);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
 .detail-example-play {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 52px;
-  height: 52px;
-  margin: -26px 0 0 -26px;
+  width: 48px;
+  height: 48px;
+  margin: -24px 0 0 -24px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -214,9 +277,87 @@
   line-height: 1.35;
 }
 
-.detail-example span:last-child {
+.detail-example-views {
+  display: flex;
+  flex-direction: column;
   font-size: 0.85rem;
+  line-height: 1.45;
   color: var(--text-secondary);
+}
+
+.detail-examples-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px 40px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-color);
+}
+
+.detail-examples-stats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+
+.detail-examples-stats li {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+}
+
+.detail-examples-stats strong {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: var(--accent-color);
+}
+
+.detail-examples-stats span {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--text-secondary);
+}
+
+.detail-examples-more {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.detail-examples-more p {
+  margin: 0;
+}
+
+.detail-examples-more .service-cta {
+  margin-top: 0;
+}
+
+@media (max-width: 1100px) {
+  .detail-example-groups {
+    flex-direction: column;
+  }
+
+  /* Stacked groups keep one card size instead of two videos spread across
+     the whole width. */
+  .detail-examples {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .detail-examples {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detail-examples-more {
+    width: 100%;
+  }
 }
 
 .price-tag {

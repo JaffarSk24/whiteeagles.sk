@@ -839,25 +839,27 @@
     },
     "related_title": "K tomu si zvyčajne objednávajú",
     "video": {
-      "title": "Krátke videá a reels",
-      "desc": "Vertikálne videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook: scenár, natáčanie, strih, titulky a obálky",
-      "internal_title": "Tvorba reels a krátkych videí pre firmy",
-      "internal_desc": "Krátke vertikálne videá pre sociálne siete a reklamu: od nápadu a scenára po hotové súbory s titulkami, obálkami a popismi",
-      "details": "Krátke vertikálne videá pre sociálne siete a reklamu: od nápadu a scenára po hotové súbory s titulkami, obálkami a popismi",
+      "title": "Reels, TikTok a krátke videá",
+      "desc": "Vertikálne videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook: scenár, natáčanie, strih, titulky, hlas a obálky",
+      "internal_title": "Tvorba videí pre TikTok, Reels a Shorts pre firmy",
+      "internal_desc": "Krátke vertikálne videá pre TikTok, ďalšie siete a reklamu: od nápadu a scenára po hotové súbory s titulkami, hlasom, obálkami a popismi",
+      "details": "Krátke vertikálne videá pre TikTok, ďalšie siete a reklamu: od nápadu a scenára po hotové súbory s titulkami, hlasom, obálkami a popismi",
       "details_points": [
+        "Videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook vo formáte 9:16",
         "Plán tém a rubrík, ktoré vedú na vaše služby",
         "Scenáre s háčikom v prvých dvoch sekundách, ktoré schválite pred natáčaním",
         "Natáčanie u vás, s vlastným svetlom a mikrofónom",
         "Strih, titulky a grafika v bezpečnej zóne všetkých sietí",
+        "Hlas a titulky v akomkoľvek jazyku: jedno video môže vyjsť vo viacerých jazykoch",
         "Obálka a popis s hashtagmi ku každému videu",
         "Dve kolá úprav na každé video a prehľad zhliadnutí a dopozerania"
       ],
-      "seo_title": "Tvorba reels a krátkych videí pre firmy v Bratislave, od 350€",
-      "seo_desc": "Krátke videá pre TikTok, Reels a Shorts pre firmy v Bratislave: scenár, natáčanie, strih s titulkami a obálky. 4 videá od 350€, 62,5-100€ za video.",
-      "seo_keywords": "tvorba reels, tvorba videí, krátke videá pre firmy, tvorba videa na sociálne siete, tiktok videá pre firmy, video produkcia bratislava, video reklama",
+      "seo_title": "Tvorba videí pre TikTok a reels pre firmy v Bratislave, od 350€",
+      "seo_desc": "Krátke videá pre TikTok, Reels a Shorts pre firmy v Bratislave: scenár, natáčanie, strih s titulkami a hlas v akomkoľvek jazyku. 4 videá od 350€.",
+      "seo_keywords": "tvorba tiktok videí, tiktok videá pre firmy, tvorba reels, tvorba videí, krátke videá pre firmy, tvorba videa na sociálne siete, video produkcia bratislava, video reklama",
       "partner_note": "Videá natáča a strihá môj stály partner, s ktorým zvyčajne chodím na stretnutia s klientmi. Zmluvu a platbu uzatvárate priamo s ním a za videá zodpovedá on. Ja zodpovedám za reklamu, ktorá ich ukáže ľuďom, a za web, na ktorý vedú.",
       "page": {
-        "lead": "Krátke vertikálne video je dnes spôsob, ako firmu ukázať ľuďom, ktorí o nej ešte nevedia a nehľadajú ju. Videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook robí môj partner od nápadu po hotový súbor: vymyslí témy, napíše scenáre, natočí ich u vás a zostrihá s titulkami. Ja ich potom zapojím do reklamy a na web.",
+        "lead": "Krátke vertikálne video je dnes spôsob, ako firmu ukázať ľuďom, ktorí o nej ešte nevedia a nehľadajú ju. Videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook robí môj partner od nápadu po hotový súbor: vymyslí témy, napíše scenáre, natočí ich u vás, zostrihá s titulkami a nahovorí v jazyku, ktorý potrebujete. Ja ich potom zapojím do reklamy a na web.",
         "facts": [
           {
             "value": "od 350€",
@@ -868,8 +870,8 @@
             "label": "za hotové video podľa objemu a prípravy"
           },
           {
-            "value": "9:16",
-            "label": "TikTok, Reels, Shorts aj Facebook bez prerábania"
+            "value": "633 600",
+            "label": "zhliadnutí v TikToku pri šiestich videách pre jedného klienta"
           }
         ],
         "why_title": "Čím sa tieto videá líšia",
@@ -885,6 +887,10 @@
           {
             "t": "Videá rovno do reklamy",
             "d": "Videá sa netočia do šuplíka. Spustím ich v reklame na Facebooku, Instagrame a YouTube a podľa dopozerania sa rozhoduje, čo točiť ďalej."
+          },
+          {
+            "t": "Jedno video, viac jazykov",
+            "d": "Partner nahovorí video v akomkoľvek jazyku a preloží titulky aj text v zábere. Video pre RAM service vyšlo v slovenčine, ukrajinčine, ruštine a angličtine a každá verzia si našla svojich divákov."
           }
         ],
         "process_title": "Ako to prebieha",
@@ -892,7 +898,7 @@
           "Stretnutie: pozrieme sa, čo a ako robíte, a vyberieme témy. Zvyčajne prichádzame spolu, partner kvôli videám a ja kvôli reklame.",
           "Scenáre: partner napíše texty ku všetkým videám, vy ich prečítate a do troch pracovných dní poviete, čo upraviť.",
           "Natáčanie u vás, s vlastným svetlom a mikrofónom a bez toho, aby sa zastavila prevádzka. V zábere ste vy alebo niekto z tímu, približne hodinu až hodinu a pol za natáčací deň.",
-          "Strih: titulky, grafika, hudba a čistý zvuk, k tomu obálka a popis ku každému videu. Prvé videá dostanete zhruba do dvanástich dní.",
+          "Strih: titulky, grafika, hudba a čistý zvuk, podľa potreby aj hlas v ďalších jazykoch, k tomu obálka a popis ku každému videu. Prvé videá dostanete zhruba do dvanástich dní.",
           "Zverejnenie a reklama: videá zverejňujete vy, ja ich môžem pustiť do reklamy. Po každom bloku dostanete prehľad, koľko ľudí video videlo a dopozeralo."
         ],
         "pricing_title": "Ceny",
@@ -924,22 +930,13 @@
         ],
         "pricing_note": "Ceny platia za jeden mesiac výroby. Plný cyklus sa dá začať aj desiatimi videami za 1000€. Rozpočet na reklamu, pre malú prevádzku zvyčajne od 300€ mesačne, platíte priamo Facebooku, Instagramu alebo Googlu, nastavenie a správu reklamy robím ja.",
         "examples_title": "Ukážky práce",
-        "examples_intro": "Videá pre servis elektroniky RAM service v Bratislave z augusta a septembra 2026. Zhliadnutia sú zo štatistík stránky na Facebooku.",
-        "examples": [
-          {
-            "label": "Oprava notebookov a mobilov so zárukou"
-          },
-          {
-            "label": "Rozbitý displej? Opravíme to!"
-          }
-        ],
-        "examples_views": "{n} zhliadnutí na Facebooku",
+        "examples_intro": "Videá pre servis elektroniky RAM service v Bratislave z augusta a septembra 2026. Zhliadnutia k 15. októbru 2026: TikTok z verejných stránok videí, Facebook a Instagram zo štatistík stránky.",
         "geo_title": "Kde natáčame",
         "geo": "Partner natáča v Bratislave a okolí: u vás v prevádzke, v kancelárii alebo v teréne. Ak treba natáčať inde na Slovensku, dohodne sa to vopred.",
         "faq_title": "Časté otázky",
         "faq": [
           {
-            "q": "Koľko stojí tvorba reels pre firmu?",
+            "q": "Koľko stojí tvorba TikTok videí a reels pre firmu?",
             "a": "Skúšobné 4 videá za jeden natáčací deň stoja 350€, mesačný balík 8 videí 500€ a plný cyklus s plánom tém a rubrikami 1500€ za 15 videí. Za hotové video to vychádza 62,5-100€ podľa objemu a prípravy."
           },
           {
@@ -955,6 +952,10 @@
             "a": "Áno, okrem krátkych videí aj dlhšie horizontálne videá na YouTube. Verzie pre feed Facebooku a LinkedInu (1:1, 4:5) a horizontálny formát sa počítajú zvlášť."
           },
           {
+            "q": "Dá sa video urobiť vo viacerých jazykoch?",
+            "a": "Áno, partner nahovorí video v akomkoľvek jazyku a preloží titulky aj text v zábere. Jedno video pre RAM service vyšlo v slovenčine, ukrajinčine, ruštine a angličtine a v TikToku majú tieto verzie spolu 388 500 zhliadnutí. Cenu ďalších jazykových verzií dohodnete s partnerom."
+          },
+          {
             "q": "Kto zodpovedá za výsledok?",
             "a": "Partner zodpovedá za videá: natočiť ich, zostrihať a odovzdať načas a po zverejnení poslať prehľad zhliadnutí a dopozerania. Koľko z toho bude telefonátov, závisí aj od reklamy, od vašich cien a od toho, ako sa u vás zdvíha telefón."
           },
@@ -962,7 +963,31 @@
             "q": "S kým uzatváram zmluvu a komu platím?",
             "a": "Za videá priamo partnerovi, podľa jeho ponuky. Za nastavenie a správu reklamy White Eagles & Co. s. r. o. a rozpočet na reklamu priamo Facebooku, Instagramu alebo Googlu."
           }
-        ]
+        ],
+        "example_groups": [
+          {
+            "title": "Jedno video, štyri jazyky",
+            "labels": [
+              "Slovenská verzia",
+              "Ukrajinská verzia",
+              "Ruská verzia",
+              "Anglická verzia"
+            ]
+          },
+          {
+            "title": "Ďalšie videá",
+            "labels": [
+              "Pokazil sa telefón alebo notebook?",
+              "Misia: nájsť RAM service"
+            ]
+          }
+        ],
+        "examples_stats": {
+          "tiktok": "zhliadnutí v TikToku pri šiestich videách",
+          "voices": "zhliadnutí jedného videa v štyroch jazykoch",
+          "meta": "zhliadnutí na Facebooku a Instagrame"
+        },
+        "examples_more": "Ďalšie ukážky na požiadanie pri stretnutí."
       }
     },
     "partner_badge": "Služba partnera"

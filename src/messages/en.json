@@ -799,25 +799,27 @@
     },
     "related_title": "Usually ordered alongside",
     "video": {
-      "title": "Short videos and reels",
-      "desc": "Vertical videos for TikTok, Instagram Reels, YouTube Shorts and Facebook: script, filming, editing, subtitles and covers",
-      "internal_title": "Reels and short videos for business",
-      "internal_desc": "Short vertical videos for social media and ads: from the idea and script to finished files with subtitles, covers and captions",
-      "details": "Short vertical videos for social media and ads: from the idea and script to finished files with subtitles, covers and captions",
+      "title": "Reels, TikTok and short videos",
+      "desc": "Vertical videos for TikTok, Instagram Reels, YouTube Shorts and Facebook: script, filming, editing, subtitles, voice-over and covers",
+      "internal_title": "TikTok videos, reels and Shorts for business",
+      "internal_desc": "Short vertical videos for TikTok, other networks and ads: from the idea and script to finished files with subtitles, voice-over, covers and captions",
+      "details": "Short vertical videos for TikTok, other networks and ads: from the idea and script to finished files with subtitles, voice-over, covers and captions",
       "details_points": [
+        "Videos for TikTok, Instagram Reels, YouTube Shorts and Facebook in 9:16",
         "A plan of topics and series that lead to your services",
         "Scripts with a hook in the first two seconds, approved by you before filming",
         "Filming at your place, with our own light and microphone",
         "Editing, subtitles and graphics inside every network's safe zone",
+        "Voice-over and subtitles in any language: one video can go out in several language versions",
         "A cover and a caption with hashtags for every video",
         "Two rounds of changes per video and a report on views and completion"
       ],
-      "seo_title": "Reels and short videos for business in Bratislava, from 350€",
-      "seo_desc": "Short videos for TikTok, Reels and Shorts for businesses in Bratislava: script, filming, editing with subtitles and covers. 4 videos from 350€, 62.5-100€ a video.",
-      "seo_keywords": "reels production, short videos for business, social media video, tiktok videos for business, video production bratislava, video ads",
+      "seo_title": "TikTok videos and reels for business in Bratislava, from 350€",
+      "seo_desc": "Short videos for TikTok, Reels and Shorts for businesses in Bratislava: script, filming, editing with subtitles, voice-over in any language. 4 videos from 350€.",
+      "seo_keywords": "tiktok videos for business, reels production, short videos for business, social media video, video production bratislava, video ads",
       "partner_note": "The videos are filmed and edited by my regular partner, who usually comes to client meetings with me. You contract and pay him directly, and he is responsible for the videos. I am responsible for the ads that show them to people and for the website they lead to.",
       "page": {
-        "lead": "A short vertical video is how a business reaches people who do not know it yet and are not searching for it. Videos for TikTok, Instagram Reels, YouTube Shorts and Facebook are made by my partner from idea to finished file: he comes up with topics, writes scripts, films at your place and edits with subtitles. I then put them into ads and on the website.",
+        "lead": "A short vertical video is how a business reaches people who do not know it yet and are not searching for it. Videos for TikTok, Instagram Reels, YouTube Shorts and Facebook are made by my partner from idea to finished file: he comes up with topics, writes scripts, films at your place, edits with subtitles and records the voice-over in the language you need. I then put them into ads and on the website.",
         "facts": [
           {
             "value": "from 350€",
@@ -828,8 +830,8 @@
             "label": "per finished video, by volume and preparation"
           },
           {
-            "value": "9:16",
-            "label": "TikTok, Reels, Shorts and Facebook without rework"
+            "value": "633,600",
+            "label": "TikTok views for six videos made for one client"
           }
         ],
         "why_title": "What makes these videos different",
@@ -845,6 +847,10 @@
           {
             "t": "Straight into ads",
             "d": "The videos are not made for the drawer. I run them in ads on Facebook, Instagram and YouTube, and completion rates decide what to film next."
+          },
+          {
+            "t": "One video, several languages",
+            "d": "My partner records voice-overs in any language and translates the subtitles and on-screen text. A video for RAM service went out in Slovak, Ukrainian, Russian and English, and every version found its viewers."
           }
         ],
         "process_title": "How it works",
@@ -852,7 +858,7 @@
           "Meeting: we look at what you do and how, and pick the topics. We usually come together, my partner for the videos and I for the ads.",
           "Scripts: my partner writes the texts for all videos, you read them and within three working days say what to change.",
           "Filming at your place, with our own light and microphone and without stopping your work. You or someone from your team is on camera, about an hour to an hour and a half per filming day.",
-          "Editing: subtitles, graphics, music and clean sound, plus a cover and a caption for every video. The first videos arrive in about twelve days.",
+          "Editing: subtitles, graphics, music and clean sound, voice-overs in other languages if needed, plus a cover and a caption for every video. The first videos arrive in about twelve days.",
           "Publishing and ads: you publish the videos, and I can run them in ads. After each block you get a report on how many people saw each video and how many watched it to the end."
         ],
         "pricing_title": "Prices",
@@ -884,22 +890,13 @@
         ],
         "pricing_note": "Prices are for one month of production. The full cycle can also start with ten videos for 1000€. The ad budget, for a small business usually from 300€ a month, is paid directly to Facebook, Instagram or Google; I set up and manage the ads.",
         "examples_title": "Examples",
-        "examples_intro": "Videos for RAM service, an electronics repair shop in Bratislava, August and September 2026. Views are from the page's Facebook statistics.",
-        "examples": [
-          {
-            "label": "Laptop and phone repair with a warranty"
-          },
-          {
-            "label": "Broken screen? We fix it!"
-          }
-        ],
-        "examples_views": "{n} views on Facebook",
+        "examples_intro": "Videos for RAM service, an electronics repair shop in Bratislava, August and September 2026. Views as of 15 October 2026: TikTok from the public video pages, Facebook and Instagram from the page's statistics.",
         "geo_title": "Where we film",
         "geo": "My partner films in Bratislava and around it: at your shop, office or on location. Filming elsewhere in Slovakia is agreed in advance.",
         "faq_title": "Questions",
         "faq": [
           {
-            "q": "What do reels for a business cost?",
+            "q": "What do TikTok videos and reels for a business cost?",
             "a": "A trial of 4 videos in one filming day costs 350€, a monthly package of 8 videos 500€, and the full cycle with a topic plan and series 1500€ for 15 videos. That is 62.5-100€ per finished video, depending on volume and preparation."
           },
           {
@@ -915,6 +912,10 @@
             "a": "Yes, longer horizontal videos for YouTube as well as short ones. Versions for the Facebook and LinkedIn feed (1:1, 4:5) and the horizontal format are priced separately."
           },
           {
+            "q": "Can a video be made in several languages?",
+            "a": "Yes, my partner records voice-overs in any language and translates the subtitles and on-screen text. One video for RAM service went out in Slovak, Ukrainian, Russian and English, and these versions have 388,500 TikTok views together. The price of extra language versions is agreed with my partner."
+          },
+          {
             "q": "Who is responsible for the result?",
             "a": "My partner is responsible for the videos: filming, editing and delivering them on time, and sending a report on views and completion after publishing. How many calls that brings also depends on the ads, your prices and how your phone is answered."
           },
@@ -922,7 +923,31 @@
             "q": "Who do I contract and pay?",
             "a": "For the videos, my partner directly, under his offer. For setting up and managing ads, White Eagles & Co. s. r. o., and the ad budget directly to Facebook, Instagram or Google."
           }
-        ]
+        ],
+        "example_groups": [
+          {
+            "title": "One video, four voice-overs",
+            "labels": [
+              "Slovak version",
+              "Ukrainian version",
+              "Russian version",
+              "English version"
+            ]
+          },
+          {
+            "title": "More videos",
+            "labels": [
+              "Phone or laptop broken?",
+              "Mission: find RAM service"
+            ]
+          }
+        ],
+        "examples_stats": {
+          "tiktok": "TikTok views for six videos",
+          "voices": "views of one video in four languages",
+          "meta": "views on Facebook and Instagram"
+        },
+        "examples_more": "More examples on request at the meeting."
       }
     },
     "partner_badge": "Partner service"
