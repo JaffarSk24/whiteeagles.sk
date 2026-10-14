@@ -59,13 +59,15 @@ For comparison, prices in search and Shopping, with figures from my campaigns, a
 
 ## My own YouTube projects
 
-I also know YouTube from the other side, as a channel creator. I built these projects end to end.
+I also know YouTube from the other side, as a co-creator of channels.
 
-**Авто с Любовью** ("Cars with Love", [the YouTube channel](https://www.youtube.com/@autowithlove)) is a Russian-language channel about sourcing cars in Europe and about electric cars. Since May 2020: 33 videos, 166,740 views and about 2,200 subscribers. The most watched video, a Lexus RX 450h+ review, has 17,649 views; the BMW i3, Renault ZOE and Mazda MX-30 reviews 10,000 to 12,000 each.
+**Авто с Любовью** ("Cars with Love", [the YouTube channel](https://www.youtube.com/@autowithlove)) is a Russian-language channel about sourcing cars in Europe and about electric cars. In 2020 we made it together with its author; later she ran it herself with a new team. From June to November 2020 we released 21 videos together, which now have 89,219 views between them. The most watched of them, a Renault ZOE review, has 10,701 views.
 
-![The most watched videos of the Авто с Любовью channel | White Eagles & Co.](/assets/blog/youtube-avto-s-lyubovyu.webp)
+![The most watched 2020 videos of the Авто с Любовью channel | White Eagles & Co.](/assets/blog/youtube-avto-s-lyubovyu.webp)
 
-**Словакия сегодня** ("Slovakia Today") was a weekly round-up of Slovak news in Russian. Its YouTube channel gathered 20 videos, 54,830 views and 893 subscribers from July 2020 (according to Social Blade; the channel has since been closed), and [its Facebook page](https://www.facebook.com/slovakiadnes) has 1,200 followers.
+**Словакия сегодня** ("Slovakia Today") was our joint project: a weekly round-up of Slovak news in Russian with its own studio, presenters and an audio podcast. The YouTube channel, started in July 2020, reached its first 1,000 subscribers by December and gathered 20 videos and 54,830 views in all (the last Social Blade figures; the channel has since been closed). [Its Facebook page](https://www.facebook.com/slovakiadnes) has 1,200 followers, and its most watched episode there, the week of 7-13 December 2020, has 7,681 views.
+
+![Episodes of the Словакия сегодня project from 2020 | White Eagles & Co.](/assets/blog/youtube-slovakiya-segodnya.webp)
 
 These projects taught me what decides a view: the first seconds, the thumbnail and a topic people actually look for. It is the same with an ad video.
 

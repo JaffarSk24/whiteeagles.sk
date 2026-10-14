@@ -59,13 +59,15 @@ Pre porovnanie, ako vyzerajú ceny vo vyhľadávaní a v Nákupoch, je v článk
 
 ## Moje YouTube projekty
 
-YouTube poznám aj z druhej strany, ako tvorca kanálov. Tieto projekty som robil celé.
+YouTube poznám aj z druhej strany, ako spolutvorca kanálov.
 
-**Авто с Любовью** ([kanál na YouTube](https://www.youtube.com/@autowithlove)) je ruskojazyčný kanál o výbere áut v Európe a o elektromobiloch. Od mája 2020: 33 videí, 166 740 zhliadnutí a približne 2 200 odberateľov. Najsledovanejšie video, recenzia Lexus RX 450h+, má 17 649 zhliadnutí, recenzie BMW i3, Renault ZOE a Mazda MX-30 po 10 až 12 tisíc.
+**Авто с Любовью** ([kanál na YouTube](https://www.youtube.com/@autowithlove)) je ruskojazyčný kanál o výbere áut v Európe a o elektromobiloch. V roku 2020 sme ho robili spolu s jeho autorkou, neskôr ho viedla sama s novým tímom. Od júna do novembra 2020 sme spolu vydali 21 videí, ktoré majú dnes spolu 89 219 zhliadnutí. Najsledovanejšie z nich, recenzia Renault ZOE, má 10 701 zhliadnutí.
 
-![Najsledovanejšie videá kanála Авто с Любовью | White Eagles & Co.](/assets/blog/youtube-avto-s-lyubovyu.webp)
+![Najsledovanejšie videá kanála Авто с Любовью z roku 2020 | White Eagles & Co.](/assets/blog/youtube-avto-s-lyubovyu.webp)
 
-**Словакия сегодня** bol týždenný prehľad slovenských správ v ruštine. Jeho YouTube kanál od júla 2020 nazbieral 20 videí, 54 830 zhliadnutí a 893 odberateľov (podľa Social Blade, kanál je dnes zrušený), [stránka na Facebooku](https://www.facebook.com/slovakiadnes) má 1 200 sledovateľov.
+**Словакия сегодня** bol náš spoločný projekt: týždenný prehľad slovenských správ v ruštine s vlastným štúdiom, moderátormi a audiopodcastom. YouTube kanál založený v júli 2020 mal do decembra prvých 1 000 odberateľov, spolu nazbieral 20 videí a 54 830 zhliadnutí (posledné údaje Social Blade, kanál je dnes zrušený). [Stránka na Facebooku](https://www.facebook.com/slovakiadnes) má 1 200 sledovateľov a najsledovanejšie vydanie, týždeň 7.-13. decembra 2020, má tam 7 681 zhliadnutí.
+
+![Vydania projektu Словакия сегодня z roku 2020 | White Eagles & Co.](/assets/blog/youtube-slovakiya-segodnya.webp)
 
 Z týchto projektov viem, čo rozhoduje o zhliadnutí: prvé sekundy, náhľadový obrázok a téma, ktorú ľudia naozaj hľadajú. Pri reklamnom videu je to rovnaké.
 
