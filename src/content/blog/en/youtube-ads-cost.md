@@ -57,6 +57,18 @@ For comparison, prices in search and Shopping, with figures from my campaigns, a
 - **An event with a date.** For the [Astana Ballet](/en/case/astana-ballet-vienna-ads/) performances in Vienna, banners and videos voiced in German, Russian and Slovak ran on the Google network. The first phase brought 21,610 clicks to the ticket pages at 0.027€ each.
 - **Retargeting.** For people who visited the site and did nothing, a video reminds them of the offer more cheaply and more vividly than a banner.
 
+## My own YouTube projects
+
+I also know YouTube from the other side, as a channel creator. I built these projects end to end.
+
+**Авто с Любовью** ("Cars with Love", [the YouTube channel](https://www.youtube.com/@autowithlove)) is a Russian-language channel about sourcing cars in Europe and about electric cars. Since May 2020: 33 videos, 166,740 views and about 2,200 subscribers. The most watched video, a Lexus RX 450h+ review, has 17,649 views; the BMW i3, Renault ZOE and Mazda MX-30 reviews 10,000 to 12,000 each.
+
+![The most watched videos of the Авто с Любовью channel | White Eagles & Co.](/assets/blog/youtube-avto-s-lyubovyu.webp)
+
+**Словакия сегодня** ("Slovakia Today") was a weekly round-up of Slovak news in Russian. Its YouTube channel gathered 20 videos, 54,830 views and 893 subscribers from July 2020 (according to Social Blade; the channel has since been closed), and [its Facebook page](https://www.facebook.com/slovakiadnes) has 1,200 followers.
+
+These projects taught me what decides a view: the first seconds, the thumbnail and a topic people actually look for. It is the same with an ad video.
+
 ## When YouTube does not pay off
 
 - **People actively search for your service** ("oprava práčky bratislava", "účtovník senec"). The money first goes to search, where you pay for people with a ready need.

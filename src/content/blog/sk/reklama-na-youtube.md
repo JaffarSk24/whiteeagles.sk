@@ -57,6 +57,18 @@ Pre porovnanie, ako vyzerajú ceny vo vyhľadávaní a v Nákupoch, je v článk
 - **Podujatie s termínom.** Pri hosťovaní divadla [Astana Ballet](/sk/case/astana-ballet-reklama-vo-viedni/) vo Viedni bežali v sieti Google bannery aj videá s hovoreným slovom v nemčine, ruštine a slovenčine. Prvá fáza priniesla 21 610 preklikov na stránky vstupeniek po 0,027€.
 - **Remarketing.** Ľuďom, ktorí boli na webe a nič neurobili, pripomenie video ponuku lacnejšie a výraznejšie než banner.
 
+## Moje YouTube projekty
+
+YouTube poznám aj z druhej strany, ako tvorca kanálov. Tieto projekty som robil celé.
+
+**Авто с Любовью** ([kanál na YouTube](https://www.youtube.com/@autowithlove)) je ruskojazyčný kanál o výbere áut v Európe a o elektromobiloch. Od mája 2020: 33 videí, 166 740 zhliadnutí a približne 2 200 odberateľov. Najsledovanejšie video, recenzia Lexus RX 450h+, má 17 649 zhliadnutí, recenzie BMW i3, Renault ZOE a Mazda MX-30 po 10 až 12 tisíc.
+
+![Najsledovanejšie videá kanála Авто с Любовью | White Eagles & Co.](/assets/blog/youtube-avto-s-lyubovyu.webp)
+
+**Словакия сегодня** bol týždenný prehľad slovenských správ v ruštine. Jeho YouTube kanál od júla 2020 nazbieral 20 videí, 54 830 zhliadnutí a 893 odberateľov (podľa Social Blade, kanál je dnes zrušený), [stránka na Facebooku](https://www.facebook.com/slovakiadnes) má 1 200 sledovateľov.
+
+Z týchto projektov viem, čo rozhoduje o zhliadnutí: prvé sekundy, náhľadový obrázok a téma, ktorú ľudia naozaj hľadajú. Pri reklamnom videu je to rovnaké.
+
 ## Kedy sa YouTube neoplatí
 
 - **Ľudia vašu službu aktívne hľadajú** („oprava práčky bratislava“, „účtovník senec“). Peniaze patria najprv do vyhľadávania, kde platíte za ľudí s hotovou potrebou.
