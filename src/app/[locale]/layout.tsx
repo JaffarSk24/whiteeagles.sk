@@ -74,11 +74,12 @@ export async function generateMetadata({
         },
       ],
     },
+    // Only the card type lives here. Every page inherits this object unless it
+    // sets its own, and with the home title, description and image in it the
+    // apps, service and portfolio pages were shared in Telegram and X with the
+    // home page's card. Without them both fall back to each page's og: tags.
     twitter: {
       card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
-      images: [ogImageFor(locale)],
     },
     robots: {
       index: true,

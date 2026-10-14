@@ -1,4 +1,5 @@
 import React from "react";
+import { ogImageFor } from "@/utils/ogImage";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { FileText } from "lucide-react";
 import "../Legal.css";
@@ -10,6 +11,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t("title"),
     description: t("description"),
+    // Its own card when the page is shared, not the home page's.
+    openGraph: {
+      type: "website",
+      siteName: "White Eagles & Co.",
+      title: t("title"),
+      description: t("description"),
+      url: `https://whiteeagles.sk/${locale}/cookies/`,
+      images: [{ url: ogImageFor(locale), width: 1200, height: 630, alt: "White Eagles & Co." }],
+    },
     // Its own address, not the locale home page. Without this the page
     // inherits the layout's canonical and tells Google it is a duplicate of
     // the home page - while also carrying noindex, which is contradictory.

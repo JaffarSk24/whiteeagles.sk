@@ -1,5 +1,4 @@
 import React from "react";
-import { ogImageFor } from "@/utils/ogImage";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -34,10 +33,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       },
     },
     openGraph: {
+      type: "website",
+      siteName: "White Eagles & Co.",
       title: t("seo_title"),
       description: t("seo_desc"),
       url: path(locale),
-      images: [{ url: ogImageFor(locale), width: 1200, height: 630 }],
+      // The two apps themselves, not the home page's card.
+      images: [{ url: "/assets/apps/og-apps.jpg", width: 1200, height: 630, alt: "WE Time Tracker, WE Budget" }],
     },
   };
 }
