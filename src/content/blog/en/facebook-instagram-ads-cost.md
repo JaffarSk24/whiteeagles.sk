@@ -80,7 +80,7 @@ RAM service shows the difference. The previous campaign was set to traffic: thou
 2. **Audience.** Location and radius, for example Bratislava and 25 km around. There is no need to narrow interests too much: with a good pixel, Meta finds the audience itself.
 3. **Language.** Slovakia also has Russian, Ukrainian and English-speaking customers. Each language gets its own ad set and its own copy, as with RAM service, whose ads run in four languages.
 4. **Placements.** Automatic Advantage+ placements usually come out cheaper than picking only the Facebook feed by hand.
-5. **Creatives.** Two to four variants: an image or video in 4:5 for the feed and 9:16 for stories and reels. The first three seconds decide whether a person stops.
+5. **Creatives.** Two to four variants: an image or video in 4:5 for the feed and 9:16 for stories and reels. The first three seconds decide whether a person stops. If you have no videos, my partner films them: [short videos and reels](/en/service/short-videos/).
 6. **Budget and time.** Leave the campaign running for at least a week without changes. Any major edit sends it back into the learning phase.
 
 ## Why Facebook ads do not sell

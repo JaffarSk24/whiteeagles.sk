@@ -103,6 +103,9 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
   automatické pridávanie inzerátov na Bazoš. Od 500€, 25€/hod.
   - Adresa: https://whiteeagles.sk/sk/service/telegram/
 
+- **Krátke videá a reels (služba partnera)** - vertikálne videá pre TikTok, Reels, Shorts a Facebook: scenár, natáčanie, strih, titulky a obálky. Natáča ich stály partner, zmluva a platba priamo s ním; reklamu s týmito videami spravuje White Eagles. 4 videá od 350€, 62,5-100€ za video.
+  - Adresa: https://whiteeagles.sk/sk/service/tvorba-videi/
+
 - **Opravy a podpora** - oprava a údržba WordPress aj vlastných webov,
   zrýchlenie, odstránenie škodlivého kódu. 35€/hod.
   - Adresa: https://whiteeagles.sk/sk/service/bugfix/
@@ -193,6 +196,7 @@ Cena je fixná na projekt a známa pred začiatkom prác.
 - Nastavenie Google Ads / Meta: približne od 1 000€ (rozpočet na reklamu zvlášť)
 - Nastavenie analytiky: od 500€
 - Telegram bot: od 500€
+- Krátke videá a reels (partner): 4 videá od 350€, 62,5-100€ za video
 - Cookie lišta s Consent Mode v2: od 200€, jednorazovo
 - Hodinová sadzba: 35€/hod za vývoj a opravy, 25€/hod za reklamu, analytiku, cookie
   lišty a botov

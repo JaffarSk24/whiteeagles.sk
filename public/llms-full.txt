@@ -247,6 +247,14 @@ explanation of what the owner can fix themselves. Results in 3 working days.
 
 ---
 
+### H. Short videos and reels (partner service) - from €350
+*URL: https://whiteeagles.sk/sk/service/tvorba-videi/*
+
+Vertical videos for TikTok, Instagram Reels, YouTube Shorts and Facebook, and horizontal YouTube videos on request. They are made by a regular partner who usually comes to client meetings with White Eagles. The client contracts and pays the partner directly, and the partner is responsible for the videos; White Eagles is responsible for the ads that show them and for the website.
+- Packages: 4 videos in one filming day €350, 8 videos a month €500, a full cycle of 15 videos with competitor analysis, series and a topic plan €1,500 (€62.5-100 per video).
+- Scripts with a hook in the first seconds, filming at the client's premises with own light and sound, editing with subtitles, a cover and caption for every video, two rounds of changes, a report on views and completion.
+- The client publishes; the ad budget is paid directly to the platforms.
+
 ## 5. Pricing & Policies
 
 Prices are fixed per project and stated before the work starts.
@@ -257,6 +265,7 @@ Prices are fixed per project and stated before the work starts.
 - **Google Ads / Meta setup**: from ~€1,000 (ad budget separate).
 - **Analytics and tracking**: from €500.
 - **Telegram bot**: from €500.
+- **Short videos and reels (partner)**: 4 videos from €350, €62.5-100 per video.
 - **Cookie banner with Consent Mode v2**: from €200, one-off.
 - **Hourly rate**: **€35/hr** for development and repair work, **€25/hr** for advertising,
   analytics, cookie banners and Telegram bots.

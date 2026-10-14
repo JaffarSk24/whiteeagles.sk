@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { services, serviceSlug } from "../../data/services";
+import { services, serviceSlug, formatRate } from "../../data/services";
 import { getCaseSlugForLocale } from "../../utils/cases";
 import {
   FileText,
@@ -197,7 +197,10 @@ export default function HomeContent() {
             <h2 className="section-title">{tServicesNS("title")}</h2>
             <div className="services-grid">
               {services.map((service) => (
-                <div key={service.id} className="service-card">
+                // A partner's service gets the full row under the company's
+                // own six: it keeps the grid at two full rows and shows at a
+                // glance that someone else does the work.
+                <div key={service.id} className={`service-card${service.partner ? " is-partner" : ""}`}>
                   <div
                     className="service-image-placeholder"
                     style={
@@ -213,10 +216,11 @@ export default function HomeContent() {
                     {!service.image && <div className="img-overlay" />}
                   </div>
                   <div className="service-content">
+                    {service.partner && <span className="service-partner-badge">{tServicesNS("partner_badge")}</span>}
                     <h3>{t(service.titleKey as any)}</h3>
                     <p className="service-desc">{t(service.descKey as any)}</p>
                     <p className="service-price">
-                      {service.priceRate}€ / {tCommon("hour")}
+                      {formatRate(service, locale)} / {tCommon(service.priceUnit ?? "hour")}
                       {service.priceMin && (
                         <span className="price-min">
                           {" "}

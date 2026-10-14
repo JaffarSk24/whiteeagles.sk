@@ -89,6 +89,8 @@ No studio needed. What it needs:
 
 If you speak to several language groups, each gets its own video, as Astana Ballet did. Translated subtitles under a German voice persuade less.
 
+If you have no video and nobody to film it, my partner makes short videos for Reels, Shorts and TikTok and longer videos for YouTube: [reels and short videos](/en/service/short-videos/), 4 videos from 350€.
+
 ## How a YouTube campaign is launched
 
 1. The video is uploaded to the **company YouTube channel**, unlisted if you prefer it not to appear among the regular videos.

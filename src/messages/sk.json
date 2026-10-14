@@ -837,7 +837,135 @@
         ]
       }
     },
-    "related_title": "K tomu si zvyčajne objednávajú"
+    "related_title": "K tomu si zvyčajne objednávajú",
+    "video": {
+      "title": "Krátke videá a reels",
+      "desc": "Vertikálne videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook: scenár, natáčanie, strih, titulky a obálky",
+      "internal_title": "Tvorba reels a krátkych videí pre firmy",
+      "internal_desc": "Krátke vertikálne videá pre sociálne siete a reklamu: od nápadu a scenára po hotové súbory s titulkami, obálkami a popismi",
+      "details": "Krátke vertikálne videá pre sociálne siete a reklamu: od nápadu a scenára po hotové súbory s titulkami, obálkami a popismi",
+      "details_points": [
+        "Plán tém a rubrík, ktoré vedú na vaše služby",
+        "Scenáre s háčikom v prvých dvoch sekundách, ktoré schválite pred natáčaním",
+        "Natáčanie u vás, s vlastným svetlom a mikrofónom",
+        "Strih, titulky a grafika v bezpečnej zóne všetkých sietí",
+        "Obálka a popis s hashtagmi ku každému videu",
+        "Dve kolá úprav na každé video a prehľad zhliadnutí a dopozerania"
+      ],
+      "seo_title": "Tvorba reels a krátkych videí pre firmy v Bratislave, od 350€",
+      "seo_desc": "Krátke videá pre TikTok, Reels a Shorts pre firmy v Bratislave: scenár, natáčanie, strih s titulkami a obálky. 4 videá od 350€, 62,5-100€ za video.",
+      "seo_keywords": "tvorba reels, tvorba videí, krátke videá pre firmy, tvorba videa na sociálne siete, tiktok videá pre firmy, video produkcia bratislava, video reklama",
+      "partner_note": "Videá natáča a strihá môj stály partner, s ktorým zvyčajne chodím na stretnutia s klientmi. Zmluvu a platbu uzatvárate priamo s ním a za videá zodpovedá on. Ja zodpovedám za reklamu, ktorá ich ukáže ľuďom, a za web, na ktorý vedú.",
+      "page": {
+        "lead": "Krátke vertikálne video je dnes spôsob, ako firmu ukázať ľuďom, ktorí o nej ešte nevedia a nehľadajú ju. Videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook robí môj partner od nápadu po hotový súbor: vymyslí témy, napíše scenáre, natočí ich u vás a zostrihá s titulkami. Ja ich potom zapojím do reklamy a na web.",
+        "facts": [
+          {
+            "value": "od 350€",
+            "label": "4 videá za jeden natáčací deň"
+          },
+          {
+            "value": "62,5-100€",
+            "label": "za hotové video podľa objemu a prípravy"
+          },
+          {
+            "value": "9:16",
+            "label": "TikTok, Reels, Shorts aj Facebook bez prerábania"
+          }
+        ],
+        "why_title": "Čím sa tieto videá líšia",
+        "why": [
+          {
+            "t": "Témy vedú na služby",
+            "d": "Každá rubrika stojí na konkrétnej službe, ktorú chcete predávať, nie na náhodnom trende. Potom vidno, ktorá rubrika prináša dopyty."
+          },
+          {
+            "t": "Háčik v prvých sekundách",
+            "d": "Partner pozná, čo v komerčných videách funguje, a pracuje s modernými nástrojmi na nápady, strih a titulky. Scenár stavia tak, aby divák neodišiel po prvých dvoch sekundách."
+          },
+          {
+            "t": "Videá rovno do reklamy",
+            "d": "Videá sa netočia do šuplíka. Spustím ich v reklame na Facebooku, Instagrame a YouTube a podľa dopozerania sa rozhoduje, čo točiť ďalej."
+          }
+        ],
+        "process_title": "Ako to prebieha",
+        "process": [
+          "Stretnutie: pozrieme sa, čo a ako robíte, a vyberieme témy. Zvyčajne prichádzame spolu, partner kvôli videám a ja kvôli reklame.",
+          "Scenáre: partner napíše texty ku všetkým videám, vy ich prečítate a do troch pracovných dní poviete, čo upraviť.",
+          "Natáčanie u vás, s vlastným svetlom a mikrofónom a bez toho, aby sa zastavila prevádzka. V zábere ste vy alebo niekto z tímu, približne hodinu až hodinu a pol za natáčací deň.",
+          "Strih: titulky, grafika, hudba a čistý zvuk, k tomu obálka a popis ku každému videu. Prvé videá dostanete zhruba do dvanástich dní.",
+          "Zverejnenie a reklama: videá zverejňujete vy, ja ich môžem pustiť do reklamy. Po každom bloku dostanete prehľad, koľko ľudí video videlo a dopozeralo."
+        ],
+        "pricing_title": "Ceny",
+        "pricing_head": {
+          "type": "Balík",
+          "price": "Cena",
+          "includes": "Čo je v ňom",
+          "time": "Termín"
+        },
+        "pricing": [
+          {
+            "type": "Skúška: 4 videá",
+            "price": "350€",
+            "includes": "1 natáčací deň, scenáre, strih s titulkami, obálky a popisy",
+            "time": "približne 2 týždne"
+          },
+          {
+            "type": "Mesiac: 8 videí",
+            "price": "500€",
+            "includes": "2 natáčacie dni, 4 stále témy po 2 videá, 2 kolá úprav na video",
+            "time": "3 týždne"
+          },
+          {
+            "type": "Plný cyklus: 15 videí",
+            "price": "1500€",
+            "includes": "analýza konkurencie, rubriky a plán tém na mesiac, 3 natáčacie dni, dáta o dopozeraní po každom bloku",
+            "time": "30 dní"
+          }
+        ],
+        "pricing_note": "Ceny platia za jeden mesiac výroby. Plný cyklus sa dá začať aj desiatimi videami za 1000€. Rozpočet na reklamu, pre malú prevádzku zvyčajne od 300€ mesačne, platíte priamo Facebooku, Instagramu alebo Googlu, nastavenie a správu reklamy robím ja.",
+        "examples_title": "Ukážky práce",
+        "examples_intro": "Videá pre servis elektroniky RAM service v Bratislave z augusta a septembra 2026. Zhliadnutia sú zo štatistík stránky na Facebooku.",
+        "examples": [
+          {
+            "label": "Oprava notebookov a mobilov so zárukou"
+          },
+          {
+            "label": "Rozbitý displej? Opravíme to!"
+          }
+        ],
+        "examples_views": "{n} zhliadnutí na Facebooku",
+        "geo_title": "Kde natáčame",
+        "geo": "Partner natáča v Bratislave a okolí: u vás v prevádzke, v kancelárii alebo v teréne. Ak treba natáčať inde na Slovensku, dohodne sa to vopred.",
+        "faq_title": "Časté otázky",
+        "faq": [
+          {
+            "q": "Koľko stojí tvorba reels pre firmu?",
+            "a": "Skúšobné 4 videá za jeden natáčací deň stoja 350€, mesačný balík 8 videí 500€ a plný cyklus s plánom tém a rubrikami 1500€ za 15 videí. Za hotové video to vychádza 62,5-100€ podľa objemu a prípravy."
+          },
+          {
+            "q": "Kto bude vo videu?",
+            "a": "Vy alebo niekto z vášho tímu, dohodneme sa vopred. Na natáčací deň stačí hodina až hodina a pol vášho času a scenár dostanete na prečítanie ešte pred natáčaním."
+          },
+          {
+            "q": "Zverejníte videá za nás?",
+            "a": "Nie, dostanete hotové súbory, obálky a popisy a zverejníte ich vy. Ak chcete, aby videá videli aj ľudia, ktorí vás nesledujú, pustím ich do reklamy na Facebooku, Instagrame a YouTube."
+          },
+          {
+            "q": "Robíte aj videá na YouTube?",
+            "a": "Áno, okrem krátkych videí aj dlhšie horizontálne videá na YouTube. Verzie pre feed Facebooku a LinkedInu (1:1, 4:5) a horizontálny formát sa počítajú zvlášť."
+          },
+          {
+            "q": "Kto zodpovedá za výsledok?",
+            "a": "Partner zodpovedá za videá: natočiť ich, zostrihať a odovzdať načas a po zverejnení poslať prehľad zhliadnutí a dopozerania. Koľko z toho bude telefonátov, závisí aj od reklamy, od vašich cien a od toho, ako sa u vás zdvíha telefón."
+          },
+          {
+            "q": "S kým uzatváram zmluvu a komu platím?",
+            "a": "Za videá priamo partnerovi, podľa jeho ponuky. Za nastavenie a správu reklamy White Eagles & Co. s. r. o. a rozpočet na reklamu priamo Facebooku, Instagramu alebo Googlu."
+          }
+        ]
+      }
+    },
+    "partner_badge": "Služba partnera"
   },
   "portfolio": {
     "title": "Portfólio",
@@ -947,7 +1075,8 @@
     "visit": "Navštíviť stránku",
     "optional": "nepovinné",
     "back": "Späť",
-    "close": "Zavrieť"
+    "close": "Zavrieť",
+    "video": "video"
   },
   "order": {
     "opt_if_phone": "(nepovinné, ak je uvedený telefón)",

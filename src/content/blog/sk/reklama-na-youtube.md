@@ -89,6 +89,8 @@ Netreba štúdio. Treba, aby:
 
 Ak hovoríte k viacerým jazykovým skupinám, každá dostane vlastné video, ako pri Astana Ballet. Preložené titulky pod nemeckým hlasom presvedčia menej.
 
+Ak video nemáte a nemá ho kto natočiť, krátke videá pre Reels, Shorts a TikTok aj dlhšie videá na YouTube natáča môj partner: [tvorba reels a krátkych videí](/sk/service/tvorba-videi/), 4 videá od 350€.
+
 ## Ako sa reklama na YouTube spúšťa
 
 1. Video sa nahrá na **YouTube kanál firmy**, môže byť aj nezaradené, aby sa neukazovalo medzi bežnými videami.

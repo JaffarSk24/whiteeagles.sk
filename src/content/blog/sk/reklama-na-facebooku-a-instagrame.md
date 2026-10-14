@@ -80,7 +80,7 @@ Rozdiel je vidieť na RAM service. Predchádzajúca kampaň bola nastavená na n
 2. **Publikum.** Lokalita a okruh, napríklad Bratislava a 25 km okolo. Záujmy netreba zužovať príliš: pri dobrom pixeli si Meta publikum nájde sama.
 3. **Jazyk.** Na Slovensku žijú aj rusky, ukrajinsky a anglicky hovoriaci zákazníci. Každý jazyk dostane vlastnú skupinu reklám a vlastné texty, ako pri RAM service, kde reklama beží v štyroch jazykoch.
 4. **Umiestnenia.** Automatické umiestnenia Advantage+ zvyčajne vyjdú lacnejšie, než keď sa ručne vyberie len kanál Facebooku.
-5. **Kreatívy.** Dva až štyri varianty: obrázok alebo video vo formáte 4:5 pre kanál a 9:16 pre príbehy a reels. Prvé tri sekundy rozhodujú, či človek zastaví.
+5. **Kreatívy.** Dva až štyri varianty: obrázok alebo video vo formáte 4:5 pre kanál a 9:16 pre príbehy a reels. Prvé tri sekundy rozhodujú, či človek zastaví. Ak videá nemáte, natočí ich môj partner: [krátke videá a reels](/sk/service/tvorba-videi/).
 6. **Rozpočet a čas.** Kampaň nechajte bežať aspoň týždeň bez zásahov. Každá väčšia zmena vráti kampaň do fázy učenia.
 
 ## Prečo reklama na Facebooku nepredáva

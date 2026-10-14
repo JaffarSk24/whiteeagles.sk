@@ -1,5 +1,10 @@
 {
   "ads": {
     "ru": "reklama-google-ads"
+  },
+  "video": {
+    "sk": "tvorba-videi",
+    "ru": "video-dlya-biznesa",
+    "en": "short-videos"
   }
 }

@@ -4,7 +4,11 @@ export interface Service {
   id: string;
   titleKey: string;
   descKey: string;
+  /** Price of one unit: an hour, unless `priceUnit` says otherwise. */
   priceRate: number;
+  /** Upper end when the unit price is a range, e.g. 62.5-100€ a video. */
+  priceRateMax?: number;
+  priceUnit?: 'hour' | 'video';
   priceMin?: number;
   image?: string; // Placeholder prop
   detailsKey: string;
@@ -20,6 +24,19 @@ export interface Service {
    * passes to the two services people actually order alongside a site.
    */
   related?: string[];
+  /**
+   * Done by a partner the client contracts and pays directly. The pages say
+   * so in place of the company's payment methods, and structured data names
+   * the company as the broker rather than the provider. The partner is not
+   * named anywhere on the site.
+   */
+  partner?: boolean;
+  /**
+   * Published work shown on the service page, linking to the original post.
+   * Paths and URLs live here and not in the message files, which are
+   * serialised into the pages.
+   */
+  examples?: { image: string; url: string; views: number }[];
 }
 
 export const services: Service[] = [
@@ -59,7 +76,7 @@ export const services: Service[] = [
   },
   {
     id: 'ads',
-    related: ['analytics', 'cookies'],
+    related: ['analytics', 'video', 'cookies'],
     titleKey: 'services.ads.title',
     descKey: 'services.ads.desc',
     priceRate: 25,
@@ -118,8 +135,47 @@ export const services: Service[] = [
     seoTitleKey: 'services.telegram.seo_title',
     seoDescKey: 'services.telegram.seo_desc',
     seoKeywordsKey: 'services.telegram.seo_keywords'
+  },
+  {
+    // Short vertical videos for TikTok, Reels and Shorts, made by a partner
+    // the owner goes to client meetings with. The partner contracts and is
+    // paid directly; the owner runs the ads that show the videos.
+    id: 'video',
+    partner: true,
+    related: ['ads', 'webdev'],
+    titleKey: 'services.video.title',
+    descKey: 'services.video.desc',
+    priceRate: 62.5,
+    priceRateMax: 100,
+    priceUnit: 'video',
+    priceMin: 350,
+    image: '/assets/services/video.webp',
+    detailsKey: 'services.video.details',
+    internalTitleKey: 'services.video.internal_title',
+    internalDescKey: 'services.video.internal_desc',
+    seoTitleKey: 'services.video.seo_title',
+    seoDescKey: 'services.video.seo_desc',
+    seoKeywordsKey: 'services.video.seo_keywords',
+    // Facebook views from the page's own statistics, 14 Oct 2026. Views only:
+    // the reels also ran in the client's earlier ad campaign, so clicks would
+    // credit the video with what the ads did.
+    examples: [
+      { image: '/assets/services/video-ram-1.webp', url: 'https://www.facebook.com/reel/2137092266937765/', views: 23597 },
+      { image: '/assets/services/video-ram-2.webp', url: 'https://www.facebook.com/reel/1370507118002322/', views: 11069 },
+    ],
   }
 ];
+
+/**
+ * The unit price as shown to people: "25€", or "62,5-100€" for a range, with
+ * the decimal comma in Slovak and Russian.
+ */
+export const formatRate = (service: Service, locale: string): string => {
+  const num = (n: number) => (locale === 'en' ? String(n) : String(n).replace('.', ','));
+  return service.priceRateMax
+    ? `${num(service.priceRate)}-${num(service.priceRateMax)}€`
+    : `${num(service.priceRate)}€`;
+};
 
 /**
  * The URL segment of a service in one language. Most services use their id in

@@ -1,8 +1,8 @@
 import React from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { ArrowLeft, ShieldCheck, FileText, CreditCard, CircleDollarSign, Bitcoin, RussianRuble } from "lucide-react";
-import { services, serviceSlug, serviceBySlug } from "../../../../data/services";
+import { ArrowLeft, ShieldCheck, FileText, CreditCard, CircleDollarSign, Bitcoin, RussianRuble, Handshake, Play } from "lucide-react";
+import { services, serviceSlug, serviceBySlug, formatRate } from "../../../../data/services";
 import { getSlugForLocale } from "../../../../utils/blog";
 import { getAllCases, getCaseSlugForLocale } from "../../../../utils/cases";
 
@@ -118,6 +118,10 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         industries?: { label: string; ref: string; note: string }[];
         why_title?: string;
         why?: { t: string; d: string }[];
+        examples_title?: string;
+        examples_intro?: string;
+        examples?: { label: string }[];
+        examples_views?: string;
         calc?: CalculatorTexts;
       })
     : null;
@@ -171,7 +175,8 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         "@id": `https://whiteeagles.sk/${locale}/service/${id}/#service`,
         "name": serviceTitle,
         "description": serviceDescription,
-        "provider": {
+        // A partner's service is arranged by the company, not provided by it.
+        [service.partner ? "broker" : "provider"]: {
           "@type": "LocalBusiness",
           "@id": "https://whiteeagles.sk/#localbusiness",
           "name": "White Eagles & Co."
@@ -182,9 +187,11 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
           "price": service.priceMin || service.priceRate,
           "priceSpecification": {
             "@type": "UnitPriceSpecification",
-            "price": service.priceRate,
+            ...(service.priceRateMax
+              ? { "minPrice": service.priceRate, "maxPrice": service.priceRateMax }
+              : { "price": service.priceRate }),
             "priceCurrency": "EUR",
-            "unitText": "hour"
+            "unitText": service.priceUnit ?? "hour"
           },
           "url": `https://whiteeagles.sk/${locale}/service/${id}/`
         }
@@ -242,6 +249,9 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             {service.id === "telegram" && (
               <img src="/assets/icons/telegram-icon.png" alt="Telegram Bots" className="service-detail-icon" />
             )}
+            {service.id === "video" && (
+              <img src="/assets/icons/video-icon.png" alt="Short videos" className="service-detail-icon" />
+            )}
             {/* The lead above the card already introduces the service, and on
                 bugfix the two texts were near-identical. Short blurb only when
                 there is no lead. */}
@@ -275,7 +285,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             <div className="detail-pricing-row">
               <div className="detail-pricing">
                 <span className="price-tag">
-                  {service.priceRate}€ / {tCommon("hour")}
+                  {formatRate(service, locale)} / {tCommon(service.priceUnit ?? "hour")}
                 </span>
                 {service.priceMin && (
                   <span className="price-min-tag">
@@ -284,7 +294,15 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                 )}
               </div>
 
-              {/* Payment methods */}
+              {/* A partner's service is contracted and paid with the partner,
+                  so the company's payment methods and their footnote about
+                  partners would describe a different arrangement. */}
+              {service.partner ? (
+                <div className="service-partner-note">
+                  <Handshake size={22} />
+                  <p>{t(`services.${service.id}.partner_note` as any)}</p>
+                </div>
+              ) : (
               <div className="service-payment-icons">
                 <div className="spi-item"><FileText size={18} /><span>{tAbout("payment_invoice")}</span></div>
                 <div className="spi-item"><CreditCard size={18} /><span>{tAbout("payment_card")}</span></div>
@@ -301,6 +319,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                   })}
                 </p>
               </div>
+              )}
             </div>
 
             {/* Client component for the order button */}
@@ -386,6 +405,31 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               ) : null}
 
               {page.calc ? <WebCalculator texts={page.calc} serviceId={service.id} /> : null}
+
+              {/* Published work, as cover pictures linking to the posts. The
+                  posts are not embedded: an embed loads the network's scripts
+                  and cookies on our page. */}
+              {page.examples_title && service.examples?.length ? (
+                <section className="detail-block">
+                  <h2>{page.examples_title}</h2>
+                  {page.examples_intro && <p className="detail-examples-intro">{page.examples_intro}</p>}
+                  <ul className="detail-examples">
+                    {service.examples.map((item, i) => (
+                      <li key={item.url}>
+                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="detail-example">
+                          <span className="detail-example-media">
+                            <img src={item.image} alt={page.examples?.[i]?.label ?? ""} width={360} height={640} loading="lazy" />
+                            <span className="detail-example-play" aria-hidden="true"><Play size={22} /></span>
+                          </span>
+                          <strong>{page.examples?.[i]?.label}</strong>
+                          <span>{page.examples_views?.replace("{n}", item.views.toLocaleString(locale === "en" ? "en-US" : locale).replace(/\u00a0|\u202f/g, " "))}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                  <ServiceCta serviceId={service.id} block="cases" />
+                </section>
+              ) : null}
 
               {page.cases?.length ? (
                 <section className="detail-block">

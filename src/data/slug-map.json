@@ -85,6 +85,21 @@
       "en": "google-ads-getting-started",
       "ru": "google-ads-small-business"
     },
+    "google-nakupy-pre-eshop": {
+      "sk": "google-nakupy-pre-eshop",
+      "en": "google-shopping-for-online-shops",
+      "ru": "google-shopping-dlya-internet-magazina"
+    },
+    "google-shopping-for-online-shops": {
+      "sk": "google-nakupy-pre-eshop",
+      "en": "google-shopping-for-online-shops",
+      "ru": "google-shopping-dlya-internet-magazina"
+    },
+    "google-shopping-dlya-internet-magazina": {
+      "sk": "google-nakupy-pre-eshop",
+      "en": "google-shopping-for-online-shops",
+      "ru": "google-shopping-dlya-internet-magazina"
+    },
     "internet-magazin-v-slovakii": {
       "sk": "internet-magazin-v-slovakii",
       "en": "online-shop-in-slovakia",
@@ -159,6 +174,21 @@
       "sk": "kontrola-nastavenia-ga4",
       "en": "ga4-audit-checklist",
       "ru": "kak-proverit-nastrojku-ga4"
+    },
+    "meta-pixel-a-meranie-konverzii": {
+      "sk": "meta-pixel-a-meranie-konverzii",
+      "en": "meta-pixel-conversion-tracking",
+      "ru": "meta-pixel-i-uchet-konversij"
+    },
+    "meta-pixel-conversion-tracking": {
+      "sk": "meta-pixel-a-meranie-konverzii",
+      "en": "meta-pixel-conversion-tracking",
+      "ru": "meta-pixel-i-uchet-konversij"
+    },
+    "meta-pixel-i-uchet-konversij": {
+      "sk": "meta-pixel-a-meranie-konverzii",
+      "en": "meta-pixel-conversion-tracking",
+      "ru": "meta-pixel-i-uchet-konversij"
     },
     "napadnuty-wordpress-web": {
       "sk": "napadnuty-wordpress-web",
@@ -275,6 +305,21 @@
       "en": "slow-wordpress-site",
       "ru": "medlennyj-sajt-na-wordpress"
     },
+    "ppc-reklama": {
+      "sk": "ppc-reklama",
+      "en": "ppc-advertising",
+      "ru": "ppc-reklama-chto-eto"
+    },
+    "ppc-advertising": {
+      "sk": "ppc-reklama",
+      "en": "ppc-advertising",
+      "ru": "ppc-reklama-chto-eto"
+    },
+    "ppc-reklama-chto-eto": {
+      "sk": "ppc-reklama",
+      "en": "ppc-advertising",
+      "ru": "ppc-reklama-chto-eto"
+    },
     "priem-oplaty-kartoy": {
       "sk": "priem-oplaty-kartoy",
       "en": "accept-card-payments",
@@ -315,6 +360,36 @@
       "en": "slovak-vat-on-google-facebook-ads",
       "ru": "dph-na-reklamu-google-facebook-7a"
     },
+    "reklama-na-facebooku-a-instagrame": {
+      "sk": "reklama-na-facebooku-a-instagrame",
+      "en": "facebook-instagram-ads-cost",
+      "ru": "reklama-v-facebook-i-instagram"
+    },
+    "facebook-instagram-ads-cost": {
+      "sk": "reklama-na-facebooku-a-instagrame",
+      "en": "facebook-instagram-ads-cost",
+      "ru": "reklama-v-facebook-i-instagram"
+    },
+    "reklama-v-facebook-i-instagram": {
+      "sk": "reklama-na-facebooku-a-instagrame",
+      "en": "facebook-instagram-ads-cost",
+      "ru": "reklama-v-facebook-i-instagram"
+    },
+    "reklama-na-youtube": {
+      "sk": "reklama-na-youtube",
+      "en": "youtube-ads-cost",
+      "ru": "reklama-na-youtube-stoimost"
+    },
+    "youtube-ads-cost": {
+      "sk": "reklama-na-youtube",
+      "en": "youtube-ads-cost",
+      "ru": "reklama-na-youtube-stoimost"
+    },
+    "reklama-na-youtube-stoimost": {
+      "sk": "reklama-na-youtube",
+      "en": "youtube-ads-cost",
+      "ru": "reklama-na-youtube-stoimost"
+    },
     "sajt-iz-minska-ne-prodaet": {
       "sk": "sajt-iz-minska-ne-prodaet",
       "en": "cheap-offshore-website",
@@ -350,6 +425,21 @@
       "en": "server-side-gtm-setup",
       "ru": "servernyj-gtm-nastrojka-ga4"
     },
+    "shoptet-shopify-alebo-eshop-na-mieru": {
+      "sk": "shoptet-shopify-alebo-eshop-na-mieru",
+      "en": "shoptet-shopify-or-custom-shop",
+      "ru": "shoptet-shopify-ili-svoj-magazin"
+    },
+    "shoptet-shopify-or-custom-shop": {
+      "sk": "shoptet-shopify-alebo-eshop-na-mieru",
+      "en": "shoptet-shopify-or-custom-shop",
+      "ru": "shoptet-shopify-ili-svoj-magazin"
+    },
+    "shoptet-shopify-ili-svoj-magazin": {
+      "sk": "shoptet-shopify-alebo-eshop-na-mieru",
+      "en": "shoptet-shopify-or-custom-shop",
+      "ru": "shoptet-shopify-ili-svoj-magazin"
+    },
     "sprava-a-udrzba-wordpress-webu": {
       "sk": "sprava-a-udrzba-wordpress-webu",
       "en": "wordpress-maintenance-cost",
@@ -364,6 +454,21 @@
       "sk": "sprava-a-udrzba-wordpress-webu",
       "en": "wordpress-maintenance-cost",
       "ru": "podderzhka-sajta-na-wordpress"
+    },
+    "telegram-bot-pre-firmu": {
+      "sk": "telegram-bot-pre-firmu",
+      "en": "telegram-bot-for-business",
+      "ru": "telegram-bot-dlya-biznesa"
+    },
+    "telegram-bot-for-business": {
+      "sk": "telegram-bot-pre-firmu",
+      "en": "telegram-bot-for-business",
+      "ru": "telegram-bot-dlya-biznesa"
+    },
+    "telegram-bot-dlya-biznesa": {
+      "sk": "telegram-bot-pre-firmu",
+      "en": "telegram-bot-for-business",
+      "ru": "telegram-bot-dlya-biznesa"
     },
     "velkoobchodny-eshop": {
       "sk": "velkoobchodny-eshop",
@@ -424,6 +529,21 @@
       "sk": "web-zadarmo-webnode-wix",
       "en": "free-website-builder-vs-custom",
       "ru": "sajt-na-konstruktore-besplatno"
+    },
+    "webdizajn-pre-firmu": {
+      "sk": "webdizajn-pre-firmu",
+      "en": "web-design-for-business",
+      "ru": "veb-dizajn-dlya-biznesa"
+    },
+    "web-design-for-business": {
+      "sk": "webdizajn-pre-firmu",
+      "en": "web-design-for-business",
+      "ru": "veb-dizajn-dlya-biznesa"
+    },
+    "veb-dizajn-dlya-biznesa": {
+      "sk": "webdizajn-pre-firmu",
+      "en": "web-design-for-business",
+      "ru": "veb-dizajn-dlya-biznesa"
     },
     "website-cost-2026": {
       "sk": "website-cost-2026",
@@ -633,6 +753,21 @@
       "sk": "telegram",
       "en": "telegram",
       "ru": "telegram"
+    },
+    "tvorba-videi": {
+      "sk": "tvorba-videi",
+      "en": "short-videos",
+      "ru": "video-dlya-biznesa"
+    },
+    "short-videos": {
+      "sk": "tvorba-videi",
+      "en": "short-videos",
+      "ru": "video-dlya-biznesa"
+    },
+    "video-dlya-biznesa": {
+      "sk": "tvorba-videi",
+      "en": "short-videos",
+      "ru": "video-dlya-biznesa"
     }
   }
 }

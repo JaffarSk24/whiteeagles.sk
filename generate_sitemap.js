@@ -41,7 +41,8 @@ const services = [
   'ads',
   'analytics',
   'cookies',
-  'telegram'
+  'telegram',
+  'video'
 ];
 
 // A service keeps its id as the URL segment in every language unless this
@@ -93,6 +94,7 @@ const STATIC_LASTMOD = {
   'service/analytics': '2026-09-13',
   'service/cookies': '2026-09-13',
   'service/telegram': '2026-10-14',
+  'service/video': '2026-10-15',
 };
 
 const lastmodFor = (locale, p) => {

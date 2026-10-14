@@ -219,6 +219,14 @@ Nezáväzný audit existujúceho webu: nálezy zoradené podľa dopadu a vysvetl
 
 ---
 
+### H. Krátke videá a reels (služba partnera) - od 350€
+*Adresa: https://whiteeagles.sk/sk/service/tvorba-videi/*
+
+Vertikálne videá pre TikTok, Instagram Reels, YouTube Shorts a Facebook, na požiadanie aj horizontálne videá na YouTube. Robí ich stály partner, s ktorým White Eagles zvyčajne chodí na stretnutia s klientmi. Zmluva a platba priamo s partnerom a za videá zodpovedá on; White Eagles zodpovedá za reklamu, v ktorej sa videá ukazujú, a za web.
+- Balíky: 4 videá za jeden natáčací deň 350€, 8 videí mesačne 500€, plný cyklus 15 videí s analýzou konkurencie, rubrikami a plánom tém 1500€ (62,5-100€ za video).
+- Scenáre s háčikom v prvých sekundách, natáčanie u klienta s vlastným svetlom a zvukom, strih s titulkami, obálka a popis ku každému videu, dve kolá úprav, prehľad zhliadnutí a dopozerania.
+- Zverejňuje klient, rozpočet na reklamu sa platí priamo platformám.
+
 ## 5. Ceny a podmienky
 
 Cena je pevná na projekt a známa pred začiatkom prác.
@@ -229,6 +237,7 @@ Cena je pevná na projekt a známa pred začiatkom prác.
 - **Nastavenie Google Ads / Meta**: približne od 1 000€ (rozpočet zvlášť).
 - **Analytika a meranie**: od 500€.
 - **Telegram bot**: od 500€.
+- **Krátke videá a reels (partner)**: 4 videá od 350€, 62,5-100€ za video.
 - **Cookie lišta s Consent Mode v2**: od 200€, jednorazovo.
 - **Hodinová sadzba**: **35€/hod** za vývoj a opravy, **25€/hod** za reklamu,
   analytiku, cookie lišty a botov.

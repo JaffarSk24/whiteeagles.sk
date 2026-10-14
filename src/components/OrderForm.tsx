@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { X, CheckCircle } from "lucide-react";
-import { services } from "../data/services";
+import { services, formatRate } from "../data/services";
 import { trackGAEvent } from "../utils/analytics";
 import { Link } from "@/i18n/navigation";
 import Script from "next/script";
@@ -107,7 +107,9 @@ export const OrderForm: React.FC<OrderFormProps> = ({ isOpen, onClose, initialSe
 
     const selectedServiceObj = services.find((s) => s.id === formData.service);
     const serviceName = isAudit ? t("audit_service_name") : selectedServiceObj ? tServices(selectedServiceObj.titleKey) : formData.service;
-    const priceString = selectedServiceObj ? `${selectedServiceObj.priceRate}€/${tCommon("hour")}` : "";
+    const priceString = selectedServiceObj
+      ? `${formatRate(selectedServiceObj, locale)}/${tCommon(selectedServiceObj.priceUnit ?? "hour")}`
+      : "";
     const messageText = isAudit ? `Web: ${formData.website.trim()}\n\n${formData.message}`.trim() : formData.message;
 
     try {

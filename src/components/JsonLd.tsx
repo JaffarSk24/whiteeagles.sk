@@ -1,6 +1,6 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
-import { services, serviceSlug } from "../data/services";
+import { services, serviceSlug, type Service } from "../data/services";
 
 // Sitewide structured data. Two audiences read this: search engines building
 // rich results, and AI assistants deciding whom to recommend when someone asks
@@ -100,6 +100,16 @@ export async function JsonLd({ locale }: { locale: string }) {
   // The named catalogue puts every service with its floor price in one place -
   // exactly the table an assistant needs to answer "what do they offer and at
   // what price" without crawling six pages.
+  // An hourly rate, or a per-video range for the partner's videos.
+  const unitPrice = (service: Service) => ({
+    "@type": "UnitPriceSpecification",
+    ...(service.priceRateMax
+      ? { "minPrice": service.priceRate, "maxPrice": service.priceRateMax }
+      : { "price": service.priceRate }),
+    "priceCurrency": "EUR",
+    "unitText": service.priceUnit ?? "hour",
+  });
+
   const offerCatalog = {
     "@type": "OfferCatalog",
     "name":
@@ -112,12 +122,7 @@ export async function JsonLd({ locale }: { locale: string }) {
       "@type": "Offer",
       "priceCurrency": "EUR",
       ...(service.priceMin ? { "price": service.priceMin } : {}),
-      "priceSpecification": {
-        "@type": "UnitPriceSpecification",
-        "price": service.priceRate,
-        "priceCurrency": "EUR",
-        "unitText": "hour",
-      },
+      "priceSpecification": unitPrice(service),
       "itemOffered": {
         "@type": "Service",
         "@id": `${siteUrl}/${locale}/service/${serviceSlug(service, locale)}/#service`,
@@ -131,7 +136,8 @@ export async function JsonLd({ locale }: { locale: string }) {
     "@type": "Service",
     "@id": `${siteUrl}/${locale}/service/${serviceSlug(service, locale)}/#service`,
     "serviceType": tRoot(service.titleKey as any),
-    "provider": {
+    // A partner's service is arranged by the company, not provided by it.
+    [service.partner ? "broker" : "provider"]: {
       "@type": "LocalBusiness",
       "name": orgName,
       "@id": `${siteUrl}/#localbusiness`
@@ -147,12 +153,7 @@ export async function JsonLd({ locale }: { locale: string }) {
       "@type": "Offer",
       "priceCurrency": "EUR",
       "price": service.priceMin || service.priceRate,
-      "priceSpecification": {
-        "@type": "UnitPriceSpecification",
-        "price": service.priceRate,
-        "priceCurrency": "EUR",
-        "unitText": "hour",
-      },
+      "priceSpecification": unitPrice(service),
       "url": `${siteUrl}/${locale}/service/${serviceSlug(service, locale)}/`,
     },
   }));

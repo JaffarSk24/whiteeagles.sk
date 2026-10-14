@@ -797,7 +797,135 @@
         ]
       }
     },
-    "related_title": "Usually ordered alongside"
+    "related_title": "Usually ordered alongside",
+    "video": {
+      "title": "Short videos and reels",
+      "desc": "Vertical videos for TikTok, Instagram Reels, YouTube Shorts and Facebook: script, filming, editing, subtitles and covers",
+      "internal_title": "Reels and short videos for business",
+      "internal_desc": "Short vertical videos for social media and ads: from the idea and script to finished files with subtitles, covers and captions",
+      "details": "Short vertical videos for social media and ads: from the idea and script to finished files with subtitles, covers and captions",
+      "details_points": [
+        "A plan of topics and series that lead to your services",
+        "Scripts with a hook in the first two seconds, approved by you before filming",
+        "Filming at your place, with our own light and microphone",
+        "Editing, subtitles and graphics inside every network's safe zone",
+        "A cover and a caption with hashtags for every video",
+        "Two rounds of changes per video and a report on views and completion"
+      ],
+      "seo_title": "Reels and short videos for business in Bratislava, from 350€",
+      "seo_desc": "Short videos for TikTok, Reels and Shorts for businesses in Bratislava: script, filming, editing with subtitles and covers. 4 videos from 350€, 62.5-100€ a video.",
+      "seo_keywords": "reels production, short videos for business, social media video, tiktok videos for business, video production bratislava, video ads",
+      "partner_note": "The videos are filmed and edited by my regular partner, who usually comes to client meetings with me. You contract and pay him directly, and he is responsible for the videos. I am responsible for the ads that show them to people and for the website they lead to.",
+      "page": {
+        "lead": "A short vertical video is how a business reaches people who do not know it yet and are not searching for it. Videos for TikTok, Instagram Reels, YouTube Shorts and Facebook are made by my partner from idea to finished file: he comes up with topics, writes scripts, films at your place and edits with subtitles. I then put them into ads and on the website.",
+        "facts": [
+          {
+            "value": "from 350€",
+            "label": "4 videos in one filming day"
+          },
+          {
+            "value": "62.5-100€",
+            "label": "per finished video, by volume and preparation"
+          },
+          {
+            "value": "9:16",
+            "label": "TikTok, Reels, Shorts and Facebook without rework"
+          }
+        ],
+        "why_title": "What makes these videos different",
+        "why": [
+          {
+            "t": "Topics lead to services",
+            "d": "Every series is built around a service you want to sell, not a random trend. You can then see which series brings enquiries."
+          },
+          {
+            "t": "A hook in the first seconds",
+            "d": "My partner knows what works in commercial videos and uses modern tools for ideas, editing and subtitles. The script is built so the viewer does not leave after two seconds."
+          },
+          {
+            "t": "Straight into ads",
+            "d": "The videos are not made for the drawer. I run them in ads on Facebook, Instagram and YouTube, and completion rates decide what to film next."
+          }
+        ],
+        "process_title": "How it works",
+        "process": [
+          "Meeting: we look at what you do and how, and pick the topics. We usually come together, my partner for the videos and I for the ads.",
+          "Scripts: my partner writes the texts for all videos, you read them and within three working days say what to change.",
+          "Filming at your place, with our own light and microphone and without stopping your work. You or someone from your team is on camera, about an hour to an hour and a half per filming day.",
+          "Editing: subtitles, graphics, music and clean sound, plus a cover and a caption for every video. The first videos arrive in about twelve days.",
+          "Publishing and ads: you publish the videos, and I can run them in ads. After each block you get a report on how many people saw each video and how many watched it to the end."
+        ],
+        "pricing_title": "Prices",
+        "pricing_head": {
+          "type": "Package",
+          "price": "Price",
+          "includes": "What is included",
+          "time": "Time"
+        },
+        "pricing": [
+          {
+            "type": "Trial: 4 videos",
+            "price": "350€",
+            "includes": "1 filming day, scripts, editing with subtitles, covers and captions",
+            "time": "about 2 weeks"
+          },
+          {
+            "type": "Month: 8 videos",
+            "price": "500€",
+            "includes": "2 filming days, 4 standing topics with 2 videos each, 2 rounds of changes per video",
+            "time": "3 weeks"
+          },
+          {
+            "type": "Full cycle: 15 videos",
+            "price": "1500€",
+            "includes": "competitor analysis, series and a month's topic plan, 3 filming days, completion data after each block",
+            "time": "30 days"
+          }
+        ],
+        "pricing_note": "Prices are for one month of production. The full cycle can also start with ten videos for 1000€. The ad budget, for a small business usually from 300€ a month, is paid directly to Facebook, Instagram or Google; I set up and manage the ads.",
+        "examples_title": "Examples",
+        "examples_intro": "Videos for RAM service, an electronics repair shop in Bratislava, August and September 2026. Views are from the page's Facebook statistics.",
+        "examples": [
+          {
+            "label": "Laptop and phone repair with a warranty"
+          },
+          {
+            "label": "Broken screen? We fix it!"
+          }
+        ],
+        "examples_views": "{n} views on Facebook",
+        "geo_title": "Where we film",
+        "geo": "My partner films in Bratislava and around it: at your shop, office or on location. Filming elsewhere in Slovakia is agreed in advance.",
+        "faq_title": "Questions",
+        "faq": [
+          {
+            "q": "What do reels for a business cost?",
+            "a": "A trial of 4 videos in one filming day costs 350€, a monthly package of 8 videos 500€, and the full cycle with a topic plan and series 1500€ for 15 videos. That is 62.5-100€ per finished video, depending on volume and preparation."
+          },
+          {
+            "q": "Who will be on camera?",
+            "a": "You or someone from your team, agreed in advance. A filming day takes an hour to an hour and a half of your time, and you get the script to read before filming."
+          },
+          {
+            "q": "Will you publish the videos for us?",
+            "a": "No, you get finished files, covers and captions and publish them yourself. If you want people who do not follow you to see them too, I run them in ads on Facebook, Instagram and YouTube."
+          },
+          {
+            "q": "Do you make YouTube videos too?",
+            "a": "Yes, longer horizontal videos for YouTube as well as short ones. Versions for the Facebook and LinkedIn feed (1:1, 4:5) and the horizontal format are priced separately."
+          },
+          {
+            "q": "Who is responsible for the result?",
+            "a": "My partner is responsible for the videos: filming, editing and delivering them on time, and sending a report on views and completion after publishing. How many calls that brings also depends on the ads, your prices and how your phone is answered."
+          },
+          {
+            "q": "Who do I contract and pay?",
+            "a": "For the videos, my partner directly, under his offer. For setting up and managing ads, White Eagles & Co. s. r. o., and the ad budget directly to Facebook, Instagram or Google."
+          }
+        ]
+      }
+    },
+    "partner_badge": "Partner service"
   },
   "portfolio": {
     "title": "Portfolio",
@@ -920,7 +1048,8 @@
     "visit": "Visit Website",
     "optional": "optional",
     "back": "Back",
-    "close": "Close"
+    "close": "Close",
+    "video": "video"
   },
   "order": {
     "opt_if_phone": "(optional if phone is provided)",

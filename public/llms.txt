@@ -128,6 +128,9 @@ slug per language. Where slugs differ, the pairs are listed below.
   auto-posting. From €500, €25/hr.
   - URL: https://whiteeagles.sk/sk/service/telegram/
 
+- **Short videos and reels (partner service)** - vertical videos for TikTok, Reels, Shorts and Facebook: script, filming, editing, subtitles and covers. Made by a regular partner; the client contracts and pays the partner directly, and White Eagles runs the ads that use the videos. 4 videos from €350, €62.5-100 per video.
+  - URL: https://whiteeagles.sk/sk/service/tvorba-videi/
+
 - **Bug Fixing** - repair and support of WordPress and custom sites, speed
   optimisation, malware removal. €35/hr.
   - URL: https://whiteeagles.sk/sk/service/bugfix/
@@ -218,6 +221,7 @@ Fixed per project, stated before the work starts.
 - Google Ads / Meta setup: from ~€1,000 (ad budget separate)
 - Analytics setup: from €500
 - Telegram bot: from €500
+- Short videos and reels (partner): 4 videos from €350, €62.5-100 per video
 - Cookie banner with Consent Mode v2: from €200, one-off
 - Hourly rate: €35/hr for development and repair, €25/hr for advertising, analytics,
   cookie banners and bots
