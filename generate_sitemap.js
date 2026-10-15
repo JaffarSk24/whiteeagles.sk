@@ -90,7 +90,7 @@ const STATIC_LASTMOD = {
   'apps': '2026-10-12',
   'service/webdev': '2026-10-12',
   'service/bugfix': '2026-10-12',
-  'service/ads': '2026-10-12',
+  'service/ads': '2026-10-15',
   'service/analytics': '2026-09-13',
   'service/cookies': '2026-09-13',
   'service/telegram': '2026-10-14',

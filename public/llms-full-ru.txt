@@ -175,6 +175,7 @@ https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/
 Кампании в Google Ads и Meta (Facebook/Instagram).
 - **Google Ads**: поиск, КМС, Merchant Center (Shopping).
 - **Meta Ads**: Facebook, Instagram.
+- **TikTok Ads**: реклама коротких роликов.
 - **Порядок работы**: проверка спроса в Планировщике ключевых слов до первого
   потраченного евро, структура кампаний, минус-слова, тексты объявлений,
   замер конверсий через GA4, Consent Mode v2 (без него Google с марта 2024 не

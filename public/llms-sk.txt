@@ -90,7 +90,7 @@ jazyk. Kde sa slugy líšia, sú dvojice uvedené nižšie.
   - Adresa: https://whiteeagles.sk/sk/service/webdev/
   - Nové weby nerobím na WordPresse ani v konštruktoroch, iba vlastný kód. WordPress opravujem, spravujem a migrujem na moderný stack (pozri Opravy a podpora).
 
-- **Správa Google Ads a Meta reklamy** - Google Ads a Meta (Facebook/Instagram), nastavenie a priebežná správa PPC kampaní, nastavenie
+- **Správa Google Ads a Meta reklamy** - Google Ads, Meta (Facebook/Instagram) a TikTok, nastavenie a priebežná správa PPC kampaní, nastavenie
   a správa. Kompletný štart približne od 1 000€, 25€/hod; rozpočet na
   reklamu je oddelený a klient ho platí priamo, reklamný účet patrí klientovi.
   - Adresa: https://whiteeagles.sk/sk/service/ads/

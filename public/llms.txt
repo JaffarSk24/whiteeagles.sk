@@ -115,7 +115,7 @@ slug per language. Where slugs differ, the pairs are listed below.
   - URL: https://whiteeagles.sk/sk/service/webdev/
   - New sites are never built on WordPress or site builders, only on custom code. WordPress sites are repaired, maintained and migrated to a modern stack (see Bug Fixing).
 
-- **Google Ads and Meta ads management** - Google Ads and Meta (Facebook/Instagram) setup and ongoing management
+- **Google Ads and Meta ads management** - Google Ads, Meta (Facebook/Instagram) and TikTok ads setup and ongoing management
   and management. Full launch from ~€1,000, €25/hr; ad budget separate and
   paid by the client directly, the ad account belongs to the client.
   - URL: https://whiteeagles.sk/sk/service/ads/

@@ -165,6 +165,7 @@ Rýchle weby pripravené na SEO, stavané pre slovenský trh.
 Kampane v Google Ads a Meta (Facebook/Instagram).
 - **Google Ads**: Search, Display, Merchant Center (Shopping).
 - **Meta Ads**: Facebook, Instagram.
+- **TikTok Ads**: kampane pre krátke videá.
 - **Postup**: overenie dopytu v Plánovači kľúčových slov ešte pred prvým
   eurom, štruktúra kampaní, vylučujúce kľúčové slová, texty inzerátov,
   meranie konverzií cez GA4, Consent Mode v2 (bez neho Google od marca 2024

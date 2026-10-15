@@ -436,6 +436,7 @@
         "Tvorba inzerátov a nastavenie v rámci kabinetov",
         "Identita, tvorba, dizajn a balenie reklamných účtov na kľúč",
         "Nastavenie a spustenie kampaní Google Ads / Meta Ads",
+        "Reklama v TikToku: kampane pre krátke videá v TikTok Ads Manager",
         "Integrácia analytických systémov",
         "Optimalizácia a škálovanie reklamných kampaní"
       ],
@@ -500,6 +501,10 @@
           {
             "q": "Robíte aj reklamu na Facebooku a Instagrame (Meta Ads)?",
             "a": "Áno. Kampane v Meta Ads nastavujem a spravujem rovnako ako Google Ads: publiká, kreatívy, rozpočet a meranie cez pixel a Conversions API, aby sa výsledky dali porovnať s vyhľadávaním. Pri jednom rozpočte zvyčajne začínam Googlom a Meta pridávam, keď treba dopyt vytvoriť."
+          },
+          {
+            "q": "Robíte aj reklamu v TikToku?",
+            "a": "Áno. Reklamu v TikToku nastavujem a spravujem v TikTok Ads Manager, najčastejšie pre krátke videá, ktoré už máte alebo ktoré natočí môj partner. Hodí sa tam, kde treba produkt alebo službu ukázať v pohybe a osloviť ľudí, ktorí vás ešte nehľadajú. Ak ľudia vašu službu aktívne hľadajú, peniaze najprv idú do vyhľadávania v Google."
           },
           {
             "q": "Ste agentúra alebo PPC špecialista?",

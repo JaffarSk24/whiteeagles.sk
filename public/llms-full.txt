@@ -195,6 +195,7 @@ High-performance, SEO-ready websites built for the Slovak market.
 Google Ads and Meta (Facebook/Instagram) campaigns.
 - **Google Ads**: Search, Display, Merchant Center (Shopping).
 - **Meta Ads**: Facebook, Instagram.
+- **TikTok Ads**: campaigns for short videos.
 - **Process**: demand check in the Keyword Planner before any spend, campaign
   structure, negative keywords, ad copy, conversion tracking through GA4,
   Consent Mode v2 (without it Google has not counted part of EU conversions
