@@ -184,6 +184,7 @@ slug per language. Where slugs differ, the pairs are listed below.
     - https://whiteeagles.sk/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/ (ru: /ru/blog/shoptet-shopify-ili-svoj-magazin/)
     - https://whiteeagles.sk/sk/blog/telegram-bot-pre-firmu/ (ru: /ru/blog/telegram-bot-dlya-biznesa/)
     - https://whiteeagles.sk/sk/blog/webdizajn-pre-firmu/ (ru: /ru/blog/veb-dizajn-dlya-biznesa/)
+    - https://whiteeagles.sk/sk/blog/e-faktura-peppol-2027/ (ru: /ru/blog/elektronnaya-faktura-peppol-2027/)
     - https://whiteeagles.sk/sk/blog/nastavenie-google-analytics-4/
     - https://whiteeagles.sk/sk/blog/online-rezervacia-na-webe/ (ru: /ru/blog/onlajn-bronirovanie-na-sajte/)
     - https://whiteeagles.sk/sk/blog/oprava-wordpress-stranky/ (ru: /ru/blog/remont-sajta-na-wordpress/)

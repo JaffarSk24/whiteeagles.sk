@@ -5,7 +5,7 @@ description: >-
   per customer, orders without public prices, buyer accounts. Prices,
   and when it is too early.
 date: '2026-09-20'
-updated: '2026-10-14'
+updated: '2026-10-18'
 key: 'wholesale-online-store'
 faq:
   - q: 'What does a wholesale online store cost?'
@@ -139,6 +139,6 @@ Over ten years in Slovakia, and I have launched **12+ websites for Slovak compan
 
 Details on the [web development service page](/en/service/webdev/). Shop already there but no orders from it: a [free audit](/en/seo-audit/), result within 3 working days.
 
-See also: [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/).
+See also: [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/), [e-invoicing in Slovakia from 2027](/en/blog/slovakia-e-invoicing-peppol-2027/).
 
 [CTA_FORM:audit]

@@ -26,7 +26,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -268,7 +268,16 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/sk/blog/e-faktura-peppol-2027/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/e-faktura-peppol-2027/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/elektronnaya-faktura-peppol-2027/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/e-faktura-peppol-2027/"/>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -322,7 +331,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -574,7 +583,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/velkoobchodny-eshop/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/optovyj-internet-magazin/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/velkoobchodny-eshop/"/>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -784,7 +793,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/"/>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1035,7 +1044,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/dph-registraciya/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/dph-registraciya/"/>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1045,6 +1054,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/ekasa-online-kassa-slovakia/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/ekasa-online-kassa-slovakia/"/>
     <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whiteeagles.sk/ru/blog/elektronnaya-faktura-peppol-2027/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/e-faktura-peppol-2027/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/elektronnaya-faktura-peppol-2027/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/e-faktura-peppol-2027/"/>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1089,7 +1107,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/internet-magazin-v-slovakii/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/internet-magazin-v-slovakii/"/>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1188,7 +1206,7 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://whiteeagles.sk/sk/blog/velkoobchodny-eshop/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://whiteeagles.sk/ru/blog/optovyj-internet-magazin/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://whiteeagles.sk/sk/blog/velkoobchodny-eshop/"/>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

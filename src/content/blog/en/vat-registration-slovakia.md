@@ -5,7 +5,7 @@ description: >-
   the filing deadlines, the 2026 rates, when voluntary registration pays off and
   what has to change on your website once you are registered.
 date: '2026-08-04'
-updated: '2026-10-05'
+updated: '2026-10-18'
 key: 'vat-registration'
 faq:
   - q: 'At what turnover does VAT registration become mandatory in Slovakia?'
@@ -114,6 +114,8 @@ None of these changes is difficult. All of them become expensive when done after
 Prices with and without VAT, categories at the right rates, IČ DPH in the footer and on invoices: I set that up as part of the site rather than as an afterthought. Details on the [web development service page](/en/service/webdev/).
 
 I have lived in Slovakia for over ten years, work as a Slovak s.r.o. and issue a faktúra with an IČO you can put through your books.
+
+From 1 January 2027 VAT payers must issue e-invoices to other Slovak businesses over the Peppol network, and non-payers must be able to receive them. Who has to do what and what a digital postman costs is in [e-invoicing in Slovakia from 2027](/en/blog/slovakia-e-invoicing-peppol-2027/).
 
 Related: [opening an s.r.o.](/en/blog/open-sro-in-slovakia/), [eKasa in 2026](/en/blog/ekasa-online-cash-register/) and [accepting card payments](/en/blog/accept-card-payments/).
 

@@ -5,7 +5,7 @@ description: >-
   zákazníka, objednávka bez verejných cien, účty odberateľov. S cenami a s tým,
   kedy ho netreba.
 date: '2026-09-20'
-updated: '2026-10-14'
+updated: '2026-10-18'
 key: 'wholesale-online-store'
 faq:
   - q: 'Koľko stojí veľkoobchodný e-shop?'
@@ -139,6 +139,6 @@ Na Slovensku žijem viac ako desať rokov, spustil som **12+ webov pre slovensk�
 
 Detaily na [stránke služby „Tvorba webstránok"](/sk/service/webdev/). Ak e-shop už máte a objednávky z neho nechodia, [bezplatný audit](/sk/seo-audit/), výsledok do 3 pracovných dní.
 
-Súvisiace články: [Shoptet, Shopify alebo e-shop na mieru](/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/).
+Súvisiace články: [Shoptet, Shopify alebo e-shop na mieru](/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/), [e-faktúra od 1. 1. 2027](/sk/blog/e-faktura-peppol-2027/).
 
 [CTA_FORM:audit]

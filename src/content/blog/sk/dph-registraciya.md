@@ -5,7 +5,7 @@ description: >-
   62 500€, lehoty na podanie žiadosti, sadzby 23, 19 a 5% a kedy sa dobrovoľná
   registrácia oplatí viac než povinná.
 date: '2026-08-04'
-updated: '2026-10-05'
+updated: '2026-10-18'
 key: 'vat-registration'
 faq:
   - q: 'Od akého obratu treba registráciu na DPH?'
@@ -123,6 +123,8 @@ Prvé tri body patria účtovníkovi. Štvrtý je môj.
 Registráciu a výpočty vybaví účtovník. Všetko, čo nasleduje (ceny s DPH aj bez, kategórie sadzieb v e-shope, povinné údaje, faktúry), nastavujem ja.
 
 Na Slovensku žijem viac ako desať rokov a spustil som **12+ webov pre slovenské firmy** vrátane e-shopov s viacerými sadzbami DPH. Pracujem ako slovenské s.r.o. a vystavujem faktúru s IČO.
+
+Od 1. 1. 2027 musia platitelia DPH iným slovenským firmám vystavovať e-faktúry cez sieť Peppol a e-faktúry musia vedieť prijímať aj neplatitelia. Kto musí čo a koľko stojí digitálny poštár, je v článku [e-faktúra od 1. 1. 2027](/sk/blog/e-faktura-peppol-2027/).
 
 Súvisiace: [eKasa a online pokladnica](/sk/blog/ekasa-online-kassa-slovakia/), [povinné údaje na webe](/sk/blog/obyazatelnye-rekvizity-sajta/), [prijímanie platby kartou](/sk/blog/priem-oplaty-kartoy/) a [stránka služby „Tvorba webstránok“](/sk/service/webdev/). Keď je web s novými cenami hotový, zákazníkov naň privádza [Google Ads reklama pre firmy na Slovensku](/sk/service/ads/).
 

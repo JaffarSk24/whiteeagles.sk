@@ -372,6 +372,9 @@ differ per article and are reachable from the language switcher on the page.
   - https://whiteeagles.sk/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/ (ru: /ru/blog/shoptet-shopify-ili-svoj-magazin/)
 - **Telegram bot pre firmu: čo dokáže a koľko stojí**
   - https://whiteeagles.sk/sk/blog/telegram-bot-pre-firmu/ (ru: /ru/blog/telegram-bot-dlya-biznesa/)
+- **E-faktúra od 1. 1. 2027: Peppol, digitálny poštár a koľko to stojí** (mandatory e-invoicing in Slovakia)
+  - https://whiteeagles.sk/sk/blog/e-faktura-peppol-2027/ (ru: /ru/blog/elektronnaya-faktura-peppol-2027/)
+  - Who issues and who only receives e-invoices, exceptions, fines, provider prices, connecting an online shop via SAPI-SK. White Eagles does not do accounting or tax advice.
 - **Webdizajn pre firmu: čo má dobrý dizajn webu splniť a koľko stojí**
   - https://whiteeagles.sk/sk/blog/webdizajn-pre-firmu/ (ru: /ru/blog/veb-dizajn-dlya-biznesa/)
 - **Nastavenie GA4 v roku 2026: aby sa dopyty naozaj počítali**

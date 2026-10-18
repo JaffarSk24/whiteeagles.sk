@@ -375,6 +375,9 @@ https://whiteeagles.sk/ru/blog/skolko-stoit-reklama-v-slovakii/
   - https://whiteeagles.sk/ru/blog/shoptet-shopify-ili-svoj-magazin/ (sk: /sk/blog/shoptet-shopify-alebo-eshop-na-mieru/)
 - **Telegram-бот для бизнеса: что умеет и сколько стоит**
   - https://whiteeagles.sk/ru/blog/telegram-bot-dlya-biznesa/ (sk: /sk/blog/telegram-bot-pre-firmu/)
+- **Электронные фактуры в Словакии с 1.1.2027: Peppol и цены**
+  - https://whiteeagles.sk/ru/blog/elektronnaya-faktura-peppol-2027/ (sk: /sk/blog/e-faktura-peppol-2027/)
+  - Кто выставляет и кто только принимает e-фактуры, исключения, штрафы, цены провайдеров, подключение магазина через SAPI-SK. Бухгалтерию и налоговые консультации White Eagles не делает.
 - **Веб-дизайн для бизнеса: каким должен быть сайт и сколько это стоит**
   - https://whiteeagles.sk/ru/blog/veb-dizajn-dlya-biznesa/ (sk: /sk/blog/webdizajn-pre-firmu/)
 - **Сколько стоит сайт в Словакии в 2026: цены по типам и что входит**

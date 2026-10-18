@@ -182,6 +182,7 @@ https://whiteeagles.sk/ru/blog/otkryli-firmu-chto-dalshe/
     - https://whiteeagles.sk/ru/blog/shoptet-shopify-ili-svoj-magazin/ (sk: /sk/blog/shoptet-shopify-alebo-eshop-na-mieru/)
     - https://whiteeagles.sk/ru/blog/telegram-bot-dlya-biznesa/ (sk: /sk/blog/telegram-bot-pre-firmu/)
     - https://whiteeagles.sk/ru/blog/veb-dizajn-dlya-biznesa/ (sk: /sk/blog/webdizajn-pre-firmu/)
+    - https://whiteeagles.sk/ru/blog/elektronnaya-faktura-peppol-2027/ (sk: /sk/blog/e-faktura-peppol-2027/)
     - https://whiteeagles.sk/ru/blog/website-cost-2026/
     - https://whiteeagles.sk/ru/blog/wordpress-vs-custom-website/
     - https://whiteeagles.sk/ru/blog/zivnost-alebo-sro/

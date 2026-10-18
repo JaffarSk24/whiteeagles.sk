@@ -5,7 +5,7 @@ description: >-
   card payments, delivery, eKasa and VAT, and the documents that must be on the
   site. A walk-through for anyone starting out.
 date: '2026-08-04'
-updated: '2026-10-14'
+updated: '2026-10-18'
 key: 'online-shop'
 faq:
   - q: 'What does an online shop cost in Slovakia?'
@@ -143,6 +143,6 @@ How to bring buyers to a shop after launch is shown in the [Severské drevo](/en
 
 Similar breakdowns for other industries: [a wholesale online store](/en/blog/wholesale-online-store/).
 
-See also: [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/).
+See also: [Shoptet, Shopify or a custom shop](/en/blog/shoptet-shopify-or-custom-shop/), [e-invoicing in Slovakia from 2027](/en/blog/slovakia-e-invoicing-peppol-2027/).
 
 [CTA_FORM:audit]

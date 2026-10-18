@@ -40,6 +40,21 @@
       "en": "vat-registration-slovakia",
       "ru": "dph-registraciya"
     },
+    "e-faktura-peppol-2027": {
+      "sk": "e-faktura-peppol-2027",
+      "en": "slovakia-e-invoicing-peppol-2027",
+      "ru": "elektronnaya-faktura-peppol-2027"
+    },
+    "slovakia-e-invoicing-peppol-2027": {
+      "sk": "e-faktura-peppol-2027",
+      "en": "slovakia-e-invoicing-peppol-2027",
+      "ru": "elektronnaya-faktura-peppol-2027"
+    },
+    "elektronnaya-faktura-peppol-2027": {
+      "sk": "e-faktura-peppol-2027",
+      "en": "slovakia-e-invoicing-peppol-2027",
+      "ru": "elektronnaya-faktura-peppol-2027"
+    },
     "ekasa-online-kassa-slovakia": {
       "sk": "ekasa-online-kassa-slovakia",
       "en": "ekasa-online-cash-register",

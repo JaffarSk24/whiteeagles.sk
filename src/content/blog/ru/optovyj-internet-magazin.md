@@ -5,7 +5,7 @@ description: >-
   клиентам, заказ без публичных цен, кабинеты закупщиков. Цены и когда он ещё
   не нужен.
 date: '2026-09-20'
-updated: '2026-10-14'
+updated: '2026-10-18'
 key: 'wholesale-online-store'
 faq:
   - q: 'Сколько стоит оптовый интернет-магазин?'
@@ -139,6 +139,6 @@ Shoptet, Shopify и WooCommerce умеют собрать магазин за н
 
 Подробности на [странице услуги «Разработка сайтов»](/ru/service/webdev/). Если магазин уже есть, а заказов из него нет, [бесплатный аудит](/ru/seo-audit/), результат за 3 рабочих дня.
 
-Ещё по теме: [Shoptet, Shopify или магазин на своём коде](/ru/blog/shoptet-shopify-ili-svoj-magazin/).
+Ещё по теме: [Shoptet, Shopify или магазин на своём коде](/ru/blog/shoptet-shopify-ili-svoj-magazin/), [электронные фактуры с 1.1.2027](/ru/blog/elektronnaya-faktura-peppol-2027/).
 
 [CTA_FORM:audit]

@@ -5,7 +5,7 @@ description: >-
   готовые платформы против своей разработки, расчёт на три года, оплата картой,
   доставка, eKasa и DPH, обязательные документы. Разбор для тех, кто начинает.
 date: '2026-08-04'
-updated: '2026-10-14'
+updated: '2026-10-18'
 key: 'online-shop'
 faq:
   - q: 'Сколько стоит открыть интернет-магазин в Словакии?'
@@ -160,6 +160,6 @@ faq:
 
 Похожие разборы для других отраслей: [оптовый интернет-магазин](/ru/blog/optovyj-internet-magazin/).
 
-Ещё по теме: [Shoptet, Shopify или магазин на своём коде](/ru/blog/shoptet-shopify-ili-svoj-magazin/).
+Ещё по теме: [Shoptet, Shopify или магазин на своём коде](/ru/blog/shoptet-shopify-ili-svoj-magazin/), [электронные фактуры с 1.1.2027](/ru/blog/elektronnaya-faktura-peppol-2027/).
 
 [CTA_FORM:audit]

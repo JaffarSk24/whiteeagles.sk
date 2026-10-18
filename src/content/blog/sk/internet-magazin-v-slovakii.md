@@ -5,7 +5,7 @@ description: >-
   e-shopu na mieru, výpočet na tri roky, platba kartou, doprava, eKasa a DPH,
   povinné dokumenty na webe. Rozbor pre tých, ktorí začínajú.
 date: '2026-08-04'
-updated: '2026-10-14'
+updated: '2026-10-18'
 key: 'online-shop'
 faq:
   - q: 'Koľko stojí tvorba e-shopu na Slovensku?'
@@ -160,6 +160,6 @@ Ako privádzať zákazníkov do obchodu po spustení, ukazuje prípadová štúd
 
 Podobné rozbory pre ďalšie odvetvia: [veľkoobchodný e-shop](/sk/blog/velkoobchodny-eshop/).
 
-Súvisiace články: [Shoptet, Shopify alebo e-shop na mieru](/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/).
+Súvisiace články: [Shoptet, Shopify alebo e-shop na mieru](/sk/blog/shoptet-shopify-alebo-eshop-na-mieru/), [e-faktúra od 1. 1. 2027](/sk/blog/e-faktura-peppol-2027/).
 
 [CTA_FORM:audit]
