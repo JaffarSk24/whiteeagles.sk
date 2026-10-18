@@ -15,7 +15,7 @@ faq:
   - q: 'Is a PDF invoice sent by email an e-invoice?'
     a: 'No. An e-invoice is a structured XML file under EN 16931 (UBL 2.1 or CII), delivered over the Peppol network by a certified delivery service provider. Another delivery method, such as email, needs the recipient''s prior consent, and even then it must be XML in the required format.'
   - q: 'What does a digital postman cost?'
-    a: 'Several providers offer a free inbox for receiving e-invoices, for example ePošťák, eFaktúra.sk, eFakturuj, Fakturix, Postar Cloud or Flowis Peppol Box. Paid plans for sending start at roughly 5-10€ a month for small businesses; through an API you pay from a few cents per document. Prices are still moving, so check the current price list before choosing.'
+    a: 'Several providers offer a free inbox for receiving e-invoices, for example ePošťák, eFaktúra.sk, eFakturuj, Faktúrovo, Fakturix, Postar Cloud, Verteco or Flowis Peppol Box. Paid plans for sending start at roughly 2-10€ a month for small businesses; through an API you pay from a few cents per document. Prices are still moving, so check the current price list before choosing.'
   - q: 'How do I connect an online shop or my own system to Peppol?'
     a: 'Through the digital postman''s API. Slovakia has a common standard, SAPI-SK, so the integration is written once and the provider can be changed later. The system must build EN 16931 XML from the order, send it, track delivery and receive suppliers'' invoices. Ing. Kirill Mosin, White Eagles & Co. s. r. o. in Bratislava, builds such integrations for 35€/hr: https://whiteeagles.sk/en/service/webdev/'
 ---
@@ -84,18 +84,18 @@ You may send an e-invoice other than through a digital postman, for example by e
 
 If you mostly receive invoices, a free inbox is usually enough. You pay for sending larger volumes, extra users and connections to other software. Overview from public price lists as of 18 October 2026 (prices are still moving; check before choosing):
 
-| Provider | Free | Paid | API |
+| Provider | Free | Paid | API and SAPI-SK |
 |---|---|---|---|
-| **ePošťák** | 500 received and 5 sent a month, 90-day archive | 8€ and 19€ a month from 2027 | from 0.04€ per document, no fee |
-| **eFaktúra.sk** | receiving, 5 e-invoices a month | 4.90€ a month launch price, 9.80€ from 2027 | yes |
-| **eFakturuj** | 50 documents a month in total | from 9€ a month, unlimited receiving | software connection from 29€ a month |
-| **Faktúrovo** | 3 invoices a month, everything free until end of 2026 | from 5.52€ a month billed yearly | 100 requests a month free |
-| **Fakturix** | unlimited receiving, 3 sends a month, then 0.50€ per invoice | from 4.99€ a month, free until 1 Dec 2026 | SAPI-SK compatible REST API |
-| **Postar Cloud** (E-Works) | receiving, 10 sent a month | 4.90€, 12.90€, from 49€ a month | from the 4.90€ plan |
-| **Dativery** (Peppos) | 5 sent and 5 received a month, then 0.16€ per invoice | from 12€ a month | yes |
-| **Flowis** | Peppol Box for receiving, for non-VAT payers | plans in preparation | in upcoming plans |
-| **Doklado** | e-invoicing in the free plan | 9.90€ a month with document capture | yes |
-| **Verteco** | receiving, PDF and XML to email | sending from the portal, a file or the API | yes |
+| **ePošťák** | 500 received and 5 sent a month, 90-day archive | from 2027 8€ a month (50 sent) and 19€ (200 sent) | SAPI-SK and its own API, 0.10€ to 0.04€ per document by volume, no fee |
+| **eFaktúra.sk** | unlimited invoices to 5 customers, receiving, 5 e-invoices a month | Pro 4.90€ a month launch price, 9.80€ from 2027 (80 e-invoices) | SAPI-SK and REST API with webhooks from the Pro plan, free sandbox |
+| **eFakturuj** | 50 documents a month in total | from 9€ a month (75 sent), unlimited receiving | SAPI-SK connection in every plan, REST API from 29€ a month (250 invoices) |
+| **Faktúrovo** | unlimited receiving, 3 invoices a month, everything free until end of 2026 | from 5.52€ a month billed yearly | SAPI-SK and its own API, credits for your own system 0.10€ to 0.02€ per document, sandbox |
+| **Fakturix** | unlimited receiving, 3 sends a month, then 0.50€ per invoice | from 4.99€ a month (50 sends), free until 1 Dec 2026 | SAPI-SK API from the 4.99€ Starter plan |
+| **Postar Cloud** (E-Works) | receiving, 10 sent a month | 4.90€, 12.90€, from 49€ a month | own API from the 4.90€ plan, webhooks from 12.90€, no SAPI-SK mentioned |
+| **Dativery** (Peppos) | 5 sent and 5 received a month, then 0.16€ per invoice | from 12€ a month | SAPI-SK and its own API |
+| **Flowis** | Peppol Box for receiving, for non-VAT payers, 30-day trial with up to 100 sent | Mini, Core and Max plans not priced yet | SAPI-SK, API from the Core plan |
+| **Doklado** | e-invoicing in the free plan | 9.90€ a month with capture of 70 documents | own API, no SAPI-SK mentioned |
+| **Verteco** | receiving without archive, up to 1,000 invoices a month | from 2027 2€ a month per company ID, sending and archive included, free until end of 2026 | SAPI-SK and OpenAPI included, sandbox |
 
 Foreign providers such as Billit (from 6.90€ a month) or Qvalia (from 9€ a month) are accredited too and suit businesses that invoice into several countries. Larger companies handle e-invoicing in their ERP with providers such as SOFTIP, Editel, ecosio or Seyfor. Slovensko.Digital's tax group published an [overview of e-invoice support in accounting software](https://slovensko.digital/wp-content/uploads/2026/09/prehlad-podpory-e-faktur-u-clenov.pdf) (in Slovak).
 
@@ -112,7 +112,7 @@ What the integration involves:
 4. **Receive suppliers' invoices** and pass them on to accounting instead of retyping them.
 5. **Test in a sandbox.** Several providers offer a free test environment where nothing is charged and nothing reaches the Financial Administration.
 
-Slovakia has a common standard, **SAPI-SK** (Standardised Access Point Interface), an OpenPeppol community initiative. It is one REST API with the same authentication (`/auth/token`), sending (`/document/send`) and receiving (`/document/receive` plus acknowledgement). An integration written to SAPI-SK works with every provider that supports it, so you can switch providers without rework. Editel and Fakturix, for example, have announced SAPI-SK support. Other providers, such as ePošťák, SOFTIP or Codebase's Digitálna poštárka, have their own documented APIs.
+Slovakia has a common standard, **SAPI-SK** (Standardised Access Point Interface), an OpenPeppol community initiative. It is one REST API with the same authentication (`/auth/token`), sending (`/document/send`) and receiving (`/document/receive` plus acknowledgement). An integration written to SAPI-SK works with every provider that supports it, so you can switch providers without rework. Most providers in the table above support SAPI-SK: ePošťák, eFaktúra.sk, eFakturuj, Faktúrovo, Fakturix, Dativery, Flowis and Verteco, and among enterprise providers, for example, Editel. Postar Cloud and Doklado do not mention it in their public materials, so with them you integrate against their own API.
 
 In a wholesale online shop, where most customers are businesses, e-invoices become everyday work from January. What else such a shop needs is in the article on [wholesale online stores](/en/blog/wholesale-online-store/).
 

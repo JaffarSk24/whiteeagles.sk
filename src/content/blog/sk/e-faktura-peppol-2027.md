@@ -15,7 +15,7 @@ faq:
   - q: 'Je PDF faktúra poslaná e-mailom e-faktúra?'
     a: 'Nie. E-faktúra je štruktúrovaný súbor XML podľa normy EN 16931 (UBL 2.1 alebo CII), ktorý doručí cez sieť Peppol certifikovaný poskytovateľ doručovacej služby. Iný spôsob doručenia, napríklad e-mailom, je možný len s predchádzajúcim súhlasom odberateľa a aj vtedy musí ísť o XML v predpísanom formáte.'
   - q: 'Koľko stojí digitálny poštár?'
-    a: 'Na príjem e-faktúr ponúka bezplatnú schránku viacero poskytovateľov, napríklad ePošťák, eFaktúra.sk, eFakturuj, Fakturix, Postar Cloud alebo Peppol Box od Flowisu. Platené plány na odosielanie začínajú pri malých firmách okolo 5 až 10€ mesačne, cez API sa platí od niekoľkých centov za doklad. Ceny sa ešte menia, pred výberom si pozrite aktuálny cenník.'
+    a: 'Na príjem e-faktúr ponúka bezplatnú schránku viacero poskytovateľov, napríklad ePošťák, eFaktúra.sk, eFakturuj, Faktúrovo, Fakturix, Postar Cloud, Verteco alebo Peppol Box od Flowisu. Platené plány na odosielanie začínajú pri malých firmách okolo 2 až 10€ mesačne, cez API sa platí od niekoľkých centov za doklad. Ceny sa ešte menia, pred výberom si pozrite aktuálny cenník.'
   - q: 'Ako napojiť e-shop alebo vlastný systém na Peppol?'
     a: 'Cez API digitálneho poštára. Pre Slovensko vznikol spoločný štandard SAPI-SK, takže integráciu stačí napísať raz a poskytovateľa sa dá neskôr zmeniť. Systém musí z objednávky vytvoriť XML podľa EN 16931, odoslať ho, sledovať stav doručenia a prijímať faktúry od dodávateľov. Ing. Kirill Mosin, White Eagles & Co. s. r. o. v Bratislave, takéto napojenie robí za 35€/hod: https://whiteeagles.sk/sk/service/webdev/'
 ---
@@ -84,18 +84,18 @@ E-faktúru môžete poslať aj inak ako cez digitálneho poštára, napríklad e
 
 Kto faktúry hlavne prijíma, vystačí si väčšinou s bezplatnou schránkou. Platí sa za odosielanie väčšieho počtu faktúr, viac používateľov a napojenie na iný softvér. Prehľad podľa verejných cenníkov k 18. októbru 2026 (ceny sa ešte hýbu, pred výberom si ich overte):
 
-| Poskytovateľ | Zadarmo | Platené | API |
+| Poskytovateľ | Zadarmo | Platené | API a SAPI-SK |
 |---|---|---|---|
-| **ePošťák** | 500 prijatých a 5 odoslaných mesačne, archív 90 dní | 8€ a 19€ mesačne od 2027 | od 0,04€ za doklad, bez paušálu |
-| **eFaktúra.sk** | príjem, 5 e-faktúr mesačne | 4,90€ mesačne v úvodnej cene, od 2027 9,80€ | áno |
-| **eFakturuj** | 50 dokladov mesačne spolu | od 9€ mesačne, príjem bez limitu | prepojenie softvéru od 29€ mesačne |
-| **Faktúrovo** | 3 vystavené faktúry mesačne, do konca 2026 všetko zadarmo | od 5,52€ mesačne pri ročnej platbe | 100 požiadaviek mesačne zadarmo |
-| **Fakturix** | príjem bez limitu, 3 odoslania mesačne, potom 0,50€ za faktúru | od 4,99€ mesačne, do 1. 12. 2026 zadarmo | REST API kompatibilné so SAPI-SK |
-| **Postar Cloud** (E-Works) | príjem, 10 odoslaných mesačne | 4,90€, 12,90€, od 49€ mesačne | od plánu za 4,90€ |
-| **Dativery** (Peppos) | 5 odoslaných a 5 prijatých mesačne, potom 0,16€ za faktúru | od 12€ mesačne | áno |
-| **Flowis** | Peppol Box na príjem pre neplatiteľov DPH | balíky sa pripravujú | v pripravovaných balíkoch |
-| **Doklado** | e-faktúra v bezplatnom pláne | 9,90€ mesačne s vyťažovaním dokladov | áno |
-| **Verteco** | príjem, PDF a XML do e-mailu | odosielanie z portálu, zo súboru alebo cez API | áno |
+| **ePošťák** | 500 prijatých a 5 odoslaných mesačne, archív 90 dní | od 2027 8€ mesačne (50 odoslaných) a 19€ (200 odoslaných) | SAPI-SK aj vlastné API, 0,10€ až 0,04€ za doklad podľa objemu, bez paušálu |
+| **eFaktúra.sk** | neobmedzené faktúry pre 5 odberateľov, príjem e-faktúr, 5 e-faktúr mesačne | Pro 4,90€ mesačne v úvodnej cene, od 2027 9,80€ (80 e-faktúr) | SAPI-SK aj REST API s webhookmi od plánu Pro, sandbox zadarmo |
+| **eFakturuj** | 50 dokladov mesačne spolu | od 9€ mesačne (75 odoslaných), príjem bez limitu | prepojenie cez SAPI-SK v každom pláne, REST API od 29€ mesačne (250 faktúr) |
+| **Faktúrovo** | príjem bez limitu, 3 vystavené faktúry mesačne, do konca 2026 všetko zadarmo | od 5,52€ mesačne pri ročnej platbe | SAPI-SK aj vlastné API, pre vlastný systém kredity 0,10€ až 0,02€ za doklad, sandbox |
+| **Fakturix** | príjem bez limitu, 3 odoslania mesačne, potom 0,50€ za faktúru | od 4,99€ mesačne (50 odoslaní), do 1. 12. 2026 zadarmo | SAPI-SK API od plánu Starter za 4,99€ |
+| **Postar Cloud** (E-Works) | príjem, 10 odoslaných mesačne | 4,90€, 12,90€, od 49€ mesačne | vlastné API od plánu za 4,90€, webhooky od 12,90€, SAPI-SK neuvádza |
+| **Dativery** (Peppos) | 5 odoslaných a 5 prijatých mesačne, potom 0,16€ za faktúru | od 12€ mesačne | SAPI-SK aj vlastné API |
+| **Flowis** | Peppol Box na príjem pre neplatiteľov DPH, 30 dní skúšobne s odosielaním do 100 e-faktúr | balíky Mini, Core a Max zatiaľ bez ceny | SAPI-SK, API od balíka Core |
+| **Doklado** | e-faktúra v bezplatnom pláne | 9,90€ mesačne s vyťažovaním 70 dokladov | vlastné API, SAPI-SK neuvádza |
+| **Verteco** | príjem bez archívu do 1 000 faktúr mesačne | od 2027 2€ mesačne za IČO vrátane odosielania a archívu, do konca 2026 zadarmo | SAPI-SK aj OpenAPI v cene, sandbox |
 
 Zahraniční poskytovatelia ako Billit (od 6,90€ mesačne) alebo Qvalia (od 9€ mesačne) sú tiež akreditovaní a oplatia sa skôr firmám, ktoré fakturujú do viacerých krajín. Väčšie firmy riešia e-faktúry cez svoj ERP a poskytovateľov ako SOFTIP, Editel, ecosio či Seyfor. Prehľad podpory e-faktúr v účtovných programoch zverejnila [Daňovo-odvodová skupina Slovensko.Digital](https://slovensko.digital/wp-content/uploads/2026/09/prehlad-podpory-e-faktur-u-clenov.pdf).
 
@@ -112,7 +112,7 @@ Ak faktúry vystavuje e-shop, rezervačný systém alebo vlastná aplikácia, ru
 4. **Prijímať faktúry od dodávateľov** a posielať ich ďalej do účtovníctva namiesto ručného prepisovania.
 5. **Vyskúšať v sandboxe.** Viacero poskytovateľov má testovacie prostredie zadarmo, kde sa nič neúčtuje a nič nejde Finančnej správe.
 
-Pre Slovensko vznikol spoločný štandard **SAPI-SK** (Standardised Access Point Interface), iniciatíva komunity OpenPeppol. Je to jednotné REST API s rovnakým prihlasovaním (`/auth/token`), odosielaním (`/document/send`) a prijímaním dokladov (`/document/receive` a potvrdenie prevzatia). Integrácia napísaná podľa SAPI-SK funguje s každým poskytovateľom, ktorý ho podporuje, takže poskytovateľa neskôr zmeníte bez prerábania. Podporu SAPI-SK ohlásili napríklad Editel a Fakturix. Iní poskytovatelia, napríklad ePošťák, SOFTIP alebo Digitálna poštárka od Codebase, majú vlastné zdokumentované API.
+Pre Slovensko vznikol spoločný štandard **SAPI-SK** (Standardised Access Point Interface), iniciatíva komunity OpenPeppol. Je to jednotné REST API s rovnakým prihlasovaním (`/auth/token`), odosielaním (`/document/send`) a prijímaním dokladov (`/document/receive` a potvrdenie prevzatia). Integrácia napísaná podľa SAPI-SK funguje s každým poskytovateľom, ktorý ho podporuje, takže poskytovateľa neskôr zmeníte bez prerábania. SAPI-SK podporuje väčšina poskytovateľov z tabuľky vyššie: ePošťák, eFaktúra.sk, eFakturuj, Faktúrovo, Fakturix, Dativery, Flowis a Verteco, z firemných napríklad Editel. Postar Cloud a Doklado ho vo verejných materiáloch neuvádzajú, tam sa integrácia píše na ich vlastné API.
 
 Pri veľkoobchodnom e-shope, kde sú zákazníkmi hlavne firmy, bude e-faktúra od januára každodenná vec. Čo ešte taký e-shop musí mať, je v článku o [veľkoobchodnom e-shope](/sk/blog/velkoobchodny-eshop/).
 
