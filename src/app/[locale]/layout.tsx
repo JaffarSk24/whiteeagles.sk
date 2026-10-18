@@ -7,8 +7,20 @@ import { pickClientMessages } from "@/i18n/clientMessages";
 import { AppShell } from "@/components/AppShell";
 import { JsonLd } from "@/components/JsonLd";
 import Script from "next/script";
+import { readFileSync } from "node:fs";
+import path from "node:path";
 
 const noAnalytics = process.env.NEXT_PUBLIC_NO_ANALYTICS === "1";
+
+// The home-screen icon goes into the page itself as a data URL. On iOS 27.2
+// "Add to Home Screen" showed a letter instead of the icon for any site whose
+// icon had to be fetched by a separate request, even a valid 200 image/png;
+// the same icon inlined in the HTML gives a proper shortcut. Read at build
+// time from public/, where the file also stays for other browsers. About
+// 7 KB of base64 per page. tests/apple-touch-icon.test.mjs checks the build.
+const appleTouchIcon = `data:image/png;base64,${readFileSync(
+  path.join(process.cwd(), "public", "apple-touch-icon.png"),
+).toString("base64")}`;
 import "@/styles/globals.css";
 // Inter comes from fonts.css only. next/font loaded a second copy under its
 // own family name, which no style ever used, and preloaded three files of it.
@@ -116,6 +128,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <head>
         <meta name="seznam-wmt" content="WfarbRzOeP8RMWhMM7ARXPpViep5Zg9p" />
+        <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
         {/* The machine-readable summaries had no machine-readable pointer. The
             only mention of them lived in a "#" comment inside robots.txt, and
             parsers throw comments away - so across the whole log period AI

@@ -41,6 +41,10 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: npm run build
 
+      # Checks on the built pages before anything reaches the server.
+      - name: 🧪 Check the build
+        run: npm test
+
       # SCP only ever copies. Anything deleted from the build stayed on the
       # server for good - a removed page kept answering 200 and stale Next.js
       # chunks piled up from every past build. rsync mirrors instead.
