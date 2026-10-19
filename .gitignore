@@ -154,3 +154,4 @@ dist 2/
 
 # README.md was committed long before this rule, so git keeps tracking it;
 # an ignore rule does not apply to files already in the index.
+changed-urls.json

@@ -6,12 +6,18 @@ const HOST = 'whiteeagles.sk';
 // file first - a key whose .txt answers 404 makes every submission fail.
 const KEY = '4c042a1bf13f43d1a14dc6a5cc920873';
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
-const { collectUrls } = require('./submit_urls');
+const { urlsToAnnounce } = require('./submit_urls');
 
 async function main() {
   // Sitemap pages plus the llms files - see submit_urls.js for why the latter
   // are not in the sitemap but are still worth announcing.
-  const uniqueUrls = collectUrls();
+  // Only the pages this deploy changed: IndexNow asks to be told about
+  // changes, and Bing reads it, so resending the whole site is noise.
+  const uniqueUrls = urlsToAnnounce().urls;
+  if (uniqueUrls.length === 0) {
+    console.log('✅ No page changed with this deploy - nothing to announce.');
+    return;
+  }
 
   console.log(`Submitting ${uniqueUrls.length} URLs to IndexNow for ${HOST}...\n`);
 

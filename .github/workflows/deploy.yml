@@ -45,6 +45,15 @@ jobs:
       - name: 🧪 Check the build
         run: npm test
 
+      # Has to run before rsync, while the live site still serves the previous
+      # version: the pages that differ are the ones IndexNow, Seznam and Bing
+      # get told about after the deploy. Without this step every deploy sent
+      # the whole site and Bing's quota of 100 a day was gone on the first one.
+      # If it fails, the submission scripts fall back to the full list.
+      - name: 🔎 Work out which pages change
+        continue-on-error: true
+        run: node detect_changed_urls.js
+
       # SCP only ever copies. Anything deleted from the build stayed on the
       # server for good - a removed page kept answering 200 and stale Next.js
       # chunks piled up from every past build. rsync mirrors instead.

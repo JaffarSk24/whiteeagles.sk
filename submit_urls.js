@@ -61,4 +61,22 @@ function sitemapLastmods() {
   return map;
 }
 
-module.exports = { HOST, AI_FILES, SITEMAP_PATH, collectUrls, sitemapLastmods };
+// What a deploy should announce: the URLs detect_changed_urls.js found changed
+// against the live site. Without that file (a script run by hand, or the
+// detection step failed) it falls back to the whole list, which costs quota
+// but never leaves a change unannounced.
+const CHANGED_PATH = path.join(__dirname, 'changed-urls.json');
+
+function urlsToAnnounce() {
+  if (fs.existsSync(CHANGED_PATH)) {
+    try {
+      const list = JSON.parse(fs.readFileSync(CHANGED_PATH, 'utf-8'));
+      if (Array.isArray(list)) return { urls: list, onlyChanged: true };
+    } catch (e) {
+      console.warn(`⚠️  ${CHANGED_PATH} is unreadable (${e.message}), announcing every URL.`);
+    }
+  }
+  return { urls: collectUrls(), onlyChanged: false };
+}
+
+module.exports = { HOST, AI_FILES, SITEMAP_PATH, collectUrls, sitemapLastmods, urlsToAnnounce };

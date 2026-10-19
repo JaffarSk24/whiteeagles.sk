@@ -7,7 +7,7 @@ const https = require('https');
 //
 //   SEZNAM_API_KEY=... node submit_to_seznam.js
 const KEY = process.env.SEZNAM_API_KEY;
-const { collectUrls } = require('./submit_urls');
+const { urlsToAnnounce } = require('./submit_urls');
 
 async function main() {
   if (!KEY) {
@@ -19,7 +19,12 @@ async function main() {
   // This endpoint reindexes documents, so it takes pages and the llms files
   // but not sitemap.xml or robots.txt - both used to be in this list and both
   // came back 422.
-  const uniqueUrls = collectUrls();
+  // Only the pages this deploy changed (see submit_urls.js).
+  const uniqueUrls = urlsToAnnounce().urls;
+  if (uniqueUrls.length === 0) {
+    console.log('✅ No page changed with this deploy - nothing to reindex.');
+    return;
+  }
 
   console.log(`Starting reindexing for ${uniqueUrls.length} URLs in Seznam...\n`);
 

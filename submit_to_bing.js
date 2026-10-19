@@ -17,7 +17,7 @@ const SITE_URL = `https://${HOST}`;
 // purpose, and hard-coding it is correct.
 const BING_API_KEY = process.env.BING_API_KEY;
 
-const { collectUrls, sitemapLastmods } = require('./submit_urls');
+const { sitemapLastmods, urlsToAnnounce } = require('./submit_urls');
 
 async function main() {
   if (!BING_API_KEY) {
@@ -37,17 +37,24 @@ async function main() {
     console.error('⚠️  Could not check quota:', error.message);
   }
 
-  // Sitemap pages plus the llms files - see submit_urls.js.
-  let uniqueUrls = collectUrls();
+  // Only what this deploy changed (detect_changed_urls.js); the whole list
+  // only when that is unknown - see submit_urls.js.
+  const announce = urlsToAnnounce();
+  let uniqueUrls = announce.urls;
+  if (uniqueUrls.length === 0) {
+    console.log('✅ No page changed with this deploy - nothing to submit, quota kept.');
+    return;
+  }
 
-  // The daily quota is 100 URLs and the list holds more (116 sitemap pages plus
-  // the root and the llms files in October 2026), and a second deploy on the
-  // same day has even less left. Trim to what is left and say exactly what was
-  // dropped - a silent cut reads as "everything was submitted".
+  // The daily quota is 100 URLs. The full fallback list holds more (156
+  // sitemap pages plus the root and the llms files in October 2026), and a big
+  // change can too. Trim to what is left and list what was dropped - a silent
+  // cut reads as "everything was submitted".
   if (Number.isFinite(daily) && daily < uniqueUrls.length) {
     const dropped = uniqueUrls.length - daily;
     if (daily <= 0) {
-      console.warn('⚠️  Daily quota is exhausted - nothing submitted this run.');
+      console.warn('⚠️  Daily quota is exhausted - nothing submitted this run. Not sent:');
+      for (const u of uniqueUrls) console.warn(`  ${u}`);
       return;
     }
     // Newest first. The sitemap is written Slovak, English, Russian, so cutting
@@ -61,10 +68,13 @@ async function main() {
       .sort((a, b) => (a.lastmod === b.lastmod ? a.i - b.i : a.lastmod < b.lastmod ? 1 : -1))
       .map((x) => x.url);
     console.warn(`⚠️  Quota allows ${daily} of ${uniqueUrls.length} URLs; sending the ${daily} changed most recently, dropping ${dropped}.`);
+    for (const u of uniqueUrls.slice(daily)) console.warn(`  not sent: ${u}`);
     uniqueUrls = uniqueUrls.slice(0, daily);
   }
 
-  console.log(`📤 Submitting ${uniqueUrls.length} URLs to Bing Webmaster API (SubmitUrlBatch)...\n`);
+  const kind = announce.onlyChanged ? 'changed URLs' : 'URLs (full list, changes unknown)';
+  console.log(`📤 Submitting ${uniqueUrls.length} ${kind} to Bing Webmaster API (SubmitUrlBatch)...\n`);
+  for (const u of uniqueUrls) console.log(`  ${u}`);
 
   try {
     await submitUrlBatch(uniqueUrls);
