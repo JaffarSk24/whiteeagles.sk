@@ -81,7 +81,7 @@ export const apps: AppEntry[] = [
     privacyUrl: 'https://jaffarsk24.github.io/WE-Invoice/{locale}/privacy.html',
     siteUrl: 'https://jaffarsk24.github.io/WE-Invoice/{locale}/',
     webUrl: 'https://jaffarsk24.github.io/WE-Invoice/app/',
-    screenshot: '/assets/apps/we-invoice.webp',
+    screenshot: '/assets/apps/we-invoice-dark.webp',
     screenshotAlt: 'WE Invoice overview',
     icon: '/assets/apps/we-invoice-icon.webp',
     category: 'BusinessApplication',

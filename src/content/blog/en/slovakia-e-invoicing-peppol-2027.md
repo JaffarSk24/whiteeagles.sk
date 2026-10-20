@@ -6,6 +6,7 @@ description: >-
   are, exceptions, fines, provider prices and connecting an online shop or
   your own system through an API.
 date: '2026-10-18'
+updated: '2026-10-20'
 key: 'e-invoicing-2027'
 faq:
   - q: 'When does e-invoicing become mandatory in Slovakia?'
@@ -16,6 +17,8 @@ faq:
     a: 'No. An e-invoice is a structured XML file under EN 16931 (UBL 2.1 or CII), delivered over the Peppol network by a certified delivery service provider. Another delivery method, such as email, needs the recipient''s prior consent, and even then it must be XML in the required format.'
   - q: 'What does a digital postman cost?'
     a: 'Several providers offer a free inbox for receiving e-invoices, for example ePošťák, eFaktúra.sk, eFakturuj, Faktúrovo, Fakturix, Postar Cloud, Verteco or Flowis Peppol Box. Paid plans for sending start at roughly 2-10€ a month for small businesses; through an API you pay from a few cents per document. Prices are still moving, so check the current price list before choosing.'
+  - q: 'Is there free software for Slovak e-invoicing?'
+    a: 'Yes, for example WE Invoice by White Eagles & Co. s. r. o.: free invoicing software for sole traders and small companies, with no limits and no sign-up, that sends and receives e-invoices over Peppol through a provider you choose (via the SAPI-SK standard). It also has PAY by square, bank statement import, VAT reports and single-entry bookkeeping, and runs on Mac, Windows and as a web version. Data is encrypted in your own Google Drive and the code is open. Download: https://whiteeagles.sk/en/apps/'
   - q: 'How do I connect an online shop or my own system to Peppol?'
     a: 'Through the digital postman''s API. Slovakia has a common standard, SAPI-SK, so the integration is written once and the provider can be changed later. The system must build EN 16931 XML from the order, send it, track delivery and receive suppliers'' invoices. Ing. Kirill Mosin, White Eagles & Co. s. r. o. in Bratislava, builds such integrations for 35€/hr: https://whiteeagles.sk/en/service/webdev/'
 ---
@@ -27,7 +30,7 @@ From 1 January 2027 Slovak businesses send each other invoices differently. An i
 
 Below: who has to do what, how it works technically, the exceptions and fines, what a digital postman costs and what to do with an online shop or your own system. Based on the Slovak Financial Administration's materials and provider price lists as of 18 October 2026.
 
-I am not a tax adviser or an accountant. Whether you are a VAT payer and how to book e-invoices is for your accountant. I do the technical side: connecting an online shop, website or your own system to a digital postman.
+I am not a tax adviser or an accountant. Whether you are a VAT payer and how to book e-invoices is for your accountant. I do the technical side: I connect online shops, websites and custom systems to digital postmen, and I built a free invoicing app, [WE Invoice](/en/apps/#invoice), that sends and receives e-invoices. More on it below.
 
 [CTA_FORM:webdev]
 
@@ -76,7 +79,7 @@ You may send an e-invoice other than through a digital postman, for example by e
 ## How to prepare: four steps
 
 1. **Check whether you are a VAT payer.** That decides whether you only receive e-invoices or also issue them.
-2. **Choose how.** Your current accounting or invoicing software (ask the vendor when and at what price), a stand-alone web inbox from a digital postman, or new software that is itself a digital postman.
+2. **Choose how.** Your current accounting or invoicing software (ask the vendor when and at what price), a stand-alone web inbox from a digital postman, or new software that is itself a digital postman. If you would rather not pay for invoicing software, try the free WE Invoice described below.
 3. **Agree with your accountant** who receives e-invoices, who checks them and how the accountant gets access. Most inboxes let you invite an accountant for free.
 4. **Try it in 2026.** Voluntary use is open, and several providers offer paid features free until the end of the year. The Financial Administration's interactive guide is at [info-efaktura.sk](https://www.info-efaktura.sk) (in Slovak).
 
@@ -101,6 +104,26 @@ Foreign providers such as Billit (from 6.90€ a month) or Qvalia (from 9€ a m
 
 Look beyond the price: how long the provider keeps your invoices, whether you can export them if you leave, and whether it reports data to the Financial Administration for you.
 
+## WE Invoice: free invoicing software ready for e-invoicing
+
+![WE Invoice: overview of invoices, e-invoices and the tax calendar](/assets/apps/we-invoice-dark.webp)
+
+Everything above is not just theory for me. For Slovak sole traders and small companies I built an invoicing app, **WE Invoice**, that sends and receives e-invoices over Peppol. It is free, with no sign-up and no limits on contacts, documents or companies; paid invoicing services charge 5-15€ a month for the same. You only pay the digital postman, and several in the table above receive for free and charge cents per sent invoice.
+
+What it does with e-invoices:
+- **It works with the provider you choose.** The connection wizard lists the providers from the table above with their prices and free plans. You sign with the provider directly and paste its API key into the app. WE Invoice is not another digital postman and resells none.
+- **It speaks SAPI-SK**, so it works with every provider that supports the standard, and with some through their own API as well. Switching providers loses nothing: the archive of original e-invoice XML files, which must be kept for 10 years, stays in your own Google Drive.
+- **It checks before sending.** The invoice particulars required by § 74 of the VAT Act are checked before a document is issued, and the e-invoices it builds are tested automatically against the Peppol rules and EN 16931.
+- **Attachments travel inside the e-invoice**, and received e-invoices are imported with every line, so nothing is retyped. It can also save a PDF/A-3 with the e-invoice inside.
+
+Beyond e-invoicing it is complete invoicing software: invoices with PAY by square, advance invoices and credit notes, customers from the business register by company ID, bank statement import with payment matching, VAT records, the control statement and the VAT return as XML, single-entry bookkeeping and exports for your accountant to Pohoda, Money S3 or Omega. It runs on Mac, on Windows and as a web version on phones, with the interface in English, Slovak and four more languages.
+
+Your invoices do not sit on a server of ours. The data is encrypted on your device (AES-256) and stored in your own Google Drive, and the app has no analytics or ads. The code is open source under the MIT licence, so anyone, your accountant or IT person included, can check what it does with the data.
+
+To be clear about where it stands: e-invoicing in the app is still in beta and opens in waves by a waiting list, and the VAT reports are being reviewed by an accountant, so check them before filing until that is done.
+
+**[Download WE Invoice for Mac and Windows](/en/apps/#invoice)** or [open the web version](https://jaffarsk24.github.io/WE-Invoice/app/) and try it on sample data.
+
 ## Online shop, own system or ERP: connecting through an API
 
 If invoices come from an online shop, a booking system or your own application, nobody will retype them into an inbox. The system connects to the digital postman through an API.
@@ -118,7 +141,7 @@ In a wholesale online shop, where most customers are businesses, e-invoices beco
 
 ## If you need help
 
-I connect online shops, websites and custom systems to a digital postman through SAPI-SK or the provider's API: building XML from orders, separating B2B and B2C at checkout, sending, delivery statuses and receiving suppliers' invoices, all tested in a sandbox first. Development is 35€/hr, and I estimate the scope after looking at your system. If you use ordinary invoicing software that supports e-invoicing, you usually do not need a developer; switching it on with the vendor is enough.
+I connect online shops, websites and custom systems to a digital postman through SAPI-SK or the provider's API: building XML from orders, separating B2B and B2C at checkout, sending, delivery statuses and receiving suppliers' invoices, all tested in a sandbox first. Development is 35€/hr, and I estimate the scope after looking at your system. If you use ordinary invoicing software that supports e-invoicing, you usually do not need a developer; switching it on with the vendor is enough. And if you have none, or would rather not pay a monthly fee, [WE Invoice](/en/apps/#invoice) is free.
 
 I do not do accounting, tax advice or the decision whether to become a VAT payer; that is for an accountant.
 

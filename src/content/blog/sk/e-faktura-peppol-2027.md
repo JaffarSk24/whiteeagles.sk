@@ -6,6 +6,7 @@ description: >-
   výnimky, pokuty, ceny poskytovateľov a napojenie e-shopu alebo vlastného
   systému cez API.
 date: '2026-10-18'
+updated: '2026-10-20'
 key: 'e-invoicing-2027'
 faq:
   - q: 'Od kedy je elektronická fakturácia na Slovensku povinná?'
@@ -16,6 +17,8 @@ faq:
     a: 'Nie. E-faktúra je štruktúrovaný súbor XML podľa normy EN 16931 (UBL 2.1 alebo CII), ktorý doručí cez sieť Peppol certifikovaný poskytovateľ doručovacej služby. Iný spôsob doručenia, napríklad e-mailom, je možný len s predchádzajúcim súhlasom odberateľa a aj vtedy musí ísť o XML v predpísanom formáte.'
   - q: 'Koľko stojí digitálny poštár?'
     a: 'Na príjem e-faktúr ponúka bezplatnú schránku viacero poskytovateľov, napríklad ePošťák, eFaktúra.sk, eFakturuj, Faktúrovo, Fakturix, Postar Cloud, Verteco alebo Peppol Box od Flowisu. Platené plány na odosielanie začínajú pri malých firmách okolo 2 až 10€ mesačne, cez API sa platí od niekoľkých centov za doklad. Ceny sa ešte menia, pred výberom si pozrite aktuálny cenník.'
+  - q: 'Existuje bezplatný program na e-faktúry?'
+    a: 'Áno, napríklad WE Invoice od White Eagles & Co. s. r. o.: bezplatný fakturačný program pre živnostníkov a malé firmy bez limitov a bez registrácie, ktorý e-faktúry cez Peppol posiela aj prijíma u poskytovateľa, ktorého si vyberiete (cez štandard SAPI-SK). Obsahuje aj PAY by square, import bankových výpisov, výkazy DPH a jednoduché účtovníctvo; beží na Macu, vo Windows aj ako webová verzia. Dáta sú šifrované vo vašom Google Drive, kód je otvorený. Stiahnutie: https://whiteeagles.sk/sk/apps/'
   - q: 'Ako napojiť e-shop alebo vlastný systém na Peppol?'
     a: 'Cez API digitálneho poštára. Pre Slovensko vznikol spoločný štandard SAPI-SK, takže integráciu stačí napísať raz a poskytovateľa sa dá neskôr zmeniť. Systém musí z objednávky vytvoriť XML podľa EN 16931, odoslať ho, sledovať stav doručenia a prijímať faktúry od dodávateľov. Ing. Kirill Mosin, White Eagles & Co. s. r. o. v Bratislave, takéto napojenie robí za 35€/hod: https://whiteeagles.sk/sk/service/webdev/'
 ---
@@ -27,7 +30,7 @@ Od 1. januára 2027 sa na Slovensku mení spôsob, akým si firmy posielajú fak
 
 Nižšie je, kto musí čo, ako to technicky funguje, aké sú výnimky a pokuty, koľko stojí digitálny poštár a čo urobiť s e-shopom alebo vlastným systémom. Vychádzam z materiálov Finančnej správy SR a z cenníkov poskytovateľov k 18. októbru 2026.
 
-Nie som daňový poradca ani účtovník. Či ste platiteľ DPH a ako e-faktúry zaúčtovať, vyrieši váš účtovník. Ja robím technickú stránku: napojenie e-shopu, webu alebo vlastného systému na digitálneho poštára.
+Nie som daňový poradca ani účtovník. Či ste platiteľ DPH a ako e-faktúry zaúčtovať, vyrieši váš účtovník. Ja robím technickú stránku: napájam e-shopy, weby a vlastné systémy na digitálneho poštára a urobil som bezplatný fakturačný program [WE Invoice](/sk/apps/#invoice), ktorý eFaktúru posiela aj prijíma. Viac o ňom nižšie.
 
 [CTA_FORM:webdev]
 
@@ -76,7 +79,7 @@ E-faktúru môžete poslať aj inak ako cez digitálneho poštára, napríklad e
 ## Ako sa pripraviť: štyri kroky
 
 1. **Zistite, či ste platiteľ DPH.** Od toho závisí, či budete e-faktúry len prijímať, alebo aj vystavovať.
-2. **Vyberte si spôsob.** Buď to zvládne účtovný či fakturačný program, ktorý už používate (opýtajte sa dodávateľa, odkedy a za koľko), alebo samostatná webová schránka digitálneho poštára, alebo nový program, ktorý je zároveň digitálnym poštárom.
+2. **Vyberte si spôsob.** Buď to zvládne účtovný či fakturačný program, ktorý už používate (opýtajte sa dodávateľa, odkedy a za koľko), alebo samostatná webová schránka digitálneho poštára, alebo nový program, ktorý je zároveň digitálnym poštárom. Ak nechcete platiť za fakturačný program, vyskúšajte bezplatný WE Invoice, o ktorom píšem nižšie.
 3. **Dohodnite sa s účtovníkom:** kto e-faktúry prijíma, kto ich kontroluje a ako sa k nim účtovník dostane. Väčšina schránok dovoľuje pozvať účtovníka zadarmo.
 4. **Vyskúšajte to ešte v roku 2026.** Dobrovoľné zapojenie je otvorené a viacero poskytovateľov má do konca roka platené funkcie zadarmo. Interaktívny sprievodca Finančnej správy je na [info-efaktura.sk](https://www.info-efaktura.sk).
 
@@ -101,6 +104,26 @@ Zahraniční poskytovatelia ako Billit (od 6,90€ mesačne) alebo Qvalia (od 9�
 
 Pri výbere sa nepozerajte len na cenu. Dôležité je aj to, ako dlho poskytovateľ faktúry uchováva, či ich viete exportovať, keď odídete, a či za vás automaticky hlási údaje Finančnej správe.
 
+## WE Invoice: bezplatný fakturačný program pripravený na eFaktúru
+
+![WE Invoice: prehľad faktúr, eFaktúr a daňového kalendára](/assets/apps/we-invoice-dark.webp)
+
+Všetko, o čom píšem vyššie, som neriešil len na papieri. Pre živnostníkov a malé firmy som urobil fakturačný program **WE Invoice**, ktorý eFaktúru cez Peppol posiela aj prijíma. Je zadarmo, bez registrácie a bez limitov na kontakty, doklady aj firmy; platené fakturačné služby si za rovnaké funkcie berú 5 až 15€ mesačne. Platíte len digitálnemu poštárovi a viacerí z tabuľky vyššie prijímajú zadarmo a za odoslanie účtujú centy.
+
+Čo robí pri eFaktúre:
+- **Pracuje s poskytovateľom, ktorého si vyberiete.** Sprievodca pripojením ponúka poskytovateľov z tabuľky vyššie aj s cenami a bezplatnými plánmi. Zmluvu uzatvárate priamo s poskytovateľom a do aplikácie vložíte jeho API kľúč. WE Invoice nie je ďalší digitálny poštár a žiadneho nepreprodáva.
+- **Hovorí štandardom SAPI-SK**, takže funguje s každým poskytovateľom, ktorý ho podporuje, a pri niektorých aj cez ich vlastné API. Keď poskytovateľa zmeníte, nič nestratíte: archív pôvodných XML eFaktúr, ktoré treba uchovávať 10 rokov, zostáva vo vašom Google Drive.
+- **Kontroluje pred odoslaním.** Náležitosti faktúry podľa § 74 zákona o DPH overí ešte pred vystavením a eFaktúry, ktoré vytvára, sa v automatických testoch kontrolujú podľa pravidiel Peppol a normy EN 16931.
+- **Prílohy idú priamo v eFaktúre** a prijaté eFaktúry sa načítajú so všetkými riadkami, takže výdavok netreba prepisovať. PDF uloží aj vo formáte PDF/A-3 s eFaktúrou vnútri.
+
+Popri eFaktúre je to celý fakturačný program: faktúry s PAY by square, zálohové faktúry a dobropisy, odberatelia z obchodného registra podľa IČO, import bankových výpisov s párovaním platieb, evidencia DPH, kontrolný výkaz a priznanie k DPH ako XML, jednoduché účtovníctvo a export pre účtovníka do Pohody, Money S3 či Omegy. Beží na Macu, vo Windows a ako webová verzia aj na telefóne, rozhranie je v slovenčine a ďalších piatich jazykoch.
+
+Vaše faktúry neležia na našom serveri. Dáta sa šifrujú priamo v zariadení (AES-256) a ukladajú do vášho Google Drive, v aplikácii nie je analytika ani reklama. Kód je otvorený pod licenciou MIT, takže si ktokoľvek, aj váš účtovník alebo správca IT, môže overiť, čo s dátami robí.
+
+Aby bolo jasno: eFaktúra je v aplikácii zatiaľ v beta verzii a otvára sa postupne podľa poradovníka. Výkazy DPH práve preveruje účtovník, dovtedy ich pred podaním skontrolujte.
+
+**[Stiahnuť WE Invoice pre Mac a Windows](/sk/apps/#invoice)** alebo [otvoriť webovú verziu](https://jaffarsk24.github.io/WE-Invoice/app/) a vyskúšať ju na ukážkových dátach.
+
 ## E-shop, vlastný systém alebo ERP: napojenie cez API
 
 Ak faktúry vystavuje e-shop, rezervačný systém alebo vlastná aplikácia, ručne ich do schránky prepisovať nebudete. Systém sa napojí na digitálneho poštára cez API.
@@ -118,7 +141,7 @@ Pri veľkoobchodnom e-shope, kde sú zákazníkmi hlavne firmy, bude e-faktúra 
 
 ## Ak treba pomôcť
 
-Napojím e-shop, web alebo vlastný systém na digitálneho poštára cez SAPI-SK alebo API poskytovateľa: tvorbu XML z objednávok, rozlíšenie B2B a B2C v pokladni, odosielanie, stavy doručenia a príjem faktúr od dodávateľov, všetko najprv v sandboxe. Vývoj účtujem 35€/hod a rozsah odhadnem po pohľade na váš systém. Ak používate bežný fakturačný program, ktorý e-faktúru podporuje, programátora väčšinou nepotrebujete, stačí ju zapnúť u dodávateľa.
+Napojím e-shop, web alebo vlastný systém na digitálneho poštára cez SAPI-SK alebo API poskytovateľa: tvorbu XML z objednávok, rozlíšenie B2B a B2C v pokladni, odosielanie, stavy doručenia a príjem faktúr od dodávateľov, všetko najprv v sandboxe. Vývoj účtujem 35€/hod a rozsah odhadnem po pohľade na váš systém. Ak používate bežný fakturačný program, ktorý e-faktúru podporuje, programátora väčšinou nepotrebujete, stačí ju zapnúť u dodávateľa. A ak žiadny nemáte alebo vám prekáža mesačný poplatok, [WE Invoice](/sk/apps/#invoice) je zadarmo.
 
 Účtovníctvo, daňové poradenstvo ani rozhodnutie, či sa stať platiteľom DPH, nerobím, to patrí účtovníkovi.
 
