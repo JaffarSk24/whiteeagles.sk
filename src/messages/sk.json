@@ -1236,18 +1236,18 @@
     "error_required": "Toto pole je povinné."
   },
   "apps": {
-    "seo_title": "Time tracker a rozpočet zadarmo: aplikácie pre Mac a Windows",
-    "seo_desc": "Zadarmo WE Time Tracker na evidenciu času a platieb od klientov a WE Budget na rozpočet. Pre freelancerov, macOS a Windows, otvorený kód, dáta u vás.",
+    "seo_title": "Fakturačný program, time tracker a rozpočet zadarmo",
+    "seo_desc": "Zadarmo WE Invoice na faktúry a eFaktúru, WE Time Tracker na evidenciu času a WE Budget na rozpočet. Mac, Windows aj web, otvorený kód, dáta u vás.",
     "h1": "Bezplatné aplikácie pre freelancerov a malé firmy",
-    "lead": "Dve aplikácie, ktoré som si urobil pre vlastnú prácu a dal som ich voľne k dispozícii: evidencia odpracovaného času s platbami od klientov a rozpočet postavený na kalendári platieb. Zadarmo, bez registrácie a bez našich serverov: dáta sú vo vašom počítači.",
+    "lead": "Tri aplikácie, ktoré som si urobil pre vlastnú prácu a dal som ich voľne k dispozícii: fakturácia s eFaktúrou, evidencia odpracovaného času s platbami od klientov a rozpočet postavený na kalendári platieb. Zadarmo a bez registrácie, vaše dáta neležia na našich serveroch: sú vo vašom počítači alebo vo vašom Google Drive.",
     "who_title": "Pre koho",
-    "who_text": "Pre freelancera, ktorý pracuje na hodiny pre viacerých klientov a chce vidieť, kto koľko dlhuje. A pre každého, kto vedie rodinný alebo firemný rozpočet podľa platieb (nájom, poistky, predplatné, dane) a chce vopred vedieť, na ktorú platbu nebudú peniaze.",
-    "principles_title": "Čo majú obe aplikácie spoločné",
+    "who_text": "Pre živnostníka alebo malú firmu, ktorá vystavuje faktúry, od 1. 1. 2027 potrebuje eFaktúru a nechce za to platiť mesačný poplatok. Pre freelancera, ktorý pracuje na hodiny pre viacerých klientov a chce vidieť, kto koľko dlhuje. A pre každého, kto vedie rodinný alebo firemný rozpočet podľa platieb (nájom, poistky, predplatné, dane) a chce vopred vedieť, na ktorú platbu nebudú peniaze.",
+    "principles_title": "Čo majú všetky tri spoločné",
     "principles": [
-      "Bežia na macOS (Intel aj Apple Silicon) a Windows 10 alebo novšom, úplne offline.",
-      "Dáta v jednom súbore vo vašom počítači, s dennými kópiami. Synchronizácia medzi počítačmi je voliteľná, cez skrytý priečinok vášho Google Drive. Naše servery neexistujú.",
+      "Bežia na macOS (Intel aj Apple Silicon) a Windows 10 alebo novšom, WE Budget a WE Invoice aj na telefóne. Aktualizácie si aplikácie inštalujú samy.",
+      "Dáta máte vy: vo vašom počítači alebo vo vašom Google Drive. Na naše servery sa vaše dáta neukladajú.",
       "Otvorený kód na GitHube pod licenciou MIT: môžete si overiť, čo je vnútri, a upraviť si ju.",
-      "Rozhranie v angličtine a ruštine, tmavá a svetlá téma. Aktualizácie si aplikácia inštaluje sama."
+      "Zadarmo, bez registrácie, bez predplatného a bez platených funkcií. Tmavá a svetlá téma."
     ],
     "items": {
       "time-tracker": {
@@ -1257,7 +1257,8 @@
           "Pauza a pokračovanie bez straty času, záznamy spätne",
           "Každý záznam si drží sadzbu, s ktorou vznikol: zmena sadzby neprepíše minulé sumy",
           "Platby, dlhy a zálohy za každého klienta",
-          "Export do CSV a JSON, filtre podľa klienta, projektu, stavu platby a obdobia"
+          "Export do CSV a JSON, filtre podľa klienta, projektu, stavu platby a obdobia",
+          "Rozhranie v angličtine a ruštine"
         ]
       },
       "budget": {
@@ -1268,7 +1269,38 @@
           "Analytika: príjmy a výdavky po mesiacoch, výdavky podľa kategórií, plán oproti skutočnosti",
           "Ciele s termínom a mesačným vkladom",
           "Pripomienky platieb cez Google Kalendár, aby prišli na telefón",
-          "Mobilná verzia pre iPhone a Android: dnešné platby, rýchle výdavky, voľné peniaze"
+          "Mobilná verzia pre iPhone a Android: dnešné platby, rýchle výdavky, voľné peniaze",
+          "Rozhranie v angličtine a ruštine"
+        ],
+        "phone_text": "Otvorte mobilnú verziu v Safari na iPhone alebo v Chrome na Androide, ťuknite na Zdieľať a potom na Pridať na plochu. Prihláste sa tým istým účtom Google ako na počítači a rozpočet sa stiahne z vášho Google Drive. Plán, pravidelné platby a účty sa upravujú na počítači."
+      },
+      "invoice": {
+        "tagline": "Fakturácia, eFaktúra a jednoduché účtovníctvo pre živnostníkov a malé firmy",
+        "description": "Faktúry, zálohové faktúry, dobropisy, cenové ponuky, objednávky a dodacie listy, na každej faktúre PAY by square. Odberateľa doplní z obchodného registra podľa IČO a overí ho vo VIES aj v indexe spoľahlivosti platiteľov DPH. Pripravená na povinnú eFaktúru od 1. 1. 2027: posiela aj prijíma cez Peppol u certifikovaného poskytovateľa, ktorého si vyberiete sami. Bez limitov na kontakty, doklady aj firmy; platené služby si za to isté berú 5 až 15€ mesačne.",
+        "features": [
+          "Banka a pokladňa: import výpisov slovenských a českých bánk (CSV, CAMT.053, MT940, ABO/GPC) s automatickým párovaním, príkazy SEPA, pokladničná kniha",
+          "Nákup: prijaté faktúry a výdavky z PDF, QR kódu, fotky (rozpoznanie textu priamo v zariadení) aj z bločkov eKasa",
+          "DPH a účtovníctvo: evidencia DPH, kontrolný výkaz, súhrnný výkaz a priznanie k DPH ako XML podľa oficiálnych schém; jednoduché účtovníctvo s majetkom, odpismi a uzávierkou roka",
+          "Pravidelné faktúry, pripomienky úhrad, sklad, prehľady predaja, cash-flow a omeškaní",
+          "Pre účtovníka export do Pohody, Money S3, Omegy, ISDOC a XLSX v jednom ZIP; prechod z iných fakturačných programov zo súborov alebo cez API",
+          "Rozhranie v slovenčine, češtine, angličtine, nemčine, ruštine a ukrajinčine; faktúry aj dvojjazyčné",
+          "Dáta šifrované priamo v zariadení (AES-256) a uložené vo vašom Google Drive, bez analytiky a reklamy v aplikácii"
+        ],
+        "phone_text": "Webová verzia beží v každom prehliadači, aj na počítači, a funguje aj offline. Na iPhone ju v Safari pridáte na plochu cez Zdieľať a Pridať na plochu, na Androide v Chrome cez ponuku Inštalovať aplikáciu. Dáta sú šifrované a uložené vo vašom Google Drive.",
+        "win_extra": "Na Windows 11 so zapnutým Smart App Control sa WE Invoice zatiaľ nainštalovať nedá; použite webovú verziu.",
+        "notes": [
+          {
+            "title": "eFaktúra je v beta verzii",
+            "text": "Odosielanie a príjem eFaktúr sa otvára postupne podľa poradovníka na stránke aplikácie. Poskytovateľa digitálneho poštára si vyberáte sami a aplikácia s ním komunikuje za vás."
+          },
+          {
+            "title": "Daňové výkazy pred podaním skontrolujte",
+            "text": "Evidencia DPH, kontrolný a súhrnný výkaz a priznanie k DPH sa tvoria podľa oficiálnych schém Finančnej správy a práve ich preveruje účtovník. Kým preverenie neskončí, pred podaním ich skontrolujte."
+          },
+          {
+            "title": "Čo WE Invoice nerobí",
+            "text": "Nie je to registračná pokladnica eKasa ani virtuálna registračná pokladnica, nepripája sa k banke cez PSD2 a neposiela SMS. Bločky eKasa vie iba načítať ako výdavky."
+          }
         ]
       }
     },
@@ -1277,18 +1309,20 @@
     "download_mac": "Stiahnuť pre Mac",
     "download_windows": "Stiahnuť pre Windows",
     "download_phone": "Otvoriť verziu pre telefón",
+    "download_web": "Otvoriť webovú verziu",
     "version": "Verzia {version} z {date}",
     "all_releases": "všetky verzie a zoznam zmien",
+    "desktop_soon": "Verzia pre Mac a Windows vyjde čoskoro, webová verzia už funguje",
+    "app_site": "Stránka aplikácie",
     "source": "Zdrojový kód na GitHube",
     "privacy": "Ochrana osobných údajov",
     "phone_title": "Ako nainštalovať verziu pre telefón",
-    "phone_text": "Otvorte mobilnú verziu v Safari na iPhone alebo v Chrome na Androide, ťuknite na Zdieľať a potom na Pridať na plochu. Prihláste sa tým istým účtom Google ako na počítači a rozpočet sa stiahne z vášho Google Drive. Plán, pravidelné platby a účty sa upravujú na počítači.",
     "mac_note_title": "Pri prvom spustení na Macu",
-    "mac_note": "Aplikácie sú podpísané, ale nie notarizované Apple (na to treba platený vývojársky účet), preto macOS pri prvom otvorení povie, že súbor je poškodený. Súbor je v poriadku: príkaz nižšie iba odstráni značku, ktorú prehliadač pridá pri sťahovaní. Spustite ho raz v Termináli po tom, čo aplikáciu presuniete do Aplikácií. Ďalšie aktualizácie si aplikácia inštaluje sama, bez tohto kroku.",
+    "mac_note": "Aplikácie nie sú notarizované Apple (na to treba platený vývojársky účet), preto macOS pri prvom otvorení povie, že súbor je poškodený. Súbor je v poriadku: príkaz nižšie iba odstráni značku, ktorú prehliadač pridá pri sťahovaní. Spustite ho raz v Termináli po tom, čo aplikáciu presuniete do Aplikácií. Ďalšie aktualizácie si aplikácia inštaluje sama, bez tohto kroku.",
     "win_note_title": "Pri prvej inštalácii na Windows",
     "win_note": "Inštalátor nie je podpísaný plateným certifikátom, preto SmartScreen upozorní na neznámeho vydavateľa: kliknite na Ďalšie informácie a potom na Spustiť aj tak. Inštaluje sa do vášho konta bez práv správcu a aktualizácie si aplikácia inštaluje sama, bez tohto okna.",
     "cta_title": "Potrebujete podobnú aplikáciu pre svoju firmu?",
-    "cta_text": "Obe aplikácie robil ten istý človek rovnakým spôsobom ako weby a rezervačné systémy pre klientov: rýchlo, bez technického zadania a s dátami, ktoré patria vám. Napíšte, čo má vaša aplikácia robiť, a poviem, koľko to stojí.",
+    "cta_text": "Všetky tri aplikácie robil ten istý človek rovnakým spôsobom ako weby a rezervačné systémy pre klientov: rýchlo, bez technického zadania a s dátami, ktoré patria vám. Napíšte, čo má vaša aplikácia robiť, a poviem, koľko to stojí.",
     "cta_button": "Prebrať zadanie",
     "faq_title": "Časté otázky",
     "faq": [
@@ -1298,15 +1332,23 @@
       },
       {
         "q": "Kde sú moje dáta?",
-        "a": "V jednom súbore vo vašom počítači, v priečinku aplikácie. Ak zapnete synchronizáciu, kópia je v skrytom priečinku aplikácie na vašom Google Drive, ktorý vidí iba táto aplikácia. Na naše servery sa nič neposiela, jednoducho neexistujú."
+        "a": "V aplikáciách WE Time Tracker a WE Budget je to jeden súbor vo vašom počítači, v priečinku aplikácie; ak zapnete synchronizáciu, kópia je v skrytom priečinku aplikácie na vašom Google Drive, ktorý vidí iba táto aplikácia. WE Invoice dáta šifruje priamo v zariadení a ukladá ich do vášho Google Drive. Náš server iba odovzdáva dopyty do registrov, na kurzy ECB a poskytovateľovi eFaktúry a nič z nich neukladá."
       },
       {
         "q": "Prečo macOS píše, že aplikácia je poškodená?",
         "a": "Lebo nie je notarizovaná Apple. Súbor je v poriadku: takto macOS hlási každú nenotarizovanú aplikáciu stiahnutú prehliadačom. Jeden príkaz v Termináli, uvedený pod tlačidlami na stiahnutie, značku odstráni a aplikácia sa ďalej otvára ako každá iná."
       },
       {
+        "q": "Zvládne WE Invoice povinnú eFaktúru od roku 2027?",
+        "a": "Áno, posielanie aj príjem eFaktúr cez Peppol sú v aplikácii, zatiaľ v beta verzii, ktorá sa otvára postupne podľa poradovníka. Potrebujete certifikovaného poskytovateľa (digitálneho poštára), ktorého si vyberiete sami; aplikácia s ním komunikuje za vás."
+      },
+      {
+        "q": "Dá sa do WE Invoice prejsť z iného fakturačného programu?",
+        "a": "Áno. Kontakty, doklady a objednávky sa dajú preniesť zo súborov z bežných slovenských fakturačných programov, z niektorých aj cez API, a objednávky aj z e-shopu na Shoptete."
+      },
+      {
         "q": "Čo robiť, keď niečo nefunguje?",
-        "a": "Napíšte do Issues na GitHube alebo na welcome@whiteeagles.sk. Export všetkých dát je v nastaveniach oboch aplikácií, takže sa nič nestratí."
+        "a": "Napíšte do Issues na GitHube alebo na welcome@whiteeagles.sk. Export všetkých dát je v nastaveniach všetkých troch aplikácií, takže sa nič nestratí."
       }
     ]
   },

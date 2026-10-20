@@ -18,6 +18,8 @@ const PLATFORMS: { key: keyof AppRelease["assets"]; test: (n: string) => boolean
 
 interface GitHubRelease {
   tag_name: string;
+  draft?: boolean;
+  prerelease?: boolean;
   published_at: string;
   html_url: string;
   assets: { name: string; browser_download_url: string; size: number }[];
@@ -72,13 +74,15 @@ const newer = (a: string, b: string) => {
   return false;
 };
 
-export function useLatestRelease(repo: string, baked: AppRelease): AppRelease {
+// `baked` is missing for an app whose first release was not published at the
+// last build; the first release GitHub reports then counts as newer.
+export function useLatestRelease(repo: string, baked: AppRelease | undefined): AppRelease | undefined {
   const [release, setRelease] = useState(baked);
 
   useEffect(() => {
     let cancelled = false;
     const apply = (r: AppRelease) => {
-      if (!cancelled && newer(r.version, baked.version)) setRelease(r);
+      if (!cancelled && (!baked || newer(r.version, baked.version))) setRelease(r);
     };
 
     const cached = readCache(repo);
@@ -89,11 +93,17 @@ export function useLatestRelease(repo: string, baked: AppRelease): AppRelease {
       };
     }
 
-    fetch(`https://api.github.com/repos/JaffarSk24/${repo}/releases/latest`, {
-      headers: { Accept: "application/vnd.github+json" },
-    })
+    // An app with no release at build time asks for the list instead of
+    // /releases/latest: while its first release is a draft, the list answers
+    // 200 with nothing in it, where /latest answers 404 and leaves an error
+    // in the visitor's console.
+    const url = baked
+      ? `https://api.github.com/repos/JaffarSk24/${repo}/releases/latest`
+      : `https://api.github.com/repos/JaffarSk24/${repo}/releases?per_page=5`;
+    fetch(url, { headers: { Accept: "application/vnd.github+json" } })
       .then((res) => (res.ok ? res.json() : null))
-      .then((json: GitHubRelease | null) => {
+      .then((body: GitHubRelease | GitHubRelease[] | null) => {
+        const json = Array.isArray(body) ? body.find((x) => !x.draft && !x.prerelease) : body;
         const r = json ? parse(json) : null;
         if (!r) return;
         writeCache(repo, r);
@@ -106,7 +116,7 @@ export function useLatestRelease(repo: string, baked: AppRelease): AppRelease {
     return () => {
       cancelled = true;
     };
-  }, [repo, baked.version]);
+  }, [repo, baked]);
 
   return release;
 }

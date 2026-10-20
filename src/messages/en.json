@@ -1196,18 +1196,18 @@
     "error_required": "This field is required."
   },
   "apps": {
-    "seo_title": "Free time tracker and budget app for Mac and Windows",
-    "seo_desc": "Free WE Time Tracker for work hours and client payments, and WE Budget for expenses. For freelancers, macOS and Windows, open source, data stays with you.",
+    "seo_title": "Free invoicing, time tracker and budget apps for Mac and Windows",
+    "seo_desc": "Free WE Invoice for invoices and Slovak e-invoicing, WE Time Tracker for work hours and WE Budget for expenses. Mac, Windows and web, open source.",
     "h1": "Free apps for freelancers and small businesses",
-    "lead": "Two apps I built for my own work and released for everyone: time tracking with payments per client, and a budget built around a payment calendar. Free, no sign-up and no servers of ours: the data lives on your computer.",
+    "lead": "Three apps I built for my own work and released for everyone: invoicing with Slovak e-invoicing (eFaktúra), time tracking with payments per client, and a budget built around a payment calendar. Free and with no sign-up, and your data does not sit on servers of ours: it stays on your computer or in your own Google Drive.",
     "who_title": "Who they are for",
-    "who_text": "For a freelancer who works by the hour for several clients and wants to see who owes what. And for anyone who runs a household or business budget by payments (rent, insurance, subscriptions, taxes) and wants to know in advance which payment the money will not stretch to.",
-    "principles_title": "What both apps have in common",
+    "who_text": "For a Slovak sole trader or small company that issues invoices, needs eFaktúra from 1 January 2027 and does not want to pay a monthly fee for it. For a freelancer who works by the hour for several clients and wants to see who owes what. And for anyone who runs a household or business budget by payments (rent, insurance, subscriptions, taxes) and wants to know in advance which payment the money will not stretch to.",
+    "principles_title": "What all three have in common",
     "principles": [
-      "Run on macOS (Intel and Apple Silicon) and Windows 10 or newer, fully offline.",
-      "Data in one file on your computer, with daily copies. Sync between computers is optional, through a hidden folder of your own Google Drive. There are no servers of ours.",
+      "Run on macOS (Intel and Apple Silicon) and Windows 10 or newer, WE Budget and WE Invoice on phones too. The apps install their own updates.",
+      "Your data stays with you: on your computer or in your own Google Drive. It is not stored on servers of ours.",
       "Open source on GitHub under the MIT licence: check what is inside and adapt it.",
-      "Interface in English and Russian, dark and light theme. The app installs its own updates."
+      "Free, no sign-up, no subscriptions, no paid features. Dark and light theme."
     ],
     "items": {
       "time-tracker": {
@@ -1217,7 +1217,8 @@
           "Pause and resume without losing time, entries added after the fact",
           "Every entry keeps the rate it was made with: changing a rate never rewrites past earnings",
           "Payments, debts and advances per client",
-          "CSV and JSON export, filters by client, project, payment status and period"
+          "CSV and JSON export, filters by client, project, payment status and period",
+          "Interface in English and Russian"
         ]
       },
       "budget": {
@@ -1228,7 +1229,38 @@
           "Analytics: income and expenses by month, expenses by category, plan against fact",
           "Goals with a date and a monthly contribution",
           "Payment reminders through Google Calendar, so they reach your phone",
-          "A phone version for iPhone and Android: today's payments, quick expenses, free money"
+          "A phone version for iPhone and Android: today's payments, quick expenses, free money",
+          "Interface in English and Russian"
+        ],
+        "phone_text": "Open the phone version in Safari on an iPhone or in Chrome on Android, tap Share, then Add to Home Screen. Sign in with the same Google account as on the computer and the budget comes down from your Google Drive. The plan, recurring payments and accounts are edited on the computer."
+      },
+      "invoice": {
+        "tagline": "Invoicing, e-invoicing and simple bookkeeping for Slovak sole traders and small companies",
+        "description": "Invoices, advance invoices, credit notes, quotes, orders and delivery notes, with a PAY by square code on every invoice. It fills in a customer from the Slovak business register by company ID and checks them in VIES and in the VAT payer reliability index. Ready for mandatory e-invoicing from 1 January 2027: it sends and receives over Peppol through a certified provider you choose yourself. No limits on contacts, documents or companies; paid services charge 5-15€ a month for the same.",
+        "features": [
+          "Bank and cash: statement import from Slovak and Czech banks (CSV, CAMT.053, MT940, ABO/GPC) with automatic matching, SEPA payment orders, a cash book",
+          "Purchases: received invoices and expenses from a PDF, a QR code, a photo (text recognition on the device) or an eKasa receipt",
+          "VAT and bookkeeping: VAT records, control statement, recapitulative statement and VAT return as XML to the official schemas; single-entry bookkeeping with assets, depreciation and year-end closing",
+          "Recurring invoices, payment reminders, stock, sales, cash-flow and overdue reports",
+          "For your accountant: export to Pohoda, Money S3, Omega, ISDOC and XLSX in one ZIP; moving over from other invoicing software from files or through an API",
+          "Interface in Slovak, Czech, English, German, Russian and Ukrainian; bilingual invoices too",
+          "Data encrypted on the device (AES-256) and stored in your own Google Drive, no analytics or ads in the app"
+        ],
+        "phone_text": "The web version runs in any browser, on a computer too, and works offline. On an iPhone add it to the Home Screen in Safari through Share, on Android in Chrome through Install app. The data is encrypted and stored in your own Google Drive.",
+        "win_extra": "On Windows 11 with Smart App Control turned on WE Invoice cannot be installed yet; use the web version.",
+        "notes": [
+          {
+            "title": "E-invoicing is in beta",
+            "text": "Sending and receiving e-invoices opens in waves, by the waiting list on the app's site. You choose the delivery provider (digital postman) yourself and the app talks to it for you."
+          },
+          {
+            "title": "Check the tax reports before filing",
+            "text": "VAT records, the control and recapitulative statements and the VAT return are built to the Slovak Financial Administration's official schemas and are being reviewed by an accountant right now. Until that review is done, check them before filing."
+          },
+          {
+            "title": "What WE Invoice does not do",
+            "text": "It is not an eKasa cash register or a virtual cash register, it does not connect to banks through PSD2 and it does not send SMS. It can only read eKasa receipts as expenses."
+          }
         ]
       }
     },
@@ -1237,18 +1269,20 @@
     "download_mac": "Download for Mac",
     "download_windows": "Download for Windows",
     "download_phone": "Open the phone version",
+    "download_web": "Open the web version",
     "version": "Version {version}, {date}",
     "all_releases": "all versions and release notes",
+    "desktop_soon": "Mac and Windows versions are coming soon, the web version works now",
+    "app_site": "App website",
     "source": "Source code on GitHub",
     "privacy": "Privacy policy",
     "phone_title": "Installing the phone version",
-    "phone_text": "Open the phone version in Safari on an iPhone or in Chrome on Android, tap Share, then Add to Home Screen. Sign in with the same Google account as on the computer and the budget comes down from your Google Drive. The plan, recurring payments and accounts are edited on the computer.",
     "mac_note_title": "First launch on a Mac",
-    "mac_note": "The apps are signed but not notarised by Apple (that needs a paid developer account), so on the first open macOS says the file is damaged. It is not: the command below only removes the mark a browser puts on a download. Run it once in Terminal after dragging the app to Applications. Later updates are installed by the app itself, without this step.",
+    "mac_note": "The apps are not notarised by Apple (that needs a paid developer account), so on the first open macOS says the file is damaged. It is not: the command below only removes the mark a browser puts on a download. Run it once in Terminal after dragging the app to Applications. Later updates are installed by the app itself, without this step.",
     "win_note_title": "First install on Windows",
     "win_note": "The installer is not signed with a paid certificate, so SmartScreen warns about an unknown publisher: choose More info, then Run anyway. It installs into your own account without administrator rights, and updates are installed by the app itself, without this window.",
     "cta_title": "Need an app like this for your business?",
-    "cta_text": "Both apps were built by the same person, the same way as the websites and booking systems for clients: fast, without a formal specification, and with data that belongs to you. Tell me what your app should do and I will tell you what it costs.",
+    "cta_text": "All three apps were built by the same person, the same way as the websites and booking systems for clients: fast, without a formal specification, and with data that belongs to you. Tell me what your app should do and I will tell you what it costs.",
     "cta_button": "Discuss the task",
     "faq_title": "Frequently asked questions",
     "faq": [
@@ -1258,15 +1292,23 @@
       },
       {
         "q": "Where is my data?",
-        "a": "In one file on your computer, in the app's folder. If you turn on sync, a copy sits in the app's hidden folder on your own Google Drive, which only this app can see. Nothing is sent to our servers; there are none."
+        "a": "WE Time Tracker and WE Budget keep it in one file on your computer, in the app's folder; if you turn on sync, a copy sits in the app's hidden folder on your own Google Drive, which only that app can see. WE Invoice encrypts the data on the device and stores it in your own Google Drive. Our server only forwards requests to the registers, ECB exchange rates and the e-invoicing provider, and keeps nothing."
       },
       {
         "q": "Why does macOS say the app is damaged?",
         "a": "Because it is not notarised by Apple. The file is intact: this is how macOS reports any non-notarised app downloaded in a browser. The one Terminal command listed under the download buttons removes the mark, and from then on the app opens like any other."
       },
       {
+        "q": "Can WE Invoice handle mandatory e-invoicing from 2027?",
+        "a": "Yes, sending and receiving e-invoices over Peppol is in the app, in a beta that opens in waves by a waiting list. You need a certified delivery provider (digital postman), which you choose yourself; the app talks to it for you."
+      },
+      {
+        "q": "Can I move to WE Invoice from other invoicing software?",
+        "a": "Yes. Contacts, documents and orders come over from files exported by common Slovak invoicing programs, from some through an API, and orders also from a Shoptet online shop."
+      },
+      {
         "q": "What if something does not work?",
-        "a": "Open an issue on GitHub or write to welcome@whiteeagles.sk. Both apps export all data from Settings, so nothing gets lost."
+        "a": "Open an issue on GitHub or write to welcome@whiteeagles.sk. All three apps export all data from Settings, so nothing gets lost."
       }
     ]
   },

@@ -9,7 +9,7 @@
 // failed is simply retried an hour later.
 const fs = require('fs');
 
-const APPS = ['WE-Budget', 'WE-Time-Tracker'];
+const APPS = ['WE-Budget', 'WE-Time-Tracker', 'WE-Invoice'];
 const PAGE = 'https://whiteeagles.sk/en/apps/';
 
 const headers = {
@@ -34,6 +34,13 @@ const setOutput = (stale) => {
   let stale = false;
   for (const repo of APPS) {
     const res = await fetch(`https://api.github.com/repos/JaffarSk24/${repo}/releases/latest`, { headers });
+    // 404 is an app whose first release is still a draft: the page shows its
+    // web version until then, and this check picks the release up the hour
+    // it is published.
+    if (res.status === 404) {
+      console.log(`[app-releases] ${repo}: no published release yet`);
+      continue;
+    }
     if (!res.ok) {
       console.warn(`[app-releases] ${repo}: GitHub answered ${res.status}; skipping`);
       continue;

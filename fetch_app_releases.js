@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const OUT = path.join(__dirname, 'src', 'data', 'app-releases.json');
-const APPS = ['WE-Budget', 'WE-Time-Tracker'];
+const APPS = ['WE-Budget', 'WE-Time-Tracker', 'WE-Invoice'];
 
 // Which asset serves which platform. The names are set by electron-builder
 // in each app's package.json (artifactName), so they are stable.
@@ -28,6 +28,7 @@ const fetchJson = async (url) => {
       ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}),
     },
   });
+  if (res.status === 404) throw new Error('no published release yet');
   if (!res.ok) throw new Error(`${url} answered ${res.status}`);
   return res.json();
 };

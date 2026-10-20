@@ -2,7 +2,7 @@ import React from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { ArrowLeft, Check, Code2, ShieldCheck } from "lucide-react";
+import { ArrowLeft, Check, Code2, ExternalLink, ShieldCheck } from "lucide-react";
 import { AuditCTA } from "@/components/AuditCTA";
 import { AppDownloads } from "@/components/AppDownloads";
 import { apps } from "@/data/apps";
@@ -38,8 +38,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t("seo_title"),
       description: t("seo_desc"),
       url: path(locale),
-      // The two apps themselves, not the home page's card.
-      images: [{ url: "/assets/apps/og-apps.jpg", width: 1200, height: 630, alt: "WE Time Tracker, WE Budget" }],
+      // The three apps themselves, not the home page's card.
+      images: [{ url: "/assets/apps/og-apps-3.jpg", width: 1200, height: 630, alt: "WE Time Tracker, WE Budget, WE Invoice" }],
     },
   };
 }
@@ -61,9 +61,12 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
     mac: t("download_mac"),
     windows: t("download_windows"),
     phone: t("download_phone"),
+    web: t("download_web"),
     version: t.raw("version") as string,
     allReleases: t("all_releases"),
+    desktopSoon: t("desktop_soon"),
   };
+  const localized = (url: string) => url.replace("{locale}", locale);
 
   const schema = {
     "@context": "https://schema.org",
@@ -78,25 +81,27 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
       },
       // One SoftwareApplication per app. The download URL is the Windows
       // installer because it is the one file that serves every Windows
-      // machine; the Mac builds are listed on the page itself.
+      // machine; the Mac builds are listed on the page itself. An app whose
+      // first release is not out yet has no version or download URL, and its
+      // web version stands in as the install URL.
       ...apps.map((app) => ({
         "@type": "SoftwareApplication",
         "@id": `${path(locale)}#${app.id}`,
         name: app.name,
         description: t(`items.${app.id}.description`),
         applicationCategory: app.category,
-        operatingSystem: "macOS, Windows",
-        softwareVersion: app.release.version,
-        datePublished: app.release.publishedAt,
-        downloadUrl: app.release.assets.windows?.url,
-        installUrl: app.release.page,
+        operatingSystem: app.operatingSystem,
+        softwareVersion: app.release?.version,
+        datePublished: app.release?.publishedAt,
+        downloadUrl: app.release?.assets.windows?.url,
+        installUrl: app.release?.page ?? app.webUrl,
         screenshot: `${siteUrl}${app.screenshot}`,
         image: `${siteUrl}${app.icon}`,
         isAccessibleForFree: true,
         license: "https://opensource.org/licenses/MIT",
         sameAs: app.repoUrl,
         url: path(locale),
-        inLanguage: ["en", "ru"],
+        inLanguage: app.languages,
         offers: { "@type": "Offer", price: 0, priceCurrency: "EUR", availability: "https://schema.org/InStock" },
         author: { "@id": `${siteUrl}/#organization` },
         publisher: { "@id": `${siteUrl}/#organization` },
@@ -173,11 +178,22 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
 
               {/* Also renders the version line, so a release newer than the
                   build can update both in the visitor's browser. */}
-              <AppDownloads appId={app.id} repo={app.repo} release={app.release} phoneUrl={app.phoneUrl} labels={downloadLabels} />
+              <AppDownloads
+                appId={app.id}
+                repo={app.repo}
+                release={app.release}
+                phoneUrl={app.phoneUrl}
+                webUrl={app.webUrl}
+                repoUrl={app.repoUrl}
+                labels={downloadLabels}
+              />
 
               <p className="app-links">
+                {app.siteUrl && (
+                  <a href={localized(app.siteUrl)} target="_blank" rel="noopener noreferrer"><ExternalLink size={16} /> {t("app_site")}</a>
+                )}
                 <a href={app.repoUrl} target="_blank" rel="noopener noreferrer"><Code2 size={16} /> {t("source")}</a>
-                <a href={app.privacyUrl} target="_blank" rel="noopener noreferrer">{t("privacy")}</a>
+                <a href={localized(app.privacyUrl)} target="_blank" rel="noopener noreferrer">{t("privacy")}</a>
               </p>
               </div>
 
@@ -187,10 +203,10 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
               </div>
 
               <div className="app-notes">
-                {app.phoneUrl && (
+                {(app.phoneUrl || app.webUrl) && (
                   <details>
                     <summary>{t("phone_title")}</summary>
-                    <p>{t("phone_text")}</p>
+                    <p>{t(`items.${app.id}.phone_text`)}</p>
                   </details>
                 )}
                 <details>
@@ -201,7 +217,16 @@ export default async function AppsPage({ params }: { params: Promise<{ locale: s
                 <details>
                   <summary>{t("win_note_title")}</summary>
                   <p>{t("win_note")}</p>
+                  {t.has(`items.${app.id}.win_extra`) && <p>{t(`items.${app.id}.win_extra`)}</p>}
                 </details>
+                {/* What an app honestly does not do yet, where it has such notes. */}
+                {t.has(`items.${app.id}.notes`) &&
+                  (t.raw(`items.${app.id}.notes`) as { title: string; text: string }[]).map((n, i) => (
+                    <details key={i}>
+                      <summary>{n.title}</summary>
+                      <p>{n.text}</p>
+                    </details>
+                  ))}
               </div>
             </article>
           );
